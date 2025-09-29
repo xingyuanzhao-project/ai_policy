@@ -1,0 +1,10 @@
+Evaluation metric,General performance ↑,Model
+MMLU,0.64,Llama3-8B-instruct
+MT-Bench,0.84,Llama3-8B-instruct
+Compliance,1.00,Llama3-8B-instruct
+MMLU,0.64,RT
+MT-Bench,0.84,RT
+Compliance,1.00,RT
+MMLU,0.61,RT-EAT-LAT
+MT-Bench,0.83,RT-EAT-LAT
+Compliance,1.00,RT-EAT-LAT

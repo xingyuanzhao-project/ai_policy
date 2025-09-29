@@ -1,0 +1,11 @@
+Model,wAvg. (inc)
+Phi3-medium (14B),74.80%
+Qwen2 (72B),79.60%
+GradientAI/Llama3 (70B),82.60%
+Command-R-plus (104B),82.70%
+Yi (34B),84.80%
+Llama3.1 (8B),85.40%
+Llama3.1 (70B),85.50%
+GLM4 (9B),88.00%
+GPT-4-1106-preview,89.00%
+Gemini-1.5-pro,95.50%

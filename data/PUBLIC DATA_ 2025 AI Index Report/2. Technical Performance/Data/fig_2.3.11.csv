@@ -1,0 +1,13 @@
+Model,Type,Overall preference
+Meta Movie Gen,Veo preferred,53.80%
+Meta Movie Gen,Ties,15.60%
+Meta Movie Gen,Other preferred,30.60%
+Kling v1.5,Veo preferred,49.50%
+Kling v1.5,Ties,17.80%
+Kling v1.5,Other preferred,32.60%
+Minimax,Veo preferred,54.50%
+Minimax,Ties,15.20%
+Minimax,Other preferred,30.30%
+Sora Turbo,Veo preferred,58.80%
+Sora Turbo,Ties,14.50%
+Sora Turbo,Other preferred,26.70%

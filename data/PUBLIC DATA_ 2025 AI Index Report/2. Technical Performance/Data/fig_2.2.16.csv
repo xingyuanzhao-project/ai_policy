@@ -1,0 +1,16 @@
+Model,MixEval-Hard Score
+OpenAI o1-preview,72.0
+Claude 3.5 Sonnet-0620,68.1
+LLaMA-3.1-405B-Instruct,66.2
+GPT-4o-2024-05-13,64.7
+Claude 3 Opus,63.5
+GPT-4-Turbo-2024-04-09,62.6
+Gemini 1.5 Pro-API-0409,58.7
+Gemini 1.5 Pro-API-0514,58.3
+Mistral Large 2,57.4
+Spark4.0,57.0
+Yi-Large-preview,56.8
+LLaMA-3-70B-Instruct,55.9
+Qwen-Max-0428,55.8
+Claude 3 Sonnet,54.0
+Reka Core-20240415,52.9

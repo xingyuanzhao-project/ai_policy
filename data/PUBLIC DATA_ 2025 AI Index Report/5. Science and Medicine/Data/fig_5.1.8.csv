@@ -1,0 +1,13 @@
+Method,Metric,Value
+Vina,RMSD < 2,59.70
+Vina,RMSD < 2 and PB-valid,58.10
+Vina + Conf. Ensemble,RMSD < 2,70.10
+Vina + Conf. Ensemble,RMSD < 2 and PB-valid,67.20
+Gnina,RMSD < 2,70.50
+Gnina,RMSD < 2 and PB-valid,68.20
+Gnina + Conf. Ensemble,RMSD < 2,79.50
+Gnina + Conf. Ensemble,RMSD < 2 and PB-valid,77.30
+AF3,RMSD < 2,80.50
+AF3,RMSD < 2 and PB-valid,73.10
+AF3 Pocket Specified,RMSD < 2,93.20
+AF3 Pocket Specified,RMSD < 2 and PB-valid,84.40

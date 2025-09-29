@@ -1,0 +1,11 @@
+Method,Year,Driving Score↑
+TCP-ctrl*,2022,30.47
+TCP*,2022,40.7
+TCP-traj w/o distillation,2022,49.3
+TCP-traj*,2022,59.9
+AD-MLP,2023,18.05
+UniAD-Tiny,2023,40.73
+VAD,2023,42.35
+UniAD-Base,2023,45.81
+ThinkTwice*,2023,62.44
+DriveAdapter*,2023,64.22

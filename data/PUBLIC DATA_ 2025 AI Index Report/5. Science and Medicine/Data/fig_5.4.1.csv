@@ -1,0 +1,8 @@
+Model,Type,Test accuracy,Year
+PubMedBERT,Intensive fine-tuning,38.10%,2021
+Med-PaLM,Intensive fine-tuning,67.20%,2022
+GPT-3.5,No fine-tuning,60.20%,2022
+Med-PaLM 2,Intensive fine-tuning,86.50%,2023
+GPT-4 (Medprompt),No fine-tuning,90.20%,2023
+Med-Gemini,Intensive fine-tuning,91.10%,2024
+o1-preview,No fine-tuning,96.00%,2024

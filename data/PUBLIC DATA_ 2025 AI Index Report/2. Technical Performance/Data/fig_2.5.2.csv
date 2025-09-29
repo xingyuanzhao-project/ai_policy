@@ -1,0 +1,5 @@
+year,model,pass@1
+2021,"Codex-S 12B (fine-tuned, zero-shot)",32%
+2022,Parsel (GPT-4 + CodeT),85%
+2023,AgentCoder (GPT-4),96%
+2024,Claude 3.5 Sonnet,100%

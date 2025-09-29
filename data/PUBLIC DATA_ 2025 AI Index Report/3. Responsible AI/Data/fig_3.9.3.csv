@@ -1,0 +1,291 @@
+Model,Risk category,Refusal rate
+Claude 3.5 Sonnet (2024-10-22) ,Weapon usage and development,0.97
+Claude 3 Opus (2024-02-29) ,Weapon usage and development,0.97
+Gemini 1.5 Pro ,Weapon usage and development,0.90
+Claude 3 Haiku (2024-03-07) ,Weapon usage and development,0.99
+o1 (2024-12-17) ,Weapon usage and development,0.97
+Gemini 1.5 Flash ,Weapon usage and development,0.86
+o3-mini (2025-01-31) ,Weapon usage and development,0.90
+GPT-4 Turbo (2024-04-09) ,Weapon usage and development,0.77
+Llama 3 Instruct (8B) ,Weapon usage and development,0.86
+GPT-4 (0613) ,Weapon usage and development,0.80
+GPT-3.5 Turbo (0301) ,Weapon usage and development,0.73
+GPT-4o (2024-08-06) ,Weapon usage and development,0.74
+Llama 3.1 Instruct Turbo (8B) ,Weapon usage and development,0.72
+Qwen2 Instruct (72B) ,Weapon usage and development,0.72
+Gemini 1.0 Pro (002) ,Weapon usage and development,0.61
+GPT-4o mini (2024-07-18) ,Weapon usage and development,0.81
+Yi Chat (34B) ,Weapon usage and development,0.48
+DeepSeek R1 ,Weapon usage and development,0.34
+DeepSeek LLM Chat (67B) ,Weapon usage and development,0.54
+Qwen1.5 Chat (72B) ,Weapon usage and development,0.56
+o1-mini (2024-09-12) ,Weapon usage and development,0.37
+Palmyra-X-004 ,Weapon usage and development,0.48
+Mixtral Instruct (8x22B) ,Weapon usage and development,0.26
+DeepSeek v3 ,Weapon usage and development,0.32
+Mixtral Instruct (8x7B) ,Weapon usage and development,0.27
+Mistral Large 2 (2407) ,Weapon usage and development,0.31
+Command R ,Weapon usage and development,0.21
+Command R Plus ,Weapon usage and development,0.11
+DBRX Instruct ,Weapon usage and development,0.06
+Claude 3.5 Sonnet (2024-10-22) ,Hate speech,1.00
+Claude 3 Opus (2024-02-29) ,Hate speech,0.98
+Gemini 1.5 Pro ,Hate speech,0.96
+Claude 3 Haiku (2024-03-07) ,Hate speech,0.98
+o1 (2024-12-17) ,Hate speech,0.91
+Gemini 1.5 Flash ,Hate speech,0.95
+o3-mini (2025-01-31) ,Hate speech,0.94
+GPT-4 Turbo (2024-04-09) ,Hate speech,0.94
+Llama 3 Instruct (8B) ,Hate speech,0.91
+GPT-4 (0613) ,Hate speech,0.83
+GPT-3.5 Turbo (0301) ,Hate speech,0.77
+GPT-4o (2024-08-06) ,Hate speech,0.89
+Llama 3.1 Instruct Turbo (8B) ,Hate speech,0.88
+Qwen2 Instruct (72B) ,Hate speech,0.91
+Gemini 1.0 Pro (002) ,Hate speech,0.87
+GPT-4o mini (2024-07-18) ,Hate speech,0.74
+Yi Chat (34B) ,Hate speech,0.74
+DeepSeek R1 ,Hate speech,0.88
+DeepSeek LLM Chat (67B) ,Hate speech,0.76
+Qwen1.5 Chat (72B) ,Hate speech,0.79
+o1-mini (2024-09-12) ,Hate speech,0.58
+Palmyra-X-004 ,Hate speech,0.76
+Mixtral Instruct (8x22B) ,Hate speech,0.79
+DeepSeek v3 ,Hate speech,0.75
+Mixtral Instruct (8x7B) ,Hate speech,0.68
+Mistral Large 2 (2407) ,Hate speech,0.69
+Command R ,Hate speech,0.59
+Command R Plus ,Hate speech,0.50
+DBRX Instruct ,Hate speech,0.58
+Claude 3.5 Sonnet (2024-10-22) ,Child sexual abuse,1.00
+Claude 3 Opus (2024-02-29) ,Child sexual abuse,0.92
+Gemini 1.5 Pro ,Child sexual abuse,0.73
+Claude 3 Haiku (2024-03-07) ,Child sexual abuse,0.93
+o1 (2024-12-17) ,Child sexual abuse,0.88
+Gemini 1.5 Flash ,Child sexual abuse,0.67
+o3-mini (2025-01-31) ,Child sexual abuse,0.87
+GPT-4 Turbo (2024-04-09) ,Child sexual abuse,0.87
+Llama 3 Instruct (8B) ,Child sexual abuse,0.97
+GPT-4 (0613) ,Child sexual abuse,0.80
+GPT-3.5 Turbo (0301) ,Child sexual abuse,0.83
+GPT-4o (2024-08-06) ,Child sexual abuse,0.67
+Llama 3.1 Instruct Turbo (8B) ,Child sexual abuse,0.83
+Qwen2 Instruct (72B) ,Child sexual abuse,0.63
+Gemini 1.0 Pro (002) ,Child sexual abuse,0.60
+GPT-4o mini (2024-07-18) ,Child sexual abuse,0.67
+Yi Chat (34B) ,Child sexual abuse,0.57
+DeepSeek R1 ,Child sexual abuse,0.60
+DeepSeek LLM Chat (67B) ,Child sexual abuse,0.47
+Qwen1.5 Chat (72B) ,Child sexual abuse,0.57
+o1-mini (2024-09-12) ,Child sexual abuse,0.53
+Palmyra-X-004 ,Child sexual abuse,0.57
+Mixtral Instruct (8x22B) ,Child sexual abuse,0.33
+DeepSeek v3 ,Child sexual abuse,0.50
+Mixtral Instruct (8x7B) ,Child sexual abuse,0.27
+Mistral Large 2 (2407) ,Child sexual abuse,0.43
+Command R ,Child sexual abuse,0.37
+Command R Plus ,Child sexual abuse,0.37
+DBRX Instruct ,Child sexual abuse,0.07
+Claude 3.5 Sonnet (2024-10-22) ,Suicidal and nonsuicidal self-injury,1.00
+Claude 3 Opus (2024-02-29) ,Suicidal and nonsuicidal self-injury,0.98
+Gemini 1.5 Pro ,Suicidal and nonsuicidal self-injury,0.92
+Claude 3 Haiku (2024-03-07) ,Suicidal and nonsuicidal self-injury,0.98
+o1 (2024-12-17) ,Suicidal and nonsuicidal self-injury,1.00
+Gemini 1.5 Flash ,Suicidal and nonsuicidal self-injury,0.98
+o3-mini (2025-01-31) ,Suicidal and nonsuicidal self-injury,0.93
+GPT-4 Turbo (2024-04-09) ,Suicidal and nonsuicidal self-injury,0.84
+Llama 3 Instruct (8B) ,Suicidal and nonsuicidal self-injury,0.90
+GPT-4 (0613) ,Suicidal and nonsuicidal self-injury,0.88
+GPT-3.5 Turbo (0301) ,Suicidal and nonsuicidal self-injury,0.90
+GPT-4o (2024-08-06) ,Suicidal and nonsuicidal self-injury,0.90
+Llama 3.1 Instruct Turbo (8B) ,Suicidal and nonsuicidal self-injury,0.88
+Qwen2 Instruct (72B) ,Suicidal and nonsuicidal self-injury,0.82
+Gemini 1.0 Pro (002) ,Suicidal and nonsuicidal self-injury,0.82
+GPT-4o mini (2024-07-18) ,Suicidal and nonsuicidal self-injury,0.79
+Yi Chat (34B) ,Suicidal and nonsuicidal self-injury,0.71
+DeepSeek R1 ,Suicidal and nonsuicidal self-injury,0.76
+DeepSeek LLM Chat (67B) ,Suicidal and nonsuicidal self-injury,0.66
+Qwen1.5 Chat (72B) ,Suicidal and nonsuicidal self-injury,0.63
+o1-mini (2024-09-12) ,Suicidal and nonsuicidal self-injury,0.51
+Palmyra-X-004 ,Suicidal and nonsuicidal self-injury,0.68
+Mixtral Instruct (8x22B) ,Suicidal and nonsuicidal self-injury,0.70
+DeepSeek v3 ,Suicidal and nonsuicidal self-injury,0.62
+Mixtral Instruct (8x7B) ,Suicidal and nonsuicidal self-injury,0.46
+Mistral Large 2 (2407) ,Suicidal and nonsuicidal self-injury,0.64
+Command R ,Suicidal and nonsuicidal self-injury,0.41
+Command R Plus ,Suicidal and nonsuicidal self-injury,0.43
+DBRX Instruct ,Suicidal and nonsuicidal self-injury,0.28
+Claude 3.5 Sonnet (2024-10-22) ,Influencing politics,1.00
+Claude 3 Opus (2024-02-29) ,Influencing politics,1.00
+Gemini 1.5 Pro ,Influencing politics,0.95
+Claude 3 Haiku (2024-03-07) ,Influencing politics,1.00
+o1 (2024-12-17) ,Influencing politics,1.00
+Gemini 1.5 Flash ,Influencing politics,0.97
+o3-mini (2025-01-31) ,Influencing politics,1.00
+GPT-4 Turbo (2024-04-09) ,Influencing politics,0.90
+Llama 3 Instruct (8B) ,Influencing politics,0.97
+GPT-4 (0613) ,Influencing politics,0.77
+GPT-3.5 Turbo (0301) ,Influencing politics,0.83
+GPT-4o (2024-08-06) ,Influencing politics,0.80
+Llama 3.1 Instruct Turbo (8B) ,Influencing politics,0.97
+Qwen2 Instruct (72B) ,Influencing politics,0.90
+Gemini 1.0 Pro (002) ,Influencing politics,0.73
+GPT-4o mini (2024-07-18) ,Influencing politics,0.90
+Yi Chat (34B) ,Influencing politics,0.80
+DeepSeek R1 ,Influencing politics,0.72
+DeepSeek LLM Chat (67B) ,Influencing politics,0.73
+Qwen1.5 Chat (72B) ,Influencing politics,0.67
+o1-mini (2024-09-12) ,Influencing politics,0.27
+Palmyra-X-004 ,Influencing politics,0.47
+Mixtral Instruct (8x22B) ,Influencing politics,0.40
+DeepSeek v3 ,Influencing politics,0.43
+Mixtral Instruct (8x7B) ,Influencing politics,0.33
+Mistral Large 2 (2407) ,Influencing politics,0.17
+Command R ,Influencing politics,0.23
+Command R Plus ,Influencing politics,0.20
+DBRX Instruct ,Influencing politics,0.03
+Claude 3.5 Sonnet (2024-10-22) ,Fraud,1.00
+Claude 3 Opus (2024-02-29) ,Fraud,0.80
+Gemini 1.5 Pro ,Fraud,0.74
+Claude 3 Haiku (2024-03-07) ,Fraud,0.89
+o1 (2024-12-17) ,Fraud,0.75
+Gemini 1.5 Flash ,Fraud,0.61
+o3-mini (2025-01-31) ,Fraud,0.67
+GPT-4 Turbo (2024-04-09) ,Fraud,0.60
+Llama 3 Instruct (8B) ,Fraud,0.66
+GPT-4 (0613) ,Fraud,0.51
+GPT-3.5 Turbo (0301) ,Fraud,0.33
+GPT-4o (2024-08-06) ,Fraud,0.47
+Llama 3.1 Instruct Turbo (8B) ,Fraud,0.61
+Qwen2 Instruct (72B) ,Fraud,0.49
+Gemini 1.0 Pro (002) ,Fraud,0.37
+GPT-4o mini (2024-07-18) ,Fraud,0.37
+Yi Chat (34B) ,Fraud,0.25
+DeepSeek R1 ,Fraud,0.39
+DeepSeek LLM Chat (67B) ,Fraud,0.30
+Qwen1.5 Chat (72B) ,Fraud,0.20
+o1-mini (2024-09-12) ,Fraud,0.33
+Palmyra-X-004 ,Fraud,0.32
+Mixtral Instruct (8x22B) ,Fraud,0.25
+DeepSeek v3 ,Fraud,0.25
+Mixtral Instruct (8x7B) ,Fraud,0.12
+Mistral Large 2 (2407) ,Fraud,0.17
+Command R ,Fraud,0.19
+Command R Plus ,Fraud,0.15
+DBRX Instruct ,Fraud,0.07
+Claude 3.5 Sonnet (2024-10-22) ,Mis/disinformation,0.90
+Claude 3 Opus (2024-02-29) ,Mis/disinformation,0.90
+Gemini 1.5 Pro ,Mis/disinformation,0.73
+Claude 3 Haiku (2024-03-07) ,Mis/disinformation,0.87
+o1 (2024-12-17) ,Mis/disinformation,0.87
+Gemini 1.5 Flash ,Mis/disinformation,0.70
+o3-mini (2025-01-31) ,Mis/disinformation,0.72
+GPT-4 Turbo (2024-04-09) ,Mis/disinformation,0.70
+Llama 3 Instruct (8B) ,Mis/disinformation,0.70
+GPT-4 (0613) ,Mis/disinformation,0.45
+GPT-3.5 Turbo (0301) ,Mis/disinformation,0.42
+GPT-4o (2024-08-06) ,Mis/disinformation,0.57
+Llama 3.1 Instruct Turbo (8B) ,Mis/disinformation,0.67
+Qwen2 Instruct (72B) ,Mis/disinformation,0.63
+Gemini 1.0 Pro (002) ,Mis/disinformation,0.50
+GPT-4o mini (2024-07-18) ,Mis/disinformation,0.40
+Yi Chat (34B) ,Mis/disinformation,0.23
+DeepSeek R1 ,Mis/disinformation,0.52
+DeepSeek LLM Chat (67B) ,Mis/disinformation,0.43
+Qwen1.5 Chat (72B) ,Mis/disinformation,0.27
+o1-mini (2024-09-12) ,Mis/disinformation,0.27
+Palmyra-X-004 ,Mis/disinformation,0.47
+Mixtral Instruct (8x22B) ,Mis/disinformation,0.27
+DeepSeek v3 ,Mis/disinformation,0.23
+Mixtral Instruct (8x7B) ,Mis/disinformation,0.20
+Mistral Large 2 (2407) ,Mis/disinformation,0.13
+Command R ,Mis/disinformation,0.10
+Command R Plus ,Mis/disinformation,0.17
+DBRX Instruct ,Mis/disinformation,0.07
+Claude 3.5 Sonnet (2024-10-22) ,Illegal services/ exploitation ,0.99
+Claude 3 Opus (2024-02-29) ,Illegal services/ exploitation ,0.98
+Gemini 1.5 Pro ,Illegal services/ exploitation ,0.77
+Claude 3 Haiku (2024-03-07) ,Illegal services/ exploitation ,1.00
+o1 (2024-12-17) ,Illegal services/ exploitation ,0.91
+Gemini 1.5 Flash ,Illegal services/ exploitation ,0.81
+o3-mini (2025-01-31) ,Illegal services/ exploitation ,0.93
+GPT-4 Turbo (2024-04-09) ,Illegal services/ exploitation ,0.87
+Llama 3 Instruct (8B) ,Illegal services/ exploitation ,1.00
+GPT-4 (0613) ,Illegal services/ exploitation ,0.77
+GPT-3.5 Turbo (0301) ,Illegal services/ exploitation ,0.73
+GPT-4o (2024-08-06) ,Illegal services/ exploitation ,0.67
+Llama 3.1 Instruct Turbo (8B) ,Illegal services/ exploitation ,0.87
+Qwen2 Instruct (72B) ,Illegal services/ exploitation ,0.71
+Gemini 1.0 Pro (002) ,Illegal services/ exploitation ,0.62
+GPT-4o mini (2024-07-18) ,Illegal services/ exploitation ,0.73
+Yi Chat (34B) ,Illegal services/ exploitation ,0.68
+DeepSeek R1 ,Illegal services/ exploitation ,0.41
+DeepSeek LLM Chat (67B) ,Illegal services/ exploitation ,0.49
+Qwen1.5 Chat (72B) ,Illegal services/ exploitation ,0.51
+o1-mini (2024-09-12) ,Illegal services/ exploitation ,0.31
+Palmyra-X-004 ,Illegal services/ exploitation ,0.53
+Mixtral Instruct (8x22B) ,Illegal services/ exploitation ,0.34
+DeepSeek v3 ,Illegal services/ exploitation ,0.38
+Mixtral Instruct (8x7B) ,Illegal services/ exploitation ,0.20
+Mistral Large 2 (2407) ,Illegal services/ exploitation ,0.22
+Command R ,Illegal services/ exploitation ,0.20
+Command R Plus ,Illegal services/ exploitation ,0.16
+DBRX Instruct ,Illegal services/ exploitation ,0.02
+Claude 3.5 Sonnet (2024-10-22) ,Offensive language,0.98
+Claude 3 Opus (2024-02-29) ,Offensive language,0.81
+Gemini 1.5 Pro ,Offensive language,0.81
+Claude 3 Haiku (2024-03-07) ,Offensive language,0.93
+o1 (2024-12-17) ,Offensive language,0.37
+Gemini 1.5 Flash ,Offensive language,0.77
+o3-mini (2025-01-31) ,Offensive language,0.52
+GPT-4 Turbo (2024-04-09) ,Offensive language,0.91
+Llama 3 Instruct (8B) ,Offensive language,0.73
+GPT-4 (0613) ,Offensive language,0.73
+GPT-3.5 Turbo (0301) ,Offensive language,0.62
+GPT-4o (2024-08-06) ,Offensive language,0.71
+Llama 3.1 Instruct Turbo (8B) ,Offensive language,0.36
+Qwen2 Instruct (72B) ,Offensive language,0.61
+Gemini 1.0 Pro (002) ,Offensive language,0.68
+GPT-4o mini (2024-07-18) ,Offensive language,0.45
+Yi Chat (34B) ,Offensive language,0.52
+DeepSeek R1 ,Offensive language,0.63
+DeepSeek LLM Chat (67B) ,Offensive language,0.48
+Qwen1.5 Chat (72B) ,Offensive language,0.48
+o1-mini (2024-09-12) ,Offensive language,0.48
+Palmyra-X-004 ,Offensive language,0.56
+Mixtral Instruct (8x22B) ,Offensive language,0.46
+DeepSeek v3 ,Offensive language,0.45
+Mixtral Instruct (8x7B) ,Offensive language,0.21
+Mistral Large 2 (2407) ,Offensive language,0.30
+Command R ,Offensive language,0.26
+Command R Plus ,Offensive language,0.27
+DBRX Instruct ,Offensive language,0.26
+Claude 3.5 Sonnet (2024-10-22) ,Privacy violations/ sensitive data,0.93
+Claude 3 Opus (2024-02-29) ,Privacy violations/ sensitive data,0.91
+Gemini 1.5 Pro ,Privacy violations/ sensitive data,0.88
+Claude 3 Haiku (2024-03-07) ,Privacy violations/ sensitive data,0.92
+o1 (2024-12-17) ,Privacy violations/ sensitive data,0.87
+Gemini 1.5 Flash ,Privacy violations/ sensitive data,0.87
+o3-mini (2025-01-31) ,Privacy violations/ sensitive data,0.81
+GPT-4 Turbo (2024-04-09) ,Privacy violations/ sensitive data,0.81
+Llama 3 Instruct (8B) ,Privacy violations/ sensitive data,0.78
+GPT-4 (0613) ,Privacy violations/ sensitive data,0.75
+GPT-3.5 Turbo (0301) ,Privacy violations/ sensitive data,0.74
+GPT-4o (2024-08-06) ,Privacy violations/ sensitive data,0.69
+Llama 3.1 Instruct Turbo (8B) ,Privacy violations/ sensitive data,0.69
+Qwen2 Instruct (72B) ,Privacy violations/ sensitive data,0.65
+Gemini 1.0 Pro (002) ,Privacy violations/ sensitive data,0.58
+GPT-4o mini (2024-07-18) ,Privacy violations/ sensitive data,0.67
+Yi Chat (34B) ,Privacy violations/ sensitive data,0.60
+DeepSeek R1 ,Privacy violations/ sensitive data,0.56
+DeepSeek LLM Chat (67B) ,Privacy violations/ sensitive data,0.50
+Qwen1.5 Chat (72B) ,Privacy violations/ sensitive data,0.47
+o1-mini (2024-09-12) ,Privacy violations/ sensitive data,0.43
+Palmyra-X-004 ,Privacy violations/ sensitive data,0.43
+Mixtral Instruct (8x22B) ,Privacy violations/ sensitive data,0.44
+DeepSeek v3 ,Privacy violations/ sensitive data,0.41
+Mixtral Instruct (8x7B) ,Privacy violations/ sensitive data,0.45
+Mistral Large 2 (2407) ,Privacy violations/ sensitive data,0.37
+Command R ,Privacy violations/ sensitive data,0.31
+Command R Plus ,Privacy violations/ sensitive data,0.31
+DBRX Instruct ,Privacy violations/ sensitive data,0.19

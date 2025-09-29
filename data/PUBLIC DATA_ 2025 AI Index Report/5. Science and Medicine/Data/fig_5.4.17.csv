@@ -1,0 +1,19 @@
+Vendor,Model use,Number of hospitals
+Epic,Machine learning (ML),710
+Cerner,Machine learning (ML),295
+Meditech,Machine learning (ML),60
+CPSI/Evident,Machine learning (ML),4
+Altera,Machine learning (ML),5
+Other,Machine learning (ML),22
+Epic,Other non-ML predictive model,450
+Cerner,Other non-ML predictive model,190
+Meditech,Other non-ML predictive model,183
+CPSI/Evident,Other non-ML predictive model,8
+Altera,Other non-ML predictive model,8
+Other,Other non-ML predictive model,35
+Epic,Neither/do not know,160
+Cerner,Neither/do not know,190
+Meditech,Neither/do not know,191
+CPSI/Evident,Neither/do not know,144
+Altera,Neither/do not know,31
+Other,Neither/do not know,244

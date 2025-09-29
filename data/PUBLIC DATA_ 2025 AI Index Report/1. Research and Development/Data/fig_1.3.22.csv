@@ -1,0 +1,23 @@
+Benchmark,Threshold Model,Model,Publication Date,USD per 1M tokens
+MMLU,GPT-3.5,GPT-3.5,11/30/22,20
+MMLU,GPT-3.5,GPT-3.5 Turbo,3/6/23,2
+HumanEval,GPT-4-0314,GPT-4-0314,3/14/23,37.5
+HumanEval,GPT-4-0314,GPT-3.5-Turbo-2023-06,6/13/23,3.25
+MMLU,GPT-3.5,GPT-3.5-Turbo-2023-11,11/6/23,0.75
+HumanEval,GPT-4-0314,GPT-3.5-Turbo-2023-11,11/6/23,0.75
+MMLU,GPT-3.5,Claude-3-Haiku,3/4/24,0.5
+HumanEval,GPT-4-0314,Claude-3-Haiku,3/4/24,0.5
+MMLU,GPT-3.5,Gemini-1.5-Flash-2024-05,5/10/24,0.13
+GPQA Diamond,GPT-4o-2024-05,GPT-4o-2024-05,5/13/24,7.5
+LMSys Chatbot Arena ELO,GPT-4o-2024-05,GPT-4o-2024-05,5/13/24,7.5
+GPQA Diamond,GPT-4o-2024-05,Claude-3.5-Sonnet-2024-06,6/20/24,6
+HumanEval,GPT-4-0314,Gemma-2-27B,6/24/24,0.26
+HumanEval,GPT-4-0314,Mistral-NeMo,7/18/24,0.13
+MMLU,GPT-3.5,Llama-3.1-Instruct-8B,7/23/24,0.1
+HumanEval,GPT-4-0314,Llama-3.1-Instruct-8B,7/23/24,0.1
+LMSys Chatbot Arena ELO,GPT-4o-2024-05,GPT-4o-2024-08,8/6/24,4.38
+LMSys Chatbot Arena ELO,GPT-4o-2024-05,Gemini-1.5-Pro-2024-09,9/24/24,2.19
+GPQA Diamond,GPT-4o-2024-05,Gemini-1.5-Pro-2024-09,9/24/24,2.19
+MMLU,GPT-3.5,Gemini-1.5-Flash-8B,10/3/24,0.07
+GPQA Diamond,GPT-4o-2024-05,Phi 4,12/13/24,0.1225
+LMSys Chatbot Arena ELO,GPT-4o-2024-05,DeepSeek-V3,12/26/24,0.4775

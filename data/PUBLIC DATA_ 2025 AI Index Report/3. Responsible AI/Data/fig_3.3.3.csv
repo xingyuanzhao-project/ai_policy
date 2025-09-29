@@ -1,0 +1,27 @@
+Risk,% of respondents,Type
+Physical safety,6%,Considered relevant
+Political stability,7%,Considered relevant
+National security,11%,Considered relevant
+Environmental impact,16%,Considered relevant
+Workforce labor displacement,20%,Considered relevant
+Equity and fairness,34%,Considered relevant
+Explainability,40%,Considered relevant
+Organizational reputation,45%,Considered relevant
+Intellectual property infringement,57%,Considered relevant
+Inaccuracy,60%,Considered relevant
+Personal/individual privacy,60%,Considered relevant
+Regulatory compliance,63%,Considered relevant
+Cybersecurity,66%,Considered relevant
+Inaccuracy,55%,Actively mitigated
+Intellectual property infringement,38%,Actively mitigated
+Cybersecurity,53%,Actively mitigated
+Personal/individual privacy,46%,Actively mitigated
+Regulatory compliance,50%,Actively mitigated
+Explainability,31%,Actively mitigated
+Equity and fairness,26%,Actively mitigated
+Workforce labor displacement,12%,Actively mitigated
+Organizational reputation,29%,Actively mitigated
+National security,4%,Actively mitigated
+Environmental impact,9%,Actively mitigated
+Political stability,3%,Actively mitigated
+Physical safety,4%,Actively mitigated

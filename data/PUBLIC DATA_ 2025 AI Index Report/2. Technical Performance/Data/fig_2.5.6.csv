@@ -1,0 +1,11 @@
+Model,Pass@1 (average)
+Qwen2.5-Coder-32B-Instruct,30.8
+GPT-4o-2024-11-20,31.1
+Athene-V2-Agent,31.4
+Athene-V2-Chat,32.1
+GPT-4-Turbo-2024-04-09,32.1
+"o1-2024-12-17<br>(temperature=1, reasoning=medium)",32.8
+DeepSeek-V3-Chat,33.8
+Gemini-Exp-1206,34.1
+"o1-2024-12-17<br>(temperature=1, reasoning=low)",34.5
+"o1-2024-12-17<br>(temperature=1, reasoning=high)",35.5

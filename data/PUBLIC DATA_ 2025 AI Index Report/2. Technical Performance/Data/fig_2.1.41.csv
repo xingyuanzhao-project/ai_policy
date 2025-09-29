@@ -1,0 +1,24 @@
+Benchmark,is_foundation_model,Design Score,Usability Score
+BBQ,1,12.9,7.3
+BOLD,1,9.2,5.8
+TruthfulQA,1,10.7,8.5
+MMLU,1,7.1,4.8
+ARC-Challenge,1,8.9,8.2
+WinoGrande,1,10.4,8.8
+HumanEval,1,12.5,8.1
+GSM8K,1,8.9,7.5
+HellaSwag,1,7.1,6.5
+Machiavelli,1,11.8,8.9
+AgentBench,1,12.1,10.6
+MLCommons AI Safety v0.5,1,13.8,10.9
+GPQA,1,11.1,10.9
+BIG-bench,1,11.4,9.4
+DecodingTrust,1,11.9,10.9
+Procgen,0,8.9,9.0
+MedMNIST v2,0,11.1,8.5
+Wordcraft,0,9.6,6.7
+RL Unplugged,0,11.8,9.3
+FinRL-Meta,0,10.0,10.4
+SafeBench,0,12.9,8.2
+PDEBench,0,11.7,10.5
+ALE,0,13.9,11.2

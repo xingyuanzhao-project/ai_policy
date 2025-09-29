@@ -1,0 +1,11 @@
+model,arena_elo_rating,95_CI_upper,95_CI_lower
+Claude 3.5 Sonnet (20241022),1276,1286,1266
+Gemini-1.5-Pro-002,1280,1287,1271
+DeepSeek-V3,1284,1302,1270
+ChatGPT-4o-latest (2024-11-20),1287,1296,1280
+Gemini-2.0-Flash-Exp,1304,1314,1291
+Gemini-Exp-1206,1321,1332,1307
+Gemini-2.0-Flash-Thinking-Exp-1219,1329,1342,1316
+o1-mini,1329,1337,1317
+o1-preview,1340,1348,1330
+o1-2024-12-17,1364,1385,1345

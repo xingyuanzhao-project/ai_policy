@@ -1,0 +1,176 @@
+Task,Metric,Number or publications
+Enhancing medical knowledge,Accuracy,222
+Making diagnoses,Accuracy,100
+Educating patients,Accuracy,88
+Making treatment recommendations,Accuracy,47
+Communicating with patients,Accuracy,35
+Care coordination and planning,Accuracy,36
+Triaging patients,Accuracy,24
+Carrying out a literature review,Accuracy,18
+Synthesizing data for research,Accuracy,16
+Generating medical reports,Accuracy,8
+Conducting medical research,Accuracy,8
+Providing asynchronous care,Accuracy,8
+Managing clinical knowledge,Accuracy,5
+Clinical note-taking,Accuracy,6
+Generating clinical referrals,Accuracy,3
+Enhancing surgical operations,Accuracy,3
+Biomedical data mining,Accuracy,2
+Generating billing codes,Accuracy,1
+Writing prescriptions,Accuracy,1
+Question answering*,Accuracy,398
+Text classification*,Accuracy,29
+Information extraction*,Accuracy,29
+Summarization*,Accuracy,29
+Conversational dialogue*,Accuracy,6
+Translation*,Accuracy,5
+Enhancing medical knowledge,Comprehensiveness,91
+Making diagnoses,Comprehensiveness,38
+Educating patients,Comprehensiveness,68
+Making treatment recommendations,Comprehensiveness,22
+Communicating with patients,Comprehensiveness,29
+Care coordination and planning,Comprehensiveness,24
+Triaging patients,Comprehensiveness,7
+Carrying out a literature review,Comprehensiveness,7
+Synthesizing data for research,Comprehensiveness,7
+Generating medical reports,Comprehensiveness,8
+Conducting medical research,Comprehensiveness,7
+Providing asynchronous care,Comprehensiveness,5
+Managing clinical knowledge,Comprehensiveness,5
+Clinical note-taking,Comprehensiveness,2
+Generating clinical referrals,Comprehensiveness,0
+Enhancing surgical operations,Comprehensiveness,3
+Biomedical data mining,Comprehensiveness,0
+Generating billing codes,Comprehensiveness,0
+Writing prescriptions,Comprehensiveness,0
+Question answering*,Comprehensiveness,194
+Text classification*,Comprehensiveness,10
+Information extraction*,Comprehensiveness,12
+Summarization*,Comprehensiveness,21
+Conversational dialogue*,Comprehensiveness,6
+Translation*,Comprehensiveness,1
+Enhancing medical knowledge,Factuality,44
+Making diagnoses,Factuality,11
+Educating patients,Factuality,32
+Making treatment recommendations,Factuality,9
+Communicating with patients,Factuality,8
+Care coordination and planning,Factuality,5
+Triaging patients,Factuality,5
+Carrying out a literature review,Factuality,3
+Synthesizing data for research,Factuality,2
+Generating medical reports,Factuality,2
+Conducting medical research,Factuality,3
+Providing asynchronous care,Factuality,3
+Managing clinical knowledge,Factuality,1
+Clinical note-taking,Factuality,1
+Generating clinical referrals,Factuality,0
+Enhancing surgical operations,Factuality,1
+Biomedical data mining,Factuality,0
+Generating billing codes,Factuality,0
+Writing prescriptions,Factuality,0
+Question answering*,Factuality,71
+Text classification*,Factuality,6
+Information extraction*,Factuality,8
+Summarization*,Factuality,7
+Conversational dialogue*,Factuality,1
+Translation*,Factuality,2
+Enhancing medical knowledge,Robustness,33
+Making diagnoses,Robustness,11
+Educating patients,Robustness,22
+Making treatment recommendations,Robustness,8
+Communicating with patients,Robustness,15
+Care coordination and planning,Robustness,5
+Triaging patients,Robustness,2
+Carrying out a literature review,Robustness,2
+Synthesizing data for research,Robustness,3
+Generating medical reports,Robustness,0
+Conducting medical research,Robustness,3
+Providing asynchronous care,Robustness,3
+Managing clinical knowledge,Robustness,1
+Clinical note-taking,Robustness,1
+Generating clinical referrals,Robustness,0
+Enhancing surgical operations,Robustness,1
+Biomedical data mining,Robustness,0
+Generating billing codes,Robustness,0
+Writing prescriptions,Robustness,0
+Question answering*,Robustness,61
+Text classification*,Robustness,5
+Information extraction*,Robustness,5
+Summarization*,Robustness,3
+Conversational dialogue*,Robustness,1
+Translation*,Robustness,2
+Enhancing medical knowledge,"Fairness, bias, and<br>toxicity evaluation",16
+Making diagnoses,"Fairness, bias, and<br>toxicity evaluation",14
+Educating patients,"Fairness, bias, and<br>toxicity evaluation",18
+Making treatment recommendations,"Fairness, bias, and<br>toxicity evaluation",3
+Communicating with patients,"Fairness, bias, and<br>toxicity evaluation",22
+Care coordination and planning,"Fairness, bias, and<br>toxicity evaluation",7
+Triaging patients,"Fairness, bias, and<br>toxicity evaluation",8
+Carrying out a literature review,"Fairness, bias, and<br>toxicity evaluation",2
+Synthesizing data for research,"Fairness, bias, and<br>toxicity evaluation",2
+Generating medical reports,"Fairness, bias, and<br>toxicity evaluation",3
+Conducting medical research,"Fairness, bias, and<br>toxicity evaluation",3
+Providing asynchronous care,"Fairness, bias, and<br>toxicity evaluation",1
+Managing clinical knowledge,"Fairness, bias, and<br>toxicity evaluation",0
+Clinical note-taking,"Fairness, bias, and<br>toxicity evaluation",0
+Generating clinical referrals,"Fairness, bias, and<br>toxicity evaluation",0
+Enhancing surgical operations,"Fairness, bias, and<br>toxicity evaluation",0
+Biomedical data mining,"Fairness, bias, and<br>toxicity evaluation",0
+Generating billing codes,"Fairness, bias, and<br>toxicity evaluation",0
+Writing prescriptions,"Fairness, bias, and<br>toxicity evaluation",0
+Question answering*,"Fairness, bias, and<br>toxicity evaluation",54
+Text classification*,"Fairness, bias, and<br>toxicity evaluation",10
+Information extraction*,"Fairness, bias, and<br>toxicity evaluation",4
+Summarization*,"Fairness, bias, and<br>toxicity evaluation",8
+Conversational dialogue*,"Fairness, bias, and<br>toxicity evaluation",5
+Translation*,"Fairness, bias, and<br>toxicity evaluation",1
+Enhancing medical knowledge,Deployment<br>metrics,10
+Making diagnoses,Deployment<br>metrics,4
+Educating patients,Deployment<br>metrics,3
+Making treatment recommendations,Deployment<br>metrics,1
+Communicating with patients,Deployment<br>metrics,1
+Care coordination and planning,Deployment<br>metrics,1
+Triaging patients,Deployment<br>metrics,8
+Carrying out a literature review,Deployment<br>metrics,2
+Synthesizing data for research,Deployment<br>metrics,2
+Generating medical reports,Deployment<br>metrics,0
+Conducting medical research,Deployment<br>metrics,0
+Providing asynchronous care,Deployment<br>metrics,1
+Managing clinical knowledge,Deployment<br>metrics,0
+Clinical note-taking,Deployment<br>metrics,0
+Generating clinical referrals,Deployment<br>metrics,0
+Enhancing surgical operations,Deployment<br>metrics,0
+Biomedical data mining,Deployment<br>metrics,0
+Generating billing codes,Deployment<br>metrics,0
+Writing prescriptions,Deployment<br>metrics,0
+Question answering*,Deployment<br>metrics,14
+Text classification*,Deployment<br>metrics,2
+Information extraction*,Deployment<br>metrics,6
+Summarization*,Deployment<br>metrics,0
+Conversational dialogue*,Deployment<br>metrics,1
+Translation*,Deployment<br>metrics,2
+Enhancing medical knowledge,Calibration and<br>uncertainty,3
+Making diagnoses,Calibration and<br>uncertainty,0
+Educating patients,Calibration and<br>uncertainty,2
+Making treatment recommendations,Calibration and<br>uncertainty,0
+Communicating with patients,Calibration and<br>uncertainty,0
+Care coordination and planning,Calibration and<br>uncertainty,0
+Triaging patients,Calibration and<br>uncertainty,0
+Carrying out a literature review,Calibration and<br>uncertainty,0
+Synthesizing data for research,Calibration and<br>uncertainty,0
+Generating medical reports,Calibration and<br>uncertainty,0
+Conducting medical research,Calibration and<br>uncertainty,0
+Providing asynchronous care,Calibration and<br>uncertainty,0
+Managing clinical knowledge,Calibration and<br>uncertainty,0
+Clinical note-taking,Calibration and<br>uncertainty,1
+Generating clinical referrals,Calibration and<br>uncertainty,0
+Enhancing surgical operations,Calibration and<br>uncertainty,0
+Biomedical data mining,Calibration and<br>uncertainty,0
+Generating billing codes,Calibration and<br>uncertainty,0
+Writing prescriptions,Calibration and<br>uncertainty,0
+Question answering*,Calibration and<br>uncertainty,5
+Text classification*,Calibration and<br>uncertainty,0
+Information extraction*,Calibration and<br>uncertainty,0
+Summarization*,Calibration and<br>uncertainty,1
+Conversational dialogue*,Calibration and<br>uncertainty,0
+Translation*,Calibration and<br>uncertainty,0

@@ -1,0 +1,12 @@
+Model,Method,Percent of correct answers
+Llama-1,SFT,0.568
+Llama-1,ITI ,0.669
+Llama-2,DOLA,0.696
+Llama-2,SFT,0.701
+Llama-2,Chat,0.748
+Llama-1,DOLA,0.754
+Llama-2,ITI ,0.76
+Llama-1,FactTune-MC,0.783
+Llama-1,FactTune-FS,0.812
+Llama-2,FactTune-MC,0.846
+Llama-2,FactTune-FS,0.895

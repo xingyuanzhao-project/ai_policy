@@ -1,0 +1,18 @@
+Task,Model,Pass rate
+GSM8K,Claude 3.5 Sonnet,0.89
+GSM8K,Claude 3.5 Sonnet agent,0.8
+GSM8K,GPT-4o EI agent,0.83
+hotpotQA,Claude 3.5 Sonnet,0.49
+hotpotQA,Claude 3.5 Sonnet agent,0.61
+hotpotQA,GPT-4o EI agent,0.55
+SeqQA,Claude 3.5 Sonnet,0.59
+SeqQA,Claude 3.5 Sonnet agent,0.79
+SeqQA,Llama 3.1 8B EI agent,0.81
+SeqQA,Llama 3.1 8B EI agent majority vote @32,0.86
+LitQA2,Claude 3.5 Sonnet,0.14
+LitQA2,Claude 3.5 Sonnet agent,0.73
+LitQA2,Llama 3.1 8B EI agent,0.72
+LitQA2,Llama 3.1 8B EI agent majority vote @32,0.76
+Protein stability,Claude 3.5 Sonnet,0.15
+Protein stability,Claude 3.5 Sonnet agent,0.25
+Protein stability,Claude 3.5 Sonnet agent pass @16,0.72

@@ -1,0 +1,11 @@
+domain,shot,model,instances_correct
+Blocksworld,zero shot,Claude 3.5 (Sonnet),54.80%
+Blocksworld,zero shot,GPT-4o,35.50%
+Blocksworld,zero shot,LLama 3.1 405B,62.60%
+Blocksworld,zero shot,Gemini 1.5 Pro,23.80%
+Blocksworld,zero shot,o1-preview,97.80%
+Mystery Blocksworld,zero shot,Claude 3.5 (Sonnet),0.00%
+Mystery Blocksworld,zero shot,GPT-4o,0.00%
+Mystery Blocksworld,zero shot,LLama 3.1 405B,8.00%
+Mystery Blocksworld,zero shot,Gemini 1.5 Pro,-
+Mystery Blocksworld,zero shot,o1-preview,52.80%

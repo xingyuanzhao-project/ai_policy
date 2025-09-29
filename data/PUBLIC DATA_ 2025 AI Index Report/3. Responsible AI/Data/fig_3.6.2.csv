@@ -1,0 +1,64 @@
+Year,Restriction Type,URL token percentage
+2016,Crawl delay specified,1.22%
+2016,Disallow private directories,5.48%
+2016,Full restrictions,12.20%
+2016,No restrictions or sitemap,3.72%
+2016,Other restrictions,47.29%
+2016,Pattern-based restrictions,27.09%
+2016,Sitemap provided,3.00%
+2017,Sitemap provided,3.38%
+2017,Pattern-based restrictions,27.31%
+2017,Other restrictions,46.70%
+2017,Disallow private directories,7.15%
+2017,Full restrictions,10.33%
+2017,Crawl delay specified,1.00%
+2017,No restrictions or sitemap,4.15%
+2018,Pattern-based restrictions,28.97%
+2018,Sitemap provided,4.78%
+2018,Other restrictions,45.67%
+2018,Disallow private directories,6.52%
+2018,Full restrictions,9.45%
+2018,Crawl delay specified,0.50%
+2018,No restrictions or sitemap,4.10%
+2019,Crawl delay specified,0.41%
+2019,Disallow private directories,7.03%
+2019,Full restrictions,9.69%
+2019,No restrictions or sitemap,3.09%
+2019,Other restrictions,43.89%
+2019,Pattern-based restrictions,29.28%
+2019,Sitemap provided,6.60%
+2020,Pattern-based restrictions,31.32%
+2020,Sitemap provided,4.69%
+2020,Other restrictions,43.53%
+2020,No restrictions or sitemap,3.05%
+2020,Full restrictions,9.93%
+2020,Disallow private directories,7.12%
+2020,Crawl delay specified,0.36%
+2021,Crawl delay specified,0.35%
+2021,Disallow private directories,6.96%
+2021,Full restrictions,11.23%
+2021,No restrictions or sitemap,2.58%
+2021,Other restrictions,44.31%
+2021,Pattern-based restrictions,29.86%
+2021,Sitemap provided,4.71%
+2022,Sitemap provided,5.11%
+2022,Other restrictions,42.53%
+2022,No restrictions or sitemap,2.69%
+2022,Pattern-based restrictions,30.18%
+2022,Disallow private directories,7.45%
+2022,Crawl delay specified,0.53%
+2022,Full restrictions,11.50%
+2023,Sitemap provided,4.72%
+2023,Other restrictions,35.74%
+2023,No restrictions or sitemap,2.03%
+2023,Pattern-based restrictions,27.18%
+2023,Disallow private directories,7.06%
+2023,Crawl delay specified,0.43%
+2023,Full restrictions,22.85%
+2024,Pattern-based restrictions,14.80%
+2024,Crawl delay specified,0.46%
+2024,Disallow private directories,6.05%
+2024,Full restrictions,48.20%
+2024,No restrictions or sitemap,1.72%
+2024,Other restrictions,25.19%
+2024,Sitemap provided,3.58%

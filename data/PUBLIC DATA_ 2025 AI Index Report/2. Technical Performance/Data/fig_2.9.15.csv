@@ -1,0 +1,7 @@
+driver,type,crash_rate
+Human benchmark,Airbag deployment,1.74
+Waymo,Airbag deployment,0.32
+Human benchmark,Any-injury-reported,4.06
+Waymo,Any-injury-reported,0.9
+Human benchmark,Police-reported,5.91
+Waymo,Police-reported,2.26

@@ -1,0 +1,25 @@
+Model,Type,Percent of questions
+Claude-3-haiku (2024-03-07),Correct,5.1
+Claude-3-sonnet (2024-02-29),Correct,5.7
+Claude-3-opus (2024-02-29),Correct,23.5
+Claude-3.5-sonnet (2024-06-20),Correct,28.9
+GPT-4o-mini,Correct,8.6
+GPT-4o,Correct,38.2
+OpenAI o1-mini,Correct,8.1
+OpenAI o1-preview,Correct,42.7
+Claude-3-haiku (2024-03-07),Not attempted,75.3
+Claude-3-sonnet (2024-02-29),Not attempted,75
+Claude-3-opus (2024-02-29),Not attempted,39.6
+Claude-3.5-sonnet (2024-06-20),Not attempted,35
+GPT-4o-mini,Not attempted,0.9
+GPT-4o,Not attempted,1
+OpenAI o1-mini,Not attempted,28.5
+OpenAI o1-preview,Not attempted,9.2
+Claude-3-haiku (2024-03-07),Correct given attempted,20.6
+Claude-3-sonnet (2024-02-29),Correct given attempted,22.9
+Claude-3-opus (2024-02-29),Correct given attempted,38.8
+Claude-3.5-sonnet (2024-06-20),Correct given attempted,44.5
+GPT-4o-mini,Correct given attempted,8.7
+GPT-4o,Correct given attempted,38
+OpenAI o1-mini,Correct given attempted,11.3
+OpenAI o1-preview,Correct given attempted,47

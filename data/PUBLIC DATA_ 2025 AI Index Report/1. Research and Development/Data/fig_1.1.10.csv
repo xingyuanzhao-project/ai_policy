@@ -1,0 +1,111 @@
+Year,Number of AI publications (in thousands),Label
+2013,2.404,Robotics
+2014,2.417,Robotics
+2015,2.371,Robotics
+2016,2.486,Robotics
+2017,2.782,Robotics
+2018,3.146,Robotics
+2019,4.011,Robotics
+2020,3.915,Robotics
+2021,4.453,Robotics
+2022,4.378,Robotics
+2023,5.254,Robotics
+2013,5.586,Multi-agent systems
+2014,5.655,Multi-agent systems
+2015,5.255,Multi-agent systems
+2016,5.339,Multi-agent systems
+2017,5.643,Multi-agent systems
+2018,6.985,Multi-agent systems
+2019,8.221,Multi-agent systems
+2020,8.686,Multi-agent systems
+2021,9.798,Multi-agent systems
+2022,9.301,Multi-agent systems
+2023,11.275,Multi-agent systems
+2013,9.592,Logic and reasoning
+2014,9.512,Logic and reasoning
+2015,9.285,Logic and reasoning
+2016,8.872,Logic and reasoning
+2017,9.182,Logic and reasoning
+2018,10.367,Logic and reasoning
+2019,10.643,Logic and reasoning
+2020,11.232,Logic and reasoning
+2021,11.508,Logic and reasoning
+2022,10.061,Logic and reasoning
+2023,12.001,Logic and reasoning
+2013,0.394,Generative AI
+2014,0.517,Generative AI
+2015,0.61,Generative AI
+2016,0.707,Generative AI
+2017,0.839,Generative AI
+2018,1.264,Generative AI
+2019,1.572,Generative AI
+2020,1.822,Generative AI
+2021,2.345,Generative AI
+2022,2.72,Generative AI
+2023,13.067,Generative AI
+2013,10.983,Evolutionary computation
+2014,10.959,Evolutionary computation
+2015,10.497,Evolutionary computation
+2016,10.386,Evolutionary computation
+2017,10.568,Evolutionary computation
+2018,11.746,Evolutionary computation
+2019,12.879,Evolutionary computation
+2020,14.082,Evolutionary computation
+2021,15.356,Evolutionary computation
+2022,15.391,Evolutionary computation
+2023,17.345,Evolutionary computation
+2013,16.556,Knowledge based systems
+2014,16.426,Knowledge based systems
+2015,16.288,Knowledge based systems
+2016,15.581,Knowledge based systems
+2017,15.773,Knowledge based systems
+2018,17.32,Knowledge based systems
+2019,18.793,Knowledge based systems
+2020,19.594,Knowledge based systems
+2021,20.384,Knowledge based systems
+2022,18.97,Knowledge based systems
+2023,21.817,Knowledge based systems
+2013,12.882,Natural language processing
+2014,13.669,Natural language processing
+2015,14.203,Natural language processing
+2016,15.419,Natural language processing
+2017,17.002,Natural language processing
+2018,20.434,Natural language processing
+2019,24.398,Natural language processing
+2020,27.632,Natural language processing
+2021,31.14,Natural language processing
+2022,29.873,Natural language processing
+2023,41.4,Natural language processing
+2013,30.457,Pattern recognition
+2014,31.53,Pattern recognition
+2015,32.317,Pattern recognition
+2016,32.067,Pattern recognition
+2017,34.067,Pattern recognition
+2018,38.519,Pattern recognition
+2019,44.893,Pattern recognition
+2020,46.891,Pattern recognition
+2021,53.463,Pattern recognition
+2022,54.078,Pattern recognition
+2023,62.899,Pattern recognition
+2013,59.879,Computer vision
+2014,61.873,Computer vision
+2015,63.093,Computer vision
+2016,63.202,Computer vision
+2017,66.471,Computer vision
+2018,75.916,Computer vision
+2019,86.799,Computer vision
+2020,91.051,Computer vision
+2021,99.928,Computer vision
+2022,99.0,Computer vision
+2023,114.606,Computer vision
+2013,53.424,Machine learning
+2014,56.091,Machine learning
+2015,58.835,Machine learning
+2016,61.769,Machine learning
+2017,71.082,Machine learning
+2018,89.854,Machine learning
+2019,111.813,Machine learning
+2020,127.279,Machine learning
+2021,148.064,Machine learning
+2022,150.847,Machine learning
+2023,183.778,Machine learning

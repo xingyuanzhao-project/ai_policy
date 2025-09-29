@@ -1,0 +1,65 @@
+Degree,Type,Race/ethinicity,% of postsecondary
+Associate,All,American Indian/Alaskan Native,1%
+Associate,CS,American Indian/Alaskan Native,1%
+Bachelor’s,All,American Indian/Alaskan Native,0%
+Bachelor’s,CS,American Indian/Alaskan Native,0%
+Master’s,All,American Indian/Alaskan Native,0%
+Master’s,CS,American Indian/Alaskan Native,0%
+PhD,All,American Indian/Alaskan Native,0%
+PhD,CS,American Indian/Alaskan Native,0%
+Associate,All,Black,12%
+Associate,CS,Black,12%
+Bachelor’s,All,Black,10%
+Bachelor’s,CS,Black,8%
+Master’s,All,Black,12%
+Master’s,CS,Black,8%
+PhD,All,Black,10%
+PhD,CS,Black,7%
+Associate,All,Hispanic,27%
+Associate,CS,Hispanic,20%
+Bachelor’s,All,Hispanic,18%
+Bachelor’s,CS,Hispanic,13%
+Master’s,All,Hispanic,13%
+Master’s,CS,Hispanic,8%
+PhD,All,Hispanic,10%
+PhD,CS,Hispanic,4%
+Associate,All,NHPI,0%
+Associate,CS,NHPI,0%
+Bachelor’s,All,NHPI,0%
+Bachelor’s,CS,NHPI,0%
+Master’s,All,NHPI,0%
+Master’s,CS,NHPI,0%
+PhD,All,NHPI,0%
+PhD,CS,NHPI,0%
+Associate,All,Two or more,4%
+Associate,CS,Two or more,4%
+Bachelor’s,All,Two or more,4%
+Bachelor’s,CS,Two or more,4%
+Master’s,All,Two or more,3%
+Master’s,CS,Two or more,3%
+PhD,All,Two or more,3%
+PhD,CS,Two or more,3%
+Associate,All,Asian,6%
+Associate,CS,Asian,13%
+Bachelor’s,All,Asian,9%
+Bachelor’s,CS,Asian,23%
+Master’s,All,Asian,8%
+Master’s,CS,Asian,28%
+PhD,All,Asian,12%
+PhD,CS,Asian,17%
+Associate,All,White,47%
+Associate,CS,White,44%
+Bachelor’s,All,White,56%
+Bachelor’s,CS,White,46%
+Master’s,All,White,57%
+Master’s,CS,White,40%
+PhD,All,White,58%
+PhD,CS,White,52%
+Associate,All,Unknown,4%
+Associate,CS,Unknown,6%
+Bachelor’s,All,Unknown,3%
+Bachelor’s,CS,Unknown,5%
+Master’s,All,Unknown,6%
+Master’s,CS,Unknown,12%
+PhD,All,Unknown,6%
+PhD,CS,Unknown,15%

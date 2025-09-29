@@ -1,0 +1,30 @@
+unlimited access, with available data
+Canada
+France
+Germany
+Japan
+South Korea
+UK
+USA
+
+limited access, with available data
+Israel
+Poland
+UAE
+
+restricted access, with available data
+China
+
+unlimited access, with unavailable data
+Australia
+Belgium
+Denmark
+Finland
+Ireland
+Italy
+the Netherlands
+New Zealand
+Norway
+Spain
+Sweden
+Taiwan

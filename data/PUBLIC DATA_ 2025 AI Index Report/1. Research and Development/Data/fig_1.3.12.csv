@@ -1,0 +1,13 @@
+Model,Publication date,Sector,Parameters
+DeepSeek-V3,12/24/24,Industry,6.71E+11
+Qwen2.5-72B,9/19/24,Industry,72700000000
+Mistral Large 2,7/24/24,Industry,1.23E+11
+Llama 2-70B,7/18/23,Industry,70000000000
+PaLM (540B),4/4/22,Industry,5.4035E+11
+ERNIE 3.0 Titan,12/23/21,Industry–academia collaboration,2.6E+11
+Megatron-Turing NLG 530B,10/11/21,Industry,5.3E+11
+GPT-3 175B (davinci),5/28/20,Industry,1.75E+11
+RoBERTa Large,7/1/19,Industry–academia collaboration,355000000
+BERT-Large,10/11/18,Industry,340000000
+Transformer,6/12/17,Industry,213000000
+AlexNet,9/30/12,Academia,60000000

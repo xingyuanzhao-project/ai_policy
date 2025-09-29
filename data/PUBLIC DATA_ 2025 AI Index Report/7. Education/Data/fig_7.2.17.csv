@@ -1,0 +1,283 @@
+Country,Country Code,Status
+Afghanistan,AFG,No CS
+Algeria,DZA,No CS
+American Samoa,ASM,No CS
+Angola,AGO,No CS
+Antigua and Barbuda,ATG,No CS
+Aruba,ABW,No CS
+Azerbaijan,AZE,No CS
+"Bahamas, The",BHS,No CS
+Bahrain,BHR,No CS
+Bangladesh,BGD,No CS
+Barbados,BRB,No CS
+Belgium,BEL,No CS
+Belize,BLZ,No CS
+Benin,BEN,No CS
+Bolivia,BOL,No CS
+Botswana,BWA,No CS
+British Virgin Islands,VGB,No CS
+Brunei Darussalam,BRN,No CS
+Burkina Faso,BFA,No CS
+Burundi,BDI,No CS
+Cabo Verde,CPV,No CS
+Cambodia,KHM,No CS
+Cameroon,CMR,No CS
+Cayman Islands,CYM,No CS
+Central African Republic,CAF,No CS
+Chad,TCD,No CS
+Comoros,COM,No CS
+"Congo, Dem. Rep.",COD,No CS
+"Congo, Rep.",COG,No CS
+Côte d'Ivoire,CIV,No CS
+Cuba,CUB,No CS
+Curaçao,CUW,No CS
+Djibouti,DJI,No CS
+Dominica,DMA,No CS
+"Egypt, Arab Rep.",EGY,No CS
+El Salvador,SLV,No CS
+Equatorial Guinea,GNQ,No CS
+Eritrea,ERI,No CS
+Eswatini,SWZ,No CS
+Ethiopia,ETH,No CS
+Faroe Islands,FRO,No CS
+Fiji,FJI,No CS
+French Polynesia,PYF,No CS
+Gabon,GAB,No CS
+"Gambia, The",GMB,No CS
+Georgia,GEO,No CS
+Gibraltar,GIB,No CS
+Greenland,GRL,No CS
+Grenada,GRD,No CS
+Guam,GUM,No CS
+Guatemala,GTM,No CS
+Guinea,GIN,No CS
+Guinea-Bissau,GNB,No CS
+Guyana,GUY,No CS
+Haiti,HTI,No CS
+Honduras,HND,No CS
+Iceland,ISL,No CS
+"Iran, Islamic Rep.",IRN,No CS
+Iraq,IRQ,No CS
+Isle of Man,IMN,No CS
+Jamaica,JAM,No CS
+Jordan,JOR,No CS
+Kenya,KEN,No CS
+Kiribati,KIR,No CS
+"North Korea, (Dem. People's Rep. of Korea)",PRK,No CS
+Kosovo,XKX,No CS
+Kuwait,KWT,No CS
+Kyrgyz Republic,KGZ,No CS
+Lao PDR,LAO,No CS
+Lebanon,LBN,No CS
+Lesotho,LSO,No CS
+Liberia,LBR,No CS
+Libya,LBY,No CS
+Luxembourg,LUX,No CS
+Madagascar,MDG,No CS
+Malawi,MWI,No CS
+Maldives,MDV,No CS
+Mali,MLI,No CS
+Marshall Islands,MHL,No CS
+Mauritania,MRT,No CS
+Mauritius,MUS,No CS
+"Micronesia, Fed. Sts.",FSM,No CS
+Moldova,MDA,No CS
+Monaco,MCO,No CS
+Mongolia,MNG,No CS
+Mozambique,MOZ,No CS
+Myanmar,MMR,No CS
+Namibia,NAM,No CS
+Nauru,NRU,No CS
+Nepal,NPL,No CS
+New Caledonia,NCL,No CS
+Nicaragua,NIC,No CS
+Niger,NER,No CS
+North Macedonia,MKD,No CS
+Northern Mariana Islands,MNP,No CS
+Oman,OMN,No CS
+Palau,PLW,No CS
+Papua New Guinea,PNG,No CS
+Peru,PER,No CS
+Philippines,PHL,No CS
+Qatar,QAT,No CS
+Rwanda,RWA,No CS
+Samoa,WSM,No CS
+San Marino,SMR,No CS
+São Tomé and Principe,STP,No CS
+Senegal,SEN,No CS
+Seychelles,SYC,No CS
+Sierra Leone,SLE,No CS
+Sint Maarten (Dutch part),SXM,No CS
+Solomon Islands,SLB,No CS
+Somalia,SOM,No CS
+South Sudan,SSD,No CS
+Sri Lanka,LKA,No CS
+St. Kitts and Nevis,KNA,No CS
+St. Lucia,LCA,No CS
+St. Martin (French part),MAF,No CS
+St. Vincent and the Grenadines,VCT,No CS
+Sudan,SDN,No CS
+Suriname,SUR,No CS
+Syrian Arab Republic,SYR,No CS
+Tajikistan,TJK,No CS
+Tanzania,TZA,No CS
+Timor-Leste,TLS,No CS
+Togo,TGO,No CS
+Tonga,TON,No CS
+Trinidad and Tobago,TTO,No CS
+Tunisia,TUN,No CS
+Turkmenistan,TKM,No CS
+Turks and Caicos Islands,TCA,No CS
+Tuvalu,TUV,No CS
+Uganda,UGA,No CS
+Uzbekistan,UZB,No CS
+Vanuatu,VUT,No CS
+Venezuela,VEN,No CS
+Virgin Islands (U.S.),VIR,No CS
+West Bank and Gaza,PSE,No CS
+Yemen,YEM,No CS
+Zambia,ZMB,No CS
+Aruba,ABW,CS planned
+Azerbaijan,AZE,CS planned
+"Bahamas, The",BHS,CS planned
+Bangladesh,BGD,CS planned
+Barbados,BRB,CS planned
+Botswana,BWA,CS planned
+Cabo Verde,CPV,CS planned
+Cambodia,KHM,CS planned
+Cuba,CUB,CS planned
+Ecuador,ECU,CS planned
+"Egypt, Arab Rep.",EGY,CS planned
+El Salvador,SLV,CS planned
+Eswatini,SWZ,CS planned
+Ethiopia,ETH,CS planned
+Fiji,FJI,CS planned
+Gibraltar,GIB,CS planned
+Haiti,HTI,CS planned
+Honduras,HND,CS planned
+Indonesia,IDN,CS planned
+Jamaica,JAM,CS planned
+Jordan,JOR,CS planned
+Mexico,MEX,CS planned
+Monaco,MCO,CS planned
+Mongolia,MNG,CS planned
+Nepal,NPL,CS planned
+Nicaragua,NIC,CS planned
+North Macedonia,MKD,CS planned
+Northern Mariana Islands,MNP,CS planned
+Oman,OMN,CS planned
+Puerto Rico,PRI,CS planned
+South Africa,ZAF,CS planned
+Tajikistan,TJK,CS planned
+Turkmenistan,TKM,CS planned
+Chile,CHL,CS cross curricular
+Netherlands,NLD,CS cross curricular
+Norway,NOR,CS cross curricular
+Algeria,DZA,CS in some schools/districts
+Belgium,BEL,CS in some schools/districts
+Bermuda,BMU,CS in some schools/districts
+Bosnia and Herzegovina,BIH,CS in some schools/districts
+Brazil,BRA,CS in some schools/districts
+Brunei Darussalam,BRN,CS in some schools/districts
+Cameroon,CMR,CS in some schools/districts
+Canada,CAN,CS in some schools/districts
+"Congo, Dem. Rep.",COD,CS in some schools/districts
+France,FRA,CS in some schools/districts
+Greenland,GRL,CS in some schools/districts
+Guyana,GUY,CS in some schools/districts
+"Hong Kong SAR, China",HKG,CS in some schools/districts
+India,IND,CS in some schools/districts
+Isle of Man,IMN,CS in some schools/districts
+Kenya,KEN,CS in some schools/districts
+Lebanon,LBN,CS in some schools/districts
+Madagascar,MDG,CS in some schools/districts
+Malawi,MWI,CS in some schools/districts
+Maldives,MDV,CS in some schools/districts
+Nigeria,NGA,CS in some schools/districts
+Pakistan,PAK,CS in some schools/districts
+Paraguay,PRY,CS in some schools/districts
+Qatar,QAT,CS in some schools/districts
+San Marino,SMR,CS in some schools/districts
+Singapore,SGP,CS in some schools/districts
+South Sudan,SSD,CS in some schools/districts
+Spain,ESP,CS in some schools/districts
+Sri Lanka,LKA,CS in some schools/districts
+St. Kitts and Nevis,KNA,CS in some schools/districts
+St. Vincent and the Grenadines,VCT,CS in some schools/districts
+Syrian Arab Republic,SYR,CS in some schools/districts
+Tunisia,TUN,CS in some schools/districts
+United States of America,USA,CS in some schools/districts
+Uruguay,URY,CS in some schools/districts
+Uzbekistan,UZB,CS in some schools/districts
+Vietnam,VNM,CS in some schools/districts
+Zimbabwe,ZWE,CS in some schools/districts
+Colombia,COL,CS as an elective course everywhere
+Denmark,DNK,CS as an elective course everywhere
+Germany,DEU,CS as an elective course everywhere
+Israel,ISR,CS as an elective course everywhere
+Marshall Islands,MHL,CS as an elective course everywhere
+Albania,ALB,CS mandatory in primary or secondary only
+Austria,AUT,CS mandatory in primary or secondary only
+Cayman Islands,CYM,CS mandatory in primary or secondary only
+China,CHN,CS mandatory in primary or secondary only
+Costa Rica,CRI,CS mandatory in primary or secondary only
+Croatia,HRV,CS mandatory in primary or secondary only
+Cyprus,CYP,CS mandatory in primary or secondary only
+Dominican Republic,DOM,CS mandatory in primary or secondary only
+Greece,GRC,CS mandatory in primary or secondary only
+Guatemala,GTM,CS mandatory in primary or secondary only
+Hungary,HUN,CS mandatory in primary or secondary only
+Ireland,IRL,CS mandatory in primary or secondary only
+Italy,ITA,CS mandatory in primary or secondary only
+Japan,JPN,CS mandatory in primary or secondary only
+Latvia,LVA,CS mandatory in primary or secondary only
+Liechtenstein,LIE,CS mandatory in primary or secondary only
+Luxembourg,LUX,CS mandatory in primary or secondary only
+Malaysia,MYS,CS mandatory in primary or secondary only
+Mauritius,MUS,CS mandatory in primary or secondary only
+Morocco,MAR,CS mandatory in primary or secondary only
+Mozambique,MOZ,CS mandatory in primary or secondary only
+Panama,PAN,CS mandatory in primary or secondary only
+Portugal,PRT,CS mandatory in primary or secondary only
+Russian Federation,RUS,CS mandatory in primary or secondary only
+Rwanda,RWA,CS mandatory in primary or secondary only
+Samoa,WSM,CS mandatory in primary or secondary only
+Sierra Leone,SLE,CS mandatory in primary or secondary only
+Slovenia,SVN,CS mandatory in primary or secondary only
+St. Lucia,LCA,CS mandatory in primary or secondary only
+"Taiwan, China",TWN,CS mandatory in primary or secondary only
+Tanzania,TZA,CS mandatory in primary or secondary only
+Trinidad and Tobago,TTO,CS mandatory in primary or secondary only
+Turks and Caicos Islands,TCA,CS mandatory in primary or secondary only
+Uganda,UGA,CS mandatory in primary or secondary only
+Zambia,ZMB,CS mandatory in primary or secondary only
+Andorra,AND,CS mandatory in primary and secondary
+Argentina,ARG,CS mandatory in primary and secondary
+Armenia,ARM,CS mandatory in primary and secondary
+Australia,AUS,CS mandatory in primary and secondary
+Belarus,BLR,CS mandatory in primary and secondary
+Bhutan,BTN,CS mandatory in primary and secondary
+Bulgaria,BGR,CS mandatory in primary and secondary
+Channel Islands,CHI,CS mandatory in primary and secondary
+Czech Republic,CZE,CS mandatory in primary and secondary
+Estonia,EST,CS mandatory in primary and secondary
+Finland,FIN,CS mandatory in primary and secondary
+Ghana,GHA,CS mandatory in primary and secondary
+Kazakhstan,KAZ,CS mandatory in primary and secondary
+South Korea (Rep.of Korea),KOR,CS mandatory in primary and secondary
+Lithuania,LTU,CS mandatory in primary and secondary
+Malta,MLT,CS mandatory in primary and secondary
+Montenegro,MNE,CS mandatory in primary and secondary
+New Zealand,NZL,CS mandatory in primary and secondary
+Poland,POL,CS mandatory in primary and secondary
+Romania,ROU,CS mandatory in primary and secondary
+Saudi Arabia,SAU,CS mandatory in primary and secondary
+Serbia,SRB,CS mandatory in primary and secondary
+Slovak Republic,SVK,CS mandatory in primary and secondary
+Sweden,SWE,CS mandatory in primary and secondary
+Switzerland,CHE,CS mandatory in primary and secondary
+Thailand,THA,CS mandatory in primary and secondary
+Turkey,TUR,CS mandatory in primary and secondary
+Ukraine,UKR,CS mandatory in primary and secondary
+United Arab Emirates,ARE,CS mandatory in primary and secondary
+United Kingdom of Great Britin and Northern Ireland,GBR,CS mandatory in primary and secondary

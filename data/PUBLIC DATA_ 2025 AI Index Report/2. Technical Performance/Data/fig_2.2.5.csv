@@ -1,0 +1,16 @@
+Model,Overall accuracy (%)
+Qwen2.5-72B,0.7159
+Grok-2-mini,0.7185
+GPT-4o (2024-05-13),0.7255
+Athene-V2-Chat (0-shot),0.7311
+Llama-3.1-405B-Instruct,0.733
+GPT-4o (2024-08-06),0.7468
+Grok-2,0.7546
+MiniMax-Text-01,0.757
+DeepSeek-V3,0.7587
+Gemini-2.0-Flash-exp,0.7624
+Claude-3.5-Sonnet (2024-10-22),0.7764
+GPT-4o (2024-11-20),0.779
+Claude-3.5-Sonnet (2024-06-20),0.78
+GPT-o1-mini,0.803
+DeepSeek-R1,0.84
