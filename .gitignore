@@ -1,0 +1,5 @@
+# Environments
+.venv_mac/
+venv/
+*.pyc
+__pycache__/
