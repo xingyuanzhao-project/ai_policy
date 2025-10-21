@@ -1,0 +1,192 @@
+Country of developer,Country of developer_label,Country of provider,Country of provider_label,foundation_model_count_by_provider,is_open_source,ref_date,type
+ALL,-- All countries --,USA,United States,15,All,2023-01-01,All modalities
+ALL,-- All countries --,USA,United States,18,All,2023-02-01,All modalities
+ALL,-- All countries --,USA,United States,21,All,2023-03-01,All modalities
+ALL,-- All countries --,USA,United States,23,All,2023-04-01,All modalities
+ALL,-- All countries --,USA,United States,24,All,2023-05-01,All modalities
+ALL,-- All countries --,USA,United States,21,All,2023-06-01,All modalities
+ALL,-- All countries --,USA,United States,46,All,2023-07-01,All modalities
+ALL,-- All countries --,USA,United States,33,All,2023-08-01,All modalities
+ALL,-- All countries --,USA,United States,33,All,2023-09-01,All modalities
+ALL,-- All countries --,USA,United States,36,All,2023-10-01,All modalities
+ALL,-- All countries --,USA,United States,37,All,2023-11-01,All modalities
+ALL,-- All countries --,USA,United States,44,All,2023-12-01,All modalities
+ALL,-- All countries --,USA,United States,64,All,2024-01-01,All modalities
+ALL,-- All countries --,USA,United States,82,All,2024-02-01,All modalities
+ALL,-- All countries --,USA,United States,94,All,2024-03-01,All modalities
+ALL,-- All countries --,USA,United States,104,All,2024-04-01,All modalities
+ALL,-- All countries --,USA,United States,122,All,2024-05-01,All modalities
+ALL,-- All countries --,USA,United States,172,All,2024-06-01,All modalities
+ALL,-- All countries --,USA,United States,209,All,2024-07-01,All modalities
+ALL,-- All countries --,USA,United States,217,All,2024-08-01,All modalities
+ALL,-- All countries --,USA,United States,254,All,2024-09-01,All modalities
+ALL,-- All countries --,USA,United States,362,All,2024-10-01,All modalities
+ALL,-- All countries --,USA,United States,357,All,2024-11-01,All modalities
+ALL,-- All countries --,USA,United States,362,All,2024-12-01,All modalities
+ALL,-- All countries --,USA,United States,390,All,2025-01-01,All modalities
+ALL,-- All countries --,USA,United States,399,All,2025-02-01,All modalities
+ALL,-- All countries --,USA,United States,407,All,2025-03-01,All modalities
+ALL,-- All countries --,USA,United States,422,All,2025-04-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),4,All,2023-06-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),2,All,2023-07-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),2,All,2023-08-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),2,All,2023-09-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),2,All,2023-10-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),3,All,2023-11-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),3,All,2023-12-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),3,All,2024-01-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),3,All,2024-02-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),3,All,2024-03-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),3,All,2024-04-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),5,All,2024-05-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),5,All,2024-06-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),21,All,2024-07-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),24,All,2024-08-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),23,All,2024-09-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),36,All,2024-10-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),41,All,2024-11-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),41,All,2024-12-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),79,All,2025-01-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),80,All,2025-02-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),86,All,2025-03-01,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),87,All,2025-04-01,All modalities
+ALL,-- All countries --,DEU,Germany,3,All,2023-02-01,All modalities
+ALL,-- All countries --,DEU,Germany,4,All,2023-03-01,All modalities
+ALL,-- All countries --,DEU,Germany,4,All,2023-04-01,All modalities
+ALL,-- All countries --,DEU,Germany,4,All,2023-05-01,All modalities
+ALL,-- All countries --,DEU,Germany,4,All,2023-06-01,All modalities
+ALL,-- All countries --,DEU,Germany,4,All,2023-07-01,All modalities
+ALL,-- All countries --,DEU,Germany,4,All,2023-08-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2023-09-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2023-10-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2023-11-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2023-12-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2024-01-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2024-02-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2024-03-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2024-04-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2024-05-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2024-06-01,All modalities
+ALL,-- All countries --,DEU,Germany,6,All,2024-07-01,All modalities
+ALL,-- All countries --,DEU,Germany,7,All,2024-08-01,All modalities
+ALL,-- All countries --,DEU,Germany,8,All,2024-09-01,All modalities
+ALL,-- All countries --,DEU,Germany,10,All,2024-10-01,All modalities
+ALL,-- All countries --,DEU,Germany,10,All,2024-11-01,All modalities
+ALL,-- All countries --,DEU,Germany,10,All,2024-12-01,All modalities
+ALL,-- All countries --,DEU,Germany,13,All,2025-01-01,All modalities
+ALL,-- All countries --,DEU,Germany,13,All,2025-02-01,All modalities
+ALL,-- All countries --,DEU,Germany,13,All,2025-03-01,All modalities
+ALL,-- All countries --,DEU,Germany,13,All,2025-04-01,All modalities
+ALL,-- All countries --,FRA,France,1,All,2023-06-01,All modalities
+ALL,-- All countries --,FRA,France,1,All,2023-07-01,All modalities
+ALL,-- All countries --,FRA,France,1,All,2023-08-01,All modalities
+ALL,-- All countries --,FRA,France,1,All,2023-09-01,All modalities
+ALL,-- All countries --,FRA,France,1,All,2023-10-01,All modalities
+ALL,-- All countries --,FRA,France,1,All,2023-11-01,All modalities
+ALL,-- All countries --,FRA,France,4,All,2023-12-01,All modalities
+ALL,-- All countries --,FRA,France,4,All,2024-01-01,All modalities
+ALL,-- All countries --,FRA,France,6,All,2024-02-01,All modalities
+ALL,-- All countries --,FRA,France,6,All,2024-03-01,All modalities
+ALL,-- All countries --,FRA,France,6,All,2024-04-01,All modalities
+ALL,-- All countries --,FRA,France,6,All,2024-05-01,All modalities
+ALL,-- All countries --,FRA,France,6,All,2024-06-01,All modalities
+ALL,-- All countries --,FRA,France,10,All,2024-07-01,All modalities
+ALL,-- All countries --,FRA,France,14,All,2024-08-01,All modalities
+ALL,-- All countries --,FRA,France,12,All,2024-09-01,All modalities
+ALL,-- All countries --,FRA,France,12,All,2024-10-01,All modalities
+ALL,-- All countries --,FRA,France,14,All,2024-11-01,All modalities
+ALL,-- All countries --,FRA,France,14,All,2024-12-01,All modalities
+ALL,-- All countries --,FRA,France,16,All,2025-01-01,All modalities
+ALL,-- All countries --,FRA,France,17,All,2025-02-01,All modalities
+ALL,-- All countries --,FRA,France,18,All,2025-03-01,All modalities
+ALL,-- All countries --,FRA,France,18,All,2025-04-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,2,All,2023-01-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,2,All,2023-02-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,2,All,2023-03-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,2,All,2023-04-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,2,All,2023-05-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,2,All,2023-06-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2023-07-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2023-08-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2023-09-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2023-10-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,4,All,2023-11-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,4,All,2023-12-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,4,All,2024-01-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,4,All,2024-02-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2024-03-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2024-04-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2024-05-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,7,All,2024-06-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,9,All,2024-07-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,9,All,2024-08-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,9,All,2024-09-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,11,All,2024-10-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,11,All,2024-11-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,11,All,2024-12-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,11,All,2025-01-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,11,All,2025-02-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,11,All,2025-03-01,All modalities
+ALL,-- All countries --,GBR,United Kingdom,11,All,2025-04-01,All modalities
+ALL,-- All countries --,NLD,Netherlands,16,All,2024-11-01,All modalities
+ALL,-- All countries --,NLD,Netherlands,16,All,2024-12-01,All modalities
+ALL,-- All countries --,NLD,Netherlands,26,All,2025-01-01,All modalities
+ALL,-- All countries --,NLD,Netherlands,26,All,2025-02-01,All modalities
+ALL,-- All countries --,NLD,Netherlands,33,All,2025-03-01,All modalities
+ALL,-- All countries --,NLD,Netherlands,36,All,2025-04-01,All modalities
+ALL,-- All countries --,CAN,Canada,3,All,2023-07-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2023-08-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2023-09-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2023-10-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2023-11-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2023-12-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2024-01-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2024-02-01,All modalities
+ALL,-- All countries --,CAN,Canada,3,All,2024-03-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2024-04-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2024-05-01,All modalities
+ALL,-- All countries --,CAN,Canada,4,All,2024-06-01,All modalities
+ALL,-- All countries --,CAN,Canada,3,All,2024-07-01,All modalities
+ALL,-- All countries --,CAN,Canada,3,All,2024-08-01,All modalities
+ALL,-- All countries --,CAN,Canada,3,All,2024-09-01,All modalities
+ALL,-- All countries --,CAN,Canada,8,All,2024-10-01,All modalities
+ALL,-- All countries --,CAN,Canada,9,All,2024-11-01,All modalities
+ALL,-- All countries --,CAN,Canada,9,All,2024-12-01,All modalities
+ALL,-- All countries --,CAN,Canada,9,All,2025-01-01,All modalities
+ALL,-- All countries --,CAN,Canada,9,All,2025-02-01,All modalities
+ALL,-- All countries --,CAN,Canada,18,All,2025-03-01,All modalities
+ALL,-- All countries --,CAN,Canada,18,All,2025-04-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-03-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-04-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-05-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-06-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-07-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-08-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-09-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-10-01,All modalities
+ALL,-- All countries --,ISR,Israel,3,All,2023-11-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2023-12-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2024-01-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2024-02-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2024-03-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2024-04-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2024-05-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2024-06-01,All modalities
+ALL,-- All countries --,ISR,Israel,4,All,2024-07-01,All modalities
+ALL,-- All countries --,ISR,Israel,6,All,2024-08-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2024-09-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2024-10-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2024-11-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2024-12-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2025-01-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2025-02-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2025-03-01,All modalities
+ALL,-- All countries --,ISR,Israel,2,All,2025-04-01,All modalities
+ALL,-- All countries --,KOR,Korea,2,All,2024-09-01,All modalities
+ALL,-- All countries --,KOR,Korea,3,All,2024-10-01,All modalities
+ALL,-- All countries --,KOR,Korea,3,All,2024-11-01,All modalities
+ALL,-- All countries --,KOR,Korea,3,All,2024-12-01,All modalities
+ALL,-- All countries --,KOR,Korea,3,All,2025-01-01,All modalities
+ALL,-- All countries --,KOR,Korea,3,All,2025-02-01,All modalities
+ALL,-- All countries --,KOR,Korea,3,All,2025-03-01,All modalities
+ALL,-- All countries --,KOR,Korea,3,All,2025-04-01,All modalities
