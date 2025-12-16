@@ -31,3 +31,4 @@ for i, rec in enumerate(samples):
         text_len = len(div_text.get_text())
         print(f'  div.text length: {text_len} chars')
     print()
+
