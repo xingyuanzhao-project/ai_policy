@@ -15,6 +15,9 @@
 !.gitignore
 !.gitattributes
 
+# Traditional project files
+!requirements.txt
+
 # Always ignore
 *.pyc
 __pycache__/
