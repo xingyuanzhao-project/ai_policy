@@ -125,11 +125,11 @@ legislation.
 
 Preliminary analysis reveals partisan variation in AI definitional engagement. Democratic legislators introduced substantially more AI-related bills (737) than their Republican counterparts (427), with a higher proportion of Democratic bills containing explicit AI definitions (47%) compared to Republican bills (40%). This pattern suggests that Democratic legislators may engage more deliberately with definitional precision when drafting AI legislation, providing initial evidence for partisan divergence in how lawmakers approach the conceptual boundaries of artificial intelligence.
 
-![AI Definition Presence by Party - Counts](plot/AI%20Definition%20Presence%20by%20Party%20-%20Counts.png)
+![AI Definition Presence by Party - Counts](../plot/AI%20Definition%20Presence%20by%20Party%20-%20Counts.png)
 
 Geographic heterogeneity emerges across states in both legislative volume and definitional inclusion. California, New York, and Texas lead in introduced and passed bill counts, reflecting their roles as technology and economic hubs. However, passage rates and definition inclusion rates do not uniformly follow introduction volume—several mountain and plains states exhibit higher passage percentages despite lower absolute counts, while states such as Maine and scattered southern states demonstrate elevated rates of definition inclusion. These geographic patterns warrant further network-based analysis to uncover underlying diffusion mechanisms.
 
-![AI Bill Statistics by State](plot/bill_count_map_2x2.png)
+![AI Bill Statistics by State](../plot/bill_count_map_2x2.png)
 
 Collectively, these preliminary findings affirm that the question of definitional engagement is indeed worth investigating: state-level attributes—partisan composition, economic position, and geographic location—appear to shape whether legislators include AI definitions in their bills, validating the need for network-based diffusion analysis to uncover the underlying mechanisms.
 

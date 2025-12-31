@@ -10,12 +10,13 @@
 !settings/**
 !docs/
 !docs/**
+!plot/
+!plot/**
 
 # Git config files (mandatory)
 !.gitignore
 !.gitattributes
 
-# Traditional project files
 !requirements.txt
 
 # Always ignore
