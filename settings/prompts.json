@@ -1,0 +1,30 @@
+{
+    "prompt_template": {
+        "task": "Extract AI definition from legislation text",
+        "instructions": [
+            "Do read the provided legislation text, do not skip any sections.",
+            "Do identify if there is an explicit definition of artificial intelligence (AI), do not assume a definition exists.",
+            "Do extract the definition exactly as written if it exists, do not paraphrase or summarize.",
+            "Do return empty string if no definition is found, do not fabricate a definition."
+        ],
+        "input": {
+            "text": "{text}"
+        },
+        "output_format": {
+            "definition_found": "<true if AI definition exists, false otherwise>",
+            "definition": "<exact text of the definition, or empty string if not found>"
+        }
+    },
+    "output_schema": {
+        "type": "object",
+        "properties": {
+            "definition_found": {
+                "type": "boolean"
+            },
+            "definition": {
+                "type": "string"
+            }
+        },
+        "required": ["definition_found", "definition"]
+    }
+}

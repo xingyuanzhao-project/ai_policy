@@ -1,4 +1,0 @@
-Description:
-LinkedIn is a social network for professionals, allowing users to connect with colleagues,
-search for jobs, and share professional content. 
-

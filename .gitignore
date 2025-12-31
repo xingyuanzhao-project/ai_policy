@@ -1,6 +1,26 @@
-# Environments
-.venv/
-.venv_mac/
-venv/
+# Ignore everything at root
+*
+
+# Track folders only
+!scripts/
+!scripts/**
+!src/
+!src/**
+!settings/
+!settings/**
+!docs/
+!docs/**
+
+# Git config files (mandatory)
+!.gitignore
+!.gitattributes
+
+# Always ignore
 *.pyc
 __pycache__/
+.ipynb_checkpoints/
+.venv/
+.claude/
+.DS_Store
+Thumbs.db
+~$*
