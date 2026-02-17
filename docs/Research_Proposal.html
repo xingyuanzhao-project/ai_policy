@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>research_proposal</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="Research_Proposal_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Research_Proposal_files/libs/quarto-html/quarto.js"></script>
+<script src="Research_Proposal_files/libs/quarto-html/popper.min.js"></script>
+<script src="Research_Proposal_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Research_Proposal_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Research_Proposal_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Research_Proposal_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Research_Proposal_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Research_Proposal_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Research_Proposal_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<p><em>Research Proposal</em></p>
+<p><em>Topic: AI Legislation in U.S. States</em></p>
+<p><em>Internal communication version</em></p>
+<section id="ai-legislation-in-the-u.s.-2025-semantic-games-and-partisan-bias-in-artificial-intelligence-definition-using-large-language-models-and-social-network-diffusion-analysis" class="level1">
+<h1>AI Legislation in the U.S. 2025: Semantic Games and Partisan Bias in Artificial Intelligence Definition Using Large Language Models and Social Network Diffusion Analysis</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>It is known that the United States introduced over 1,000 pieces of artificial intelligence (AI) legislation in 2025 according to public records. AI legislation until 2025 is concentrated at the state level, with significant variance in legislative output across states, both in terms of the number of laws passed and the issues addressed. However, U.S. states have not reached a consensus on AI definition. Since a definition determines who is subject to regulation and who is exempt, disagreements over the AI definition can directly affect regulatory effectiveness. Moreover, whether there are underlying evolutionary patterns or diffusion networks behind AI definition diversity remains unclear. This study aims to goes further to analyze the semantic similarity network of AI definitions to investigate whether (1) early bills possess a first-mover advantage in shaping subsequent definitions, and (2) whether states cluster into distinct definitional communities based on their economic and geographic attributes.</p>
+</section>
+<section id="literature-review" class="level2">
+<h2 class="anchored" data-anchor-id="literature-review">Literature Review</h2>
+<p>Parinandi et. al (2024)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> employed quantitative research to address the question of what drives AI policy in the United States. They gather data on the state-level adoption of AI policy, as well as roll call voting on AI bills, by state legislatures and analyze the political economy of AI legislation. They find that rising unemployment and inflation are negatively associated with a state’s AI policymaking; they also find that liberal lawmakers and Democrats are more likely to support bills establishing consumer protection requirements on AI usage. This study will examine whether the partisan divisions identified by Parinandi also extend to the micro-level of the legal definition of AI.</p>
+<p>Complementing this discussion on policy drivers, DeFranco et.al (2024)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> highlights the technical knowledge gap among policymakers. They argue that because most officials lack the expertise to judge emerging AI technologies, they must rely on a comprehensive landscape of existing guidelines, international standards, and city-level directives to inform their oversight. Because policymakers lack technical expertise, the 2025 legislation will be highly confusing in its definition of AI, which is precisely why this study examines the concept of definition.</p>
+<p>DePaula et.al (2024) relies on legislation that has already been adopted, which may somewhat limit the breadth of discussion and the predictive scope for the trend; and their data does not cover the new trend in 2025; also, did not delve into the semantic analysis defined by the text. However, comprehensive quantitative analysis based on the latest data remains scarce.</p>
+<p>Beyond filling the data gap for 2025, this study moves past analysis by constructing a semantic similarity network to investigate the evolutionary dynamics and diffusion patterns of AI definitions across state lines.</p>
+</section>
+<section id="research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="research-questions">Research Questions</h2>
+<section id="statutory-definitions" class="level3">
+<h3 class="anchored" data-anchor-id="statutory-definitions">Statutory Definitions</h3>
+<p>The 2025 AI legislation by states contains various definitions of AI. New terms such as generative AI, synthetic media, and foundational models have emerged; Democratic states may lean toward a broader definition, while republican states may focus on strict definition; The lack of uniform definitions across states creates potential regulatory risks. This divergence in statutory definitions provides the basis for constructing the similarity matrix, allowing us to test whether these definitions diffuse through a first-mover or via cluster based homophily.</p>
+<p>This divergence raises a compelling research focus: do legislators genuinely engage with the definitional nuances of AI when drafting these bills, or do they merely adopt language from prior legislation without critical evaluation? Are the definitions internally consistent within a single state’s legislative corpus, and more broadly, is there a discernible pattern of diffusion across state boundaries? To systematically investigate these questions, we employ large language model technology to identify, extract, and compare statutory definitions across the legislative landscape, enabling us to uncover latent patterns that would otherwise remain obscured in the volume of textual data.</p>
+<p><strong>RQ1: Do temporally early bills are more likely to be adopted by later bills?</strong></p>
+<p><strong>RQ2: Does the similarity network exhibit community structure, and do node attributes predict block membership?</strong></p>
+</section>
+</section>
+<section id="data-source" class="level2">
+<h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
+<p>The data source is from state AI legislation, which will be over 1,000 piecesin 2025 according to public records<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. The methodology of this study integrates natural language processing with large language models. The pipeline begins with preprocessing including tokenization and lemmatization to minimize noise from morphological variations and standardize keyword frequencies across the 2025 legislative textual database. This is followed by deep semantic extraction leveraging LLMs to automatically identify complex statutory AI definitions and uncover latent partisan bias within the bills.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>Notably, using large language models<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> to automatically extract legislative positions represents the most advanced approach currently available. Recent research such as Kim et al.&nbsp;(2025)<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> has already leveraged advanced AI frameworks including large language models to develop scalable pipelines which automatically extract positions from legislative activities. Also, automated processing of bill summaries has already demonstrated successful precedents. Following the precedent of the BillSum dataset (Kornilova et al., 2019)<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>, which focuses on the summarization of US Congressional and state bills, this study extends the scope to the semantic analysis of statutory definitions.</p>
+<p>Last but not least, this study employs social network analysis to move beyond individual bill analysis, specifically utilizing GERGM and WSBM models to analyze the similarity matrix derived from LLM extracted AI definitions and to identify the structural diffusion patterns of AI legislation.</p>
+</section>
+<section id="hypotheses" class="level2">
+<h2 class="anchored" data-anchor-id="hypotheses">Hypotheses</h2>
+<p><strong>H1: Significant block structure exists (model fit vs.&nbsp;null).</strong></p>
+<p><strong>H2: Introduction time predicts block membership, indicating temporal clustering of definitions.</strong></p>
+<p><strong>H3: Economic attributes predict block membership, indicating economic clustering.</strong></p>
+<p><strong>H4: Geographic region predicts block membership, indicating regional diffusion patterns.</strong></p>
+</section>
+<section id="preliminary-results" class="level2">
+<h2 class="anchored" data-anchor-id="preliminary-results">Preliminary Results</h2>
+<p>Preliminary analysis reveals partisan variation in AI definitional engagement. Democratic legislators introduced substantially more AI-related bills (737) than their Republican counterparts (427), with a higher proportion of Democratic bills containing explicit AI definitions (47%) compared to Republican bills (40%). This pattern suggests that Democratic legislators may engage more deliberately with definitional precision when drafting AI legislation, providing initial evidence for partisan divergence in how lawmakers approach the conceptual boundaries of artificial intelligence.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../plot/AI%20Definition%20Presence%20by%20Party%20-%20Counts.png" class="img-fluid figure-img"></p>
+<figcaption>AI Definition Presence by Party - Counts</figcaption>
+</figure>
+</div>
+<p>Geographic heterogeneity emerges across states in both legislative volume and definitional inclusion. California, New York, and Texas lead in introduced and passed bill counts, reflecting their roles as technology and economic hubs. However, passage rates and definition inclusion rates do not uniformly follow introduction volume—several mountain and plains states exhibit higher passage percentages despite lower absolute counts, while states such as Maine and scattered southern states demonstrate elevated rates of definition inclusion. These geographic patterns warrant further network-based analysis to uncover underlying diffusion mechanisms.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../plot/bill_count_map_2x2.png" class="img-fluid figure-img"></p>
+<figcaption>AI Bill Statistics by State</figcaption>
+</figure>
+</div>
+<p>Collectively, these preliminary findings affirm that the question of definitional engagement is indeed worth investigating: state-level attributes—partisan composition, economic position, and geographic location—appear to shape whether legislators include AI definitions in their bills, validating the need for network-based diffusion analysis to uncover the underlying mechanisms.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>AI@Meta. 2024. “The Llama 3 Herd of Models.” <em>arXiv:2407.21783</em>. https://arxiv.org/abs/2407.21783</p>
+<p>DeFranco, Joanna F., and Luke Biersmith. 2024. “Assessing the State of AI Policy.” <em>arXiv:2407.21717 [cs.AI]</em>. https://doi.org/10.48550/arXiv.2407.21717</p>
+<p>Eidelman, Vladimir. 2019. “BillSum: A Corpus for Automatic Summarization of US Legislation.” In <em>Proceedings of the 2nd Workshop on New Frontiers in Summarization</em>, 48–56. Association for Computational Linguistics. https://doi.org/10.18653/v1/D19-5406</p>
+<p>Kim, Jiseon, Dongkwan Kim, Joohye Jeong, Alice Oh, and In Song Kim. 2025. “Measuring Interest Group Positions on Legislation: An AI-Driven Analysis of Lobbying Reports.” <em>arXiv:2504.15333</em>. https://arxiv.org/abs/2504.15333</p>
+<p>NCSL. 2025. “Artificial Intelligence Legislation Database.” https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database</p>
+<p>Parinandi, Srinivas, Jesse Crosson, Kai Peterson, and Sinan Nadarevic. 2024. “Investigating the Politics and Content of US State Artificial Intelligence Legislation.” <em>Business and Politics</em> 26(2): 240–62. https://doi.org/10.1017/bap.2023.40</p>
+<p>Wang, Bryan, and Danielle Haak. 2024. “Regulating Artificial Intelligence in the European Union and the United States.” <em>Journal of Student Research</em> 13(2). https://doi.org/10.47611/jsrhs.v13i2.6798</p>
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Parinandi, Srinivas, Jesse Crosson, Kai Peterson, and Sinan Nadarevic. 2024. “Investigating the Politics and Content of US State Artificial Intelligence Legislation.” <em>Business and Politics</em> 26(2): 240–62. https://doi.org/10.1017/bap.2023.40<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>DeFranco, Joanna F., and Luke Biersmith. 2024. “Assessing the State of AI Policy.” <em>arXiv:2407.21717 [cs.AI]</em>. https://doi.org/10.48550/arXiv.2407.21717<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>NCSL. 2025. “Artificial Intelligence Legislation Database.” https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>AI@Meta. 2024. “The Llama 3 Herd of Models.” <em>arXiv:2407.21783</em>. https://arxiv.org/abs/2407.21783<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Kim, Jiseon, Dongkwan Kim, Joohye Jeong, Alice Oh, and In Song Kim. 2025. “Measuring Interest Group Positions on Legislation: An AI-Driven Analysis of Lobbying Reports.” <em>arXiv:2504.15333</em>. https://arxiv.org/abs/2504.15333<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Eidelman, Vladimir. 2019. “BillSum: A Corpus for Automatic Summarization of US Legislation.” In <em>Proceedings of the 2nd Workshop on New Frontiers in Summarization</em>, 48–56. Association for Computational Linguistics. https://doi.org/10.18653/v1/D19-5406<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
