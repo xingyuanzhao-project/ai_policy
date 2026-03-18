@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5803731841490287117,
+    "source_group_id": 10287869491565211441,
+    "source_candidate_ids": [
+      6640289520416373395
+    ],
+    "entity": "Alabama Agricultural and Mechanical University, Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "null",
+    "entity_evidence": [
+      {
+        "span_id": 6506629298170950753,
+        "start": 117246,
+        "end": 117289,
+        "text": "Mechanical University, Board of Trustees",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10985969213991434863,
+        "start": 117246,
+        "end": 117289,
+        "text": "government agency",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5713613274089014755,
+        "start": 117246,
+        "end": 117289,
+        "text": "restriction",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2437651516552921114,
+        "start": 117246,
+        "end": 117289,
+        "text": "null",
+        "chunk_id": 16267867622573227659
+      }
+    ]
+  }
+]

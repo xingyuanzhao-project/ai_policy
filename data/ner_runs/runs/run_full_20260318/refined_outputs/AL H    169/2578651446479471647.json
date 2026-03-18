@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8454820676770376678,
+    "source_group_id": 2578651446479471647,
+    "source_candidate_ids": [
+      1406028349383805435
+    ],
+    "entity": "Department of Rehabilitation Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "cerebral palsy services",
+    "entity_evidence": [
+      {
+        "span_id": 10569316148053180985,
+        "start": 111877,
+        "end": 111908,
+        "text": "Department of Rehabilitation Services",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14680597801574997484,
+        "start": 111908,
+        "end": 111928,
+        "text": "Services",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3557249491420753486,
+        "start": 111928,
+        "end": 111941,
+        "text": "may be used to",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4265919373091519880,
+        "start": 111941,
+        "end": 111961,
+        "text": "contract with providers of cerebral palsy services",
+        "chunk_id": 14134159057134452690
+      }
+    ]
+  }
+]

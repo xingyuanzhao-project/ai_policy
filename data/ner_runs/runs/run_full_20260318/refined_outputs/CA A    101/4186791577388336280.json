@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2780824986850559217,
+    "source_group_id": 4186791577388336280,
+    "source_candidate_ids": [
+      88816045681152808
+    ],
+    "entity": "Internal borrowable funds",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "higher rate of interest payments",
+    "entity_evidence": [
+      {
+        "span_id": 13938745192022080003,
+        "start": 1710399,
+        "end": 1710416,
+        "text": "Internal borrowable funds that require a higher rate of interest payments",
+        "chunk_id": 13968508032208768831
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16080801793962997012,
+        "start": 1710399,
+        "end": 1710416,
+        "text": "Internal borrowable funds that require a higher rate of interest payments",
+        "chunk_id": 13968508032208768831
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4360660160398845680,
+        "start": 1710399,
+        "end": 1710416,
+        "text": "Internal borrowable funds that require a higher rate of interest payments",
+        "chunk_id": 13968508032208768831
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7884680275273656328,
+        "start": 1710399,
+        "end": 1710416,
+        "text": "Internal borrowable funds that require a higher rate of interest payments",
+        "chunk_id": 13968508032208768831
+      }
+    ]
+  }
+]

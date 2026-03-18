@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5947343253899609995,
+    "source_group_id": 5066519908125829942,
+    "source_candidate_ids": [
+      12066200826240751797
+    ],
+    "entity": "zero-emission vehicle incentive programs",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "incentive",
+    "entity_evidence": [
+      {
+        "span_id": 2726275883613048120,
+        "start": 699432,
+        "end": 699466,
+        "text": "zero-emission vehicle incentive programs",
+        "chunk_id": 13360244923406904155
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2438777286375168334,
+        "start": 699432,
+        "end": 699466,
+        "text": "technology",
+        "chunk_id": 13360244923406904155
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8656653355203556497,
+        "start": 699432,
+        "end": 699466,
+        "text": "promotion",
+        "chunk_id": 13360244923406904155
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4414380680568779508,
+        "start": 699432,
+        "end": 699466,
+        "text": "incentive",
+        "chunk_id": 13360244923406904155
+      }
+    ]
+  }
+]

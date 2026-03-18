@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17868376684510603066,
+    "entity": "digital replica",
+    "type": "technology",
+    "attribute": "definition",
+    "value": "digital replica",
+    "entity_evidence": [
+      {
+        "span_id": 7757554459515612609,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6501454079949469211,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14503181765518673703,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10967833849556107553,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ]
+  },
+  {
+    "candidate_id": 3300061985553271354,
+    "entity": "name, voice, signature, photograph, or likeness",
+    "type": "infrastructure",
+    "attribute": "protection",
+    "value": "prior consent",
+    "entity_evidence": [
+      {
+        "span_id": 2318761042624393968,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 745192991413195293,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15619042586800695577,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12218099027500558924,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5139078475496439328,
+    "entity": "public libraries",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "high-speed internet network",
+    "entity_evidence": [
+      {
+        "span_id": 3728760603210922947,
+        "start": 1299034,
+        "end": 1299054,
+        "text": "public libraries to a high-speed internet network",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1307492729522815470,
+        "start": 1299034,
+        "end": 1299054,
+        "text": "public libraries to a high-speed internet network",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1171500313712220259,
+        "start": 1299034,
+        "end": 1299054,
+        "text": "public libraries to a high-speed internet network",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 861794240878090128,
+        "start": 1299034,
+        "end": 1299054,
+        "text": "public libraries to a high-speed internet network",
+        "chunk_id": 5656067071374739171
+      }
+    ]
+  },
+  {
+    "candidate_id": 4851282804458843096,
+    "entity": "California State Library",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "equity-focused Building Forward infrastructure grants",
+    "entity_evidence": [
+      {
+        "span_id": 4833716020193645076,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10959970657908396214,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6304246643510844462,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14661008271963919095,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3640700520580399336,
+    "entity": "California Department of Aging",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16115523995326402546,
+        "start": 813229,
+        "end": 813253,
+        "text": "the California Department of Aging",
+        "chunk_id": 6085541157816692555
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9297800936057527579,
+        "start": 813229,
+        "end": 813253,
+        "text": "the California Department of Aging",
+        "chunk_id": 6085541157816692555
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9618084919962406421,
+        "start": 813229,
+        "end": 813253,
+        "text": "the California Department of Aging",
+        "chunk_id": 6085541157816692555
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12209976109763522212,
+        "start": 813229,
+        "end": 813253,
+        "text": "the California Department of Aging",
+        "chunk_id": 6085541157816692555
+      }
+    ]
+  },
+  {
+    "candidate_id": 16459032069534293097,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16574748547935487614,
+        "start": 813229,
+        "end": 813243,
+        "text": "the Department of Finance",
+        "chunk_id": 6085541157816692555
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1076593093211123178,
+        "start": 813229,
+        "end": 813243,
+        "text": "the Department of Finance",
+        "chunk_id": 6085541157816692555
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8472186707429508771,
+        "start": 813229,
+        "end": 813243,
+        "text": "the Department of Finance",
+        "chunk_id": 6085541157816692555
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13124697593139227747,
+        "start": 813229,
+        "end": 813243,
+        "text": "the Department of Finance",
+        "chunk_id": 6085541157816692555
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6976797834161366291,
+    "source_group_id": 6344247181254938769,
+    "source_candidate_ids": [
+      4612464875516788321
+    ],
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 7928654204715792577,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18252954166245580380,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5609191870874030591,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16159392597382055118,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ]
+  }
+]

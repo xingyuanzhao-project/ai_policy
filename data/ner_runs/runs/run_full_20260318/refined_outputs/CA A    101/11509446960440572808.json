@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8058201209607614590,
+    "source_group_id": 11509446960440572808,
+    "source_candidate_ids": [
+      6442040666307842368
+    ],
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority may be transferred",
+    "entity_evidence": [
+      {
+        "span_id": 11530341469564578092,
+        "start": 1520224,
+        "end": 1520248,
+        "text": "For support of Department of Human Resources",
+        "chunk_id": 11535737454564067268
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10321514175391532094,
+        "start": 1520224,
+        "end": 1520248,
+        "text": "For support of Department of Human Resources",
+        "chunk_id": 11535737454564067268
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15876850495082976886,
+        "start": 1520499,
+        "end": 1520519,
+        "text": "expenditure authority may be transferred",
+        "chunk_id": 11535737454564067268
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15362906837967105107,
+        "start": 1520499,
+        "end": 1520519,
+        "text": "expenditure authority may be transferred",
+        "chunk_id": 11535737454564067268
+      }
+    ]
+  }
+]

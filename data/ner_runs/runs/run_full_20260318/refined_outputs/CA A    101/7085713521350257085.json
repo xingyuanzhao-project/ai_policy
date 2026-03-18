@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6375072541361934484,
+    "source_group_id": 7085713521350257085,
+    "source_candidate_ids": [
+      6759213110324499372
+    ],
+    "entity": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 1826712631714419539,
+        "start": 447555,
+        "end": 447575,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 7499850560685071799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9004669063863586280,
+        "start": 447555,
+        "end": 447575,
+        "text": "infrastructure",
+        "chunk_id": 7499850560685071799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10864071793497141199,
+        "start": 447555,
+        "end": 447575,
+        "text": "restriction",
+        "chunk_id": 7499850560685071799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14770967462691800001,
+        "start": 447555,
+        "end": 447575,
+        "text": "until June 30, 2026",
+        "chunk_id": 7499850560685071799
+      }
+    ]
+  }
+]

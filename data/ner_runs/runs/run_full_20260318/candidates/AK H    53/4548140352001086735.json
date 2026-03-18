@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4076658505914784253,
+    "entity": "Alaska Oil and Gas Conservation Commission",
+    "type": "government agency",
+    "attribute": "reclaiming",
+    "value": "state, federal, or private land",
+    "entity_evidence": [
+      {
+        "span_id": 1040261942145654764,
+        "start": 120880,
+        "end": 120901,
+        "text": "Alaska Oil and Gas Conservation Commission",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17187479228549955554,
+        "start": 120880,
+        "end": 120901,
+        "text": "government agency",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14945353568338878376,
+        "start": 120880,
+        "end": 120901,
+        "text": "reclaiming",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13158518958075754387,
+        "start": 120880,
+        "end": 120901,
+        "text": "state, federal, or private land",
+        "chunk_id": 4548140352001086735
+      }
+    ]
+  },
+  {
+    "candidate_id": 18037680463583216879,
+    "entity": "Department of Commerce, Community, and Economic Development",
+    "type": "government agency",
+    "attribute": "actuarial support",
+    "value": "fiscal years ending June 30, 2026, and June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 11402986209957078872,
+        "start": 120962,
+        "end": 120990,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9125581742996312794,
+        "start": 120962,
+        "end": 120990,
+        "text": "government agency",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17333071880931682293,
+        "start": 120962,
+        "end": 120990,
+        "text": "actuarial support",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16767337386752309300,
+        "start": 120962,
+        "end": 120990,
+        "text": "fiscal years ending June 30, 2026, and June 30, 2027",
+        "chunk_id": 4548140352001086735
+      }
+    ]
+  }
+]

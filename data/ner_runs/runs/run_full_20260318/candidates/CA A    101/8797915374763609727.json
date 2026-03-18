@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1570178544752601264,
+    "entity": "Trade Corridors Improvement Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 15814339535137761742,
+        "start": 404131,
+        "end": 404151,
+        "text": "Trade Corridors Improvement Fund",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12164757384850271550,
+        "start": 404131,
+        "end": 404151,
+        "text": "infrastructure",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3685202303432610829,
+        "start": 404131,
+        "end": 404151,
+        "text": "promotion",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13367736356590559722,
+        "start": 404131,
+        "end": 404151,
+        "text": "moderate",
+        "chunk_id": 8797915374763609727
+      }
+    ]
+  },
+  {
+    "candidate_id": 4433942400667980422,
+    "entity": "Transportation Facilities Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 15256650387699173212,
+        "start": 404242,
+        "end": 404263,
+        "text": "Transportation Facilities Account",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15416724677008164531,
+        "start": 404242,
+        "end": 404263,
+        "text": "infrastructure",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6951789617456285404,
+        "start": 404242,
+        "end": 404263,
+        "text": "promotion",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13682330687390535392,
+        "start": 404242,
+        "end": 404263,
+        "text": "moderate",
+        "chunk_id": 8797915374763609727
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12052281989697349809,
+    "source_group_id": 10734304545050689002,
+    "source_candidate_ids": [
+      2632870947691351257
+    ],
+    "entity": "Building Homes and Jobs Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14313775771184344807,
+        "start": 297640,
+        "end": 297640,
+        "text": "",
+        "chunk_id": 2334037505815945029
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7996702859543530895,
+        "start": 297640,
+        "end": 297640,
+        "text": "",
+        "chunk_id": 2334037505815945029
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8992117574097965597,
+        "start": 297640,
+        "end": 297640,
+        "text": "",
+        "chunk_id": 2334037505815945029
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12320062084918787761,
+        "start": 297640,
+        "end": 297640,
+        "text": "",
+        "chunk_id": 2334037505815945029
+      }
+    ]
+  }
+]

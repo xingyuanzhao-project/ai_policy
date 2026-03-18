@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 617344354637749125,
+    "source_group_id": 13406650018809215116,
+    "source_candidate_ids": [
+      6857931913989900653
+    ],
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "biannual reports",
+    "entity_evidence": [
+      {
+        "span_id": 4329664128583594198,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 996315362302565431,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10576320386879058911,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14269143970032096424,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ]
+  }
+]

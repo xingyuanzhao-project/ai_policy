@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11923440731846295307,
+    "entity": "State Bar",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 11949110302852513205,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15721753205244110133,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7263691907907274012,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17621968213122171500,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ]
+  },
+  {
+    "candidate_id": 10634049900793112011,
+    "entity": "California State Auditor's Office",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 11726481952224777588,
+        "start": 5089,
+        "end": 5109,
+        "text": "the California State Auditor's Office",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12210795936825396354,
+        "start": 5089,
+        "end": 5109,
+        "text": "the California State Auditor's Office",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17081628686510285487,
+        "start": 5089,
+        "end": 5109,
+        "text": "the California State Auditor's Office",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1357522834688277965,
+        "start": 5089,
+        "end": 5109,
+        "text": "the California State Auditor's Office",
+        "chunk_id": 17122419390587296862
+      }
+    ]
+  }
+]

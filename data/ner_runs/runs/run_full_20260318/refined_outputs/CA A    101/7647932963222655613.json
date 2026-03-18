@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11757262408938931938,
+    "source_group_id": 7647932963222655613,
+    "source_candidate_ids": [
+      13206887771176078750
+    ],
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 17911702535896577546,
+        "start": 1720618,
+        "end": 1720635,
+        "text": "Judgments by the Department of Justice",
+        "chunk_id": 10025657244320267993
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8537860207933572956,
+        "start": 1720618,
+        "end": 1720635,
+        "text": "Judgments by the Department of Justice",
+        "chunk_id": 10025657244320267993
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9899817832998692239,
+        "start": 1720618,
+        "end": 1720635,
+        "text": "Judgments by the Department of Justice",
+        "chunk_id": 10025657244320267993
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13589143394445393309,
+        "start": 1720618,
+        "end": 1720635,
+        "text": "Judgments by the Department of Justice",
+        "chunk_id": 10025657244320267993
+      }
+    ]
+  }
+]

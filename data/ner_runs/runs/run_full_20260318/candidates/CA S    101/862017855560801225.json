@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4972214748360503399,
+    "entity": "Behavioral Health Services Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 16499406878567439587,
+        "start": 890390,
+        "end": 890411,
+        "text": "Behavioral Health Services Fund",
+        "chunk_id": 862017855560801225
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14231517153473069283,
+        "start": 890390,
+        "end": 890411,
+        "text": "Behavioral Health Services Fund",
+        "chunk_id": 862017855560801225
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8228364258510480333,
+        "start": 890422,
+        "end": 890428,
+        "text": "extended",
+        "chunk_id": 862017855560801225
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1149614205311018326,
+        "start": 890422,
+        "end": 890428,
+        "text": "extended",
+        "chunk_id": 862017855560801225
+      }
+    ]
+  },
+  {
+    "candidate_id": 207225599433627962,
+    "entity": "Department of Community Services and Development",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "cumulative total of $3,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 7992148292357579027,
+        "start": 891316,
+        "end": 891340,
+        "text": "Department of Community Services and Development",
+        "chunk_id": 862017855560801225
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17184219940554848074,
+        "start": 891316,
+        "end": 891340,
+        "text": "Department of Community Services and Development",
+        "chunk_id": 862017855560801225
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8639570963427827802,
+        "start": 891342,
+        "end": 891356,
+        "text": "made available",
+        "chunk_id": 862017855560801225
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18299476367509850680,
+        "start": 891357,
+        "end": 891383,
+        "text": "cumulative total of $3,000,000",
+        "chunk_id": 862017855560801225
+      }
+    ]
+  }
+]

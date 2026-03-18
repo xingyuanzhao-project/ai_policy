@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5814668648340724637,
+    "entity": "California State Payroll System",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific criteria",
+    "entity_evidence": [
+      {
+        "span_id": 11365284538655322725,
+        "start": 206347,
+        "end": 206368,
+        "text": "specific criteria",
+        "chunk_id": 18331109161876622350
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9299131046132326302,
+        "start": 206347,
+        "end": 206368,
+        "text": "specific criteria",
+        "chunk_id": 18331109161876622350
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10633240875473211817,
+        "start": 206347,
+        "end": 206368,
+        "text": "specific criteria",
+        "chunk_id": 18331109161876622350
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12590975537021340597,
+        "start": 206347,
+        "end": 206368,
+        "text": "specific criteria",
+        "chunk_id": 18331109161876622350
+      }
+    ]
+  },
+  {
+    "candidate_id": 16879842098963388505,
+    "entity": "California Firefighters' Memorial Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 13957411780544832215,
+        "start": 206317,
+        "end": 206336,
+        "text": "California Firefighters' Memorial Fund",
+        "chunk_id": 18331109161876622350
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10972566488640490393,
+        "start": 206317,
+        "end": 206336,
+        "text": "California Firefighters' Memorial Fund",
+        "chunk_id": 18331109161876622350
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13122448900377734665,
+        "start": 206317,
+        "end": 206336,
+        "text": "California Firefighters' Memorial Fund",
+        "chunk_id": 18331109161876622350
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13633307658516310186,
+        "start": 206317,
+        "end": 206336,
+        "text": "California Firefighters' Memorial Fund",
+        "chunk_id": 18331109161876622350
+      }
+    ]
+  }
+]

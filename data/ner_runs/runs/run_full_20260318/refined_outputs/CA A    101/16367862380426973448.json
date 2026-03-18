@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11220238123685794161,
+    "source_group_id": 16367862380426973448,
+    "source_candidate_ids": [
+      13251138544390387897
+    ],
+    "entity": "Director of State Hospitals",
+    "type": "government agency",
+    "attribute": "reporting requirement",
+    "value": "yearend summary and operating budget",
+    "entity_evidence": [
+      {
+        "span_id": 2523981226789085914,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7506362128956481165,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3730370575788307567,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18219006871595418598,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ]
+  }
+]

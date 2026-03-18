@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18124207134291063957,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10727511694539952345,
+        "start": 587502,
+        "end": 587523,
+        "text": "Department of Water Resources",
+        "chunk_id": 11434202339804140647
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16552791410434049997,
+        "start": 587502,
+        "end": 587523,
+        "text": "government agency",
+        "chunk_id": 11434202339804140647
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12963229157416683253,
+        "start": 587502,
+        "end": 587523,
+        "text": "restriction",
+        "chunk_id": 11434202339804140647
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8239026807439398217,
+        "start": 587502,
+        "end": 587523,
+        "text": "limited",
+        "chunk_id": 11434202339804140647
+      }
+    ]
+  },
+  {
+    "candidate_id": 11255496654867068306,
+    "entity": "California Environmental License Plate Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 16985003417127581913,
+        "start": 587614,
+        "end": 587634,
+        "text": "California Environmental License Plate Fund",
+        "chunk_id": 11434202339804140647
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3508144487914602272,
+        "start": 587614,
+        "end": 587634,
+        "text": "infrastructure",
+        "chunk_id": 11434202339804140647
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14638853612981722198,
+        "start": 587614,
+        "end": 587634,
+        "text": "promotion",
+        "chunk_id": 11434202339804140647
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12066264976064251104,
+        "start": 587614,
+        "end": 587634,
+        "text": "significant",
+        "chunk_id": 11434202339804140647
+      }
+    ]
+  }
+]

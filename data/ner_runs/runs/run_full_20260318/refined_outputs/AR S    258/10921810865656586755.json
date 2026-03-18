@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10466870067534464576,
+    "source_group_id": 10921810865656586755,
+    "source_candidate_ids": [
+      3096114652997495482
+    ],
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "effective technical and organizational controls",
+    "entity_evidence": [
+      {
+        "span_id": 13861072676812695610,
+        "start": 46402,
+        "end": 46427,
+        "text": "controller is able to demonstrate any information necessary to identify the consumer is kept separately and is subject to effective technical and organizational controls",
+        "chunk_id": 7856830618464474935
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3463774559928610310,
+        "start": 46402,
+        "end": 46414,
+        "text": "controller",
+        "chunk_id": 7856830618464474935
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17294547578389642834,
+        "start": 46402,
+        "end": 46427,
+        "text": "effective technical and organizational controls",
+        "chunk_id": 7856830618464474935
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11760374989331313797,
+        "start": 46402,
+        "end": 46427,
+        "text": "effective technical and organizational controls",
+        "chunk_id": 7856830618464474935
+      }
+    ]
+  }
+]

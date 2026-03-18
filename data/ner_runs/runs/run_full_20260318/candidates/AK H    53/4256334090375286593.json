@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1659498749891478946,
+    "entity": "Human Rights Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12483827803759446321,
+        "start": 26224,
+        "end": 26244,
+        "text": "Human Rights Commission",
+        "chunk_id": 4256334090375286593
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16540937819469503402,
+        "start": 26224,
+        "end": 26244,
+        "text": "Commission",
+        "chunk_id": 4256334090375286593
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17405536350349738547,
+        "start": 26224,
+        "end": 26244,
+        "text": "Commission",
+        "chunk_id": 4256334090375286593
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14682950639792504437,
+        "start": 26224,
+        "end": 26244,
+        "text": "Commission",
+        "chunk_id": 4256334090375286593
+      }
+    ]
+  },
+  {
+    "candidate_id": 10663150630365512460,
+    "entity": "Department of Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5621557958483880288,
+        "start": 26224,
+        "end": 26244,
+        "text": "Department of Health",
+        "chunk_id": 4256334090375286593
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9799375085091767347,
+        "start": 26224,
+        "end": 26244,
+        "text": "Department",
+        "chunk_id": 4256334090375286593
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16634517715117249870,
+        "start": 26224,
+        "end": 26244,
+        "text": "Department",
+        "chunk_id": 4256334090375286593
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16437314265575638615,
+        "start": 26224,
+        "end": 26244,
+        "text": "Department",
+        "chunk_id": 4256334090375286593
+      }
+    ]
+  }
+]

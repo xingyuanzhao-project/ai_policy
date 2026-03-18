@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3416950340913516031,
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "in lieu of the amounts that otherwise would have been appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 1680228744432370581,
+        "start": 1375025,
+        "end": 1375049,
+        "text": "Employment Development Department",
+        "chunk_id": 8373309309600370101
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16662768029439060242,
+        "start": 1375025,
+        "end": 1375049,
+        "text": "Employment Development Department",
+        "chunk_id": 8373309309600370101
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13518438124470109116,
+        "start": 1375549,
+        "end": 1375573,
+        "text": "in lieu of the amounts that otherwise would have been appropriated",
+        "chunk_id": 8373309309600370101
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5801623855291215131,
+        "start": 1375549,
+        "end": 1375573,
+        "text": "in lieu of the amounts that otherwise would have been appropriated",
+        "chunk_id": 8373309309600370101
+      }
+    ]
+  },
+  {
+    "candidate_id": 3891069193809250374,
+    "entity": "Unemployment Insurance Program",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "15 percent of the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 15920670685415642054,
+        "start": 1376660,
+        "end": 1376684,
+        "text": "Unemployment Insurance Program",
+        "chunk_id": 8373309309600370101
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1414381493252987432,
+        "start": 1376660,
+        "end": 1376684,
+        "text": "Unemployment Insurance Program",
+        "chunk_id": 8373309309600370101
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18179322240861829577,
+        "start": 1377104,
+        "end": 1377128,
+        "text": "15 percent of the amount appropriated",
+        "chunk_id": 8373309309600370101
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3439999163980981979,
+        "start": 1377104,
+        "end": 1377128,
+        "text": "15 percent of the amount appropriated",
+        "chunk_id": 8373309309600370101
+      }
+    ]
+  }
+]

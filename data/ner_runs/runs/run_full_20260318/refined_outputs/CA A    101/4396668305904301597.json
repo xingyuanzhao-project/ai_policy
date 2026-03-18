@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16553033847090353578,
+    "source_group_id": 4396668305904301597,
+    "source_candidate_ids": [
+      13261236497155330154
+    ],
+    "entity": "California ABLE Act Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "full-scale implementation and administrative costs",
+    "entity_evidence": [
+      {
+        "span_id": 9887064880754759014,
+        "start": 243411,
+        "end": 243435,
+        "text": "California ABLE Act Board",
+        "chunk_id": 6622620999151122368
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12597295706916763535,
+        "start": 243411,
+        "end": 243435,
+        "text": "government agency",
+        "chunk_id": 6622620999151122368
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17996235727014930922,
+        "start": 243411,
+        "end": 243435,
+        "text": "promotion",
+        "chunk_id": 6622620999151122368
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17469951794784427036,
+        "start": 243411,
+        "end": 243435,
+        "text": "full-scale implementation and administrative costs",
+        "chunk_id": 6622620999151122368
+      }
+    ]
+  }
+]

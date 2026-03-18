@@ -1,0 +1,144 @@
+Year,Public spending on AI-related contracts (% of total),Label
+2013,0.0,Department of State
+2014,0.004702891125866999,Department of State
+2015,0.009524867295792288,Department of State
+2016,0.08327428124162507,Department of State
+2017,0.04901907575304234,Department of State
+2018,0.007736180846004412,Department of State
+2019,0.0005227083537696451,Department of State
+2020,0.004595912542679634,Department of State
+2021,0.003391168287144147,Department of State
+2022,0.00162981863603549,Department of State
+2023,0.0002754298063900262,Department of State
+2013,0.0,Department of Education
+2014,0.0036200423324600976,Department of Education
+2015,0.001660970818939893,Department of Education
+2016,0.0007426784879752832,Department of Education
+2017,0.1426380620522673,Department of Education
+2018,0.06616448066110621,Department of Education
+2019,0.01906051877823904,Department of Education
+2020,-0.001126608249936165,Department of Education
+2021,0.0,Department of Education
+2022,0.0005630567535580193,Department of Education
+2023,0.0005135024756445933,Department of Education
+2013,0.0,General Services Administration
+2014,0.05634857431482265,General Services Administration
+2015,0.01311448030980435,General Services Administration
+2016,0.08834535829022673,General Services Administration
+2017,0.03831852145519424,General Services Administration
+2018,0.02883303207053018,General Services Administration
+2019,0.014152094087634619,General Services Administration
+2020,0.01592422094791317,General Services Administration
+2021,0.01763713197482342,General Services Administration
+2022,0.010691184873685679,General Services Administration
+2023,0.003243592662876255,General Services Administration
+2013,0.08244457085920018,National Aeronautics and Space Administration
+2014,0.044446051452369725,National Aeronautics and Space Administration
+2015,0.1202770293814978,National Aeronautics and Space Administration
+2016,0.06889755301109296,National Aeronautics and Space Administration
+2017,0.06512766177230628,National Aeronautics and Space Administration
+2018,0.03527277073377022,National Aeronautics and Space Administration
+2019,0.01817471956984298,National Aeronautics and Space Administration
+2020,0.01231516858935322,National Aeronautics and Space Administration
+2021,0.009838266854396923,National Aeronautics and Space Administration
+2022,0.01451709712313668,National Aeronautics and Space Administration
+2023,0.006878827614422038,National Aeronautics and Space Administration
+2013,0.007118279420207743,Department of Transportation
+2014,0.0017634078314169828,Department of Transportation
+2015,0.1318523390307656,Department of Transportation
+2016,0.002281623810248912,Department of Transportation
+2017,0.005829711189817909,Department of Transportation
+2018,0.0031777964221481603,Department of Transportation
+2019,0.007779531416150789,Department of Transportation
+2020,0.003437423754758756,Department of Transportation
+2021,0.006629255423225803,Department of Transportation
+2022,0.01056474147928178,Department of Transportation
+2023,0.00796990372199912,Department of Transportation
+2013,0.001253628630764848,Department of Justice
+2014,0.0041571164020434434,Department of Justice
+2015,0.01751097369341359,Department of Justice
+2016,0.01909504534853573,Department of Justice
+2017,0.006493688936085464,Department of Justice
+2018,0.0102223287504084,Department of Justice
+2019,0.00303488222752767,Department of Justice
+2020,0.00118332104422241,Department of Justice
+2021,0.01203418709727188,Department of Justice
+2022,0.0101859777257265,Department of Justice
+2023,0.009696490269822815,Department of Justice
+2013,0.004923093680243645,Other
+2014,0.02575648491046317,Other
+2015,0.00101223733545814,Other
+2016,0.004697916561785913,Other
+2017,0.008838257433888948,Other
+2018,0.0047901005108808145,Other
+2019,0.0123424931603376,Other
+2020,0.01729395374189496,Other
+2021,0.01578600844767845,Other
+2022,0.01756577959860161,Other
+2023,0.01570523408396632,Other
+2013,0.004924121106187928,Department of Commerce
+2014,0.003950445239322417,Department of Commerce
+2015,0.000309956403602778,Department of Commerce
+2016,0.0005609766604902363,Department of Commerce
+2017,-3.167912397743445e-06,Department of Commerce
+2018,0.001358684225040311,Department of Commerce
+2019,0.007597832589950426,Department of Commerce
+2020,0.01913310234160035,Department of Commerce
+2021,0.00923443828169308,Department of Commerce
+2022,0.03334724761942607,Department of Commerce
+2023,0.02077006805374324,Department of Commerce
+2013,0.08510385477289181,Department of Homeland Security
+2014,0.002085808628661375,Department of Homeland Security
+2015,0.04575283598671906,Department of Homeland Security
+2016,0.02786235459222866,Department of Homeland Security
+2017,0.06622930421474697,Department of Homeland Security
+2018,0.00732634776116389,Department of Homeland Security
+2019,0.011851350157222001,Department of Homeland Security
+2020,0.01032340368236276,Department of Homeland Security
+2021,0.01701434596701976,Department of Homeland Security
+2022,0.02177157455891811,Department of Homeland Security
+2023,0.02298972456992537,Department of Homeland Security
+2013,0.01755778880569296,Department of Health and Human Services
+2014,-8.160463641187325e-05,Department of Health and Human Services
+2015,0.015329145624775109,Department of Health and Human Services
+2016,0.04248955350172522,Department of Health and Human Services
+2017,0.02049540382241035,Department of Health and Human Services
+2018,0.005165203167168251,Department of Health and Human Services
+2019,0.052971886331143164,Department of Health and Human Services
+2020,0.01264519094594922,Department of Health and Human Services
+2021,0.05571167584554302,Department of Health and Human Services
+2022,0.02456919839738746,Department of Health and Human Services
+2023,0.03983195044949654,Department of Health and Human Services
+2013,0.0005030637911186215,Department of the Treasury
+2014,0.0,Department of the Treasury
+2015,0.0,Department of the Treasury
+2016,0.0,Department of the Treasury
+2017,0.0026930016859235202,Department of the Treasury
+2018,0.004278803929869139,Department of the Treasury
+2019,0.03800467068574717,Department of the Treasury
+2020,0.01588167910896627,Department of the Treasury
+2021,0.06805793314391109,Department of the Treasury
+2022,0.0608671510768779,Department of the Treasury
+2023,0.05337645946048272,Department of the Treasury
+2013,0.1577377847097997,Department of Veterans Affairs
+2014,0.03236859970864546,Department of Veterans Affairs
+2015,0.029842653836660273,Department of Veterans Affairs
+2016,0.03750297197979679,Department of Veterans Affairs
+2017,0.02384023250467262,Department of Veterans Affairs
+2018,0.2087312082359528,Department of Veterans Affairs
+2019,0.03784659633787054,Department of Veterans Affairs
+2020,0.1110505290953121,Department of Veterans Affairs
+2021,0.07160637305683375,Department of Veterans Affairs
+2022,0.0836219376626993,Department of Veterans Affairs
+2023,0.0683166763396171,Department of Veterans Affairs
+2013,0.6384338142238926,Department of Defense
+2014,0.8208821826903396,Department of Defense
+2015,0.6138125102825713,Department of Defense
+2016,0.6242496865142685,Department of Defense
+2017,0.5704802470920417,Department of Defense
+2018,0.6169430626859572,Department of Defense
+2019,0.7766607163045642,Department of Defense
+2020,0.7773427024549234,Department of Defense
+2021,0.7130592156204585,Department of Defense
+2022,0.7101052344946653,Department of Defense
+2023,0.7504321404916138,Department of Defense

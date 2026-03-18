@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7429021744064962250,
+    "entity": "Arizona Revised Statutes",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6576547696532181286,
+        "start": 12440,
+        "end": 12464,
+        "text": "Arizona Revised Statutes",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12430476518709080211,
+        "start": 12440,
+        "end": 12464,
+        "text": "infrastructure",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17174624481890886590,
+        "start": 12440,
+        "end": 12464,
+        "text": "restriction",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9872341491779608583,
+        "start": 12440,
+        "end": 12464,
+        "text": "extremely restrictive",
+        "chunk_id": 4231032712934685707
+      }
+    ]
+  },
+  {
+    "candidate_id": 2309346120992084494,
+    "entity": "Child sex trafficking",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "complete",
+    "entity_evidence": [
+      {
+        "span_id": 8180331617194859346,
+        "start": 12533,
+        "end": 12553,
+        "text": "Child sex trafficking",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6833446484496444828,
+        "start": 12533,
+        "end": 12553,
+        "text": "technology",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11841437170566593340,
+        "start": 12533,
+        "end": 12553,
+        "text": "prohibition",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2693718134442171996,
+        "start": 12533,
+        "end": 12553,
+        "text": "complete",
+        "chunk_id": 4231032712934685707
+      }
+    ]
+  }
+]

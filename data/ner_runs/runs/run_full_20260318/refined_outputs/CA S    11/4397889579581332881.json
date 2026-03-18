@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 3965094750684570392,
+    "source_group_id": 4397889579581332881,
+    "source_candidate_ids": [
+      8425109321151338886,
+      14606745840099833738
+    ],
+    "entity": "person",
+    "type": "individual",
+    "attribute": "exemption",
+    "value": "commercial use",
+    "entity_evidence": [
+      {
+        "span_id": 14810030898986059626,
+        "start": 4344,
+        "end": 4349,
+        "text": "person",
+        "chunk_id": 16153670390926803449
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8216456115513815825,
+        "start": 4350,
+        "end": 4356,
+        "text": "individual",
+        "chunk_id": 16153670390926803449
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13915346530254301782,
+        "start": 4357,
+        "end": 4363,
+        "text": "exemption",
+        "chunk_id": 16153670390926803449
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13618741272570816965,
+        "start": 4364,
+        "end": 4373,
+        "text": "commercial use",
+        "chunk_id": 16153670390926803449
+      }
+    ]
+  }
+]

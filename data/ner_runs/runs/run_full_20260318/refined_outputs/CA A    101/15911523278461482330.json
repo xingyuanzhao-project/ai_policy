@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3258419491840016677,
+    "source_group_id": 15911523278461482330,
+    "source_candidate_ids": [
+      11490754343890877744
+    ],
+    "entity": "Secretary of Business, Consumer Services, and Housing Agency",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2306299802624529438,
+        "start": 84726,
+        "end": 84758,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing Agency",
+        "chunk_id": 8239522850961446835
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2543179969417235522,
+        "start": 84726,
+        "end": 84758,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing Agency",
+        "chunk_id": 8239522850961446835
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3120796932971331163,
+        "start": 84726,
+        "end": 84758,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing Agency",
+        "chunk_id": 8239522850961446835
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16151143079632575782,
+        "start": 84726,
+        "end": 84758,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing Agency",
+        "chunk_id": 8239522850961446835
+      }
+    ]
+  }
+]

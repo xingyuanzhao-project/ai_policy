@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9059785909989836710,
+    "entity": "Alabama Math, Science and Technology Initiative Program (AMSTI)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "divided based upon the number of classroom teachers served",
+    "entity_evidence": [
+      {
+        "span_id": 982713445044386151,
+        "start": 40953,
+        "end": 40964,
+        "text": "From the above appropriation, the State Superintendent of Education shall direct Alabama Math, Science and Technology Initiative Program (AMSTI) resources to the districts based on their individual needs.",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1373056317143677915,
+        "start": 40953,
+        "end": 40964,
+        "text": "technology",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6986766899706204831,
+        "start": 40953,
+        "end": 40964,
+        "text": "divided based upon the number of classroom teachers served",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17934586924985465337,
+        "start": 40953,
+        "end": 40964,
+        "text": "divided based upon the number of classroom teachers served",
+        "chunk_id": 16207215204831358817
+      }
+    ]
+  },
+  {
+    "candidate_id": 14223506161779357,
+    "entity": "Alabama Reading Initiative",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "repurposed by the State Superintendent of Education for any other purpose",
+    "entity_evidence": [
+      {
+        "span_id": 17324427455661933144,
+        "start": 42064,
+        "end": 42075,
+        "text": "No money appropriated for the Alabama Reading Initiative or AMSTI may be repurposed by the State Superintendent of Education for any other purpose other than those already established herein.",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12197285618945272287,
+        "start": 42064,
+        "end": 42075,
+        "text": "technology",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8622577262467187863,
+        "start": 42064,
+        "end": 42075,
+        "text": "repurposed by the State Superintendent of Education for any other purpose",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8368369067891439707,
+        "start": 42064,
+        "end": 42075,
+        "text": "repurposed by the State Superintendent of Education for any other purpose",
+        "chunk_id": 16207215204831358817
+      }
+    ]
+  }
+]

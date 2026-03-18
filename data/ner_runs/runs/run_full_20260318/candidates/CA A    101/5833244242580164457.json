@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17046287769790402861,
+    "entity": "Service Revolving Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8703597540478966293,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "Service Revolving Fund",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9904473244803585531,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "government agency",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9730234505043679731,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "restriction",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5832222798267134266,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "limited",
+        "chunk_id": 5833244242580164457
+      }
+    ]
+  },
+  {
+    "candidate_id": 10041971350680717351,
+    "entity": "Director of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1081491597720332313,
+        "start": 1565378,
+        "end": 1565401,
+        "text": "Director of General Services",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11214104890860909236,
+        "start": 1565378,
+        "end": 1565401,
+        "text": "government agency",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3611916476176249323,
+        "start": 1565378,
+        "end": 1565401,
+        "text": "restriction",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6768016510686043228,
+        "start": 1565378,
+        "end": 1565401,
+        "text": "limited",
+        "chunk_id": 5833244242580164457
+      }
+    ]
+  }
+]

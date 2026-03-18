@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 17877584135819981204,
+    "source_group_id": 3754914491948064354,
+    "source_candidate_ids": [
+      7318584592161676885,
+      13933605114719953022
+    ],
+    "entity": "Health Care Insurer",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "independent medical judgment",
+    "entity_evidence": [
+      {
+        "span_id": 3785270425929847121,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16051613966650024900,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2362325915387581924,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3615741109540248058,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ]
+  }
+]

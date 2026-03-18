@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9937426641221996477,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limit expenditures",
+    "entity_evidence": [
+      {
+        "span_id": 7186187037629793720,
+        "start": 807952,
+        "end": 807972,
+        "text": "The State Department of Public Health",
+        "chunk_id": 6908050922245510088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2110175936279519602,
+        "start": 807952,
+        "end": 807972,
+        "text": "The State Department of Public Health",
+        "chunk_id": 6908050922245510088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5163224806404358532,
+        "start": 807952,
+        "end": 807972,
+        "text": "The State Department of Public Health",
+        "chunk_id": 6908050922245510088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18088545211218776786,
+        "start": 807952,
+        "end": 807972,
+        "text": "The State Department of Public Health",
+        "chunk_id": 6908050922245510088
+      }
+    ]
+  },
+  {
+    "candidate_id": 2429988726828692517,
+    "entity": "Federal Emergency Management Agency",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "increase appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 1522545925712781892,
+        "start": 808063,
+        "end": 808084,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 6908050922245510088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8663537593810244913,
+        "start": 808063,
+        "end": 808084,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 6908050922245510088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7773079706090949130,
+        "start": 808063,
+        "end": 808084,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 6908050922245510088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7442606155513070500,
+        "start": 808063,
+        "end": 808084,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 6908050922245510088
+      }
+    ]
+  }
+]

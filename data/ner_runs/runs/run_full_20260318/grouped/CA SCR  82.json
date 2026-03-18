@@ -1,0 +1,69 @@
+[
+  {
+    "group_id": 15240187991736154862,
+    "candidate_ids": [
+      18072334354354338742,
+      4802405613151354615
+    ],
+    "field_score_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 17130316662497834401,
+    "candidate_ids": [
+      17606846297190065699
+    ],
+    "field_score_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 16671456856406325991,
+    "candidate_ids": [
+      12384787050451671906
+    ],
+    "field_score_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  }
+]

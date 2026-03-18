@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3568288398105047318,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2029",
+    "entity_evidence": [
+      {
+        "span_id": 6236790304235071655,
+        "start": 562589,
+        "end": 562609,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2900249060630039877,
+        "start": 562589,
+        "end": 562609,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10989385686537784130,
+        "start": 562589,
+        "end": 562609,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5565443453543587876,
+        "start": 562589,
+        "end": 562609,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ]
+  },
+  {
+    "candidate_id": 7809102746090422393,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 15783649295766761895,
+        "start": 562689,
+        "end": 562709,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13760312295588968448,
+        "start": 562689,
+        "end": 562709,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16769170625791496038,
+        "start": 562689,
+        "end": 562709,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7273196703112572757,
+        "start": 562689,
+        "end": 562709,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 9286457169324623681
+      }
+    ]
+  }
+]

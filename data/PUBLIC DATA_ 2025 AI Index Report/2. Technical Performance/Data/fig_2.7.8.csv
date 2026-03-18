@@ -1,0 +1,7 @@
+Model,Accuracy
+GPT-4o,3.10%
+Grok-2,3.90%
+Clause 3.5 Sonnet,4.80%
+Gemini 1.5 Pro,5.20%
+Gemini 2.0 Flash Thinking,7.20%
+o1,8.80%

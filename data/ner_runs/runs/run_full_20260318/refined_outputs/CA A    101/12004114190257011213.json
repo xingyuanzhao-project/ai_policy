@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12439948238178628350,
+    "source_group_id": 12004114190257011213,
+    "source_candidate_ids": [
+      4972849594756995744
+    ],
+    "entity": "Department of Managed Health Care",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "payable from the Managed Care Fund",
+    "entity_evidence": [
+      {
+        "span_id": 1445972805474903679,
+        "start": 805647,
+        "end": 805668,
+        "text": "Department of Managed Health Care",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4784641516155833599,
+        "start": 805647,
+        "end": 805668,
+        "text": "government agency",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10149308582756668543,
+        "start": 805647,
+        "end": 805668,
+        "text": "restriction",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1664789440606155565,
+        "start": 805647,
+        "end": 805668,
+        "text": "payable from the Managed Care Fund",
+        "chunk_id": 16339392012482368645
+      }
+    ]
+  }
+]

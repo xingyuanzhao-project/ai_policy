@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5189557359237498766,
+    "entity": "Senate",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 865331956670464492,
+        "start": 4841,
+        "end": 4846,
+        "text": "Senate",
+        "chunk_id": 15659243769996306074
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7054217600390254273,
+        "start": 4841,
+        "end": 4846,
+        "text": "Senate",
+        "chunk_id": 15659243769996306074
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9072898902922213391,
+        "start": 4841,
+        "end": 4846,
+        "text": "Senate",
+        "chunk_id": 15659243769996306074
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15816749712580915648,
+        "start": 4841,
+        "end": 4846,
+        "text": "June 30, 2026",
+        "chunk_id": 15659243769996306074
+      }
+    ]
+  },
+  {
+    "candidate_id": 34576977236428295,
+    "entity": "Assembly",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 5614228650228183141,
+        "start": 4952,
+        "end": 4957,
+        "text": "Assembly",
+        "chunk_id": 15659243769996306074
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17265670343169894496,
+        "start": 4952,
+        "end": 4957,
+        "text": "Assembly",
+        "chunk_id": 15659243769996306074
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3171519237922585273,
+        "start": 4952,
+        "end": 4957,
+        "text": "Assembly",
+        "chunk_id": 15659243769996306074
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17705285779673004687,
+        "start": 4952,
+        "end": 4957,
+        "text": "June 30, 2028",
+        "chunk_id": 15659243769996306074
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9256149830751308938,
+    "entity": "Alabama Reading Initiative",
+    "type": "Program",
+    "attribute": "purpose",
+    "value": "improve K-3 literacy",
+    "entity_evidence": [
+      {
+        "span_id": 15340076444569587689,
+        "start": 42408,
+        "end": 45407,
+        "text": "improve K-3 literacy",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2736849929598237436,
+        "start": 42408,
+        "end": 45407,
+        "text": "Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1170651500694455724,
+        "start": 42408,
+        "end": 45407,
+        "text": "purpose",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 59484461754775286,
+        "start": 42408,
+        "end": 45407,
+        "text": "improve K-3 literacy",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  },
+  {
+    "candidate_id": 5598921728616995982,
+    "entity": "Alabama Reading Initiative",
+    "type": "Program",
+    "attribute": "funds",
+    "value": "151,950,000",
+    "entity_evidence": [
+      {
+        "span_id": 5204432782336480964,
+        "start": 42408,
+        "end": 45407,
+        "text": "Alabama Reading Initiative",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3492897031730004187,
+        "start": 42408,
+        "end": 45407,
+        "text": "Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9181670219661938188,
+        "start": 42408,
+        "end": 45407,
+        "text": "funds",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5199595468363645041,
+        "start": 42408,
+        "end": 45407,
+        "text": "151,950,000",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  }
+]

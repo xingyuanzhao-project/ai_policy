@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10207066814760824532,
+    "entity": "California Victim Compensation Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 4373568740699909829,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "California Victim Compensation Board",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17760789772928423860,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "government agency",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14832178305690457139,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "restriction",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15760712898305351803,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "partial",
+        "chunk_id": 7576050292396939370
+      }
+    ]
+  },
+  {
+    "candidate_id": 7139958028145825845,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "full",
+    "entity_evidence": [
+      {
+        "span_id": 1721604624168669120,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "Department of General Services",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2615006193715259119,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "government agency",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11018524831525212282,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "promotion",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1019498702000071679,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "full",
+        "chunk_id": 7576050292396939370
+      }
+    ]
+  }
+]

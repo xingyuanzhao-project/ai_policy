@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13972084553591603413,
+    "source_group_id": 1186561352144699505,
+    "source_candidate_ids": [
+      9018597525660623914
+    ],
+    "entity": "candidate",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7311833123579825331,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4491968599439751672,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 501687592290569700,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5095586346672193705,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ]
+  }
+]

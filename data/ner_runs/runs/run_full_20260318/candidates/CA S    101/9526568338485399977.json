@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8259315530560575129,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short-term loan authorization",
+    "entity_evidence": [
+      {
+        "span_id": 16722627213932033998,
+        "start": 1271327,
+        "end": 1271344,
+        "text": "the Director of Finance may authorize",
+        "chunk_id": 9526568338485399977
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11935765663810511328,
+        "start": 1271327,
+        "end": 1271344,
+        "text": "the Director of Finance may authorize",
+        "chunk_id": 9526568338485399977
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5729473482058466806,
+        "start": 1271327,
+        "end": 1271344,
+        "text": "the Director of Finance may authorize",
+        "chunk_id": 9526568338485399977
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4334860439536397264,
+        "start": 1271327,
+        "end": 1271344,
+        "text": "the Director of Finance may authorize",
+        "chunk_id": 9526568338485399977
+      }
+    ]
+  },
+  {
+    "candidate_id": 3275159783882064863,
+    "entity": "university",
+    "type": "individual",
+    "attribute": "subsidy",
+    "value": "cash flow resources",
+    "entity_evidence": [
+      {
+        "span_id": 4408080175535673427,
+        "start": 1271345,
+        "end": 1271352,
+        "text": "the university, to assist cash flow resources",
+        "chunk_id": 9526568338485399977
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 970506160885468604,
+        "start": 1271345,
+        "end": 1271352,
+        "text": "the university, to assist cash flow resources",
+        "chunk_id": 9526568338485399977
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4300747175913395916,
+        "start": 1271345,
+        "end": 1271352,
+        "text": "the university, to assist cash flow resources",
+        "chunk_id": 9526568338485399977
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2401805717221879375,
+        "start": 1271345,
+        "end": 1271352,
+        "text": "the university, to assist cash flow resources",
+        "chunk_id": 9526568338485399977
+      }
+    ]
+  }
+]

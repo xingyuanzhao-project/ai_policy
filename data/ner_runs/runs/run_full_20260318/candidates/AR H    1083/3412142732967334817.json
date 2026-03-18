@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18151216427217590634,
+    "entity": "online platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 565353461509374086,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12080701245103538863,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11150668469217041574,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 643095693721448888,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ]
+  },
+  {
+    "candidate_id": 12436855602351269483,
+    "entity": "library",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "defined in the Library Services and Technology Act",
+    "entity_evidence": [
+      {
+        "span_id": 10693700595282053575,
+        "start": 2527,
+        "end": 2534,
+        "text": "A library, as defined in the Library Services and Technology Act",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9874054305459937528,
+        "start": 2527,
+        "end": 2534,
+        "text": "A library, as defined in the Library Services and Technology Act",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9829946655660925618,
+        "start": 2527,
+        "end": 2534,
+        "text": "A library, as defined in the Library Services and Technology Act",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14530213416793269843,
+        "start": 2527,
+        "end": 2534,
+        "text": "A library, as defined in the Library Services and Technology Act",
+        "chunk_id": 3412142732967334817
+      }
+    ]
+  }
+]

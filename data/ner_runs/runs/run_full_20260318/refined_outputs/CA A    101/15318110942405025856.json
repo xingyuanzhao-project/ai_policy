@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 745060522049729539,
+    "source_group_id": 15318110942405025856,
+    "source_candidate_ids": [
+      6161940469069089383,
+      8940908890906137847
+    ],
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "annual report",
+    "entity_evidence": [
+      {
+        "span_id": 2279638127109730762,
+        "start": 1102305,
+        "end": 1102336,
+        "text": "The department may require of all funded organizations an annual report detailing the use of the funds by each recipient.",
+        "chunk_id": 17632131665486669714
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3070528580896779039,
+        "start": 1102305,
+        "end": 1102336,
+        "text": "The department may require of all funded organizations an annual report detailing the use of the funds by each recipient.",
+        "chunk_id": 17632131665486669714
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2708539944812421993,
+        "start": 1102305,
+        "end": 1102336,
+        "text": "The department may require of all funded organizations an annual report detailing the use of the funds by each recipient.",
+        "chunk_id": 17632131665486669714
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2065164157038745191,
+        "start": 1102305,
+        "end": 1102336,
+        "text": "The department may require of all funded organizations an annual report detailing the use of the funds by each recipient.",
+        "chunk_id": 17632131665486669714
+      }
+    ]
+  }
+]

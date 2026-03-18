@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3284762769249747538,
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 3783007382938622082,
+        "start": 308009,
+        "end": 308051,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 12631911955214274849
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5312463205397775684,
+        "start": 308009,
+        "end": 308051,
+        "text": "government agency",
+        "chunk_id": 12631911955214274849
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16165170810481576037,
+        "start": 308009,
+        "end": 308051,
+        "text": "restriction",
+        "chunk_id": 12631911955214274849
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17864522205120844376,
+        "start": 308009,
+        "end": 308051,
+        "text": "until June 30, 2030",
+        "chunk_id": 12631911955214274849
+      }
+    ]
+  },
+  {
+    "candidate_id": 14086719898762356642,
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 12515458929326645262,
+        "start": 308829,
+        "end": 308871,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 12631911955214274849
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2194773907088342900,
+        "start": 308829,
+        "end": 308871,
+        "text": "government agency",
+        "chunk_id": 12631911955214274849
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4417153629832930598,
+        "start": 308829,
+        "end": 308871,
+        "text": "restriction",
+        "chunk_id": 12631911955214274849
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9728852910255146539,
+        "start": 308829,
+        "end": 308871,
+        "text": "until June 30, 2026",
+        "chunk_id": 12631911955214274849
+      }
+    ]
+  }
+]

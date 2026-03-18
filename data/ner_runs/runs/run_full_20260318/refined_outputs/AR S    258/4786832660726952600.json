@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 9607909221204827530,
+    "source_group_id": 4786832660726952600,
+    "source_candidate_ids": [
+      10557604788867945118,
+      684886391543113122
+    ],
+    "entity": "personal data",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11136626287778888965,
+        "start": 12546,
+        "end": 12559,
+        "text": "personal data",
+        "chunk_id": 11496827015525344828
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12815380521654159943,
+        "start": 12546,
+        "end": 12559,
+        "text": "personal data",
+        "chunk_id": 11496827015525344828
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 978572828756870892,
+        "start": 12546,
+        "end": 12559,
+        "text": "personal data",
+        "chunk_id": 11496827015525344828
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12150412641873665668,
+        "start": 12546,
+        "end": 12559,
+        "text": "personal data",
+        "chunk_id": 11496827015525344828
+      }
+    ]
+  }
+]

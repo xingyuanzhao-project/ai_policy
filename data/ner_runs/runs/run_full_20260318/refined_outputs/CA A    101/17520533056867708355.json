@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13196594713447592933,
+    "source_group_id": 17520533056867708355,
+    "source_candidate_ids": [
+      3889007500740932516
+    ],
+    "entity": "local health department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13319834572822102411,
+        "start": 892225,
+        "end": 892242,
+        "text": "local health department",
+        "chunk_id": 9265644502193004678
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17290817282472556061,
+        "start": 892225,
+        "end": 892242,
+        "text": "local health department",
+        "chunk_id": 9265644502193004678
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13872481274104847837,
+        "start": 892225,
+        "end": 892242,
+        "text": "local health department",
+        "chunk_id": 9265644502193004678
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5757593490598511583,
+        "start": 892225,
+        "end": 892242,
+        "text": "local health department",
+        "chunk_id": 9265644502193004678
+      }
+    ]
+  }
+]

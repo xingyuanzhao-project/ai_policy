@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12799265372763848309,
+    "entity": "federal lands",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "85 percent",
+    "entity_evidence": [
+      {
+        "span_id": 4940620005293925275,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "federal lands",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7480559463825934943,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "infrastructure",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7801824517482145053,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "restriction",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9917865999534822284,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "85 percent",
+        "chunk_id": 10238293536890659170
+      }
+    ]
+  },
+  {
+    "candidate_id": 12887692322782723095,
+    "entity": "State School Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "15 percent",
+    "entity_evidence": [
+      {
+        "span_id": 3008604934086488730,
+        "start": 1835364,
+        "end": 1835376,
+        "text": "State School Fund",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9776012785958330009,
+        "start": 1835364,
+        "end": 1835376,
+        "text": "infrastructure",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16934605487502978724,
+        "start": 1835364,
+        "end": 1835376,
+        "text": "restriction",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8662723552697509635,
+        "start": 1835364,
+        "end": 1835376,
+        "text": "15 percent",
+        "chunk_id": 10238293536890659170
+      }
+    ]
+  }
+]

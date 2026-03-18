@@ -1,0 +1,200 @@
+Country of developer,Country of developer_label,Country of provider,Country of provider_label,is_open_source,model_count_provider,ref_date,type
+ALL,-- All countries --,USA,United States,All,17,202301,All modalities
+ALL,-- All countries --,USA,United States,All,22,202302,All modalities
+ALL,-- All countries --,USA,United States,All,26,202303,All modalities
+ALL,-- All countries --,USA,United States,All,28,202304,All modalities
+ALL,-- All countries --,USA,United States,All,29,202305,All modalities
+ALL,-- All countries --,USA,United States,All,28,202306,All modalities
+ALL,-- All countries --,USA,United States,All,61,202307,All modalities
+ALL,-- All countries --,USA,United States,All,87,202308,All modalities
+ALL,-- All countries --,USA,United States,All,87,202309,All modalities
+ALL,-- All countries --,USA,United States,All,94,202310,All modalities
+ALL,-- All countries --,USA,United States,All,98,202311,All modalities
+ALL,-- All countries --,USA,United States,All,106,202312,All modalities
+ALL,-- All countries --,USA,United States,All,136,202401,All modalities
+ALL,-- All countries --,USA,United States,All,169,202402,All modalities
+ALL,-- All countries --,USA,United States,All,184,202403,All modalities
+ALL,-- All countries --,USA,United States,All,195,202404,All modalities
+ALL,-- All countries --,USA,United States,All,222,202405,All modalities
+ALL,-- All countries --,USA,United States,All,308,202406,All modalities
+ALL,-- All countries --,USA,United States,All,383,202407,All modalities
+ALL,-- All countries --,USA,United States,All,399,202408,All modalities
+ALL,-- All countries --,USA,United States,All,440,202409,All modalities
+ALL,-- All countries --,USA,United States,All,599,202410,All modalities
+ALL,-- All countries --,USA,United States,All,593,202411,All modalities
+ALL,-- All countries --,USA,United States,All,605,202412,All modalities
+ALL,-- All countries --,USA,United States,All,612,202501,All modalities
+ALL,-- All countries --,USA,United States,All,626,202502,All modalities
+ALL,-- All countries --,USA,United States,All,634,202503,All modalities
+ALL,-- All countries --,USA,United States,All,655,202504,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,7,202306,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,4,202307,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,4,202308,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,4,202309,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,4,202310,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,3,202311,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,3,202312,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,3,202401,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,3,202402,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,3,202403,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,3,202404,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,5,202405,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,5,202406,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,24,202407,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,30,202408,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,29,202409,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,42,202410,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,49,202411,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,49,202412,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,98,202501,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,98,202502,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,111,202503,All modalities
+ALL,-- All countries --,CHN,China (People's Republic of),All,112,202504,All modalities
+ALL,-- All countries --,SGP,Singapore,All,21,202409,All modalities
+ALL,-- All countries --,SGP,Singapore,All,22,202410,All modalities
+ALL,-- All countries --,SGP,Singapore,All,22,202411,All modalities
+ALL,-- All countries --,SGP,Singapore,All,22,202412,All modalities
+ALL,-- All countries --,SGP,Singapore,All,33,202501,All modalities
+ALL,-- All countries --,SGP,Singapore,All,32,202502,All modalities
+ALL,-- All countries --,SGP,Singapore,All,34,202503,All modalities
+ALL,-- All countries --,SGP,Singapore,All,34,202504,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,2,202301,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,2,202302,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,2,202303,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,2,202304,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,2,202305,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,2,202306,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,10,202307,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,10,202308,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,10,202309,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,10,202310,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,5,202311,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,5,202312,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,5,202401,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,5,202402,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,9,202403,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,9,202404,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,9,202405,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,9,202406,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202407,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202408,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202409,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202410,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202411,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202412,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202501,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202502,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202503,All modalities
+ALL,-- All countries --,GBR,United Kingdom,All,11,202504,All modalities
+ALL,-- All countries --,FRA,France,All,1,202306,All modalities
+ALL,-- All countries --,FRA,France,All,1,202307,All modalities
+ALL,-- All countries --,FRA,France,All,1,202308,All modalities
+ALL,-- All countries --,FRA,France,All,1,202309,All modalities
+ALL,-- All countries --,FRA,France,All,1,202310,All modalities
+ALL,-- All countries --,FRA,France,All,1,202311,All modalities
+ALL,-- All countries --,FRA,France,All,4,202312,All modalities
+ALL,-- All countries --,FRA,France,All,4,202401,All modalities
+ALL,-- All countries --,FRA,France,All,6,202402,All modalities
+ALL,-- All countries --,FRA,France,All,6,202403,All modalities
+ALL,-- All countries --,FRA,France,All,6,202404,All modalities
+ALL,-- All countries --,FRA,France,All,6,202405,All modalities
+ALL,-- All countries --,FRA,France,All,6,202406,All modalities
+ALL,-- All countries --,FRA,France,All,11,202407,All modalities
+ALL,-- All countries --,FRA,France,All,15,202408,All modalities
+ALL,-- All countries --,FRA,France,All,14,202409,All modalities
+ALL,-- All countries --,FRA,France,All,14,202410,All modalities
+ALL,-- All countries --,FRA,France,All,15,202411,All modalities
+ALL,-- All countries --,FRA,France,All,15,202412,All modalities
+ALL,-- All countries --,FRA,France,All,20,202501,All modalities
+ALL,-- All countries --,FRA,France,All,21,202502,All modalities
+ALL,-- All countries --,FRA,France,All,22,202503,All modalities
+ALL,-- All countries --,FRA,France,All,22,202504,All modalities
+ALL,-- All countries --,NLD,Netherlands,All,24,202411,All modalities
+ALL,-- All countries --,NLD,Netherlands,All,24,202412,All modalities
+ALL,-- All countries --,NLD,Netherlands,All,34,202501,All modalities
+ALL,-- All countries --,NLD,Netherlands,All,34,202502,All modalities
+ALL,-- All countries --,NLD,Netherlands,All,42,202503,All modalities
+ALL,-- All countries --,NLD,Netherlands,All,46,202504,All modalities
+ALL,-- All countries --,DEU,Germany,All,3,202302,All modalities
+ALL,-- All countries --,DEU,Germany,All,4,202303,All modalities
+ALL,-- All countries --,DEU,Germany,All,4,202304,All modalities
+ALL,-- All countries --,DEU,Germany,All,4,202305,All modalities
+ALL,-- All countries --,DEU,Germany,All,4,202306,All modalities
+ALL,-- All countries --,DEU,Germany,All,4,202307,All modalities
+ALL,-- All countries --,DEU,Germany,All,4,202308,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202309,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202310,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202311,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202312,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202401,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202402,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202403,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202404,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202405,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202406,All modalities
+ALL,-- All countries --,DEU,Germany,All,6,202407,All modalities
+ALL,-- All countries --,DEU,Germany,All,7,202408,All modalities
+ALL,-- All countries --,DEU,Germany,All,8,202409,All modalities
+ALL,-- All countries --,DEU,Germany,All,10,202410,All modalities
+ALL,-- All countries --,DEU,Germany,All,10,202411,All modalities
+ALL,-- All countries --,DEU,Germany,All,10,202412,All modalities
+ALL,-- All countries --,DEU,Germany,All,13,202501,All modalities
+ALL,-- All countries --,DEU,Germany,All,13,202502,All modalities
+ALL,-- All countries --,DEU,Germany,All,13,202503,All modalities
+ALL,-- All countries --,DEU,Germany,All,13,202504,All modalities
+ALL,-- All countries --,CAN,Canada,All,3,202307,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202308,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202309,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202310,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202311,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202312,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202401,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202402,All modalities
+ALL,-- All countries --,CAN,Canada,All,3,202403,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202404,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202405,All modalities
+ALL,-- All countries --,CAN,Canada,All,4,202406,All modalities
+ALL,-- All countries --,CAN,Canada,All,3,202407,All modalities
+ALL,-- All countries --,CAN,Canada,All,3,202408,All modalities
+ALL,-- All countries --,CAN,Canada,All,3,202409,All modalities
+ALL,-- All countries --,CAN,Canada,All,8,202410,All modalities
+ALL,-- All countries --,CAN,Canada,All,10,202411,All modalities
+ALL,-- All countries --,CAN,Canada,All,10,202412,All modalities
+ALL,-- All countries --,CAN,Canada,All,10,202501,All modalities
+ALL,-- All countries --,CAN,Canada,All,10,202502,All modalities
+ALL,-- All countries --,CAN,Canada,All,19,202503,All modalities
+ALL,-- All countries --,CAN,Canada,All,19,202504,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202303,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202304,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202305,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202306,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202307,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202308,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202309,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202310,All modalities
+ALL,-- All countries --,ISR,Israel,All,3,202311,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202312,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202401,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202402,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202403,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202404,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202405,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202406,All modalities
+ALL,-- All countries --,ISR,Israel,All,4,202407,All modalities
+ALL,-- All countries --,ISR,Israel,All,6,202408,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202409,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202410,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202411,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202412,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202501,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202502,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202503,All modalities
+ALL,-- All countries --,ISR,Israel,All,2,202504,All modalities
+ALL,-- All countries --,KOR,Korea,All,2,202409,All modalities
+ALL,-- All countries --,KOR,Korea,All,3,202410,All modalities
+ALL,-- All countries --,KOR,Korea,All,3,202411,All modalities
+ALL,-- All countries --,KOR,Korea,All,3,202412,All modalities
+ALL,-- All countries --,KOR,Korea,All,3,202501,All modalities
+ALL,-- All countries --,KOR,Korea,All,3,202502,All modalities
+ALL,-- All countries --,KOR,Korea,All,3,202503,All modalities
+ALL,-- All countries --,KOR,Korea,All,3,202504,All modalities

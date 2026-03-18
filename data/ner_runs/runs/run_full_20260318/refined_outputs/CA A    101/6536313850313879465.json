@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4458306058285885386,
+    "source_group_id": 6536313850313879465,
+    "source_candidate_ids": [
+      9620011791829708539
+    ],
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "payable from the Highway-Railroad Crossing Safety Account, Highway Safety, Traffic Reduction, Air Quality, and Port Security Fund of 2006",
+    "entity_evidence": [
+      {
+        "span_id": 17944242718943798905,
+        "start": 336328,
+        "end": 336352,
+        "text": "Department of Transportation",
+        "chunk_id": 445769736302557106
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1833559844706210955,
+        "start": 336353,
+        "end": 336371,
+        "text": "government agency",
+        "chunk_id": 445769736302557106
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10765215554850565257,
+        "start": 336372,
+        "end": 336392,
+        "text": "support",
+        "chunk_id": 445769736302557106
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2090271963415158878,
+        "start": 336393,
+        "end": 336574,
+        "text": "payable from the Highway-Railroad Crossing Safety Account, Highway Safety, Traffic Reduction, Air Quality, and Port Security Fund of 2006",
+        "chunk_id": 445769736302557106
+      }
+    ]
+  }
+]

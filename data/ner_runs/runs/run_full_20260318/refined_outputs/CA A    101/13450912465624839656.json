@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11077431142393771310,
+    "source_group_id": 13450912465624839656,
+    "source_candidate_ids": [
+      11469923247231224010
+    ],
+    "entity": "Secretary of the Natural Resources Agency",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "extensive support",
+    "entity_evidence": [
+      {
+        "span_id": 8004998419368179431,
+        "start": 102395,
+        "end": 102415,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 11050896213353530212
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7331711029255348241,
+        "start": 102395,
+        "end": 102415,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 11050896213353530212
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2742673429338901359,
+        "start": 102395,
+        "end": 102415,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 11050896213353530212
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16112670763657264978,
+        "start": 102395,
+        "end": 102415,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 11050896213353530212
+      }
+    ]
+  }
+]

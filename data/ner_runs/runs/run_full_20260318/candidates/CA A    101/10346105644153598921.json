@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13937069149329650916,
+    "entity": "State Lands Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extension of reappropriation period",
+    "entity_evidence": [
+      {
+        "span_id": 4926429935357836834,
+        "start": 547266,
+        "end": 547286,
+        "text": "State Lands Commission",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3923979557290184470,
+        "start": 547266,
+        "end": 547286,
+        "text": "State Lands Commission",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3666313900567674450,
+        "start": 547288,
+        "end": 547306,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12742241435530960588,
+        "start": 547288,
+        "end": 547306,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 10346105644153598921
+      }
+    ]
+  },
+  {
+    "candidate_id": 13983265123963512093,
+    "entity": "Platform Holly oil platform",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "decommissioning",
+    "entity_evidence": [
+      {
+        "span_id": 5853881542365931532,
+        "start": 547377,
+        "end": 547396,
+        "text": "Platform Holly oil platform",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2631914077643355481,
+        "start": 547377,
+        "end": 547396,
+        "text": "Platform Holly oil platform",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6906026077824821853,
+        "start": 547398,
+        "end": 547416,
+        "text": "for the decommissioning",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3195286813194054282,
+        "start": 547398,
+        "end": 547416,
+        "text": "for the decommissioning",
+        "chunk_id": 10346105644153598921
+      }
+    ]
+  }
+]

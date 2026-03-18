@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6413850016462462274,
+    "source_group_id": 5129851465182070067,
+    "source_candidate_ids": [
+      16924231432112223587
+    ],
+    "entity": "Remote computing service",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "no restriction",
+    "entity_evidence": [
+      {
+        "span_id": 9918130855928033964,
+        "start": 15150,
+        "end": 15170,
+        "text": "Remote computing service",
+        "chunk_id": 437245123457097686
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1184160088697805708,
+        "start": 15150,
+        "end": 15170,
+        "text": "Remote computing service",
+        "chunk_id": 437245123457097686
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13315676443747443149,
+        "start": 15150,
+        "end": 15170,
+        "text": "Remote computing service",
+        "chunk_id": 437245123457097686
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11554489326851235530,
+        "start": 15150,
+        "end": 15170,
+        "text": "Remote computing service",
+        "chunk_id": 437245123457097686
+      }
+    ]
+  }
+]

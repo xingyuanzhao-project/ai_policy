@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11246954615446407193,
+    "source_group_id": 17268332192358583925,
+    "source_candidate_ids": [
+      9680595084359243636
+    ],
+    "entity": "Physicians, chiropractors, or psychologists and other health care professionals",
+    "type": "individual",
+    "attribute": "requirement",
+    "value": "current licenses",
+    "entity_evidence": [
+      {
+        "span_id": 13170777734527708034,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15376436028123911275,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13842063692954897211,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1386461278375262695,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ]
+  }
+]

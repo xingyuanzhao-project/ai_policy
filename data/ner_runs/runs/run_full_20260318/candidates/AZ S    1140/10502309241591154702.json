@@ -1,0 +1,45 @@
+[
+  {
+    "candidate_id": 3567076051989196047,
+    "entity": "Homeless Recovery and Telehealth Integration Act",
+    "type": "bill",
+    "attribute": "short title",
+    "value": "Homeless Recovery and Telehealth Integration Act",
+    "entity_evidence": [
+      {
+        "span_id": 3843081700244149901,
+        "start": 2238,
+        "end": 2292,
+        "text": "Homeless Recovery and Telehealth Integration Act",
+        "chunk_id": 10502309241591154702
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 568186521168514171,
+        "start": 2238,
+        "end": 2292,
+        "text": "Homeless Recovery and Telehealth Integration Act",
+        "chunk_id": 10502309241591154702
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1492791973454785410,
+        "start": 2238,
+        "end": 2292,
+        "text": "short title",
+        "chunk_id": 10502309241591154702
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15518937052884217479,
+        "start": 2238,
+        "end": 2292,
+        "text": "Homeless Recovery and Telehealth Integration Act",
+        "chunk_id": 10502309241591154702
+      }
+    ]
+  }
+]

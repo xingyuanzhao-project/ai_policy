@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8495118068428168939,
+    "source_group_id": 9996471964888402481,
+    "source_candidate_ids": [
+      10026284954988324266
+    ],
+    "entity": "state agency",
+    "type": "government agency",
+    "attribute": "protection",
+    "value": "punitive damages",
+    "entity_evidence": [
+      {
+        "span_id": 4454656905177256466,
+        "start": 10128,
+        "end": 10136,
+        "text": "state agency",
+        "chunk_id": 9235451469721347931
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7038130687573417013,
+        "start": 10128,
+        "end": 10136,
+        "text": "state agency",
+        "chunk_id": 9235451469721347931
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9300032197339601656,
+        "start": 10128,
+        "end": 10136,
+        "text": "state agency",
+        "chunk_id": 9235451469721347931
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4052763295959396059,
+        "start": 10128,
+        "end": 10136,
+        "text": "state agency",
+        "chunk_id": 9235451469721347931
+      }
+    ]
+  }
+]

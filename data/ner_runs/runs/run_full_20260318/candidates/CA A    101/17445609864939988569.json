@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9233154529438414527,
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "separate accounting",
+    "entity_evidence": [
+      {
+        "span_id": 2255862910766269774,
+        "start": 684641,
+        "end": 684667,
+        "text": "State Air Resources Board",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4827991328890833291,
+        "start": 684641,
+        "end": 684667,
+        "text": "government agency",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13393968760128652498,
+        "start": 685485,
+        "end": 685502,
+        "text": "separate accounting",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16991719624304181842,
+        "start": 685485,
+        "end": 685502,
+        "text": "separate accounting",
+        "chunk_id": 17445609864939988569
+      }
+    ]
+  },
+  {
+    "candidate_id": 8894121436319956031,
+    "entity": "Western Climate Initiative, Incorporated",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "advance payment",
+    "entity_evidence": [
+      {
+        "span_id": 16073866609826464918,
+        "start": 685486,
+        "end": 685510,
+        "text": "Western Climate Initiative, Incorporated",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6391574898008593964,
+        "start": 685486,
+        "end": 685510,
+        "text": "individual",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17158767906820022185,
+        "start": 685486,
+        "end": 685510,
+        "text": "advance payment",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15421644175596951134,
+        "start": 685486,
+        "end": 685510,
+        "text": "advance payment",
+        "chunk_id": 17445609864939988569
+      }
+    ]
+  }
+]

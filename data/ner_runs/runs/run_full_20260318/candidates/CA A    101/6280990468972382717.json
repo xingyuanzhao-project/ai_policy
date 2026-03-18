@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8850132708420848740,
+    "entity": "Department of Insurance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 10787209708936506765,
+        "start": 208894,
+        "end": 208918,
+        "text": "For support of Department of Insurance",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7428121641282562199,
+        "start": 208894,
+        "end": 208918,
+        "text": "Department of Insurance",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15469885895165523619,
+        "start": 208894,
+        "end": 208918,
+        "text": "support",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17404415825825020539,
+        "start": 208894,
+        "end": 208918,
+        "text": "partial",
+        "chunk_id": 6280990468972382717
+      }
+    ]
+  },
+  {
+    "candidate_id": 1506491770892766701,
+    "entity": "Insurance Companies and Insurance Producers",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 6023812645681505211,
+        "start": 208894,
+        "end": 208928,
+        "text": "Regulation of Insurance Companies and Insurance Producers",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15768210341493264302,
+        "start": 208894,
+        "end": 208928,
+        "text": "Insurance Companies and Insurance Producers",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2796452620018513109,
+        "start": 208894,
+        "end": 208928,
+        "text": "Regulation of",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18213287429599129541,
+        "start": 208894,
+        "end": 208928,
+        "text": "partial",
+        "chunk_id": 6280990468972382717
+      }
+    ]
+  }
+]

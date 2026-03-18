@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17977952824357088543,
+    "entity": "Alabama Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 8630601640535140194,
+        "start": 23854,
+        "end": 23875,
+        "text": "Alabama Department of",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9592890632502961265,
+        "start": 23854,
+        "end": 23875,
+        "text": "Alabama Department of",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5461558122204270321,
+        "start": 23854,
+        "end": 23875,
+        "text": "Alabama Department of",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1234428256856404919,
+        "start": 23854,
+        "end": 23875,
+        "text": "Alabama Department of",
+        "chunk_id": 9627372540562978657
+      }
+    ]
+  },
+  {
+    "candidate_id": 4243164422156224956,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 7677171649863018878,
+        "start": 23954,
+        "end": 23975,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13127655086597133982,
+        "start": 23954,
+        "end": 23975,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2710105938349777245,
+        "start": 23954,
+        "end": 23975,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16406024559908398728,
+        "start": 23954,
+        "end": 23975,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ]
+  }
+]

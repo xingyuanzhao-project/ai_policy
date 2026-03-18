@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16775581188101854201,
+    "source_group_id": 10322649519555771418,
+    "source_candidate_ids": [
+      8983194380209624592
+    ],
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 6868561871609026747,
+        "start": 388024,
+        "end": 388058,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2028,",
+        "chunk_id": 12026348525381383883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10639776059751897178,
+        "start": 388024,
+        "end": 388058,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2028,",
+        "chunk_id": 12026348525381383883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16282703866258745561,
+        "start": 388024,
+        "end": 388058,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2028,",
+        "chunk_id": 12026348525381383883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3228719894371809491,
+        "start": 388024,
+        "end": 388058,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2028,",
+        "chunk_id": 12026348525381383883
+      }
+    ]
+  }
+]

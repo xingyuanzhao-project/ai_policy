@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15849558461132667641,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent upon review",
+    "entity_evidence": [
+      {
+        "span_id": 135204818314636346,
+        "start": 1200548,
+        "end": 1200572,
+        "text": "State Department of Education",
+        "chunk_id": 13977578655017500072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10973008944311610599,
+        "start": 1200548,
+        "end": 1200572,
+        "text": "State Department of Education",
+        "chunk_id": 13977578655017500072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 715185992956793613,
+        "start": 1200983,
+        "end": 1201001,
+        "text": "contingent upon review",
+        "chunk_id": 13977578655017500072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 635542564130916076,
+        "start": 1200983,
+        "end": 1201001,
+        "text": "contingent upon review",
+        "chunk_id": 13977578655017500072
+      }
+    ]
+  },
+  {
+    "candidate_id": 7123195649996045215,
+    "entity": "California Student Assessment System",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "contingent upon review",
+    "entity_evidence": [
+      {
+        "span_id": 376798939331726289,
+        "start": 1200983,
+        "end": 1201009,
+        "text": "California Student Assessment System",
+        "chunk_id": 13977578655017500072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12630217664431246377,
+        "start": 1200983,
+        "end": 1201009,
+        "text": "California Student Assessment System",
+        "chunk_id": 13977578655017500072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16983122462777474773,
+        "start": 1200983,
+        "end": 1201001,
+        "text": "contingent upon review",
+        "chunk_id": 13977578655017500072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14387745247921003898,
+        "start": 1200983,
+        "end": 1201001,
+        "text": "contingent upon review",
+        "chunk_id": 13977578655017500072
+      }
+    ]
+  }
+]

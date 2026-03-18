@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5466025168606159768,
+    "entity": "Board of Administration of the Public Employees' Retirement System (PERS)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulatory oversight",
+    "entity_evidence": [
+      {
+        "span_id": 18015720181485291948,
+        "start": 1595803,
+        "end": 1595827,
+        "text": "Board of Administration of the Public Employees' Retirement System (PERS)",
+        "chunk_id": 5597401812964053634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15571941969201983141,
+        "start": 1595803,
+        "end": 1595827,
+        "text": "government agency",
+        "chunk_id": 5597401812964053634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12787378556192753385,
+        "start": 1595803,
+        "end": 1595827,
+        "text": "restriction",
+        "chunk_id": 5597401812964053634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16312026384064775597,
+        "start": 1595803,
+        "end": 1595827,
+        "text": "regulatory oversight",
+        "chunk_id": 5597401812964053634
+      }
+    ]
+  },
+  {
+    "candidate_id": 17455398549837757202,
+    "entity": "State Teachers' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulatory oversight",
+    "entity_evidence": [
+      {
+        "span_id": 323096897413580390,
+        "start": 1596305,
+        "end": 1596327,
+        "text": "State Teachers' Retirement System",
+        "chunk_id": 5597401812964053634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9707405281798444783,
+        "start": 1596305,
+        "end": 1596327,
+        "text": "government agency",
+        "chunk_id": 5597401812964053634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11944397259323365955,
+        "start": 1596305,
+        "end": 1596327,
+        "text": "restriction",
+        "chunk_id": 5597401812964053634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14610393513680994647,
+        "start": 1596305,
+        "end": 1596327,
+        "text": "regulatory oversight",
+        "chunk_id": 5597401812964053634
+      }
+    ]
+  }
+]

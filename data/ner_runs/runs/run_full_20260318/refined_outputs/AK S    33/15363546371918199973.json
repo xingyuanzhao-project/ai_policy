@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 16192170120958884886,
+    "source_group_id": 15363546371918199973,
+    "source_candidate_ids": [
+      10268847880134153073,
+      9490691419021618376
+    ],
+    "entity": "interactive computer service",
+    "type": "technology",
+    "attribute": "exemption",
+    "value": "liability",
+    "entity_evidence": [
+      {
+        "span_id": 13949206528199343581,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2701756812832878751,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3001397501251119693,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13278977124402418366,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ]
+  }
+]

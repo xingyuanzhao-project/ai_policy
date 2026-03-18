@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4753468775758408256,
+    "entity": "Alabama Incentives Financing Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+    "entity_evidence": [
+      {
+        "span_id": 5684029640430940937,
+        "start": 21151,
+        "end": 21171,
+        "text": "Alabama Incentives Financing Authority",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10370082891917265180,
+        "start": 21151,
+        "end": 21171,
+        "text": "government agency",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14531263233709452514,
+        "start": 21173,
+        "end": 21193,
+        "text": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 421084546999803701,
+        "start": 21173,
+        "end": 21193,
+        "text": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+        "chunk_id": 5107687190945313617
+      }
+    ]
+  },
+  {
+    "candidate_id": 16787376025675405168,
+    "entity": "Director of Finance",
+    "type": "individual",
+    "attribute": "approval",
+    "value": "approval",
+    "entity_evidence": [
+      {
+        "span_id": 2428290623626273267,
+        "start": 21194,
+        "end": 21204,
+        "text": "Director of Finance",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11088765937519544564,
+        "start": 21194,
+        "end": 21204,
+        "text": "individual",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 267880029768260557,
+        "start": 21205,
+        "end": 21215,
+        "text": "approval",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1586974774219464963,
+        "start": 21205,
+        "end": 21215,
+        "text": "approval",
+        "chunk_id": 5107687190945313617
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12705715843361443402,
+    "source_group_id": 13139522175605715680,
+    "source_candidate_ids": [
+      3990801339053307700
+    ],
+    "entity": "state agencies",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12818631457554915809,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7274661300716564788,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16462893960730517004,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6816023519459007406,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ]
+  }
+]

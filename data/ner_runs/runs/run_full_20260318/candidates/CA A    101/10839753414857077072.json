@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6696287431595950740,
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 14325885204011937731,
+        "start": 1732457,
+        "end": 1732478,
+        "text": "Department of Human Resources",
+        "chunk_id": 10839753414857077072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17027434419562106925,
+        "start": 1732457,
+        "end": 1732478,
+        "text": "government agency",
+        "chunk_id": 10839753414857077072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13607545004573205795,
+        "start": 1732457,
+        "end": 1732478,
+        "text": "restriction",
+        "chunk_id": 10839753414857077072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18325533896772231006,
+        "start": 1732457,
+        "end": 1732478,
+        "text": "specific",
+        "chunk_id": 10839753414857077072
+      }
+    ]
+  },
+  {
+    "candidate_id": 4147463889619407645,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 8548868215614276386,
+        "start": 1732569,
+        "end": 1732588,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 10839753414857077072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13846571005709692732,
+        "start": 1732569,
+        "end": 1732588,
+        "text": "government agency",
+        "chunk_id": 10839753414857077072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11106490620484553418,
+        "start": 1732569,
+        "end": 1732588,
+        "text": "restriction",
+        "chunk_id": 10839753414857077072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1879553438064801985,
+        "start": 1732569,
+        "end": 1732588,
+        "text": "specific",
+        "chunk_id": 10839753414857077072
+      }
+    ]
+  }
+]

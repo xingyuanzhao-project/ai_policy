@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13534186124955283433,
+    "entity": "Secretary for Environmental Protection",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 4918029160412257252,
+        "start": 110067,
+        "end": 110088,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 4688513046246896952
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3562352032712913876,
+        "start": 110067,
+        "end": 110088,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 4688513046246896952
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15096286380569072471,
+        "start": 110067,
+        "end": 110088,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 4688513046246896952
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8109162263188821417,
+        "start": 110067,
+        "end": 110088,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 4688513046246896952
+      }
+    ]
+  },
+  {
+    "candidate_id": 8885557481828567867,
+    "entity": "Secretary of Labor and Workforce Development",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 3343968287504769363,
+        "start": 110977,
+        "end": 110998,
+        "text": "For support of Secretary of Labor and Workforce Development",
+        "chunk_id": 4688513046246896952
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6295249807791996971,
+        "start": 110977,
+        "end": 110998,
+        "text": "For support of Secretary of Labor and Workforce Development",
+        "chunk_id": 4688513046246896952
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12372608632906035609,
+        "start": 110977,
+        "end": 110998,
+        "text": "For support of Secretary of Labor and Workforce Development",
+        "chunk_id": 4688513046246896952
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7928691724920674343,
+        "start": 110977,
+        "end": 110998,
+        "text": "For support of Secretary of Labor and Workforce Development",
+        "chunk_id": 4688513046246896952
+      }
+    ]
+  }
+]

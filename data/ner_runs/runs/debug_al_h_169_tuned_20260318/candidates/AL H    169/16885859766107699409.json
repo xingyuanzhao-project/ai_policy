@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9256149830751308938,
+    "entity": "Alabama Reading Initiative",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific purposes only",
+    "entity_evidence": [
+      {
+        "span_id": 1195322246458783108,
+        "start": 43753,
+        "end": 43769,
+        "text": "be expended only for the Alabama Reading Initiative Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6576665218802377052,
+        "start": 43753,
+        "end": 43769,
+        "text": "be expended only for the Alabama Reading Initiative Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3787291612363843592,
+        "start": 43753,
+        "end": 43769,
+        "text": "be expended only for the Alabama Reading Initiative Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9210988422809327643,
+        "start": 43753,
+        "end": 43769,
+        "text": "be expended only for the Alabama Reading Initiative Program",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  },
+  {
+    "candidate_id": 5598921728616995982,
+    "entity": "State Superintendent of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific purposes only",
+    "entity_evidence": [
+      {
+        "span_id": 638633035221280095,
+        "start": 43779,
+        "end": 43793,
+        "text": "The State Superintendent of Education shall report semi-annually",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13849242625298983653,
+        "start": 43779,
+        "end": 43793,
+        "text": "The State Superintendent of Education shall report semi-annually",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15603957206843888355,
+        "start": 43779,
+        "end": 43793,
+        "text": "The State Superintendent of Education shall report semi-annually",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10936732703432701007,
+        "start": 43779,
+        "end": 43793,
+        "text": "The State Superintendent of Education shall report semi-annually",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  }
+]

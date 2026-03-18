@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16533711464377704827,
+    "source_group_id": 13990320792743456604,
+    "source_candidate_ids": [
+      18399513022645917458
+    ],
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "written directives",
+    "entity_evidence": [
+      {
+        "span_id": 11974649780158709757,
+        "start": 1024653,
+        "end": 1024673,
+        "text": "State Department of Social Services",
+        "chunk_id": 2553634632161411575
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 953487292333044392,
+        "start": 1024653,
+        "end": 1024673,
+        "text": "State Department of Social Services",
+        "chunk_id": 2553634632161411575
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9020146380763941795,
+        "start": 1024673,
+        "end": 1024691,
+        "text": "written directives",
+        "chunk_id": 2553634632161411575
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4727604589909166251,
+        "start": 1024673,
+        "end": 1024691,
+        "text": "written directives",
+        "chunk_id": 2553634632161411575
+      }
+    ]
+  }
+]

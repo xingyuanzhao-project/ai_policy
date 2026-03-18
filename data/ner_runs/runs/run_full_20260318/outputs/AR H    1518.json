@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 3075070476330221076,
+    "source_group_id": 18143255066579256446,
+    "source_candidate_ids": [
+      12815020800716296263,
+      9715208469994932275
+    ],
+    "entity": "artificial intelligence-generated matter",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "indistinguishable from a child actually engaging in sexually explicit conduct",
+    "entity_evidence": [
+      {
+        "span_id": 14239670016991410087,
+        "start": 0,
+        "end": 24,
+        "text": "artificial intelligence-generated matter",
+        "chunk_id": 2590978182547550432
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11020531554668763553,
+        "start": 0,
+        "end": 24,
+        "text": "technology",
+        "chunk_id": 2590978182547550432
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1055213539747065800,
+        "start": 0,
+        "end": 24,
+        "text": "restriction",
+        "chunk_id": 2590978182547550432
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8562722833853381542,
+        "start": 0,
+        "end": 24,
+        "text": "indistinguishable from a child actually engaging in sexually explicit conduct",
+        "chunk_id": 2590978182547550432
+      }
+    ]
+  }
+]

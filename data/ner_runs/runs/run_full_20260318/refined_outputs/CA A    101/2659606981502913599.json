@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14543271419499690792,
+    "source_group_id": 2659606981502913599,
+    "source_candidate_ids": [
+      12819620654224348410
+    ],
+    "entity": "California Food Assistance Program Expansion",
+    "type": "program",
+    "attribute": "regulation",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 2316202167425759584,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "California Food Assistance Program Expansion",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5027417397315894293,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "program",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13632858758151605294,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "reappropriation",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2971003412736343735,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "reappropriation",
+        "chunk_id": 7905273768611385240
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4483784899614573865,
+    "source_group_id": 4691978814514555202,
+    "source_candidate_ids": [
+      8800491926660292816
+    ],
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 4213309350040803387,
+        "start": 295078,
+        "end": 295110,
+        "text": "support of Department of Housing and Community Development",
+        "chunk_id": 14458048652359561816
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16944378034791107011,
+        "start": 295078,
+        "end": 295110,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 14458048652359561816
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5906253876695354475,
+        "start": 295078,
+        "end": 295110,
+        "text": "support",
+        "chunk_id": 14458048652359561816
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5874236601589637099,
+        "start": 295078,
+        "end": 295110,
+        "text": "extensive",
+        "chunk_id": 14458048652359561816
+      }
+    ]
+  }
+]

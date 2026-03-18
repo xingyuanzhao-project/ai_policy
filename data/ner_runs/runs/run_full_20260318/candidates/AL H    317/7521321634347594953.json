@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7887057927734284200,
+    "entity": "app store provider",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 5411861878616574497,
+        "start": 7521,
+        "end": 7533,
+        "text": "app store provider",
+        "chunk_id": 7521321634347594953
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6744760409818061934,
+        "start": 7521,
+        "end": 7533,
+        "text": "app store provider",
+        "chunk_id": 7521321634347594953
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6856016283879670137,
+        "start": 7521,
+        "end": 7533,
+        "text": "app store provider",
+        "chunk_id": 7521321634347594953
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5596353153971748924,
+        "start": 7521,
+        "end": 7533,
+        "text": "reasonable measures",
+        "chunk_id": 7521321634347594953
+      }
+    ]
+  },
+  {
+    "candidate_id": 4983557891837323477,
+    "entity": "developer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "arbitrary",
+    "entity_evidence": [
+      {
+        "span_id": 10957848753579622863,
+        "start": 7610,
+        "end": 7616,
+        "text": "developer",
+        "chunk_id": 7521321634347594953
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16358540189270242084,
+        "start": 7610,
+        "end": 7616,
+        "text": "developer",
+        "chunk_id": 7521321634347594953
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5862133223714439172,
+        "start": 7610,
+        "end": 7616,
+        "text": "developer",
+        "chunk_id": 7521321634347594953
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2164932727028550857,
+        "start": 7610,
+        "end": 7616,
+        "text": "arbitrary",
+        "chunk_id": 7521321634347594953
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8011489808018334041,
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "prompt posting",
+    "entity_evidence": [
+      {
+        "span_id": 1253205953514543279,
+        "start": 1728020,
+        "end": 1728044,
+        "text": "The Department of Human Resources",
+        "chunk_id": 8978673433973134780
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9432445069055825004,
+        "start": 1728020,
+        "end": 1728044,
+        "text": "The Department of Human Resources",
+        "chunk_id": 8978673433973134780
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7674107886272646509,
+        "start": 1728045,
+        "end": 1728054,
+        "text": "shall promptly post",
+        "chunk_id": 8978673433973134780
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3501148338396478536,
+        "start": 1728055,
+        "end": 1728063,
+        "text": "on its public internet website",
+        "chunk_id": 8978673433973134780
+      }
+    ]
+  },
+  {
+    "candidate_id": 7995861700776413653,
+    "entity": "Internal Revenue Service",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "specific amounts",
+    "entity_evidence": [
+      {
+        "span_id": 7515348930234405838,
+        "start": 1728154,
+        "end": 1728173,
+        "text": "Internal Revenue Service",
+        "chunk_id": 8978673433973134780
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13893262961114222886,
+        "start": 1728154,
+        "end": 1728173,
+        "text": "Internal Revenue Service",
+        "chunk_id": 8978673433973134780
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12649249539434418251,
+        "start": 1728174,
+        "end": 1728184,
+        "text": "for payment of those penalties",
+        "chunk_id": 8978673433973134780
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17609972699769595118,
+        "start": 1728185,
+        "end": 1728193,
+        "text": "specific amounts",
+        "chunk_id": 8978673433973134780
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7101042087835397930,
+    "entity": "California corporation",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 7149101961199001469,
+        "start": 72300,
+        "end": 72317,
+        "text": "A California corporation",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16068671133877901250,
+        "start": 72300,
+        "end": 72317,
+        "text": "A California corporation",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17169847956301644663,
+        "start": 72300,
+        "end": 72317,
+        "text": "A California corporation",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17773867436955152536,
+        "start": 72300,
+        "end": 72317,
+        "text": "A California corporation",
+        "chunk_id": 16548523930616552685
+      }
+    ]
+  },
+  {
+    "candidate_id": 15310620502334388308,
+    "entity": "law enforcement agent or entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 12497364792387043068,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7085274837214968302,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16726165850371272787,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12830266335038569161,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ]
+  }
+]

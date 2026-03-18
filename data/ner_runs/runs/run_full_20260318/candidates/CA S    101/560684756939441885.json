@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9092427465656444842,
+    "entity": "San Gabriel and Lower Los Angeles Rivers and Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 14062717531795148724,
+        "start": 572018,
+        "end": 572038,
+        "text": "The funds appropriated in this item are available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 560684756939441885
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16805850352460691768,
+        "start": 572018,
+        "end": 572038,
+        "text": "The funds appropriated in this item are available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 560684756939441885
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10670017192896330241,
+        "start": 572018,
+        "end": 572038,
+        "text": "The funds appropriated in this item are available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 560684756939441885
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4999463877930558356,
+        "start": 572018,
+        "end": 572038,
+        "text": "The funds appropriated in this item are available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 560684756939441885
+      }
+    ]
+  },
+  {
+    "candidate_id": 2432279973341544370,
+    "entity": "San Gabriel and Lower Los Angeles Rivers and Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure through June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 2199929563928617174,
+        "start": 572236,
+        "end": 572256,
+        "text": "The balances of the appropriations provided in the following citations are reappropriated for the purposes provided for in those appropriations and shall be available for encumbrance or expenditure through June 30, 2026",
+        "chunk_id": 560684756939441885
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5510686131359351654,
+        "start": 572236,
+        "end": 572256,
+        "text": "The balances of the appropriations provided in the following citations are reappropriated for the purposes provided for in those appropriations and shall be available for encumbrance or expenditure through June 30, 2026",
+        "chunk_id": 560684756939441885
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9673815197808758853,
+        "start": 572236,
+        "end": 572256,
+        "text": "The balances of the appropriations provided in the following citations are reappropriated for the purposes provided for in those appropriations and shall be available for encumbrance or expenditure through June 30, 2026",
+        "chunk_id": 560684756939441885
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4994512787726695585,
+        "start": 572236,
+        "end": 572256,
+        "text": "The balances of the appropriations provided in the following citations are reappropriated for the purposes provided for in those appropriations and shall be available for encumbrance or expenditure through June 30, 2026",
+        "chunk_id": 560684756939441885
+      }
+    ]
+  }
+]

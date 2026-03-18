@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7365513338874191419,
+    "source_group_id": 15001147312294121236,
+    "source_candidate_ids": [
+      16937227297638632481
+    ],
+    "entity": "General Fund",
+    "type": "government fund",
+    "attribute": "regulation",
+    "value": "control",
+    "entity_evidence": [
+      {
+        "span_id": 4218526486526003449,
+        "start": 1100067,
+        "end": 1100079,
+        "text": "General Fund",
+        "chunk_id": 13465455734913011096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18066393884921590976,
+        "start": 1100067,
+        "end": 1100079,
+        "text": "General Fund",
+        "chunk_id": 13465455734913011096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16715701028480302164,
+        "start": 1100067,
+        "end": 1100079,
+        "text": "General Fund",
+        "chunk_id": 13465455734913011096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9713565765823909159,
+        "start": 1100067,
+        "end": 1100079,
+        "text": "General Fund",
+        "chunk_id": 13465455734913011096
+      }
+    ]
+  }
+]

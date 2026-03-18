@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12459137647445002839,
+    "entity": "Arizona Revised Statutes",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6758224478257421139,
+        "start": 33637,
+        "end": 33658,
+        "text": "Section 41-2421, Arizona Revised Statutes",
+        "chunk_id": 8943549567094060701
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14937746151720587590,
+        "start": 33637,
+        "end": 33658,
+        "text": "Arizona Revised Statutes",
+        "chunk_id": 8943549567094060701
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9636055955890079058,
+        "start": 33637,
+        "end": 33658,
+        "text": "is amended to read",
+        "chunk_id": 8943549567094060701
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17720886471454888381,
+        "start": 33637,
+        "end": 33658,
+        "text": "is amended to read",
+        "chunk_id": 8943549567094060701
+      }
+    ]
+  },
+  {
+    "candidate_id": 15597284270575602833,
+    "entity": "supreme court",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 14435205368590675980,
+        "start": 33748,
+        "end": 33759,
+        "text": "the supreme court",
+        "chunk_id": 8943549567094060701
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18236771896618990625,
+        "start": 33748,
+        "end": 33759,
+        "text": "the supreme court",
+        "chunk_id": 8943549567094060701
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6303475282252834858,
+        "start": 33748,
+        "end": 33759,
+        "text": "and except as provided in subsection J of this section",
+        "chunk_id": 8943549567094060701
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8435464082777740073,
+        "start": 33748,
+        "end": 33759,
+        "text": "and except as provided in subsection J of this section",
+        "chunk_id": 8943549567094060701
+      }
+    ]
+  }
+]

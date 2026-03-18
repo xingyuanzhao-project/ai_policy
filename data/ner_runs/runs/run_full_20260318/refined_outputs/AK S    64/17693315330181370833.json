@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14538988017318487051,
+    "source_group_id": 17693315330181370833,
+    "source_candidate_ids": [
+      4984967029788279720
+    ],
+    "entity": "voter information",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "security measures",
+    "entity_evidence": [
+      {
+        "span_id": 8364784467520549528,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15610978363387064430,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13546285749230908592,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8939705883764703252,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ]
+  }
+]

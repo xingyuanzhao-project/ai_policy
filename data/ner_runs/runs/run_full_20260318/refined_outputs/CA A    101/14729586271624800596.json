@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5319714478257633698,
+    "source_group_id": 14729586271624800596,
+    "source_candidate_ids": [
+      11545445620413733946
+    ],
+    "entity": "Legislature",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "specific approval required",
+    "entity_evidence": [
+      {
+        "span_id": 3659681067029479463,
+        "start": 1854510,
+        "end": 1854520,
+        "text": "Legislature",
+        "chunk_id": 9616001724740193131
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11186610548622981985,
+        "start": 1854510,
+        "end": 1854520,
+        "text": "Legislature",
+        "chunk_id": 9616001724740193131
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8659537505013131699,
+        "start": 1854510,
+        "end": 1854520,
+        "text": "Legislature",
+        "chunk_id": 9616001724740193131
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6649850340114934438,
+        "start": 1854510,
+        "end": 1854520,
+        "text": "Legislature",
+        "chunk_id": 9616001724740193131
+      }
+    ]
+  }
+]

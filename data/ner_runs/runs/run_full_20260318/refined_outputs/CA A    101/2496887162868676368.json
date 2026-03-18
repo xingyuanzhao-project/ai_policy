@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8899948884739109237,
+    "source_group_id": 2496887162868676368,
+    "source_candidate_ids": [
+      16300491591475070606
+    ],
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "payable from the Fish and Game Preservation Fund",
+    "entity_evidence": [
+      {
+        "span_id": 11988233508071742925,
+        "start": 552043,
+        "end": 552067,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 18203587796331557670
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3583572185126654017,
+        "start": 552068,
+        "end": 552086,
+        "text": "government agency",
+        "chunk_id": 18203587796331557670
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13454818998216025274,
+        "start": 552087,
+        "end": 552107,
+        "text": "support",
+        "chunk_id": 18203587796331557670
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12308909800900255076,
+        "start": 552108,
+        "end": 552166,
+        "text": "payable from the Fish and Game Preservation Fund",
+        "chunk_id": 18203587796331557670
+      }
+    ]
+  }
+]

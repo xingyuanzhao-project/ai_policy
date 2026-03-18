@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14407732417416754668,
+    "source_group_id": 10851642854803163959,
+    "source_candidate_ids": [
+      11507343715136955968
+    ],
+    "entity": "California State Preschool Program",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "increased workload",
+    "entity_evidence": [
+      {
+        "span_id": 5611684197091080564,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "California State Preschool Program",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5899391532417877635,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "government agency",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9342201772355781123,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "restriction",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5769397503728309348,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "increased workload",
+        "chunk_id": 4295020214506782649
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16704848442182941450,
+    "source_group_id": 712399408039352196,
+    "source_candidate_ids": [
+      6066832613206508070
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 13739729170724040884,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9272109593674807874,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16270991005389565335,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12174783575564367429,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ]
+  }
+]

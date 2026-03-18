@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 15885691362293939882,
+    "source_group_id": 18341395666974072640,
+    "source_candidate_ids": [
+      287473595578992357,
+      11163630693873553813
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "all of the following",
+    "entity_evidence": [
+      {
+        "span_id": 584432312064269623,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10420057447084730575,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4243840578086547903,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13695065681122118129,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ]
+  }
+]

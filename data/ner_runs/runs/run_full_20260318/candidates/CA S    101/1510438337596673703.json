@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5326664751615317379,
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "incremental",
+    "entity_evidence": [
+      {
+        "span_id": 15386783435039508755,
+        "start": 1430085,
+        "end": 1430105,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 1510438337596673703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13101423611112293835,
+        "start": 1430085,
+        "end": 1430105,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 1510438337596673703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16371550632086718537,
+        "start": 1430085,
+        "end": 1430105,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 1510438337596673703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17480484430441406008,
+        "start": 1430085,
+        "end": 1430105,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 1510438337596673703
+      }
+    ]
+  },
+  {
+    "candidate_id": 13997420383398797938,
+    "entity": "data center",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "approved project scope",
+    "entity_evidence": [
+      {
+        "span_id": 6101841945832006951,
+        "start": 1430207,
+        "end": 1430215,
+        "text": "Expenditure authority provided in this item to support data center infrastructure projects shall not be utilized for items outside the approved project scope.",
+        "chunk_id": 1510438337596673703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16820030321273590388,
+        "start": 1430207,
+        "end": 1430215,
+        "text": "Expenditure authority provided in this item to support data center infrastructure projects shall not be utilized for items outside the approved project scope.",
+        "chunk_id": 1510438337596673703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13706660422984009418,
+        "start": 1430207,
+        "end": 1430215,
+        "text": "Expenditure authority provided in this item to support data center infrastructure projects shall not be utilized for items outside the approved project scope.",
+        "chunk_id": 1510438337596673703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17040683313879630095,
+        "start": 1430207,
+        "end": 1430215,
+        "text": "Expenditure authority provided in this item to support data center infrastructure projects shall not be utilized for items outside the approved project scope.",
+        "chunk_id": 1510438337596673703
+      }
+    ]
+  }
+]

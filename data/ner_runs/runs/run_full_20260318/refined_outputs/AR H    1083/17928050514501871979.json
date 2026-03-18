@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 9430614617248831723,
+    "source_group_id": 17928050514501871979,
+    "source_candidate_ids": [
+      16347918767548800030,
+      10463623431615197814
+    ],
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "timely manner",
+    "entity_evidence": [
+      {
+        "span_id": 1912905958126015884,
+        "start": 12822,
+        "end": 12829,
+        "text": "covered platform",
+        "chunk_id": 7690118075210713401
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6072635214577343163,
+        "start": 12822,
+        "end": 12829,
+        "text": "covered platform",
+        "chunk_id": 7690118075210713401
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17026431245526971883,
+        "start": 12829,
+        "end": 12837,
+        "text": "establish an internal process to receive and substantively respond to such reports in a reasonable and timely manner",
+        "chunk_id": 7690118075210713401
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11702514606717442035,
+        "start": 12829,
+        "end": 12837,
+        "text": "reasonable and timely manner",
+        "chunk_id": 7690118075210713401
+      }
+    ]
+  }
+]

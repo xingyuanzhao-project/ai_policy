@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11757308111661286977,
+    "source_group_id": 4682008789720968952,
+    "source_candidate_ids": [
+      14588400556243711312
+    ],
+    "entity": "California Community Colleges Chancellor's Office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual rental subsidies",
+    "entity_evidence": [
+      {
+        "span_id": 3550219713546480888,
+        "start": 1376534,
+        "end": 1376555,
+        "text": "The funds appropriated in this item shall be allocated by the California Community Colleges Chancellor's Office",
+        "chunk_id": 9555163110713266534
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14689958135656753911,
+        "start": 1376534,
+        "end": 1376555,
+        "text": "The funds appropriated in this item shall be allocated by the California Community Colleges Chancellor's Office",
+        "chunk_id": 9555163110713266534
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11811380190814874359,
+        "start": 1376534,
+        "end": 1376555,
+        "text": "The funds appropriated in this item shall be allocated by the California Community Colleges Chancellor's Office",
+        "chunk_id": 9555163110713266534
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12712513994131551562,
+        "start": 1376534,
+        "end": 1376555,
+        "text": "The funds appropriated in this item shall be allocated by the California Community Colleges Chancellor's Office",
+        "chunk_id": 9555163110713266534
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12573073123833712026,
+    "source_group_id": 12846978766026948985,
+    "source_candidate_ids": [
+      14484240244280312585
+    ],
+    "entity": "Public Safety Officers Procedural Bill of Rights II",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandate claims",
+    "entity_evidence": [
+      {
+        "span_id": 1574557273443123406,
+        "start": 1665000,
+        "end": 1665022,
+        "text": "Public Safety Officers Procedural Bill of Rights II",
+        "chunk_id": 14455273999359620115
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4257587766526164286,
+        "start": 1665000,
+        "end": 1665022,
+        "text": "government agency",
+        "chunk_id": 14455273999359620115
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18244020711715063344,
+        "start": 1665000,
+        "end": 1665022,
+        "text": "restriction",
+        "chunk_id": 14455273999359620115
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15080566949491638281,
+        "start": 1665000,
+        "end": 1665022,
+        "text": "mandate claims",
+        "chunk_id": 14455273999359620115
+      }
+    ]
+  }
+]

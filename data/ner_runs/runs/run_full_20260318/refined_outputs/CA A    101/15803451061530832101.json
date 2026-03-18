@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3418407050835360283,
+    "source_group_id": 15803451061530832101,
+    "source_candidate_ids": [
+      10680159922768950463
+    ],
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 12248617120021373644,
+        "start": 526831,
+        "end": 526852,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 5400740553475833516
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 570073198776522833,
+        "start": 526831,
+        "end": 526852,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 5400740553475833516
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9933912724199422893,
+        "start": 526851,
+        "end": 526861,
+        "text": "encumbrance or expenditure",
+        "chunk_id": 5400740553475833516
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5833175084726365794,
+        "start": 526851,
+        "end": 526861,
+        "text": "encumbrance or expenditure",
+        "chunk_id": 5400740553475833516
+      }
+    ]
+  }
+]

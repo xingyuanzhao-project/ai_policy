@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11288903288420894817,
+    "source_group_id": 8261002243626304975,
+    "source_candidate_ids": [
+      88697631787863207
+    ],
+    "entity": "Digital Identity Pilot Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9658056780249195479,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7503330243085747332,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4453526986927474817,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7281733134434144447,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ]
+  }
+]

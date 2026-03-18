@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16788237266620804203,
+    "source_group_id": 6223883937777411085,
+    "source_candidate_ids": [
+      2249421537553877433
+    ],
+    "entity": "Forest Health Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "administration",
+    "entity_evidence": [
+      {
+        "span_id": 17399620717651304745,
+        "start": 516229,
+        "end": 516239,
+        "text": "Forest Health Program",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13838007073093629731,
+        "start": 516229,
+        "end": 516239,
+        "text": "program",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10005706848783914179,
+        "start": 516229,
+        "end": 516239,
+        "text": "promotion",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13571972303796875768,
+        "start": 516229,
+        "end": 516239,
+        "text": "administration",
+        "chunk_id": 15232868972299932565
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+Year,Method,Perfomance relative to the human baseline,Benchmark,Task
+2023,GPT-4 with search (backoff to CoT on abstention),0.477832512,GPQA Diamond,PhD-level science questions
+2024,o3,1.080049261,GPQA Diamond,PhD-level science questions
+2012,AlexNet,0.8914647,ImageNet Top-5,Image classification
+2013,OverFeat - 7 accurate models,0.914225501,ImageNet Top-5,Image classification
+2014,VGG-19,0.969441517,ImageNet Top-5,Image classification
+2015,Inception V3,0.994731296,ImageNet Top-5,Image classification
+2016,ResNeXt-101  64x4,1.007376185,ImageNet Top-5,Image classification
+2017,PNASNet-5,1.01369863,ImageNet Top-5,Image classification
+2018,ResNeXt-101 32x48d,1.028451001,ImageNet Top-5,Image classification
+2019,BiT-L (ResNet),1.037513172,ImageNet Top-5,Image classification
+2020,Meta Pseudo Labels (EfficientNet-L2),1.04109589,ImageNet Top-5,Image classification
+2021,Florence-CoSwin-H,1.04341412,ImageNet Top-5,Image classification
+2022,Top-k DiffSortNets (EfficientNet-L@),1.039831401,ImageNet Top-5,Image classification
+2021,GPT-2 (1.5B),0.076666667,MATH,Competition-level mathematics
+2022,"GPT-4 model (w/ code, PAL)",0.575555556,MATH,Competition-level mathematics
+2023,"GPT-4-code model (CSV, w/ code, SC, k=16)",0.936666667,MATH,Competition-level mathematics
+2024,o3-mini high,1.087777778,MATH,Competition-level mathematics
+2019,GPT-2 1.5B (fine-tuned),0.360801782,MMLU,Multitask language understanding
+2020,GPT-3 (fine-tuned),0.600222717,MMLU,Multitask language understanding
+2021,"Gopher (few-shot, k=5)",0.668151448,MMLU,Multitask language understanding
+2022,"Flan-PaLM (5-shot, finetuned, CoT + SC)",0.837416481,MMLU,Multitask language understanding
+2023,GPT-4 ,0.962138085,MMLU,Multitask language understanding
+2024,o1-preview,1.027839644,MMLU,Multitask language understanding
+2023,Gemini 1.0 Ultra,0.719128329,MMMU,Multimodal understanding and reasoning
+2024,o1,0.946731235,MMMU,Multimodal understanding and reasoning
+2017,SAN (ensemble model),0.82350838,SQuAD 2.0,Medium-level reading comprehension
+2018,PAML+BERT (ensemble model),0.962256983,SQuAD 2.0,Medium-level reading comprehension
+2019,ALBERT + DAAF + Verifier (ensemble),1.032681564,SQuAD 2.0,Medium-level reading comprehension
+2020,SA-Net on Albert (ensemble),1.03922905,SQuAD 2.0,Medium-level reading comprehension
+2021,IE-Net (ensemble),1.041497207,SQuAD 2.0,Medium-level reading comprehension
+2019,Roberta,0.942093541,SuperGLUE,English language understanding
+2020,T5 Team - Google,0.994432071,SuperGLUE,English language understanding
+2021,Liam Fedus,1.0155902,SuperGLUE,English language understanding
+2022,Vega v2,1.016703786,SuperGLUE,English language understanding
+2024,Hairuo,1.017817372,SuperGLUE,English language understanding
+2016,MCB,0.800940827,VQA,Visual reasoning
+2017,"Image features from bottom-up attention (adaptive K, ensemble)",0.864941817,VQA,Visual reasoning
+2018,BAN+Glove+Counter,0.867046299,VQA,Visual reasoning
+2019,UNITER (Large),0.906660064,VQA,Visual reasoning
+2020,Oscar,0.913840059,VQA,Visual reasoning
+2021,VLMo,1.024758604,VQA,Visual reasoning
+2022,PaLI,1.043575142,VQA,Visual reasoning

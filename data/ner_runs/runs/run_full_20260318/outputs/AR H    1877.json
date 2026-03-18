@@ -1,0 +1,332 @@
+[
+  {
+    "refined_id": 15010824640976081332,
+    "source_group_id": 11185754748607381456,
+    "source_candidate_ids": [
+      831121483821375730,
+      14819446231725373282
+    ],
+    "entity": "Artificial Intelligence",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16852364672388773205,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17517443699803070039,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5098780117620968211,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14056901100905832892,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ]
+  },
+  {
+    "refined_id": 9981603221636896884,
+    "source_group_id": 11417867654478471342,
+    "source_candidate_ids": [
+      2000130859567230915
+    ],
+    "entity": "Artificial Intelligence Developer",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "structured evaluation methods",
+    "entity_evidence": [
+      {
+        "span_id": 16928003176584755088,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14042300121595906928,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12322116109914154048,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4152652553816838023,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ]
+  },
+  {
+    "refined_id": 5333342282001799141,
+    "source_group_id": 2364578971087748454,
+    "source_candidate_ids": [
+      15294902794578714799
+    ],
+    "entity": "computer-generated image",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6945972519115613700,
+        "start": 2382,
+        "end": 2404,
+        "text": "computer-generated image",
+        "chunk_id": 1243229164748426594
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4690292814408537619,
+        "start": 2382,
+        "end": 2404,
+        "text": "technology",
+        "chunk_id": 1243229164748426594
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15117892872743965659,
+        "start": 2382,
+        "end": 2404,
+        "text": "restriction",
+        "chunk_id": 1243229164748426594
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1283131589142879548,
+        "start": 2382,
+        "end": 2404,
+        "text": "extremely restrictive",
+        "chunk_id": 1243229164748426594
+      }
+    ]
+  },
+  {
+    "refined_id": 1180973678440616909,
+    "source_group_id": 6786572097968718987,
+    "source_candidate_ids": [
+      320655552754835677
+    ],
+    "entity": "child",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2475931090989733827,
+        "start": 4940,
+        "end": 4945,
+        "text": "child",
+        "chunk_id": 9091176982451541017
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12708728251691496038,
+        "start": 4940,
+        "end": 4945,
+        "text": "child",
+        "chunk_id": 9091176982451541017
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13331395602679923153,
+        "start": 4940,
+        "end": 4945,
+        "text": "child",
+        "chunk_id": 9091176982451541017
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12188031100939540051,
+        "start": 4940,
+        "end": 4945,
+        "text": "child",
+        "chunk_id": 9091176982451541017
+      }
+    ]
+  },
+  {
+    "refined_id": 11572638359070410638,
+    "source_group_id": 12279806827504045945,
+    "source_candidate_ids": [
+      7194975505074086635
+    ],
+    "entity": "artificial intelligence systems",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "legitimate artificial intelligence safety testing",
+    "entity_evidence": [
+      {
+        "span_id": 12779825700646130675,
+        "start": 5273,
+        "end": 5288,
+        "text": "artificial intelligence systems",
+        "chunk_id": 9091176982451541017
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15492532657341141521,
+        "start": 5273,
+        "end": 5288,
+        "text": "artificial intelligence systems",
+        "chunk_id": 9091176982451541017
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13439713104477110068,
+        "start": 5273,
+        "end": 5288,
+        "text": "artificial intelligence systems",
+        "chunk_id": 9091176982451541017
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16211339608890037766,
+        "start": 5273,
+        "end": 5288,
+        "text": "artificial intelligence systems",
+        "chunk_id": 9091176982451541017
+      }
+    ]
+  },
+  {
+    "refined_id": 272494957557442316,
+    "source_group_id": 6565737939233193576,
+    "source_candidate_ids": [
+      2246002838753045300
+    ],
+    "entity": "child sexual abuse material",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10684832753429579070,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5425401905779994259,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9744392475196631769,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5390617346771655409,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ]
+  },
+  {
+    "refined_id": 15994745535198319450,
+    "source_group_id": 2677374511285390236,
+    "source_candidate_ids": [
+      8555241162161562482
+    ],
+    "entity": "sexually explicit digital material",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 113267681460328336,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3232158208098971671,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10789997008052684543,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7415230802819388164,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ]
+  }
+]

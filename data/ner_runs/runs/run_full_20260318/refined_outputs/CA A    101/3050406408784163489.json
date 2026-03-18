@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2046617031858559642,
+    "source_group_id": 3050406408784163489,
+    "source_candidate_ids": [
+      17921357185572714756
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "within or in excess of amounts appropriated in this act for that year",
+    "entity_evidence": [
+      {
+        "span_id": 6694660125612030670,
+        "start": 1487221,
+        "end": 1487234,
+        "text": "Director of Finance",
+        "chunk_id": 5427992481214345262
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14446932767635506711,
+        "start": 1487221,
+        "end": 1487234,
+        "text": "Director of Finance",
+        "chunk_id": 5427992481214345262
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 986145996835200897,
+        "start": 1487221,
+        "end": 1487234,
+        "text": "Director of Finance",
+        "chunk_id": 5427992481214345262
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14483758911177841036,
+        "start": 1487221,
+        "end": 1487234,
+        "text": "Director of Finance",
+        "chunk_id": 5427992481214345262
+      }
+    ]
+  }
+]

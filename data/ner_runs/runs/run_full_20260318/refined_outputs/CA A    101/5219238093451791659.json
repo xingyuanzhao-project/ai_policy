@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2316261462015640804,
+    "source_group_id": 5219238093451791659,
+    "source_candidate_ids": [
+      2176301858925599048
+    ],
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "description",
+    "value": "required",
+    "entity_evidence": [
+      {
+        "span_id": 2471794220634241595,
+        "start": 1830485,
+        "end": 1830505,
+        "text": "State Air Resources Board",
+        "chunk_id": 16182861386234578181
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8723184964602439742,
+        "start": 1830485,
+        "end": 1830505,
+        "text": "State Air Resources Board",
+        "chunk_id": 16182861386234578181
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15413659273904705943,
+        "start": 1830485,
+        "end": 1830505,
+        "text": "State Air Resources Board",
+        "chunk_id": 16182861386234578181
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5569236233023841866,
+        "start": 1830485,
+        "end": 1830505,
+        "text": "State Air Resources Board",
+        "chunk_id": 16182861386234578181
+      }
+    ]
+  }
+]

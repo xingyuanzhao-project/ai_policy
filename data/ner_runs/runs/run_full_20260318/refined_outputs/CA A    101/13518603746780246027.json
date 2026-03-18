@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17831371778936502305,
+    "source_group_id": 13518603746780246027,
+    "source_candidate_ids": [
+      12597403639002805651
+    ],
+    "entity": "special education pupils",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "equal per-pupil rate",
+    "entity_evidence": [
+      {
+        "span_id": 17072301682346728557,
+        "start": 1234991,
+        "end": 1235003,
+        "text": "on an equal per-pupil rate",
+        "chunk_id": 2409641503072266317
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2339070219688452950,
+        "start": 1234991,
+        "end": 1235003,
+        "text": "on an equal per-pupil rate",
+        "chunk_id": 2409641503072266317
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15930401568360756866,
+        "start": 1234991,
+        "end": 1235003,
+        "text": "on an equal per-pupil rate",
+        "chunk_id": 2409641503072266317
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10259747427235612493,
+        "start": 1234991,
+        "end": 1235003,
+        "text": "on an equal per-pupil rate",
+        "chunk_id": 2409641503072266317
+      }
+    ]
+  }
+]

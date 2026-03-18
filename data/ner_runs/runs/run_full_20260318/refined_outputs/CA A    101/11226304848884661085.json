@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4391362869545195813,
+    "source_group_id": 11226304848884661085,
+    "source_candidate_ids": [
+      2533499753534453230
+    ],
+    "entity": "Franchise Tax Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "without prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 10752330580484368167,
+        "start": 1547697,
+        "end": 1547717,
+        "text": "Franchise Tax Board",
+        "chunk_id": 666358340242042753
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11131193802263211730,
+        "start": 1547697,
+        "end": 1547717,
+        "text": "Franchise Tax Board",
+        "chunk_id": 666358340242042753
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17210731820165706967,
+        "start": 1548009,
+        "end": 1548029,
+        "text": "without prior approval",
+        "chunk_id": 666358340242042753
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4577077269425597063,
+        "start": 1548009,
+        "end": 1548029,
+        "text": "without prior approval",
+        "chunk_id": 666358340242042753
+      }
+    ]
+  }
+]

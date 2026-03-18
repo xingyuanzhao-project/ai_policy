@@ -1,0 +1,33 @@
+[
+  {
+    "refined_id": 9168819372907435424,
+    "source_group_id": 7016234218931531906,
+    "source_candidate_ids": [
+      149297765283924814
+    ],
+    "entity": "prescription data processing vendor",
+    "type": "infrastructure",
+    "attribute": "extension",
+    "value": "until normal operations have resumed",
+    "entity_evidence": [
+      {
+        "span_id": 2380704768027064412,
+        "start": 42816,
+        "end": 42836,
+        "text": "prescription data processing vendor",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "type_evidence": [],
+    "attribute_evidence": [],
+    "value_evidence": [
+      {
+        "span_id": 15469875146666647168,
+        "start": 42816,
+        "end": 42836,
+        "text": "prescription data processing vendor",
+        "chunk_id": 8608566358479150162
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9610498960565308541,
+    "source_group_id": 14222254930982775861,
+    "source_candidate_ids": [
+      10598435797303913953
+    ],
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "supplemental funding",
+    "entity_evidence": [
+      {
+        "span_id": 1161717151081742325,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9385136233561928998,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3874728928805614561,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9707383848912753668,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ]
+  }
+]

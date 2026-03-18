@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 17291261464891396624,
+    "source_group_id": 13963693152294578825,
+    "source_candidate_ids": [
+      9850825443051780575,
+      11569334584996414570
+    ],
+    "entity": "CalCompute",
+    "type": "technology",
+    "attribute": "support",
+    "value": "training and facilitation",
+    "entity_evidence": [
+      {
+        "span_id": 3796219107640271945,
+        "start": 24806,
+        "end": 24816,
+        "text": "Necessary human expertise to support, train, and facilitate the use of CalCompute.",
+        "chunk_id": 8539417661726695039
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18056724484508756160,
+        "start": 24806,
+        "end": 24816,
+        "text": "Necessary human expertise to support, train, and facilitate the use of CalCompute.",
+        "chunk_id": 8539417661726695039
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13135439715300721544,
+        "start": 24806,
+        "end": 24816,
+        "text": "Necessary human expertise to support, train, and facilitate the use of CalCompute.",
+        "chunk_id": 8539417661726695039
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14068850387105023201,
+        "start": 24806,
+        "end": 24816,
+        "text": "Necessary human expertise to support, train, and facilitate the use of CalCompute.",
+        "chunk_id": 8539417661726695039
+      }
+    ]
+  }
+]

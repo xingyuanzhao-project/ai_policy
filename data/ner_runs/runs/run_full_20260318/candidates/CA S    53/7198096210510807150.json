@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5950967024730606078,
+    "entity": "frontier AI developers",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "mandatory, standardized, and objective reporting",
+    "entity_evidence": [
+      {
+        "span_id": 17592886756971288831,
+        "start": 2107,
+        "end": 2126,
+        "text": "While the major artificial intelligence developers have already voluntarily established the creation, use, and publication of frontier AI frameworks as an industry best practice, not all developers are providing reporting that is consistent and sufficient to ensure necessary transparency and protection of the public.",
+        "chunk_id": 7198096210510807150
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9952174153548458068,
+        "start": 2107,
+        "end": 2126,
+        "text": "While the major artificial intelligence developers have already voluntarily established the creation, use, and publication of frontier AI frameworks as an industry best practice, not all developers are providing reporting that is consistent and sufficient to ensure necessary transparency and protection of the public.",
+        "chunk_id": 7198096210510807150
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17427879599937746148,
+        "start": 2107,
+        "end": 2126,
+        "text": "While the major artificial intelligence developers have already voluntarily established the creation, use, and publication of frontier AI frameworks as an industry best practice, not all developers are providing reporting that is consistent and sufficient to ensure necessary transparency and protection of the public.",
+        "chunk_id": 7198096210510807150
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17918967106990469001,
+        "start": 2107,
+        "end": 2126,
+        "text": "While the major artificial intelligence developers have already voluntarily established the creation, use, and publication of frontier AI frameworks as an industry best practice, not all developers are providing reporting that is consistent and sufficient to ensure necessary transparency and protection of the public.",
+        "chunk_id": 7198096210510807150
+      }
+    ]
+  },
+  {
+    "candidate_id": 6154649818950164145,
+    "entity": "frontier developers",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "timely and accurate information",
+    "entity_evidence": [
+      {
+        "span_id": 7470836618678114202,
+        "start": 2107,
+        "end": 2131,
+        "text": "Mandatory, standardized, and objective reporting by frontier developers is required to provide the government and the public with timely and accurate information.",
+        "chunk_id": 7198096210510807150
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7820183330755114289,
+        "start": 2107,
+        "end": 2131,
+        "text": "Mandatory, standardized, and objective reporting by frontier developers is required to provide the government and the public with timely and accurate information.",
+        "chunk_id": 7198096210510807150
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15163708221567693971,
+        "start": 2107,
+        "end": 2131,
+        "text": "Mandatory, standardized, and objective reporting by frontier developers is required to provide the government and the public with timely and accurate information.",
+        "chunk_id": 7198096210510807150
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13345539374438802461,
+        "start": 2107,
+        "end": 2131,
+        "text": "Mandatory, standardized, and objective reporting by frontier developers is required to provide the government and the public with timely and accurate information.",
+        "chunk_id": 7198096210510807150
+      }
+    ]
+  }
+]

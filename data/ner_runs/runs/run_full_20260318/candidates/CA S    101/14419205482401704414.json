@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12625044798469142081,
+    "entity": "San Francisco Bay Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to provisions of subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 12785568388822330138,
+        "start": 569403,
+        "end": 569423,
+        "text": "San Francisco Bay Conservation and Development Commission",
+        "chunk_id": 14419205482401704414
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10663270637083558965,
+        "start": 569403,
+        "end": 569423,
+        "text": "government agency",
+        "chunk_id": 14419205482401704414
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3844301795038854222,
+        "start": 569403,
+        "end": 569423,
+        "text": "restriction",
+        "chunk_id": 14419205482401704414
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14634832735709362898,
+        "start": 569403,
+        "end": 569423,
+        "text": "not subject to provisions of subdivision (b) of Section 15.14",
+        "chunk_id": 14419205482401704414
+      }
+    ]
+  },
+  {
+    "candidate_id": 3499039044831762958,
+    "entity": "San Gabriel and Lower Los Angeles Rivers and Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "629,000",
+    "entity_evidence": [
+      {
+        "span_id": 14256176878139138,
+        "start": 569525,
+        "end": 569545,
+        "text": "San Gabriel and Lower Los Angeles Rivers and Mountains Conservancy",
+        "chunk_id": 14419205482401704414
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1610210805365907633,
+        "start": 569525,
+        "end": 569545,
+        "text": "government agency",
+        "chunk_id": 14419205482401704414
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3760318233324476740,
+        "start": 569525,
+        "end": 569545,
+        "text": "promotion",
+        "chunk_id": 14419205482401704414
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15236315395292555627,
+        "start": 569525,
+        "end": 569535,
+        "text": "629,000",
+        "chunk_id": 14419205482401704414
+      }
+    ]
+  }
+]

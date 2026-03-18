@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6305119324948004788,
+    "source_group_id": 10376546489795101860,
+    "source_candidate_ids": [
+      13318103832890450281
+    ],
+    "entity": "Alabama Math, Science, and Technology Initiative",
+    "type": "initiative",
+    "attribute": "evaluation",
+    "value": "comprehensive",
+    "entity_evidence": [
+      {
+        "span_id": 17449631778162286676,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6137995554712543151,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10449335251714624167,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16671827252244645989,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ]
+  }
+]

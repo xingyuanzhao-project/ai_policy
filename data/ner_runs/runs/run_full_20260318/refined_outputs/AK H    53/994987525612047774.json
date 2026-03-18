@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8065295681153799940,
+    "source_group_id": 994987525612047774,
+    "source_candidate_ids": [
+      12994334180558177908
+    ],
+    "entity": "Department of Law",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "unrestricted",
+    "entity_evidence": [
+      {
+        "span_id": 4363101829303446764,
+        "start": 68033,
+        "end": 68047,
+        "text": "Department of Law",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18373567304954228932,
+        "start": 68048,
+        "end": 68056,
+        "text": "government agency",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11809502279480207245,
+        "start": 68057,
+        "end": 68065,
+        "text": "regulation",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5226913467701763062,
+        "start": 68066,
+        "end": 68074,
+        "text": "unrestricted",
+        "chunk_id": 4667024304216263764
+      }
+    ]
+  }
+]

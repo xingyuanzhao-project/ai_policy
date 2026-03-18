@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 4917372196491097472,
+    "source_group_id": 2643861652125160208,
+    "source_candidate_ids": [
+      1810631872676878751,
+      1894010758668922045
+    ],
+    "entity": "internet search engine",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "fewer than one thousand (1,000) employees",
+    "entity_evidence": [
+      {
+        "span_id": 17711081339060873901,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1788678696955278633,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4690897056017752813,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15485205255028178714,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ]
+  }
+]

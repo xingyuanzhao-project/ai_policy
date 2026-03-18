@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14041762484669975502,
+    "source_group_id": 2897083026823405987,
+    "source_candidate_ids": [
+      3463035894034255146
+    ],
+    "entity": "California Beverage Container Recycling Fund",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "California Beverage Container Recycling Fund",
+    "entity_evidence": [
+      {
+        "span_id": 2783898131464258301,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4949699809514147678,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14945301731220439427,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14402504855836924884,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ]
+  }
+]

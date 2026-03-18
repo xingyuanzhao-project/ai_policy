@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10451179389811497478,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 15675914779439537200,
+        "start": 544875,
+        "end": 544895,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 1864798271361419632
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2672153446639467161,
+        "start": 544875,
+        "end": 544895,
+        "text": "government agency",
+        "chunk_id": 1864798271361419632
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7572826115456283976,
+        "start": 544875,
+        "end": 544895,
+        "text": "restriction",
+        "chunk_id": 1864798271361419632
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17046305803915820299,
+        "start": 544875,
+        "end": 544895,
+        "text": "encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 1864798271361419632
+      }
+    ]
+  },
+  {
+    "candidate_id": 15161475515580749954,
+    "entity": "California Museum",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "grant",
+    "entity_evidence": [
+      {
+        "span_id": 1883796339257497781,
+        "start": 544875,
+        "end": 544895,
+        "text": "California Museum",
+        "chunk_id": 1864798271361419632
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8014613395998602774,
+        "start": 544875,
+        "end": 544895,
+        "text": "individual",
+        "chunk_id": 1864798271361419632
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 316981010969621385,
+        "start": 544875,
+        "end": 544895,
+        "text": "promotion",
+        "chunk_id": 1864798271361419632
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1987495216716095532,
+        "start": 544875,
+        "end": 544895,
+        "text": "grant",
+        "chunk_id": 1864798271361419632
+      }
+    ]
+  }
+]

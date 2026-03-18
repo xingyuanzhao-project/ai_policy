@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3953955154957905950,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "maximum",
+    "entity_evidence": [
+      {
+        "span_id": 599940051920719784,
+        "start": 1006763,
+        "end": 1006794,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11517026422888683490
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6418092924499708450,
+        "start": 1006763,
+        "end": 1006794,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11517026422888683490
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2230319339858288270,
+        "start": 1006763,
+        "end": 1006794,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11517026422888683490
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7810427248060013928,
+        "start": 1006763,
+        "end": 1006794,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11517026422888683490
+      }
+    ]
+  },
+  {
+    "candidate_id": 396433091815552308,
+    "entity": "Medi-Cal",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "maximum",
+    "entity_evidence": [
+      {
+        "span_id": 15741348365693915804,
+        "start": 1006763,
+        "end": 1006763,
+        "text": "Medi-Cal",
+        "chunk_id": 11517026422888683490
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11167696077791023834,
+        "start": 1006763,
+        "end": 1006763,
+        "text": "Medi-Cal",
+        "chunk_id": 11517026422888683490
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6371329010241559205,
+        "start": 1006763,
+        "end": 1006763,
+        "text": "Medi-Cal",
+        "chunk_id": 11517026422888683490
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8386441987043341425,
+        "start": 1006763,
+        "end": 1006763,
+        "text": "Medi-Cal",
+        "chunk_id": 11517026422888683490
+      }
+    ]
+  }
+]

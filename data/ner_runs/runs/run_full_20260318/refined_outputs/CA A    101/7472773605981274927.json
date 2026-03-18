@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8047342370062573333,
+    "source_group_id": 7472773605981274927,
+    "source_candidate_ids": [
+      9054977806123816086
+    ],
+    "entity": "Foster Family Home and Small Family Home Insurance Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "expenditure authority increase",
+    "entity_evidence": [
+      {
+        "span_id": 17725198278668437397,
+        "start": 1003772,
+        "end": 1003794,
+        "text": "Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 2184774243219685246
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3902853969387303436,
+        "start": 1003772,
+        "end": 1003794,
+        "text": "infrastructure",
+        "chunk_id": 2184774243219685246
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 639316141994663035,
+        "start": 1003772,
+        "end": 1003794,
+        "text": "restriction",
+        "chunk_id": 2184774243219685246
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9517051154185970810,
+        "start": 1003772,
+        "end": 1003794,
+        "text": "expenditure authority increase",
+        "chunk_id": 2184774243219685246
+      }
+    ]
+  }
+]

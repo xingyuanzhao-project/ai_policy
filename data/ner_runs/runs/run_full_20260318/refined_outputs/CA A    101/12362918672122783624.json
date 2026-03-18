@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10518058468994679141,
+    "source_group_id": 12362918672122783624,
+    "source_candidate_ids": [
+      2703947094880044712
+    ],
+    "entity": "Budget Stabilization Account",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderately restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 5754921824749839666,
+        "start": 1864782,
+        "end": 1864802,
+        "text": "Budget Stabilization Account",
+        "chunk_id": 454469268585816084
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15059630922931942518,
+        "start": 1864782,
+        "end": 1864802,
+        "text": "Budget Stabilization Account",
+        "chunk_id": 454469268585816084
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17555510266427699648,
+        "start": 1864782,
+        "end": 1864802,
+        "text": "Budget Stabilization Account",
+        "chunk_id": 454469268585816084
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10242338170384624003,
+        "start": 1864782,
+        "end": 1864802,
+        "text": "Budget Stabilization Account",
+        "chunk_id": 454469268585816084
+      }
+    ]
+  }
+]

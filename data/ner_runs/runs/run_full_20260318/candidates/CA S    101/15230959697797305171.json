@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13361012099260942971,
+    "entity": "California Board of Accountancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 13304084526991470566,
+        "start": 240661,
+        "end": 240661,
+        "text": "1111-001-0704--For support of California Board of Accountancy",
+        "chunk_id": 15230959697797305171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 427653215709989849,
+        "start": 240661,
+        "end": 240661,
+        "text": "California Board of Accountancy",
+        "chunk_id": 15230959697797305171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8556894277649708034,
+        "start": 240661,
+        "end": 240661,
+        "text": "revenues derived from the assessment of fines and penalties",
+        "chunk_id": 15230959697797305171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4128489557413130502,
+        "start": 240661,
+        "end": 240661,
+        "text": "fines and penalties",
+        "chunk_id": 15230959697797305171
+      }
+    ]
+  },
+  {
+    "candidate_id": 16756597200743284329,
+    "entity": "California Architects Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 9738601571934279266,
+        "start": 240661,
+        "end": 240661,
+        "text": "1111-001-0706--For support of California Architects Board",
+        "chunk_id": 15230959697797305171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17522954748312913701,
+        "start": 240661,
+        "end": 240661,
+        "text": "California Architects Board",
+        "chunk_id": 15230959697797305171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9347430579733744626,
+        "start": 240661,
+        "end": 240661,
+        "text": "revenues derived from the assessment of fines and penalties",
+        "chunk_id": 15230959697797305171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5759959189010257673,
+        "start": 240661,
+        "end": 240661,
+        "text": "fines and penalties",
+        "chunk_id": 15230959697797305171
+      }
+    ]
+  }
+]

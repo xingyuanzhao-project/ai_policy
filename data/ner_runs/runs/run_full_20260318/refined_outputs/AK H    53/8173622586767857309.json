@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1427423135340223900,
+    "source_group_id": 8173622586767857309,
+    "source_candidate_ids": [
+      13533405310031562028
+    ],
+    "entity": "Department of Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 15275839078640435728,
+        "start": 174798,
+        "end": 174815,
+        "text": "Department of Health",
+        "chunk_id": 1255129072034361350
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4841322525975901774,
+        "start": 174798,
+        "end": 174815,
+        "text": "Department of Health",
+        "chunk_id": 1255129072034361350
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1680373023801990693,
+        "start": 174798,
+        "end": 174815,
+        "text": "Department of Health",
+        "chunk_id": 1255129072034361350
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14158009770184988934,
+        "start": 174798,
+        "end": 174815,
+        "text": "Department of Health",
+        "chunk_id": 1255129072034361350
+      }
+    ]
+  }
+]

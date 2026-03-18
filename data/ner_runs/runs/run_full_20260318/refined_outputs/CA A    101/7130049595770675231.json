@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14237564310235519264,
+    "source_group_id": 7130049595770675231,
+    "source_candidate_ids": [
+      12662031696012801942
+    ],
+    "entity": "Early Head Start",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "annual support",
+    "entity_evidence": [
+      {
+        "span_id": 2825721628561560485,
+        "start": 1275942,
+        "end": 1275942,
+        "text": "Early Head Start",
+        "chunk_id": 7427194533489567504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1272324119574214109,
+        "start": 1275942,
+        "end": 1275942,
+        "text": "technology",
+        "chunk_id": 7427194533489567504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11289801523948027349,
+        "start": 1275942,
+        "end": 1275942,
+        "text": "promotion",
+        "chunk_id": 7427194533489567504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5658237726851459693,
+        "start": 1275942,
+        "end": 1275942,
+        "text": "annual support",
+        "chunk_id": 7427194533489567504
+      }
+    ]
+  }
+]

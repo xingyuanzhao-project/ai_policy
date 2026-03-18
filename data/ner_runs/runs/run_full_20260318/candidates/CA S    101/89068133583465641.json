@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17538008611506666292,
+    "entity": "California Department of Aging",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 32533473337800679,
+        "start": 735433,
+        "end": 735458,
+        "text": "California Department of Aging",
+        "chunk_id": 89068133583465641
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17928869361474836771,
+        "start": 735433,
+        "end": 735458,
+        "text": "government agency",
+        "chunk_id": 89068133583465641
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5668045213368941062,
+        "start": 735433,
+        "end": 735458,
+        "text": "restriction",
+        "chunk_id": 89068133583465641
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12754504532077437548,
+        "start": 735433,
+        "end": 735458,
+        "text": "exemption",
+        "chunk_id": 89068133583465641
+      }
+    ]
+  },
+  {
+    "candidate_id": 5007581047990151540,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "authorization",
+    "value": "augmentation",
+    "entity_evidence": [
+      {
+        "span_id": 3478485627554852365,
+        "start": 736361,
+        "end": 736378,
+        "text": "Department of Finance",
+        "chunk_id": 89068133583465641
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9219522531071686401,
+        "start": 736361,
+        "end": 736378,
+        "text": "government agency",
+        "chunk_id": 89068133583465641
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3694234482944881668,
+        "start": 736361,
+        "end": 736378,
+        "text": "authorization",
+        "chunk_id": 89068133583465641
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 638421216808864184,
+        "start": 736361,
+        "end": 736378,
+        "text": "augmentation",
+        "chunk_id": 89068133583465641
+      }
+    ]
+  }
+]

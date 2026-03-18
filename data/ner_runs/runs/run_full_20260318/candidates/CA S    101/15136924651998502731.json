@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14058647156846851461,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 3147794907968716506,
+        "start": 134564,
+        "end": 134584,
+        "text": "Office of Emergency Services",
+        "chunk_id": 15136924651998502731
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5764648704960946991,
+        "start": 134564,
+        "end": 134584,
+        "text": "Office of Emergency Services",
+        "chunk_id": 15136924651998502731
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5903243520807067763,
+        "start": 134564,
+        "end": 134584,
+        "text": "Office of Emergency Services",
+        "chunk_id": 15136924651998502731
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4658414908136355575,
+        "start": 134564,
+        "end": 134584,
+        "text": "Office of Emergency Services",
+        "chunk_id": 15136924651998502731
+      }
+    ]
+  },
+  {
+    "candidate_id": 14899678564516161952,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 2005810620003855556,
+        "start": 134686,
+        "end": 134706,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 15136924651998502731
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13812177520387940505,
+        "start": 134686,
+        "end": 134706,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 15136924651998502731
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13808790870860830260,
+        "start": 134686,
+        "end": 134706,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 15136924651998502731
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7338952415638427871,
+        "start": 134686,
+        "end": 134706,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 15136924651998502731
+      }
+    ]
+  }
+]

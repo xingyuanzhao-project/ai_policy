@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1036311991969336074,
+    "source_group_id": 18123324728142572929,
+    "source_candidate_ids": [
+      12576734417638447137
+    ],
+    "entity": "Alaska clean water fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17931005459687789536,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10399973788414254683,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16876589927592317481,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 310128695969398246,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ]
+  }
+]

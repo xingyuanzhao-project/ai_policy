@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "stage": "annotation",
+  "chunk_ids_in_order": [
+    193461994671174365,
+    10502309241591154702
+  ],
+  "candidate_counts_by_chunk": {
+    "193461994671174365": 2,
+    "10502309241591154702": 1
+  }
+}

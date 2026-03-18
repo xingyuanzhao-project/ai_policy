@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4716795696921751466,
+    "entity": "Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 12589742989316853770,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6148016051176234766,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7795364070579908193,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18427782930884811361,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ]
+  },
+  {
+    "candidate_id": 14724791216148028374,
+    "entity": "Board of Administration of the Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 10396930650102593297,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8999699079758056284,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 225475167343999989,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4913731534508021670,
+        "start": 1486580,
+        "end": 1486609,
+        "text": "Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6398441076294451268
+      }
+    ]
+  }
+]

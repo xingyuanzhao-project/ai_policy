@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 15019829116484230765,
+    "source_group_id": 6370332711616470467,
+    "source_candidate_ids": [
+      4334092484779301030,
+      2565062907941017738
+    ],
+    "entity": "Covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "targeted to minors",
+    "entity_evidence": [
+      {
+        "span_id": 5076339863878286468,
+        "start": 104,
+        "end": 123,
+        "text": "Covered platform",
+        "chunk_id": 2700088121568311861
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15120613652341923910,
+        "start": 104,
+        "end": 123,
+        "text": "Covered platform",
+        "chunk_id": 2700088121568311861
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13613532655690726579,
+        "start": 104,
+        "end": 123,
+        "text": "Covered platform",
+        "chunk_id": 2700088121568311861
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 314344926871776328,
+        "start": 104,
+        "end": 123,
+        "text": "Covered platform",
+        "chunk_id": 2700088121568311861
+      }
+    ]
+  }
+]

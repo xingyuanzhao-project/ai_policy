@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 17980451015210651181,
+    "source_group_id": 12408438803337778863,
+    "source_candidate_ids": [
+      13505867551489991708,
+      14788225350551356536
+    ],
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "same language, form, and manner",
+    "entity_evidence": [
+      {
+        "span_id": 8147153996954570307,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13494074944627200545,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10923447350781994286,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13978211568733979221,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ]
+  }
+]

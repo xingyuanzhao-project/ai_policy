@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9775024399066375207,
+    "source_group_id": 9727257616319629589,
+    "source_candidate_ids": [
+      778548567938827130
+    ],
+    "entity": "Proposition 98",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 17107546097448867612,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "Proposition 98",
+        "chunk_id": 2829810771200454719
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13592866125970349626,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "Proposition 98",
+        "chunk_id": 2829810771200454719
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 714404821872308381,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "Proposition 98",
+        "chunk_id": 2829810771200454719
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16360925961026261365,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "Proposition 98",
+        "chunk_id": 2829810771200454719
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 884321086086919470,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 2463784979402274415,
+        "start": 810610,
+        "end": 810630,
+        "text": "State Department of Public Health",
+        "chunk_id": 13977650797802814440
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15779994642326698838,
+        "start": 810610,
+        "end": 810630,
+        "text": "government agency",
+        "chunk_id": 13977650797802814440
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11746549194574977920,
+        "start": 810610,
+        "end": 810630,
+        "text": "restriction",
+        "chunk_id": 13977650797802814440
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2668987400317472983,
+        "start": 810610,
+        "end": 810630,
+        "text": "exemption",
+        "chunk_id": 13977650797802814440
+      }
+    ]
+  },
+  {
+    "candidate_id": 10019041194516888820,
+    "entity": "Children and Youth Behavioral Health Initiative",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "availability",
+    "entity_evidence": [
+      {
+        "span_id": 12521415488781929423,
+        "start": 810610,
+        "end": 810630,
+        "text": "Children and Youth Behavioral Health Initiative",
+        "chunk_id": 13977650797802814440
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1596217080359020592,
+        "start": 810610,
+        "end": 810630,
+        "text": "infrastructure",
+        "chunk_id": 13977650797802814440
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 973744181927934428,
+        "start": 810610,
+        "end": 810630,
+        "text": "promotion",
+        "chunk_id": 13977650797802814440
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6508888285693170556,
+        "start": 810610,
+        "end": 810630,
+        "text": "availability",
+        "chunk_id": 13977650797802814440
+      }
+    ]
+  }
+]

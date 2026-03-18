@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14520216721730362802,
+    "source_group_id": 20756323510810943,
+    "source_candidate_ids": [
+      70685255863716233
+    ],
+    "entity": "Ballot",
+    "type": "Technology",
+    "attribute": "Restriction",
+    "value": "Postmark and Tracking Barcode",
+    "entity_evidence": [
+      {
+        "span_id": 1233428809187196456,
+        "start": 38026,
+        "end": 38032,
+        "text": "the ballot",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1817397287748538721,
+        "start": 38026,
+        "end": 38032,
+        "text": "the ballot",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13292375611565925262,
+        "start": 38033,
+        "end": 38047,
+        "text": "POSTMARKED",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9278175174991093114,
+        "start": 38033,
+        "end": 38047,
+        "text": "POSTMARKED",
+        "chunk_id": 5299757713669989084
+      }
+    ]
+  }
+]

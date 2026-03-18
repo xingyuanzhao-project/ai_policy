@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7702669805429461896,
+    "source_group_id": 8299082960518951680,
+    "source_candidate_ids": [
+      5840088365905937775
+    ],
+    "entity": "prescription drug monitoring program",
+    "type": "infrastructure",
+    "attribute": "exemption",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 11326410420371002192,
+        "start": 54173,
+        "end": 54193,
+        "text": "prescription drug monitoring program",
+        "chunk_id": 5230549051954879412
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12765508400595677838,
+        "start": 54173,
+        "end": 54193,
+        "text": "prescription drug monitoring program",
+        "chunk_id": 5230549051954879412
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9411060423235442281,
+        "start": 54173,
+        "end": 54193,
+        "text": "prescription drug monitoring program",
+        "chunk_id": 5230549051954879412
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3461038390580505429,
+        "start": 54173,
+        "end": 54193,
+        "text": "prescription drug monitoring program",
+        "chunk_id": 5230549051954879412
+      }
+    ]
+  }
+]

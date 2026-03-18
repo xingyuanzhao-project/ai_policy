@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10072692002805473764,
+    "source_group_id": 2282001851289822493,
+    "source_candidate_ids": [
+      6615736822491164405
+    ],
+    "entity": "state active duty employees",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "mandatory employee compensation increases",
+    "entity_evidence": [
+      {
+        "span_id": 6907819065189241503,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17794836595763790608,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14122122224538463016,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6357875095110412238,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ]
+  }
+]

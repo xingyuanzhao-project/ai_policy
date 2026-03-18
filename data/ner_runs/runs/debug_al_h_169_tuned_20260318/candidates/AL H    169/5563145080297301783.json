@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 659054453201849694,
+    "entity": "Alabama Community College System",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 16537760639858149800,
+        "start": 13146,
+        "end": 13166,
+        "text": "Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1509554584972786289,
+        "start": 13146,
+        "end": 13166,
+        "text": "Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7563388055123357790,
+        "start": 13146,
+        "end": 13166,
+        "text": "Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3183006955992990701,
+        "start": 13146,
+        "end": 13166,
+        "text": "Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ]
+  },
+  {
+    "candidate_id": 6574914294191264565,
+    "entity": "Chancellor of the Alabama Community College System",
+    "type": "individual",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 10930985394015384722,
+        "start": 13257,
+        "end": 13278,
+        "text": "The Chancellor of the Alabama Community College System",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11818767792922522702,
+        "start": 13257,
+        "end": 13278,
+        "text": "The Chancellor of the Alabama Community College System",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12056512884744773478,
+        "start": 13257,
+        "end": 13278,
+        "text": "The Chancellor of the Alabama Community College System",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15684045546115220828,
+        "start": 13257,
+        "end": 13278,
+        "text": "The Chancellor of the Alabama Community College System",
+        "chunk_id": 5563145080297301783
+      }
+    ]
+  }
+]

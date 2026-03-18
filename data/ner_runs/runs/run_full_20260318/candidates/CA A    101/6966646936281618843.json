@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17131246055420939747,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "market reference zone",
+    "entity_evidence": [
+      {
+        "span_id": 14981111903411972493,
+        "start": 1316225,
+        "end": 1316242,
+        "text": "ployees designated to be in the Senior Management Group pursuant to existing Regents Policy.",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8690026367259426591,
+        "start": 1316249,
+        "end": 1316259,
+        "text": "Regents",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17109790461487583657,
+        "start": 1316279,
+        "end": 1316289,
+        "text": "use a market reference zone",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6061503738088911915,
+        "start": 1316279,
+        "end": 1316289,
+        "text": "market reference zone",
+        "chunk_id": 6966646936281618843
+      }
+    ]
+  },
+  {
+    "candidate_id": 15443579043776267829,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 12537634435555083537,
+        "start": 1316225,
+        "end": 1316242,
+        "text": "the Director of Finance may reduce funds",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14389415098700863826,
+        "start": 1316225,
+        "end": 1316242,
+        "text": "the Director of Finance",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14042984758341339979,
+        "start": 1316225,
+        "end": 1316242,
+        "text": "may reduce funds",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12823296459617328987,
+        "start": 1316225,
+        "end": 1316242,
+        "text": "30 days",
+        "chunk_id": 6966646936281618843
+      }
+    ]
+  }
+]

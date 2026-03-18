@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18265326066369116114,
+    "source_group_id": 133753082932536659,
+    "source_candidate_ids": [
+      10057250079458881322
+    ],
+    "entity": "University of Alaska",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "requirement to provide reports",
+    "entity_evidence": [
+      {
+        "span_id": 339926426784378488,
+        "start": 54609,
+        "end": 54624,
+        "text": "University of Alaska",
+        "chunk_id": 15338937420712791328
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3173950165334448901,
+        "start": 54625,
+        "end": 54634,
+        "text": "government agency",
+        "chunk_id": 15338937420712791328
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10820892021817543505,
+        "start": 54635,
+        "end": 54644,
+        "text": "requirement to provide reports",
+        "chunk_id": 15338937420712791328
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10777098089769653903,
+        "start": 54645,
+        "end": 54654,
+        "text": "requirement to provide reports",
+        "chunk_id": 15338937420712791328
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8423337379601421580,
+    "source_group_id": 16468900383023588534,
+    "source_candidate_ids": [
+      13986974296853668004
+    ],
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 11478548338593354670,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 24339856338097876,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6195386776303739018,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7240201512704244347,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ]
+  }
+]

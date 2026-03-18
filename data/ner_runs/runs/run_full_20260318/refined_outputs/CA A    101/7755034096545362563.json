@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18375246431847400426,
+    "source_group_id": 7755034096545362563,
+    "source_candidate_ids": [
+      16202087017805146093
+    ],
+    "entity": "Trial Court Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "sufficient to address the revenue shortfall",
+    "entity_evidence": [
+      {
+        "span_id": 13687344004321556467,
+        "start": 64322,
+        "end": 64340,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14572137677950170819,
+        "start": 64322,
+        "end": 64340,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5009379060852549679,
+        "start": 64322,
+        "end": 64340,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13417445613836323432,
+        "start": 64322,
+        "end": 64340,
+        "text": "sufficient to address the revenue shortfall",
+        "chunk_id": 4330009644298360438
+      }
+    ]
+  }
+]

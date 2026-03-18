@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6436372852538977608,
+    "source_group_id": 6783094905217482315,
+    "source_candidate_ids": [
+      12696693925997507430
+    ],
+    "entity": "Federal government",
+    "type": "government agency",
+    "attribute": "definition",
+    "value": "Section 52008 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 4955120658855320816,
+        "start": 2387,
+        "end": 2400,
+        "text": "Federal government",
+        "chunk_id": 4761683490092155771
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1718990526216754640,
+        "start": 2401,
+        "end": 2411,
+        "text": "government agency",
+        "chunk_id": 4761683490092155771
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7327037008976577191,
+        "start": 2412,
+        "end": 2419,
+        "text": "definition",
+        "chunk_id": 4761683490092155771
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16736358137869809482,
+        "start": 2420,
+        "end": 2440,
+        "text": "Section 52008 of the Government Code",
+        "chunk_id": 4761683490092155771
+      }
+    ]
+  }
+]

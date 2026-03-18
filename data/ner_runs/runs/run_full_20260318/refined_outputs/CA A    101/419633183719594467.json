@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15835095393342418474,
+    "source_group_id": 419633183719594467,
+    "source_candidate_ids": [
+      2403580022006961064
+    ],
+    "entity": "Off-Highway Vehicle Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 5071369369829834254,
+        "start": 606159,
+        "end": 606183,
+        "text": "Off-Highway Vehicle Trust Fund",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10784153590841295112,
+        "start": 606159,
+        "end": 606183,
+        "text": "Off-Highway Vehicle Trust Fund",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17057828184610411121,
+        "start": 606184,
+        "end": 606191,
+        "text": "restriction",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15471191172962090650,
+        "start": 606192,
+        "end": 606199,
+        "text": "extended",
+        "chunk_id": 2404469389154958676
+      }
+    ]
+  }
+]

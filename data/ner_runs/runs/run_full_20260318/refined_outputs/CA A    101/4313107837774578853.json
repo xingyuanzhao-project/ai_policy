@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8655815245247959696,
+    "source_group_id": 4313107837774578853,
+    "source_candidate_ids": [
+      1685018984922009902
+    ],
+    "entity": "Board of State and Community Corrections",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "standards for selection and training",
+    "entity_evidence": [
+      {
+        "span_id": 1692898230477270761,
+        "start": 1117212,
+        "end": 1117232,
+        "text": "Board of State and Community Corrections",
+        "chunk_id": 2285572688693474221
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17289379753781637530,
+        "start": 1117212,
+        "end": 1117232,
+        "text": "government agency",
+        "chunk_id": 2285572688693474221
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16656609743411438841,
+        "start": 1117212,
+        "end": 1117232,
+        "text": "regulation",
+        "chunk_id": 2285572688693474221
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7402664283195891477,
+        "start": 1117212,
+        "end": 1117232,
+        "text": "standards for selection and training",
+        "chunk_id": 2285572688693474221
+      }
+    ]
+  }
+]

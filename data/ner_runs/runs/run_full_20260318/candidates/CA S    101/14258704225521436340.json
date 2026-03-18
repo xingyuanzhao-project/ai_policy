@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13493133808147893263,
+    "entity": "Government Code",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4477203797789697352,
+        "start": 1634264,
+        "end": 1634272,
+        "text": "3517.6 and 3517.63",
+        "chunk_id": 14258704225521436340
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6501866186517730769,
+        "start": 1634264,
+        "end": 1634272,
+        "text": "Government Code",
+        "chunk_id": 14258704225521436340
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3080483004206482074,
+        "start": 1634264,
+        "end": 1634272,
+        "text": "restriction",
+        "chunk_id": 14258704225521436340
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5696930262933834380,
+        "start": 1634264,
+        "end": 1634272,
+        "text": "extremely restrictive",
+        "chunk_id": 14258704225521436340
+      }
+    ]
+  },
+  {
+    "candidate_id": 1390813276762046088,
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "promptly",
+    "entity_evidence": [
+      {
+        "span_id": 14164456543303606777,
+        "start": 1634375,
+        "end": 1634396,
+        "text": "The Department of Human Resources",
+        "chunk_id": 14258704225521436340
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7960831201629599593,
+        "start": 1634375,
+        "end": 1634396,
+        "text": "Department of Human Resources",
+        "chunk_id": 14258704225521436340
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7177075004566079235,
+        "start": 1634375,
+        "end": 1634396,
+        "text": "promotion",
+        "chunk_id": 14258704225521436340
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11274184119164637078,
+        "start": 1634375,
+        "end": 1634396,
+        "text": "promptly",
+        "chunk_id": 14258704225521436340
+      }
+    ]
+  }
+]

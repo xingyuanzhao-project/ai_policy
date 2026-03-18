@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 4946840295086051399,
+    "source_group_id": 8926821898007226778,
+    "source_candidate_ids": [
+      5620792656918152428,
+      10046085245756867548
+    ],
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "substantial effect of subverting or impairing user autonomy, decision-making, or choice",
+    "entity_evidence": [
+      {
+        "span_id": 18345258102089914868,
+        "start": 15454,
+        "end": 15467,
+        "text": "any covered platform",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10245909083307251453,
+        "start": 15468,
+        "end": 15477,
+        "text": "covered platform",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3234820833573602104,
+        "start": 15478,
+        "end": 15498,
+        "text": "with the purpose or substantial effect of subverting or impairing user autonomy, decision-making, or choice",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18368085956517040925,
+        "start": 15478,
+        "end": 15498,
+        "text": "with the purpose or substantial effect of subverting or impairing user autonomy, decision-making, or choice",
+        "chunk_id": 5220291259738137314
+      }
+    ]
+  }
+]

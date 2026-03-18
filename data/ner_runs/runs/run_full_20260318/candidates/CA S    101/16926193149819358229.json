@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7027370633873413987,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Chapter 6 (commencing with Section 14825) of Part 5.5 of Division 3 of Title 2 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 1583108234035552626,
+        "start": 797592,
+        "end": 797612,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 16926193149819358229
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3612743272757205583,
+        "start": 797592,
+        "end": 797612,
+        "text": "government agency",
+        "chunk_id": 16926193149819358229
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15522700755047939942,
+        "start": 797592,
+        "end": 797612,
+        "text": "exempt from Chapter 6 (commencing with Section 14825) of Part 5.5 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 16926193149819358229
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10524971878993873641,
+        "start": 797592,
+        "end": 797612,
+        "text": "exempt from Chapter 6 (commencing with Section 14825) of Part 5.5 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 16926193149819358229
+      }
+    ]
+  },
+  {
+    "candidate_id": 15964192089470524209,
+    "entity": "Director of Finance",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "exempt from Chapter 6 (commencing with Section 14825) of Part 5.5 of Division 3 of Title 2 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 17164806871798125634,
+        "start": 797592,
+        "end": 797612,
+        "text": "Director of Finance",
+        "chunk_id": 16926193149819358229
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4834560109038204272,
+        "start": 797592,
+        "end": 797612,
+        "text": "individual",
+        "chunk_id": 16926193149819358229
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17076418350726164229,
+        "start": 797592,
+        "end": 797612,
+        "text": "exempt from Chapter 6 (commencing with Section 14825) of Part 5.5 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 16926193149819358229
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14617392034629298114,
+        "start": 797592,
+        "end": 797612,
+        "text": "exempt from Chapter 6 (commencing with Section 14825) of Part 5.5 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 16926193149819358229
+      }
+    ]
+  }
+]

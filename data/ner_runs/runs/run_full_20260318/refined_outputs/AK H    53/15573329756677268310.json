@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13334188334388570755,
+    "source_group_id": 15573329756677268310,
+    "source_candidate_ids": [
+      15547839382927046541
+    ],
+    "entity": "Department of Revenue",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "financial support",
+    "entity_evidence": [
+      {
+        "span_id": 17243568258945304963,
+        "start": 166867,
+        "end": 166886,
+        "text": "Department of Revenue",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14081820736781576401,
+        "start": 166867,
+        "end": 166886,
+        "text": "government agency",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16444578603002903497,
+        "start": 166867,
+        "end": 166886,
+        "text": "promotion",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8829662130007405421,
+        "start": 166867,
+        "end": 166886,
+        "text": "financial support",
+        "chunk_id": 11643181129874974578
+      }
+    ]
+  }
+]

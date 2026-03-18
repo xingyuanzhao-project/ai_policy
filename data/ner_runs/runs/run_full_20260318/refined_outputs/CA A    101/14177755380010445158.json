@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12552453356456243178,
+    "source_group_id": 14177755380010445158,
+    "source_candidate_ids": [
+      8010876331491743610
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days prior to the transfer of any funds",
+    "entity_evidence": [
+      {
+        "span_id": 2616044328657211655,
+        "start": 1533916,
+        "end": 1533936,
+        "text": "Director of Finance",
+        "chunk_id": 9463018427068491457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15158972068516626231,
+        "start": 1533916,
+        "end": 1533936,
+        "text": "Director of Finance",
+        "chunk_id": 9463018427068491457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16234258660924630543,
+        "start": 1533916,
+        "end": 1533936,
+        "text": "Director of Finance",
+        "chunk_id": 9463018427068491457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3486994425485159591,
+        "start": 1533916,
+        "end": 1533936,
+        "text": "Director of Finance",
+        "chunk_id": 9463018427068491457
+      }
+    ]
+  }
+]

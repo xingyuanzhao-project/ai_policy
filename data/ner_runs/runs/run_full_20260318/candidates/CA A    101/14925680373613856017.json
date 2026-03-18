@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10085185219931823159,
+    "entity": "Cannabis Control Appeals Panel",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 9500852209686821272,
+        "start": 246181,
+        "end": 246201,
+        "text": "Cannabis Control Appeals Panel",
+        "chunk_id": 14925680373613856017
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9375581864252898538,
+        "start": 246181,
+        "end": 246201,
+        "text": "Cannabis Control Appeals Panel",
+        "chunk_id": 14925680373613856017
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16950502112351180629,
+        "start": 246181,
+        "end": 246201,
+        "text": "Cannabis Control Appeals Panel",
+        "chunk_id": 14925680373613856017
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 267842322005494869,
+        "start": 246181,
+        "end": 246201,
+        "text": "Cannabis Control Appeals Panel",
+        "chunk_id": 14925680373613856017
+      }
+    ]
+  },
+  {
+    "candidate_id": 7401305247172496253,
+    "entity": "State Board of Barbering and Cosmetology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5371876019797522087,
+        "start": 246323,
+        "end": 246350,
+        "text": "State Board of Barbering and Cosmetology",
+        "chunk_id": 14925680373613856017
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10917491708823752877,
+        "start": 246323,
+        "end": 246350,
+        "text": "State Board of Barbering and Cosmetology",
+        "chunk_id": 14925680373613856017
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10752490866282060120,
+        "start": 246323,
+        "end": 246350,
+        "text": "State Board of Barbering and Cosmetology",
+        "chunk_id": 14925680373613856017
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15273866674218834382,
+        "start": 246323,
+        "end": 246350,
+        "text": "State Board of Barbering and Cosmetology",
+        "chunk_id": 14925680373613856017
+      }
+    ]
+  }
+]

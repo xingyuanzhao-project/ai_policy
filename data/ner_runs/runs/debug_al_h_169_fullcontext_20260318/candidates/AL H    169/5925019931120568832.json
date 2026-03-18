@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7822221617439304177,
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "rule adoption",
+    "entity_evidence": [
+      {
+        "span_id": 11976015745711636010,
+        "start": 37156,
+        "end": 37175,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16975852870439721079,
+        "start": 37156,
+        "end": 37175,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14258589149954171855,
+        "start": 37156,
+        "end": 37175,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7341085001924215280,
+        "start": 37156,
+        "end": 37175,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ]
+  },
+  {
+    "candidate_id": 1660980876153648698,
+    "entity": "State Superintendent",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "semi-annual",
+    "entity_evidence": [
+      {
+        "span_id": 2910734400558157210,
+        "start": 37186,
+        "end": 37195,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15312721674098407903,
+        "start": 37186,
+        "end": 37195,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6413930502409431277,
+        "start": 37186,
+        "end": 37195,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7483794993114834463,
+        "start": 37186,
+        "end": 37195,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ]
+  }
+]

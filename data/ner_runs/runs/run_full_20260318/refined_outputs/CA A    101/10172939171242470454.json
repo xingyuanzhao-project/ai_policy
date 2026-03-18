@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17577312427617318391,
+    "source_group_id": 10172939171242470454,
+    "source_candidate_ids": [
+      8591538273811504177
+    ],
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "upon implementation of a suitable updated electronic subscription purchasing process",
+    "entity_evidence": [
+      {
+        "span_id": 7237342815383561680,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4441664982780322322,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13445174281328296797,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7474179319998434551,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ]
+  }
+]

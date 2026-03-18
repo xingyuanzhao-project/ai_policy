@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17539261180684778466,
+    "entity": "Department of Conservation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 14908592391747545404,
+        "start": 460780,
+        "end": 460797,
+        "text": "Department of Conservation",
+        "chunk_id": 9529111120613387185
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14679531948590448054,
+        "start": 460780,
+        "end": 460797,
+        "text": "Department of Conservation",
+        "chunk_id": 9529111120613387185
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8882052735510737528,
+        "start": 460432,
+        "end": 460432,
+        "text": "",
+        "chunk_id": 9529111120613387185
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7404894082942406623,
+        "start": 460432,
+        "end": 460432,
+        "text": "",
+        "chunk_id": 9529111120613387185
+      }
+    ]
+  },
+  {
+    "candidate_id": 14089897015031651243,
+    "entity": "Surface Mining and Reclamation Act (SMARA-4)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 14453154082857989081,
+        "start": 460432,
+        "end": 460432,
+        "text": "",
+        "chunk_id": 9529111120613387185
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17180976949671228827,
+        "start": 460432,
+        "end": 460432,
+        "text": "",
+        "chunk_id": 9529111120613387185
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11153620390257931370,
+        "start": 460432,
+        "end": 460432,
+        "text": "",
+        "chunk_id": 9529111120613387185
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14310852689320038212,
+        "start": 460432,
+        "end": 460432,
+        "text": "",
+        "chunk_id": 9529111120613387185
+      }
+    ]
+  }
+]

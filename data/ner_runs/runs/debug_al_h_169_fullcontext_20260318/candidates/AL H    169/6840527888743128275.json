@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9359520239485458386,
+    "entity": "Retired Senior Volunteer Program",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "salaries",
+    "entity_evidence": [
+      {
+        "span_id": 16665644940901936150,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8869246808864032465,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 791499045997580110,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7756899508444465237,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ]
+  },
+  {
+    "candidate_id": 6652050682636766930,
+    "entity": "Department of Education",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "report",
+    "entity_evidence": [
+      {
+        "span_id": 6864831096740447776,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6457880918519178353,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1226008047220592872,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14336459520789381563,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ]
+  }
+]

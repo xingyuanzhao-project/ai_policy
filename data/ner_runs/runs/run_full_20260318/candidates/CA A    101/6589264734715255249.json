@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14994640487959589308,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "supplemental funding",
+    "entity_evidence": [
+      {
+        "span_id": 1817134461922917065,
+        "start": 1362379,
+        "end": 1362399,
+        "text": "The California State University",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17552919160243429164,
+        "start": 1362379,
+        "end": 1362399,
+        "text": "The California State University",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6093956025766384021,
+        "start": 1362401,
+        "end": 1362411,
+        "text": "to provide summer-term financial aid",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6485562631044534871,
+        "start": 1362401,
+        "end": 1362411,
+        "text": "to provide summer-term financial aid",
+        "chunk_id": 6589264734715255249
+      }
+    ]
+  },
+  {
+    "candidate_id": 1884679500534150990,
+    "entity": "Asian American, Native Hawaiian, and Pacific Islander Student Achievement Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "ongoing support",
+    "entity_evidence": [
+      {
+        "span_id": 12906378215431895813,
+        "start": 1362501,
+        "end": 1362529,
+        "text": "Asian American, Native Hawaiian, and Pacific Islander Student Achievement Program",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 621241631930935195,
+        "start": 1362501,
+        "end": 1362529,
+        "text": "Asian American, Native Hawaiian, and Pacific Islander Student Achievement Program",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10235541216466475645,
+        "start": 1362531,
+        "end": 1362541,
+        "text": "on an ongoing basis",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11665114697170557207,
+        "start": 1362531,
+        "end": 1362541,
+        "text": "on an ongoing basis",
+        "chunk_id": 6589264734715255249
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10452913999555588294,
+    "source_group_id": 3456898281553097350,
+    "source_candidate_ids": [
+      7618852121311520629
+    ],
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "definition",
+    "value": "entity responsible for processing personal data",
+    "entity_evidence": [
+      {
+        "span_id": 9981997413521512540,
+        "start": 25687,
+        "end": 25696,
+        "text": "controller",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11364777230892894407,
+        "start": 25687,
+        "end": 25696,
+        "text": "controller",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2410169000233662356,
+        "start": 25687,
+        "end": 25696,
+        "text": "definition",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10542155724542382484,
+        "start": 25687,
+        "end": 25696,
+        "text": "entity responsible for processing personal data",
+        "chunk_id": 1945908115118451026
+      }
+    ]
+  }
+]

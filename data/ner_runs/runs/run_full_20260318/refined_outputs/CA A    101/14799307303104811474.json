@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3663040558574475518,
+    "source_group_id": 14799307303104811474,
+    "source_candidate_ids": [
+      860241954164930633
+    ],
+    "entity": "Unemployment Insurance Code",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17271827572159331990,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16792045994369364333,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5117710199288780166,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2761586862657432307,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ]
+  }
+]

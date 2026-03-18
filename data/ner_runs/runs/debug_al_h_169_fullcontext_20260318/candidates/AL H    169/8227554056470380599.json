@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14202172469076204136,
+    "entity": "District Technology Coordinator",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "established by the State Board of Education",
+    "entity_evidence": [
+      {
+        "span_id": 13530348352300406674,
+        "start": 27401,
+        "end": 27419,
+        "text": "position of a District Technology Coordinator",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1888045582097611459,
+        "start": 27401,
+        "end": 27419,
+        "text": "District Technology Coordinator",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6249239759007578938,
+        "start": 27401,
+        "end": 27419,
+        "text": "meets the job description and qualifications",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12409928172705688746,
+        "start": 27401,
+        "end": 27419,
+        "text": "established by the State Board of Education",
+        "chunk_id": 8227554056470380599
+      }
+    ]
+  },
+  {
+    "candidate_id": 5536427415910484367,
+    "entity": "Alabama Leaders in Educational Technology (ALET)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "effective use of funds",
+    "entity_evidence": [
+      {
+        "span_id": 6782185849167867613,
+        "start": 27441,
+        "end": 27471,
+        "text": "Alabama Leaders in Educational Technology (ALET)",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10549282178898753450,
+        "start": 27441,
+        "end": 27471,
+        "text": "Alabama Leaders in Educational Technology (ALET)",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17341896880260833070,
+        "start": 27441,
+        "end": 27471,
+        "text": "to assist school systems' effective use of these funds",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7853600884358039564,
+        "start": 27441,
+        "end": 27471,
+        "text": "effective use of funds",
+        "chunk_id": 8227554056470380599
+      }
+    ]
+  }
+]

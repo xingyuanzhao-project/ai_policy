@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6209383530214093989,
+    "entity": "California Collaborative for Educational Excellence",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "guidance, support, and delivery of training services",
+    "entity_evidence": [
+      {
+        "span_id": 2972062714441768315,
+        "start": 1099301,
+        "end": 1099322,
+        "text": "The California Collaborative for Educational Excellence",
+        "chunk_id": 962154489602091783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1780093859090588976,
+        "start": 1099301,
+        "end": 1099322,
+        "text": "The California Collaborative for Educational Excellence",
+        "chunk_id": 962154489602091783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1531907457706471162,
+        "start": 1099323,
+        "end": 1099340,
+        "text": "guidance, support, and delivery of training services",
+        "chunk_id": 962154489602091783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2880200967034661596,
+        "start": 1099323,
+        "end": 1099340,
+        "text": "guidance, support, and delivery of training services",
+        "chunk_id": 962154489602091783
+      }
+    ]
+  },
+  {
+    "candidate_id": 8735168791716999246,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "grant allocation or review processes",
+    "entity_evidence": [
+      {
+        "span_id": 7044628928930520767,
+        "start": 1099412,
+        "end": 1099429,
+        "text": "State Department of Education",
+        "chunk_id": 962154489602091783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11155462673511573006,
+        "start": 1099412,
+        "end": 1099429,
+        "text": "State Department of Education",
+        "chunk_id": 962154489602091783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8865496447402968919,
+        "start": 1099430,
+        "end": 1099448,
+        "text": "grant allocation or review processes",
+        "chunk_id": 962154489602091783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11960067545601511988,
+        "start": 1099430,
+        "end": 1099448,
+        "text": "grant allocation or review processes",
+        "chunk_id": 962154489602091783
+      }
+    ]
+  }
+]

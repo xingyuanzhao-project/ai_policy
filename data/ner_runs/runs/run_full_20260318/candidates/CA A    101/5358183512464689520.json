@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15432634906892245366,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 17294041402533642590,
+        "start": 339007,
+        "end": 339035,
+        "text": "Department of Transportation",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5383541297875882188,
+        "start": 339007,
+        "end": 339035,
+        "text": "government agency",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2532374651592130601,
+        "start": 339007,
+        "end": 339035,
+        "text": "restriction",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17573101167708422039,
+        "start": 339007,
+        "end": 339035,
+        "text": "prior approval",
+        "chunk_id": 5358183512464689520
+      }
+    ]
+  },
+  {
+    "candidate_id": 3884885434939377948,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "stormwater discharge provisions",
+    "entity_evidence": [
+      {
+        "span_id": 3896556239186193906,
+        "start": 338864,
+        "end": 338885,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10875984087244879855,
+        "start": 338864,
+        "end": 338885,
+        "text": "government agency",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16281377987131706520,
+        "start": 338864,
+        "end": 338885,
+        "text": "restriction",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12258155384420377600,
+        "start": 338864,
+        "end": 338885,
+        "text": "stormwater discharge provisions",
+        "chunk_id": 5358183512464689520
+      }
+    ]
+  }
+]

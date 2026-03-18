@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15133091767358693145,
+    "source_group_id": 11054260187640087339,
+    "source_candidate_ids": [
+      12513234574679591133
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "50% at discretion of State Superintendent of Education",
+    "entity_evidence": [
+      {
+        "span_id": 9749391327402907561,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8027750991027092855,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16890915929111196559,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16745141854635465497,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ]
+  }
+]

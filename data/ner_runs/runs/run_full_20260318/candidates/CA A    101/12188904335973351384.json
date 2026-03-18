@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13343297252421763114,
+    "entity": "Exide Technologies",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 7292383780362060344,
+        "start": 743296,
+        "end": 743308,
+        "text": "Exide Technologies",
+        "chunk_id": 12188904335973351384
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1409799213684407798,
+        "start": 743296,
+        "end": 743308,
+        "text": "Exide Technologies",
+        "chunk_id": 12188904335973351384
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11347950505705171041,
+        "start": 743296,
+        "end": 743308,
+        "text": "Exide Technologies",
+        "chunk_id": 12188904335973351384
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 716261083692414595,
+        "start": 743296,
+        "end": 743308,
+        "text": "Exide Technologies",
+        "chunk_id": 12188904335973351384
+      }
+    ]
+  },
+  {
+    "candidate_id": 9039425159692148811,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 17878462484118130096,
+        "start": 743558,
+        "end": 743586,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 12188904335973351384
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6092864058567632512,
+        "start": 743558,
+        "end": 743586,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 12188904335973351384
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16138232387405231124,
+        "start": 743558,
+        "end": 743586,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 12188904335973351384
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17902030316558506402,
+        "start": 743558,
+        "end": 743586,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 12188904335973351384
+      }
+    ]
+  }
+]

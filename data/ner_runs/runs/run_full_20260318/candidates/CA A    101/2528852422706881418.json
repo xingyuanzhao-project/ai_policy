@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6461443766675022130,
+    "entity": "physician services",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "base rate increases",
+    "entity_evidence": [
+      {
+        "span_id": 16511669993499438180,
+        "start": 862511,
+        "end": 862526,
+        "text": "physician services,",
+        "chunk_id": 2528852422706881418
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4873561298208237175,
+        "start": 862526,
+        "end": 862537,
+        "text": "physician services",
+        "chunk_id": 2528852422706881418
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11433812973930904020,
+        "start": 862537,
+        "end": 862545,
+        "text": "base rate increases",
+        "chunk_id": 2528852422706881418
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8327223281987199435,
+        "start": 862545,
+        "end": 862556,
+        "text": "base rate increases",
+        "chunk_id": 2528852422706881418
+      }
+    ]
+  },
+  {
+    "candidate_id": 15544060350419636561,
+    "entity": "federal financial participation",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "otherwise jeopardized",
+    "entity_evidence": [
+      {
+        "span_id": 9457438363217573858,
+        "start": 862511,
+        "end": 862533,
+        "text": "federal financial participation",
+        "chunk_id": 2528852422706881418
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2755354914754042374,
+        "start": 862533,
+        "end": 862548,
+        "text": "infrastructure",
+        "chunk_id": 2528852422706881418
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15690140308687826919,
+        "start": 862548,
+        "end": 862562,
+        "text": "otherwise jeopardized",
+        "chunk_id": 2528852422706881418
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1895711844153643462,
+        "start": 862562,
+        "end": 862578,
+        "text": "otherwise jeopardized",
+        "chunk_id": 2528852422706881418
+      }
+    ]
+  }
+]

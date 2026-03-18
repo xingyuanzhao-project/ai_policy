@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6907300373231241961,
+    "source_group_id": 15935560972585937353,
+    "source_candidate_ids": [
+      13397985966824626651
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "separate accounts",
+    "entity_evidence": [
+      {
+        "span_id": 1635696103133806845,
+        "start": 130426,
+        "end": 130450,
+        "text": "State Department of Education",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4792058833298736283,
+        "start": 130426,
+        "end": 130450,
+        "text": "government agency",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14152601341739461192,
+        "start": 130426,
+        "end": 130450,
+        "text": "restriction",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7670795026809251750,
+        "start": 130426,
+        "end": 130450,
+        "text": "separate accounts",
+        "chunk_id": 5195200834195450648
+      }
+    ]
+  }
+]

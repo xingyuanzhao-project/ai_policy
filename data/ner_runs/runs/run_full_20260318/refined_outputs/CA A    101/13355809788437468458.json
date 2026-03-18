@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7406202289307712246,
+    "source_group_id": 13355809788437468458,
+    "source_candidate_ids": [
+      2878952555477053514
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "transitioned",
+    "entity_evidence": [
+      {
+        "span_id": 16740706190043069175,
+        "start": 1032131,
+        "end": 1032151,
+        "text": "programs transitioned from the State Department of Education",
+        "chunk_id": 9774530602719288515
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17832550646598678171,
+        "start": 1032131,
+        "end": 1032151,
+        "text": "programs transitioned from the State Department of Education",
+        "chunk_id": 9774530602719288515
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13603705690873319019,
+        "start": 1032131,
+        "end": 1032151,
+        "text": "programs transitioned from the State Department of Education",
+        "chunk_id": 9774530602719288515
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3669339375199611444,
+        "start": 1032131,
+        "end": 1032151,
+        "text": "programs transitioned from the State Department of Education",
+        "chunk_id": 9774530602719288515
+      }
+    ]
+  }
+]

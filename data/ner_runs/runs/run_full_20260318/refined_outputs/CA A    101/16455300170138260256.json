@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7558287525832145406,
+    "source_group_id": 16455300170138260256,
+    "source_candidate_ids": [
+      14765500824413110376
+    ],
+    "entity": "Immunization Records",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11651293002155090019,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 111964536168718522,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1178398797458838842,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12083949132180551074,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ]
+  }
+]

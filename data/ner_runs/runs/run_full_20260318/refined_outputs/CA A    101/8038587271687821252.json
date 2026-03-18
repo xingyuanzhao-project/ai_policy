@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14464153948860056826,
+    "source_group_id": 8038587271687821252,
+    "source_candidate_ids": [
+      4818806258937298349
+    ],
+    "entity": "State Athletic Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 11540851942688304256,
+        "start": 251474,
+        "end": 251491,
+        "text": "State Athletic Commission",
+        "chunk_id": 7761682658768559497
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7777171529602949985,
+        "start": 251474,
+        "end": 251491,
+        "text": "State Athletic Commission",
+        "chunk_id": 7761682658768559497
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16401315540727692178,
+        "start": 251363,
+        "end": 251363,
+        "text": "",
+        "chunk_id": 7761682658768559497
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10395480923807440088,
+        "start": 251363,
+        "end": 251363,
+        "text": "",
+        "chunk_id": 7761682658768559497
+      }
+    ]
+  }
+]

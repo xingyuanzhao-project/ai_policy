@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16499223127560938460,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extension of liquidation period",
+    "entity_evidence": [
+      {
+        "span_id": 15149216229962195248,
+        "start": 521008,
+        "end": 521028,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 1289612401298177204
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10590573676085109204,
+        "start": 521008,
+        "end": 521028,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 1289612401298177204
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11325490761093497657,
+        "start": 521008,
+        "end": 521028,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 1289612401298177204
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16056183703661444295,
+        "start": 521008,
+        "end": 521028,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 1289612401298177204
+      }
+    ]
+  },
+  {
+    "candidate_id": 9617168391349203292,
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 16002921759757486000,
+        "start": 521008,
+        "end": 521028,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 1289612401298177204
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18030254564580472630,
+        "start": 521008,
+        "end": 521028,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 1289612401298177204
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14009310813935217370,
+        "start": 521008,
+        "end": 521028,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 1289612401298177204
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17934813961222850672,
+        "start": 521008,
+        "end": 521028,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 1289612401298177204
+      }
+    ]
+  }
+]

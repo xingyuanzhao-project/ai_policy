@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1937893667202132880,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 12458048932064618704,
+        "start": 652619,
+        "end": 652644,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 295844857256664357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8297795391688379011,
+        "start": 652619,
+        "end": 652644,
+        "text": "government agency",
+        "chunk_id": 295844857256664357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11855832621834200309,
+        "start": 652348,
+        "end": 652368,
+        "text": "encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 295844857256664357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16142703289837707585,
+        "start": 652348,
+        "end": 652368,
+        "text": "until June 30, 2028",
+        "chunk_id": 295844857256664357
+      }
+    ]
+  },
+  {
+    "candidate_id": 12880904292401439569,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 11863604271091450890,
+        "start": 652621,
+        "end": 652646,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 295844857256664357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3342837039781601876,
+        "start": 652621,
+        "end": 652646,
+        "text": "government agency",
+        "chunk_id": 295844857256664357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4695945172190511578,
+        "start": 652348,
+        "end": 652368,
+        "text": "encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 295844857256664357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5522821448693155264,
+        "start": 652348,
+        "end": 652368,
+        "text": "until June 30, 2028",
+        "chunk_id": 295844857256664357
+      }
+    ]
+  }
+]

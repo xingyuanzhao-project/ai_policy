@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 9563782277264019141,
+    "source_group_id": 17186351721089186229,
+    "source_candidate_ids": [
+      3842540272055186490,
+      10890222263901356677
+    ],
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 8052868389156216066,
+        "start": 30363,
+        "end": 30368,
+        "text": "controller",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6048972692214571879,
+        "start": 30363,
+        "end": 30372,
+        "text": "controller or processor",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11807571081499302952,
+        "start": 30372,
+        "end": 30380,
+        "text": "liabilities imposed",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10985130722837822039,
+        "start": 30380,
+        "end": 30391,
+        "text": "reasonable measures",
+        "chunk_id": 3323050273669108483
+      }
+    ]
+  }
+]

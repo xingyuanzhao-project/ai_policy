@@ -1,0 +1,33 @@
+[
+  {
+    "refined_id": 16000873077806742354,
+    "source_group_id": 18142036206676262373,
+    "source_candidate_ids": [
+      5852195267734755782
+    ],
+    "entity": "special education local plan areas",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "technical assistance",
+    "entity_evidence": [
+      {
+        "span_id": 10905930898447850103,
+        "start": 1241385,
+        "end": 1241408,
+        "text": "special education local plan areas",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "type_evidence": [],
+    "attribute_evidence": [],
+    "value_evidence": [
+      {
+        "span_id": 14854154308105153916,
+        "start": 1241385,
+        "end": 1241408,
+        "text": "special education local plan areas",
+        "chunk_id": 17913612101745500460
+      }
+    ]
+  }
+]

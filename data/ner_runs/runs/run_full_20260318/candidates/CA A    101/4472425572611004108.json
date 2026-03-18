@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9828042201995195023,
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "planned project activities",
+    "entity_evidence": [
+      {
+        "span_id": 4701108425811153309,
+        "start": 1472277,
+        "end": 1472297,
+        "text": "The Employment Development Department",
+        "chunk_id": 4472425572611004108
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17604753449708543385,
+        "start": 1472277,
+        "end": 1472297,
+        "text": "The Employment Development Department",
+        "chunk_id": 4472425572611004108
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12236483636012941555,
+        "start": 1472277,
+        "end": 1472297,
+        "text": "The Employment Development Department",
+        "chunk_id": 4472425572611004108
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16441689243623627467,
+        "start": 1472277,
+        "end": 1472297,
+        "text": "The Employment Development Department",
+        "chunk_id": 4472425572611004108
+      }
+    ]
+  },
+  {
+    "candidate_id": 10705892146916254640,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "10 days",
+    "entity_evidence": [
+      {
+        "span_id": 8742640708950455710,
+        "start": 1472299,
+        "end": 1472313,
+        "text": "The Department of Finance",
+        "chunk_id": 4472425572611004108
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11691688909471618464,
+        "start": 1472299,
+        "end": 1472313,
+        "text": "The Department of Finance",
+        "chunk_id": 4472425572611004108
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6627644287234242132,
+        "start": 1472299,
+        "end": 1472313,
+        "text": "The Department of Finance",
+        "chunk_id": 4472425572611004108
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6153691093566704771,
+        "start": 1472299,
+        "end": 1472313,
+        "text": "The Department of Finance",
+        "chunk_id": 4472425572611004108
+      }
+    ]
+  }
+]

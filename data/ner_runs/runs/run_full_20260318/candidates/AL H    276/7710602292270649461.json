@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3969843103844690352,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17208636755491077425,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 248926294431065243,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5581393935875172423,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6300652388734336867,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ]
+  },
+  {
+    "candidate_id": 4525945403933088153,
+    "entity": "minor",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9471653252884314040,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16644997334964857796,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16450715443581796185,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1120521636657843914,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ]
+  }
+]

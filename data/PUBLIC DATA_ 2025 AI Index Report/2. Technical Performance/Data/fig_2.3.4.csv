@@ -1,0 +1,16 @@
+Model,Average accuracy
+interlm-7b,48.70%
+vicuna-7b-delta-v0,50.90%
+VideoChat2,51.10%
+Kwai-VideoLLM,54.73%
+ST-LLM,54.85%
+PLLaVA 34B,58.10%
+CVLM,58.78%
+VideoChat2_mistral,60.40%
+VideoChat2_HD_mistral,62.30%
+Video-CCAM-4B-v1.1,62.80%
+Video-CCAM-9B-v1.1,64.60%
+JT-VL-Chat,65.35%
+InternVideo2-8B-HD-Chat-f16,67.25%
+TimeMarker,67.43%
+Video-CCAM-7B-v1.2,69.23%

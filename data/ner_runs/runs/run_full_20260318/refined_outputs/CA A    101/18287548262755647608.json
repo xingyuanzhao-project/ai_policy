@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 11385334197623506083,
+    "source_group_id": 18287548262755647608,
+    "source_candidate_ids": [
+      12196570061597889183,
+      3987480306956819311
+    ],
+    "entity": "California Fire and Rescue Mutual Aid System",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 9977018422020204808,
+        "start": 147051,
+        "end": 147081,
+        "text": "California Fire and Rescue Mutual Aid System",
+        "chunk_id": 386552812014453842
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12452884908364997496,
+        "start": 147051,
+        "end": 147081,
+        "text": "California Fire and Rescue Mutual Aid System",
+        "chunk_id": 386552812014453842
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17675846266297756920,
+        "start": 147051,
+        "end": 147081,
+        "text": "California Fire and Rescue Mutual Aid System",
+        "chunk_id": 386552812014453842
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17768610667522507274,
+        "start": 147051,
+        "end": 147081,
+        "text": "California Fire and Rescue Mutual Aid System",
+        "chunk_id": 386552812014453842
+      }
+    ]
+  }
+]

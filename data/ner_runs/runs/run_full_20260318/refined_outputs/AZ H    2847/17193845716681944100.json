@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 14959476036878755487,
+    "source_group_id": 17193845716681944100,
+    "source_candidate_ids": [
+      9659346776663025969,
+      13828961668665727214
+    ],
+    "entity": "algorithmic price fixing",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 2305402110982489731,
+        "start": 134,
+        "end": 153,
+        "text": "Algorithmic price fixing of rental rates prohibited",
+        "chunk_id": 18045355271119555971
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17039303835582157458,
+        "start": 134,
+        "end": 153,
+        "text": "Algorithmic price fixing of rental rates prohibited",
+        "chunk_id": 18045355271119555971
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 698921315941827280,
+        "start": 134,
+        "end": 153,
+        "text": "Algorithmic price fixing of rental rates prohibited",
+        "chunk_id": 18045355271119555971
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14513952858124620183,
+        "start": 134,
+        "end": 153,
+        "text": "Algorithmic price fixing of rental rates prohibited",
+        "chunk_id": 18045355271119555971
+      }
+    ]
+  }
+]

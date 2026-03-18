@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5171012480462805377,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 17789366038402842513,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-495--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15481009408983512394,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-495--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4646859043211960461,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-495--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18216682843659055564,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-495--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ]
+  },
+  {
+    "candidate_id": 4956146844939704620,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 10704277329113705955,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-496--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8353130609275931378,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-496--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3237933631479155759,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-496--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12132763894669255338,
+        "start": 673752,
+        "end": 673776,
+        "text": "3860-496--Reversion, Department of Water Resources",
+        "chunk_id": 8159754804589236259
+      }
+    ]
+  }
+]

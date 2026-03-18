@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16870024284288092365,
+    "entity": "Citizens Redistricting Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 18110077824238007688,
+        "start": 214201,
+        "end": 214222,
+        "text": "Citizens Redistricting Commission",
+        "chunk_id": 3000914858301907248
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12165111068235174504,
+        "start": 214201,
+        "end": 214222,
+        "text": "Citizens Redistricting Commission",
+        "chunk_id": 3000914858301907248
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 285545524611734842,
+        "start": 214201,
+        "end": 214222,
+        "text": "Citizens Redistricting Commission",
+        "chunk_id": 3000914858301907248
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5574171604441433213,
+        "start": 214201,
+        "end": 214222,
+        "text": "Citizens Redistricting Commission",
+        "chunk_id": 3000914858301907248
+      }
+    ]
+  },
+  {
+    "candidate_id": 7679021594068421696,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 9433027075861219936,
+        "start": 214333,
+        "end": 214350,
+        "text": "Director of Finance",
+        "chunk_id": 3000914858301907248
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12774662070828223028,
+        "start": 214333,
+        "end": 214350,
+        "text": "Director of Finance",
+        "chunk_id": 3000914858301907248
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 377460912063759365,
+        "start": 214333,
+        "end": 214350,
+        "text": "Director of Finance",
+        "chunk_id": 3000914858301907248
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9636183296865398755,
+        "start": 214333,
+        "end": 214350,
+        "text": "Director of Finance",
+        "chunk_id": 3000914858301907248
+      }
+    ]
+  }
+]

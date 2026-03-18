@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7084588079175090016,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "95 percent",
+    "entity_evidence": [
+      {
+        "span_id": 3119473093757122987,
+        "start": 805460,
+        "end": 805478,
+        "text": "offset at least 95 percent",
+        "chunk_id": 6694719226306687609
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6466879013398391027,
+        "start": 805460,
+        "end": 805478,
+        "text": "offset at least 95 percent",
+        "chunk_id": 6694719226306687609
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14011920566456562821,
+        "start": 805460,
+        "end": 805478,
+        "text": "offset at least 95 percent",
+        "chunk_id": 6694719226306687609
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1407077306027151299,
+        "start": 805460,
+        "end": 805478,
+        "text": "offset at least 95 percent",
+        "chunk_id": 6694719226306687609
+      }
+    ]
+  },
+  {
+    "candidate_id": 13391098769439440499,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "limitation",
+    "value": "actual fees collected",
+    "entity_evidence": [
+      {
+        "span_id": 8720459328432877235,
+        "start": 805635,
+        "end": 805651,
+        "text": "actual fees collected",
+        "chunk_id": 6694719226306687609
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6536963608670298331,
+        "start": 805635,
+        "end": 805651,
+        "text": "actual fees collected",
+        "chunk_id": 6694719226306687609
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9308125561441114283,
+        "start": 805635,
+        "end": 805651,
+        "text": "actual fees collected",
+        "chunk_id": 6694719226306687609
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5825457400499821565,
+        "start": 805635,
+        "end": 805651,
+        "text": "actual fees collected",
+        "chunk_id": 6694719226306687609
+      }
+    ]
+  }
+]

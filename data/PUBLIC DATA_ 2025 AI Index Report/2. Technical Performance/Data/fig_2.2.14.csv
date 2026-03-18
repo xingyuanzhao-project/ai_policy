@@ -1,0 +1,13 @@
+Model,benchmark_name,value
+GPT-4o,MMLU,88.00%
+o1,MMLU,90.80%
+o1-preview,MMLU,92.30%
+GPT-4o,MATH,60.30%
+o1,MATH,94.80%
+o1-preview,MATH,85.50%
+GPT-4o,GPQA Diamond,50.60%
+o1,GPQA Diamond,77.30%
+o1-preview,GPQA Diamond,73.30%
+GPT-4o,AIME 2024,9.30%
+o1,AIME 2024,74.40%
+o1-preview,AIME 2024,44.60%

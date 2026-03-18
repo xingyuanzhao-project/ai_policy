@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18184173203084711482,
+    "entity": "library media center",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1725811005696922897,
+        "start": 4994,
+        "end": 5006,
+        "text": "library media center",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14580033567677699494,
+        "start": 4994,
+        "end": 5006,
+        "text": "library media center",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12631159261039745590,
+        "start": 5008,
+        "end": 5013,
+        "text": "limited",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1052113462117489682,
+        "start": 5008,
+        "end": 5013,
+        "text": "limited",
+        "chunk_id": 6224406826456719041
+      }
+    ]
+  },
+  {
+    "candidate_id": 12228330903596009989,
+    "entity": "library media specialist",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1051277913745084769,
+        "start": 5017,
+        "end": 5034,
+        "text": "library media specialist",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14991778292538839687,
+        "start": 5017,
+        "end": 5034,
+        "text": "library media specialist",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14765754381497622429,
+        "start": 5036,
+        "end": 5041,
+        "text": "limited",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10872762719664838703,
+        "start": 5036,
+        "end": 5041,
+        "text": "limited",
+        "chunk_id": 6224406826456719041
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9050942526305978804,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "sustained enrollment declines",
+    "entity_evidence": [
+      {
+        "span_id": 1997578245440703258,
+        "start": 1367267,
+        "end": 1367286,
+        "text": "Each California State University campus that has experienced sustained enrollment declines",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2017098023585032151,
+        "start": 1367267,
+        "end": 1367286,
+        "text": "Each California State University campus that has experienced sustained enrollment declines",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6681933480402609149,
+        "start": 1367267,
+        "end": 1367286,
+        "text": "Each California State University campus that has experienced sustained enrollment declines",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14850970526718790798,
+        "start": 1367267,
+        "end": 1367286,
+        "text": "Each California State University campus that has experienced sustained enrollment declines",
+        "chunk_id": 2666615668095483002
+      }
+    ]
+  },
+  {
+    "candidate_id": 2241321774524949546,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short-term loan",
+    "entity_evidence": [
+      {
+        "span_id": 10113467808530260266,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 723586438551836320,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10217393362113887265,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5683139044386113669,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ]
+  }
+]

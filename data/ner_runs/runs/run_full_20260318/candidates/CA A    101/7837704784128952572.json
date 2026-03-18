@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13068126328469370985,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 8222667571123804419,
+        "start": 401346,
+        "end": 401370,
+        "text": "Reversion, Department of Transportation",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17330085256874833741,
+        "start": 401346,
+        "end": 401370,
+        "text": "Reversion, Department of Transportation",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8355879685023948885,
+        "start": 401346,
+        "end": 401370,
+        "text": "Reversion, Department of Transportation",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2894089048061848796,
+        "start": 401346,
+        "end": 401370,
+        "text": "Reversion, Department of Transportation",
+        "chunk_id": 7837704784128952572
+      }
+    ]
+  },
+  {
+    "candidate_id": 10582796540462842065,
+    "entity": "Corridor Mobility Improvement Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "improvement",
+    "entity_evidence": [
+      {
+        "span_id": 6692675080109883572,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2222259700637535655,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6444945558895510241,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2243546801393177236,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ]
+  }
+]

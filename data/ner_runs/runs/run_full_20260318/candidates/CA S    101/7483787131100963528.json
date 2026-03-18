@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16608437892126750753,
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not reduce fees",
+    "entity_evidence": [
+      {
+        "span_id": 7319973181810856602,
+        "start": 619129,
+        "end": 619155,
+        "text": "State Air Resources Board",
+        "chunk_id": 7483787131100963528
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11740614383488089401,
+        "start": 619129,
+        "end": 619155,
+        "text": "government agency",
+        "chunk_id": 7483787131100963528
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14896859769098822053,
+        "start": 619155,
+        "end": 619171,
+        "text": "not reduce fees",
+        "chunk_id": 7483787131100963528
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11910903452785770478,
+        "start": 619155,
+        "end": 619171,
+        "text": "not reduce fees",
+        "chunk_id": 7483787131100963528
+      }
+    ]
+  },
+  {
+    "candidate_id": 16066447640043823118,
+    "entity": "local air quality management and air pollution control districts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not reduce fees",
+    "entity_evidence": [
+      {
+        "span_id": 17128426130155426901,
+        "start": 619155,
+        "end": 619183,
+        "text": "local air quality management and air pollution control districts",
+        "chunk_id": 7483787131100963528
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10118073001077693319,
+        "start": 619155,
+        "end": 619183,
+        "text": "government agency",
+        "chunk_id": 7483787131100963528
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10866523867804674721,
+        "start": 619155,
+        "end": 619171,
+        "text": "not reduce fees",
+        "chunk_id": 7483787131100963528
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14024414840021743272,
+        "start": 619155,
+        "end": 619171,
+        "text": "not reduce fees",
+        "chunk_id": 7483787131100963528
+      }
+    ]
+  }
+]

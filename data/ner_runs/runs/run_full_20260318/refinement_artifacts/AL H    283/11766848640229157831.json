@@ -1,0 +1,47 @@
+{
+  "group_id": 11766848640229157831,
+  "candidate_ids": [
+    10216496773281925660,
+    9397238221220509260
+  ],
+  "entity_relations": [
+    [
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support"
+    ]
+  ],
+  "type_relations": [
+    [
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support"
+    ]
+  ],
+  "attribute_relations": [
+    [
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support"
+    ]
+  ],
+  "value_relations": [
+    [
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support"
+    ]
+  ]
+}

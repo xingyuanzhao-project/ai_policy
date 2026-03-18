@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2911548044007920642,
+    "entity": "Alabama Personal Data Protection Act",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3955606763103229263,
+        "start": 0,
+        "end": 24,
+        "text": "Alabama Personal Data Protection Act",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1585814774023385224,
+        "start": 24,
+        "end": 34,
+        "text": "legislation",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11090548159395075388,
+        "start": 34,
+        "end": 43,
+        "text": "restriction",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 181764728585411807,
+        "start": 43,
+        "end": 54,
+        "text": "extremely restrictive",
+        "chunk_id": 14086398982739742978
+      }
+    ]
+  },
+  {
+    "candidate_id": 7512932555376492999,
+    "entity": "Artificial Intelligence Model",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "explicitly embedded",
+    "entity_evidence": [
+      {
+        "span_id": 11919312975583047705,
+        "start": 95,
+        "end": 123,
+        "text": "Artificial Intelligence Model",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16426233350050589103,
+        "start": 123,
+        "end": 135,
+        "text": "technology",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13114768425685041370,
+        "start": 135,
+        "end": 144,
+        "text": "prohibition",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14638242420624709273,
+        "start": 144,
+        "end": 155,
+        "text": "explicitly embedded",
+        "chunk_id": 14086398982739742978
+      }
+    ]
+  }
+]

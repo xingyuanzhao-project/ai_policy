@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 383431646214068127,
+    "entity": "California Arts Council",
+    "type": "government agency",
+    "attribute": "eligibility",
+    "value": "ineligible",
+    "entity_evidence": [
+      {
+        "span_id": 17449716738827128626,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17270176437696649993,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7862010275959938148,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9318419541428300975,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ]
+  },
+  {
+    "candidate_id": 13864958158599923163,
+    "entity": "California Arts Council",
+    "type": "government agency",
+    "attribute": "eligibility",
+    "value": "ineligible",
+    "entity_evidence": [
+      {
+        "span_id": 15241771093392784189,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6638126504275268716,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11971417411503255750,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 731713046884620966,
+        "start": 1513215,
+        "end": 1513233,
+        "text": "ors' Gang Prison Project shall be ineligible",
+        "chunk_id": 3698159809527602121
+      }
+    ]
+  }
+]

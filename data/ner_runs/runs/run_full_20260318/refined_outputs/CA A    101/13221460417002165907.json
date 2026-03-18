@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10514726016452235507,
+    "source_group_id": 13221460417002165907,
+    "source_candidate_ids": [
+      2638325468168437380
+    ],
+    "entity": "California Advanced Services Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 2841057131981840740,
+        "start": 1647290,
+        "end": 1647310,
+        "text": "California Advanced Services Fund",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12253602659509784496,
+        "start": 1647290,
+        "end": 1647310,
+        "text": "California Advanced Services Fund",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12583731418071333778,
+        "start": 1647310,
+        "end": 1647320,
+        "text": "until June 30, 2030",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3948200763896384492,
+        "start": 1647310,
+        "end": 1647320,
+        "text": "until June 30, 2030",
+        "chunk_id": 7389004789044939978
+      }
+    ]
+  }
+]

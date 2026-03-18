@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 399398821002583284,
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "presumptive evidence",
+    "entity_evidence": [
+      {
+        "span_id": 9580268222440273616,
+        "start": 2258,
+        "end": 2263,
+        "text": "ence begins",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12075943459141236088,
+        "start": 2264,
+        "end": 2268,
+        "text": "voter",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2057770405311995545,
+        "start": 2269,
+        "end": 2280,
+        "text": "presumptive evidence",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8810582154548491973,
+        "start": 2281,
+        "end": 2291,
+        "text": "presumptive evidence",
+        "chunk_id": 3645768402558312072
+      }
+    ]
+  },
+  {
+    "candidate_id": 939338941004563612,
+    "entity": "driver’s license",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 15193785854507938703,
+        "start": 2392,
+        "end": 2402,
+        "text": "driver’s license",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8526567126295262859,
+        "start": 2392,
+        "end": 2402,
+        "text": "driver’s license",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9848590356568629802,
+        "start": 2403,
+        "end": 2411,
+        "text": "identification",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15241921888904438365,
+        "start": 2403,
+        "end": 2411,
+        "text": "identification",
+        "chunk_id": 3645768402558312072
+      }
+    ]
+  }
+]

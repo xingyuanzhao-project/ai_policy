@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13552472697965948228,
+    "source_group_id": 3639435490794887113,
+    "source_candidate_ids": [
+      4637654761351372059
+    ],
+    "entity": "California Architects Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "revenue derived from fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 14992853304278237728,
+        "start": 257445,
+        "end": 257445,
+        "text": "California Architects Board",
+        "chunk_id": 16060221254643328406
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5272907361204655984,
+        "start": 257445,
+        "end": 257445,
+        "text": "government agency",
+        "chunk_id": 16060221254643328406
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8600173132929689831,
+        "start": 257445,
+        "end": 257445,
+        "text": "restriction",
+        "chunk_id": 16060221254643328406
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11778893680027363902,
+        "start": 257445,
+        "end": 257445,
+        "text": "revenue derived from fines and penalties",
+        "chunk_id": 16060221254643328406
+      }
+    ]
+  }
+]

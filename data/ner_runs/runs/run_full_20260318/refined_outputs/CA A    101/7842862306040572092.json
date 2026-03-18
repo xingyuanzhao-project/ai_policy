@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8540869078412964943,
+    "source_group_id": 7842862306040572092,
+    "source_candidate_ids": [
+      16269396252155243131
+    ],
+    "entity": "county office of education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "allocated by the Controller directly",
+    "entity_evidence": [
+      {
+        "span_id": 13216232253973128771,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "county office of education",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4708482938118160048,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "government agency",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2683885600539964674,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "restriction",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8614873758563440194,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "allocated by the Controller directly",
+        "chunk_id": 16737047795559960181
+      }
+    ]
+  }
+]

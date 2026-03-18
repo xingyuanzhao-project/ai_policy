@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14855186405191198341,
+    "entity": "California Coastal Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short-term cash loan",
+    "entity_evidence": [
+      {
+        "span_id": 14935856888687138436,
+        "start": 526539,
+        "end": 526561,
+        "text": "California Coastal Commission",
+        "chunk_id": 16079309621273423884
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14784914431373312760,
+        "start": 526539,
+        "end": 526561,
+        "text": "California Coastal Commission",
+        "chunk_id": 16079309621273423884
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10542200354010264436,
+        "start": 526290,
+        "end": 526310,
+        "text": "short-term cash loan",
+        "chunk_id": 16079309621273423884
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 158182535775019122,
+        "start": 526290,
+        "end": 526310,
+        "text": "short-term cash loan",
+        "chunk_id": 16079309621273423884
+      }
+    ]
+  },
+  {
+    "candidate_id": 12338441821924618579,
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 17866887924817295389,
+        "start": 526531,
+        "end": 526553,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 16079309621273423884
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1203562204307330083,
+        "start": 526531,
+        "end": 526553,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 16079309621273423884
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3243955788547480505,
+        "start": 526290,
+        "end": 526310,
+        "text": "reappropriation",
+        "chunk_id": 16079309621273423884
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4307624065155327531,
+        "start": 526290,
+        "end": 526310,
+        "text": "until June 30, 2028",
+        "chunk_id": 16079309621273423884
+      }
+    ]
+  }
+]

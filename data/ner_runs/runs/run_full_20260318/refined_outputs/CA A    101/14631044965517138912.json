@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4981503740890542178,
+    "source_group_id": 14631044965517138912,
+    "source_candidate_ids": [
+      11647682310032059230
+    ],
+    "entity": "county",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "direct payment or administrative offset",
+    "entity_evidence": [
+      {
+        "span_id": 15891629004861502202,
+        "start": 1017206,
+        "end": 1017210,
+        "text": "direct payment",
+        "chunk_id": 14946704982170905442
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14800638613533767099,
+        "start": 1017206,
+        "end": 1017212,
+        "text": "direct payment or administrative offset",
+        "chunk_id": 14946704982170905442
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15078334948212312422,
+        "start": 1017206,
+        "end": 1017212,
+        "text": "direct payment or administrative offset",
+        "chunk_id": 14946704982170905442
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5481751837502646841,
+        "start": 1017206,
+        "end": 1017212,
+        "text": "direct payment or administrative offset",
+        "chunk_id": 14946704982170905442
+      }
+    ]
+  }
+]

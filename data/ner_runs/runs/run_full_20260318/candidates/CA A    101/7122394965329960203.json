@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1653673828223004939,
+    "entity": "Student Aid Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "temporarily extended",
+    "entity_evidence": [
+      {
+        "span_id": 11107303612051752834,
+        "start": 1459496,
+        "end": 1459516,
+        "text": "Student Aid Commission",
+        "chunk_id": 7122394965329960203
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13519737606381468363,
+        "start": 1459496,
+        "end": 1459516,
+        "text": "government agency",
+        "chunk_id": 7122394965329960203
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10750964682375891883,
+        "start": 1459496,
+        "end": 1459516,
+        "text": "restriction",
+        "chunk_id": 7122394965329960203
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7702649909391200783,
+        "start": 1459496,
+        "end": 1459516,
+        "text": "temporarily extended",
+        "chunk_id": 7122394965329960203
+      }
+    ]
+  },
+  {
+    "candidate_id": 8522506872195039244,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "extension",
+    "value": "June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 8958292872241649910,
+        "start": 1459518,
+        "end": 1459546,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 7122394965329960203
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15023478768344005038,
+        "start": 1459518,
+        "end": 1459546,
+        "text": "government agency",
+        "chunk_id": 7122394965329960203
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8966845627036397964,
+        "start": 1459518,
+        "end": 1459546,
+        "text": "extension",
+        "chunk_id": 7122394965329960203
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13018324169839350795,
+        "start": 1459518,
+        "end": 1459546,
+        "text": "June 30, 2026",
+        "chunk_id": 7122394965329960203
+      }
+    ]
+  }
+]

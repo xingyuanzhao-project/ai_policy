@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4996166627591417760,
+    "source_group_id": 1508436629840726950,
+    "source_candidate_ids": [
+      4851282804458843096
+    ],
+    "entity": "California State Library",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "equity-focused Building Forward infrastructure grants",
+    "entity_evidence": [
+      {
+        "span_id": 2424919040853133595,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15517214521469066146,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4476424538409050633,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17011987916580663112,
+        "start": 1299145,
+        "end": 1299165,
+        "text": "California State Library",
+        "chunk_id": 5656067071374739171
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1427103910154562994,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4253846816331814940,
+        "start": 712415,
+        "end": 712441,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 16825432805806246431
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12534945169340600430,
+        "start": 712415,
+        "end": 712441,
+        "text": "government agency",
+        "chunk_id": 16825432805806246431
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17801580662819889972,
+        "start": 712415,
+        "end": 712441,
+        "text": "restriction",
+        "chunk_id": 16825432805806246431
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8860188403631446435,
+        "start": 712415,
+        "end": 712441,
+        "text": "limited",
+        "chunk_id": 16825432805806246431
+      }
+    ]
+  },
+  {
+    "candidate_id": 3330596643328471933,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "reimbursement",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 8240503728117219853,
+        "start": 713255,
+        "end": 713282,
+        "text": "Department of Justice",
+        "chunk_id": 16825432805806246431
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15417894448217066461,
+        "start": 713255,
+        "end": 713282,
+        "text": "government agency",
+        "chunk_id": 16825432805806246431
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16658599086467263749,
+        "start": 713255,
+        "end": 713282,
+        "text": "reimbursement",
+        "chunk_id": 16825432805806246431
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14511547312487508921,
+        "start": 713255,
+        "end": 713282,
+        "text": "partial",
+        "chunk_id": 16825432805806246431
+      }
+    ]
+  }
+]

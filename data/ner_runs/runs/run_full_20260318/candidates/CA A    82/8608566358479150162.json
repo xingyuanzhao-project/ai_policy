@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14856641273462987002,
+    "entity": "CURES",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "not required to register",
+    "entity_evidence": [
+      {
+        "span_id": 8379892616703454117,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14623988505357494300,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11829076661260350708,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12604334139205586083,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ]
+  },
+  {
+    "candidate_id": 149297765283924814,
+    "entity": "prescription data processing vendor",
+    "type": "infrastructure",
+    "attribute": "extension",
+    "value": "until normal operations have resumed",
+    "entity_evidence": [
+      {
+        "span_id": 13803791072601503659,
+        "start": 42816,
+        "end": 42836,
+        "text": "prescription data processing vendor",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9510446534297033586,
+        "start": 42816,
+        "end": 42836,
+        "text": "prescription data processing vendor",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12686985484222614603,
+        "start": 42816,
+        "end": 42836,
+        "text": "prescription data processing vendor",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16173886294184027425,
+        "start": 42816,
+        "end": 42836,
+        "text": "prescription data processing vendor",
+        "chunk_id": 8608566358479150162
+      }
+    ]
+  }
+]

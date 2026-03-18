@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 16122643728137611097,
+    "source_group_id": 1666152319846877874,
+    "source_candidate_ids": [
+      15592424757796312,
+      2557766460093934306
+    ],
+    "entity": "Attorney General",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12731397450055995610,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9590793791087569904,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11952956990464693769,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1766638646144290140,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 12872907722059508955,
+    "source_group_id": 17430684936296754736,
+    "source_candidate_ids": [
+      14833117645844775728,
+      2305273230636514492
+    ],
+    "entity": "social media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 219126510091566763,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8986460256538076580,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2335575514833502964,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11532749368008694269,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ]
+  }
+]

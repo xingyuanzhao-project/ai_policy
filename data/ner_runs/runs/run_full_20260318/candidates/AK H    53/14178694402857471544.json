@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15980752457210534645,
+    "entity": "collective bargaining unit",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportionate adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 1411479451701067190,
+        "start": 164322,
+        "end": 164345,
+        "text": "ship of the respective collective bargaining unit",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7722312705418871615,
+        "start": 164322,
+        "end": 164345,
+        "text": "ship of the respective collective bargaining unit",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18414681800860833442,
+        "start": 164322,
+        "end": 164345,
+        "text": "ship of the respective collective bargaining unit",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1027102962691982975,
+        "start": 164322,
+        "end": 164345,
+        "text": "ship of the respective collective bargaining unit",
+        "chunk_id": 14178694402857471544
+      }
+    ]
+  },
+  {
+    "candidate_id": 8456906055383856208,
+    "entity": "Department of Commerce, Community, and Economic Development",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "qualified regional associations",
+    "entity_evidence": [
+      {
+        "span_id": 14240098199734481471,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17588880387274592582,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11381849850213237657,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18408468824492444891,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ]
+  }
+]

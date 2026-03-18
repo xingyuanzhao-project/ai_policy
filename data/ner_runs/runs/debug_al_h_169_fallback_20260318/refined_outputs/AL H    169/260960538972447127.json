@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17178499089657167906,
+    "source_group_id": 260960538972447127,
+    "source_candidate_ids": [
+      9244887282957729398
+    ],
+    "entity": "Educational Television Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology",
+    "entity_evidence": [
+      {
+        "span_id": 10163392944306001241,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5595554731419768214,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18257196966747114689,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3510660445113423251,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  }
+]

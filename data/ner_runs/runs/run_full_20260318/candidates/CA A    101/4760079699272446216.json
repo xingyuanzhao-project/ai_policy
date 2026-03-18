@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14851191204625047780,
+    "entity": "Fiscal Crisis and Management Assistance Team",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4058552282770997312,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "Fiscal Crisis and Management Assistance Team",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1559843481452230375,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "government agency",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16101543275936532862,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "restriction",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17913747052801308623,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "limited",
+        "chunk_id": 4760079699272446216
+      }
+    ]
+  },
+  {
+    "candidate_id": 10139821233424791368,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "encouragement",
+    "entity_evidence": [
+      {
+        "span_id": 15212277315032768012,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "State Department of Education",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14333144974474428343,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "government agency",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16475000305330646448,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "promotion",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8928459910803570306,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "encouragement",
+        "chunk_id": 4760079699272446216
+      }
+    ]
+  }
+]

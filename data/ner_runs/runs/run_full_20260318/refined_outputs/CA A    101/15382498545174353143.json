@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12985582698490679840,
+    "source_group_id": 15382498545174353143,
+    "source_candidate_ids": [
+      8297006917896888111
+    ],
+    "entity": "Santa Monica Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 15268229025805854700,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2214414170845665527,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8415388800645544431,
+        "start": 619513,
+        "end": 619527,
+        "text": "encumbrance or expenditure",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17016681516763849866,
+        "start": 619513,
+        "end": 619527,
+        "text": "encumbrance or expenditure",
+        "chunk_id": 7568175199512060104
+      }
+    ]
+  }
+]

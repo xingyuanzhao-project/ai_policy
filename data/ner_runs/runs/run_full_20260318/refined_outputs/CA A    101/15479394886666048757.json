@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15137081234577563689,
+    "source_group_id": 15479394886666048757,
+    "source_candidate_ids": [
+      3411217300720343357
+    ],
+    "entity": "School Fiscal Services Division",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "deferrals and average daily attendance changes",
+    "entity_evidence": [
+      {
+        "span_id": 5816738366337624867,
+        "start": 1135078,
+        "end": 1135100,
+        "text": "School Fiscal Services Division",
+        "chunk_id": 6773177022755786019
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18143877615518905975,
+        "start": 1135078,
+        "end": 1135100,
+        "text": "School Fiscal Services Division",
+        "chunk_id": 6773177022755786019
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6917300171837757223,
+        "start": 1135078,
+        "end": 1135100,
+        "text": "School Fiscal Services Division",
+        "chunk_id": 6773177022755786019
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10982805344127473713,
+        "start": 1135078,
+        "end": 1135100,
+        "text": "School Fiscal Services Division",
+        "chunk_id": 6773177022755786019
+      }
+    ]
+  }
+]

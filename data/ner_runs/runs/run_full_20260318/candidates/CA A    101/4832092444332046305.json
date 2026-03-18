@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4414462896564245512,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5910849538626941731,
+        "start": 159450,
+        "end": 159472,
+        "text": "Office of Emergency Services",
+        "chunk_id": 4832092444332046305
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5109051250265652961,
+        "start": 159450,
+        "end": 159472,
+        "text": "Office of Emergency Services",
+        "chunk_id": 4832092444332046305
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16165881275574072639,
+        "start": 159472,
+        "end": 159477,
+        "text": "For local assistance",
+        "chunk_id": 4832092444332046305
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9440951185859894262,
+        "start": 159477,
+        "end": 159482,
+        "text": "local assistance",
+        "chunk_id": 4832092444332046305
+      }
+    ]
+  },
+  {
+    "candidate_id": 3361197061252530879,
+    "entity": "State Compensation Insurance Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15716581652812686516,
+        "start": 159515,
+        "end": 159536,
+        "text": "State Compensation Insurance Fund",
+        "chunk_id": 4832092444332046305
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9333245504733173057,
+        "start": 159515,
+        "end": 159536,
+        "text": "State Compensation Insurance Fund",
+        "chunk_id": 4832092444332046305
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5230071125639082218,
+        "start": 159536,
+        "end": 159541,
+        "text": "pay approved volunteer disaster service workers' compensation claims",
+        "chunk_id": 4832092444332046305
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16557221418297801441,
+        "start": 159541,
+        "end": 159554,
+        "text": "approved volunteer disaster service workers' compensation claims",
+        "chunk_id": 4832092444332046305
+      }
+    ]
+  }
+]

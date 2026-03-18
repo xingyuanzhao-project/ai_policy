@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3593656240096495043,
+    "source_group_id": 12980378734678220989,
+    "source_candidate_ids": [
+      10300484456106747755
+    ],
+    "entity": "Digital Forgery",
+    "type": "Technology",
+    "attribute": "Regulation",
+    "value": "Prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 18232561580553344570,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5603735541685523748,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2672910783772863328,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8922405836658312984,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ]
+  }
+]

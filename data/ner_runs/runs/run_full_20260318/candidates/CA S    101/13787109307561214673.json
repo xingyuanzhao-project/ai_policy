@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2235941221285047628,
+    "entity": "Department of Industrial Relations",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specified in Section 13332.18 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 4593287630371898758,
+        "start": 1411005,
+        "end": 1411033,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 13787109307561214673
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1067787454505371636,
+        "start": 1411005,
+        "end": 1411033,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 13787109307561214673
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9403085036349369365,
+        "start": 1411325,
+        "end": 1411353,
+        "text": "imposed as specified in Section 13332.18 of the Government Code",
+        "chunk_id": 13787109307561214673
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16854714893907715234,
+        "start": 1411325,
+        "end": 1411353,
+        "text": "imposed as specified in Section 13332.18 of the Government Code",
+        "chunk_id": 13787109307561214673
+      }
+    ]
+  },
+  {
+    "candidate_id": 18151570881554186959,
+    "entity": "Labor and Workforce Development Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specified in Section 13332.18 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 11125192131905729614,
+        "start": 1411005,
+        "end": 1411033,
+        "text": "Labor and Workforce Development Fund",
+        "chunk_id": 13787109307561214673
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2319216835102267757,
+        "start": 1411005,
+        "end": 1411033,
+        "text": "Labor and Workforce Development Fund",
+        "chunk_id": 13787109307561214673
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1436965418982836435,
+        "start": 1411325,
+        "end": 1411353,
+        "text": "imposed pursuant to Section 13332.18 of the Government Code",
+        "chunk_id": 13787109307561214673
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 265781094909056753,
+        "start": 1411325,
+        "end": 1411353,
+        "text": "imposed pursuant to Section 13332.18 of the Government Code",
+        "chunk_id": 13787109307561214673
+      }
+    ]
+  }
+]

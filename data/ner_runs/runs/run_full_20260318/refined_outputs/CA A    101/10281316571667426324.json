@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5254354159172657238,
+    "source_group_id": 10281316571667426324,
+    "source_candidate_ids": [
+      7861667630187525371
+    ],
+    "entity": "Public Employees' Retirement System (PERS)",
+    "type": "infrastructure",
+    "attribute": "expenditure",
+    "value": "thorough ongoing review",
+    "entity_evidence": [
+      {
+        "span_id": 2549885663485708193,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "Public Employees' Retirement System (PERS)",
+        "chunk_id": 9919606625314191765
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6746358363439159451,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "infrastructure",
+        "chunk_id": 9919606625314191765
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16229855269165489618,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "expenditure",
+        "chunk_id": 9919606625314191765
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6648574837721683543,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "thorough ongoing review",
+        "chunk_id": 9919606625314191765
+      }
+    ]
+  }
+]

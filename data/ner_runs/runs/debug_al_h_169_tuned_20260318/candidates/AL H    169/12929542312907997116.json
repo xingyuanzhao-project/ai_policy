@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2710889649979645560,
+    "entity": "Alabama Science in Motion Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "no repurposing",
+    "entity_evidence": [
+      {
+        "span_id": 3902832562854978856,
+        "start": 64921,
+        "end": 64939,
+        "text": "No funds appropriated for the Alabama Science in Motion Program may be repurposed by the State Superintendent of Education for any other purpose other than those already established herein.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12006919714190709544,
+        "start": 64921,
+        "end": 64939,
+        "text": "No funds appropriated for the Alabama Science in Motion Program may be repurposed by the State Superintendent of Education for any other purpose other than those already established herein.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17228042452333562761,
+        "start": 64921,
+        "end": 64939,
+        "text": "No funds appropriated for the Alabama Science in Motion Program may be repurposed by the State Superintendent of Education for any other purpose other than those already established herein.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1507975764039733725,
+        "start": 64921,
+        "end": 64939,
+        "text": "No funds appropriated for the Alabama Science in Motion Program may be repurposed by the State Superintendent of Education for any other purpose other than those already established herein.",
+        "chunk_id": 12929542312907997116
+      }
+    ]
+  },
+  {
+    "candidate_id": 17251255022107660460,
+    "entity": "Alabama Baseball Coaches Association",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "immediate family member",
+    "entity_evidence": [
+      {
+        "span_id": 15780765558768735647,
+        "start": 65111,
+        "end": 65129,
+        "text": "No scholarship awarded by the association shall be awarded to a recipient that is an immediate family member of a current baseball coach.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7189507025368030306,
+        "start": 65111,
+        "end": 65129,
+        "text": "No scholarship awarded by the association shall be awarded to a recipient that is an immediate family member of a current baseball coach.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6433170144352073986,
+        "start": 65111,
+        "end": 65129,
+        "text": "No scholarship awarded by the association shall be awarded to a recipient that is an immediate family member of a current baseball coach.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16985540061695094261,
+        "start": 65111,
+        "end": 65129,
+        "text": "No scholarship awarded by the association shall be awarded to a recipient that is an immediate family member of a current baseball coach.",
+        "chunk_id": 12929542312907997116
+      }
+    ]
+  }
+]

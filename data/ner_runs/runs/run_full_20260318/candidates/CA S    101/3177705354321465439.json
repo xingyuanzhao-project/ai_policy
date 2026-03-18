@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5054284975227799689,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "exempt from personal services contracting requirements",
+    "entity_evidence": [
+      {
+        "span_id": 1851248697052209913,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15147113591510234259,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7071176955481316998,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13323535659493197351,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ]
+  },
+  {
+    "candidate_id": 10462151011457631193,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "exempt from requirements of Public Contract Code",
+    "entity_evidence": [
+      {
+        "span_id": 856376733232394147,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1649286699415220160,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3552179530628676225,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18211393397793203519,
+        "start": 914687,
+        "end": 914708,
+        "text": "The department is hereby authorized to provide advance payment in order to implement direct deposit to childcare contractors.",
+        "chunk_id": 3177705354321465439
+      }
+    ]
+  }
+]

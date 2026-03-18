@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7232812374036463112,
+    "source_group_id": 15845143930723120026,
+    "source_candidate_ids": [
+      10199524535805021926
+    ],
+    "entity": "Department of Corrections",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "84,700",
+    "entity_evidence": [
+      {
+        "span_id": 12045837062004394136,
+        "start": 84421,
+        "end": 84440,
+        "text": "Department of Corrections",
+        "chunk_id": 1197710848658975225
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10684045231308521082,
+        "start": 84421,
+        "end": 84440,
+        "text": "Department of Corrections",
+        "chunk_id": 1197710848658975225
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17454857048998328063,
+        "start": 84421,
+        "end": 84440,
+        "text": "Department of Corrections",
+        "chunk_id": 1197710848658975225
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12805847274109423215,
+        "start": 84421,
+        "end": 84440,
+        "text": "Department of Corrections",
+        "chunk_id": 1197710848658975225
+      }
+    ]
+  }
+]

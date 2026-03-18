@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15628847417582208828,
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2389608262248141498,
+        "start": 1382129,
+        "end": 1382149,
+        "text": "Employment Development Department",
+        "chunk_id": 14649580017888182637
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14575783415070252391,
+        "start": 1382129,
+        "end": 1382149,
+        "text": "Employment Development Department",
+        "chunk_id": 14649580017888182637
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17511407401485466780,
+        "start": 1382129,
+        "end": 1382149,
+        "text": "Employment Development Department",
+        "chunk_id": 14649580017888182637
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15151334395280642870,
+        "start": 1382129,
+        "end": 1382149,
+        "text": "Employment Development Department",
+        "chunk_id": 14649580017888182637
+      }
+    ]
+  },
+  {
+    "candidate_id": 7971135067827719862,
+    "entity": "Unemployment Insurance Code",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 15228786415871371491,
+        "start": 1382240,
+        "end": 1382261,
+        "text": "Unemployment Insurance Code",
+        "chunk_id": 14649580017888182637
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13830522929485623362,
+        "start": 1382240,
+        "end": 1382261,
+        "text": "Unemployment Insurance Code",
+        "chunk_id": 14649580017888182637
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10091262602992192365,
+        "start": 1382240,
+        "end": 1382261,
+        "text": "Unemployment Insurance Code",
+        "chunk_id": 14649580017888182637
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1958299028240161899,
+        "start": 1382240,
+        "end": 1382261,
+        "text": "Unemployment Insurance Code",
+        "chunk_id": 14649580017888182637
+      }
+    ]
+  }
+]

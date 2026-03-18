@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16820370969493221578,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 11258477327459057156,
+        "start": 1457924,
+        "end": 1457948,
+        "text": "For support of Department of General Services",
+        "chunk_id": 11438429405797965378
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16917017672977671084,
+        "start": 1457924,
+        "end": 1457948,
+        "text": "For support of Department of General Services",
+        "chunk_id": 11438429405797965378
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10733179834532462736,
+        "start": 1457924,
+        "end": 1457948,
+        "text": "For support of Department of General Services",
+        "chunk_id": 11438429405797965378
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3173296536357084538,
+        "start": 1457924,
+        "end": 1457948,
+        "text": "For support of Department of General Services",
+        "chunk_id": 11438429405797965378
+      }
+    ]
+  },
+  {
+    "candidate_id": 4517760383432273304,
+    "entity": "State Capitol",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 504231058809806758,
+        "start": 1457924,
+        "end": 1457937,
+        "text": "the State Capitol",
+        "chunk_id": 11438429405797965378
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3864939934595440037,
+        "start": 1457924,
+        "end": 1457937,
+        "text": "the State Capitol",
+        "chunk_id": 11438429405797965378
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7881096538934841479,
+        "start": 1457924,
+        "end": 1457937,
+        "text": "the State Capitol",
+        "chunk_id": 11438429405797965378
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2842052391709125916,
+        "start": 1457924,
+        "end": 1457937,
+        "text": "the State Capitol",
+        "chunk_id": 11438429405797965378
+      }
+    ]
+  }
+]

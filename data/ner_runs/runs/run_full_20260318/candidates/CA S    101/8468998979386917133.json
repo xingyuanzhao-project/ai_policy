@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10143489588309643549,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval required",
+    "entity_evidence": [
+      {
+        "span_id": 18373570794876639386,
+        "start": 1177365,
+        "end": 1177386,
+        "text": "State Department of Education",
+        "chunk_id": 8468998979386917133
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18287752391026658168,
+        "start": 1177365,
+        "end": 1177386,
+        "text": "State Department of Education",
+        "chunk_id": 8468998979386917133
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12590385112104133071,
+        "start": 1177365,
+        "end": 1177386,
+        "text": "State Department of Education",
+        "chunk_id": 8468998979386917133
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5405612417357196389,
+        "start": 1177365,
+        "end": 1177386,
+        "text": "State Department of Education",
+        "chunk_id": 8468998979386917133
+      }
+    ]
+  },
+  {
+    "candidate_id": 12110264426298932155,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "30 days prior",
+    "entity_evidence": [
+      {
+        "span_id": 16028846573684465022,
+        "start": 1177477,
+        "end": 1177493,
+        "text": "Department of Finance",
+        "chunk_id": 8468998979386917133
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6573019679651510235,
+        "start": 1177477,
+        "end": 1177493,
+        "text": "Department of Finance",
+        "chunk_id": 8468998979386917133
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3496194655805751925,
+        "start": 1177477,
+        "end": 1177493,
+        "text": "Department of Finance",
+        "chunk_id": 8468998979386917133
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17673270362814624850,
+        "start": 1177477,
+        "end": 1177493,
+        "text": "Department of Finance",
+        "chunk_id": 8468998979386917133
+      }
+    ]
+  }
+]

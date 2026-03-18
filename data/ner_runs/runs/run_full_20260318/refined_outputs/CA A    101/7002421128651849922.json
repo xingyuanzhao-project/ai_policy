@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6456843899860386449,
+    "source_group_id": 7002421128651849922,
+    "source_candidate_ids": [
+      7595212053359660063
+    ],
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 368422967280323319,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11164548497121574103,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "government agency",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5610599245629249976,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "promotion",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11169195407999603252,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "subsidy",
+        "chunk_id": 1365404110276284275
+      }
+    ]
+  }
+]

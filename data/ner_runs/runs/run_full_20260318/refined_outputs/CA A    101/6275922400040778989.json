@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16791639453726890942,
+    "source_group_id": 6275922400040778989,
+    "source_candidate_ids": [
+      9497537696876048964
+    ],
+    "entity": "Merritt College",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 2426522862563416808,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "Merritt College",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1846454562597000061,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "infrastructure",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10332106551238300161,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "prohibition",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4383271108625719379,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "partial",
+        "chunk_id": 915260168541058947
+      }
+    ]
+  }
+]

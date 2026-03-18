@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6999102379419504398,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reported to the Joint Legislative Budget Committee pursuant to Section 4.30",
+    "entity_evidence": [
+      {
+        "span_id": 14140935484104526609,
+        "start": 487312,
+        "end": 487343,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 11867930972950836283
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16728569475963066141,
+        "start": 487312,
+        "end": 487343,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 11867930972950836283
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14019007023751186382,
+        "start": 487343,
+        "end": 487372,
+        "text": "pursuant to Section 4.30",
+        "chunk_id": 11867930972950836283
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7065820345893326386,
+        "start": 487343,
+        "end": 487372,
+        "text": "pursuant to Section 4.30",
+        "chunk_id": 11867930972950836283
+      }
+    ]
+  },
+  {
+    "candidate_id": 11539722685323959204,
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "payable from",
+    "entity_evidence": [
+      {
+        "span_id": 18138648605727188718,
+        "start": 487381,
+        "end": 487401,
+        "text": "Federal Trust Fund",
+        "chunk_id": 11867930972950836283
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12508568555820327352,
+        "start": 487381,
+        "end": 487401,
+        "text": "Federal Trust Fund",
+        "chunk_id": 11867930972950836283
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11832235137685284927,
+        "start": 487401,
+        "end": 487422,
+        "text": "payable from",
+        "chunk_id": 11867930972950836283
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1157781904693885082,
+        "start": 487401,
+        "end": 487422,
+        "text": "payable from",
+        "chunk_id": 11867930972950836283
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1781989375064328237,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 15931171167838895052,
+        "start": 1405942,
+        "end": 1405964,
+        "text": "the California Community Colleges",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8732773837717743941,
+        "start": 1405942,
+        "end": 1405964,
+        "text": "the California Community Colleges",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4496796498401449539,
+        "start": 1405942,
+        "end": 1405964,
+        "text": "the California Community Colleges",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16698715711986127750,
+        "start": 1405942,
+        "end": 1405964,
+        "text": "the California Community Colleges",
+        "chunk_id": 9785923994509791157
+      }
+    ]
+  },
+  {
+    "candidate_id": 1404791604123251322,
+    "entity": "community college district",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 18022221975279870626,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7601367823890274693,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8629995550703121687,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4784942568599616584,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ]
+  }
+]

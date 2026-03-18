@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 64512246878438817,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "require legislative notification",
+    "entity_evidence": [
+      {
+        "span_id": 10061265248097751597,
+        "start": 852306,
+        "end": 852326,
+        "text": "State Department of Public Health",
+        "chunk_id": 13691241818635675919
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17070296976956612957,
+        "start": 852306,
+        "end": 852326,
+        "text": "government agency",
+        "chunk_id": 13691241818635675919
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11293634973906522286,
+        "start": 852306,
+        "end": 852326,
+        "text": "require legislative notification",
+        "chunk_id": 13691241818635675919
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1159252344209432151,
+        "start": 852306,
+        "end": 852326,
+        "text": "require legislative notification",
+        "chunk_id": 13691241818635675919
+      }
+    ]
+  },
+  {
+    "candidate_id": 11740613874729145725,
+    "entity": "WIC Manufacturer Rebate Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "require legislative notification",
+    "entity_evidence": [
+      {
+        "span_id": 9294140290975525915,
+        "start": 852306,
+        "end": 852326,
+        "text": "WIC Manufacturer Rebate Fund",
+        "chunk_id": 13691241818635675919
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13437292354888908456,
+        "start": 852306,
+        "end": 852326,
+        "text": "infrastructure",
+        "chunk_id": 13691241818635675919
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1196029895234867467,
+        "start": 852306,
+        "end": 852326,
+        "text": "require legislative notification",
+        "chunk_id": 13691241818635675919
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16905577089211814888,
+        "start": 852306,
+        "end": 852326,
+        "text": "require legislative notification",
+        "chunk_id": 13691241818635675919
+      }
+    ]
+  }
+]

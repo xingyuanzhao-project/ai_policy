@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16670781282378394447,
+    "entity": "trade or commerce",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "unlawful",
+    "entity_evidence": [
+      {
+        "span_id": 3625384888929231256,
+        "start": 134,
+        "end": 145,
+        "text": "trade or commerce",
+        "chunk_id": 4905415319374546621
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10178000192676105483,
+        "start": 134,
+        "end": 145,
+        "text": "trade or commerce",
+        "chunk_id": 4905415319374546621
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14831088318886279272,
+        "start": 134,
+        "end": 145,
+        "text": "trade or commerce",
+        "chunk_id": 4905415319374546621
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 711169209312490578,
+        "start": 134,
+        "end": 145,
+        "text": "trade or commerce",
+        "chunk_id": 4905415319374546621
+      }
+    ]
+  },
+  {
+    "candidate_id": 10983872305246221212,
+    "entity": "goods or services",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "unlawful",
+    "entity_evidence": [
+      {
+        "span_id": 7848588341053459280,
+        "start": 146,
+        "end": 158,
+        "text": "goods or services",
+        "chunk_id": 4905415319374546621
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9195686993416915338,
+        "start": 146,
+        "end": 158,
+        "text": "goods or services",
+        "chunk_id": 4905415319374546621
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1415664241438774304,
+        "start": 146,
+        "end": 158,
+        "text": "goods or services",
+        "chunk_id": 4905415319374546621
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7401742498106270124,
+        "start": 146,
+        "end": 158,
+        "text": "goods or services",
+        "chunk_id": 4905415319374546621
+      }
+    ]
+  }
+]

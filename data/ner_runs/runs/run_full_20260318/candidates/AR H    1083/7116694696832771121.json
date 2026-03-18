@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3700140976828465472,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "different prices or rates",
+    "entity_evidence": [
+      {
+        "span_id": 1957565610144900260,
+        "start": 28265,
+        "end": 28278,
+        "text": "covered platform",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2873805376818151415,
+        "start": 28265,
+        "end": 28278,
+        "text": "covered platform",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8718364067168127960,
+        "start": 28265,
+        "end": 28278,
+        "text": "covered platform",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17289014161987550163,
+        "start": 28265,
+        "end": 28278,
+        "text": "covered platform",
+        "chunk_id": 7116694696832771121
+      }
+    ]
+  },
+  {
+    "candidate_id": 1810631872676878751,
+    "entity": "internet search engine",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "fewer than one thousand (1,000) employees",
+    "entity_evidence": [
+      {
+        "span_id": 2512123513941447402,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12858503721163192142,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11832157437953694360,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15912977606669869366,
+        "start": 28265,
+        "end": 28285,
+        "text": "internet search engine",
+        "chunk_id": 7116694696832771121
+      }
+    ]
+  }
+]

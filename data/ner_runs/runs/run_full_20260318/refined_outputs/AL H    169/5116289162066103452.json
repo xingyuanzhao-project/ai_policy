@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13399028875945429303,
+    "source_group_id": 5116289162066103452,
+    "source_candidate_ids": [
+      16009219585091213184
+    ],
+    "entity": "Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "clear definition of roles and responsibilities",
+    "entity_evidence": [
+      {
+        "span_id": 17099334284100772125,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11355652220505142957,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14713241424282170529,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4932080676530143878,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ]
+  }
+]

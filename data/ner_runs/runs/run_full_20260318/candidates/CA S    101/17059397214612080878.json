@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16643930578276984504,
+    "entity": "Department of Pesticide Regulation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 14670648843894364113,
+        "start": 634387,
+        "end": 634407,
+        "text": "Reappropriation, Department of Pesticide Regulation",
+        "chunk_id": 17059397214612080878
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8936332857919898166,
+        "start": 634387,
+        "end": 634407,
+        "text": "Reappropriation, Department of Pesticide Regulation",
+        "chunk_id": 17059397214612080878
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3919865891712581205,
+        "start": 634387,
+        "end": 634407,
+        "text": "Reappropriation, Department of Pesticide Regulation",
+        "chunk_id": 17059397214612080878
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3915242131401607050,
+        "start": 634387,
+        "end": 634407,
+        "text": "Reappropriation, Department of Pesticide Regulation",
+        "chunk_id": 17059397214612080878
+      }
+    ]
+  },
+  {
+    "candidate_id": 212439393875916340,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 9469742786644821240,
+        "start": 634487,
+        "end": 634508,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 17059397214612080878
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10616170808208471226,
+        "start": 634487,
+        "end": 634508,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 17059397214612080878
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11352056656451822850,
+        "start": 634487,
+        "end": 634508,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 17059397214612080878
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11976393640733156025,
+        "start": 634487,
+        "end": 634508,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 17059397214612080878
+      }
+    ]
+  }
+]

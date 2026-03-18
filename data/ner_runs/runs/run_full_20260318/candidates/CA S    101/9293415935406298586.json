@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4873684995977293743,
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 3757867718793011627,
+        "start": 1387215,
+        "end": 1387235,
+        "text": "Employment Development Department",
+        "chunk_id": 9293415935406298586
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11946281218722689464,
+        "start": 1387215,
+        "end": 1387235,
+        "text": "Employment Development Department",
+        "chunk_id": 9293415935406298586
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15870956732917608996,
+        "start": 1387215,
+        "end": 1387235,
+        "text": "Employment Development Department",
+        "chunk_id": 9293415935406298586
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14218801509728872290,
+        "start": 1387215,
+        "end": 1387235,
+        "text": "Employment Development Department",
+        "chunk_id": 9293415935406298586
+      }
+    ]
+  },
+  {
+    "candidate_id": 2394706485507262973,
+    "entity": "Consolidated Work Program Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 162862763960017397,
+        "start": 1387247,
+        "end": 1387267,
+        "text": "Consolidated Work Program Fund",
+        "chunk_id": 9293415935406298586
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3437147595536813701,
+        "start": 1387247,
+        "end": 1387267,
+        "text": "Consolidated Work Program Fund",
+        "chunk_id": 9293415935406298586
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16338379965225671196,
+        "start": 1387247,
+        "end": 1387267,
+        "text": "Consolidated Work Program Fund",
+        "chunk_id": 9293415935406298586
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13146918559356823113,
+        "start": 1387247,
+        "end": 1387267,
+        "text": "Consolidated Work Program Fund",
+        "chunk_id": 9293415935406298586
+      }
+    ]
+  }
+]

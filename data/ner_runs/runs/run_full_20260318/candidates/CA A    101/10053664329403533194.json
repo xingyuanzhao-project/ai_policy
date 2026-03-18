@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14443838827910473404,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3119478891400081782,
+        "start": 318294,
+        "end": 318311,
+        "text": "The Department of Finance",
+        "chunk_id": 10053664329403533194
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12113924770918239922,
+        "start": 318294,
+        "end": 318311,
+        "text": "The Department of Finance",
+        "chunk_id": 10053664329403533194
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4475048000829247134,
+        "start": 318294,
+        "end": 318311,
+        "text": "The Department of Finance",
+        "chunk_id": 10053664329403533194
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16158651077100926773,
+        "start": 318294,
+        "end": 318311,
+        "text": "The Department of Finance",
+        "chunk_id": 10053664329403533194
+      }
+    ]
+  },
+  {
+    "candidate_id": 5648113384588081201,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 17847994751589879168,
+        "start": 318294,
+        "end": 318316,
+        "text": "The Department of Transportation",
+        "chunk_id": 10053664329403533194
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6894561492537946443,
+        "start": 318294,
+        "end": 318316,
+        "text": "The Department of Transportation",
+        "chunk_id": 10053664329403533194
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11152271517683962740,
+        "start": 318294,
+        "end": 318316,
+        "text": "The Department of Transportation",
+        "chunk_id": 10053664329403533194
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9752289695562542856,
+        "start": 318294,
+        "end": 318316,
+        "text": "The Department of Transportation",
+        "chunk_id": 10053664329403533194
+      }
+    ]
+  }
+]

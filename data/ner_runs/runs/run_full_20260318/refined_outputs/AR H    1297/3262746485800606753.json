@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8049437530921865536,
+    "source_group_id": 3262746485800606753,
+    "source_candidate_ids": [
+      5582922616903588610
+    ],
+    "entity": "Healthcare Insurer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "undefined",
+    "entity_evidence": [
+      {
+        "span_id": 14677501501206000737,
+        "start": 0,
+        "end": 17,
+        "text": "Healthcare insurer",
+        "chunk_id": 6111658501066841450
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7708033519527798120,
+        "start": 0,
+        "end": 17,
+        "text": "Healthcare insurer",
+        "chunk_id": 6111658501066841450
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6420729020331565037,
+        "start": 0,
+        "end": 17,
+        "text": "Healthcare insurer",
+        "chunk_id": 6111658501066841450
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10561284460880800123,
+        "start": 0,
+        "end": 17,
+        "text": "Healthcare insurer",
+        "chunk_id": 6111658501066841450
+      }
+    ]
+  }
+]

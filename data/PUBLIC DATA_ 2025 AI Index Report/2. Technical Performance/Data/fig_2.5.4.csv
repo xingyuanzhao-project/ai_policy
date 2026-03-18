@@ -1,0 +1,22 @@
+Model,Type,Percent resolved
+Agentless-1.5 +<br>Claude-3.5 Sonnet (2024-10-22),Lite,40.67%
+Composio SWE-Kit (2024-10-30),Lite,41.00%
+PatchKitty-0.9 +<br>Claude-3.5 Sonnet (2024-10-22),Lite,41.33%
+OpenHands + CodeAct v2.1<br>(claude-3-5-sonnet-2024-10-22),Lite,41.67%
+Kodu-v1 + <br>Claude-3.5 Sonnet (2024-10-22),Lite,44.67%
+devlo,Lite,47.33%
+Globant Code Fixer Agent,Lite,48.33%
+Gru (2024-12-08),Lite,48.67%
+Blackbox AI Agent,Lite,49.00%
+Isoform,Lite,55.00%
+Bracket.sh,Verified,53.20%
+Amazon Q Developer Agent<br>(v2024-12-02-dev),Verified,55.00%
+EPAM AI/Run Developer<br>Agent v2024-12-12 +<br>Anthopic Claude 3.5 Sonnet,Verified,55.40%
+Gru (2024-12-08) ,Verified,57.00%
+Emergent E1 (v2024-12-23),Verified,57.20%
+ devlo,Verified,58.20%
+Learn-by-interact,Verified,60.20%
+CodeStory Midwit Agent +<br>swe-search,Verified,62.20%
+ Blackbox AI Agent,Verified,62.80%
+W&B Programmer O1 crosscheck5,Verified,64.60%
+o3,Verified,71.70%

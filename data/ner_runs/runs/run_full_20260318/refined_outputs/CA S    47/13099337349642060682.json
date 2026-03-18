@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 12813615087083451782,
+    "source_group_id": 13099337349642060682,
+    "source_candidate_ids": [
+      14089095450515207625,
+      9471731633686448434
+    ],
+    "entity": "State Bar",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "evaluation",
+    "entity_evidence": [
+      {
+        "span_id": 1857466623907998751,
+        "start": 7628,
+        "end": 7636,
+        "text": "State Bar",
+        "chunk_id": 18126110532267103064
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2680595266819749084,
+        "start": 7628,
+        "end": 7636,
+        "text": "State Bar",
+        "chunk_id": 18126110532267103064
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9924606220737565304,
+        "start": 7628,
+        "end": 7636,
+        "text": "State Bar",
+        "chunk_id": 18126110532267103064
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3460022763641113090,
+        "start": 7628,
+        "end": 7636,
+        "text": "State Bar",
+        "chunk_id": 18126110532267103064
+      }
+    ]
+  }
+]

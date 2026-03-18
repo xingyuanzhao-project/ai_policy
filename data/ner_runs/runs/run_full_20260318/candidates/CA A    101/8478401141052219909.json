@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3401519212786389579,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "4,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 12113340987437224612,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "State Department of Social Services",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15353225564116885483,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "government agency",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6567462382098070067,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "allocation",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6028791027290467152,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "4,000,000",
+        "chunk_id": 8478401141052219909
+      }
+    ]
+  },
+  {
+    "candidate_id": 13693544634431815744,
+    "entity": "Children and Adult Services and Licensing",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "616,000",
+    "entity_evidence": [
+      {
+        "span_id": 14737424111493605414,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "Children and Adult Services and Licensing",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2240987039746856184,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "government agency",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7719008840320871374,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "allocation",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14604684571181170633,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "616,000",
+        "chunk_id": 8478401141052219909
+      }
+    ]
+  }
+]

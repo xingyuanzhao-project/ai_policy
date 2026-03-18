@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17151033046742806583,
+    "entity": "Office of Environmental Health Hazard Assessment",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 159765743054421154,
+        "start": 702385,
+        "end": 702421,
+        "text": "support of Office of Environmental Health Hazard Assessment",
+        "chunk_id": 13015195861719864666
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3510382761046255870,
+        "start": 702385,
+        "end": 702421,
+        "text": "support of Office of Environmental Health Hazard Assessment",
+        "chunk_id": 13015195861719864666
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7858675602927269068,
+        "start": 702385,
+        "end": 702421,
+        "text": "support of Office of Environmental Health Hazard Assessment",
+        "chunk_id": 13015195861719864666
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17463816410294356081,
+        "start": 702385,
+        "end": 702421,
+        "text": "support of Office of Environmental Health Hazard Assessment",
+        "chunk_id": 13015195861719864666
+      }
+    ]
+  },
+  {
+    "candidate_id": 1245619156091763629,
+    "entity": "California Environmental License Plate Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 11716160470739763217,
+        "start": 702121,
+        "end": 702151,
+        "text": "California Environmental License Plate Fund",
+        "chunk_id": 13015195861719864666
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2556740705484066689,
+        "start": 702121,
+        "end": 702151,
+        "text": "California Environmental License Plate Fund",
+        "chunk_id": 13015195861719864666
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5125644365637162632,
+        "start": 702121,
+        "end": 702151,
+        "text": "California Environmental License Plate Fund",
+        "chunk_id": 13015195861719864666
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1235896562412720867,
+        "start": 702121,
+        "end": 702151,
+        "text": "California Environmental License Plate Fund",
+        "chunk_id": 13015195861719864666
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15977509713814489171,
+    "entity": "Natural Resources Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17584230887661872895,
+        "start": 96699,
+        "end": 96719,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13871837957886771343,
+        "start": 96699,
+        "end": 96719,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6407025125446696656,
+        "start": 96699,
+        "end": 96719,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15399462215921665007,
+        "start": 96699,
+        "end": 96719,
+        "text": "Administration of Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ]
+  },
+  {
+    "candidate_id": 687794290886213894,
+    "entity": "Secretary of the Natural Resources Agency",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 8324277265935159755,
+        "start": 96720,
+        "end": 96748,
+        "text": "support of Secretary of the Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7538678007793534221,
+        "start": 96720,
+        "end": 96748,
+        "text": "support of Secretary of the Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13276715330808454982,
+        "start": 96720,
+        "end": 96748,
+        "text": "support of Secretary of the Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1429064646635041422,
+        "start": 96720,
+        "end": 96748,
+        "text": "support of Secretary of the Natural Resources Agency",
+        "chunk_id": 3345705970241144473
+      }
+    ]
+  }
+]

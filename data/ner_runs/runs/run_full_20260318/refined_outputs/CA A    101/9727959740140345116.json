@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1542036681160039449,
+    "source_group_id": 9727959740140345116,
+    "source_candidate_ids": [
+      8894121436319956031
+    ],
+    "entity": "Western Climate Initiative, Incorporated",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "advance payment",
+    "entity_evidence": [
+      {
+        "span_id": 8886315843240191811,
+        "start": 685486,
+        "end": 685510,
+        "text": "Western Climate Initiative, Incorporated",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3923907577468586520,
+        "start": 685486,
+        "end": 685510,
+        "text": "individual",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5565915153611997095,
+        "start": 685486,
+        "end": 685510,
+        "text": "advance payment",
+        "chunk_id": 17445609864939988569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16930944470892240590,
+        "start": 685486,
+        "end": 685510,
+        "text": "advance payment",
+        "chunk_id": 17445609864939988569
+      }
+    ]
+  }
+]

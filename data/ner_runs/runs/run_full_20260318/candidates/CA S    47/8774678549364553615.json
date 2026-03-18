@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12232511527628256667,
+    "entity": "California State Auditor",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8181268526502893372,
+        "start": 10199,
+        "end": 10217,
+        "text": "the California State Auditor",
+        "chunk_id": 8774678549364553615
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9678609650470712990,
+        "start": 10199,
+        "end": 10217,
+        "text": "the California State Auditor",
+        "chunk_id": 8774678549364553615
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1588561448619839875,
+        "start": 10199,
+        "end": 10217,
+        "text": "the California State Auditor",
+        "chunk_id": 8774678549364553615
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13380428511270204258,
+        "start": 10199,
+        "end": 10217,
+        "text": "the California State Auditor",
+        "chunk_id": 8774678549364553615
+      }
+    ]
+  },
+  {
+    "candidate_id": 4699463545173010183,
+    "entity": "State Bar",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 3832457656370572179,
+        "start": 10278,
+        "end": 10284,
+        "text": "The State Bar",
+        "chunk_id": 8774678549364553615
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8240924072510919005,
+        "start": 10278,
+        "end": 10284,
+        "text": "The State Bar",
+        "chunk_id": 8774678549364553615
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5463500161907790082,
+        "start": 10278,
+        "end": 10284,
+        "text": "The State Bar",
+        "chunk_id": 8774678549364553615
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9491113429100011912,
+        "start": 10278,
+        "end": 10284,
+        "text": "The State Bar",
+        "chunk_id": 8774678549364553615
+      }
+    ]
+  }
+]

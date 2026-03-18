@@ -1,0 +1,144 @@
+[
+  {
+    "refined_id": 8324933221500601584,
+    "source_group_id": 15240187991736154862,
+    "source_candidate_ids": [
+      18072334354354338742,
+      4802405613151354615
+    ],
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "creation of a workgroup",
+    "entity_evidence": [
+      {
+        "span_id": 13621008476295608351,
+        "start": 134,
+        "end": 153,
+        "text": "the President of the University of California",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14964645924628350650,
+        "start": 134,
+        "end": 153,
+        "text": "the President of the University of California",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9893229496241127685,
+        "start": 134,
+        "end": 153,
+        "text": "create a workgroup",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13144952171885565079,
+        "start": 134,
+        "end": 153,
+        "text": "create a workgroup",
+        "chunk_id": 6324370340476638405
+      }
+    ]
+  },
+  {
+    "refined_id": 6438762432829123435,
+    "source_group_id": 17130316662497834401,
+    "source_candidate_ids": [
+      17606846297190065699
+    ],
+    "entity": "professors",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "professional support",
+    "entity_evidence": [
+      {
+        "span_id": 7364014242964048816,
+        "start": 2306,
+        "end": 2312,
+        "text": "provide professional support to professors",
+        "chunk_id": 12278545671188706548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14379003718452531676,
+        "start": 2306,
+        "end": 2312,
+        "text": "provide professional support to professors",
+        "chunk_id": 12278545671188706548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16065414031647400884,
+        "start": 2306,
+        "end": 2312,
+        "text": "provide professional support to professors",
+        "chunk_id": 12278545671188706548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8071464732228412172,
+        "start": 2306,
+        "end": 2312,
+        "text": "provide professional support to professors",
+        "chunk_id": 12278545671188706548
+      }
+    ]
+  },
+  {
+    "refined_id": 14225881212929877966,
+    "source_group_id": 16671456856406325991,
+    "source_candidate_ids": [
+      12384787050451671906
+    ],
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "improper use",
+    "entity_evidence": [
+      {
+        "span_id": 1471690654425011887,
+        "start": 2295,
+        "end": 2307,
+        "text": "artificial intelligence in student work",
+        "chunk_id": 12278545671188706548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2608510591912118707,
+        "start": 2295,
+        "end": 2307,
+        "text": "artificial intelligence in student work",
+        "chunk_id": 12278545671188706548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10446822293751753289,
+        "start": 2295,
+        "end": 2307,
+        "text": "artificial intelligence in student work",
+        "chunk_id": 12278545671188706548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15246974311323540312,
+        "start": 2295,
+        "end": 2307,
+        "text": "artificial intelligence in student work",
+        "chunk_id": 12278545671188706548
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18123543212477281853,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "guaranteed transfer opportunities",
+    "entity_evidence": [
+      {
+        "span_id": 9629763980980520411,
+        "start": 1386441,
+        "end": 1386463,
+        "text": "California Community Colleges",
+        "chunk_id": 15895405799534752677
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5738893391825596207,
+        "start": 1386441,
+        "end": 1386463,
+        "text": "government agency",
+        "chunk_id": 15895405799534752677
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5321835927307301059,
+        "start": 1386441,
+        "end": 1386463,
+        "text": "promotion",
+        "chunk_id": 15895405799534752677
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16423020444898768142,
+        "start": 1386441,
+        "end": 1386463,
+        "text": "guaranteed transfer opportunities",
+        "chunk_id": 15895405799534752677
+      }
+    ]
+  },
+  {
+    "candidate_id": 14355892161226959721,
+    "entity": "community college district",
+    "type": "government agency",
+    "attribute": "reimbursement",
+    "value": "2 percent of total waiver value",
+    "entity_evidence": [
+      {
+        "span_id": 8575493605488438901,
+        "start": 1386441,
+        "end": 1386465,
+        "text": "community college district",
+        "chunk_id": 15895405799534752677
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15887712871627648178,
+        "start": 1386441,
+        "end": 1386465,
+        "text": "government agency",
+        "chunk_id": 15895405799534752677
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15959269194967929606,
+        "start": 1386441,
+        "end": 1386465,
+        "text": "reimbursement",
+        "chunk_id": 15895405799534752677
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3440198594306110231,
+        "start": 1386441,
+        "end": 1386465,
+        "text": "2 percent of total waiver value",
+        "chunk_id": 15895405799534752677
+      }
+    ]
+  }
+]

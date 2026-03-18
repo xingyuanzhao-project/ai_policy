@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6472625427365315220,
+    "source_group_id": 8254141012951370854,
+    "source_candidate_ids": [
+      10723473396185266034
+    ],
+    "entity": "California State Board of Pharmacy",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "35,781,000",
+    "entity_evidence": [
+      {
+        "span_id": 342028150612676222,
+        "start": 259122,
+        "end": 259145,
+        "text": "For support of California State Board of Pharmacy",
+        "chunk_id": 1597981440620241141
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2215699937913426316,
+        "start": 259122,
+        "end": 259145,
+        "text": "For support of California State Board of Pharmacy",
+        "chunk_id": 1597981440620241141
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3120231663073737515,
+        "start": 259122,
+        "end": 259145,
+        "text": "For support of California State Board of Pharmacy",
+        "chunk_id": 1597981440620241141
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5387521409692531155,
+        "start": 259122,
+        "end": 259145,
+        "text": "For support of California State Board of Pharmacy",
+        "chunk_id": 1597981440620241141
+      }
+    ]
+  }
+]

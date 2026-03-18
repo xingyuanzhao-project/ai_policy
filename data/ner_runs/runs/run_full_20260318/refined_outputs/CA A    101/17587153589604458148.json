@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4249094923906892938,
+    "source_group_id": 17587153589604458148,
+    "source_candidate_ids": [
+      4913059704442748190
+    ],
+    "entity": "CalFresh E&T Workers' Compensation Fund",
+    "type": "infrastructure",
+    "attribute": "authorization",
+    "value": "to transfer funds",
+    "entity_evidence": [
+      {
+        "span_id": 5132885388010359516,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1441148136283827733,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9974520513217404675,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1316526115668512277,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ]
+  }
+]

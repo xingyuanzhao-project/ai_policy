@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1106414161030679207,
+    "entity": "Public Transportation Modernization, Improvement, and Service Enhancement Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 14479904939463312099,
+        "start": 389716,
+        "end": 389762,
+        "text": "Public Transportation Modernization, Improvement, and Service Enhancement Account",
+        "chunk_id": 10418365626454935825
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4345985383580586068,
+        "start": 389716,
+        "end": 389762,
+        "text": "infrastructure",
+        "chunk_id": 10418365626454935825
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11983605819225669433,
+        "start": 389716,
+        "end": 389762,
+        "text": "promotion",
+        "chunk_id": 10418365626454935825
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3910083468244126411,
+        "start": 389716,
+        "end": 389762,
+        "text": "moderate",
+        "chunk_id": 10418365626454935825
+      }
+    ]
+  },
+  {
+    "candidate_id": 15474160441968197249,
+    "entity": "State-Local Partnership Program Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 16760344580743566226,
+        "start": 389768,
+        "end": 389799,
+        "text": "State-Local Partnership Program Account",
+        "chunk_id": 10418365626454935825
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14945147846392620929,
+        "start": 389768,
+        "end": 389799,
+        "text": "infrastructure",
+        "chunk_id": 10418365626454935825
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2300621317057040967,
+        "start": 389768,
+        "end": 389799,
+        "text": "promotion",
+        "chunk_id": 10418365626454935825
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6062721045488237968,
+        "start": 389768,
+        "end": 389799,
+        "text": "moderate",
+        "chunk_id": 10418365626454935825
+      }
+    ]
+  }
+]

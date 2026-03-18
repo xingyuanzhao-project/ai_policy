@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 258753338321221572,
+    "source_group_id": 6436436816045350999,
+    "source_candidate_ids": [
+      9540951644392748519,
+      5950967024730606078
+    ],
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 9276932507849961306,
+        "start": 44,
+        "end": 61,
+        "text": "artificial intelligence innovation and research",
+        "chunk_id": 11548140457000055278
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18085146745772610814,
+        "start": 62,
+        "end": 75,
+        "text": "technology",
+        "chunk_id": 11548140457000055278
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 424567116548386399,
+        "start": 76,
+        "end": 83,
+        "text": "promotion",
+        "chunk_id": 11548140457000055278
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9314412760348393280,
+        "start": 84,
+        "end": 91,
+        "text": "extensive",
+        "chunk_id": 11548140457000055278
+      }
+    ]
+  }
+]

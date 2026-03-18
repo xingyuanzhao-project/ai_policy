@@ -1,0 +1,4940 @@
+[
+  {
+    "refined_id": 6096034247748424949,
+    "source_group_id": 13203506601027908379,
+    "source_candidate_ids": [
+      14931421325998246843
+    ],
+    "entity": "Education Trust Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to the provisions, terms, conditions and limitations of the Budget and Financial Control Act",
+    "entity_evidence": [
+      {
+        "span_id": 5383981788506582549,
+        "start": 246,
+        "end": 262,
+        "text": "Education Trust Fund",
+        "chunk_id": 416581830259628753
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15526958974406186106,
+        "start": 246,
+        "end": 262,
+        "text": "Education Trust Fund",
+        "chunk_id": 416581830259628753
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8055363966997872014,
+        "start": 262,
+        "end": 283,
+        "text": "subject to the provisions, terms, conditions and limitations of the Budget and Financial Control Act",
+        "chunk_id": 416581830259628753
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17381330154010433398,
+        "start": 262,
+        "end": 283,
+        "text": "subject to the provisions, terms, conditions and limitations of the Budget and Financial Control Act",
+        "chunk_id": 416581830259628753
+      }
+    ]
+  },
+  {
+    "refined_id": 7612512379654141310,
+    "source_group_id": 16907846390374469990,
+    "source_candidate_ids": [
+      71339720179923711
+    ],
+    "entity": "Public School Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to the provisions, terms, conditions and limitations of the Budget and Financial Control Act",
+    "entity_evidence": [
+      {
+        "span_id": 1389069938001878932,
+        "start": 342,
+        "end": 354,
+        "text": "Public School Fund",
+        "chunk_id": 416581830259628753
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3163826643025703644,
+        "start": 342,
+        "end": 354,
+        "text": "Public School Fund",
+        "chunk_id": 416581830259628753
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12185529410632144523,
+        "start": 262,
+        "end": 283,
+        "text": "subject to the provisions, terms, conditions and limitations of the Budget and Financial Control Act",
+        "chunk_id": 416581830259628753
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10181771740242841959,
+        "start": 262,
+        "end": 283,
+        "text": "subject to the provisions, terms, conditions and limitations of the Budget and Financial Control Act",
+        "chunk_id": 416581830259628753
+      }
+    ]
+  },
+  {
+    "refined_id": 10468712791053391154,
+    "source_group_id": 18358335061349025069,
+    "source_candidate_ids": [
+      8437232467704405931
+    ],
+    "entity": "Legislative Branch",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "program level",
+    "entity_evidence": [
+      {
+        "span_id": 696773183338615950,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9181456034226556086,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4269905850166777983,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 394666794154328133,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ]
+  },
+  {
+    "refined_id": 14239545776258211372,
+    "source_group_id": 12599549054385226211,
+    "source_candidate_ids": [
+      15304952963776862983
+    ],
+    "entity": "Examiners of Public Accounts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance with the laws of the State of Alabama",
+    "entity_evidence": [
+      {
+        "span_id": 6479352071920821845,
+        "start": 2637,
+        "end": 2657,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16794886973792409671,
+        "start": 2637,
+        "end": 2657,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17100152425265385567,
+        "start": 2637,
+        "end": 2657,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14711469210221663836,
+        "start": 2637,
+        "end": 2657,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ]
+  },
+  {
+    "refined_id": 11802324290466770221,
+    "source_group_id": 10690670676431092094,
+    "source_candidate_ids": [
+      16875169547831595633
+    ],
+    "entity": "Alabama Public Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 17693602937290941158,
+        "start": 5225,
+        "end": 5246,
+        "text": "Alabama Public Department of: (a) Social Services Program",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17578488102869134357,
+        "start": 5225,
+        "end": 5246,
+        "text": "Department of",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6391914344482332987,
+        "start": 5225,
+        "end": 5246,
+        "text": "Program",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2835447885363385333,
+        "start": 5225,
+        "end": 5246,
+        "text": "Program",
+        "chunk_id": 10383834658634530457
+      }
+    ]
+  },
+  {
+    "refined_id": 7075298474870029866,
+    "source_group_id": 10780324619929871313,
+    "source_candidate_ids": [
+      4048269745611882639
+    ],
+    "entity": "AIDT",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 5819658222703284089,
+        "start": 5337,
+        "end": 5340,
+        "text": "AIDT",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10197316654626513386,
+        "start": 5337,
+        "end": 5340,
+        "text": "AIDT",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1285027097914488324,
+        "start": 5337,
+        "end": 5340,
+        "text": "AIDT",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17240252737549784403,
+        "start": 5337,
+        "end": 5340,
+        "text": "AIDT",
+        "chunk_id": 10383834658634530457
+      }
+    ]
+  },
+  {
+    "refined_id": 5976691061657511486,
+    "source_group_id": 17208286920118561663,
+    "source_candidate_ids": [
+      4892431238671560575
+    ],
+    "entity": "Alabama Community College System Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent with the recommendations",
+    "entity_evidence": [
+      {
+        "span_id": 9771723870635773212,
+        "start": 7776,
+        "end": 7802,
+        "text": "Community College System Board of Trustees, Alabama",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15371363289510053875,
+        "start": 7776,
+        "end": 7802,
+        "text": "Community College System Board of Trustees, Alabama",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10861784975450192644,
+        "start": 7802,
+        "end": 7814,
+        "text": "consistent with the recommendations",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12178522189253451352,
+        "start": 7814,
+        "end": 7831,
+        "text": "consistent with the recommendations",
+        "chunk_id": 12482578238436452239
+      }
+    ]
+  },
+  {
+    "refined_id": 13459662629326413061,
+    "source_group_id": 16635786810552980777,
+    "source_candidate_ids": [
+      5132348481512874711
+    ],
+    "entity": "Alabama Aviation College",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "$125/FTE",
+    "entity_evidence": [
+      {
+        "span_id": 13667933196729816695,
+        "start": 7891,
+        "end": 7905,
+        "text": "Alabama Aviation College",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12697085977379080830,
+        "start": 7891,
+        "end": 7905,
+        "text": "Alabama Aviation College",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1515504377751912228,
+        "start": 7905,
+        "end": 7909,
+        "text": "minimum of $125/FTE",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1392587267708528118,
+        "start": 7909,
+        "end": 7915,
+        "text": "$125/FTE",
+        "chunk_id": 12482578238436452239
+      }
+    ]
+  },
+  {
+    "refined_id": 8126642079450507155,
+    "source_group_id": 14506800889955950759,
+    "source_candidate_ids": [
+      11378409494725217014
+    ],
+    "entity": "Alabama Community College System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "restricted to provision of services to individuals receiving benefits under the Adult Education and Family Literacy Act",
+    "entity_evidence": [
+      {
+        "span_id": 5976539340745616847,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13299298507253555787,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13770222353057932010,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2610163988003341312,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ]
+  },
+  {
+    "refined_id": 15152968768384198465,
+    "source_group_id": 9150494699389437655,
+    "source_candidate_ids": [
+      8947370769702533890
+    ],
+    "entity": "Adult Education and Family Literacy Act",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "restricted to provision of services to individuals receiving benefits",
+    "entity_evidence": [
+      {
+        "span_id": 5097608862064280709,
+        "start": 10533,
+        "end": 10554,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1941347783247064970,
+        "start": 10533,
+        "end": 10554,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10899892668618948243,
+        "start": 10533,
+        "end": 10554,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5058096078317285412,
+        "start": 10533,
+        "end": 10554,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ]
+  },
+  {
+    "refined_id": 15413978013717487123,
+    "source_group_id": 13988066363806916432,
+    "source_candidate_ids": [
+      659054453201849694
+    ],
+    "entity": "Alabama Community College System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "semi-annually",
+    "entity_evidence": [
+      {
+        "span_id": 7917517901824375796,
+        "start": 13166,
+        "end": 13186,
+        "text": "The Chancellor of the Alabama Community College System shall report semi-annually",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6421883317168967511,
+        "start": 13166,
+        "end": 13186,
+        "text": "The Chancellor of the Alabama Community College System shall report semi-annually",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10633436416875848216,
+        "start": 13166,
+        "end": 13186,
+        "text": "The Chancellor of the Alabama Community College System shall report semi-annually",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3505132858833984174,
+        "start": 13166,
+        "end": 13186,
+        "text": "The Chancellor of the Alabama Community College System shall report semi-annually",
+        "chunk_id": 5563145080297301783
+      }
+    ]
+  },
+  {
+    "refined_id": 9217532872792017989,
+    "source_group_id": 18251094750177540911,
+    "source_candidate_ids": [
+      6574914294191264565
+    ],
+    "entity": "Alabama Community College System Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "distributed",
+    "entity_evidence": [
+      {
+        "span_id": 1815513932811288730,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6771364372757855999,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15863310897285612364,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14953390320783024877,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ]
+  },
+  {
+    "refined_id": 10629758635861474965,
+    "source_group_id": 9640772350269673068,
+    "source_candidate_ids": [
+      2745879562752957688
+    ],
+    "entity": "Alabama Automotive Manufacturers Association",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exclusive agreements",
+    "entity_evidence": [
+      {
+        "span_id": 6918245890976583704,
+        "start": 15917,
+        "end": 15937,
+        "text": "the Board of Directors of the Alabama Automotive Manufacturers Association",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15351027887297851942,
+        "start": 15917,
+        "end": 15937,
+        "text": "the Board of Directors of the Alabama Automotive Manufacturers Association",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 971527144032373860,
+        "start": 15917,
+        "end": 15937,
+        "text": "the Board of Directors of the Alabama Automotive Manufacturers Association",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14816871466857953390,
+        "start": 15917,
+        "end": 15937,
+        "text": "the Board of Directors of the Alabama Automotive Manufacturers Association",
+        "chunk_id": 10538744805641532920
+      }
+    ]
+  },
+  {
+    "refined_id": 11998397643823881337,
+    "source_group_id": 4709574175715760426,
+    "source_candidate_ids": [
+      790224593641554606
+    ],
+    "entity": "community colleges",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exclusive agreements",
+    "entity_evidence": [
+      {
+        "span_id": 11590174099341022402,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12430570886016444447,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12581645380789164212,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6207259134100763491,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ]
+  },
+  {
+    "refined_id": 16149003034863813001,
+    "source_group_id": 7569987264273966642,
+    "source_candidate_ids": [
+      14872642034078258339
+    ],
+    "entity": "Alabama Community College System Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "semi-annually",
+    "entity_evidence": [
+      {
+        "span_id": 11951265157102320727,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10659322204911366426,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14232509865162218841,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2038674361644283544,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ]
+  },
+  {
+    "refined_id": 17124734291427507556,
+    "source_group_id": 17974831024794209332,
+    "source_candidate_ids": [
+      16852935021621316728
+    ],
+    "entity": "Alabama Technology Network",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "statewide expansion",
+    "entity_evidence": [
+      {
+        "span_id": 2987769583604989648,
+        "start": 18886,
+        "end": 18901,
+        "text": "For statewide expansion of the program.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16574041017073715396,
+        "start": 18886,
+        "end": 18901,
+        "text": "For statewide expansion of the program.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8455051160812476371,
+        "start": 18886,
+        "end": 18901,
+        "text": "For statewide expansion of the program.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7933205467952482175,
+        "start": 18886,
+        "end": 18901,
+        "text": "For statewide expansion of the program.",
+        "chunk_id": 11739861092571899204
+      }
+    ]
+  },
+  {
+    "refined_id": 8702438821860279482,
+    "source_group_id": 12991872545121299127,
+    "source_candidate_ids": [
+      4753468775758408256
+    ],
+    "entity": "Alabama Incentives Financing Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+    "entity_evidence": [
+      {
+        "span_id": 11434039509140593310,
+        "start": 21151,
+        "end": 21171,
+        "text": "Alabama Incentives Financing Authority",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1602149374169825994,
+        "start": 21151,
+        "end": 21171,
+        "text": "government agency",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8464698491935813435,
+        "start": 21173,
+        "end": 21193,
+        "text": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6860140457113901565,
+        "start": 21173,
+        "end": 21193,
+        "text": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+        "chunk_id": 5107687190945313617
+      }
+    ]
+  },
+  {
+    "refined_id": 9872664271446781049,
+    "source_group_id": 692584562627665273,
+    "source_candidate_ids": [
+      16787376025675405168
+    ],
+    "entity": "Director of Finance",
+    "type": "individual",
+    "attribute": "approval",
+    "value": "approval",
+    "entity_evidence": [
+      {
+        "span_id": 1528005910328576973,
+        "start": 21194,
+        "end": 21204,
+        "text": "Director of Finance",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11871774992056747623,
+        "start": 21194,
+        "end": 21204,
+        "text": "individual",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15358355497972141590,
+        "start": 21205,
+        "end": 21215,
+        "text": "approval",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5289013592229036330,
+        "start": 21205,
+        "end": 21215,
+        "text": "approval",
+        "chunk_id": 5107687190945313617
+      }
+    ]
+  },
+  {
+    "refined_id": 10605154337636910632,
+    "source_group_id": 5402287614573181806,
+    "source_candidate_ids": [
+      17977952824357088543
+    ],
+    "entity": "Alabama Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "pro-rata share",
+    "entity_evidence": [
+      {
+        "span_id": 15371472769398411036,
+        "start": 23854,
+        "end": 23875,
+        "text": "Alabama Department of",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2639212049986912014,
+        "start": 23854,
+        "end": 23875,
+        "text": "Alabama Department of",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16436814956190637075,
+        "start": 23954,
+        "end": 23963,
+        "text": "pro-rata share",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2760203486114029505,
+        "start": 23954,
+        "end": 23963,
+        "text": "pro-rata share",
+        "chunk_id": 9627372540562978657
+      }
+    ]
+  },
+  {
+    "refined_id": 1099078004524598762,
+    "source_group_id": 4017901220468013881,
+    "source_candidate_ids": [
+      4243164422156224956
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "implementation costs",
+    "entity_evidence": [
+      {
+        "span_id": 625792866949095946,
+        "start": 23986,
+        "end": 24006,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4957254041392281390,
+        "start": 23986,
+        "end": 24006,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7007481809029524943,
+        "start": 24014,
+        "end": 24025,
+        "text": "implementation costs",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2851309183304901419,
+        "start": 24014,
+        "end": 24025,
+        "text": "implementation costs",
+        "chunk_id": 9627372540562978657
+      }
+    ]
+  },
+  {
+    "refined_id": 15477369992273142423,
+    "source_group_id": 4282934698020828452,
+    "source_candidate_ids": [
+      14202172469076204136
+    ],
+    "entity": "School Nurses Program",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 4087852124432841059,
+        "start": 26445,
+        "end": 26445,
+        "text": "School Nurses Program",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10555032872751782353,
+        "start": 26445,
+        "end": 26445,
+        "text": "Program",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2838528603691568047,
+        "start": 26445,
+        "end": 26445,
+        "text": "shall use the following salary matrix",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17315779012006304501,
+        "start": 26445,
+        "end": 26445,
+        "text": "extensive",
+        "chunk_id": 8227554056470380599
+      }
+    ]
+  },
+  {
+    "refined_id": 12160601539281137095,
+    "source_group_id": 571029516780819372,
+    "source_candidate_ids": [
+      5536427415910484367
+    ],
+    "entity": "District Technology Coordinator",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 12952986221228566652,
+        "start": 26379,
+        "end": 26379,
+        "text": "District Technology Coordinator",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6075507283933390208,
+        "start": 26379,
+        "end": 26379,
+        "text": "position",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13751871764853565200,
+        "start": 26379,
+        "end": 26379,
+        "text": "meets the job description",
+        "chunk_id": 8227554056470380599
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16175977844349861066,
+        "start": 26379,
+        "end": 26379,
+        "text": "specific",
+        "chunk_id": 8227554056470380599
+      }
+    ]
+  },
+  {
+    "refined_id": 5718548753933048703,
+    "source_group_id": 8699526277857108224,
+    "source_candidate_ids": [
+      2233605935771969386
+    ],
+    "entity": "Alabama Leaders in Educational Technology (ALET)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "collaborative support for cybersecurity",
+    "entity_evidence": [
+      {
+        "span_id": 15703321711756578013,
+        "start": 29122,
+        "end": 29143,
+        "text": "Alabama Leaders in Educational Technology (ALET)",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9514829531559365689,
+        "start": 29122,
+        "end": 29143,
+        "text": "government agency",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16662687106341208699,
+        "start": 29122,
+        "end": 29143,
+        "text": "restriction",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2056174439235914822,
+        "start": 29122,
+        "end": 29143,
+        "text": "collaborative support for cybersecurity",
+        "chunk_id": 1729752726499996704
+      }
+    ]
+  },
+  {
+    "refined_id": 15737252416773893175,
+    "source_group_id": 3902246179942971168,
+    "source_candidate_ids": [
+      14820586111088606735
+    ],
+    "entity": "Alabama School for Cyber Technology and Engineering",
+    "type": "school",
+    "attribute": "promotion",
+    "value": "cybersecurity",
+    "entity_evidence": [
+      {
+        "span_id": 3876289778561840051,
+        "start": 29422,
+        "end": 29451,
+        "text": "Alabama School for Cyber Technology and Engineering",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8668952495045081163,
+        "start": 29422,
+        "end": 29451,
+        "text": "school",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3964697155830735193,
+        "start": 29422,
+        "end": 29451,
+        "text": "promotion",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9413463138452722889,
+        "start": 29422,
+        "end": 29451,
+        "text": "cybersecurity",
+        "chunk_id": 1729752726499996704
+      }
+    ]
+  },
+  {
+    "refined_id": 7098815563445665608,
+    "source_group_id": 8244623276953716050,
+    "source_candidate_ids": [
+      5073905595829062562
+    ],
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidance",
+    "entity_evidence": [
+      {
+        "span_id": 18058408585613496600,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15001675199199700198,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11616047660302481641,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10198844293723760151,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ]
+  },
+  {
+    "refined_id": 17248951083746993054,
+    "source_group_id": 11192486271810952962,
+    "source_candidate_ids": [
+      6731443919199586395,
+      7889109493541735166
+    ],
+    "entity": "local boards of education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "flexibility",
+    "entity_evidence": [
+      {
+        "span_id": 979793592609520166,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10496760245087982525,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 837400899623796887,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2149134988099293134,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ]
+  },
+  {
+    "refined_id": 7278741871244800382,
+    "source_group_id": 13758147242211401554,
+    "source_candidate_ids": [
+      18227667025828717492
+    ],
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidelines",
+    "entity_evidence": [
+      {
+        "span_id": 11810694526902400993,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5276701063472400422,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9126419678177366256,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5060312623567382668,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ]
+  },
+  {
+    "refined_id": 1851473983787210923,
+    "source_group_id": 102360768581621565,
+    "source_candidate_ids": [
+      7822221617439304177
+    ],
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "rule adoption",
+    "entity_evidence": [
+      {
+        "span_id": 7716152777546893569,
+        "start": 37156,
+        "end": 37173,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10583305212325882982,
+        "start": 37156,
+        "end": 37173,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11991654655562458810,
+        "start": 37156,
+        "end": 37173,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14537958570668194278,
+        "start": 37156,
+        "end": 37173,
+        "text": "The State Board of Education may adopt rules, as necessary, for initial or recertification criteria.",
+        "chunk_id": 5925019931120568832
+      }
+    ]
+  },
+  {
+    "refined_id": 14367925986696831007,
+    "source_group_id": 17448790005507407197,
+    "source_candidate_ids": [
+      1660980876153648698
+    ],
+    "entity": "State Superintendent",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "semi-annual",
+    "entity_evidence": [
+      {
+        "span_id": 10469462135433854226,
+        "start": 37183,
+        "end": 37191,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11514339084722608510,
+        "start": 37183,
+        "end": 37191,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6059816878724467706,
+        "start": 37183,
+        "end": 37191,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15745728661907408387,
+        "start": 37183,
+        "end": 37191,
+        "text": "The State Superintendent shall provide a status report on the approval system status and budgetary needs to the Chairs of the House Ways and Means-Education and Senate Finance and Taxation-Education Committees on a semi-annual basis.",
+        "chunk_id": 5925019931120568832
+      }
+    ]
+  },
+  {
+    "refined_id": 17553257897350596951,
+    "source_group_id": 1172779787347638572,
+    "source_candidate_ids": [
+      9059785909989836710
+    ],
+    "entity": "Alabama Math, Science and Technology Initiative Program (AMSTI)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "divided based upon the number of classroom teachers served",
+    "entity_evidence": [
+      {
+        "span_id": 11434610291941745065,
+        "start": 39853,
+        "end": 39874,
+        "text": "Alabama Math, Science and Technology Initiative Program (AMSTI)",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3670150100942447243,
+        "start": 39853,
+        "end": 39874,
+        "text": "Alabama Math, Science and Technology Initiative Program (AMSTI)",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15769954991158795268,
+        "start": 39853,
+        "end": 39874,
+        "text": "Alabama Math, Science and Technology Initiative Program (AMSTI)",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9141382333551842631,
+        "start": 39853,
+        "end": 39874,
+        "text": "Alabama Math, Science and Technology Initiative Program (AMSTI)",
+        "chunk_id": 16207215204831358817
+      }
+    ]
+  },
+  {
+    "refined_id": 5014430175618127843,
+    "source_group_id": 10196200727753321666,
+    "source_candidate_ids": [
+      14223506161779357
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to appropriations",
+    "entity_evidence": [
+      {
+        "span_id": 18367918572811441597,
+        "start": 39734,
+        "end": 39750,
+        "text": "Education, State Department of:",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6632296755798055927,
+        "start": 39734,
+        "end": 39750,
+        "text": "Education, State Department of:",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10702217996318721154,
+        "start": 39734,
+        "end": 39750,
+        "text": "Education, State Department of:",
+        "chunk_id": 16207215204831358817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16010141162720605204,
+        "start": 39734,
+        "end": 39750,
+        "text": "Education, State Department of:",
+        "chunk_id": 16207215204831358817
+      }
+    ]
+  },
+  {
+    "refined_id": 6332187671728529057,
+    "source_group_id": 4542036687666179228,
+    "source_candidate_ids": [
+      9256149830751308938
+    ],
+    "entity": "Alabama Reading Initiative",
+    "type": "Program",
+    "attribute": "purpose",
+    "value": "improve K-3 literacy",
+    "entity_evidence": [
+      {
+        "span_id": 14865544084352822570,
+        "start": 42408,
+        "end": 45407,
+        "text": "improve K-3 literacy",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13962983200070415286,
+        "start": 42408,
+        "end": 45407,
+        "text": "Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11769291636206502071,
+        "start": 42408,
+        "end": 45407,
+        "text": "purpose",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5222383619460841839,
+        "start": 42408,
+        "end": 45407,
+        "text": "improve K-3 literacy",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  },
+  {
+    "refined_id": 5978538154142039702,
+    "source_group_id": 3222790072988653972,
+    "source_candidate_ids": [
+      5598921728616995982
+    ],
+    "entity": "Alabama Reading Initiative",
+    "type": "Program",
+    "attribute": "funds",
+    "value": "151,950,000",
+    "entity_evidence": [
+      {
+        "span_id": 2819246751918588220,
+        "start": 42408,
+        "end": 45407,
+        "text": "Alabama Reading Initiative",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 214582113606213466,
+        "start": 42408,
+        "end": 45407,
+        "text": "Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14193382625992510107,
+        "start": 42408,
+        "end": 45407,
+        "text": "funds",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3625532649078615843,
+        "start": 42408,
+        "end": 45407,
+        "text": "151,950,000",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  },
+  {
+    "refined_id": 13357764541905308902,
+    "source_group_id": 13287900889895617942,
+    "source_candidate_ids": [
+      17386853896693440019
+    ],
+    "entity": "Certified Academic Language Therapist (CALT)",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "salary supplement",
+    "entity_evidence": [
+      {
+        "span_id": 1305099836581101518,
+        "start": 45352,
+        "end": 45373,
+        "text": "Certified Academic Language Therapist (CALT)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7671307983255035326,
+        "start": 45352,
+        "end": 45373,
+        "text": "Certified Academic Language Therapist (CALT)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1766076193543113239,
+        "start": 45352,
+        "end": 45373,
+        "text": "Certified Academic Language Therapist (CALT)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1540405731460234117,
+        "start": 45352,
+        "end": 45373,
+        "text": "Certified Academic Language Therapist (CALT)",
+        "chunk_id": 8307566331999899841
+      }
+    ]
+  },
+  {
+    "refined_id": 6207619872863203087,
+    "source_group_id": 14000785052931690173,
+    "source_candidate_ids": [
+      5880677359361683554
+    ],
+    "entity": "Alabama Summer and Afterschool Program (ASAP)",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "quality and access to evidence-based summer and afterschool academic and enrichment programming",
+    "entity_evidence": [
+      {
+        "span_id": 1264643763765582338,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4535113347649645902,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6655727426481213379,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18003952156395882034,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ]
+  },
+  {
+    "refined_id": 13405807636028883403,
+    "source_group_id": 8394354397412045364,
+    "source_candidate_ids": [
+      7920649973299646049,
+      10038128694493686884
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 12954391623692349424,
+        "start": 47934,
+        "end": 47955,
+        "text": "State Department of Education",
+        "chunk_id": 17761956045604809607
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2192737510982863720,
+        "start": 47934,
+        "end": 47955,
+        "text": "government agency",
+        "chunk_id": 17761956045604809607
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12588961738738847716,
+        "start": 47934,
+        "end": 47955,
+        "text": "regulation",
+        "chunk_id": 17761956045604809607
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14979234770807624379,
+        "start": 47934,
+        "end": 47955,
+        "text": "oversight",
+        "chunk_id": 17761956045604809607
+      }
+    ]
+  },
+  {
+    "refined_id": 3807538533732307128,
+    "source_group_id": 10355530494483980680,
+    "source_candidate_ids": [
+      14518093944434446954
+    ],
+    "entity": "local educational agency",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "supplemental",
+    "entity_evidence": [
+      {
+        "span_id": 14207240941509261684,
+        "start": 48037,
+        "end": 48053,
+        "text": "local educational agency",
+        "chunk_id": 17761956045604809607
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1634936543562307452,
+        "start": 48037,
+        "end": 48053,
+        "text": "government agency",
+        "chunk_id": 17761956045604809607
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9488468649748618927,
+        "start": 48037,
+        "end": 48053,
+        "text": "allocation",
+        "chunk_id": 17761956045604809607
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16166085921183307062,
+        "start": 48037,
+        "end": 48053,
+        "text": "supplemental",
+        "chunk_id": 17761956045604809607
+      }
+    ]
+  },
+  {
+    "refined_id": 13438968271168392568,
+    "source_group_id": 10999697653536341572,
+    "source_candidate_ids": [
+      11995358747368596059
+    ],
+    "entity": "Alabama Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 15465800908333179719,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18373656958264285371,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7129158083921720321,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9486075893259289978,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ]
+  },
+  {
+    "refined_id": 3603002369796849009,
+    "source_group_id": 11252934966393279659,
+    "source_candidate_ids": [
+      9359520239485458386
+    ],
+    "entity": "Retired Senior Volunteer Program",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "salaries",
+    "entity_evidence": [
+      {
+        "span_id": 15841669621321864982,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12737911176541640131,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2838399040563553059,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14771861617576053554,
+        "start": 53245,
+        "end": 53266,
+        "text": "The funds allocated to the Retired Senior Volunteer Program shall not be used for salaries.",
+        "chunk_id": 6840527888743128275
+      }
+    ]
+  },
+  {
+    "refined_id": 6165198310538354706,
+    "source_group_id": 17790933003482552624,
+    "source_candidate_ids": [
+      6652050682636766930
+    ],
+    "entity": "Department of Education",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "October 1, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 18138773821192074502,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12269413325830909347,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16702631009165823193,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6093203373680671170,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ]
+  },
+  {
+    "refined_id": 10361659857929081949,
+    "source_group_id": 17918485947918469070,
+    "source_candidate_ids": [
+      17501054639542982125
+    ],
+    "entity": "school environment",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "free of harassment, intimidation, violence, and threats of violence",
+    "entity_evidence": [
+      {
+        "span_id": 7499585860810671409,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4203892889173850792,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6505445009302868593,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5634779887397593824,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ]
+  },
+  {
+    "refined_id": 16002126793851848055,
+    "source_group_id": 4653756221641209572,
+    "source_candidate_ids": [
+      9133639406213567475
+    ],
+    "entity": "school-based mental health initiatives",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "comprehensive and satisfy the following state mandates",
+    "entity_evidence": [
+      {
+        "span_id": 8044106404196645904,
+        "start": 55957,
+        "end": 55978,
+        "text": "school-based mental health initiatives",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13631181512497370220,
+        "start": 55957,
+        "end": 55978,
+        "text": "school-based mental health initiatives",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8939893585006209864,
+        "start": 55957,
+        "end": 55978,
+        "text": "school-based mental health initiatives",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 367988759486384599,
+        "start": 55957,
+        "end": 55978,
+        "text": "school-based mental health initiatives",
+        "chunk_id": 7416843063371399616
+      }
+    ]
+  },
+  {
+    "refined_id": 11915245844753010296,
+    "source_group_id": 2117660372000535019,
+    "source_candidate_ids": [
+      4187230964696515807
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "modest expansion",
+    "entity_evidence": [
+      {
+        "span_id": 7604263556186434519,
+        "start": 58600,
+        "end": 58619,
+        "text": "The State Department of Education should annually produce written progress reports on these schools",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 910531697686987818,
+        "start": 58600,
+        "end": 58619,
+        "text": "The State Department of Education should annually produce written progress reports on these schools",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2495219529220363924,
+        "start": 58600,
+        "end": 58619,
+        "text": "The State Department of Education should annually produce written progress reports on these schools",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2867551956735941444,
+        "start": 58600,
+        "end": 58619,
+        "text": "The State Department of Education should annually produce written progress reports on these schools",
+        "chunk_id": 16171204849904079816
+      }
+    ]
+  },
+  {
+    "refined_id": 11670683905138522579,
+    "source_group_id": 405564340411765205,
+    "source_candidate_ids": [
+      3361259301483113180
+    ],
+    "entity": "Alabama Accountability Act",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9030986427258363887,
+        "start": 58742,
+        "end": 58760,
+        "text": "the provisions of the Alabama Accountability Act",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4412545719503097382,
+        "start": 58742,
+        "end": 58760,
+        "text": "the provisions of the Alabama Accountability Act",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11424244173519796359,
+        "start": 58742,
+        "end": 58760,
+        "text": "the provisions of the Alabama Accountability Act",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18096943124323018500,
+        "start": 58742,
+        "end": 58760,
+        "text": "the provisions of the Alabama Accountability Act",
+        "chunk_id": 16171204849904079816
+      }
+    ]
+  },
+  {
+    "refined_id": 2031907621506996822,
+    "source_group_id": 7185768930575687054,
+    "source_candidate_ids": [
+      8543845068357047152
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "endorsement",
+    "value": "approved",
+    "entity_evidence": [
+      {
+        "span_id": 2250596171443609064,
+        "start": 61314,
+        "end": 61334,
+        "text": "State Department of Education endorsed and approved",
+        "chunk_id": 14253415310968526301
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7254476151327281236,
+        "start": 61314,
+        "end": 61334,
+        "text": "State Department of Education",
+        "chunk_id": 14253415310968526301
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10386024670702939070,
+        "start": 61314,
+        "end": 61334,
+        "text": "endorsed and approved",
+        "chunk_id": 14253415310968526301
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 623660487415538595,
+        "start": 61314,
+        "end": 61334,
+        "text": "approved",
+        "chunk_id": 14253415310968526301
+      }
+    ]
+  },
+  {
+    "refined_id": 2883657735269027253,
+    "source_group_id": 12455733929826654746,
+    "source_candidate_ids": [
+      14070111162862789982
+    ],
+    "entity": "public K-12 schools",
+    "type": "infrastructure",
+    "attribute": "provision",
+    "value": "video cameras",
+    "entity_evidence": [
+      {
+        "span_id": 11950161104228355937,
+        "start": 61425,
+        "end": 61444,
+        "text": "public K-12 schools",
+        "chunk_id": 14253415310968526301
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8517551228058886457,
+        "start": 61425,
+        "end": 61444,
+        "text": "public K-12 schools",
+        "chunk_id": 14253415310968526301
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16885781165643831994,
+        "start": 61425,
+        "end": 61444,
+        "text": "use toward the purchase, installation, maintenance, and monitoring of video cameras",
+        "chunk_id": 14253415310968526301
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2271650659265694849,
+        "start": 61425,
+        "end": 61444,
+        "text": "video cameras",
+        "chunk_id": 14253415310968526301
+      }
+    ]
+  },
+  {
+    "refined_id": 11697229508340179058,
+    "source_group_id": 13594619544171765332,
+    "source_candidate_ids": [
+      2710889649979645560
+    ],
+    "entity": "Alabama Science in Motion Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "no repurposing",
+    "entity_evidence": [
+      {
+        "span_id": 5469526629551221393,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11148696192648567178,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1040675045935978661,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 728000040608067355,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ]
+  },
+  {
+    "refined_id": 17929006359291383966,
+    "source_group_id": 4569999354799302135,
+    "source_candidate_ids": [
+      17251255022107660460
+    ],
+    "entity": "Alabama Science in Motion Advisory Committee",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "at least one member",
+    "entity_evidence": [
+      {
+        "span_id": 9072383884380787675,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10714503150664336609,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16403688892952077214,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11221754302532536390,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ]
+  },
+  {
+    "refined_id": 13399028875945429303,
+    "source_group_id": 5116289162066103452,
+    "source_candidate_ids": [
+      16009219585091213184
+    ],
+    "entity": "Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "clear definition of roles and responsibilities",
+    "entity_evidence": [
+      {
+        "span_id": 17099334284100772125,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11355652220505142957,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14713241424282170529,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4932080676530143878,
+        "start": 66801,
+        "end": 66818,
+        "text": "The Department shall clearly define roles and responsibilities",
+        "chunk_id": 10568676582375512832
+      }
+    ]
+  },
+  {
+    "refined_id": 11359567820683549817,
+    "source_group_id": 7458254117166464870,
+    "source_candidate_ids": [
+      18000439318880629055
+    ],
+    "entity": "State Superintendent of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "discretion",
+    "entity_evidence": [
+      {
+        "span_id": 9921151954545208636,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9591680297735001858,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1929466487505206538,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5487268286507483467,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ]
+  },
+  {
+    "refined_id": 7153596206882357946,
+    "source_group_id": 12684323771714512245,
+    "source_candidate_ids": [
+      12179631878142094072
+    ],
+    "entity": "National Board for Professional Teaching Standards",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "certification",
+    "entity_evidence": [
+      {
+        "span_id": 18445463001473472535,
+        "start": 70402,
+        "end": 70422,
+        "text": "National Board for Professional",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5545018684430022748,
+        "start": 70402,
+        "end": 70406,
+        "text": "Board",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1322880750009317582,
+        "start": 70407,
+        "end": 70411,
+        "text": "for",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5635962582060722647,
+        "start": 70412,
+        "end": 70418,
+        "text": "Professional",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  },
+  {
+    "refined_id": 5781691180925386425,
+    "source_group_id": 10783858958090635804,
+    "source_candidate_ids": [
+      3515011502330160525
+    ],
+    "entity": "Teacher Education Preparation Program",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "eligibility",
+    "entity_evidence": [
+      {
+        "span_id": 7417557455686527456,
+        "start": 70516,
+        "end": 70536,
+        "text": "Teacher Education Preparation Program",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5775509164605751887,
+        "start": 70516,
+        "end": 70526,
+        "text": "Education",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17623262927237073357,
+        "start": 70527,
+        "end": 70531,
+        "text": "Preparation",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3439239370295595133,
+        "start": 70532,
+        "end": 70538,
+        "text": "Program",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  },
+  {
+    "refined_id": 1927477235591109358,
+    "source_group_id": 10210976353569473149,
+    "source_candidate_ids": [
+      7894547418585712549
+    ],
+    "entity": "Nationally Board-Certified Teachers (NBCT)",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "pro-rata share",
+    "entity_evidence": [
+      {
+        "span_id": 5037966771154153658,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12459609008730214989,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13769126717237235340,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5737481225485328782,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ]
+  },
+  {
+    "refined_id": 17585887086611899749,
+    "source_group_id": 17123319033282413094,
+    "source_candidate_ids": [
+      8741465630321890507
+    ],
+    "entity": "Alabama Legislature",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 11844581310614990576,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4309200327700425657,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3203772596196002885,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14547623935936983800,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ]
+  },
+  {
+    "refined_id": 6276163410757801328,
+    "source_group_id": 4842386379895557223,
+    "source_candidate_ids": [
+      6087689068188797244
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5160230234285942272,
+        "start": 74714,
+        "end": 74730,
+        "text": "The State Department of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3191826969996058571,
+        "start": 74714,
+        "end": 74730,
+        "text": "The State Department of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2528145760260654667,
+        "start": 74714,
+        "end": 74730,
+        "text": "The State Department of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18280485374397550291,
+        "start": 74714,
+        "end": 74730,
+        "text": "The State Department of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ]
+  },
+  {
+    "refined_id": 11062520462190087788,
+    "source_group_id": 18411878025913085938,
+    "source_candidate_ids": [
+      6995353354295608525
+    ],
+    "entity": "State Superintendent of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4821986794214865719,
+        "start": 75005,
+        "end": 75024,
+        "text": "The State Superintendent of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4379391628696137240,
+        "start": 75005,
+        "end": 75024,
+        "text": "The State Superintendent of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16773789400397058708,
+        "start": 75005,
+        "end": 75024,
+        "text": "The State Superintendent of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8790917472477050985,
+        "start": 75005,
+        "end": 75024,
+        "text": "The State Superintendent of Education",
+        "chunk_id": 11064768810285638684
+      }
+    ]
+  },
+  {
+    "refined_id": 16454242531904772375,
+    "source_group_id": 1841231860524955390,
+    "source_candidate_ids": [
+      13788688110168434860
+    ],
+    "entity": "ALSDE",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "competitive grant process",
+    "entity_evidence": [
+      {
+        "span_id": 1813488240325450396,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16645844340447663347,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5180700330594483284,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10528886915167238736,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ]
+  },
+  {
+    "refined_id": 11386476326675870169,
+    "source_group_id": 1423561044788351706,
+    "source_candidate_ids": [
+      9505500804394052542
+    ],
+    "entity": "State Superintendent",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "directed",
+    "entity_evidence": [
+      {
+        "span_id": 3151747468386184771,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16064162185067351884,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14301545538733813883,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13812723788251577099,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ]
+  },
+  {
+    "refined_id": 6616879016190129522,
+    "source_group_id": 12043657334939197714,
+    "source_candidate_ids": [
+      16057976962193135880
+    ],
+    "entity": "Common Core State Standards Initiative",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "after April 1, 2013",
+    "entity_evidence": [
+      {
+        "span_id": 17971843108785503918,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15891123844300466684,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6439840330431802508,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15470902962121047442,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  },
+  {
+    "refined_id": 17178499089657167906,
+    "source_group_id": 260960538972447127,
+    "source_candidate_ids": [
+      9244887282957729398
+    ],
+    "entity": "Educational Television Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology",
+    "entity_evidence": [
+      {
+        "span_id": 10163392944306001241,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5595554731419768214,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18257196966747114689,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3510660445113423251,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  },
+  {
+    "refined_id": 13308225087327792581,
+    "source_group_id": 9257660558694446922,
+    "source_candidate_ids": [
+      1623156431801659398
+    ],
+    "entity": "Total Educational Television Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "unbiased",
+    "entity_evidence": [
+      {
+        "span_id": 3240742292198259175,
+        "start": 82503,
+        "end": 82532,
+        "text": "Total Educational Television Commission",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5187743637228017666,
+        "start": 82533,
+        "end": 82548,
+        "text": "government agency",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4045538843029430121,
+        "start": 82549,
+        "end": 82556,
+        "text": "restriction",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5296159630823164321,
+        "start": 82557,
+        "end": 82564,
+        "text": "unbiased",
+        "chunk_id": 9903963699392668560
+      }
+    ]
+  },
+  {
+    "refined_id": 14386336781869237055,
+    "source_group_id": 761582459738564734,
+    "source_candidate_ids": [
+      17998894009223251452
+    ],
+    "entity": "Executive Commission on Community Services Grants, State",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "public education purposes",
+    "entity_evidence": [
+      {
+        "span_id": 3632306572781862731,
+        "start": 82503,
+        "end": 82546,
+        "text": "Executive Commission on Community Services Grants, State",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17109422039881429807,
+        "start": 82547,
+        "end": 82566,
+        "text": "government agency",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3255686527130939017,
+        "start": 82567,
+        "end": 82574,
+        "text": "promotion",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12001783944953185664,
+        "start": 82575,
+        "end": 82594,
+        "text": "public education purposes",
+        "chunk_id": 9903963699392668560
+      }
+    ]
+  },
+  {
+    "refined_id": 7129454918710936978,
+    "source_group_id": 5588054531094638499,
+    "source_candidate_ids": [
+      16458883694902812606
+    ],
+    "entity": "Alabama Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "performance-based awards",
+    "entity_evidence": [
+      {
+        "span_id": 17876187506023751754,
+        "start": 85194,
+        "end": 85211,
+        "text": "Health, Department of Public",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8830884516638369306,
+        "start": 85194,
+        "end": 85211,
+        "text": "Health, Department of Public",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12965945489252521077,
+        "start": 85291,
+        "end": 85311,
+        "text": "performance-based awards",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17100765375529779496,
+        "start": 85291,
+        "end": 85311,
+        "text": "performance-based awards",
+        "chunk_id": 18027000573889988015
+      }
+    ]
+  },
+  {
+    "refined_id": 15896022967715409008,
+    "source_group_id": 15358534709415236732,
+    "source_candidate_ids": [
+      8518020571452843428
+    ],
+    "entity": "Alabama Trauma Communications Center",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "new construction",
+    "entity_evidence": [
+      {
+        "span_id": 6499556239577197638,
+        "start": 85272,
+        "end": 85291,
+        "text": "Alabama Trauma Communications Center",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9869587099605680433,
+        "start": 85272,
+        "end": 85291,
+        "text": "Alabama Trauma Communications Center",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17364040941013196340,
+        "start": 85334,
+        "end": 85344,
+        "text": "new construction",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16683243709979406304,
+        "start": 85334,
+        "end": 85344,
+        "text": "new construction",
+        "chunk_id": 18027000573889988015
+      }
+    ]
+  },
+  {
+    "refined_id": 11545910917899480344,
+    "source_group_id": 18333407498836158652,
+    "source_candidate_ids": [
+      17619624878090255096
+    ],
+    "entity": "ACHE",
+    "type": "government agency",
+    "attribute": "regulator",
+    "value": "administrator",
+    "entity_evidence": [
+      {
+        "span_id": 17110953249152923305,
+        "start": 87999,
+        "end": 88003,
+        "text": "ACHE",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16625371988118703470,
+        "start": 87999,
+        "end": 88003,
+        "text": "ACHE",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1706404827208026982,
+        "start": 88004,
+        "end": 88009,
+        "text": "shall establish rules for the implementation of the grant program",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10667860454137319732,
+        "start": 88010,
+        "end": 88015,
+        "text": "administrator",
+        "chunk_id": 6435206301984922264
+      }
+    ]
+  },
+  {
+    "refined_id": 13423609203492782048,
+    "source_group_id": 16379865908917052895,
+    "source_candidate_ids": [
+      8323484541024277000
+    ],
+    "entity": "Alabama Department of Workforce",
+    "type": "government agency",
+    "attribute": "regulator",
+    "value": "manager",
+    "entity_evidence": [
+      {
+        "span_id": 4607938972551418558,
+        "start": 88290,
+        "end": 88305,
+        "text": "Alabama Department of Workforce",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2535449059985554520,
+        "start": 88290,
+        "end": 88305,
+        "text": "Alabama Department of Workforce",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14465015330104279650,
+        "start": 88306,
+        "end": 88311,
+        "text": "managed by the",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16266813922722904990,
+        "start": 88312,
+        "end": 88317,
+        "text": "manager",
+        "chunk_id": 6435206301984922264
+      }
+    ]
+  },
+  {
+    "refined_id": 6806176770322763648,
+    "source_group_id": 16843214965862019926,
+    "source_candidate_ids": [
+      10651553964018697409
+    ],
+    "entity": "Alabama Higher Education Partnership",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 9596787848803924076,
+        "start": 90577,
+        "end": 90597,
+        "text": "Alabama Higher Education Partnership",
+        "chunk_id": 15383322150185329322
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16356356338624222564,
+        "start": 90577,
+        "end": 90597,
+        "text": "Alabama Higher Education Partnership",
+        "chunk_id": 15383322150185329322
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14646245853614783271,
+        "start": 90577,
+        "end": 90597,
+        "text": "Alabama Higher Education Partnership",
+        "chunk_id": 15383322150185329322
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6981337434033556111,
+        "start": 90577,
+        "end": 90597,
+        "text": "Alabama Higher Education Partnership",
+        "chunk_id": 15383322150185329322
+      }
+    ]
+  },
+  {
+    "refined_id": 7390210363425070507,
+    "source_group_id": 12139097594927080294,
+    "source_candidate_ids": [
+      2303397944339485918
+    ],
+    "entity": "Student Retention Council Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 6701033730801729167,
+        "start": 90599,
+        "end": 90619,
+        "text": "Student Retention Council Program",
+        "chunk_id": 15383322150185329322
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 69157739812335077,
+        "start": 90599,
+        "end": 90619,
+        "text": "Student Retention Council Program",
+        "chunk_id": 15383322150185329322
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17779768899310944272,
+        "start": 90599,
+        "end": 90619,
+        "text": "Student Retention Council Program",
+        "chunk_id": 15383322150185329322
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2074685471841016790,
+        "start": 90599,
+        "end": 90619,
+        "text": "Student Retention Council Program",
+        "chunk_id": 15383322150185329322
+      }
+    ]
+  },
+  {
+    "refined_id": 5250471097040554984,
+    "source_group_id": 16836440028563668026,
+    "source_candidate_ids": [
+      7580861178612510945
+    ],
+    "entity": "University of Alabama at Birmingham",
+    "type": "government agency",
+    "attribute": "location",
+    "value": "administrative offices",
+    "entity_evidence": [
+      {
+        "span_id": 13610161312643085470,
+        "start": 93262,
+        "end": 93282,
+        "text": "Program to Stimulate Competitive Research (Alabama EPSCo R) administrative offices located at the University of Alabama at Birmingham.",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6906975637268593510,
+        "start": 93262,
+        "end": 93282,
+        "text": "Program to Stimulate Competitive Research (Alabama EPSCo R) administrative offices located at the University of Alabama at Birmingham.",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5973739556874475948,
+        "start": 93262,
+        "end": 93282,
+        "text": "Program to Stimulate Competitive Research (Alabama EPSCo R) administrative offices located at the University of Alabama at Birmingham.",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17699840359645637593,
+        "start": 93262,
+        "end": 93282,
+        "text": "Program to Stimulate Competitive Research (Alabama EPSCo R) administrative offices located at the University of Alabama at Birmingham.",
+        "chunk_id": 11281906829071239357
+      }
+    ]
+  },
+  {
+    "refined_id": 13228230572270182699,
+    "source_group_id": 837030830208421776,
+    "source_candidate_ids": [
+      4044739263559594722
+    ],
+    "entity": "Alabama A&M University",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "equal distribution",
+    "entity_evidence": [
+      {
+        "span_id": 13620786706369743552,
+        "start": 93362,
+        "end": 93382,
+        "text": "This appropriation shall be distributed equally between Alabama A&M University and Athens State University",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10105169734061892476,
+        "start": 93362,
+        "end": 93382,
+        "text": "This appropriation shall be distributed equally between Alabama A&M University and Athens State University",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10147785899889233040,
+        "start": 93362,
+        "end": 93382,
+        "text": "This appropriation shall be distributed equally between Alabama A&M University and Athens State University",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6228250756278369531,
+        "start": 93362,
+        "end": 93382,
+        "text": "This appropriation shall be distributed equally between Alabama A&M University and Athens State University",
+        "chunk_id": 11281906829071239357
+      }
+    ]
+  },
+  {
+    "refined_id": 8876899161505425070,
+    "source_group_id": 15372727507621201771,
+    "source_candidate_ids": [
+      9352767483017307489
+    ],
+    "entity": "Alabama Historical Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "indirect funding",
+    "entity_evidence": [
+      {
+        "span_id": 7318154917806404133,
+        "start": 95977,
+        "end": 95997,
+        "text": "Commission, Alabama",
+        "chunk_id": 12361913712777735068
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13596141277464608331,
+        "start": 95977,
+        "end": 95997,
+        "text": "Commission, Alabama",
+        "chunk_id": 12361913712777735068
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12116956938789340591,
+        "start": 95977,
+        "end": 95997,
+        "text": "Commission, Alabama",
+        "chunk_id": 12361913712777735068
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16117169373959573953,
+        "start": 95977,
+        "end": 95997,
+        "text": "Commission, Alabama",
+        "chunk_id": 12361913712777735068
+      }
+    ]
+  },
+  {
+    "refined_id": 1047532984023095879,
+    "source_group_id": 15931009315413311251,
+    "source_candidate_ids": [
+      4792792487855324253
+    ],
+    "entity": "private or for-profit business or organization",
+    "type": "individual",
+    "attribute": "prohibition",
+    "value": "direct funding",
+    "entity_evidence": [
+      {
+        "span_id": 7598690772293683279,
+        "start": 95977,
+        "end": 95997,
+        "text": "private or for-profit business or organization",
+        "chunk_id": 12361913712777735068
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17544426243366135451,
+        "start": 95977,
+        "end": 95997,
+        "text": "private or for-profit business or organization",
+        "chunk_id": 12361913712777735068
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5990281213716909346,
+        "start": 95977,
+        "end": 95997,
+        "text": "private or for-profit business or organization",
+        "chunk_id": 12361913712777735068
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15790584781636162240,
+        "start": 95977,
+        "end": 95997,
+        "text": "private or for-profit business or organization",
+        "chunk_id": 12361913712777735068
+      }
+    ]
+  },
+  {
+    "refined_id": 11355423367414863413,
+    "source_group_id": 4816418120250601592,
+    "source_candidate_ids": [
+      1049746237752227223
+    ],
+    "entity": "Department for Child Care and After School Care Programs",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "expenditure of federal stimulus funds",
+    "entity_evidence": [
+      {
+        "span_id": 14768172919020841722,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10593498625318759010,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7130661257519021166,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15224531995966660244,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ]
+  },
+  {
+    "refined_id": 17747738042203764605,
+    "source_group_id": 5999030937271967094,
+    "source_candidate_ids": [
+      7337210707384038331
+    ],
+    "entity": "Law Enforcement Agency, State",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "Law Enforcement Program",
+    "entity_evidence": [
+      {
+        "span_id": 24902194756090732,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2344192347347448741,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4393105123400434160,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11011813397902160753,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ]
+  },
+  {
+    "refined_id": 12827790385704624462,
+    "source_group_id": 8079115051410615546,
+    "source_candidate_ids": [
+      10450108438720008095
+    ],
+    "entity": "Administrative Code Rule 520-2-2-.03",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "compliance",
+    "entity_evidence": [
+      {
+        "span_id": 6500478505572100094,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14991566135141439752,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8325508148290219678,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8439218576797447393,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ]
+  },
+  {
+    "refined_id": 2169402958848862491,
+    "source_group_id": 15702325212168645009,
+    "source_candidate_ids": [
+      3718199746949888130
+    ],
+    "entity": "Board of Medical Scholarship Awards",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance",
+    "entity_evidence": [
+      {
+        "span_id": 5510845020677896466,
+        "start": 102801,
+        "end": 102819,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16386300394304363272,
+        "start": 102801,
+        "end": 102819,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13261602178054270358,
+        "start": 102801,
+        "end": 102819,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4250560323942254615,
+        "start": 102801,
+        "end": 102819,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ]
+  },
+  {
+    "refined_id": 12481564859183046881,
+    "source_group_id": 10590061571528521020,
+    "source_candidate_ids": [
+      4206491703286658508
+    ],
+    "entity": "Alabama Physician Assistants Service",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "500,000",
+    "entity_evidence": [
+      {
+        "span_id": 6516958422192295028,
+        "start": 103806,
+        "end": 103830,
+        "text": "Alabama Physician Assistants Service",
+        "chunk_id": 18306872316285919172
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14553145386852916074,
+        "start": 103831,
+        "end": 103849,
+        "text": "Service",
+        "chunk_id": 18306872316285919172
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12345010055530262282,
+        "start": 103850,
+        "end": 103854,
+        "text": "Program",
+        "chunk_id": 18306872316285919172
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2291219489869241750,
+        "start": 103855,
+        "end": 103859,
+        "text": "500,000",
+        "chunk_id": 18306872316285919172
+      }
+    ]
+  },
+  {
+    "refined_id": 13786524110374460139,
+    "source_group_id": 6532713921963710017,
+    "source_candidate_ids": [
+      4527560093503260154
+    ],
+    "entity": "Department of Mental Health",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "54,766,626",
+    "entity_evidence": [
+      {
+        "span_id": 173994594762611123,
+        "start": 103806,
+        "end": 103828,
+        "text": "Department of Mental Health",
+        "chunk_id": 18306872316285919172
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8947775396291378125,
+        "start": 103829,
+        "end": 103843,
+        "text": "Health",
+        "chunk_id": 18306872316285919172
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4144444854019974074,
+        "start": 103844,
+        "end": 103848,
+        "text": "Program",
+        "chunk_id": 18306872316285919172
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18371629603385470168,
+        "start": 103849,
+        "end": 103873,
+        "text": "54,766,626",
+        "chunk_id": 18306872316285919172
+      }
+    ]
+  },
+  {
+    "refined_id": 14416268038987923879,
+    "source_group_id": 7930443232355637104,
+    "source_candidate_ids": [
+      14542929120648122322
+    ],
+    "entity": "Department of Mental Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notwithstanding the limiting provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+    "entity_evidence": [
+      {
+        "span_id": 9565195458156259401,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6319930954839321860,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16981821424185797786,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5251012230828322244,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ]
+  },
+  {
+    "refined_id": 13643644048697119261,
+    "source_group_id": 5123280860343288401,
+    "source_candidate_ids": [
+      16551088466383258813
+    ],
+    "entity": "Alabama Board of Nursing",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notwithstanding the limiting provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+    "entity_evidence": [
+      {
+        "span_id": 17031860164444811312,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15551557054999516114,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3450196184898613090,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11698171768567295808,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ]
+  },
+  {
+    "refined_id": 16681556609675820083,
+    "source_group_id": 15687428934725901527,
+    "source_candidate_ids": [
+      6585538405049286894
+    ],
+    "entity": "Alabama Board of Nursing Trust",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "Alabama Board of Nursing Trust",
+    "entity_evidence": [
+      {
+        "span_id": 7125137381049136586,
+        "start": 109301,
+        "end": 109321,
+        "text": "Alabama Board of Nursing Trust",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6140468277591736491,
+        "start": 109301,
+        "end": 109321,
+        "text": "government agency",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13035002404035897747,
+        "start": 109301,
+        "end": 109321,
+        "text": "recipient",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12090462304349975929,
+        "start": 109301,
+        "end": 109321,
+        "text": "Alabama Board of Nursing Trust",
+        "chunk_id": 686528085650246413
+      }
+    ]
+  },
+  {
+    "refined_id": 11609132668541015595,
+    "source_group_id": 8421395972481930440,
+    "source_candidate_ids": [
+      9773166253405209901
+    ],
+    "entity": "ETF",
+    "type": "government agency",
+    "attribute": "source of funds",
+    "value": "ETF",
+    "entity_evidence": [
+      {
+        "span_id": 4074396510793006432,
+        "start": 109301,
+        "end": 109305,
+        "text": "ETF",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8422546744090760455,
+        "start": 109301,
+        "end": 109305,
+        "text": "government agency",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4179002758827450228,
+        "start": 109301,
+        "end": 109305,
+        "text": "source of funds",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1364151445380372866,
+        "start": 109301,
+        "end": 109305,
+        "text": "ETF",
+        "chunk_id": 686528085650246413
+      }
+    ]
+  },
+  {
+    "refined_id": 7387224439273837246,
+    "source_group_id": 10993267362516227813,
+    "source_candidate_ids": [
+      17714983251817703733
+    ],
+    "entity": "Alabama Medicaid Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "standard per diem paid",
+    "entity_evidence": [
+      {
+        "span_id": 9500215129685042152,
+        "start": 111877,
+        "end": 111901,
+        "text": "the Alabama Medicaid Agency",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16647057354029774680,
+        "start": 111901,
+        "end": 111918,
+        "text": "agency",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6589742684515309668,
+        "start": 111918,
+        "end": 111931,
+        "text": "paid",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10831193613232538361,
+        "start": 111931,
+        "end": 111950,
+        "text": "per diem paid by",
+        "chunk_id": 14134159057134452690
+      }
+    ]
+  },
+  {
+    "refined_id": 8454820676770376678,
+    "source_group_id": 2578651446479471647,
+    "source_candidate_ids": [
+      1406028349383805435
+    ],
+    "entity": "Department of Rehabilitation Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "cerebral palsy services",
+    "entity_evidence": [
+      {
+        "span_id": 10569316148053180985,
+        "start": 111877,
+        "end": 111908,
+        "text": "Department of Rehabilitation Services",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14680597801574997484,
+        "start": 111908,
+        "end": 111928,
+        "text": "Services",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3557249491420753486,
+        "start": 111928,
+        "end": 111941,
+        "text": "may be used to",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4265919373091519880,
+        "start": 111941,
+        "end": 111961,
+        "text": "contract with providers of cerebral palsy services",
+        "chunk_id": 14134159057134452690
+      }
+    ]
+  },
+  {
+    "refined_id": 8493132198695917833,
+    "source_group_id": 541891401292941656,
+    "source_candidate_ids": [
+      3937366019931441589,
+      468449894318912455
+    ],
+    "entity": "Alabama Department of Workforce",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "collaboration",
+    "entity_evidence": [
+      {
+        "span_id": 13204404904282225996,
+        "start": 114697,
+        "end": 114717,
+        "text": "in collaboration with the State Department of Education",
+        "chunk_id": 16179120171309057196
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13836404982304198446,
+        "start": 114697,
+        "end": 114717,
+        "text": "with the State Department of Education",
+        "chunk_id": 16179120171309057196
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5367936636892697278,
+        "start": 114697,
+        "end": 114717,
+        "text": "with the State Department of Education",
+        "chunk_id": 16179120171309057196
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9612031792271167094,
+        "start": 114697,
+        "end": 114717,
+        "text": "with the State Department of Education",
+        "chunk_id": 16179120171309057196
+      }
+    ]
+  },
+  {
+    "refined_id": 5803731841490287117,
+    "source_group_id": 10287869491565211441,
+    "source_candidate_ids": [
+      6640289520416373395
+    ],
+    "entity": "Alabama Agricultural and Mechanical University, Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "null",
+    "entity_evidence": [
+      {
+        "span_id": 6506629298170950753,
+        "start": 117246,
+        "end": 117289,
+        "text": "Mechanical University, Board of Trustees",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10985969213991434863,
+        "start": 117246,
+        "end": 117289,
+        "text": "government agency",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5713613274089014755,
+        "start": 117246,
+        "end": 117289,
+        "text": "restriction",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2437651516552921114,
+        "start": 117246,
+        "end": 117289,
+        "text": "null",
+        "chunk_id": 16267867622573227659
+      }
+    ]
+  },
+  {
+    "refined_id": 11384727277794398683,
+    "source_group_id": 5705964683863224710,
+    "source_candidate_ids": [
+      8599629529850212871
+    ],
+    "entity": "Alabama A and M University, Board of Trustees-Miles College Consortium",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "null",
+    "entity_evidence": [
+      {
+        "span_id": 9169624178320429681,
+        "start": 117246,
+        "end": 117300,
+        "text": "Alabama A and M University, Board of Trustees-Miles College Consortium",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15551369239910697016,
+        "start": 117246,
+        "end": 117300,
+        "text": "government agency",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8727058865727569279,
+        "start": 117246,
+        "end": 117300,
+        "text": "restriction",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11708169345969583446,
+        "start": 117246,
+        "end": 117300,
+        "text": "null",
+        "chunk_id": 16267867622573227659
+      }
+    ]
+  },
+  {
+    "refined_id": 9800451362442296199,
+    "source_group_id": 16805075651856561983,
+    "source_candidate_ids": [
+      8384126777095543564
+    ],
+    "entity": "University of Alabama at Birmingham",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16590637279496859813,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16781771553594206042,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18160228605094022861,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 102945386103617146,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ]
+  },
+  {
+    "refined_id": 8813000716214603351,
+    "source_group_id": 14238119301852047761,
+    "source_candidate_ids": [
+      7433065284395645793
+    ],
+    "entity": "Chauncey Sparks Center for Developmental and Learning Disorders",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10602152386320264840,
+        "start": 120048,
+        "end": 120080,
+        "text": "Chauncey Sparks Center for Developmental and Learning Disorders",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3637541354466482919,
+        "start": 120048,
+        "end": 120080,
+        "text": "Chauncey Sparks Center for Developmental and Learning Disorders",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1965757560932022055,
+        "start": 120048,
+        "end": 120080,
+        "text": "Chauncey Sparks Center for Developmental and Learning Disorders",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10323110007816379070,
+        "start": 120048,
+        "end": 120080,
+        "text": "Chauncey Sparks Center for Developmental and Learning Disorders",
+        "chunk_id": 6998269170628871307
+      }
+    ]
+  },
+  {
+    "refined_id": 15482071470310974875,
+    "source_group_id": 4886316032198980200,
+    "source_candidate_ids": [
+      5654247643287461413
+    ],
+    "entity": "University of South Alabama, Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "highly restricted",
+    "entity_evidence": [
+      {
+        "span_id": 16226059216935250447,
+        "start": 123847,
+        "end": 123855,
+        "text": "South Alabama, University of, Board of Trustees",
+        "chunk_id": 15557232507502124962
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1846867239472686186,
+        "start": 123847,
+        "end": 123855,
+        "text": "government agency",
+        "chunk_id": 15557232507502124962
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1585299655525917337,
+        "start": 123847,
+        "end": 123855,
+        "text": "restriction",
+        "chunk_id": 15557232507502124962
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15602835527589558372,
+        "start": 123847,
+        "end": 123855,
+        "text": "highly restricted",
+        "chunk_id": 15557232507502124962
+      }
+    ]
+  },
+  {
+    "refined_id": 2939760754952005209,
+    "source_group_id": 11201850205888622821,
+    "source_candidate_ids": [
+      9763145810601021015
+    ],
+    "entity": "University of North Alabama, Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderately restricted",
+    "entity_evidence": [
+      {
+        "span_id": 6394994664634415683,
+        "start": 123847,
+        "end": 123855,
+        "text": "North Alabama, University of, Board of Trustees",
+        "chunk_id": 15557232507502124962
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1629787157854331977,
+        "start": 123847,
+        "end": 123855,
+        "text": "government agency",
+        "chunk_id": 15557232507502124962
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5486062350958136021,
+        "start": 123847,
+        "end": 123855,
+        "text": "restriction",
+        "chunk_id": 15557232507502124962
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4639589407523137382,
+        "start": 123847,
+        "end": 123855,
+        "text": "moderately restricted",
+        "chunk_id": 15557232507502124962
+      }
+    ]
+  },
+  {
+    "refined_id": 12226461627057961909,
+    "source_group_id": 3985369780653220638,
+    "source_candidate_ids": [
+      10834381540119528637
+    ],
+    "entity": "Alabama Innovation Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific purpose",
+    "entity_evidence": [
+      {
+        "span_id": 2701661200508838421,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11203499063542557013,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3867976297745581500,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3550044312547807253,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ]
+  },
+  {
+    "refined_id": 3471578003854138511,
+    "source_group_id": 15601080153713656775,
+    "source_candidate_ids": [
+      12079885793994909993
+    ],
+    "entity": "Alabama Department of Commerce",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific purpose",
+    "entity_evidence": [
+      {
+        "span_id": 18421666874648046980,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17212334132627817476,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9649559451013023000,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 894593660207927186,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ]
+  },
+  {
+    "refined_id": 12457499908096282997,
+    "source_group_id": 15604556395503744095,
+    "source_candidate_ids": [
+      11191730995278549018
+    ],
+    "entity": "State of Alabama",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance with provisions of Act 2024-34",
+    "entity_evidence": [
+      {
+        "span_id": 17357044328664503091,
+        "start": 127992,
+        "end": 128005,
+        "text": "State of Alabama",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 626106877262383745,
+        "start": 128006,
+        "end": 128017,
+        "text": "government agency",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17985738167778166873,
+        "start": 128018,
+        "end": 128035,
+        "text": "compliance with provisions of Act 2024-34",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9442709500313388265,
+        "start": 128036,
+        "end": 128055,
+        "text": "compliance with provisions of Act 2024-34",
+        "chunk_id": 7478136717006950827
+      }
+    ]
+  },
+  {
+    "refined_id": 4265198208973477135,
+    "source_group_id": 6900311356642365921,
+    "source_candidate_ids": [
+      520020693425283982
+    ],
+    "entity": "Department of Examiners of Public Accounts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial defrayal of auditing services",
+    "entity_evidence": [
+      {
+        "span_id": 4775143183449269000,
+        "start": 127992,
+        "end": 128023,
+        "text": "Department of Examiners of Public Accounts",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1493507517072812957,
+        "start": 128024,
+        "end": 128035,
+        "text": "government agency",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9457609348360277309,
+        "start": 128036,
+        "end": 128055,
+        "text": "partial defrayal of auditing services",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14228812033113109048,
+        "start": 128056,
+        "end": 128075,
+        "text": "partial defrayal of auditing services",
+        "chunk_id": 7478136717006950827
+      }
+    ]
+  },
+  {
+    "refined_id": 6907300373231241961,
+    "source_group_id": 15935560972585937353,
+    "source_candidate_ids": [
+      13397985966824626651
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "separate accounts",
+    "entity_evidence": [
+      {
+        "span_id": 1635696103133806845,
+        "start": 130426,
+        "end": 130450,
+        "text": "State Department of Education",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4792058833298736283,
+        "start": 130426,
+        "end": 130450,
+        "text": "government agency",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14152601341739461192,
+        "start": 130426,
+        "end": 130450,
+        "text": "restriction",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7670795026809251750,
+        "start": 130426,
+        "end": 130450,
+        "text": "separate accounts",
+        "chunk_id": 5195200834195450648
+      }
+    ]
+  },
+  {
+    "refined_id": 226691042272353306,
+    "source_group_id": 13131153470086571655,
+    "source_candidate_ids": [
+      14301125950723271119
+    ],
+    "entity": "State Personnel Department",
+    "type": "government agency",
+    "attribute": "transfer",
+    "value": "amounts enumerated",
+    "entity_evidence": [
+      {
+        "span_id": 12523373974452167111,
+        "start": 130426,
+        "end": 130450,
+        "text": "State Personnel Department",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1890475125450960085,
+        "start": 130426,
+        "end": 130450,
+        "text": "government agency",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4402525723614223028,
+        "start": 130426,
+        "end": 130450,
+        "text": "transfer",
+        "chunk_id": 5195200834195450648
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7130051140716125445,
+        "start": 130426,
+        "end": 130450,
+        "text": "amounts enumerated",
+        "chunk_id": 5195200834195450648
+      }
+    ]
+  },
+  {
+    "refined_id": 14816217836519480798,
+    "source_group_id": 306598536357026368,
+    "source_candidate_ids": [
+      7312079330237562316
+    ],
+    "entity": "State Employees' Insurance Board (SEIB)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fixed rate",
+    "entity_evidence": [
+      {
+        "span_id": 8391509081575313202,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11662179046875462535,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 210848810015919023,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18365446873807268747,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ]
+  },
+  {
+    "refined_id": 2321756568257313618,
+    "source_group_id": 18057526083819722018,
+    "source_candidate_ids": [
+      11410629094749501104
+    ],
+    "entity": "Child Nutrition Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "one-month fund balance",
+    "entity_evidence": [
+      {
+        "span_id": 13263016063092359973,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13137360121387064573,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2929617125036627270,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15998917117736669125,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ]
+  },
+  {
+    "refined_id": 15133091767358693145,
+    "source_group_id": 11054260187640087339,
+    "source_candidate_ids": [
+      12513234574679591133
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "50% at discretion of State Superintendent of Education",
+    "entity_evidence": [
+      {
+        "span_id": 9749391327402907561,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8027750991027092855,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16890915929111196559,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16745141854635465497,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ]
+  },
+  {
+    "refined_id": 17206025105628419194,
+    "source_group_id": 9198804127830968228,
+    "source_candidate_ids": [
+      14047688618549624119
+    ],
+    "entity": "school systems/entities",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "grants for activities or programs designed to enhance outcomes for At-Risk Students",
+    "entity_evidence": [
+      {
+        "span_id": 5363252298544556935,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16129575164481562431,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7636381324424033690,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18223791659545522767,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ]
+  },
+  {
+    "refined_id": 10583555992624224728,
+    "source_group_id": 1995439396754103386,
+    "source_candidate_ids": [
+      12670377427213838506
+    ],
+    "entity": "Alabama State Department of Education",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "report submission",
+    "entity_evidence": [
+      {
+        "span_id": 17326861443801114285,
+        "start": 136708,
+        "end": 136732,
+        "text": "Alabama State Department of Education",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16262520810090054731,
+        "start": 136733,
+        "end": 136751,
+        "text": "Division of Administrative and Financial Support shall make every reasonable effort to notify grant recipients of awards by August 1, 2025. No funding will be available until October 1, 2025. Grantees will have no guarantee of funding until October 1, 2025.",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2396528350003921050,
+        "start": 136752,
+        "end": 136761,
+        "text": "must submit a report",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6007173574972251757,
+        "start": 136762,
+        "end": 136772,
+        "text": "grant-recipient districts and each district's plan for those funds",
+        "chunk_id": 17741377780859232423
+      }
+    ]
+  },
+  {
+    "refined_id": 8256741848300871604,
+    "source_group_id": 6116490254115030575,
+    "source_candidate_ids": [
+      13403819139479615318
+    ],
+    "entity": "Legislative Services Agency",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "report submission",
+    "entity_evidence": [
+      {
+        "span_id": 9588158606049533732,
+        "start": 136708,
+        "end": 136730,
+        "text": "Legislative Services Agency",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7293531463365737417,
+        "start": 136731,
+        "end": 136749,
+        "text": "identified by the Legislative Services Agency",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15631254432427724783,
+        "start": 136750,
+        "end": 136759,
+        "text": "shall provide notice",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17508549706266505876,
+        "start": 136760,
+        "end": 136770,
+        "text": "within 60 days following enactment of this act",
+        "chunk_id": 17741377780859232423
+      }
+    ]
+  },
+  {
+    "refined_id": 9103170131623852260,
+    "source_group_id": 3030680983804000546,
+    "source_candidate_ids": [
+      16222111164848798727
+    ],
+    "entity": "Department",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "nondiscriminatory",
+    "entity_evidence": [
+      {
+        "span_id": 9325726688768206778,
+        "start": 139200,
+        "end": 139206,
+        "text": "Department",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8812904800979467519,
+        "start": 139200,
+        "end": 139206,
+        "text": "Department",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1190943050867045807,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2082952321871347737,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ]
+  },
+  {
+    "refined_id": 1561761988283851735,
+    "source_group_id": 10446827297355464394,
+    "source_candidate_ids": [
+      18341359052070920589
+    ],
+    "entity": "Governor",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "nondiscriminatory",
+    "entity_evidence": [
+      {
+        "span_id": 18169342548714900039,
+        "start": 139159,
+        "end": 139167,
+        "text": "Governor",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3168257804543436583,
+        "start": 139159,
+        "end": 139167,
+        "text": "Governor",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12661820713009421260,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2228681733433652756,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ]
+  }
+]

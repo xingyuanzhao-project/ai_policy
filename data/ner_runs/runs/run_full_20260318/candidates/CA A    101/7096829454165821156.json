@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11921278598741705538,
+    "entity": "Judicial Branch",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 6387589942676916980,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18429710816331472699,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13836247891159098040,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13480223159919334835,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ]
+  },
+  {
+    "candidate_id": 13667804119151579172,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 15185177715045350925,
+        "start": 24538,
+        "end": 24558,
+        "text": "State Public Works Board",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8386950989293976236,
+        "start": 24538,
+        "end": 24558,
+        "text": "State Public Works Board",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16833397514694431000,
+        "start": 24538,
+        "end": 24558,
+        "text": "State Public Works Board",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16347543953022281121,
+        "start": 24538,
+        "end": 24558,
+        "text": "State Public Works Board",
+        "chunk_id": 7096829454165821156
+      }
+    ]
+  }
+]

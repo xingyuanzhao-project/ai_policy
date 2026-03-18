@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14469394193012880561,
+    "entity": "State Department of Developmental Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 7813122393806485569,
+        "start": 949675,
+        "end": 949695,
+        "text": "expenditures for the State Department of Developmental Services in excess of the amount appropriated",
+        "chunk_id": 16820408250211387529
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13592898549658652733,
+        "start": 949675,
+        "end": 949695,
+        "text": "the Department of Finance may authorize expenditures for the State Department of Developmental Services",
+        "chunk_id": 16820408250211387529
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13041818968755129259,
+        "start": 949675,
+        "end": 949695,
+        "text": "expenditures for the State Department of Developmental Services in excess of the amount appropriated",
+        "chunk_id": 16820408250211387529
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4601454096527209598,
+        "start": 949675,
+        "end": 949695,
+        "text": "excess of the amount appropriated",
+        "chunk_id": 16820408250211387529
+      }
+    ]
+  },
+  {
+    "candidate_id": 16354281839482419061,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days after enactment of this budget",
+    "entity_evidence": [
+      {
+        "span_id": 11385091320643422856,
+        "start": 949786,
+        "end": 949796,
+        "text": "The Controller shall transfer funds appropriated in this item for base rental as and when provided for in the schedule submitted by the State Public Works Board",
+        "chunk_id": 16820408250211387529
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1277911259566206778,
+        "start": 949786,
+        "end": 949796,
+        "text": "The Controller shall transfer funds appropriated in this item for base rental as and when provided for in the schedule submitted by the State Public Works Board",
+        "chunk_id": 16820408250211387529
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9405811975955641924,
+        "start": 949786,
+        "end": 949796,
+        "text": "The Controller shall transfer funds appropriated in this item for base rental as and when provided for in the schedule submitted by the State Public Works Board",
+        "chunk_id": 16820408250211387529
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16151705755643278276,
+        "start": 949786,
+        "end": 949796,
+        "text": "30 days after enactment of this budget",
+        "chunk_id": 16820408250211387529
+      }
+    ]
+  }
+]

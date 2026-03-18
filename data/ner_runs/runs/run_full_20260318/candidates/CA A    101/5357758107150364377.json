@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7753608339911444149,
+    "entity": "Governor's Office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure approval",
+    "entity_evidence": [
+      {
+        "span_id": 1676966480443740135,
+        "start": 74629,
+        "end": 74641,
+        "text": "The Department of Finance shall not approve any expenditure",
+        "chunk_id": 5357758107150364377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10320260140417655707,
+        "start": 74629,
+        "end": 74641,
+        "text": "The Department of Finance shall not approve any expenditure",
+        "chunk_id": 5357758107150364377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15064143147128436185,
+        "start": 74629,
+        "end": 74641,
+        "text": "The Department of Finance shall not approve any expenditure",
+        "chunk_id": 5357758107150364377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 553414755926006601,
+        "start": 74629,
+        "end": 74641,
+        "text": "The Department of Finance shall not approve any expenditure",
+        "chunk_id": 5357758107150364377
+      }
+    ]
+  },
+  {
+    "candidate_id": 16296105362013869513,
+    "entity": "California Small Business Development Center Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "federal funds",
+    "entity_evidence": [
+      {
+        "span_id": 2794722299476641592,
+        "start": 75540,
+        "end": 75560,
+        "text": "California Small Business Development Center Program",
+        "chunk_id": 5357758107150364377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9795172162248635144,
+        "start": 75540,
+        "end": 75560,
+        "text": "California Small Business Development Center Program",
+        "chunk_id": 5357758107150364377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17716552243306703242,
+        "start": 75540,
+        "end": 75560,
+        "text": "California Small Business Development Center Program",
+        "chunk_id": 5357758107150364377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4569957238471103043,
+        "start": 75540,
+        "end": 75560,
+        "text": "California Small Business Development Center Program",
+        "chunk_id": 5357758107150364377
+      }
+    ]
+  }
+]

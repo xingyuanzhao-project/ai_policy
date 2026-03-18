@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6230619666080166765,
+    "entity": "Absentee Voting Official",
+    "type": "Government Agency",
+    "attribute": "Restriction",
+    "value": "Proper Signing and Dating",
+    "entity_evidence": [
+      {
+        "span_id": 6943665856479262248,
+        "start": 37992,
+        "end": 38016,
+        "text": "ABSENTEE VOTING OFFICIAL",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 848450700641630543,
+        "start": 37992,
+        "end": 38016,
+        "text": "ABSENTEE VOTING OFFICIAL",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11620049833396467568,
+        "start": 38017,
+        "end": 38033,
+        "text": "PROPERLY SIGN AND DATE",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16284028456489215285,
+        "start": 38017,
+        "end": 38033,
+        "text": "PROPERLY SIGN AND DATE",
+        "chunk_id": 5299757713669989084
+      }
+    ]
+  },
+  {
+    "candidate_id": 70685255863716233,
+    "entity": "Ballot",
+    "type": "Technology",
+    "attribute": "Restriction",
+    "value": "Postmark and Tracking Barcode",
+    "entity_evidence": [
+      {
+        "span_id": 1331127779183620900,
+        "start": 38026,
+        "end": 38032,
+        "text": "the ballot",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8562112905935836353,
+        "start": 38026,
+        "end": 38032,
+        "text": "the ballot",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13062444367611266811,
+        "start": 38033,
+        "end": 38047,
+        "text": "POSTMARKED",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12582211926363708131,
+        "start": 38033,
+        "end": 38047,
+        "text": "POSTMARKED",
+        "chunk_id": 5299757713669989084
+      }
+    ]
+  }
+]

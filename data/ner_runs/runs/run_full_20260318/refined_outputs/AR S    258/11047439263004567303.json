@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10269493801132728906,
+    "source_group_id": 11047439263004567303,
+    "source_candidate_ids": [
+      6623572570644621468
+    ],
+    "entity": "controller",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 5411512634649521256,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13777272615342362731,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11271254800704158955,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12978909475309133332,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ]
+  }
+]

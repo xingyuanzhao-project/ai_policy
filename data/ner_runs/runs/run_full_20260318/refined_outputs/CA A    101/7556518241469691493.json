@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4164609316284942259,
+    "source_group_id": 7556518241469691493,
+    "source_candidate_ids": [
+      404818777533385283
+    ],
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "available for encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 17008065842690856432,
+        "start": 1494496,
+        "end": 1494516,
+        "text": "California Workforce Development Board",
+        "chunk_id": 268379042855888070
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8208599161519406469,
+        "start": 1494496,
+        "end": 1494516,
+        "text": "California Workforce Development Board",
+        "chunk_id": 268379042855888070
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4614236016937057684,
+        "start": 1494516,
+        "end": 1494536,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 268379042855888070
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9742339584838129831,
+        "start": 1494516,
+        "end": 1494536,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 268379042855888070
+      }
+    ]
+  }
+]

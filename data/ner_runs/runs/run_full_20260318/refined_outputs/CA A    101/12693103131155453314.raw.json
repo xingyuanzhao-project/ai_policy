@@ -1,0 +1,3 @@
+{
+  "raw_response": "{\"refined_quadruplets\": [{\"source_candidate_ids\": [18334428502337872278, 13405353387035793364], \"entity\": \"Judicial Council\", \"type\": \"government agency\", \"attribute\": \"restriction\", \"value\": \"limited\", \"entity_evidence\": [{\"start\": 9065, \"end\": 9079, \"text\": \"Judicial Council\", \"chunk_id\": 3436575773996243206}], \"type_evidence\": [{\"start\": 9065, \"end\": 9079, \"text\": \"Judicial Council\", \"chunk_id\": 3436575773996243206}], \"attribute_evidence\": [{\"start\": 9065, \"end\": 9079, \"text\": \"Judicial Council\", \"chunk_id\": 3436575773996243206}], \"value_evidence\": [{\"start\": 9065, \"end\": 9079, \"text\": \"Judicial Council\", \"chunk_id\": 3436575773996243206}]}], \"refinement_artifact\": null}"
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16834543698568452335,
+    "source_group_id": 15109287043657323461,
+    "source_candidate_ids": [
+      14869392868565100746
+    ],
+    "entity": "Department of Fish and Game",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "financial support",
+    "entity_evidence": [
+      {
+        "span_id": 12449737145535549617,
+        "start": 166785,
+        "end": 166804,
+        "text": "Department of Fish and Game",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2937635059786190519,
+        "start": 166785,
+        "end": 166804,
+        "text": "government agency",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8067622385197245601,
+        "start": 166785,
+        "end": 166804,
+        "text": "promotion",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15800418594773751068,
+        "start": 166785,
+        "end": 166804,
+        "text": "financial support",
+        "chunk_id": 11643181129874974578
+      }
+    ]
+  }
+]

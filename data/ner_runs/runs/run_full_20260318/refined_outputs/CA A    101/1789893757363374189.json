@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7025245230931959646,
+    "source_group_id": 1789893757363374189,
+    "source_candidate_ids": [
+      10582796540462842065
+    ],
+    "entity": "Corridor Mobility Improvement Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "improvement",
+    "entity_evidence": [
+      {
+        "span_id": 9319538920343090261,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12710471228671787581,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15185732250094837250,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16597876306357952126,
+        "start": 401346,
+        "end": 401377,
+        "text": "6055---Corridor Mobility Improvement Account",
+        "chunk_id": 7837704784128952572
+      }
+    ]
+  }
+]

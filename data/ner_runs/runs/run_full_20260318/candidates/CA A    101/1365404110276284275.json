@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7595212053359660063,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 8868731160332401256,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6528235866855169415,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "government agency",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12227942089036715724,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "promotion",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5366031691052086541,
+        "start": 1442074,
+        "end": 1442121,
+        "text": "subsidy",
+        "chunk_id": 1365404110276284275
+      }
+    ]
+  },
+  {
+    "candidate_id": 8425949862538938854,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "audit",
+    "entity_evidence": [
+      {
+        "span_id": 13674384778481750692,
+        "start": 1441521,
+        "end": 1441531,
+        "text": "Controller",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17759631562596879913,
+        "start": 1441521,
+        "end": 1441531,
+        "text": "government agency",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7588808162110522991,
+        "start": 1441521,
+        "end": 1441531,
+        "text": "restriction",
+        "chunk_id": 1365404110276284275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9126652885954959921,
+        "start": 1441521,
+        "end": 1441531,
+        "text": "audit",
+        "chunk_id": 1365404110276284275
+      }
+    ]
+  }
+]

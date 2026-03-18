@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 959282986607790966,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14880291294701131679,
+        "start": 166,
+        "end": 183,
+        "text": "The Department of Finance may authorize revisions",
+        "chunk_id": 18053919990269091051
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13229382053150201110,
+        "start": 166,
+        "end": 183,
+        "text": "The Department of Finance may authorize revisions",
+        "chunk_id": 18053919990269091051
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10504043601141246271,
+        "start": 166,
+        "end": 183,
+        "text": "The Department of Finance may authorize revisions",
+        "chunk_id": 18053919990269091051
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9617984223286363895,
+        "start": 166,
+        "end": 183,
+        "text": "The Department of Finance may authorize revisions",
+        "chunk_id": 18053919990269091051
+      }
+    ]
+  },
+  {
+    "candidate_id": 3930925439772158606,
+    "entity": "Department of the California Highway Patrol",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12516048252382052936,
+        "start": 123,
+        "end": 144,
+        "text": "2720---Business Unit (known as organization code in legacy systems, indicates the department or entity) (e.g., 2720 represents the Department of the California Highway Patrol)",
+        "chunk_id": 18053919990269091051
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1033039979169267044,
+        "start": 123,
+        "end": 144,
+        "text": "2720---Business Unit (known as organization code in legacy systems, indicates the department or entity) (e.g., 2720 represents the Department of the California Highway Patrol)",
+        "chunk_id": 18053919990269091051
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11055474247898456887,
+        "start": 123,
+        "end": 144,
+        "text": "2720---Business Unit (known as organization code in legacy systems, indicates the department or entity) (e.g., 2720 represents the Department of the California Highway Patrol)",
+        "chunk_id": 18053919990269091051
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8535190245183021802,
+        "start": 123,
+        "end": 144,
+        "text": "2720---Business Unit (known as organization code in legacy systems, indicates the department or entity) (e.g., 2720 represents the Department of the California Highway Patrol)",
+        "chunk_id": 18053919990269091051
+      }
+    ]
+  }
+]

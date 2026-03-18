@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7251924520829450884,
+    "source_group_id": 5779228601075446821,
+    "source_candidate_ids": [
+      15401802258071840457
+    ],
+    "entity": "prescriber or dispenser invitee",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "licensed by one of the boards or committees identified in subdivision (d) of Section 208 of the Business and Professions Code",
+    "entity_evidence": [
+      {
+        "span_id": 3619757685746484773,
+        "start": 49058,
+        "end": 49080,
+        "text": "prescriber or dispenser invitee",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9106772792405432126,
+        "start": 49081,
+        "end": 49089,
+        "text": "individual",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2458985028196836560,
+        "start": 49090,
+        "end": 49107,
+        "text": "licensed by one of the boards or committees identified in subdivision (d) of Section 208 of the Business and Professions Code",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9904086499242609556,
+        "start": 49108,
+        "end": 49127,
+        "text": "licensed by one of the boards or committees identified in subdivision (d) of Section 208 of the Business and Professions Code",
+        "chunk_id": 17271270719256804500
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14029323356221149475,
+    "entity": "California Board of Accountancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "revenue derived from assessment of fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 16382756251568973489,
+        "start": 253767,
+        "end": 253787,
+        "text": "California Board of Accountancy",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4344335583566594353,
+        "start": 253767,
+        "end": 253787,
+        "text": "government agency",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13804526305739285149,
+        "start": 253767,
+        "end": 253787,
+        "text": "restriction",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6061286967417614672,
+        "start": 253767,
+        "end": 253787,
+        "text": "revenue derived from assessment of fines and penalties",
+        "chunk_id": 4350583573810893578
+      }
+    ]
+  },
+  {
+    "candidate_id": 438594344348952150,
+    "entity": "Dental Board of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "revenue derived from assessment of fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 7723596666851734615,
+        "start": 253767,
+        "end": 253787,
+        "text": "Dental Board of California",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5662365497621126330,
+        "start": 253767,
+        "end": 253787,
+        "text": "government agency",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10806266457984417921,
+        "start": 253767,
+        "end": 253787,
+        "text": "restriction",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1832885954854410668,
+        "start": 253767,
+        "end": 253787,
+        "text": "revenue derived from assessment of fines and penalties",
+        "chunk_id": 4350583573810893578
+      }
+    ]
+  }
+]

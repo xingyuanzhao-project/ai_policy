@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11194697794385995592,
+    "entity": "Office of Information Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contain the growth of information technology costs relating to cloud services and software licensing",
+    "entity_evidence": [
+      {
+        "span_id": 15156249101141869883,
+        "start": 2517,
+        "end": 2537,
+        "text": "Office of Information Technology",
+        "chunk_id": 12731204006111382381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2553877820872793280,
+        "start": 2517,
+        "end": 2537,
+        "text": "Office of Information Technology",
+        "chunk_id": 12731204006111382381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8889497867216141821,
+        "start": 2537,
+        "end": 2557,
+        "text": "contain the growth of information technology costs relating to cloud services and software licensing",
+        "chunk_id": 12731204006111382381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17625792601910773002,
+        "start": 2537,
+        "end": 2557,
+        "text": "contain the growth of information technology costs relating to cloud services and software licensing",
+        "chunk_id": 12731204006111382381
+      }
+    ]
+  },
+  {
+    "candidate_id": 16151571572548921783,
+    "entity": "Chief Information Officer",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "prioritized plan",
+    "entity_evidence": [
+      {
+        "span_id": 2598784029095414578,
+        "start": 2517,
+        "end": 2537,
+        "text": "Chief Information Officer",
+        "chunk_id": 12731204006111382381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15246787433511133178,
+        "start": 2517,
+        "end": 2537,
+        "text": "Chief Information Officer",
+        "chunk_id": 12731204006111382381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9716309500235934393,
+        "start": 2537,
+        "end": 2557,
+        "text": "prioritized plan",
+        "chunk_id": 12731204006111382381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15776437118283165456,
+        "start": 2537,
+        "end": 2557,
+        "text": "prioritized plan",
+        "chunk_id": 12731204006111382381
+      }
+    ]
+  }
+]

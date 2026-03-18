@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7894547418585712549,
+    "entity": "Nationally Board-Certified Teachers (NBCT)",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "pro-rata share",
+    "entity_evidence": [
+      {
+        "span_id": 6945399421099568865,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16231308066722069815,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2265176956874433996,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4641913538621017499,
+        "start": 71994,
+        "end": 72014,
+        "text": "Nationally Board-Certified Teachers (NBCT)",
+        "chunk_id": 989003407666285821
+      }
+    ]
+  },
+  {
+    "candidate_id": 8741465630321890507,
+    "entity": "Alabama Legislature",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 6772812175563262596,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9012076367054935360,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17955424983470143851,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13306006216639816822,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ]
+  }
+]

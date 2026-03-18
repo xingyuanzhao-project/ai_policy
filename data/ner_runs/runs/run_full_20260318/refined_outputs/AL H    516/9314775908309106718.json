@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 1282257669511474508,
+    "source_group_id": 9314775908309106718,
+    "source_candidate_ids": [
+      6977281738830520367,
+      14949969793097348719
+    ],
+    "entity": "chatbot",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "clear and conspicuous",
+    "entity_evidence": [
+      {
+        "span_id": 16411593387846784911,
+        "start": 12701,
+        "end": 12707,
+        "text": "chatbot",
+        "chunk_id": 10298879337141226027
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6340206559567072843,
+        "start": 12701,
+        "end": 12707,
+        "text": "chatbot",
+        "chunk_id": 10298879337141226027
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15777433250726441046,
+        "start": 12721,
+        "end": 12733,
+        "text": "clear and conspicuous",
+        "chunk_id": 10298879337141226027
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14960233769664330036,
+        "start": 12721,
+        "end": 12733,
+        "text": "clear and conspicuous",
+        "chunk_id": 10298879337141226027
+      }
+    ]
+  }
+]

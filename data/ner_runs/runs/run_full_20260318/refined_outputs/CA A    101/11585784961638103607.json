@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4450001670909478574,
+    "source_group_id": 11585784961638103607,
+    "source_candidate_ids": [
+      7139958028145825845
+    ],
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "full",
+    "entity_evidence": [
+      {
+        "span_id": 16388596137032060020,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "Department of General Services",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18190612942236537904,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "government agency",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5182153791713297166,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "promotion",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17490676298773743434,
+        "start": 1574902,
+        "end": 1574922,
+        "text": "full",
+        "chunk_id": 7576050292396939370
+      }
+    ]
+  }
+]

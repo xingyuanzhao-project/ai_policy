@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7269510980333096978,
+    "source_group_id": 5982910166949421831,
+    "source_candidate_ids": [
+      12045965232694025412
+    ],
+    "entity": "public entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "protection services",
+    "entity_evidence": [
+      {
+        "span_id": 15836987953313563189,
+        "start": 4617,
+        "end": 4623,
+        "text": "public entity",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17906220105168096121,
+        "start": 4617,
+        "end": 4623,
+        "text": "public entity",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16847383268335420161,
+        "start": 4623,
+        "end": 4629,
+        "text": "exposes them to violent threats",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11457841577474510173,
+        "start": 4629,
+        "end": 4637,
+        "text": "violent threats",
+        "chunk_id": 17700213233200381729
+      }
+    ]
+  }
+]

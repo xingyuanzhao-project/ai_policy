@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16036656224216691032,
+    "entity": "California Department of Aging",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from ratio",
+    "entity_evidence": [
+      {
+        "span_id": 2441639285511764701,
+        "start": 808521,
+        "end": 808546,
+        "text": "California Department of Aging",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13216864848213984848,
+        "start": 808521,
+        "end": 808546,
+        "text": "government agency",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2704363779814049706,
+        "start": 809275,
+        "end": 809295,
+        "text": "exempt from ratio",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3925388328999282699,
+        "start": 809275,
+        "end": 809295,
+        "text": "exempt from ratio",
+        "chunk_id": 12740478171046821242
+      }
+    ]
+  },
+  {
+    "candidate_id": 3047068854984079297,
+    "entity": "Centers for Medicare and Medicaid Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "rescinded or repealed",
+    "entity_evidence": [
+      {
+        "span_id": 11624639137089733186,
+        "start": 809449,
+        "end": 809469,
+        "text": "Centers for Medicare and Medicaid Services",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9600314811890384751,
+        "start": 809449,
+        "end": 809469,
+        "text": "government agency",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12647041292999016848,
+        "start": 809449,
+        "end": 809469,
+        "text": "rescinded or repealed",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12444446221427026943,
+        "start": 809449,
+        "end": 809469,
+        "text": "rescinded or repealed",
+        "chunk_id": 12740478171046821242
+      }
+    ]
+  }
+]

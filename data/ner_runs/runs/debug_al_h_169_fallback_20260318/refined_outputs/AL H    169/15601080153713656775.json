@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3471578003854138511,
+    "source_group_id": 15601080153713656775,
+    "source_candidate_ids": [
+      12079885793994909993
+    ],
+    "entity": "Alabama Department of Commerce",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific purpose",
+    "entity_evidence": [
+      {
+        "span_id": 18421666874648046980,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17212334132627817476,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9649559451013023000,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 894593660207927186,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ]
+  }
+]

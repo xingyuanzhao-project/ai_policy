@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10317066328732372030,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "45 days",
+    "entity_evidence": [
+      {
+        "span_id": 11785214431802757355,
+        "start": 1845657,
+        "end": 1845664,
+        "text": "45 days",
+        "chunk_id": 7370607520140746934
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3114259217234582387,
+        "start": 1845652,
+        "end": 1845666,
+        "text": "The Director of Finance",
+        "chunk_id": 7370607520140746934
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5281123768877471658,
+        "start": 1845523,
+        "end": 1845523,
+        "text": "",
+        "chunk_id": 7370607520140746934
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1235328936545257978,
+        "start": 1845523,
+        "end": 1845523,
+        "text": "",
+        "chunk_id": 7370607520140746934
+      }
+    ]
+  },
+  {
+    "candidate_id": 10018988034178550287,
+    "entity": "agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "45 days",
+    "entity_evidence": [
+      {
+        "span_id": 15077460543734681372,
+        "start": 1845523,
+        "end": 1845523,
+        "text": "",
+        "chunk_id": 7370607520140746934
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1374419713628169353,
+        "start": 1845523,
+        "end": 1845523,
+        "text": "",
+        "chunk_id": 7370607520140746934
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5964880595418537950,
+        "start": 1845523,
+        "end": 1845523,
+        "text": "",
+        "chunk_id": 7370607520140746934
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12248496994169475440,
+        "start": 1845523,
+        "end": 1845523,
+        "text": "",
+        "chunk_id": 7370607520140746934
+      }
+    ]
+  }
+]

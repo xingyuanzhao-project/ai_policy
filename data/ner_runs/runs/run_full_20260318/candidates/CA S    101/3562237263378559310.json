@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18292531551742322518,
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 4950516945403155070,
+        "start": 275981,
+        "end": 276011,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 3562237263378559310
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12991312389693835675,
+        "start": 275981,
+        "end": 276011,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 3562237263378559310
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12800695137361574468,
+        "start": 275981,
+        "end": 276011,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 3562237263378559310
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2300497863943487843,
+        "start": 275981,
+        "end": 276011,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 3562237263378559310
+      }
+    ]
+  },
+  {
+    "candidate_id": 10871276172998168315,
+    "entity": "Mobilehome Parks and Special Occupancy Parks Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 867050530288363554,
+        "start": 275951,
+        "end": 275991,
+        "text": "Mobilehome Parks and Special Occupancy Parks Revolving Fund",
+        "chunk_id": 3562237263378559310
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7939893899348632325,
+        "start": 275951,
+        "end": 275991,
+        "text": "Mobilehome Parks and Special Occupancy Parks Revolving Fund",
+        "chunk_id": 3562237263378559310
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13171570456130639216,
+        "start": 275951,
+        "end": 275991,
+        "text": "Mobilehome Parks and Special Occupancy Parks Revolving Fund",
+        "chunk_id": 3562237263378559310
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4177242125651595310,
+        "start": 275951,
+        "end": 275991,
+        "text": "Mobilehome Parks and Special Occupancy Parks Revolving Fund",
+        "chunk_id": 3562237263378559310
+      }
+    ]
+  }
+]

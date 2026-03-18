@@ -1,0 +1,21 @@
+Model,Length Type,Length
+Phi3-medium (14B),Claimed Length,128000
+Qwen2 (72B),Claimed Length,128000
+GradientAI/Llama3 (70B),Claimed Length,1000000
+Command-R-plus (104B),Claimed Length,128000
+Yi (34B),Claimed Length,200000
+Llama3.1 (8B),Claimed Length,128000
+Llama3.1 (70B),Claimed Length,128000
+GLM4 (9B),Claimed Length,1000000
+GPT-4-1106-preview,Claimed Length,128000
+Gemini-1.5-pro,Claimed Length,1000000
+Phi3-medium (14B),Effective Length,32000
+Qwen2 (72B),Effective Length,32000
+GradientAI/Llama3 (70B),Effective Length,16000
+Command-R-plus (104B),Effective Length,32000
+Yi (34B),Effective Length,32000
+Llama3.1 (8B),Effective Length,32000
+Llama3.1 (70B),Effective Length,64000
+GLM4 (9B),Effective Length,64000
+GPT-4-1106-preview,Effective Length,64000
+Gemini-1.5-pro,Effective Length,128000

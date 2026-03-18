@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14118325116270086795,
+    "source_group_id": 3878790525520851831,
+    "source_candidate_ids": [
+      3458017281512849757
+    ],
+    "entity": "Public Employees Retirement",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "0",
+    "entity_evidence": [
+      {
+        "span_id": 7114334459847530003,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10736499317474522142,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13432626035922186275,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5667758448507225447,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ]
+  }
+]

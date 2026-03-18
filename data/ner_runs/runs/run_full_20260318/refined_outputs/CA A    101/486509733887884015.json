@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 520831627148077774,
+    "source_group_id": 486509733887884015,
+    "source_candidate_ids": [
+      17716232302366477822
+    ],
+    "entity": "Emergency Medical Services Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportional reduction",
+    "entity_evidence": [
+      {
+        "span_id": 16770258080060252357,
+        "start": 789811,
+        "end": 789831,
+        "text": "Emergency Medical Services Authority",
+        "chunk_id": 4572095966129983121
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8722980074415827833,
+        "start": 789811,
+        "end": 789831,
+        "text": "Emergency Medical Services Authority",
+        "chunk_id": 4572095966129983121
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18074550061626591411,
+        "start": 789811,
+        "end": 789831,
+        "text": "Emergency Medical Services Authority",
+        "chunk_id": 4572095966129983121
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15199415133109238085,
+        "start": 789811,
+        "end": 789831,
+        "text": "proportional reduction",
+        "chunk_id": 4572095966129983121
+      }
+    ]
+  }
+]

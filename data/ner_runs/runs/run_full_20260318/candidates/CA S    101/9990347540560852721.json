@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10668370175122096367,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 16680777488785778849,
+        "start": 694154,
+        "end": 694174,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 9990347540560852721
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1763362200152141786,
+        "start": 694154,
+        "end": 694174,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 9990347540560852721
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4625925677117300160,
+        "start": 694154,
+        "end": 694174,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 9990347540560852721
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5038072348249754086,
+        "start": 694154,
+        "end": 694174,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 9990347540560852721
+      }
+    ]
+  },
+  {
+    "candidate_id": 13723322507749665156,
+    "entity": "Textile Stewardship Recovery Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "loan",
+    "entity_evidence": [
+      {
+        "span_id": 2512938389916948688,
+        "start": 694031,
+        "end": 694061,
+        "text": "Notwithstanding any other law, the Department of Finance may transfer up to $1,628,000 as a loan to the Textile Stewardship Recovery Fund.",
+        "chunk_id": 9990347540560852721
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18433425282752483358,
+        "start": 694031,
+        "end": 694061,
+        "text": "Notwithstanding any other law, the Department of Finance may transfer up to $1,628,000 as a loan to the Textile Stewardship Recovery Fund.",
+        "chunk_id": 9990347540560852721
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7106178529625486986,
+        "start": 694031,
+        "end": 694061,
+        "text": "Notwithstanding any other law, the Department of Finance may transfer up to $1,628,000 as a loan to the Textile Stewardship Recovery Fund.",
+        "chunk_id": 9990347540560852721
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13537860053600021600,
+        "start": 694031,
+        "end": 694061,
+        "text": "Notwithstanding any other law, the Department of Finance may transfer up to $1,628,000 as a loan to the Textile Stewardship Recovery Fund.",
+        "chunk_id": 9990347540560852721
+      }
+    ]
+  }
+]

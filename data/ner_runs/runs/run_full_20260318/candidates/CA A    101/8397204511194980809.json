@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14965450924903448474,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 11675749724582741169,
+        "start": 171977,
+        "end": 171997,
+        "text": "Department of Justice",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14507628489568325971,
+        "start": 171977,
+        "end": 171997,
+        "text": "government agency",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16207174378824575067,
+        "start": 171977,
+        "end": 171997,
+        "text": "restriction",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18308751488104995647,
+        "start": 171977,
+        "end": 171997,
+        "text": "conditional",
+        "chunk_id": 8397204511194980809
+      }
+    ]
+  },
+  {
+    "candidate_id": 2761783664898289108,
+    "entity": "Office of the City Attorney, City and County of San Francisco",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2146681353526769367,
+        "start": 172099,
+        "end": 172127,
+        "text": "Office of the City Attorney, City and County of San Francisco",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 818773095587644438,
+        "start": 172099,
+        "end": 172127,
+        "text": "government agency",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18425929071036787778,
+        "start": 172099,
+        "end": 172127,
+        "text": "promotion",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17045910501040477869,
+        "start": 172099,
+        "end": 172127,
+        "text": "support",
+        "chunk_id": 8397204511194980809
+      }
+    ]
+  }
+]

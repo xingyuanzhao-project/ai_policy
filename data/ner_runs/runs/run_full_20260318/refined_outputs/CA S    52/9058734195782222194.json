@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9903873969673375898,
+    "source_group_id": 9058734195782222194,
+    "source_candidate_ids": [
+      12021580891354508898
+    ],
+    "entity": "income limits",
+    "type": "rental term",
+    "attribute": "rental rate",
+    "value": "lease term",
+    "entity_evidence": [
+      {
+        "span_id": 12574086214083928274,
+        "start": 7383,
+        "end": 7393,
+        "text": "income limits",
+        "chunk_id": 17226347295620164312
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12179702742043215151,
+        "start": 7398,
+        "end": 7405,
+        "text": "rental term",
+        "chunk_id": 17226347295620164312
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5297989790311317211,
+        "start": 7409,
+        "end": 7417,
+        "text": "rental rate",
+        "chunk_id": 17226347295620164312
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3482475651541238131,
+        "start": 7422,
+        "end": 7428,
+        "text": "lease term",
+        "chunk_id": 17226347295620164312
+      }
+    ]
+  }
+]

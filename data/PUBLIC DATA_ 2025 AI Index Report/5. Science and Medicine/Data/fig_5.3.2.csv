@@ -1,0 +1,5 @@
+Model,Area,Dataset type,Number of tokens
+GatorTron,Medical,Text,82000000000
+Llama 3,Non-medical,Text,1.5E+13
+RadImageNet,Medical,Images,16000000
+DALL-E,Non-medical,Images,6000000000

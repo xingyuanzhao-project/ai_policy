@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3008159139331493624,
+    "entity": "State Workforce Board",
+    "type": "Government Agency",
+    "attribute": "Promotion",
+    "value": "Viable Educational Opportunities",
+    "entity_evidence": [
+      {
+        "span_id": 12283777942199388365,
+        "start": 9789,
+        "end": 9799,
+        "text": "State Workforce Board",
+        "chunk_id": 10600477318134775546
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8867670915284437300,
+        "start": 9789,
+        "end": 9799,
+        "text": "Government Agency",
+        "chunk_id": 10600477318134775546
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10773765710546653434,
+        "start": 9789,
+        "end": 9799,
+        "text": "Promotion",
+        "chunk_id": 10600477318134775546
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5356714122933673876,
+        "start": 9789,
+        "end": 9799,
+        "text": "Viable Educational Opportunities",
+        "chunk_id": 10600477318134775546
+      }
+    ]
+  },
+  {
+    "candidate_id": 10226013542125128638,
+    "entity": "Alabama STEM careers",
+    "type": "Technology",
+    "attribute": "Promotion",
+    "value": "In-demand",
+    "entity_evidence": [
+      {
+        "span_id": 9968004112322560224,
+        "start": 9678,
+        "end": 9690,
+        "text": "Alabama STEM careers",
+        "chunk_id": 10600477318134775546
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6562033197673157779,
+        "start": 9678,
+        "end": 9690,
+        "text": "Technology",
+        "chunk_id": 10600477318134775546
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8529292303387108182,
+        "start": 9678,
+        "end": 9690,
+        "text": "Promotion",
+        "chunk_id": 10600477318134775546
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13328354410113008741,
+        "start": 9678,
+        "end": 9690,
+        "text": "In-demand",
+        "chunk_id": 10600477318134775546
+      }
+    ]
+  }
+]

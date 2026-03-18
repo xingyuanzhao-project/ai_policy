@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13001138897762486029,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 14645359863430680520,
+        "start": 1066753,
+        "end": 1066787,
+        "text": "80-493--Reappropriation, State Department of Social Services",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12060345096147373892,
+        "start": 1066753,
+        "end": 1066787,
+        "text": "State Department of Social Services",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16338342800275188721,
+        "start": 1066753,
+        "end": 1066787,
+        "text": "reappropriation",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13080215892943383960,
+        "start": 1066753,
+        "end": 1066787,
+        "text": "reappropriation",
+        "chunk_id": 7905273768611385240
+      }
+    ]
+  },
+  {
+    "candidate_id": 12819620654224348410,
+    "entity": "California Food Assistance Program Expansion",
+    "type": "program",
+    "attribute": "regulation",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 6069136248625024433,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "California Food Assistance Program Expansion",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10728348040311879834,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "program",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4125490670000706730,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "reappropriation",
+        "chunk_id": 7905273768611385240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6306379748306659631,
+        "start": 1066887,
+        "end": 1066917,
+        "text": "reappropriation",
+        "chunk_id": 7905273768611385240
+      }
+    ]
+  }
+]

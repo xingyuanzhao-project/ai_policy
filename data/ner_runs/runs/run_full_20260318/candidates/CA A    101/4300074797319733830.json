@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18151508038807709537,
+    "entity": "California Health Benefit Exchange",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 11603349001994626720,
+        "start": 982108,
+        "end": 982128,
+        "text": "California Health Benefit Exchange",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11777111260888268788,
+        "start": 982108,
+        "end": 982128,
+        "text": "government agency",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2151475432867845076,
+        "start": 982108,
+        "end": 982128,
+        "text": "promotion",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9861753052578432362,
+        "start": 982108,
+        "end": 982128,
+        "text": "subsidy",
+        "chunk_id": 4300074797319733830
+      }
+    ]
+  },
+  {
+    "candidate_id": 16263863428775733910,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent",
+    "entity_evidence": [
+      {
+        "span_id": 16194027614990218657,
+        "start": 982197,
+        "end": 982215,
+        "text": "Department of Finance",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13064128080835064543,
+        "start": 982197,
+        "end": 982215,
+        "text": "government agency",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16545035654747984905,
+        "start": 982197,
+        "end": 982215,
+        "text": "restriction",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14452946968889988114,
+        "start": 982197,
+        "end": 982215,
+        "text": "contingent",
+        "chunk_id": 4300074797319733830
+      }
+    ]
+  }
+]

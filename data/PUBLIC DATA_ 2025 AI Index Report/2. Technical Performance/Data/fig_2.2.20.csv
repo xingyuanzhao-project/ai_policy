@@ -1,0 +1,16 @@
+Model,Average (56 datasets)
+voyage-3-m-exp,74.03
+NV-Embed-v2,72.31
+jasper_en_vision_language_v1,72.02
+bge-en-icl,71.67
+LENS-d8000,71.62
+LENS-d4000,71.21
+stella_en_1.5B_v5,71.19
+SFR-Embedding-2_R,70.31
+gte-Qwen2-7B-instruct,70.24
+stella_en_400M_v5,70.11
+bge-multilingual-gemma2,69.88
+NV-Embed-v1,69.32
+voyage-large-2-instruct,68.23
+Linq-Embed-Mistral,68.17
+SFR-Embedding-Mistral,67.56

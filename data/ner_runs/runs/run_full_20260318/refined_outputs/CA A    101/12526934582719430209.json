@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11029170150514005788,
+    "source_group_id": 12526934582719430209,
+    "source_candidate_ids": [
+      12458122437577770529
+    ],
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidelines for grant decisions",
+    "entity_evidence": [
+      {
+        "span_id": 8749529085863549681,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14147574745424432358,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5421921189902615581,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14407831120682516909,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ]
+  }
+]

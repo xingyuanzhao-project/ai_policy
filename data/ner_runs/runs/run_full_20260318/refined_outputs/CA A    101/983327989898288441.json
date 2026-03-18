@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8128776230884413300,
+    "source_group_id": 983327989898288441,
+    "source_candidate_ids": [
+      8269613441717806599
+    ],
+    "entity": "state employee salaries",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 476084907323947296,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2537095461382629144,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10438474801065818790,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8359321332433491031,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ]
+  }
+]

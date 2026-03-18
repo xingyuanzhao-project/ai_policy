@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15413871097274746887,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 9489929115352109592,
+        "start": 637423,
+        "end": 637449,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 15659474346091223609
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 449503238634321526,
+        "start": 637423,
+        "end": 637449,
+        "text": "government agency",
+        "chunk_id": 15659474346091223609
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6963134647716936255,
+        "start": 637423,
+        "end": 637449,
+        "text": "restriction",
+        "chunk_id": 15659474346091223609
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 913727965516648436,
+        "start": 637423,
+        "end": 637449,
+        "text": "partial",
+        "chunk_id": 15659474346091223609
+      }
+    ]
+  },
+  {
+    "candidate_id": 6048631095752728654,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 7561428609232427788,
+        "start": 638263,
+        "end": 638289,
+        "text": "Department of Justice",
+        "chunk_id": 15659474346091223609
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3495976618132171388,
+        "start": 638263,
+        "end": 638289,
+        "text": "government agency",
+        "chunk_id": 15659474346091223609
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16470949640335519604,
+        "start": 638263,
+        "end": 638289,
+        "text": "restriction",
+        "chunk_id": 15659474346091223609
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13542044738191215548,
+        "start": 638263,
+        "end": 638289,
+        "text": "partial",
+        "chunk_id": 15659474346091223609
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9828617517462079149,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "approval required",
+    "entity_evidence": [
+      {
+        "span_id": 5432242753714202879,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "State Department of Social Services",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8900123135004606838,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "government agency",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 485348932345588954,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "restriction",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2869944705163275830,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "approval required",
+        "chunk_id": 9145246575412505107
+      }
+    ]
+  },
+  {
+    "candidate_id": 2112964663481630508,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "approval required",
+    "entity_evidence": [
+      {
+        "span_id": 10463301537131131588,
+        "start": 1013024,
+        "end": 1013039,
+        "text": "Department of Finance",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4535423491455993467,
+        "start": 1013024,
+        "end": 1013039,
+        "text": "government agency",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11821878068787791382,
+        "start": 1013024,
+        "end": 1013039,
+        "text": "restriction",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7062446259931595413,
+        "start": 1013024,
+        "end": 1013039,
+        "text": "approval required",
+        "chunk_id": 9145246575412505107
+      }
+    ]
+  }
+]

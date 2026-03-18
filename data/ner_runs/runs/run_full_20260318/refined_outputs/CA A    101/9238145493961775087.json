@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8180708378229093360,
+    "source_group_id": 9238145493961775087,
+    "source_candidate_ids": [
+      5456678519216760113
+    ],
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "project approval or project delegation approval",
+    "entity_evidence": [
+      {
+        "span_id": 14473104947165186800,
+        "start": 1469795,
+        "end": 1469815,
+        "text": "Department of Technology",
+        "chunk_id": 1760188306134977840
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10806079965444856220,
+        "start": 1469795,
+        "end": 1469815,
+        "text": "government agency",
+        "chunk_id": 1760188306134977840
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2739352085063266213,
+        "start": 1469795,
+        "end": 1469815,
+        "text": "approval",
+        "chunk_id": 1760188306134977840
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16333526543520305917,
+        "start": 1469795,
+        "end": 1469815,
+        "text": "project approval or project delegation approval",
+        "chunk_id": 1760188306134977840
+      }
+    ]
+  }
+]

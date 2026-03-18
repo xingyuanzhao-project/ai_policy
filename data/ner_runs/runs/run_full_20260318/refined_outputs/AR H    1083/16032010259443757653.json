@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 16038793858517257074,
+    "source_group_id": 16032010259443757653,
+    "source_candidate_ids": [
+      18151216427217590634,
+      10967446030659662478
+    ],
+    "entity": "online platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 9236035464653082383,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8795161946865145508,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5569730467720559043,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7776435544634846727,
+        "start": 2393,
+        "end": 2406,
+        "text": "sted within an online platform or publicly;",
+        "chunk_id": 3412142732967334817
+      }
+    ]
+  }
+]

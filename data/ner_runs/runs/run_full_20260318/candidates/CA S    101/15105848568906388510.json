@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14377015216494498736,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15884525363438005203,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 491543493420546188,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1777769134293424300,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5945328900467869194,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ]
+  },
+  {
+    "candidate_id": 5090917379813531115,
+    "entity": "Appellate courts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1831794002510646510,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13590299927628056713,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12510365112126084537,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3525741271835337286,
+        "start": 8891,
+        "end": 8903,
+        "text": "Judicial Council",
+        "chunk_id": 15105848568906388510
+      }
+    ]
+  }
+]

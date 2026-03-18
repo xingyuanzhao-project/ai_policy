@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17687089019301076479,
+    "entity": "Public Utilities Commission",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 793241096633431938,
+        "start": 1880631,
+        "end": 1880641,
+        "text": "Public Utilities Commission",
+        "chunk_id": 9680762113792704032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1328074241315676713,
+        "start": 1880631,
+        "end": 1880641,
+        "text": "Public Utilities Commission",
+        "chunk_id": 9680762113792704032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8725127907934744000,
+        "start": 1880631,
+        "end": 1880641,
+        "text": "Public Utilities Commission",
+        "chunk_id": 9680762113792704032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8558648715288197873,
+        "start": 1880631,
+        "end": 1880641,
+        "text": "Public Utilities Commission",
+        "chunk_id": 9680762113792704032
+      }
+    ]
+  },
+  {
+    "candidate_id": 16148762881999027963,
+    "entity": "Department of Public Health",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 12290759026070800304,
+        "start": 1880191,
+        "end": 1880200,
+        "text": "Public Health, State Department of",
+        "chunk_id": 9680762113792704032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3661728758110834911,
+        "start": 1880191,
+        "end": 1880200,
+        "text": "Public Health, State Department of",
+        "chunk_id": 9680762113792704032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6094087537366528766,
+        "start": 1880191,
+        "end": 1880200,
+        "text": "Public Health, State Department of",
+        "chunk_id": 9680762113792704032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5037657285429553115,
+        "start": 1880191,
+        "end": 1880200,
+        "text": "Public Health, State Department of",
+        "chunk_id": 9680762113792704032
+      }
+    ]
+  }
+]

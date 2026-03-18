@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7110165530700815307,
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "available for encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 17092627401598166542,
+        "start": 569932,
+        "end": 569952,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 2994940437322080072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8525960162128747939,
+        "start": 569932,
+        "end": 569952,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 2994940437322080072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 367702677547906648,
+        "start": 569952,
+        "end": 569972,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 2994940437322080072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8485610455981305614,
+        "start": 569952,
+        "end": 569972,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 2994940437322080072
+      }
+    ]
+  },
+  {
+    "candidate_id": 15798708491589492614,
+    "entity": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "available for encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 9292013804203296299,
+        "start": 569973,
+        "end": 570003,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 2994940437322080072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12479242398645380632,
+        "start": 569973,
+        "end": 570003,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 2994940437322080072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17616390784242578618,
+        "start": 570003,
+        "end": 570023,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 2994940437322080072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10275317951695801957,
+        "start": 570003,
+        "end": 570023,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 2994940437322080072
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6958378171849080878,
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "full support",
+    "entity_evidence": [
+      {
+        "span_id": 4474087128284556756,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2056500583005313402,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17604171289030634410,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16565407192970094139,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ]
+  },
+  {
+    "candidate_id": 8445809252597083634,
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "full support",
+    "entity_evidence": [
+      {
+        "span_id": 16825462004000387524,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2505641656182848734,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11412207084161057465,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13302765013048815507,
+        "start": 681785,
+        "end": 681806,
+        "text": "For support of State Air Resources Board",
+        "chunk_id": 511101979784556940
+      }
+    ]
+  }
+]

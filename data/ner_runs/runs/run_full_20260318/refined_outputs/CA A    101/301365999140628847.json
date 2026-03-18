@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15783105534030643251,
+    "source_group_id": 301365999140628847,
+    "source_candidate_ids": [
+      14456248071043238936
+    ],
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "effective not sooner than 30 days",
+    "entity_evidence": [
+      {
+        "span_id": 10484734568549165176,
+        "start": 1690242,
+        "end": 1690262,
+        "text": "Military Department",
+        "chunk_id": 2412428387707903012
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13214899150642816238,
+        "start": 1690242,
+        "end": 1690262,
+        "text": "Military Department",
+        "chunk_id": 2412428387707903012
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10182458266249057776,
+        "start": 1689463,
+        "end": 1689483,
+        "text": "shall be effective not sooner than",
+        "chunk_id": 2412428387707903012
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2382885518088268008,
+        "start": 1689463,
+        "end": 1689483,
+        "text": "not sooner than 30 days",
+        "chunk_id": 2412428387707903012
+      }
+    ]
+  }
+]

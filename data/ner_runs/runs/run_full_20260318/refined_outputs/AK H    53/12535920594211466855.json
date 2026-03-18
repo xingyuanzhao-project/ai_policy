@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 9221091382198571922,
+    "source_group_id": 12535920594211466855,
+    "source_candidate_ids": [
+      4395210068518789608,
+      9574520135407873004
+    ],
+    "entity": "Department of Corrections",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 5883904272531788434,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5471842678028107411,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10347744633198287418,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7997803594335258059,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ]
+  }
+]

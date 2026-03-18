@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8891710839430284128,
+    "source_group_id": 6594000206564471833,
+    "source_candidate_ids": [
+      10614762829143834055
+    ],
+    "entity": "Sacramento-San Joaquin Delta Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 746407898620924143,
+        "start": 676747,
+        "end": 676769,
+        "text": "Sacramento-San Joaquin Delta Conservancy",
+        "chunk_id": 3971906431815330182
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8943315661610563310,
+        "start": 676747,
+        "end": 676769,
+        "text": "government agency",
+        "chunk_id": 3971906431815330182
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16463827395521542035,
+        "start": 676747,
+        "end": 676769,
+        "text": "promotion",
+        "chunk_id": 3971906431815330182
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4831178863239447535,
+        "start": 676747,
+        "end": 676769,
+        "text": "support",
+        "chunk_id": 3971906431815330182
+      }
+    ]
+  }
+]

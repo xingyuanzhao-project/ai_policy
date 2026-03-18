@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 325287382972022983,
+    "source_group_id": 17549013233357268124,
+    "source_candidate_ids": [
+      9780232397929615810
+    ],
+    "entity": "State Public Defender",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 10323326173349360988,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2850249913021943693,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10643866582950774660,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4902835180483523423,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ]
+  }
+]

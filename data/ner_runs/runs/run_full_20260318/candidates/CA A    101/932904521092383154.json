@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3990801339053307700,
+    "entity": "state agencies",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13557223551012972229,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8973846081641758336,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12784012369479910618,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10141297332102265278,
+        "start": 1856939,
+        "end": 1856952,
+        "text": "all state agencies, departments, boards, bureaus, and commissions",
+        "chunk_id": 932904521092383154
+      }
+    ]
+  },
+  {
+    "candidate_id": 16483284414517877672,
+    "entity": "officers of the various departments, boards, commissions, and institutions",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10567303855522525065,
+        "start": 1856939,
+        "end": 1856982,
+        "text": "The officers of the various departments, boards, commissions, and institutions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15734700733841425619,
+        "start": 1856939,
+        "end": 1856982,
+        "text": "The officers of the various departments, boards, commissions, and institutions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6146015958176108971,
+        "start": 1856939,
+        "end": 1856982,
+        "text": "The officers of the various departments, boards, commissions, and institutions",
+        "chunk_id": 932904521092383154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12156800120387577489,
+        "start": 1856939,
+        "end": 1856982,
+        "text": "The officers of the various departments, boards, commissions, and institutions",
+        "chunk_id": 932904521092383154
+      }
+    ]
+  }
+]

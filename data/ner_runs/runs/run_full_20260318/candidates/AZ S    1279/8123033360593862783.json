@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15196971040550792018,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 13857158458492755943,
+        "start": 28301,
+        "end": 28330,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 8123033360593862783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7587168760716906199,
+        "start": 28301,
+        "end": 28330,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 8123033360593862783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11914583408803201475,
+        "start": 28301,
+        "end": 28330,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 8123033360593862783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2314241194507488277,
+        "start": 28301,
+        "end": 28330,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 8123033360593862783
+      }
+    ]
+  },
+  {
+    "candidate_id": 14533926083904571438,
+    "entity": "automated crime victim notification system",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 13694978532220806364,
+        "start": 28424,
+        "end": 28445,
+        "text": "automated crime victim notification system",
+        "chunk_id": 8123033360593862783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3073351734835048952,
+        "start": 28424,
+        "end": 28445,
+        "text": "automated crime victim notification system",
+        "chunk_id": 8123033360593862783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4044507457342302992,
+        "start": 28424,
+        "end": 28445,
+        "text": "automated crime victim notification system",
+        "chunk_id": 8123033360593862783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7856209617522099747,
+        "start": 28424,
+        "end": 28445,
+        "text": "automated crime victim notification system",
+        "chunk_id": 8123033360593862783
+      }
+    ]
+  }
+]

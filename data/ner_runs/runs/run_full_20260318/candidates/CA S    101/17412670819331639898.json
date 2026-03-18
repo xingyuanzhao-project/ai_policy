@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10445099552507915345,
+    "entity": "Department of Consumer Affairs",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6850801129349844791,
+        "start": 252671,
+        "end": 252691,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 17412670819331639898
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7237764894757678995,
+        "start": 252671,
+        "end": 252691,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 17412670819331639898
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13802840237360843979,
+        "start": 252671,
+        "end": 252691,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 17412670819331639898
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4908913833708687684,
+        "start": 252671,
+        "end": 252691,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 17412670819331639898
+      }
+    ]
+  },
+  {
+    "candidate_id": 954391763389830822,
+    "entity": "Bureau of Automotive Repair",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17293487314316039178,
+        "start": 252780,
+        "end": 252802,
+        "text": "Bureau of Automotive Repair",
+        "chunk_id": 17412670819331639898
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15489247463344531789,
+        "start": 252780,
+        "end": 252802,
+        "text": "Bureau of Automotive Repair",
+        "chunk_id": 17412670819331639898
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14301030929775892344,
+        "start": 252780,
+        "end": 252802,
+        "text": "Bureau of Automotive Repair",
+        "chunk_id": 17412670819331639898
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17306201984777772718,
+        "start": 252780,
+        "end": 252802,
+        "text": "Bureau of Automotive Repair",
+        "chunk_id": 17412670819331639898
+      }
+    ]
+  }
+]

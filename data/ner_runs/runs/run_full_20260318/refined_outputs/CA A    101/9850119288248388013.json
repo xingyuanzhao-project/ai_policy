@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7595091865210523317,
+    "source_group_id": 9850119288248388013,
+    "source_candidate_ids": [
+      9594865120540934026
+    ],
+    "entity": "Civil Rights Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from personal services contracting requirements",
+    "entity_evidence": [
+      {
+        "span_id": 16329828006575534909,
+        "start": 278604,
+        "end": 278627,
+        "text": "Civil Rights Department",
+        "chunk_id": 16700036900744276075
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5456620450482033599,
+        "start": 278604,
+        "end": 278627,
+        "text": "government agency",
+        "chunk_id": 16700036900744276075
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9296774998454295967,
+        "start": 278604,
+        "end": 278627,
+        "text": "restriction",
+        "chunk_id": 16700036900744276075
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10787385329162364581,
+        "start": 278604,
+        "end": 278627,
+        "text": "exempt from personal services contracting requirements",
+        "chunk_id": 16700036900744276075
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2710889649979645560,
+    "entity": "Alabama Science in Motion Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "no repurposing",
+    "entity_evidence": [
+      {
+        "span_id": 11996590230341064285,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4353018139709474564,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2413629803644835924,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9821577942927211276,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ]
+  },
+  {
+    "candidate_id": 17251255022107660460,
+    "entity": "Alabama Science in Motion Advisory Committee",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "at least one member",
+    "entity_evidence": [
+      {
+        "span_id": 16892842982496815270,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9374578351707893029,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 769126348176742223,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8768316104738952573,
+        "start": 64122,
+        "end": 64141,
+        "text": "The existing Alabama Science in Motion Advisory Committee shall advise the State Superintendent of Education on the operational activities of the ASIMS Program.",
+        "chunk_id": 12929542312907997116
+      }
+    ]
+  }
+]

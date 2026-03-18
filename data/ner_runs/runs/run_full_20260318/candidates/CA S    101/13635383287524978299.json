@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8117653287871673540,
+    "entity": "Department of the California Highway Patrol",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "single contract for architectural and engineering services",
+    "entity_evidence": [
+      {
+        "span_id": 14687054593565730019,
+        "start": 408051,
+        "end": 408083,
+        "text": "Department of the California Highway Patrol",
+        "chunk_id": 13635383287524978299
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5981255975829908116,
+        "start": 408051,
+        "end": 408083,
+        "text": "Department of the California Highway Patrol",
+        "chunk_id": 13635383287524978299
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2483637579482373690,
+        "start": 407883,
+        "end": 407913,
+        "text": "single contract for architectural and engineering services",
+        "chunk_id": 13635383287524978299
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2273267777857975185,
+        "start": 407883,
+        "end": 407913,
+        "text": "single contract for architectural and engineering services",
+        "chunk_id": 13635383287524978299
+      }
+    ]
+  },
+  {
+    "candidate_id": 10323111785378180245,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "single contract for architectural and engineering services",
+    "entity_evidence": [
+      {
+        "span_id": 1575337730190057697,
+        "start": 408213,
+        "end": 408235,
+        "text": "State Public Works Board",
+        "chunk_id": 13635383287524978299
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6037823689268869808,
+        "start": 408213,
+        "end": 408235,
+        "text": "State Public Works Board",
+        "chunk_id": 13635383287524978299
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15975662683569418648,
+        "start": 407883,
+        "end": 407913,
+        "text": "single contract for architectural and engineering services",
+        "chunk_id": 13635383287524978299
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3925153186082473195,
+        "start": 407883,
+        "end": 407913,
+        "text": "single contract for architectural and engineering services",
+        "chunk_id": 13635383287524978299
+      }
+    ]
+  }
+]

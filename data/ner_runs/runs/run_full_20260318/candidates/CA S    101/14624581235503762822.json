@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9445464359354613038,
+    "entity": "Fiscal Crisis and Management Assistance Team",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13149163724403879899,
+        "start": 1104572,
+        "end": 1104592,
+        "text": "Fiscal Crisis and Management Assistance Team",
+        "chunk_id": 14624581235503762822
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10661511338272029645,
+        "start": 1104572,
+        "end": 1104592,
+        "text": "Fiscal Crisis and Management Assistance Team",
+        "chunk_id": 14624581235503762822
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4688398548674679701,
+        "start": 1104572,
+        "end": 1104592,
+        "text": "Fiscal Crisis and Management Assistance Team",
+        "chunk_id": 14624581235503762822
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12623655238570423353,
+        "start": 1104572,
+        "end": 1104592,
+        "text": "Fiscal Crisis and Management Assistance Team",
+        "chunk_id": 14624581235503762822
+      }
+    ]
+  },
+  {
+    "candidate_id": 15488991774101524465,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13650661116056783584,
+        "start": 1104694,
+        "end": 1104711,
+        "text": "State Department of Education",
+        "chunk_id": 14624581235503762822
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13560358209263259119,
+        "start": 1104694,
+        "end": 1104711,
+        "text": "State Department of Education",
+        "chunk_id": 14624581235503762822
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12959758939494622684,
+        "start": 1104694,
+        "end": 1104711,
+        "text": "State Department of Education",
+        "chunk_id": 14624581235503762822
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1011856933083637495,
+        "start": 1104694,
+        "end": 1104711,
+        "text": "State Department of Education",
+        "chunk_id": 14624581235503762822
+      }
+    ]
+  }
+]

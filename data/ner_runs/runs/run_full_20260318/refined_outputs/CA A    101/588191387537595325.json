@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15681102362173256895,
+    "source_group_id": 588191387537595325,
+    "source_candidate_ids": [
+      1804594746467195853
+    ],
+    "entity": "Part-Time Faculty Health Insurance",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "unexpected balance",
+    "entity_evidence": [
+      {
+        "span_id": 8211958510724884406,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "Part-Time Faculty Health Insurance",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2979772129533386687,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "infrastructure",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13188805811370949066,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "restriction",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14604329227615681739,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "unexpected balance",
+        "chunk_id": 16178646357819491899
+      }
+    ]
+  }
+]

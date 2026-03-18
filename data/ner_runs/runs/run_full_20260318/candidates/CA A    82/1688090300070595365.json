@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 960743665466509095,
+    "entity": "Secretary of State",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1775684070885448053,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6649548110029069552,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18388677846871426147,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11309494253258215649,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ]
+  },
+  {
+    "candidate_id": 12194055567356571553,
+    "entity": "General Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1509113685692818496,
+        "start": 19611,
+        "end": 19631,
+        "text": "The Address Confidentiality for Reproductive Health Care Services Fund is hereby created in the General Fund.",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12701291715249278445,
+        "start": 19611,
+        "end": 19631,
+        "text": "The Address Confidentiality for Reproductive Health Care Services Fund is hereby created in the General Fund.",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1555258953087459018,
+        "start": 19611,
+        "end": 19631,
+        "text": "The Address Confidentiality for Reproductive Health Care Services Fund is hereby created in the General Fund.",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16535864320233006166,
+        "start": 19611,
+        "end": 19631,
+        "text": "The Address Confidentiality for Reproductive Health Care Services Fund is hereby created in the General Fund.",
+        "chunk_id": 1688090300070595365
+      }
+    ]
+  }
+]

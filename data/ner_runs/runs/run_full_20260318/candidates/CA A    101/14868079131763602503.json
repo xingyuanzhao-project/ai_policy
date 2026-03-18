@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13574782948049479531,
+    "entity": "California Community College Capital Outlay Bond Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 15077063344805207008,
+        "start": 1444070,
+        "end": 1444124,
+        "text": "ornia Community Colleges, payable from the 2024 California Community College Capital Outlay Bond Fund",
+        "chunk_id": 14868079131763602503
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6567485492119470724,
+        "start": 1444070,
+        "end": 1444124,
+        "text": "ornia Community Colleges, payable from the 2024 California Community College Capital Outlay Bond Fund",
+        "chunk_id": 14868079131763602503
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16519229607527622058,
+        "start": 1444070,
+        "end": 1444124,
+        "text": "ornia Community Colleges, payable from the 2024 California Community College Capital Outlay Bond Fund",
+        "chunk_id": 14868079131763602503
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12466208358330369590,
+        "start": 1444070,
+        "end": 1444124,
+        "text": "ornia Community Colleges, payable from the 2024 California Community College Capital Outlay Bond Fund",
+        "chunk_id": 14868079131763602503
+      }
+    ]
+  },
+  {
+    "candidate_id": 3364226949278440593,
+    "entity": "El Camino Community College District",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 15852956573754609546,
+        "start": 1444121,
+        "end": 1444141,
+        "text": "El Camino Community College District, El Camino College: Hydronic Line Replacement",
+        "chunk_id": 14868079131763602503
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10241775643848266387,
+        "start": 1444121,
+        "end": 1444141,
+        "text": "El Camino Community College District, El Camino College: Hydronic Line Replacement",
+        "chunk_id": 14868079131763602503
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8688754912926659978,
+        "start": 1444121,
+        "end": 1444141,
+        "text": "El Camino Community College District, El Camino College: Hydronic Line Replacement",
+        "chunk_id": 14868079131763602503
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2713076399591478718,
+        "start": 1444121,
+        "end": 1444141,
+        "text": "El Camino Community College District, El Camino College: Hydronic Line Replacement",
+        "chunk_id": 14868079131763602503
+      }
+    ]
+  }
+]

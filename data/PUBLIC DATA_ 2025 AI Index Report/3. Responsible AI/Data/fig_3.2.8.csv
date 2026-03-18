@@ -1,0 +1,16 @@
+Model,Hallucination Rate
+ai21labs/AI21-Jamba-1.5-Mini,2.90%
+Qwen/Qwen2.5-7B-Instruct,2.80%
+Intel/neural-chat-7b-v3-3,2.60%
+microsoft/Orca-2-13b,2.50%
+microsoft/Phi-3.5-MoE-instruct,2.50%
+openai/o1,2.40%
+deepseek/deepseek-chat,2.40%
+openai/GPT-3.5-Turbo,1.90%
+openai/GPT-4,1.80%
+openai/GPT-4o-mini,1.70%
+openai/GPT-4-Turbo,1.70%
+openai/GPT-4o,1.50%
+openai/o1-mini,1.40%
+gemini-2.0-flash-exp,1.30%
+THUDM/glm-4-9b-chat,1.30%

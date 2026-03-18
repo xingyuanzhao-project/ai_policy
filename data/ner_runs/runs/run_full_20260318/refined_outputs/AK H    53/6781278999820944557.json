@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12260929199247772861,
+    "source_group_id": 6781278999820944557,
+    "source_candidate_ids": [
+      5267997165001454746
+    ],
+    "entity": "Legislature",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "State Owned",
+    "entity_evidence": [
+      {
+        "span_id": 9581398703183712022,
+        "start": 57296,
+        "end": 57305,
+        "text": "State Owned",
+        "chunk_id": 3880681243965882855
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 707199775387037318,
+        "start": 57306,
+        "end": 57313,
+        "text": "Legislature",
+        "chunk_id": 3880681243965882855
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9062666003485170230,
+        "start": 57314,
+        "end": 57321,
+        "text": "State Owned",
+        "chunk_id": 3880681243965882855
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12816120621593885209,
+        "start": 57322,
+        "end": 57329,
+        "text": "State Owned",
+        "chunk_id": 3880681243965882855
+      }
+    ]
+  }
+]

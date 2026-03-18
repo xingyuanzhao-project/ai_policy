@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6916886306461434500,
+    "source_group_id": 9736435200107751918,
+    "source_candidate_ids": [
+      13332227758776624441
+    ],
+    "entity": "Department of Motor Vehicles",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 15717460756364780318,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "Department of Motor Vehicles",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12896831606700108689,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "government agency",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7212498768070233459,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "restriction",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13417662602045721787,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "reimbursement",
+        "chunk_id": 3749246097714498931
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12458122437577770529,
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidelines for grant decisions",
+    "entity_evidence": [
+      {
+        "span_id": 2937710011781243710,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16912932359545553698,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17959939962893001816,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13439123987910240017,
+        "start": 1496947,
+        "end": 1496967,
+        "text": "The California Workforce Development Board shall develop the criteria to evaluate, and evaluate, prospective grantee applications.",
+        "chunk_id": 15705074963239969588
+      }
+    ]
+  },
+  {
+    "candidate_id": 75753250381093974,
+    "entity": "local workforce development boards",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidelines for partnership agreements",
+    "entity_evidence": [
+      {
+        "span_id": 11344096318101851245,
+        "start": 1497058,
+        "end": 1497078,
+        "text": "Each application shall include partnership agreements between the local government and one or more local workforce development boards that outline the actions each party agrees to undertake as part of the project proposed in the application for each jurisdiction where services are delivered.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15126139476447000964,
+        "start": 1497058,
+        "end": 1497078,
+        "text": "Each application shall include partnership agreements between the local government and one or more local workforce development boards that outline the actions each party agrees to undertake as part of the project proposed in the application for each jurisdiction where services are delivered.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3982282703921697943,
+        "start": 1497058,
+        "end": 1497078,
+        "text": "Each application shall include partnership agreements between the local government and one or more local workforce development boards that outline the actions each party agrees to undertake as part of the project proposed in the application for each jurisdiction where services are delivered.",
+        "chunk_id": 15705074963239969588
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9079360812575904671,
+        "start": 1497058,
+        "end": 1497078,
+        "text": "Each application shall include partnership agreements between the local government and one or more local workforce development boards that outline the actions each party agrees to undertake as part of the project proposed in the application for each jurisdiction where services are delivered.",
+        "chunk_id": 15705074963239969588
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15510595926016951819,
+    "source_group_id": 16852944386385864824,
+    "source_candidate_ids": [
+      16567774939114501035
+    ],
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reporting threshold",
+    "entity_evidence": [
+      {
+        "span_id": 18327354444698403781,
+        "start": 904031,
+        "end": 904052,
+        "text": "report on a listing of all federal funds received",
+        "chunk_id": 14303798215498895996
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12830620761786183679,
+        "start": 904031,
+        "end": 904052,
+        "text": "State Department of Public Health",
+        "chunk_id": 14303798215498895996
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1656427541960957215,
+        "start": 904031,
+        "end": 904052,
+        "text": "report on a listing of all federal funds received",
+        "chunk_id": 14303798215498895996
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17580001945605797230,
+        "start": 904031,
+        "end": 904052,
+        "text": "reporting threshold",
+        "chunk_id": 14303798215498895996
+      }
+    ]
+  }
+]

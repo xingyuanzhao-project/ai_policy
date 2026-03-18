@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 7772698820586678448,
+    "source_group_id": 13013753806876258099,
+    "source_candidate_ids": [
+      18291047161318604057,
+      16832673101396819410
+    ],
+    "entity": "frontier developer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 11949539086813471283,
+        "start": 30184,
+        "end": 30197,
+        "text": "A frontier developer",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2148129115790631984,
+        "start": 30184,
+        "end": 30197,
+        "text": "A frontier developer",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12074973978204364539,
+        "start": 30197,
+        "end": 30202,
+        "text": "shall not",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3413683458740510460,
+        "start": 30202,
+        "end": 30207,
+        "text": "prevent",
+        "chunk_id": 7795682431347896540
+      }
+    ]
+  }
+]

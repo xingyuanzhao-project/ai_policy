@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14188441967594759591,
+    "entity": "San Joaquin River Conservancy",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 1007203830658412409,
+        "start": 574483,
+        "end": 574503,
+        "text": "San Joaquin River Conservancy",
+        "chunk_id": 5147628538442430941
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11214651565269575270,
+        "start": 574483,
+        "end": 574503,
+        "text": "infrastructure",
+        "chunk_id": 5147628538442430941
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5224661599882917704,
+        "start": 574483,
+        "end": 574503,
+        "text": "promotion",
+        "chunk_id": 5147628538442430941
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9959450753324040074,
+        "start": 574483,
+        "end": 574503,
+        "text": "support",
+        "chunk_id": 5147628538442430941
+      }
+    ]
+  },
+  {
+    "candidate_id": 11597457061626140112,
+    "entity": "Baldwin Hills and Urban Watersheds Conservancy",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 8030843399189435955,
+        "start": 574483,
+        "end": 574503,
+        "text": "Baldwin Hills and Urban Watersheds Conservancy",
+        "chunk_id": 5147628538442430941
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10212705321480530065,
+        "start": 574483,
+        "end": 574503,
+        "text": "infrastructure",
+        "chunk_id": 5147628538442430941
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4257438249546818452,
+        "start": 574483,
+        "end": 574503,
+        "text": "promotion",
+        "chunk_id": 5147628538442430941
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7588791095750094578,
+        "start": 574483,
+        "end": 574503,
+        "text": "support",
+        "chunk_id": 5147628538442430941
+      }
+    ]
+  }
+]

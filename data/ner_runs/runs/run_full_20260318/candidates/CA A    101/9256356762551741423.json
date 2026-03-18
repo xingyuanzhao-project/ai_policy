@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6330215436078466349,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16208306386124261993,
+        "start": 1052466,
+        "end": 1052483,
+        "text": "Department of Finance",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2737830718579176626,
+        "start": 1052466,
+        "end": 1052483,
+        "text": "Department of Finance",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9615551194994759712,
+        "start": 1052466,
+        "end": 1052483,
+        "text": "Department of Finance",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1644139471228526240,
+        "start": 1052466,
+        "end": 1052483,
+        "text": "Department of Finance",
+        "chunk_id": 9256356762551741423
+      }
+    ]
+  },
+  {
+    "candidate_id": 2044345334526616615,
+    "entity": "Community Care Licensing Division",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "facilities evaluation function",
+    "entity_evidence": [
+      {
+        "span_id": 17632715063637880726,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5792443050717423607,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7008158246831672703,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13667438524813663892,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ]
+  }
+]

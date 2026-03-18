@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 3052801139429989277,
+    "source_group_id": 832129951586796755,
+    "source_candidate_ids": [
+      2071232623748704488,
+      14984864186393882811
+    ],
+    "entity": "Department of Industrial Relations",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 12818324958823728673,
+        "start": 1502638,
+        "end": 1502656,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4788124232866471200,
+        "start": 1502638,
+        "end": 1502656,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7541737204808428691,
+        "start": 1510139,
+        "end": 1510167,
+        "text": "promotion",
+        "chunk_id": 16148931572688414033
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3253137145461544960,
+        "start": 1510139,
+        "end": 1510167,
+        "text": "significant",
+        "chunk_id": 16148931572688414033
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3859484668422963285,
+    "entity": "Department of Consumer Affairs",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 2805357423633232868,
+        "start": 269457,
+        "end": 269481,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11414489684007337977,
+        "start": 269457,
+        "end": 269481,
+        "text": "government agency",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11881666413850353998,
+        "start": 269457,
+        "end": 269481,
+        "text": "regulation",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2505717402941395703,
+        "start": 269457,
+        "end": 269481,
+        "text": "oversight",
+        "chunk_id": 8223660941490042825
+      }
+    ]
+  },
+  {
+    "candidate_id": 2348248569348118624,
+    "entity": "Bureau of Real Estate Appraisers",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 1131234742124608314,
+        "start": 269457,
+        "end": 269481,
+        "text": "Bureau of Real Estate Appraisers",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1947982250618126181,
+        "start": 269457,
+        "end": 269481,
+        "text": "government agency",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5154177602019107713,
+        "start": 269457,
+        "end": 269481,
+        "text": "regulation",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15643632817389115086,
+        "start": 269457,
+        "end": 269481,
+        "text": "oversight",
+        "chunk_id": 8223660941490042825
+      }
+    ]
+  }
+]

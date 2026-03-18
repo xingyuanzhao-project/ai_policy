@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3638634710021721998,
+    "source_group_id": 10662136773699672315,
+    "source_candidate_ids": [
+      9297930766847783309
+    ],
+    "entity": "Department of Resources Recycling and Recovery",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10294219473993968845,
+        "start": 766528,
+        "end": 766548,
+        "text": "Department of Resources Recycling and Recovery",
+        "chunk_id": 17143624255037687176
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11146751743006798910,
+        "start": 766528,
+        "end": 766548,
+        "text": "government agency",
+        "chunk_id": 17143624255037687176
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16807281780992546063,
+        "start": 766528,
+        "end": 766548,
+        "text": "restriction",
+        "chunk_id": 17143624255037687176
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9140782542359835697,
+        "start": 766528,
+        "end": 766548,
+        "text": "limited",
+        "chunk_id": 17143624255037687176
+      }
+    ]
+  }
+]

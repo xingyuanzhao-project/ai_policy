@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18279113014740534177,
+    "source_group_id": 15186711011815566670,
+    "source_candidate_ids": [
+      3805888141322102222
+    ],
+    "entity": "Restitution Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16986436569426453986,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12428384679377039137,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10029635301884400746,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15750762860778879300,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ]
+  }
+]

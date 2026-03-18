@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16465584153864417590,
+    "entity": "Department of Resources Recycling and Recovery",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exceed limits",
+    "entity_evidence": [
+      {
+        "span_id": 3167664685394611272,
+        "start": 678451,
+        "end": 678482,
+        "text": "the Department of Resources Recycling and Recovery",
+        "chunk_id": 7986426965915443848
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14561063854906076251,
+        "start": 678451,
+        "end": 678482,
+        "text": "the Department of Resources Recycling and Recovery",
+        "chunk_id": 7986426965915443848
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6075855750254652299,
+        "start": 678451,
+        "end": 678482,
+        "text": "the Department of Resources Recycling and Recovery",
+        "chunk_id": 7986426965915443848
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17956633620063816848,
+        "start": 678451,
+        "end": 678482,
+        "text": "the Department of Resources Recycling and Recovery",
+        "chunk_id": 7986426965915443848
+      }
+    ]
+  },
+  {
+    "candidate_id": 2109754926631385012,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "borrow sufficient funds",
+    "entity_evidence": [
+      {
+        "span_id": 8653713239784682288,
+        "start": 678451,
+        "end": 678465,
+        "text": "the Department of Finance",
+        "chunk_id": 7986426965915443848
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4494939983946917305,
+        "start": 678451,
+        "end": 678465,
+        "text": "the Department of Finance",
+        "chunk_id": 7986426965915443848
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6285520996177773290,
+        "start": 678451,
+        "end": 678465,
+        "text": "the Department of Finance",
+        "chunk_id": 7986426965915443848
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11116626635636293318,
+        "start": 678451,
+        "end": 678465,
+        "text": "the Department of Finance",
+        "chunk_id": 7986426965915443848
+      }
+    ]
+  }
+]

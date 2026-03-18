@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16447588854647027063,
+    "source_group_id": 11297134379293798813,
+    "source_candidate_ids": [
+      17218263034821465049
+    ],
+    "entity": "Hino Consent Decree",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "entered by the court on May 9, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 15766373872373308998,
+        "start": 694767,
+        "end": 694781,
+        "text": "Hino Consent Decree",
+        "chunk_id": 6213340564625578206
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 63362113439827145,
+        "start": 694767,
+        "end": 694781,
+        "text": "infrastructure",
+        "chunk_id": 6213340564625578206
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8030395294168239217,
+        "start": 694781,
+        "end": 694795,
+        "text": "entered by the court",
+        "chunk_id": 6213340564625578206
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10094570416221818749,
+        "start": 694795,
+        "end": 694808,
+        "text": "on May 9, 2025",
+        "chunk_id": 6213340564625578206
+      }
+    ]
+  }
+]

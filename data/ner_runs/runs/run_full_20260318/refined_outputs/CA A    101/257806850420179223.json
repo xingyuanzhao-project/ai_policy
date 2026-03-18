@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5141358946372349837,
+    "source_group_id": 257806850420179223,
+    "source_candidate_ids": [
+      10208238786759507535
+    ],
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "standard baseline operating funds",
+    "entity_evidence": [
+      {
+        "span_id": 4704726927745689866,
+        "start": 1355397,
+        "end": 1355418,
+        "text": "standard baseline operating funds",
+        "chunk_id": 13534042895873737806
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13402371186461242667,
+        "start": 1355397,
+        "end": 1355418,
+        "text": "standard baseline operating funds",
+        "chunk_id": 13534042895873737806
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16618518323206797066,
+        "start": 1355397,
+        "end": 1355418,
+        "text": "standard baseline operating funds",
+        "chunk_id": 13534042895873737806
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4273669546549798150,
+        "start": 1355397,
+        "end": 1355418,
+        "text": "standard baseline operating funds",
+        "chunk_id": 13534042895873737806
+      }
+    ]
+  }
+]

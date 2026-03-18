@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12962650092257263936,
+    "source_group_id": 8099023852560096781,
+    "source_candidate_ids": [
+      2169877867888696032
+    ],
+    "entity": "Department of Food and Agriculture",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 7258744916284917529,
+        "start": 1631631,
+        "end": 1631651,
+        "text": "Item 8570-301-0001, Budget Act of 2021 (Chs. 21, 69, and 240, Stats. 2021), until June 30, 2026",
+        "chunk_id": 1786485974387213346
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11602212295051914760,
+        "start": 1631631,
+        "end": 1631651,
+        "text": "Item 8570-301-0001, Budget Act of 2021 (Chs. 21, 69, and 240, Stats. 2021), until June 30, 2026",
+        "chunk_id": 1786485974387213346
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18135424583601156408,
+        "start": 1631631,
+        "end": 1631651,
+        "text": "Item 8570-301-0001, Budget Act of 2021 (Chs. 21, 69, and 240, Stats. 2021), until June 30, 2026",
+        "chunk_id": 1786485974387213346
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16151037839098030940,
+        "start": 1631631,
+        "end": 1631651,
+        "text": "Item 8570-301-0001, Budget Act of 2021 (Chs. 21, 69, and 240, Stats. 2021), until June 30, 2026",
+        "chunk_id": 1786485974387213346
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1440983605101621239,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "consistent with subdivision (a) of Section 80140 of the Public Resources Code",
+    "entity_evidence": [
+      {
+        "span_id": 8115006466147467216,
+        "start": 647459,
+        "end": 647488,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 11418181964901041453
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3024994220048576121,
+        "start": 647459,
+        "end": 647488,
+        "text": "government agency",
+        "chunk_id": 11418181964901041453
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5271767268182640270,
+        "start": 647459,
+        "end": 647488,
+        "text": "support",
+        "chunk_id": 11418181964901041453
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14300095322929805933,
+        "start": 647459,
+        "end": 647488,
+        "text": "consistent with subdivision (a) of Section 80140 of the Public Resources Code",
+        "chunk_id": 11418181964901041453
+      }
+    ]
+  },
+  {
+    "candidate_id": 11808578387031506831,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "consistent with subdivision (a) of Section 80141 of the Public Resources Code",
+    "entity_evidence": [
+      {
+        "span_id": 14980732742126099837,
+        "start": 647459,
+        "end": 647488,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 11418181964901041453
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14528606372256715678,
+        "start": 647459,
+        "end": 647488,
+        "text": "government agency",
+        "chunk_id": 11418181964901041453
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4040941063049184796,
+        "start": 647459,
+        "end": 647488,
+        "text": "support",
+        "chunk_id": 11418181964901041453
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9240115761236190273,
+        "start": 647459,
+        "end": 647488,
+        "text": "consistent with subdivision (a) of Section 80141 of the Public Resources Code",
+        "chunk_id": 11418181964901041453
+      }
+    ]
+  }
+]

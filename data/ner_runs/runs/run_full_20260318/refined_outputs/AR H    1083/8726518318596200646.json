@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 4968552422207655669,
+    "source_group_id": 8726518318596200646,
+    "source_candidate_ids": [
+      13105586899776453066,
+      7358281069407313350
+    ],
+    "entity": "Personalized recommendation systems",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "certain types or categories",
+    "entity_evidence": [
+      {
+        "span_id": 13459215118499959757,
+        "start": 10346,
+        "end": 10366,
+        "text": "Limit access to certain types or categories of recommendations from the personalized recommendation systems",
+        "chunk_id": 6629711198436782344
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15914682021232693983,
+        "start": 10346,
+        "end": 10366,
+        "text": "Personalized recommendation systems",
+        "chunk_id": 6629711198436782344
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14773082577593770977,
+        "start": 10346,
+        "end": 10366,
+        "text": "Limit access to certain types or categories of recommendations from the personalized recommendation systems",
+        "chunk_id": 6629711198436782344
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 459254422020666552,
+        "start": 10346,
+        "end": 10366,
+        "text": "Limit access to certain types or categories of recommendations from the personalized recommendation systems",
+        "chunk_id": 6629711198436782344
+      }
+    ]
+  }
+]

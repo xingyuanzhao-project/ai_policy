@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3734730742699887601,
+    "source_group_id": 11910501477844426553,
+    "source_candidate_ids": [
+      5917290059858224706
+    ],
+    "entity": "Electric Program Investment Charge Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 7438744731102771493,
+        "start": 481628,
+        "end": 481658,
+        "text": "Electric Program Investment Charge Fund",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5355206459733171179,
+        "start": 481628,
+        "end": 481658,
+        "text": "infrastructure",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16106875425382246949,
+        "start": 481628,
+        "end": 481658,
+        "text": "promotion",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13627708122028739726,
+        "start": 481628,
+        "end": 481658,
+        "text": "extended",
+        "chunk_id": 10765443375870463480
+      }
+    ]
+  }
+]

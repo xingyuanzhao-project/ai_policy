@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 12840565260675010032,
+    "source_group_id": 5164916077786884009,
+    "source_candidate_ids": [
+      18365307094705060745,
+      8274169749481257303
+    ],
+    "entity": "frontier developer",
+    "type": "individual/company",
+    "attribute": "requirement",
+    "value": "report within 15 days",
+    "entity_evidence": [
+      {
+        "span_id": 10188316369331249140,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13491806188422909793,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8943293847711123440,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13912140769545159620,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5246335119289730093,
+    "source_group_id": 15901627020754777819,
+    "source_candidate_ids": [
+      17664675103578397219
+    ],
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short term",
+    "entity_evidence": [
+      {
+        "span_id": 6441920554955827762,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8109179142684622075,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2630645031545531108,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5632762780307053544,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ]
+  }
+]

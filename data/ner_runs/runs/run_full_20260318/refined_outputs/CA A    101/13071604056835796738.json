@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7336277759619517054,
+    "source_group_id": 13071604056835796738,
+    "source_candidate_ids": [
+      7905415642919345799
+    ],
+    "entity": "special fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7433950771237154185,
+        "start": 1823268,
+        "end": 1823278,
+        "text": "special fund",
+        "chunk_id": 14879053298322331842
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16146809700733820383,
+        "start": 1823268,
+        "end": 1823278,
+        "text": "special fund",
+        "chunk_id": 14879053298322331842
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16581353762564845578,
+        "start": 1823268,
+        "end": 1823278,
+        "text": "special fund",
+        "chunk_id": 14879053298322331842
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4533451015992285403,
+        "start": 1823268,
+        "end": 1823278,
+        "text": "special fund",
+        "chunk_id": 14879053298322331842
+      }
+    ]
+  }
+]

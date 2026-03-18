@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 3369823462430840963,
+    "source_group_id": 7372009883384719254,
+    "source_candidate_ids": [
+      1813658512108282703,
+      5979900469886053222
+    ],
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 11241654926846026511,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5533924407746900567,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3594385895029153878,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11092749164958648804,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ]
+  }
+]

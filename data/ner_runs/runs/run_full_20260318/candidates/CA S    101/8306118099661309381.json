@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16280213584549390584,
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not available for payment of treatment services",
+    "entity_evidence": [
+      {
+        "span_id": 15485963382308620873,
+        "start": 877344,
+        "end": 877362,
+        "text": "payment of treatment services to persons on court visit from state hospitals to the community",
+        "chunk_id": 8306118099661309381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13116787400752757645,
+        "start": 877344,
+        "end": 877362,
+        "text": "payment of treatment services to persons on court visit from state hospitals to the community",
+        "chunk_id": 8306118099661309381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10812094149965712271,
+        "start": 877344,
+        "end": 877362,
+        "text": "payment of treatment services to persons on court visit from state hospitals to the community",
+        "chunk_id": 8306118099661309381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6263584343242213798,
+        "start": 877344,
+        "end": 877362,
+        "text": "payment of treatment services to persons on court visit from state hospitals to the community",
+        "chunk_id": 8306118099661309381
+      }
+    ]
+  },
+  {
+    "candidate_id": 5081665080967707677,
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "reimbursement",
+    "value": "cost of treatment and legal services",
+    "entity_evidence": [
+      {
+        "span_id": 1185406620229370425,
+        "start": 877423,
+        "end": 877440,
+        "text": "reimburse counties for the cost of treatment and legal services",
+        "chunk_id": 8306118099661309381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1673540675024264832,
+        "start": 877423,
+        "end": 877440,
+        "text": "reimburse counties for the cost of treatment and legal services",
+        "chunk_id": 8306118099661309381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 148521058480750422,
+        "start": 877423,
+        "end": 877440,
+        "text": "reimburse counties for the cost of treatment and legal services",
+        "chunk_id": 8306118099661309381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12462688297578830841,
+        "start": 877423,
+        "end": 877440,
+        "text": "reimburse counties for the cost of treatment and legal services",
+        "chunk_id": 8306118099661309381
+      }
+    ]
+  }
+]

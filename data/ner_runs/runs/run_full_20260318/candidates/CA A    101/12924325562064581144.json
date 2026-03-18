@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10841679789999212788,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 15386704110135158760,
+        "start": 727638,
+        "end": 727658,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8404272320590407633,
+        "start": 727638,
+        "end": 727658,
+        "text": "government agency",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6308896382983532406,
+        "start": 727638,
+        "end": 727658,
+        "text": "restriction",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14144467856514667384,
+        "start": 727638,
+        "end": 727658,
+        "text": "until June 30, 2028",
+        "chunk_id": 12924325562064581144
+      }
+    ]
+  },
+  {
+    "candidate_id": 15813130810767645279,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "liquidation",
+    "value": "through June 30, 2031",
+    "entity_evidence": [
+      {
+        "span_id": 943847958941691679,
+        "start": 727638,
+        "end": 727658,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16284105435816405227,
+        "start": 727638,
+        "end": 727658,
+        "text": "government agency",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 981506756350175401,
+        "start": 727638,
+        "end": 727658,
+        "text": "liquidation",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8634495503042434830,
+        "start": 727638,
+        "end": 727658,
+        "text": "through June 30, 2031",
+        "chunk_id": 12924325562064581144
+      }
+    ]
+  }
+]

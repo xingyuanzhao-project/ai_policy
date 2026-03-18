@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12362207149430373134,
+    "source_group_id": 5085983319424137847,
+    "source_candidate_ids": [
+      3819703715601519754
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "knowing or reckless violation",
+    "entity_evidence": [
+      {
+        "span_id": 7290935829316761197,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16902976372105587057,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3234532547776323194,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5195105096075332928,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ]
+  }
+]

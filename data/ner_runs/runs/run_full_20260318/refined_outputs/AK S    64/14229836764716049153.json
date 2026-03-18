@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7418181049031264093,
+    "source_group_id": 14229836764716049153,
+    "source_candidate_ids": [
+      4989783907740116613
+    ],
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 9649118609690251118,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6448439516557958853,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12071631436307593739,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16350781312439646355,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18112885584291685537,
+    "source_group_id": 12021420590255558787,
+    "source_candidate_ids": [
+      16849703087075689790
+    ],
+    "entity": "families",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "disenrolled",
+    "entity_evidence": [
+      {
+        "span_id": 15345485746946685067,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3585593213952929591,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5926285705576640036,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16153699397412988363,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ]
+  }
+]

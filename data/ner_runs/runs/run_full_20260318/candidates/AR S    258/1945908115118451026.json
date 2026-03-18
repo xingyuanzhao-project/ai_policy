@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7618852121311520629,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "definition",
+    "value": "entity responsible for processing personal data",
+    "entity_evidence": [
+      {
+        "span_id": 14230464119983426091,
+        "start": 25687,
+        "end": 25696,
+        "text": "controller",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2103841977001644819,
+        "start": 25687,
+        "end": 25696,
+        "text": "controller",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11878051833160665867,
+        "start": 25687,
+        "end": 25696,
+        "text": "definition",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11091338684628082352,
+        "start": 25687,
+        "end": 25696,
+        "text": "entity responsible for processing personal data",
+        "chunk_id": 1945908115118451026
+      }
+    ]
+  },
+  {
+    "candidate_id": 8125896634357502143,
+    "entity": "processor",
+    "type": "government agency",
+    "attribute": "definition",
+    "value": "entity responsible for processing personal data",
+    "entity_evidence": [
+      {
+        "span_id": 17454206610242357586,
+        "start": 25697,
+        "end": 25705,
+        "text": "processor",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15868314232088153064,
+        "start": 25697,
+        "end": 25705,
+        "text": "processor",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6692279914965476905,
+        "start": 25697,
+        "end": 25705,
+        "text": "definition",
+        "chunk_id": 1945908115118451026
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7158948602259789487,
+        "start": 25697,
+        "end": 25705,
+        "text": "entity responsible for processing personal data",
+        "chunk_id": 1945908115118451026
+      }
+    ]
+  }
+]

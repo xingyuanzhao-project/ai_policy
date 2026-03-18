@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4602811042342713502,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extension of liquidation encumbrances",
+    "entity_evidence": [
+      {
+        "span_id": 7247006016742920641,
+        "start": 600639,
+        "end": 600663,
+        "text": "3860-490--Reappropriation, Department of Water Resources",
+        "chunk_id": 5946275409362442488
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11464575183521000462,
+        "start": 600639,
+        "end": 600663,
+        "text": "government agency",
+        "chunk_id": 5946275409362442488
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 201622251749222833,
+        "start": 600639,
+        "end": 600663,
+        "text": "restriction",
+        "chunk_id": 5946275409362442488
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7736956589922607589,
+        "start": 600639,
+        "end": 600663,
+        "text": "extension of liquidation encumbrances",
+        "chunk_id": 5946275409362442488
+      }
+    ]
+  },
+  {
+    "candidate_id": 688467215524094368,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 8635552948584360285,
+        "start": 600639,
+        "end": 600651,
+        "text": "0001--General Fund",
+        "chunk_id": 5946275409362442488
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14627470726425729189,
+        "start": 600639,
+        "end": 600651,
+        "text": "infrastructure",
+        "chunk_id": 5946275409362442488
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16332662158233842052,
+        "start": 600639,
+        "end": 600651,
+        "text": "promotion",
+        "chunk_id": 5946275409362442488
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15576675790731680034,
+        "start": 600639,
+        "end": 600651,
+        "text": "reappropriation",
+        "chunk_id": 5946275409362442488
+      }
+    ]
+  }
+]

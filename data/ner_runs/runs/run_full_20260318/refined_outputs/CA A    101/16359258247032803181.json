@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11205971846149172308,
+    "source_group_id": 16359258247032803181,
+    "source_candidate_ids": [
+      3003931248763977291
+    ],
+    "entity": "Exide Technologies",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "lead-acid battery recycling facility",
+    "entity_evidence": [
+      {
+        "span_id": 17045840571767926937,
+        "start": 748441,
+        "end": 748456,
+        "text": "Exide Technologies",
+        "chunk_id": 17731067971832780638
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8902600474337899097,
+        "start": 748457,
+        "end": 748464,
+        "text": "company",
+        "chunk_id": 17731067971832780638
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10770918225431232732,
+        "start": 748465,
+        "end": 748475,
+        "text": "restriction",
+        "chunk_id": 17731067971832780638
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5944439171694600770,
+        "start": 748476,
+        "end": 748495,
+        "text": "lead-acid battery recycling facility",
+        "chunk_id": 17731067971832780638
+      }
+    ]
+  }
+]

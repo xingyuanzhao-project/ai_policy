@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1035877618728636548,
+    "source_group_id": 3693842062548661276,
+    "source_candidate_ids": [
+      10158244460479919296
+    ],
+    "entity": "Office of Tax Appeals",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 10180219082736162481,
+        "start": 218817,
+        "end": 218836,
+        "text": "Office of Tax Appeals",
+        "chunk_id": 12720995749638224623
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3211251638915441349,
+        "start": 218817,
+        "end": 218836,
+        "text": "Office of Tax Appeals",
+        "chunk_id": 12720995749638224623
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13093520411454240337,
+        "start": 218817,
+        "end": 218836,
+        "text": "Office of Tax Appeals",
+        "chunk_id": 12720995749638224623
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9651589640876269511,
+        "start": 218817,
+        "end": 218836,
+        "text": "Office of Tax Appeals",
+        "chunk_id": 12720995749638224623
+      }
+    ]
+  }
+]

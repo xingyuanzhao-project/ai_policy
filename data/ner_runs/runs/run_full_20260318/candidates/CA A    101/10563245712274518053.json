@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6614642108382269273,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 9761821412774436289,
+        "start": 714824,
+        "end": 714845,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 10563245712274518053
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17945797526233013002,
+        "start": 714824,
+        "end": 714845,
+        "text": "government agency",
+        "chunk_id": 10563245712274518053
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16516409777448457844,
+        "start": 714824,
+        "end": 714845,
+        "text": "restriction",
+        "chunk_id": 10563245712274518053
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5001558642185245797,
+        "start": 714824,
+        "end": 714845,
+        "text": "limited",
+        "chunk_id": 10563245712274518053
+      }
+    ]
+  },
+  {
+    "candidate_id": 9364343203550666852,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10067180612070751171,
+        "start": 714924,
+        "end": 714943,
+        "text": "Department of Finance",
+        "chunk_id": 10563245712274518053
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7888296929183443124,
+        "start": 714924,
+        "end": 714943,
+        "text": "government agency",
+        "chunk_id": 10563245712274518053
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15004414837746371399,
+        "start": 714924,
+        "end": 714943,
+        "text": "restriction",
+        "chunk_id": 10563245712274518053
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7193779491522976089,
+        "start": 714924,
+        "end": 714943,
+        "text": "limited",
+        "chunk_id": 10563245712274518053
+      }
+    ]
+  }
+]

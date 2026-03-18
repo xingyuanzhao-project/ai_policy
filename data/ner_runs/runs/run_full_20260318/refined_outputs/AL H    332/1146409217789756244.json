@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10961085236496812941,
+    "source_group_id": 1146409217789756244,
+    "source_candidate_ids": [
+      5810638191370505933
+    ],
+    "entity": "public school",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "in-person setting",
+    "entity_evidence": [
+      {
+        "span_id": 13403199071604894686,
+        "start": 2327,
+        "end": 2337,
+        "text": "A computer science course or instruction in computer science offered by a public school",
+        "chunk_id": 8633491784835245945
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16870831987057688526,
+        "start": 2327,
+        "end": 2337,
+        "text": "public school",
+        "chunk_id": 8633491784835245945
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14392538640558965163,
+        "start": 2338,
+        "end": 2350,
+        "text": "shall be offered through an in-person setting",
+        "chunk_id": 8633491784835245945
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14601916465825884632,
+        "start": 2338,
+        "end": 2350,
+        "text": "in-person setting",
+        "chunk_id": 8633491784835245945
+      }
+    ]
+  }
+]

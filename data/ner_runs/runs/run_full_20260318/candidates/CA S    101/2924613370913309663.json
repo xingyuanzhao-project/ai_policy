@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11878469741057872818,
+    "entity": "Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt",
+    "entity_evidence": [
+      {
+        "span_id": 3848763375416942470,
+        "start": 768850,
+        "end": 768870,
+        "text": "Department of Health Care Services",
+        "chunk_id": 2924613370913309663
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14776913677644936726,
+        "start": 768850,
+        "end": 768870,
+        "text": "government agency",
+        "chunk_id": 2924613370913309663
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 502851798085712522,
+        "start": 768850,
+        "end": 768870,
+        "text": "restriction",
+        "chunk_id": 2924613370913309663
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4060555641347472186,
+        "start": 768850,
+        "end": 768870,
+        "text": "exempt",
+        "chunk_id": 2924613370913309663
+      }
+    ]
+  },
+  {
+    "candidate_id": 15682130617945995390,
+    "entity": "DHCS",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt",
+    "entity_evidence": [
+      {
+        "span_id": 14362144024974048872,
+        "start": 768850,
+        "end": 768854,
+        "text": "DHCS",
+        "chunk_id": 2924613370913309663
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8150915186021597022,
+        "start": 768850,
+        "end": 768854,
+        "text": "government agency",
+        "chunk_id": 2924613370913309663
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17677993605790247821,
+        "start": 768850,
+        "end": 768854,
+        "text": "restriction",
+        "chunk_id": 2924613370913309663
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3767456885479049219,
+        "start": 768850,
+        "end": 768854,
+        "text": "exempt",
+        "chunk_id": 2924613370913309663
+      }
+    ]
+  }
+]

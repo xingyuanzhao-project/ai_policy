@@ -1,0 +1,76 @@
+{
+  "group_id": 14678234189181568666,
+  "candidate_ids": [
+    8504460523678313959,
+    6860275470948439378,
+    13805572193729513411
+  ],
+  "entity_relations": [
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ]
+  ],
+  "type_relations": [
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ]
+  ],
+  "attribute_relations": [
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ]
+  ],
+  "value_relations": [
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ],
+    [
+      "support",
+      "support",
+      "support"
+    ]
+  ]
+}

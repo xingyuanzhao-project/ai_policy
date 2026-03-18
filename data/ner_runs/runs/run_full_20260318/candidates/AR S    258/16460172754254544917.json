@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10528457309935923674,
+    "entity": "Arkansans",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "lack of protection",
+    "entity_evidence": [
+      {
+        "span_id": 2919012763138686739,
+        "start": 2233,
+        "end": 2241,
+        "text": "Arkansans",
+        "chunk_id": 16460172754254544917
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15889542201857132461,
+        "start": 2233,
+        "end": 2241,
+        "text": "Arkansans",
+        "chunk_id": 16460172754254544917
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1428937911477487900,
+        "start": 2233,
+        "end": 2241,
+        "text": "Arkansans",
+        "chunk_id": 16460172754254544917
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6613145492521115430,
+        "start": 2233,
+        "end": 2241,
+        "text": "Arkansans",
+        "chunk_id": 16460172754254544917
+      }
+    ]
+  },
+  {
+    "candidate_id": 5477737499095560015,
+    "entity": "personal information",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "meaningful and effective boundaries",
+    "entity_evidence": [
+      {
+        "span_id": 3576874094310967466,
+        "start": 2233,
+        "end": 2247,
+        "text": "personal information",
+        "chunk_id": 16460172754254544917
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9345453507986117104,
+        "start": 2233,
+        "end": 2247,
+        "text": "personal information",
+        "chunk_id": 16460172754254544917
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4192967438207917294,
+        "start": 2233,
+        "end": 2247,
+        "text": "personal information",
+        "chunk_id": 16460172754254544917
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6633932019299900080,
+        "start": 2233,
+        "end": 2247,
+        "text": "personal information",
+        "chunk_id": 16460172754254544917
+      }
+    ]
+  }
+]

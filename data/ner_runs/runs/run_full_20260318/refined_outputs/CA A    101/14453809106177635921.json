@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 17458962545540897816,
+    "source_group_id": 14453809106177635921,
+    "source_candidate_ids": [
+      1962303187257063084,
+      3640700520580399336
+    ],
+    "entity": "California Department of Aging",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15832225724285861673,
+        "start": 810771,
+        "end": 810795,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 12704971700401561652
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9025151141195033074,
+        "start": 810771,
+        "end": 810795,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 12704971700401561652
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9240339227339722336,
+        "start": 810771,
+        "end": 810795,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 12704971700401561652
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 158348902234947663,
+        "start": 810771,
+        "end": 810795,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 12704971700401561652
+      }
+    ]
+  }
+]

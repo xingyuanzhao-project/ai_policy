@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6753242684876584907,
+    "entity": "Health Insurance Portability and Accountability Act of 1996",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 705555585531112486,
+        "start": 20464,
+        "end": 20507,
+        "text": "Health Insurance Portability and Accountability Act of 1996",
+        "chunk_id": 12854503380134548799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10960704970007182876,
+        "start": 20464,
+        "end": 20507,
+        "text": "government agency",
+        "chunk_id": 12854503380134548799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15548740171604925540,
+        "start": 20464,
+        "end": 20507,
+        "text": "restriction",
+        "chunk_id": 12854503380134548799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5008070089654509555,
+        "start": 20464,
+        "end": 20507,
+        "text": "extremely restrictive",
+        "chunk_id": 12854503380134548799
+      }
+    ]
+  },
+  {
+    "candidate_id": 13395839685930123630,
+    "entity": "Fair Credit Reporting Act",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2099853510988363774,
+        "start": 20464,
+        "end": 20486,
+        "text": "Fair Credit Reporting Act",
+        "chunk_id": 12854503380134548799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14896311803664699789,
+        "start": 20464,
+        "end": 20486,
+        "text": "government agency",
+        "chunk_id": 12854503380134548799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9758297349610041705,
+        "start": 20464,
+        "end": 20486,
+        "text": "restriction",
+        "chunk_id": 12854503380134548799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13143915056512866487,
+        "start": 20464,
+        "end": 20486,
+        "text": "extremely restrictive",
+        "chunk_id": 12854503380134548799
+      }
+    ]
+  }
+]

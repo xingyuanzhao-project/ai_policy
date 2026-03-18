@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15506728460550397735,
+    "entity": "California Arts Council",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 7374587861628122013,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 260358049112878990,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7203201480850440700,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8089743429175358810,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ]
+  },
+  {
+    "candidate_id": 3062181288414264509,
+    "entity": "Historic State Capitol Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 5019590128924218111,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6125985677457481761,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7411969676072283334,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4750176818300181245,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8870643160045463640,
+    "source_group_id": 6448860441495692184,
+    "source_candidate_ids": [
+      8850132708420848740
+    ],
+    "entity": "Department of Insurance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 16647933056709518003,
+        "start": 208894,
+        "end": 208918,
+        "text": "For support of Department of Insurance",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3229062644530413664,
+        "start": 208894,
+        "end": 208918,
+        "text": "Department of Insurance",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8559898507561697063,
+        "start": 208894,
+        "end": 208918,
+        "text": "support",
+        "chunk_id": 6280990468972382717
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12128298927929877835,
+        "start": 208894,
+        "end": 208918,
+        "text": "partial",
+        "chunk_id": 6280990468972382717
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2419841376313443305,
+    "source_group_id": 1394945727036709656,
+    "source_candidate_ids": [
+      16011017171473632161
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "lesser period",
+    "entity_evidence": [
+      {
+        "span_id": 7431486436713497518,
+        "start": 1042897,
+        "end": 1042905,
+        "text": "a lesser period if requested by the department and approved by the chairperson or the chairperson's designee",
+        "chunk_id": 12056713495388086709
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1909407884728667378,
+        "start": 1042897,
+        "end": 1042905,
+        "text": "a lesser period if requested by the department and approved by the chairperson or the chairperson's designee",
+        "chunk_id": 12056713495388086709
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6975691060877533189,
+        "start": 1042897,
+        "end": 1042905,
+        "text": "a lesser period if requested by the department and approved by the chairperson or the chairperson's designee",
+        "chunk_id": 12056713495388086709
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1871641448173450508,
+        "start": 1042897,
+        "end": 1042905,
+        "text": "a lesser period if requested by the department and approved by the chairperson or the chairperson's designee",
+        "chunk_id": 12056713495388086709
+      }
+    ]
+  }
+]

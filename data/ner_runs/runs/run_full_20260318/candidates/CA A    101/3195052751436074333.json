@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2651196711557775288,
+    "entity": "Department of Health Care Access and Information",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15375983112827362423,
+        "start": 795398,
+        "end": 795418,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6274968322627427869,
+        "start": 795398,
+        "end": 795418,
+        "text": "government agency",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15948112701480899214,
+        "start": 795398,
+        "end": 795418,
+        "text": "restriction",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16599362100499752977,
+        "start": 795398,
+        "end": 795418,
+        "text": "limited",
+        "chunk_id": 3195052751436074333
+      }
+    ]
+  },
+  {
+    "candidate_id": 1602204781584403700,
+    "entity": "Centers for Medicare and Medicaid Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "operative",
+    "entity_evidence": [
+      {
+        "span_id": 4349091650778253247,
+        "start": 795398,
+        "end": 795418,
+        "text": "Centers for Medicare and Medicaid Services",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10529483286838701949,
+        "start": 795398,
+        "end": 795418,
+        "text": "government agency",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8423380413854105159,
+        "start": 795398,
+        "end": 795418,
+        "text": "restriction",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11203573945316811183,
+        "start": 795398,
+        "end": 795418,
+        "text": "operative",
+        "chunk_id": 3195052751436074333
+      }
+    ]
+  }
+]

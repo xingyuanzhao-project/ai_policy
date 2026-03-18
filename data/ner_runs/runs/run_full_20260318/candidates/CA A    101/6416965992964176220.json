@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12483840086955008039,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Section 28.00",
+    "entity_evidence": [
+      {
+        "span_id": 8629828980591620000,
+        "start": 141672,
+        "end": 141692,
+        "text": "Office of Emergency Services",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9345737505876095856,
+        "start": 141672,
+        "end": 141692,
+        "text": "Office of Emergency Services",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3422437745924365580,
+        "start": 141672,
+        "end": 141692,
+        "text": "Office of Emergency Services",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18187203258997787152,
+        "start": 141672,
+        "end": 141692,
+        "text": "exempt from Section 28.00",
+        "chunk_id": 6416965992964176220
+      }
+    ]
+  },
+  {
+    "candidate_id": 6244016464088120514,
+    "entity": "Federal Emergency Management Agency",
+    "type": "federal entity",
+    "attribute": "restriction",
+    "value": "without regard to the fiscal year",
+    "entity_evidence": [
+      {
+        "span_id": 8943342029151153030,
+        "start": 141783,
+        "end": 141804,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18363568725118496279,
+        "start": 141783,
+        "end": 141804,
+        "text": "federal entity",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5193431235805778185,
+        "start": 141783,
+        "end": 141804,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13942097589649387232,
+        "start": 141783,
+        "end": 141804,
+        "text": "without regard to the fiscal year",
+        "chunk_id": 6416965992964176220
+      }
+    ]
+  }
+]

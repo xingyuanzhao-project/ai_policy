@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14146163251074299292,
+    "entity": "air carrier",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4751563371406241605,
+        "start": 15053,
+        "end": 15063,
+        "text": "air carrier subject to the act",
+        "chunk_id": 2206229634250481675
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4398036122572472601,
+        "start": 15053,
+        "end": 15063,
+        "text": "air carrier subject to the act",
+        "chunk_id": 2206229634250481675
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8153753125548305048,
+        "start": 15053,
+        "end": 15063,
+        "text": "air carrier subject to the act",
+        "chunk_id": 2206229634250481675
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7171491586763981004,
+        "start": 15053,
+        "end": 15063,
+        "text": "air carrier subject to the act",
+        "chunk_id": 2206229634250481675
+      }
+    ]
+  },
+  {
+    "candidate_id": 5900126144408242065,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 581616317527811857,
+        "start": 15068,
+        "end": 15074,
+        "text": "Controllers and processors",
+        "chunk_id": 2206229634250481675
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1472044079924649022,
+        "start": 15068,
+        "end": 15074,
+        "text": "Controllers and processors",
+        "chunk_id": 2206229634250481675
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12212777267576914524,
+        "start": 15068,
+        "end": 15074,
+        "text": "Controllers and processors",
+        "chunk_id": 2206229634250481675
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9336715852553694333,
+        "start": 15068,
+        "end": 15074,
+        "text": "Controllers and processors",
+        "chunk_id": 2206229634250481675
+      }
+    ]
+  }
+]

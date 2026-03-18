@@ -1,0 +1,6 @@
+year,model,metric
+2021,GPT-2 (1.5B),6.90%
+2022,"GPT-4 model (w/ code, PAL)",51.80%
+2023,"GPT-4-code model (CSV, w/ code, SC, k=16)",84.30%
+2024,Gemini 2.0 Flash Experimental,89.70%
+2025,o3-mini high,97.90%

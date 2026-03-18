@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13013315570481864463,
+    "source_group_id": 12345667889443998250,
+    "source_candidate_ids": [
+      17687612117538501437
+    ],
+    "entity": "Inflation Reduction Act",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "consistent with general uses of the appropriated funds provided as match",
+    "entity_evidence": [
+      {
+        "span_id": 10925009946000274947,
+        "start": 1798514,
+        "end": 1798533,
+        "text": "Inflation Reduction Act",
+        "chunk_id": 16509032804574242195
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6279712208088006350,
+        "start": 1798514,
+        "end": 1798533,
+        "text": "technology",
+        "chunk_id": 16509032804574242195
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11773756525135770265,
+        "start": 1798514,
+        "end": 1798533,
+        "text": "promotion",
+        "chunk_id": 16509032804574242195
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2220665527001773007,
+        "start": 1798514,
+        "end": 1798533,
+        "text": "consistent with general uses of the appropriated funds provided as match",
+        "chunk_id": 16509032804574242195
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4423180076146911189,
+    "source_group_id": 8921006110933558093,
+    "source_candidate_ids": [
+      2516961645303580257
+    ],
+    "entity": "Child Welfare Services-California Automated Response and Engagement System",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support implementation of the foster care Tiered Rate Structure",
+    "entity_evidence": [
+      {
+        "span_id": 14440740317218576050,
+        "start": 1064428,
+        "end": 1064449,
+        "text": "Child Welfare Services-California Automated Response and Engagement System",
+        "chunk_id": 2287446638882053125
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16885607853784106048,
+        "start": 1064428,
+        "end": 1064449,
+        "text": "Child Welfare Services-California Automated Response and Engagement System",
+        "chunk_id": 2287446638882053125
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7679658205574417332,
+        "start": 1064428,
+        "end": 1064449,
+        "text": "Child Welfare Services-California Automated Response and Engagement System",
+        "chunk_id": 2287446638882053125
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6275177998156408109,
+        "start": 1064428,
+        "end": 1064449,
+        "text": "support implementation of the foster care Tiered Rate Structure",
+        "chunk_id": 2287446638882053125
+      }
+    ]
+  }
+]

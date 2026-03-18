@@ -1,0 +1,6 @@
+Model,Year,Average accuracy
+GPT-3.5,2022,53.20%
+Meditron-70B,2023,57.30%
+GPT-4,2023,68.10%
+Llama3-8B,2024,54.50%
+o1,2024,74.30%

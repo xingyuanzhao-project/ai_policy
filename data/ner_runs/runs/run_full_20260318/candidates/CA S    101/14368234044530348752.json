@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6084500031703434760,
+    "entity": "Governor's Office of Land Use and Climate Innovation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 5920367942103927939,
+        "start": 112639,
+        "end": 112669,
+        "text": "Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 14368234044530348752
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3461545931395855518,
+        "start": 112639,
+        "end": 112669,
+        "text": "government agency",
+        "chunk_id": 14368234044530348752
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10015633401265275769,
+        "start": 112639,
+        "end": 112669,
+        "text": "promotion",
+        "chunk_id": 14368234044530348752
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6800209071490191719,
+        "start": 112639,
+        "end": 112669,
+        "text": "support",
+        "chunk_id": 14368234044530348752
+      }
+    ]
+  },
+  {
+    "candidate_id": 969943057847849750,
+    "entity": "Labor and Workforce Development Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "loan",
+    "entity_evidence": [
+      {
+        "span_id": 16024845325911376826,
+        "start": 112610,
+        "end": 112628,
+        "text": "Labor and Workforce Development Fund",
+        "chunk_id": 14368234044530348752
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5603050977886453300,
+        "start": 112610,
+        "end": 112628,
+        "text": "infrastructure",
+        "chunk_id": 14368234044530348752
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16405600008430130739,
+        "start": 112610,
+        "end": 112628,
+        "text": "restriction",
+        "chunk_id": 14368234044530348752
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17690474387611343323,
+        "start": 112610,
+        "end": 112628,
+        "text": "loan",
+        "chunk_id": 14368234044530348752
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5601276361892105067,
+    "source_group_id": 9278436615197346644,
+    "source_candidate_ids": [
+      6908652629851937583
+    ],
+    "entity": "Department of Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 6543716100856524241,
+        "start": 987337,
+        "end": 987357,
+        "text": "Department of Rehabilitation",
+        "chunk_id": 8101412241295659240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10152451604213569492,
+        "start": 987337,
+        "end": 987357,
+        "text": "Department of Rehabilitation",
+        "chunk_id": 8101412241295659240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10327605886103673460,
+        "start": 987337,
+        "end": 987357,
+        "text": "Department of Rehabilitation",
+        "chunk_id": 8101412241295659240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15877733929199935550,
+        "start": 987337,
+        "end": 987357,
+        "text": "Department of Rehabilitation",
+        "chunk_id": 8101412241295659240
+      }
+    ]
+  }
+]

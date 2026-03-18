@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13090210621111010970,
+    "source_group_id": 10086341803012892395,
+    "source_candidate_ids": [
+      16564878816269454245
+    ],
+    "entity": "Marine Mammal Center",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "up to 5 percent",
+    "entity_evidence": [
+      {
+        "span_id": 4846960348649884615,
+        "start": 105135,
+        "end": 105145,
+        "text": "Marine Mammal Center",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10020480017459754541,
+        "start": 105135,
+        "end": 105145,
+        "text": "Marine Mammal Center",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6548751134541662756,
+        "start": 105135,
+        "end": 105145,
+        "text": "Marine Mammal Center",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7296625011355514012,
+        "start": 105135,
+        "end": 105145,
+        "text": "up to 5 percent",
+        "chunk_id": 16519069472987636878
+      }
+    ]
+  }
+]

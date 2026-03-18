@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 492467480158116664,
+    "source_group_id": 11354808360149339040,
+    "source_candidate_ids": [
+      960743665466509095
+    ],
+    "entity": "Secretary of State",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17473141036998816406,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4138366584506063010,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4003680046733173675,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15813156767805915383,
+        "start": 19500,
+        "end": 19520,
+        "text": "The mailing address where the applicant can be contacted by the Secretary of State,",
+        "chunk_id": 1688090300070595365
+      }
+    ]
+  }
+]

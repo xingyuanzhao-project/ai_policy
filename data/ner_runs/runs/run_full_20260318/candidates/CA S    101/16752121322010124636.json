@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5139761035649905706,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "same purposes as funds allocated for apportionments",
+    "entity_evidence": [
+      {
+        "span_id": 9632481049014114619,
+        "start": 1352271,
+        "end": 1352300,
+        "text": "The sum of $1,046,000 is hereby appropriated to the Board of Governors of the California Community Colleges for allocation to support the same purposes as funds allocated for apportionments",
+        "chunk_id": 16752121322010124636
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2080562657708446913,
+        "start": 1352271,
+        "end": 1352300,
+        "text": "The sum of $1,046,000 is hereby appropriated to the Board of Governors of the California Community Colleges for allocation to support the same purposes as funds allocated for apportionments",
+        "chunk_id": 16752121322010124636
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6184168257415636741,
+        "start": 1352271,
+        "end": 1352300,
+        "text": "The sum of $1,046,000 is hereby appropriated to the Board of Governors of the California Community Colleges for allocation to support the same purposes as funds allocated for apportionments",
+        "chunk_id": 16752121322010124636
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17339316103513242240,
+        "start": 1352271,
+        "end": 1352300,
+        "text": "The sum of $1,046,000 is hereby appropriated to the Board of Governors of the California Community Colleges for allocation to support the same purposes as funds allocated for apportionments",
+        "chunk_id": 16752121322010124636
+      }
+    ]
+  },
+  {
+    "candidate_id": 17682888778418381532,
+    "entity": "Student Success Completion Grant Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "unexpended balance",
+    "entity_evidence": [
+      {
+        "span_id": 2787903239747839935,
+        "start": 1352929,
+        "end": 1352949,
+        "text": "the unexpended balance of the amount appropriated for the Student Success Completion Grant Program",
+        "chunk_id": 16752121322010124636
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5510011603199069766,
+        "start": 1352929,
+        "end": 1352949,
+        "text": "the unexpended balance of the amount appropriated for the Student Success Completion Grant Program",
+        "chunk_id": 16752121322010124636
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12287140915676132180,
+        "start": 1352929,
+        "end": 1352949,
+        "text": "the unexpended balance of the amount appropriated for the Student Success Completion Grant Program",
+        "chunk_id": 16752121322010124636
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 566036467522979470,
+        "start": 1352929,
+        "end": 1352949,
+        "text": "the unexpended balance of the amount appropriated for the Student Success Completion Grant Program",
+        "chunk_id": 16752121322010124636
+      }
+    ]
+  }
+]

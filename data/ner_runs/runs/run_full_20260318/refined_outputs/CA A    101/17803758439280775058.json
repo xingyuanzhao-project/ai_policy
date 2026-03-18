@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9380625700614893787,
+    "source_group_id": 17803758439280775058,
+    "source_candidate_ids": [
+      18182668122437709851
+    ],
+    "entity": "Pooled Money Investment Account",
+    "type": "technology",
+    "attribute": "interest rate",
+    "value": "earned rate",
+    "entity_evidence": [
+      {
+        "span_id": 10635844645630586247,
+        "start": 771755,
+        "end": 771775,
+        "text": "no later than June 30, 2032.",
+        "chunk_id": 7439021709333937805
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7539399252316751447,
+        "start": 771755,
+        "end": 771775,
+        "text": "no later than June 30, 2032.",
+        "chunk_id": 7439021709333937805
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3879404813401390426,
+        "start": 771755,
+        "end": 771775,
+        "text": "no later than June 30, 2032.",
+        "chunk_id": 7439021709333937805
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1221212998014021866,
+        "start": 771755,
+        "end": 771775,
+        "text": "no later than June 30, 2032.",
+        "chunk_id": 7439021709333937805
+      }
+    ]
+  }
+]

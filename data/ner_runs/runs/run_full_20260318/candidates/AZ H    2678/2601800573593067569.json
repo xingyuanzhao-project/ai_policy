@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5529153161725561440,
+    "entity": "person",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "until the sentence imposed by the court has been served",
+    "entity_evidence": [
+      {
+        "span_id": 3683563784395635672,
+        "start": 9744,
+        "end": 9749,
+        "text": "person",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2948031307651378739,
+        "start": 9750,
+        "end": 9754,
+        "text": "individual",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7849472895731111567,
+        "start": 9755,
+        "end": 9764,
+        "text": "restriction",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8455421724799644586,
+        "start": 9765,
+        "end": 9787,
+        "text": "until the sentence imposed by the court has been served",
+        "chunk_id": 2601800573593067569
+      }
+    ]
+  },
+  {
+    "candidate_id": 7754697906196702149,
+    "entity": "sentence",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "consecutive",
+    "entity_evidence": [
+      {
+        "span_id": 1075582646683209792,
+        "start": 9788,
+        "end": 9795,
+        "text": "sentence",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17016384699335192497,
+        "start": 9796,
+        "end": 9806,
+        "text": "infrastructure",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3776731981983049104,
+        "start": 9807,
+        "end": 9817,
+        "text": "restriction",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2154681326160165659,
+        "start": 9818,
+        "end": 9824,
+        "text": "consecutive",
+        "chunk_id": 2601800573593067569
+      }
+    ]
+  }
+]

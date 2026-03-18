@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18261200943561655748,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 16084328595496588467,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "University of California",
+        "chunk_id": 4087163891074518088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9600148619893328520,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "University of California",
+        "chunk_id": 4087163891074518088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16065412132484799459,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "University of California",
+        "chunk_id": 4087163891074518088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8056062543080344581,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "University of California",
+        "chunk_id": 4087163891074518088
+      }
+    ]
+  },
+  {
+    "candidate_id": 12814866353510591840,
+    "entity": "California Federation of Labor",
+    "type": "organization",
+    "attribute": "promotion",
+    "value": "representation",
+    "entity_evidence": [
+      {
+        "span_id": 13706428306309540145,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "California Federation of Labor",
+        "chunk_id": 4087163891074518088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8173269590235468236,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "California Federation of Labor",
+        "chunk_id": 4087163891074518088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6124637540094536507,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "California Federation of Labor",
+        "chunk_id": 4087163891074518088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3222885577308830021,
+        "start": 1237745,
+        "end": 1237765,
+        "text": "California Federation of Labor",
+        "chunk_id": 4087163891074518088
+      }
+    ]
+  }
+]

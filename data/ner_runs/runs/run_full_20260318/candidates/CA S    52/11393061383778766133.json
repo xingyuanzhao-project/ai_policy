@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11828920550579027689,
+    "entity": "algorithmic pricing software",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "ban",
+    "entity_evidence": [
+      {
+        "span_id": 7496477066517175694,
+        "start": 0,
+        "end": 24,
+        "text": "algorithmic pricing software",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13354700936112780033,
+        "start": 0,
+        "end": 24,
+        "text": "technology",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13954984013613731202,
+        "start": 0,
+        "end": 24,
+        "text": "restriction",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16688216036392881036,
+        "start": 0,
+        "end": 24,
+        "text": "ban",
+        "chunk_id": 11393061383778766133
+      }
+    ]
+  },
+  {
+    "candidate_id": 3274214963490942802,
+    "entity": "rental pricing algorithm",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "unlawful",
+    "entity_evidence": [
+      {
+        "span_id": 677239288938463842,
+        "start": 0,
+        "end": 20,
+        "text": "rental pricing algorithm",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1664467360524350471,
+        "start": 0,
+        "end": 20,
+        "text": "technology",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4244650402725773662,
+        "start": 0,
+        "end": 20,
+        "text": "restriction",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5957118718215616216,
+        "start": 0,
+        "end": 20,
+        "text": "unlawful",
+        "chunk_id": 11393061383778766133
+      }
+    ]
+  }
+]

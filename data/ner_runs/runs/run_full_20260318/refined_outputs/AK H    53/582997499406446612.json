@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16192575928436367047,
+    "source_group_id": 582997499406446612,
+    "source_candidate_ids": [
+      1771259618960768380
+    ],
+    "entity": "University of Alaska",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "salary and benefit adjustments",
+    "entity_evidence": [
+      {
+        "span_id": 8910664189746910735,
+        "start": 162342,
+        "end": 162358,
+        "text": "University of Alaska",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8374883530707455893,
+        "start": 162342,
+        "end": 162358,
+        "text": "University of Alaska",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5444886173380865240,
+        "start": 162359,
+        "end": 162374,
+        "text": "salary and benefit adjustments",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17063174569283564612,
+        "start": 162359,
+        "end": 162374,
+        "text": "salary and benefit adjustments",
+        "chunk_id": 4711754583554647974
+      }
+    ]
+  }
+]

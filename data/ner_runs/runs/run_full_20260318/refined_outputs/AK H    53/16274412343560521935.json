@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6425025714093948654,
+    "source_group_id": 16274412343560521935,
+    "source_candidate_ids": [
+      191359170919253574
+    ],
+    "entity": "Department of Commerce, Community and Economic Development",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "30,000",
+    "entity_evidence": [
+      {
+        "span_id": 5763240401440150510,
+        "start": 84301,
+        "end": 84321,
+        "text": "Department of Commerce, Community and Economic Development",
+        "chunk_id": 1197710848658975225
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9436261573244441295,
+        "start": 84301,
+        "end": 84321,
+        "text": "Department of Commerce, Community and Economic Development",
+        "chunk_id": 1197710848658975225
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17778817923520798233,
+        "start": 84301,
+        "end": 84321,
+        "text": "Department of Commerce, Community and Economic Development",
+        "chunk_id": 1197710848658975225
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7617103678652865418,
+        "start": 84301,
+        "end": 84321,
+        "text": "Department of Commerce, Community and Economic Development",
+        "chunk_id": 1197710848658975225
+      }
+    ]
+  }
+]

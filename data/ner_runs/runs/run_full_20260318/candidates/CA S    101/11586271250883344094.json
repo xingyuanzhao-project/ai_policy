@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16258040287059354286,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2423304888363399216,
+        "start": 598155,
+        "end": 598175,
+        "text": "The Department of Water Resources",
+        "chunk_id": 11586271250883344094
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11817917126846838969,
+        "start": 598155,
+        "end": 598175,
+        "text": "The Department of Water Resources",
+        "chunk_id": 11586271250883344094
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5014161515831328549,
+        "start": 598155,
+        "end": 598175,
+        "text": "The Department of Water Resources",
+        "chunk_id": 11586271250883344094
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5281443474063045336,
+        "start": 598155,
+        "end": 598175,
+        "text": "The Department of Water Resources",
+        "chunk_id": 11586271250883344094
+      }
+    ]
+  },
+  {
+    "candidate_id": 1041919353957773363,
+    "entity": "Water Resources Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 3047092732649933745,
+        "start": 598155,
+        "end": 598175,
+        "text": "Water Resources Revolving Fund",
+        "chunk_id": 11586271250883344094
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5706083258326439573,
+        "start": 598155,
+        "end": 598175,
+        "text": "Water Resources Revolving Fund",
+        "chunk_id": 11586271250883344094
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10883763294888777272,
+        "start": 598155,
+        "end": 598175,
+        "text": "Water Resources Revolving Fund",
+        "chunk_id": 11586271250883344094
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5583875262448510920,
+        "start": 598155,
+        "end": 598175,
+        "text": "Water Resources Revolving Fund",
+        "chunk_id": 11586271250883344094
+      }
+    ]
+  }
+]

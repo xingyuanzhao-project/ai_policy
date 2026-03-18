@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15281076471032072515,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "annual report submission",
+    "entity_evidence": [
+      {
+        "span_id": 2068442657224815671,
+        "start": 988573,
+        "end": 988603,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 9252447836094233547
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6994146365710808984,
+        "start": 988573,
+        "end": 988603,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 9252447836094233547
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5803662593716604586,
+        "start": 988573,
+        "end": 988603,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 9252447836094233547
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 609203528154019329,
+        "start": 988573,
+        "end": 988603,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 9252447836094233547
+      }
+    ]
+  },
+  {
+    "candidate_id": 7527534803993281499,
+    "entity": "Air Cooling Pilot Program",
+    "type": "technology",
+    "attribute": "funding",
+    "value": "$17,567,000",
+    "entity_evidence": [
+      {
+        "span_id": 6940688406203309304,
+        "start": 988883,
+        "end": 988898,
+        "text": "the Air Cooling Pilot Program",
+        "chunk_id": 9252447836094233547
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16698505652599714382,
+        "start": 988883,
+        "end": 988898,
+        "text": "the Air Cooling Pilot Program",
+        "chunk_id": 9252447836094233547
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10698651600593616638,
+        "start": 988883,
+        "end": 988898,
+        "text": "the Air Cooling Pilot Program",
+        "chunk_id": 9252447836094233547
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16294360350569593042,
+        "start": 988883,
+        "end": 988898,
+        "text": "the Air Cooling Pilot Program",
+        "chunk_id": 9252447836094233547
+      }
+    ]
+  }
+]

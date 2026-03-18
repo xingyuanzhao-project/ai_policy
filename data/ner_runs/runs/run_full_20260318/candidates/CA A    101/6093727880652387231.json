@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18384655864843223375,
+    "entity": "Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14775288550652760106,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5882566336055684795,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12399277032122368566,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5478314498912749623,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ]
+  },
+  {
+    "candidate_id": 3373021805053253866,
+    "entity": "General Fund",
+    "type": "government fund",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4319531224947202021,
+        "start": 1039901,
+        "end": 1039913,
+        "text": "General Fund",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6880049863364988051,
+        "start": 1039901,
+        "end": 1039913,
+        "text": "General Fund",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10881440095692741930,
+        "start": 1039901,
+        "end": 1039913,
+        "text": "General Fund",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1707168619564542670,
+        "start": 1039901,
+        "end": 1039913,
+        "text": "General Fund",
+        "chunk_id": 6093727880652387231
+      }
+    ]
+  }
+]

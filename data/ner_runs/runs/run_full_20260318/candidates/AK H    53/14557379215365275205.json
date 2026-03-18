@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17288268473253420311,
+    "entity": "Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expansion of service provision",
+    "entity_evidence": [
+      {
+        "span_id": 14237521254112838536,
+        "start": 28748,
+        "end": 28752,
+        "text": "Department",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16361720778633337855,
+        "start": 28748,
+        "end": 28754,
+        "text": "Department direct grantees",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15711485034758418785,
+        "start": 28755,
+        "end": 28765,
+        "text": "expand service provision",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10669279840363822408,
+        "start": 28755,
+        "end": 28765,
+        "text": "expand service provision from children with a 50 percent or more delay",
+        "chunk_id": 14557379215365275205
+      }
+    ]
+  },
+  {
+    "candidate_id": 16168309719245637528,
+    "entity": "Department of Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "implementation of rates",
+    "entity_evidence": [
+      {
+        "span_id": 7087152778216979266,
+        "start": 29659,
+        "end": 29665,
+        "text": "Department of Health",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12325050211444413982,
+        "start": 29659,
+        "end": 29667,
+        "text": "Department of Health completes",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9972248350284401492,
+        "start": 29668,
+        "end": 29678,
+        "text": "implements rates to cover the true cost",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16283074710334196355,
+        "start": 29668,
+        "end": 29678,
+        "text": "implements rates to cover the true cost of delivering all behavioral health services",
+        "chunk_id": 14557379215365275205
+      }
+    ]
+  }
+]

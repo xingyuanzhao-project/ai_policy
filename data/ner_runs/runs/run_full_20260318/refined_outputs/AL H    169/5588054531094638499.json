@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7129454918710936978,
+    "source_group_id": 5588054531094638499,
+    "source_candidate_ids": [
+      16458883694902812606
+    ],
+    "entity": "Alabama Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "performance-based awards",
+    "entity_evidence": [
+      {
+        "span_id": 17876187506023751754,
+        "start": 85194,
+        "end": 85211,
+        "text": "Health, Department of Public",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8830884516638369306,
+        "start": 85194,
+        "end": 85211,
+        "text": "Health, Department of Public",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12965945489252521077,
+        "start": 85291,
+        "end": 85311,
+        "text": "performance-based awards",
+        "chunk_id": 18027000573889988015
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17100765375529779496,
+        "start": 85291,
+        "end": 85311,
+        "text": "performance-based awards",
+        "chunk_id": 18027000573889988015
+      }
+    ]
+  }
+]

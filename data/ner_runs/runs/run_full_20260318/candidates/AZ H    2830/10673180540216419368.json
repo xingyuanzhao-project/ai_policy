@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1471729495145566342,
+    "entity": "Attorney General",
+    "type": "Government Agency",
+    "attribute": "Restriction",
+    "value": "Disqualified",
+    "entity_evidence": [
+      {
+        "span_id": 14444903915114574202,
+        "start": 6546,
+        "end": 6559,
+        "text": "that the attorney general",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1994705245240973156,
+        "start": 6560,
+        "end": 6569,
+        "text": "the attorney general",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18128402821193595868,
+        "start": 6570,
+        "end": 6577,
+        "text": "from providing judicial or quasi-judicial legal representation",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11740344318853224617,
+        "start": 6578,
+        "end": 6585,
+        "text": "in relation to any particular matter",
+        "chunk_id": 10673180540216419368
+      }
+    ]
+  },
+  {
+    "candidate_id": 14912760189591307265,
+    "entity": "Director of the Department of Agriculture",
+    "type": "Government Agency",
+    "attribute": "Restriction",
+    "value": "Disqualified",
+    "entity_evidence": [
+      {
+        "span_id": 17915277261056264833,
+        "start": 6546,
+        "end": 6570,
+        "text": "the director of the department of agriculture",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18421707106058107224,
+        "start": 6571,
+        "end": 6580,
+        "text": "the director of the department of agriculture",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12675683131592002979,
+        "start": 6581,
+        "end": 6588,
+        "text": "cannot agree on the final disposition of a pesticide complaint",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9208803890436697554,
+        "start": 6589,
+        "end": 6596,
+        "text": "under section 3-368",
+        "chunk_id": 10673180540216419368
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13438968271168392568,
+    "source_group_id": 10999697653536341572,
+    "source_candidate_ids": [
+      11995358747368596059
+    ],
+    "entity": "Alabama Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 15465800908333179719,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18373656958264285371,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7129158083921720321,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9486075893259289978,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ]
+  }
+]

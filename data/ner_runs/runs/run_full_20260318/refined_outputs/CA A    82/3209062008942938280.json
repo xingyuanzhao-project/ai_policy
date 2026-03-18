@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17135290596897289230,
+    "source_group_id": 3209062008942938280,
+    "source_candidate_ids": [
+      699823338483943570
+    ],
+    "entity": "Secretary of State",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "protection from liability",
+    "entity_evidence": [
+      {
+        "span_id": 4890253248242917777,
+        "start": 16950,
+        "end": 16964,
+        "text": "Secretary of State",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1970456490792808988,
+        "start": 16950,
+        "end": 16964,
+        "text": "government agency",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7486741582395366398,
+        "start": 16964,
+        "end": 16974,
+        "text": "restriction",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9506197581167799437,
+        "start": 16974,
+        "end": 16988,
+        "text": "protection from liability",
+        "chunk_id": 4290995824880085066
+      }
+    ]
+  }
+]

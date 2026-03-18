@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17007505168873095954,
+    "source_group_id": 13754407309752117292,
+    "source_candidate_ids": [
+      1863362417800958058
+    ],
+    "entity": "State Board of Election Commissioners",
+    "type": "government agency",
+    "attribute": "penalty",
+    "value": "up to $10,000",
+    "entity_evidence": [
+      {
+        "span_id": 8469427814121296767,
+        "start": 2524,
+        "end": 2545,
+        "text": "State Board of Election Commissioners",
+        "chunk_id": 9310132133032447434
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10826092162933920817,
+        "start": 2546,
+        "end": 2555,
+        "text": "government agency",
+        "chunk_id": 9310132133032447434
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7649196300643524980,
+        "start": 2556,
+        "end": 2563,
+        "text": "penalty",
+        "chunk_id": 9310132133032447434
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2424388703554136219,
+        "start": 2564,
+        "end": 2572,
+        "text": "up to $10,000",
+        "chunk_id": 9310132133032447434
+      }
+    ]
+  }
+]

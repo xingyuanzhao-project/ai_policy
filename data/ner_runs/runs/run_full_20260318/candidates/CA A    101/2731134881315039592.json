@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8700182243650144822,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "increase by 20.3 percent",
+    "entity_evidence": [
+      {
+        "span_id": 13578229035127316399,
+        "start": 889447,
+        "end": 889467,
+        "text": "The General Fund fees of the department that are subject to the annual fee adjustment pursuant to subdivision (a) of Section 100425 of the Health and Safety Code shall be increased by 20.3 percent.",
+        "chunk_id": 2731134881315039592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15891840245223498986,
+        "start": 889447,
+        "end": 889467,
+        "text": "The General Fund fees of the department that are subject to the annual fee adjustment pursuant to subdivision (a) of Section 100425 of the Health and Safety Code shall be increased by 20.3 percent.",
+        "chunk_id": 2731134881315039592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12074982565777140943,
+        "start": 889447,
+        "end": 889467,
+        "text": "The General Fund fees of the department that are subject to the annual fee adjustment pursuant to subdivision (a) of Section 100425 of the Health and Safety Code shall be increased by 20.3 percent.",
+        "chunk_id": 2731134881315039592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16552850963274620470,
+        "start": 889447,
+        "end": 889467,
+        "text": "The General Fund fees of the department that are subject to the annual fee adjustment pursuant to subdivision (a) of Section 100425 of the Health and Safety Code shall be increased by 20.3 percent.",
+        "chunk_id": 2731134881315039592
+      }
+    ]
+  },
+  {
+    "candidate_id": 7685007938190738842,
+    "entity": "Uniform Anatomical Gift Act",
+    "type": "technology",
+    "attribute": "limitation",
+    "value": "actual fees collected from tissue banks",
+    "entity_evidence": [
+      {
+        "span_id": 17223553441799145013,
+        "start": 889558,
+        "end": 889577,
+        "text": "The State Department of Public Health shall limit expenditures in this item to implement the Uniform Anatomical Gift Act (Chapter 3.5 (commencing with Section 7150) of Part 1 of Division 7 of the Health and Safety Code) to the amount of actual fees collected from tissue banks.",
+        "chunk_id": 2731134881315039592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9545006275910814095,
+        "start": 889558,
+        "end": 889577,
+        "text": "The State Department of Public Health shall limit expenditures in this item to implement the Uniform Anatomical Gift Act (Chapter 3.5 (commencing with Section 7150) of Part 1 of Division 7 of the Health and Safety Code) to the amount of actual fees collected from tissue banks.",
+        "chunk_id": 2731134881315039592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16687487891215655283,
+        "start": 889558,
+        "end": 889577,
+        "text": "The State Department of Public Health shall limit expenditures in this item to implement the Uniform Anatomical Gift Act (Chapter 3.5 (commencing with Section 7150) of Part 1 of Division 7 of the Health and Safety Code) to the amount of actual fees collected from tissue banks.",
+        "chunk_id": 2731134881315039592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8632696914621382269,
+        "start": 889558,
+        "end": 889577,
+        "text": "The State Department of Public Health shall limit expenditures in this item to implement the Uniform Anatomical Gift Act (Chapter 3.5 (commencing with Section 7150) of Part 1 of Division 7 of the Health and Safety Code) to the amount of actual fees collected from tissue banks.",
+        "chunk_id": 2731134881315039592
+      }
+    ]
+  }
+]

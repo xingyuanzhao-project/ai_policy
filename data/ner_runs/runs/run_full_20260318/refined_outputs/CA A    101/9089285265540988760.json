@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15435916232226887408,
+    "source_group_id": 9089285265540988760,
+    "source_candidate_ids": [
+      6471271197871310121
+    ],
+    "entity": "Veterans' Home of California",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "replacement of equipment and furnishings",
+    "entity_evidence": [
+      {
+        "span_id": 2970777444473401146,
+        "start": 1692060,
+        "end": 1692076,
+        "text": "Veterans' Home of California",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16907403019325632304,
+        "start": 1692060,
+        "end": 1692076,
+        "text": "Veterans' Home of California",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13306544704931858695,
+        "start": 1692077,
+        "end": 1692094,
+        "text": "replacement of equipment and furnishings",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17845505307407943956,
+        "start": 1692077,
+        "end": 1692094,
+        "text": "replacement of equipment and furnishings",
+        "chunk_id": 11567772065770167286
+      }
+    ]
+  }
+]

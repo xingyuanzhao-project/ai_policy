@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 764235502772062871,
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent with paragraph (3) of subdivision (a) of Section 80100 of the Public Resources Code",
+    "entity_evidence": [
+      {
+        "span_id": 5265075990879564168,
+        "start": 523707,
+        "end": 523728,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 11214730967276154869
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14963693943930181950,
+        "start": 523707,
+        "end": 523728,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 11214730967276154869
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15900286049366442144,
+        "start": 523729,
+        "end": 523757,
+        "text": "consistent with paragraph (3) of subdivision (a) of Section 80100 of the Public Resources Code",
+        "chunk_id": 11214730967276154869
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1129917750127344417,
+        "start": 523729,
+        "end": 523757,
+        "text": "consistent with paragraph (3) of subdivision (a) of Section 80100 of the Public Resources Code",
+        "chunk_id": 11214730967276154869
+      }
+    ]
+  },
+  {
+    "candidate_id": 2807726887319825408,
+    "entity": "Habitat Conservation Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent with the requirements of the Habitat Conservation Fund",
+    "entity_evidence": [
+      {
+        "span_id": 2623315080878822529,
+        "start": 524007,
+        "end": 524026,
+        "text": "Habitat Conservation Fund",
+        "chunk_id": 11214730967276154869
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2082418573617304155,
+        "start": 524007,
+        "end": 524026,
+        "text": "Habitat Conservation Fund",
+        "chunk_id": 11214730967276154869
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13577495472866239509,
+        "start": 524027,
+        "end": 524049,
+        "text": "consistent with the requirements of the Habitat Conservation Fund",
+        "chunk_id": 11214730967276154869
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10846782553908662976,
+        "start": 524027,
+        "end": 524049,
+        "text": "consistent with the requirements of the Habitat Conservation Fund",
+        "chunk_id": 11214730967276154869
+      }
+    ]
+  }
+]

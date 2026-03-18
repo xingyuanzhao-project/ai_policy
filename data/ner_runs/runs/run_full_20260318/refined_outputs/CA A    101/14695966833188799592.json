@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16556544828301747581,
+    "source_group_id": 14695966833188799592,
+    "source_candidate_ids": [
+      8186049021200259743
+    ],
+    "entity": "Federally Qualified Health Centers",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 6725569250930492118,
+        "start": 823970,
+        "end": 823989,
+        "text": "Federally Qualified Health Centers",
+        "chunk_id": 18297409363356346487
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10131866927417738694,
+        "start": 823970,
+        "end": 823989,
+        "text": "Federally Qualified Health Centers",
+        "chunk_id": 18297409363356346487
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14370505045754198135,
+        "start": 823970,
+        "end": 823989,
+        "text": "Federally Qualified Health Centers",
+        "chunk_id": 18297409363356346487
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14966536365727208123,
+        "start": 823970,
+        "end": 823989,
+        "text": "Federally Qualified Health Centers",
+        "chunk_id": 18297409363356346487
+      }
+    ]
+  }
+]

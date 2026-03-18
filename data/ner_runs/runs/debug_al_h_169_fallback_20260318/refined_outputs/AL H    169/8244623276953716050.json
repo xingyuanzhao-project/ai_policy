@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7098815563445665608,
+    "source_group_id": 8244623276953716050,
+    "source_candidate_ids": [
+      5073905595829062562
+    ],
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidance",
+    "entity_evidence": [
+      {
+        "span_id": 18058408585613496600,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15001675199199700198,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11616047660302481641,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10198844293723760151,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ]
+  }
+]

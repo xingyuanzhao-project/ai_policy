@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9262053001457668007,
+    "source_group_id": 12898711230182327411,
+    "source_candidate_ids": [
+      5040564709135545762
+    ],
+    "entity": "California Student Aid Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "guidance for planning award amounts",
+    "entity_evidence": [
+      {
+        "span_id": 4231322916433723880,
+        "start": 1461944,
+        "end": 1461962,
+        "text": "provide the California Student Aid Commission guidance",
+        "chunk_id": 14058013368176729131
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16557276421587694232,
+        "start": 1461944,
+        "end": 1461962,
+        "text": "provide the California Student Aid Commission guidance",
+        "chunk_id": 14058013368176729131
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11845667903913318058,
+        "start": 1461944,
+        "end": 1461962,
+        "text": "provide the California Student Aid Commission guidance",
+        "chunk_id": 14058013368176729131
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1776347998329667297,
+        "start": 1461944,
+        "end": 1461962,
+        "text": "provide the California Student Aid Commission guidance",
+        "chunk_id": 14058013368176729131
+      }
+    ]
+  }
+]

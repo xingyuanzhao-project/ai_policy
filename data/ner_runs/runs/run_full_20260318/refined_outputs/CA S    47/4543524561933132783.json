@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 641348743331601410,
+    "source_group_id": 4543524561933132783,
+    "source_candidate_ids": [
+      11923440731846295307,
+      10634049900793112011
+    ],
+    "entity": "State Bar",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 16876774651562952244,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12610310914087389131,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16686231860574224194,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15412576318857221450,
+        "start": 5016,
+        "end": 5023,
+        "text": "The State Bar",
+        "chunk_id": 17122419390587296862
+      }
+    ]
+  }
+]

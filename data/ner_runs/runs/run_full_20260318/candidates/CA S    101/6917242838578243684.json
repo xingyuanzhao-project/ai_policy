@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11651705143370197328,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notwithstanding any other law",
+    "entity_evidence": [
+      {
+        "span_id": 8270973755362689340,
+        "start": 1195716,
+        "end": 1195736,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 6917242838578243684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14627745837057879640,
+        "start": 1195716,
+        "end": 1195736,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 6917242838578243684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2762256212517111946,
+        "start": 1195716,
+        "end": 1195736,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 6917242838578243684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17511172174342894168,
+        "start": 1195716,
+        "end": 1195736,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 6917242838578243684
+      }
+    ]
+  },
+  {
+    "candidate_id": 6702306557696996770,
+    "entity": "Special Education Program for Individuals with Exceptional Needs",
+    "type": "program",
+    "attribute": "reappropriation",
+    "value": "$200,000 or whatever greater or lesser amount",
+    "entity_evidence": [
+      {
+        "span_id": 11511893666996137931,
+        "start": 1195838,
+        "end": 1195866,
+        "text": "Special Education Program for Individuals with Exceptional Needs",
+        "chunk_id": 6917242838578243684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5016652515360639103,
+        "start": 1195838,
+        "end": 1195866,
+        "text": "Special Education Program for Individuals with Exceptional Needs",
+        "chunk_id": 6917242838578243684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18355192017241014943,
+        "start": 1195838,
+        "end": 1195866,
+        "text": "Special Education Program for Individuals with Exceptional Needs",
+        "chunk_id": 6917242838578243684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12376949933944039844,
+        "start": 1195838,
+        "end": 1195866,
+        "text": "Special Education Program for Individuals with Exceptional Needs",
+        "chunk_id": 6917242838578243684
+      }
+    ]
+  }
+]

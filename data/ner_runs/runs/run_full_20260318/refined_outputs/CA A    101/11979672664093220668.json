@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10076514594104021585,
+    "source_group_id": 11979672664093220668,
+    "source_candidate_ids": [
+      15487218789153242576
+    ],
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "ongoing annual funding",
+    "entity_evidence": [
+      {
+        "span_id": 7243195714951216918,
+        "start": 1403719,
+        "end": 1403741,
+        "text": "California Community Colleges",
+        "chunk_id": 8815340001986107866
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4581601172218581161,
+        "start": 1403719,
+        "end": 1403741,
+        "text": "California Community Colleges",
+        "chunk_id": 8815340001986107866
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11548895458098786730,
+        "start": 1403742,
+        "end": 1403753,
+        "text": "award each MESA program ongoing annual funding",
+        "chunk_id": 8815340001986107866
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15083472377024326322,
+        "start": 1403754,
+        "end": 1403762,
+        "text": "ongoing annual funding",
+        "chunk_id": 8815340001986107866
+      }
+    ]
+  }
+]

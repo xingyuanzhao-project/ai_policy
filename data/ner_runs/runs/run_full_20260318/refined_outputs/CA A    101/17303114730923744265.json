@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16408755465614838222,
+    "source_group_id": 17303114730923744265,
+    "source_candidate_ids": [
+      14253985035443265062
+    ],
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 3483851461445482128,
+        "start": 375199,
+        "end": 375222,
+        "text": "Department of Transportation",
+        "chunk_id": 3880660903114308698
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 974187879109593908,
+        "start": 375199,
+        "end": 375222,
+        "text": "Department of Transportation",
+        "chunk_id": 3880660903114308698
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11593750033684158803,
+        "start": 375223,
+        "end": 375238,
+        "text": "until June 30, 2027",
+        "chunk_id": 3880660903114308698
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11287403940965186225,
+        "start": 375223,
+        "end": 375238,
+        "text": "until June 30, 2027",
+        "chunk_id": 3880660903114308698
+      }
+    ]
+  }
+]

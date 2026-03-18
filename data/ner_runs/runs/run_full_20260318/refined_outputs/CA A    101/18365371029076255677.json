@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10638513685224837622,
+    "source_group_id": 18365371029076255677,
+    "source_candidate_ids": [
+      5127738442256142068
+    ],
+    "entity": "CalFresh Fruit and Vegetable Pilot Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "one-time",
+    "entity_evidence": [
+      {
+        "span_id": 12978155415311996248,
+        "start": 1027083,
+        "end": 1027103,
+        "text": "CalFresh Fruit and Vegetable Pilot Program",
+        "chunk_id": 4807641421576753630
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12982916688919275980,
+        "start": 1027083,
+        "end": 1027103,
+        "text": "program",
+        "chunk_id": 4807641421576753630
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17209239633420988129,
+        "start": 1027083,
+        "end": 1027103,
+        "text": "promotion",
+        "chunk_id": 4807641421576753630
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17434493328120539396,
+        "start": 1027083,
+        "end": 1027103,
+        "text": "one-time",
+        "chunk_id": 4807641421576753630
+      }
+    ]
+  }
+]

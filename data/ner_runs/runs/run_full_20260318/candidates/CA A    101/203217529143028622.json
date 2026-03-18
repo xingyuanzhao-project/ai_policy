@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2977257582782710864,
+    "entity": "California State University",
+    "type": "infrastructure",
+    "attribute": "exemption",
+    "value": "continuous appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 2560758051817531469,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "California State University",
+        "chunk_id": 203217529143028622
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18161113098777769266,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "infrastructure",
+        "chunk_id": 203217529143028622
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1232275339894531185,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "exemption",
+        "chunk_id": 203217529143028622
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16438711692244252189,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "continuous appropriation",
+        "chunk_id": 203217529143028622
+      }
+    ]
+  },
+  {
+    "candidate_id": 8596490357286640827,
+    "entity": "local government",
+    "type": "infrastructure",
+    "attribute": "exemption",
+    "value": "continuous appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 6231477962254858167,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "local government",
+        "chunk_id": 203217529143028622
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4225979353498825277,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "infrastructure",
+        "chunk_id": 203217529143028622
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14752487580831631943,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "exemption",
+        "chunk_id": 203217529143028622
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10398620718825785845,
+        "start": 1852375,
+        "end": 1852396,
+        "text": "continuous appropriation",
+        "chunk_id": 203217529143028622
+      }
+    ]
+  }
+]

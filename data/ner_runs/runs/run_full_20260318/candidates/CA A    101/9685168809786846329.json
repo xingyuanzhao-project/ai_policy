@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10251518241254555194,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not expend more than $1,528,000",
+    "entity_evidence": [
+      {
+        "span_id": 16666344344705406698,
+        "start": 1155423,
+        "end": 1155443,
+        "text": "State Department of Education",
+        "chunk_id": 9685168809786846329
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9131733088570275651,
+        "start": 1155423,
+        "end": 1155443,
+        "text": "government agency",
+        "chunk_id": 9685168809786846329
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11620820811028713172,
+        "start": 1155423,
+        "end": 1155443,
+        "text": "not expend more than",
+        "chunk_id": 9685168809786846329
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18053097450197690296,
+        "start": 1155423,
+        "end": 1155443,
+        "text": "$1,528,000",
+        "chunk_id": 9685168809786846329
+      }
+    ]
+  },
+  {
+    "candidate_id": 15510730661942696030,
+    "entity": "Schoolbus Driver Instructor Training program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support of the Schoolbus Driver Instructor Training program",
+    "entity_evidence": [
+      {
+        "span_id": 7314011273017755357,
+        "start": 1155445,
+        "end": 1155465,
+        "text": "Schoolbus Driver Instructor Training program",
+        "chunk_id": 9685168809786846329
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17088995206133563358,
+        "start": 1155445,
+        "end": 1155465,
+        "text": "technology",
+        "chunk_id": 9685168809786846329
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1952155245931592493,
+        "start": 1155445,
+        "end": 1155465,
+        "text": "support of the",
+        "chunk_id": 9685168809786846329
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 387621463520570415,
+        "start": 1155445,
+        "end": 1155465,
+        "text": "Schoolbus Driver Instructor Training program",
+        "chunk_id": 9685168809786846329
+      }
+    ]
+  }
+]

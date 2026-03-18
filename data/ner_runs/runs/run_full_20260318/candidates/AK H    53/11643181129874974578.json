@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14869392868565100746,
+    "entity": "Department of Fish and Game",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "financial support",
+    "entity_evidence": [
+      {
+        "span_id": 13011463469340996966,
+        "start": 166785,
+        "end": 166806,
+        "text": "Department of Fish and Game",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4022995678320810571,
+        "start": 166785,
+        "end": 166806,
+        "text": "Department of Fish and Game",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17177300550723243627,
+        "start": 166785,
+        "end": 166806,
+        "text": "Department of Fish and Game",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11661800090877301358,
+        "start": 166785,
+        "end": 166806,
+        "text": "Department of Fish and Game",
+        "chunk_id": 11643181129874974578
+      }
+    ]
+  },
+  {
+    "candidate_id": 15547839382927046541,
+    "entity": "Department of Revenue",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "financial support",
+    "entity_evidence": [
+      {
+        "span_id": 379107659051324915,
+        "start": 166867,
+        "end": 166886,
+        "text": "Department of Revenue",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18242835661807360598,
+        "start": 166867,
+        "end": 166886,
+        "text": "Department of Revenue",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16871833648786658321,
+        "start": 166867,
+        "end": 166886,
+        "text": "Department of Revenue",
+        "chunk_id": 11643181129874974578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18299032857926707012,
+        "start": 166867,
+        "end": 166886,
+        "text": "Department of Revenue",
+        "chunk_id": 11643181129874974578
+      }
+    ]
+  }
+]

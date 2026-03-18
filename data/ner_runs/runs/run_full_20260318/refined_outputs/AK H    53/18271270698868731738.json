@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14905092522815147876,
+    "source_group_id": 18271270698868731738,
+    "source_candidate_ids": [
+      12706768281005310983
+    ],
+    "entity": "Museum Operations",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "no new facilities costs",
+    "entity_evidence": [
+      {
+        "span_id": 7538118925526984083,
+        "start": 15750,
+        "end": 15764,
+        "text": "Museum Operations",
+        "chunk_id": 17528498606695900202
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8401589175479438188,
+        "start": 15765,
+        "end": 15774,
+        "text": "infrastructure",
+        "chunk_id": 17528498606695900202
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5674145092027875902,
+        "start": 15775,
+        "end": 15783,
+        "text": "restriction",
+        "chunk_id": 17528498606695900202
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15077376704704727737,
+        "start": 15784,
+        "end": 15794,
+        "text": "no new facilities costs",
+        "chunk_id": 17528498606695900202
+      }
+    ]
+  }
+]

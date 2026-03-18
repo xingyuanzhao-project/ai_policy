@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9103170131623852260,
+    "source_group_id": 3030680983804000546,
+    "source_candidate_ids": [
+      16222111164848798727
+    ],
+    "entity": "Department",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "nondiscriminatory",
+    "entity_evidence": [
+      {
+        "span_id": 9325726688768206778,
+        "start": 139200,
+        "end": 139206,
+        "text": "Department",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8812904800979467519,
+        "start": 139200,
+        "end": 139206,
+        "text": "Department",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1190943050867045807,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2082952321871347737,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ]
+  }
+]

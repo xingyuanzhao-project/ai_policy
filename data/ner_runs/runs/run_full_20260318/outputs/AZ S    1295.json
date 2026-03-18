@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 5242335334233670459,
+    "source_group_id": 14588566272839505983,
+    "source_candidate_ids": [
+      12420575129052063347,
+      17234662620944812813
+    ],
+    "entity": "criminal impersonation",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "class 5 felony",
+    "entity_evidence": [
+      {
+        "span_id": 11281606634342251577,
+        "start": 1045,
+        "end": 1063,
+        "text": "UNDER SUBSECTION A, PARAGRAPH 4 OF THIS SECTION IS A CLASS 5 FELONY",
+        "chunk_id": 12646430141270823642
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1587649512075070977,
+        "start": 1045,
+        "end": 1045,
+        "text": "technology",
+        "chunk_id": 12646430141270823642
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8542932332871542201,
+        "start": 1045,
+        "end": 1045,
+        "text": "prohibition",
+        "chunk_id": 12646430141270823642
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16221560623259317425,
+        "start": 1045,
+        "end": 1045,
+        "text": "class 5 felony",
+        "chunk_id": 12646430141270823642
+      }
+    ]
+  }
+]

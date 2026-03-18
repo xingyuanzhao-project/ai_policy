@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14523002378832162352,
+    "entity": "Community College Pathway to Law School Initiative",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 6806996599436027460,
+        "start": 1356398,
+        "end": 1356432,
+        "text": "Community College Pathway to Law School Initiative",
+        "chunk_id": 1205459254709860548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14333764577314710216,
+        "start": 1356398,
+        "end": 1356432,
+        "text": "government program",
+        "chunk_id": 1205459254709860548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12897314355859951668,
+        "start": 1356398,
+        "end": 1356432,
+        "text": "promotion",
+        "chunk_id": 1205459254709860548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14372933537273752237,
+        "start": 1356398,
+        "end": 1356432,
+        "text": "support",
+        "chunk_id": 1205459254709860548
+      }
+    ]
+  },
+  {
+    "candidate_id": 3245633485769181646,
+    "entity": "apprenticeship",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2546463050999715193,
+        "start": 1356398,
+        "end": 1356409,
+        "text": "apprenticeship",
+        "chunk_id": 1205459254709860548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13747085922448597904,
+        "start": 1356398,
+        "end": 1356409,
+        "text": "government program",
+        "chunk_id": 1205459254709860548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 491475496467273308,
+        "start": 1356398,
+        "end": 1356409,
+        "text": "promotion",
+        "chunk_id": 1205459254709860548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13457810226247117903,
+        "start": 1356398,
+        "end": 1356409,
+        "text": "support",
+        "chunk_id": 1205459254709860548
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 8996963484306050750,
+    "source_group_id": 15088422164353154441,
+    "source_candidate_ids": [
+      13168634378237132748,
+      15488336662796484148
+    ],
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "annual assessment",
+    "entity_evidence": [
+      {
+        "span_id": 16465564238448648415,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4468421281256194116,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11970737539060054108,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11063806914170616346,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ]
+  }
+]

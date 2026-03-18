@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14563237087908879157,
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2032",
+    "entity_evidence": [
+      {
+        "span_id": 16840632670251791366,
+        "start": 286674,
+        "end": 286694,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 8400308313392787634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 920397489695129436,
+        "start": 286674,
+        "end": 286694,
+        "text": "government agency",
+        "chunk_id": 8400308313392787634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6439068638703024455,
+        "start": 286674,
+        "end": 286694,
+        "text": "restriction",
+        "chunk_id": 8400308313392787634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15118451530780848487,
+        "start": 286674,
+        "end": 286694,
+        "text": "until June 30, 2032",
+        "chunk_id": 8400308313392787634
+      }
+    ]
+  },
+  {
+    "candidate_id": 2465617008650269709,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2032",
+    "entity_evidence": [
+      {
+        "span_id": 6971412222033362902,
+        "start": 286674,
+        "end": 286694,
+        "text": "Department of Finance",
+        "chunk_id": 8400308313392787634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5995161143631013141,
+        "start": 286674,
+        "end": 286694,
+        "text": "government agency",
+        "chunk_id": 8400308313392787634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14032889645226708480,
+        "start": 286674,
+        "end": 286694,
+        "text": "restriction",
+        "chunk_id": 8400308313392787634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13018146218397361843,
+        "start": 286674,
+        "end": 286694,
+        "text": "until June 30, 2032",
+        "chunk_id": 8400308313392787634
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 9968003480120503783,
+    "source_group_id": 16394000452216435589,
+    "source_candidate_ids": [
+      983192403975488232,
+      13424150959563175329
+    ],
+    "entity": "frontier developer",
+    "type": "technology",
+    "attribute": "exemption",
+    "value": "contractual",
+    "entity_evidence": [
+      {
+        "span_id": 4679594916233474272,
+        "start": 37200,
+        "end": 37212,
+        "text": "a contract between a federal government entity and a frontier developer",
+        "chunk_id": 9937901534024918017
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14006942987151481122,
+        "start": 37200,
+        "end": 37212,
+        "text": "a contract between a federal government entity and a frontier developer",
+        "chunk_id": 9937901534024918017
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6476150845566445008,
+        "start": 37200,
+        "end": 37212,
+        "text": "a contract between a federal government entity and a frontier developer",
+        "chunk_id": 9937901534024918017
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12725103948283451451,
+        "start": 37200,
+        "end": 37212,
+        "text": "a contract between a federal government entity and a frontier developer",
+        "chunk_id": 9937901534024918017
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8943408903357927777,
+    "source_group_id": 12992117139942522439,
+    "source_candidate_ids": [
+      3011629846968768794
+    ],
+    "entity": "California Cybersecurity Integration Center",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "up to $849,000",
+    "entity_evidence": [
+      {
+        "span_id": 3935747290806200421,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5729602307551352701,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6284147446584164942,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2497386923606189960,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ]
+  }
+]

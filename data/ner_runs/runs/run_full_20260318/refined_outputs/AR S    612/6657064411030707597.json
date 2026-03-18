@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7626969197721063393,
+    "source_group_id": 6657064411030707597,
+    "source_candidate_ids": [
+      5300036863568199788
+    ],
+    "entity": "Social media platform",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 6351478622975041481,
+        "start": 0,
+        "end": 24,
+        "text": "SUBCHAPTER 15 — REGULATION OF SOCIAL MEDIA PLATFORMS",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1289511738948429963,
+        "start": 24,
+        "end": 41,
+        "text": "Social media platform",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4738433491215342452,
+        "start": 41,
+        "end": 51,
+        "text": "regulation",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6666629144611319549,
+        "start": 51,
+        "end": 61,
+        "text": "regulation",
+        "chunk_id": 11390312635007288237
+      }
+    ]
+  }
+]

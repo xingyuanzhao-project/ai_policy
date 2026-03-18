@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10038128694493686884,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 17949015284809557456,
+        "start": 50584,
+        "end": 50605,
+        "text": "State Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10081033408377443157,
+        "start": 50584,
+        "end": 50605,
+        "text": "State Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14956739530278245908,
+        "start": 50584,
+        "end": 50605,
+        "text": "State Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12950693164404928736,
+        "start": 50584,
+        "end": 50605,
+        "text": "State Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ]
+  },
+  {
+    "candidate_id": 11995358747368596059,
+    "entity": "Alabama Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 13151392938939682488,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7919816185079565700,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7226017653255840251,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17269508099123916541,
+        "start": 50707,
+        "end": 50728,
+        "text": "Alabama Department of Education",
+        "chunk_id": 7572341156412795789
+      }
+    ]
+  }
+]

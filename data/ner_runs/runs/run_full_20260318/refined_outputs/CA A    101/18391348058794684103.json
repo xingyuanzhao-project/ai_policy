@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4343456687276980914,
+    "source_group_id": 18391348058794684103,
+    "source_candidate_ids": [
+      5940557253848479439
+    ],
+    "entity": "General Child Care program (CCTR) funds",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "delay in the receipt of reimbursements",
+    "entity_evidence": [
+      {
+        "span_id": 14536322189199102999,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13605935098139864220,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17605798150036145989,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14171181218737594681,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15052023058340038205,
+    "source_group_id": 10108125668765085164,
+    "source_candidate_ids": [
+      1756844640938146819
+    ],
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "approval",
+    "entity_evidence": [
+      {
+        "span_id": 5615733562786193958,
+        "start": 1204637,
+        "end": 1204649,
+        "text": "as approved by the State Board of Education",
+        "chunk_id": 17644385153063813867
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18210830891105046004,
+        "start": 1204637,
+        "end": 1204649,
+        "text": "as approved by the State Board of Education",
+        "chunk_id": 17644385153063813867
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1335249757616507275,
+        "start": 1204637,
+        "end": 1204649,
+        "text": "as approved by the State Board of Education",
+        "chunk_id": 17644385153063813867
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10656614720018302966,
+        "start": 1204637,
+        "end": 1204649,
+        "text": "as approved by the State Board of Education",
+        "chunk_id": 17644385153063813867
+      }
+    ]
+  }
+]

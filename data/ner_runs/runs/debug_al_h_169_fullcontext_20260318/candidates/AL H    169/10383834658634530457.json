@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16875169547831595633,
+    "entity": "Alabama Public Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 2451971391238740578,
+        "start": 5225,
+        "end": 5246,
+        "text": "Alabama Public Department of: (a) Social Services Program",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13660281511531682195,
+        "start": 5225,
+        "end": 5246,
+        "text": "Department of",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3862803002559832834,
+        "start": 5225,
+        "end": 5246,
+        "text": "Program",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4885004247123372760,
+        "start": 5225,
+        "end": 5246,
+        "text": "Program",
+        "chunk_id": 10383834658634530457
+      }
+    ]
+  },
+  {
+    "candidate_id": 4048269745611882639,
+    "entity": "Alabama Workforce Training Center",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 13496406415964316430,
+        "start": 5525,
+        "end": 5544,
+        "text": "a. Alabama Workforce Training Center",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14776886920142930263,
+        "start": 5525,
+        "end": 5544,
+        "text": "Center",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15189372679124599033,
+        "start": 5525,
+        "end": 5544,
+        "text": "Center",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15338971578676555244,
+        "start": 5525,
+        "end": 5544,
+        "text": "Center",
+        "chunk_id": 10383834658634530457
+      }
+    ]
+  }
+]

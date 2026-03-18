@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16628663317402107873,
+    "source_group_id": 1628601827877377598,
+    "source_candidate_ids": [
+      7263163844180208726
+    ],
+    "entity": "Department of Family and Community Services",
+    "type": "government agency",
+    "attribute": "report submission",
+    "value": "by September 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 4292259446058111853,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13135097062577740808,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12514336741127767390,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5611565625754956081,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ]
+  }
+]

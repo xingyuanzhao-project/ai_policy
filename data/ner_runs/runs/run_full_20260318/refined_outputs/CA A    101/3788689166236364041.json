@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11730648323849318451,
+    "source_group_id": 3788689166236364041,
+    "source_candidate_ids": [
+      659639348687156953
+    ],
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "transfer of funds",
+    "entity_evidence": [
+      {
+        "span_id": 2510527921189428635,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1821134813482860462,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10524341856933968292,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10575162902905362855,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ]
+  }
+]

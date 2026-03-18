@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6676406733609170195,
+    "entity": "frontier models",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "clearly and conspicuously publish",
+    "entity_evidence": [
+      {
+        "span_id": 202324733380614140,
+        "start": 9857,
+        "end": 9870,
+        "text": "frontier models",
+        "chunk_id": 8318783149631968059
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 491976064791249288,
+        "start": 9857,
+        "end": 9870,
+        "text": "frontier models",
+        "chunk_id": 8318783149631968059
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12437819504924330948,
+        "start": 9857,
+        "end": 9870,
+        "text": "frontier models",
+        "chunk_id": 8318783149631968059
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1287803614659000078,
+        "start": 9857,
+        "end": 9870,
+        "text": "clearly and conspicuously publish",
+        "chunk_id": 8318783149631968059
+      }
+    ]
+  },
+  {
+    "candidate_id": 10613196422186327733,
+    "entity": "large frontier developer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "clearly and conspicuously publish",
+    "entity_evidence": [
+      {
+        "span_id": 1353195024954213240,
+        "start": 9857,
+        "end": 9875,
+        "text": "large frontier developer",
+        "chunk_id": 8318783149631968059
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13540079703469294174,
+        "start": 9857,
+        "end": 9875,
+        "text": "large frontier developer",
+        "chunk_id": 8318783149631968059
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17717821582905247963,
+        "start": 9857,
+        "end": 9875,
+        "text": "large frontier developer",
+        "chunk_id": 8318783149631968059
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12879161436055410350,
+        "start": 9857,
+        "end": 9875,
+        "text": "clearly and conspicuously publish",
+        "chunk_id": 8318783149631968059
+      }
+    ]
+  }
+]

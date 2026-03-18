@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10744870743299396790,
+    "source_group_id": 15986706581424560496,
+    "source_candidate_ids": [
+      10630633202378650577
+    ],
+    "entity": "State Highway Account",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "10,461,000",
+    "entity_evidence": [
+      {
+        "span_id": 6018827863676164062,
+        "start": 430257,
+        "end": 430277,
+        "text": "For support of Department of Motor Vehicles, payable from the State Highway Account",
+        "chunk_id": 16920539996240113696
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7052151841118727973,
+        "start": 430257,
+        "end": 430277,
+        "text": "For support of Department of Motor Vehicles, payable from the State Highway Account",
+        "chunk_id": 16920539996240113696
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4028986189916904896,
+        "start": 430257,
+        "end": 430277,
+        "text": "For support of Department of Motor Vehicles, payable from the State Highway Account",
+        "chunk_id": 16920539996240113696
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5826983008799427068,
+        "start": 430257,
+        "end": 430277,
+        "text": "For support of Department of Motor Vehicles, payable from the State Highway Account",
+        "chunk_id": 16920539996240113696
+      }
+    ]
+  }
+]

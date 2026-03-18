@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 13143507812963857304,
+    "source_group_id": 2698727384405531728,
+    "source_candidate_ids": [
+      8358949902733460769,
+      9949719424791227855
+    ],
+    "entity": "Consumer",
+    "type": "Government Agency",
+    "attribute": "Definition",
+    "value": "An individual who is a resident of this state",
+    "entity_evidence": [
+      {
+        "span_id": 1958197009690470190,
+        "start": 1928,
+        "end": 1935,
+        "text": "CONSUMER",
+        "chunk_id": 1338470422311742127
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4845806026851092653,
+        "start": 1928,
+        "end": 1935,
+        "text": "Government Agency",
+        "chunk_id": 1338470422311742127
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9672540985643616669,
+        "start": 1928,
+        "end": 1935,
+        "text": "Definition",
+        "chunk_id": 1338470422311742127
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17975600307480509693,
+        "start": 1928,
+        "end": 1935,
+        "text": "An individual who is a resident of this state",
+        "chunk_id": 1338470422311742127
+      }
+    ]
+  }
+]

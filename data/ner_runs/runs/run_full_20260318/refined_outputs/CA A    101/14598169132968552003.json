@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4655803049968497320,
+    "source_group_id": 14598169132968552003,
+    "source_candidate_ids": [
+      9788393625956018895
+    ],
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short term",
+    "entity_evidence": [
+      {
+        "span_id": 2622423934220341979,
+        "start": 139449,
+        "end": 139469,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12897275308285483477
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17292894306259219571,
+        "start": 139449,
+        "end": 139469,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12897275308285483477
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14173338716198876187,
+        "start": 139449,
+        "end": 139469,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12897275308285483477
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8553196443902780605,
+        "start": 139449,
+        "end": 139469,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12897275308285483477
+      }
+    ]
+  }
+]

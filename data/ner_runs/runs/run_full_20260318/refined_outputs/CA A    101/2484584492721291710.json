@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11935515189374873880,
+    "source_group_id": 2484584492721291710,
+    "source_candidate_ids": [
+      17926018183502399147
+    ],
+    "entity": "Cal Grant A award recipients",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "maximum access award of $6,000",
+    "entity_evidence": [
+      {
+        "span_id": 8928265228781762475,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7228998316613648226,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 420601470890740441,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6322783537334761556,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ]
+  }
+]

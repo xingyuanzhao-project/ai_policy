@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1644426265415898289,
+    "source_group_id": 3301455544791578815,
+    "source_candidate_ids": [
+      7696977049345273506
+    ],
+    "entity": "personal information or image",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "four years",
+    "entity_evidence": [
+      {
+        "span_id": 2942481994788475410,
+        "start": 24709,
+        "end": 24727,
+        "text": "personal information or image",
+        "chunk_id": 6080171057680258641
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10752369059734786730,
+        "start": 24709,
+        "end": 24727,
+        "text": "personal information or image",
+        "chunk_id": 6080171057680258641
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9552844617558272269,
+        "start": 24709,
+        "end": 24727,
+        "text": "personal information or image",
+        "chunk_id": 6080171057680258641
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10789347542917461762,
+        "start": 24709,
+        "end": 24727,
+        "text": "four years",
+        "chunk_id": 6080171057680258641
+      }
+    ]
+  }
+]

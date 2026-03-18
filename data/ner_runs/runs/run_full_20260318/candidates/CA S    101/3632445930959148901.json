@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15878588486982685966,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on enrollment in a basic health benefits plan",
+    "entity_evidence": [
+      {
+        "span_id": 9522108315566316001,
+        "start": 1275231,
+        "end": 1275252,
+        "text": "California State University",
+        "chunk_id": 3632445930959148901
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18026502085822463794,
+        "start": 1275231,
+        "end": 1275252,
+        "text": "government agency",
+        "chunk_id": 3632445930959148901
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9978046708983992364,
+        "start": 1275804,
+        "end": 1275824,
+        "text": "shall not be enrolled",
+        "chunk_id": 3632445930959148901
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10162092405451973863,
+        "start": 1275804,
+        "end": 1275824,
+        "text": "shall not be enrolled",
+        "chunk_id": 3632445930959148901
+      }
+    ]
+  },
+  {
+    "candidate_id": 901455787826492140,
+    "entity": "Health Benefits for California State University Annuitants",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "prohibition on enrollment in a basic health benefits plan",
+    "entity_evidence": [
+      {
+        "span_id": 3411053426624210781,
+        "start": 1275804,
+        "end": 1275824,
+        "text": "Health Benefits for California State University Annuitants",
+        "chunk_id": 3632445930959148901
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6485507091530488428,
+        "start": 1275804,
+        "end": 1275824,
+        "text": "technology",
+        "chunk_id": 3632445930959148901
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17717285267304850959,
+        "start": 1275804,
+        "end": 1275824,
+        "text": "shall not be enrolled",
+        "chunk_id": 3632445930959148901
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15553886065664017602,
+        "start": 1275804,
+        "end": 1275824,
+        "text": "shall not be enrolled",
+        "chunk_id": 3632445930959148901
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15641210238906714983,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 12877411561366166376,
+        "start": 536909,
+        "end": 536930,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 6111257833784467355
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3076285803833709707,
+        "start": 536909,
+        "end": 536930,
+        "text": "government agency",
+        "chunk_id": 6111257833784467355
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2144199623921689381,
+        "start": 536909,
+        "end": 536930,
+        "text": "restriction",
+        "chunk_id": 6111257833784467355
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 102934784141259574,
+        "start": 536909,
+        "end": 536930,
+        "text": "partial",
+        "chunk_id": 6111257833784467355
+      }
+    ]
+  },
+  {
+    "candidate_id": 11168388622691322410,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 5442083464927243577,
+        "start": 536881,
+        "end": 536896,
+        "text": "Director of Finance",
+        "chunk_id": 6111257833784467355
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16057850317536226904,
+        "start": 536881,
+        "end": 536896,
+        "text": "government agency",
+        "chunk_id": 6111257833784467355
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2249579999514180321,
+        "start": 536881,
+        "end": 536896,
+        "text": "restriction",
+        "chunk_id": 6111257833784467355
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17808568800801803051,
+        "start": 536881,
+        "end": 536896,
+        "text": "partial",
+        "chunk_id": 6111257833784467355
+      }
+    ]
+  }
+]

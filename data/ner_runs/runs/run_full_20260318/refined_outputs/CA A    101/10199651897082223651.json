@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17935774695842705437,
+    "source_group_id": 10199651897082223651,
+    "source_candidate_ids": [
+      8220985461217716309
+    ],
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "expenditure in response to increases in enrollment, population, or caseload",
+    "entity_evidence": [
+      {
+        "span_id": 2541562949632484772,
+        "start": 1859594,
+        "end": 1859615,
+        "text": "State Department of Social Services",
+        "chunk_id": 6191711295050001263
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8833780400737855720,
+        "start": 1859594,
+        "end": 1859615,
+        "text": "State Department of Social Services",
+        "chunk_id": 6191711295050001263
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15568062430008287669,
+        "start": 1859594,
+        "end": 1859615,
+        "text": "State Department of Social Services",
+        "chunk_id": 6191711295050001263
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12034783895142028500,
+        "start": 1859594,
+        "end": 1859615,
+        "text": "State Department of Social Services",
+        "chunk_id": 6191711295050001263
+      }
+    ]
+  }
+]

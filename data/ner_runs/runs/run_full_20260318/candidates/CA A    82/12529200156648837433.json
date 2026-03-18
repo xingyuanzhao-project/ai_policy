@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2942853931826063753,
+    "entity": "CURES",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17394475080986710388,
+        "start": 34353,
+        "end": 34357,
+        "text": "CURES",
+        "chunk_id": 12529200156648837433
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6158213438261979265,
+        "start": 34358,
+        "end": 34360,
+        "text": "infrastructure",
+        "chunk_id": 12529200156648837433
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6542370776471234345,
+        "start": 34361,
+        "end": 34363,
+        "text": "restriction",
+        "chunk_id": 12529200156648837433
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12263535643612838400,
+        "start": 34364,
+        "end": 34368,
+        "text": "extremely restrictive",
+        "chunk_id": 12529200156648837433
+      }
+    ]
+  },
+  {
+    "candidate_id": 11976774371309188298,
+    "entity": "University of California",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "access to identifiable data",
+    "entity_evidence": [
+      {
+        "span_id": 3894012554529741195,
+        "start": 34476,
+        "end": 34496,
+        "text": "University of California",
+        "chunk_id": 12529200156648837433
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14946428529920109316,
+        "start": 34497,
+        "end": 34499,
+        "text": "individual",
+        "chunk_id": 12529200156648837433
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12784271163216584472,
+        "start": 34500,
+        "end": 34502,
+        "text": "promotion",
+        "chunk_id": 12529200156648837433
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3313955718320316443,
+        "start": 34503,
+        "end": 34517,
+        "text": "access to identifiable data",
+        "chunk_id": 12529200156648837433
+      }
+    ]
+  }
+]

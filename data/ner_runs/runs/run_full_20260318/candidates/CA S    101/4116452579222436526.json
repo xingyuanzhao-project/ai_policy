@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14898044628554736819,
+    "entity": "Department of Conservation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 11877368497436131122,
+        "start": 465944,
+        "end": 465961,
+        "text": "until June 30, 2027",
+        "chunk_id": 4116452579222436526
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13755594774456080653,
+        "start": 465944,
+        "end": 465961,
+        "text": "until June 30, 2027",
+        "chunk_id": 4116452579222436526
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13087688269889784409,
+        "start": 465944,
+        "end": 465961,
+        "text": "until June 30, 2027",
+        "chunk_id": 4116452579222436526
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8611745411935378369,
+        "start": 465944,
+        "end": 465961,
+        "text": "until June 30, 2027",
+        "chunk_id": 4116452579222436526
+      }
+    ]
+  },
+  {
+    "candidate_id": 8709916045554829995,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30",
+    "entity_evidence": [
+      {
+        "span_id": 16057280205552479283,
+        "start": 466940,
+        "end": 466957,
+        "text": "until June 30",
+        "chunk_id": 4116452579222436526
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10544516946336260016,
+        "start": 466940,
+        "end": 466957,
+        "text": "until June 30",
+        "chunk_id": 4116452579222436526
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10301650405963068636,
+        "start": 466940,
+        "end": 466957,
+        "text": "until June 30",
+        "chunk_id": 4116452579222436526
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2369681338112621594,
+        "start": 466940,
+        "end": 466957,
+        "text": "until June 30",
+        "chunk_id": 4116452579222436526
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 505470968434612786,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual organizational audit",
+    "entity_evidence": [
+      {
+        "span_id": 11461084259575004600,
+        "start": 1136088,
+        "end": 1136109,
+        "text": "submit an annual organizational audit",
+        "chunk_id": 12800592057316558455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6590651369866542233,
+        "start": 1136088,
+        "end": 1136109,
+        "text": "submit an annual organizational audit",
+        "chunk_id": 12800592057316558455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10432034235026136329,
+        "start": 1136088,
+        "end": 1136109,
+        "text": "submit an annual organizational audit",
+        "chunk_id": 12800592057316558455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2234157671465848012,
+        "start": 1136088,
+        "end": 1136109,
+        "text": "submit an annual organizational audit",
+        "chunk_id": 12800592057316558455
+      }
+    ]
+  },
+  {
+    "candidate_id": 1930389393975595529,
+    "entity": "public agency",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "internal staff",
+    "entity_evidence": [
+      {
+        "span_id": 12113741084379298094,
+        "start": 1136200,
+        "end": 1136207,
+        "text": "public agency",
+        "chunk_id": 12800592057316558455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3394959521349987479,
+        "start": 1136200,
+        "end": 1136207,
+        "text": "public agency",
+        "chunk_id": 12800592057316558455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8843873826371405994,
+        "start": 1136200,
+        "end": 1136207,
+        "text": "public agency",
+        "chunk_id": 12800592057316558455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15718503149625636047,
+        "start": 1136200,
+        "end": 1136207,
+        "text": "public agency",
+        "chunk_id": 12800592057316558455
+      }
+    ]
+  }
+]

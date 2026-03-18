@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5112877014496812020,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 1416225192113631431,
+        "start": 606159,
+        "end": 606183,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4931685718693182437,
+        "start": 606159,
+        "end": 606183,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2371294812950124215,
+        "start": 606184,
+        "end": 606191,
+        "text": "restriction",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5752481136882273969,
+        "start": 606192,
+        "end": 606199,
+        "text": "extended",
+        "chunk_id": 2404469389154958676
+      }
+    ]
+  },
+  {
+    "candidate_id": 2403580022006961064,
+    "entity": "Off-Highway Vehicle Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 2562990435105720549,
+        "start": 606159,
+        "end": 606183,
+        "text": "Off-Highway Vehicle Trust Fund",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17414364492963364680,
+        "start": 606159,
+        "end": 606183,
+        "text": "Off-Highway Vehicle Trust Fund",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3765880474149003278,
+        "start": 606184,
+        "end": 606191,
+        "text": "restriction",
+        "chunk_id": 2404469389154958676
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2760440546997700193,
+        "start": 606192,
+        "end": 606199,
+        "text": "extended",
+        "chunk_id": 2404469389154958676
+      }
+    ]
+  }
+]

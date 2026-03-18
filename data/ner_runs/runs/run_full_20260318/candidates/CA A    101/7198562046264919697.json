@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4540194694849154583,
+    "entity": "Public Utilities Commission",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 10349573747645671707,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12734128075252072202,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15066543899418814885,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3836629727446138009,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "reimbursement",
+        "chunk_id": 7198562046264919697
+      }
+    ]
+  },
+  {
+    "candidate_id": 13145768353402482303,
+    "entity": "Public Utilities Commission",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 16431614965628069220,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3115522523684884804,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8340261010414299197,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15534775987504488015,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "reimbursement",
+        "chunk_id": 7198562046264919697
+      }
+    ]
+  }
+]

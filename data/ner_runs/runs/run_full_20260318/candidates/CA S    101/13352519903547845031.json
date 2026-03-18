@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1529456517701355487,
+    "entity": "Public School Restrooms",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 8823025673992113112,
+        "start": 1190369,
+        "end": 1190389,
+        "text": "Public School Restrooms",
+        "chunk_id": 13352519903547845031
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15246536427198044045,
+        "start": 1190369,
+        "end": 1190389,
+        "text": "Public School Restrooms",
+        "chunk_id": 13352519903547845031
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10834618165810664729,
+        "start": 1190369,
+        "end": 1190389,
+        "text": "Public School Restrooms",
+        "chunk_id": 13352519903547845031
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15609744805330082908,
+        "start": 1190369,
+        "end": 1190389,
+        "text": "Public School Restrooms",
+        "chunk_id": 13352519903547845031
+      }
+    ]
+  },
+  {
+    "candidate_id": 86712398312891206,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 5760069068845050322,
+        "start": 1190389,
+        "end": 1190410,
+        "text": "State Department of Education",
+        "chunk_id": 13352519903547845031
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17524603942926944020,
+        "start": 1190389,
+        "end": 1190410,
+        "text": "State Department of Education",
+        "chunk_id": 13352519903547845031
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16265996778048379982,
+        "start": 1190389,
+        "end": 1190410,
+        "text": "State Department of Education",
+        "chunk_id": 13352519903547845031
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15093300895971251906,
+        "start": 1190389,
+        "end": 1190410,
+        "text": "State Department of Education",
+        "chunk_id": 13352519903547845031
+      }
+    ]
+  }
+]

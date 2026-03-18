@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3049229723075038495,
+    "source_group_id": 5736119517981881224,
+    "source_candidate_ids": [
+      16443429191341962089
+    ],
+    "entity": "Secretary of Labor and Workforce Development",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "payable from the Labor and Workforce Development Fund",
+    "entity_evidence": [
+      {
+        "span_id": 8566166859072475613,
+        "start": 118265,
+        "end": 118299,
+        "text": "For support of Secretary of Labor and Workforce Development, payable from the Labor and Workforce Development Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6318286741744191096,
+        "start": 118265,
+        "end": 118299,
+        "text": "For support of Secretary of Labor and Workforce Development, payable from the Labor and Workforce Development Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10414621647201010685,
+        "start": 118265,
+        "end": 118299,
+        "text": "For support of Secretary of Labor and Workforce Development, payable from the Labor and Workforce Development Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8697903650686849684,
+        "start": 118265,
+        "end": 118299,
+        "text": "For support of Secretary of Labor and Workforce Development, payable from the Labor and Workforce Development Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ]
+  }
+]

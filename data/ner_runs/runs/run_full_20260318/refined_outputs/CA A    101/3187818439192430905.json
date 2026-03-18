@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13511911455182527208,
+    "source_group_id": 3187818439192430905,
+    "source_candidate_ids": [
+      10748826361994749783
+    ],
+    "entity": "Breast Cancer Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12039421167588271880,
+        "start": 1539146,
+        "end": 1539165,
+        "text": "Breast Cancer Fund",
+        "chunk_id": 14857742490122633085
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5023143843637374743,
+        "start": 1539146,
+        "end": 1539165,
+        "text": "infrastructure",
+        "chunk_id": 14857742490122633085
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4721916776458086932,
+        "start": 1539146,
+        "end": 1539165,
+        "text": "restriction",
+        "chunk_id": 14857742490122633085
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14636855892752769600,
+        "start": 1539146,
+        "end": 1539165,
+        "text": "limited",
+        "chunk_id": 14857742490122633085
+      }
+    ]
+  }
+]

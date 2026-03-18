@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11038345582470218698,
+    "source_group_id": 13463262728358304190,
+    "source_candidate_ids": [
+      14735849987967934503
+    ],
+    "entity": "United States Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "identified",
+    "entity_evidence": [
+      {
+        "span_id": 10764740229026196973,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2417873492895051207,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18070821679743506741,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3350583137038931849,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ]
+  }
+]

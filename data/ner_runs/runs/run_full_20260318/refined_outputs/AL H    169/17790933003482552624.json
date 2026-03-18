@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6165198310538354706,
+    "source_group_id": 17790933003482552624,
+    "source_candidate_ids": [
+      6652050682636766930
+    ],
+    "entity": "Department of Education",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "October 1, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 18138773821192074502,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12269413325830909347,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16702631009165823193,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6093203373680671170,
+        "start": 53277,
+        "end": 53287,
+        "text": "The program shall file a report on October 1, 2025, with the Department of Education",
+        "chunk_id": 6840527888743128275
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8507151969325697752,
+    "source_group_id": 14737440339813042810,
+    "source_candidate_ids": [
+      16908502540003388568
+    ],
+    "entity": "Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "significant differences",
+    "entity_evidence": [
+      {
+        "span_id": 15550944140918148833,
+        "start": 195163,
+        "end": 195189,
+        "text": "the Public Employees' Retirement System to estimate state pension obligations",
+        "chunk_id": 13264902666523127026
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7890758286459856289,
+        "start": 195163,
+        "end": 195189,
+        "text": "the Public Employees' Retirement System to estimate state pension obligations",
+        "chunk_id": 13264902666523127026
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9048602428533185194,
+        "start": 195163,
+        "end": 195189,
+        "text": "the Public Employees' Retirement System to estimate state pension obligations",
+        "chunk_id": 13264902666523127026
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3395845206848131044,
+        "start": 195163,
+        "end": 195189,
+        "text": "the Public Employees' Retirement System to estimate state pension obligations",
+        "chunk_id": 13264902666523127026
+      }
+    ]
+  }
+]

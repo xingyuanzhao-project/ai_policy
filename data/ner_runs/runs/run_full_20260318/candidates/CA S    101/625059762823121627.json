@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1380499277025195844,
+    "entity": "County probation departments",
+    "type": "Government agency",
+    "attribute": "restriction",
+    "value": "least restrictive interventions",
+    "entity_evidence": [
+      {
+        "span_id": 11166400056314207178,
+        "start": 31261,
+        "end": 31277,
+        "text": "county probation departments",
+        "chunk_id": 625059762823121627
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9969314991309715262,
+        "start": 31261,
+        "end": 31277,
+        "text": "county probation departments",
+        "chunk_id": 625059762823121627
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2050245961596345406,
+        "start": 31376,
+        "end": 31396,
+        "text": "least restrictive interventions",
+        "chunk_id": 625059762823121627
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8939306731159551486,
+        "start": 31376,
+        "end": 31396,
+        "text": "least restrictive interventions",
+        "chunk_id": 625059762823121627
+      }
+    ]
+  },
+  {
+    "candidate_id": 771354878617440302,
+    "entity": "County department",
+    "type": "Government agency",
+    "attribute": "restriction",
+    "value": "primary responsibility",
+    "entity_evidence": [
+      {
+        "span_id": 14170321513752657008,
+        "start": 31261,
+        "end": 31277,
+        "text": "county probation departments",
+        "chunk_id": 625059762823121627
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4484764383516192395,
+        "start": 31261,
+        "end": 31277,
+        "text": "county probation departments",
+        "chunk_id": 625059762823121627
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11193882439174292324,
+        "start": 31261,
+        "end": 31277,
+        "text": "county probation departments",
+        "chunk_id": 625059762823121627
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15899299918318853285,
+        "start": 31261,
+        "end": 31277,
+        "text": "county probation departments",
+        "chunk_id": 625059762823121627
+      }
+    ]
+  }
+]

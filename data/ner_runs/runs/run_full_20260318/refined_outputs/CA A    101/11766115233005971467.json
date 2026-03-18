@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4769265182238472248,
+    "source_group_id": 11766115233005971467,
+    "source_candidate_ids": [
+      18196966993412000749
+    ],
+    "entity": "Political Reform Act of 1974",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "enforcement",
+    "entity_evidence": [
+      {
+        "span_id": 9218456568620716491,
+        "start": 1634386,
+        "end": 1634411,
+        "text": "the Political Reform Act of 1974",
+        "chunk_id": 13369100879365383096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10345498846536362823,
+        "start": 1634386,
+        "end": 1634411,
+        "text": "the Political Reform Act of 1974",
+        "chunk_id": 13369100879365383096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18250150916111018943,
+        "start": 1634386,
+        "end": 1634411,
+        "text": "the Political Reform Act of 1974",
+        "chunk_id": 13369100879365383096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5318670929859932946,
+        "start": 1634386,
+        "end": 1634411,
+        "text": "the Political Reform Act of 1974",
+        "chunk_id": 13369100879365383096
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7823012593060619329,
+    "source_group_id": 3864635458877798047,
+    "source_candidate_ids": [
+      13992552774343388848
+    ],
+    "entity": "Public Employees' Retirement Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8009028610060059516,
+        "start": 1768917,
+        "end": 1768945,
+        "text": "Public Employees' Retirement Fund",
+        "chunk_id": 10776442347807813060
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16186523880707122427,
+        "start": 1768917,
+        "end": 1768945,
+        "text": "government agency",
+        "chunk_id": 10776442347807813060
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14988766485797418945,
+        "start": 1768917,
+        "end": 1768925,
+        "text": "restriction",
+        "chunk_id": 10776442347807813060
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10014021270550909571,
+        "start": 1768926,
+        "end": 1768929,
+        "text": "limited",
+        "chunk_id": 10776442347807813060
+      }
+    ]
+  }
+]

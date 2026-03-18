@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17445415112426183400,
+    "source_group_id": 8476393523652827590,
+    "source_candidate_ids": [
+      5519981038485883194
+    ],
+    "entity": "Public Utilities Commission Utilities Reimbursement Account",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 3288956831585304522,
+        "start": 458007,
+        "end": 458027,
+        "text": "Public Utilities Commission Utilities Reimbursement Account",
+        "chunk_id": 8102854769335668184
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1901972929925717853,
+        "start": 458007,
+        "end": 458027,
+        "text": "Public Utilities Commission Utilities Reimbursement Account",
+        "chunk_id": 8102854769335668184
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11014322961640479949,
+        "start": 458007,
+        "end": 458027,
+        "text": "Public Utilities Commission Utilities Reimbursement Account",
+        "chunk_id": 8102854769335668184
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11926804229186740296,
+        "start": 458007,
+        "end": 458027,
+        "text": "Public Utilities Commission Utilities Reimbursement Account",
+        "chunk_id": 8102854769335668184
+      }
+    ]
+  }
+]

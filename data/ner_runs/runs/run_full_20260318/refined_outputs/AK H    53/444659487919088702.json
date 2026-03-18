@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2151724444544717967,
+    "source_group_id": 444659487919088702,
+    "source_candidate_ids": [
+      17346251572342213614
+    ],
+    "entity": "Alaska Permanent Fund Corporation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8861998615582327534,
+        "start": 46896,
+        "end": 46917,
+        "text": "Alaska Permanent Fund Corporation",
+        "chunk_id": 15009962599727688313
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9368249153366198294,
+        "start": 46896,
+        "end": 46917,
+        "text": "Alaska Permanent Fund Corporation",
+        "chunk_id": 15009962599727688313
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14925282655764309388,
+        "start": 46896,
+        "end": 46917,
+        "text": "Alaska Permanent Fund Corporation",
+        "chunk_id": 15009962599727688313
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 999152877965386772,
+        "start": 46896,
+        "end": 46917,
+        "text": "Alaska Permanent Fund Corporation",
+        "chunk_id": 15009962599727688313
+      }
+    ]
+  }
+]

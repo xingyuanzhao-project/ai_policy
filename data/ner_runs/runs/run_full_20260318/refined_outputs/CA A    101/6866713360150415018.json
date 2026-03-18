@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 477985727710182308,
+    "source_group_id": 6866713360150415018,
+    "source_candidate_ids": [
+      16563478506193896547
+    ],
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "grants",
+    "entity_evidence": [
+      {
+        "span_id": 11324093822808388825,
+        "start": 560161,
+        "end": 560181,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2888041416767026045,
+        "start": 560161,
+        "end": 560181,
+        "text": "government agency",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15916198954748350552,
+        "start": 560161,
+        "end": 560181,
+        "text": "support",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3147104287982090148,
+        "start": 560161,
+        "end": 560181,
+        "text": "grants",
+        "chunk_id": 14007004819701974523
+      }
+    ]
+  }
+]

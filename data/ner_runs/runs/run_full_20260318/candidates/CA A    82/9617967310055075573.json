@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8642733616477117758,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "establishment of penalty schedule",
+    "entity_evidence": [
+      {
+        "span_id": 9844051480476107658,
+        "start": 64665,
+        "end": 64677,
+        "text": "The Judicial Council",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13803945060246354593,
+        "start": 64665,
+        "end": 64677,
+        "text": "The Judicial Council",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8351669672328002426,
+        "start": 64665,
+        "end": 64677,
+        "text": "The Judicial Council",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5317744579043034221,
+        "start": 64665,
+        "end": 64677,
+        "text": "The Judicial Council",
+        "chunk_id": 9617967310055075573
+      }
+    ]
+  },
+  {
+    "candidate_id": 4485779095747630614,
+    "entity": "court",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "prescription of procedure",
+    "entity_evidence": [
+      {
+        "span_id": 13659839988297279964,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 115597205904292711,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7716739828171059471,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13203474939253093069,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ]
+  }
+]

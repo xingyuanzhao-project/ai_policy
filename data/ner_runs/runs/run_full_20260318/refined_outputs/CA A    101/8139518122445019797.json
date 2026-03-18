@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2989102406944537687,
+    "source_group_id": 8139518122445019797,
+    "source_candidate_ids": [
+      13378856653677137990
+    ],
+    "entity": "Department of Pesticide Regulation Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 12695604078203902360,
+        "start": 707213,
+        "end": 707233,
+        "text": "Department of Pesticide Regulation Fund",
+        "chunk_id": 9341522244712408357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14646498424247910369,
+        "start": 707213,
+        "end": 707233,
+        "text": "infrastructure",
+        "chunk_id": 9341522244712408357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4551026795861441211,
+        "start": 707213,
+        "end": 707233,
+        "text": "restriction",
+        "chunk_id": 9341522244712408357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7444260997807038973,
+        "start": 707213,
+        "end": 707233,
+        "text": "encumbrance or expenditure until June 30, 2027",
+        "chunk_id": 9341522244712408357
+      }
+    ]
+  }
+]

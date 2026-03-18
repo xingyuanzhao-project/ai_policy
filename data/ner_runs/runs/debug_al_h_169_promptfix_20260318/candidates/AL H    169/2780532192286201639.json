@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18227667025828717492,
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidelines",
+    "entity_evidence": [
+      {
+        "span_id": 2524680189715829235,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13565968320853350824,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9828325340627680358,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3871648633984632413,
+        "start": 34783,
+        "end": 34797,
+        "text": "The Foundation Program shall use the following salary matrix to determine the cost of instructional salaries, based on 187 contract days, and any part-time contract shall conform to the pro-rata share of the following matrix:",
+        "chunk_id": 2780532192286201639
+      }
+    ]
+  },
+  {
+    "candidate_id": 7889109493541735166,
+    "entity": "local boards of education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "flexibility",
+    "entity_evidence": [
+      {
+        "span_id": 1378776468605808010,
+        "start": 34578,
+        "end": 34590,
+        "text": "It is the intent of the Legislature that local boards of education have flexibility in determining where reductions are made.",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2690579136556589931,
+        "start": 34578,
+        "end": 34590,
+        "text": "It is the intent of the Legislature that local boards of education have flexibility in determining where reductions are made.",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15972017228796317411,
+        "start": 34578,
+        "end": 34590,
+        "text": "It is the intent of the Legislature that local boards of education have flexibility in determining where reductions are made.",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10330856967545350575,
+        "start": 34578,
+        "end": 34590,
+        "text": "It is the intent of the Legislature that local boards of education have flexibility in determining where reductions are made.",
+        "chunk_id": 2780532192286201639
+      }
+    ]
+  }
+]

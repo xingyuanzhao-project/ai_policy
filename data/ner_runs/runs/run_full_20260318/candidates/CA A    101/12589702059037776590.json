@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3598576951441169121,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 6566432341358924829,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "State Department of Education",
+        "chunk_id": 12589702059037776590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4690267678462121955,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "government agency",
+        "chunk_id": 12589702059037776590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 190242982330486654,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "restriction",
+        "chunk_id": 12589702059037776590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9023602691086907030,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "specific",
+        "chunk_id": 12589702059037776590
+      }
+    ]
+  },
+  {
+    "candidate_id": 2662060164086028123,
+    "entity": "11 regional county offices of education",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 15714420613784880593,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "11 regional county offices of education",
+        "chunk_id": 12589702059037776590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16850636704486305999,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "infrastructure",
+        "chunk_id": 12589702059037776590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10229762100360453501,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "restriction",
+        "chunk_id": 12589702059037776590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4571813169183098348,
+        "start": 1209506,
+        "end": 1209526,
+        "text": "specific",
+        "chunk_id": 12589702059037776590
+      }
+    ]
+  }
+]

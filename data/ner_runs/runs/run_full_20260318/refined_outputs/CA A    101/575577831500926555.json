@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4736913269294747519,
+    "source_group_id": 575577831500926555,
+    "source_candidate_ids": [
+      14602048036862840960
+    ],
+    "entity": "Project Rebound",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "annual reporting",
+    "entity_evidence": [
+      {
+        "span_id": 16385533289468871504,
+        "start": 1357542,
+        "end": 1357554,
+        "text": "Project Rebound",
+        "chunk_id": 8343938815290595530
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16278286338151191474,
+        "start": 1357542,
+        "end": 1357554,
+        "text": "Project Rebound",
+        "chunk_id": 8343938815290595530
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16262280808066058890,
+        "start": 1357555,
+        "end": 1357563,
+        "text": "report to the Department of Finance",
+        "chunk_id": 8343938815290595530
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18203783841676769595,
+        "start": 1357555,
+        "end": 1357563,
+        "text": "report to the Department of Finance",
+        "chunk_id": 8343938815290595530
+      }
+    ]
+  }
+]

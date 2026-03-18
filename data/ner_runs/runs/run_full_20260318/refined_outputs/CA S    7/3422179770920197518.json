@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3229384056450709782,
+    "source_group_id": 3422179770920197518,
+    "source_candidate_ids": [
+      2963639110257688648
+    ],
+    "entity": "Worker",
+    "type": "individual",
+    "attribute": "definition",
+    "value": "natural person who is an employee of, or an independent contractor providing service to, or through, a business or a state or local governmental entity in any workplace",
+    "entity_evidence": [
+      {
+        "span_id": 10488623477547102764,
+        "start": 2387,
+        "end": 2393,
+        "text": "Worker",
+        "chunk_id": 4761683490092155771
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11517756269850283045,
+        "start": 2394,
+        "end": 2399,
+        "text": "individual",
+        "chunk_id": 4761683490092155771
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4952794843936023363,
+        "start": 2400,
+        "end": 2407,
+        "text": "definition",
+        "chunk_id": 4761683490092155771
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15523946686458145990,
+        "start": 2408,
+        "end": 2511,
+        "text": "natural person who is an employee of, or an independent contractor providing service to, or through, a business or a state or local governmental entity in any workplace",
+        "chunk_id": 4761683490092155771
+      }
+    ]
+  }
+]

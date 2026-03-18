@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8488304139076386246,
+    "entity": "California State Board of Pharmacy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "negative",
+    "entity_evidence": [
+      {
+        "span_id": 8248800587409749679,
+        "start": 244958,
+        "end": 244980,
+        "text": "Reimbursements to 1210-California State Board of Pharmacy",
+        "chunk_id": 3020034930351369286
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15629676421588083104,
+        "start": 244958,
+        "end": 244980,
+        "text": "Reimbursements to 1210-California State Board of Pharmacy",
+        "chunk_id": 3020034930351369286
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5407366231894487188,
+        "start": 244958,
+        "end": 244980,
+        "text": "Reimbursements to 1210-California State Board of Pharmacy",
+        "chunk_id": 3020034930351369286
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8954315063015837468,
+        "start": 244958,
+        "end": 244980,
+        "text": "Reimbursements to 1210-California State Board of Pharmacy",
+        "chunk_id": 3020034930351369286
+      }
+    ]
+  },
+  {
+    "candidate_id": 7831548487122418161,
+    "entity": "Board for Professional Engineers, Land Surveyors, and Geologists",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "negative",
+    "entity_evidence": [
+      {
+        "span_id": 9973502628204683831,
+        "start": 245050,
+        "end": 245081,
+        "text": "1215014-Board for Professional Engineers, Land Surveyors, and Geologists",
+        "chunk_id": 3020034930351369286
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11829031764912453430,
+        "start": 245050,
+        "end": 245081,
+        "text": "1215014-Board for Professional Engineers, Land Surveyors, and Geologists",
+        "chunk_id": 3020034930351369286
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16719432281345001638,
+        "start": 245050,
+        "end": 245081,
+        "text": "1215014-Board for Professional Engineers, Land Surveyors, and Geologists",
+        "chunk_id": 3020034930351369286
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1468581194352694101,
+        "start": 245050,
+        "end": 245081,
+        "text": "1215014-Board for Professional Engineers, Land Surveyors, and Geologists",
+        "chunk_id": 3020034930351369286
+      }
+    ]
+  }
+]

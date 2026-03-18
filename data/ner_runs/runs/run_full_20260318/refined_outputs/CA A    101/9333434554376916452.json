@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14183460226790740713,
+    "source_group_id": 9333434554376916452,
+    "source_candidate_ids": [
+      2005036240308393254
+    ],
+    "entity": "Collins-Dugan California Conservation Corps Reimbursement Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 4428279707472052046,
+        "start": 450072,
+        "end": 450092,
+        "text": "Collins-Dugan California Conservation Corps Reimbursement Account",
+        "chunk_id": 7729001530609828208
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10107193508477305314,
+        "start": 450072,
+        "end": 450092,
+        "text": "infrastructure",
+        "chunk_id": 7729001530609828208
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10059075121261470178,
+        "start": 450072,
+        "end": 450092,
+        "text": "promotion",
+        "chunk_id": 7729001530609828208
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14134206200818615009,
+        "start": 450072,
+        "end": 450092,
+        "text": "significant",
+        "chunk_id": 7729001530609828208
+      }
+    ]
+  }
+]

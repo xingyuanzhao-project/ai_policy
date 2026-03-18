@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8049112950442708298,
+    "source_group_id": 16482101630127443086,
+    "source_candidate_ids": [
+      1702759575524800930
+    ],
+    "entity": "Office of the Chancellor of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "report submission",
+    "entity_evidence": [
+      {
+        "span_id": 1294259693314987916,
+        "start": 1408573,
+        "end": 1408616,
+        "text": "Office of the Chancellor of the California Community Colleges",
+        "chunk_id": 11445989138629416854
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 20630711490642727,
+        "start": 1408573,
+        "end": 1408616,
+        "text": "government agency",
+        "chunk_id": 11445989138629416854
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3050722356993120508,
+        "start": 1408573,
+        "end": 1408585,
+        "text": "restriction",
+        "chunk_id": 11445989138629416854
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 374086705658371981,
+        "start": 1408573,
+        "end": 1408587,
+        "text": "report submission",
+        "chunk_id": 11445989138629416854
+      }
+    ]
+  }
+]

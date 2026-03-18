@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6166663851738677230,
+    "source_group_id": 1075261227159359968,
+    "source_candidate_ids": [
+      11144660414320921062
+    ],
+    "entity": "Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 16917175939774096205,
+        "start": 1047504,
+        "end": 1047525,
+        "text": "The Department of Social Services",
+        "chunk_id": 9319787994778850750
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9653474844384082610,
+        "start": 1047504,
+        "end": 1047525,
+        "text": "The Department of Social Services",
+        "chunk_id": 9319787994778850750
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11688458229632304611,
+        "start": 1047525,
+        "end": 1047526,
+        "text": "shall be exempt",
+        "chunk_id": 9319787994778850750
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18003546390179551968,
+        "start": 1047525,
+        "end": 1047526,
+        "text": "exempt",
+        "chunk_id": 9319787994778850750
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5934923313530302776,
+    "entity": "Department of Commerce, Community, and Economic Development",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "comprehensive marketing plan",
+    "entity_evidence": [
+      {
+        "span_id": 17002586961228533204,
+        "start": 92179,
+        "end": 92200,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4799593339874462296,
+        "start": 92179,
+        "end": 92200,
+        "text": "government agency",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 889026308489907217,
+        "start": 92179,
+        "end": 92200,
+        "text": "promotion",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5206863537975290520,
+        "start": 92179,
+        "end": 92200,
+        "text": "comprehensive marketing plan",
+        "chunk_id": 5103797806484953680
+      }
+    ]
+  },
+  {
+    "candidate_id": 13583024692687288500,
+    "entity": "Arctic Winter Games Team Alaska",
+    "type": "individual",
+    "attribute": "subsidy",
+    "value": "$150,000",
+    "entity_evidence": [
+      {
+        "span_id": 13067051262947727486,
+        "start": 93090,
+        "end": 93109,
+        "text": "Arctic Winter Games Team Alaska",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11556863111420799897,
+        "start": 93090,
+        "end": 93109,
+        "text": "individual",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9779216259077752498,
+        "start": 93090,
+        "end": 93109,
+        "text": "subsidy",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5671509906230491058,
+        "start": 93090,
+        "end": 93109,
+        "text": "$150,000",
+        "chunk_id": 5103797806484953680
+      }
+    ]
+  }
+]

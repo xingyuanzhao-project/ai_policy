@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7357503798647784721,
+    "entity": "Office of Technology and Solutions Integration",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific programs",
+    "entity_evidence": [
+      {
+        "span_id": 2586935290587328891,
+        "start": 92145,
+        "end": 92165,
+        "text": "Office of Technology and Solutions Integration",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13218293975218584823,
+        "start": 92145,
+        "end": 92165,
+        "text": "Office of Technology and Solutions Integration",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3372614345392260830,
+        "start": 92145,
+        "end": 92165,
+        "text": "Office of Technology and Solutions Integration",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11540127505362183523,
+        "start": 92145,
+        "end": 92165,
+        "text": "specific programs",
+        "chunk_id": 3623531217880844829
+      }
+    ]
+  },
+  {
+    "candidate_id": 1268614321192020149,
+    "entity": "Center for Data Insights and Innovation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific programs",
+    "entity_evidence": [
+      {
+        "span_id": 7666555286785756244,
+        "start": 92256,
+        "end": 92277,
+        "text": "Center for Data Insights and Innovation",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5617844431250049942,
+        "start": 92256,
+        "end": 92277,
+        "text": "Center for Data Insights and Innovation",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5581537324249901995,
+        "start": 92256,
+        "end": 92277,
+        "text": "Center for Data Insights and Innovation",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8448050512341081079,
+        "start": 92256,
+        "end": 92277,
+        "text": "specific programs",
+        "chunk_id": 3623531217880844829
+      }
+    ]
+  }
+]

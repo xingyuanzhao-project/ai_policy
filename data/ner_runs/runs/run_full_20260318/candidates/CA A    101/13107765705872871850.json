@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5258518401126539791,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 11160423321301021782,
+        "start": 1218486,
+        "end": 1218506,
+        "text": "State Department of Education",
+        "chunk_id": 13107765705872871850
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2110087765805174848,
+        "start": 1218486,
+        "end": 1218506,
+        "text": "government agency",
+        "chunk_id": 13107765705872871850
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4159671637084394021,
+        "start": 1218486,
+        "end": 1218506,
+        "text": "restriction",
+        "chunk_id": 13107765705872871850
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2996359324932898804,
+        "start": 1218486,
+        "end": 1218506,
+        "text": "conditional",
+        "chunk_id": 13107765705872871850
+      }
+    ]
+  },
+  {
+    "candidate_id": 9174159148581086118,
+    "entity": "California Longitudinal Pupil Achievement Data System (CALPADS)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 17989585381912130604,
+        "start": 1218597,
+        "end": 1218625,
+        "text": "California Longitudinal Pupil Achievement Data System (CALPADS)",
+        "chunk_id": 13107765705872871850
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9808219949075185406,
+        "start": 1218597,
+        "end": 1218625,
+        "text": "technology",
+        "chunk_id": 13107765705872871850
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8248738071583901608,
+        "start": 1218597,
+        "end": 1218625,
+        "text": "promotion",
+        "chunk_id": 13107765705872871850
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7165198721153038398,
+        "start": 1218597,
+        "end": 1218625,
+        "text": "support",
+        "chunk_id": 13107765705872871850
+      }
+    ]
+  }
+]

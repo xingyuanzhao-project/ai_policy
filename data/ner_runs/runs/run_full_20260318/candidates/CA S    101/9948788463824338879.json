@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17959828940209075770,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notification in writing",
+    "entity_evidence": [
+      {
+        "span_id": 12919494850004753100,
+        "start": 899793,
+        "end": 899810,
+        "text": "tment of Finance shall also provide notification in writing",
+        "chunk_id": 9948788463824338879
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13151231959762660104,
+        "start": 899793,
+        "end": 899810,
+        "text": "tment of Finance shall also provide notification in writing",
+        "chunk_id": 9948788463824338879
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1284662601250601750,
+        "start": 899793,
+        "end": 899810,
+        "text": "tment of Finance shall also provide notification in writing",
+        "chunk_id": 9948788463824338879
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7115117893747234509,
+        "start": 899793,
+        "end": 899810,
+        "text": "tment of Finance shall also provide notification in writing",
+        "chunk_id": 9948788463824338879
+      }
+    ]
+  },
+  {
+    "candidate_id": 6776914861641846456,
+    "entity": "Department of Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "maximum use of certified time",
+    "entity_evidence": [
+      {
+        "span_id": 15907507391940014904,
+        "start": 899793,
+        "end": 899817,
+        "text": "The Department of Rehabilitation shall maximize its use of certified time",
+        "chunk_id": 9948788463824338879
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2202341282835219931,
+        "start": 899793,
+        "end": 899817,
+        "text": "The Department of Rehabilitation shall maximize its use of certified time",
+        "chunk_id": 9948788463824338879
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6922427777173984150,
+        "start": 899793,
+        "end": 899817,
+        "text": "The Department of Rehabilitation shall maximize its use of certified time",
+        "chunk_id": 9948788463824338879
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16863938785527184459,
+        "start": 899793,
+        "end": 899817,
+        "text": "The Department of Rehabilitation shall maximize its use of certified time",
+        "chunk_id": 9948788463824338879
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10900145129067864711,
+    "entity": "oil and hazardous substance release response account",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1883434118976268899,
+        "start": 157299,
+        "end": 157321,
+        "text": "oil and hazardous substance release response account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17920124082874575839,
+        "start": 157299,
+        "end": 157321,
+        "text": "government agency",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2827416416374345498,
+        "start": 157299,
+        "end": 157321,
+        "text": "restriction",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16375342972587710364,
+        "start": 157299,
+        "end": 157321,
+        "text": "limited",
+        "chunk_id": 3357432621809856032
+      }
+    ]
+  },
+  {
+    "candidate_id": 1101389779424510569,
+    "entity": "Alaska clean water administrative income account",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 2572550387763069074,
+        "start": 157889,
+        "end": 157911,
+        "text": "Alaska clean water administrative income account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18004048833143564144,
+        "start": 157889,
+        "end": 157911,
+        "text": "government agency",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7790173725212523616,
+        "start": 157889,
+        "end": 157911,
+        "text": "promotion",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13892287655446852284,
+        "start": 157889,
+        "end": 157911,
+        "text": "significant",
+        "chunk_id": 3357432621809856032
+      }
+    ]
+  }
+]

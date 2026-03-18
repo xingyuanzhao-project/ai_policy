@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17714983251817703733,
+    "entity": "Department of Rehabilitation Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportionately to the distribution made in FY 2003",
+    "entity_evidence": [
+      {
+        "span_id": 17588566406584475156,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation to the Department of Rehabilitation Services -",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14651277202772499783,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation to the Department of Rehabilitation Services -",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11665867129311982853,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation to the Department of Rehabilitation Services -",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13674498089875465672,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation to the Department of Rehabilitation Services -",
+        "chunk_id": 14134159057134452690
+      }
+    ]
+  },
+  {
+    "candidate_id": 1406028349383805435,
+    "entity": "Supercomputer Authority, Alabama",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "in accordance with Sections 41-10-390 through 41-10-406, Code of Alabama 1975",
+    "entity_evidence": [
+      {
+        "span_id": 2223135746424225358,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation is to be expended in accordance with Sections 41-10-390 through 41-10-406, Code of Alabama 1975.",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12028589408518356866,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation is to be expended in accordance with Sections 41-10-390 through 41-10-406, Code of Alabama 1975.",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2872093156316917444,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation is to be expended in accordance with Sections 41-10-390 through 41-10-406, Code of Alabama 1975.",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8988513655508237230,
+        "start": 112000,
+        "end": 112020,
+        "text": "The above appropriation is to be expended in accordance with Sections 41-10-390 through 41-10-406, Code of Alabama 1975.",
+        "chunk_id": 14134159057134452690
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17444001279827438983,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 15980925410681115402,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 17652663846535787535
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10942911936556175495,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 17652663846535787535
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7082903591506635236,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 17652663846535787535
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4905117677058653623,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 17652663846535787535
+      }
+    ]
+  },
+  {
+    "candidate_id": 2824848490545958316,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "available for emergency fire suppression and detection costs",
+    "entity_evidence": [
+      {
+        "span_id": 3172128298628957651,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall be available for emergency fire suppression and detection costs and related emergency revegetation costs",
+        "chunk_id": 17652663846535787535
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17704616685253073212,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall be available for emergency fire suppression and detection costs and related emergency revegetation costs",
+        "chunk_id": 17652663846535787535
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1376853517957229619,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall be available for emergency fire suppression and detection costs and related emergency revegetation costs",
+        "chunk_id": 17652663846535787535
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9124245422186455861,
+        "start": 482199,
+        "end": 482219,
+        "text": "The funds appropriated in this item shall be available for emergency fire suppression and detection costs and related emergency revegetation costs",
+        "chunk_id": 17652663846535787535
+      }
+    ]
+  }
+]

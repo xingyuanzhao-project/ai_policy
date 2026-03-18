@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13131196328950781815,
+    "entity": "California State Board of Pharmacy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "some",
+    "entity_evidence": [
+      {
+        "span_id": 11079768324564260604,
+        "start": 247499,
+        "end": 247520,
+        "text": "California State Board of Pharmacy",
+        "chunk_id": 3771460916681736559
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9549560843481464108,
+        "start": 247499,
+        "end": 247520,
+        "text": "government agency",
+        "chunk_id": 3771460916681736559
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5802995351978558444,
+        "start": 247499,
+        "end": 247520,
+        "text": "restriction",
+        "chunk_id": 3771460916681736559
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14209852191705782257,
+        "start": 247499,
+        "end": 247520,
+        "text": "some",
+        "chunk_id": 3771460916681736559
+      }
+    ]
+  },
+  {
+    "candidate_id": 8338362342595116867,
+    "entity": "Dental Hygiene Board of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "some",
+    "entity_evidence": [
+      {
+        "span_id": 13597188680649412165,
+        "start": 247499,
+        "end": 247520,
+        "text": "Dental Hygiene Board of California",
+        "chunk_id": 3771460916681736559
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11987181776361851787,
+        "start": 247499,
+        "end": 247520,
+        "text": "government agency",
+        "chunk_id": 3771460916681736559
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14413571756113294457,
+        "start": 247499,
+        "end": 247520,
+        "text": "restriction",
+        "chunk_id": 3771460916681736559
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6085817338287072340,
+        "start": 247499,
+        "end": 247520,
+        "text": "some",
+        "chunk_id": 3771460916681736559
+      }
+    ]
+  }
+]

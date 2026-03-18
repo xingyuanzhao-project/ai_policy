@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 540425521401880217,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "direct expenditure in such amounts as needed to meet operational needs",
+    "entity_evidence": [
+      {
+        "span_id": 3688343826594627157,
+        "start": 653018,
+        "end": 653048,
+        "text": "support of Department of Water Resources",
+        "chunk_id": 14562479702339294104
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17553564509803068095,
+        "start": 653018,
+        "end": 653048,
+        "text": "support of Department of Water Resources",
+        "chunk_id": 14562479702339294104
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1016580930033178962,
+        "start": 653048,
+        "end": 653064,
+        "text": "for direct expenditure in such amounts as needed to meet operational needs",
+        "chunk_id": 14562479702339294104
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12150581114985147532,
+        "start": 653048,
+        "end": 653064,
+        "text": "for direct expenditure in such amounts as needed to meet operational needs",
+        "chunk_id": 14562479702339294104
+      }
+    ]
+  },
+  {
+    "candidate_id": 13026576029709970183,
+    "entity": "Water Resources Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "direct expenditure in such amounts as needed to meet operational needs",
+    "entity_evidence": [
+      {
+        "span_id": 9134840380397930297,
+        "start": 653048,
+        "end": 653064,
+        "text": "Water Resources Revolving Fund (0691)",
+        "chunk_id": 14562479702339294104
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7877889916693410264,
+        "start": 653048,
+        "end": 653064,
+        "text": "Water Resources Revolving Fund (0691)",
+        "chunk_id": 14562479702339294104
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5794919854219921235,
+        "start": 653048,
+        "end": 653064,
+        "text": "for direct expenditure in such amounts as needed to meet operational needs",
+        "chunk_id": 14562479702339294104
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4653625284842475505,
+        "start": 653048,
+        "end": 653064,
+        "text": "for direct expenditure in such amounts as needed to meet operational needs",
+        "chunk_id": 14562479702339294104
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 16574831701933708044,
+    "source_group_id": 15194844320512672490,
+    "source_candidate_ids": [
+      5401115137332324164,
+      10231581212013799797
+    ],
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "careful legislative oversight",
+    "entity_evidence": [
+      {
+        "span_id": 10758096270733680268,
+        "start": 134,
+        "end": 155,
+        "text": "artificial intelligence",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13497238543798759002,
+        "start": 134,
+        "end": 155,
+        "text": "artificial intelligence",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6034052578215434411,
+        "start": 134,
+        "end": 155,
+        "text": "artificial intelligence",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13835208193223982815,
+        "start": 134,
+        "end": 155,
+        "text": "careful legislative oversight",
+        "chunk_id": 14648090621036948504
+      }
+    ]
+  }
+]

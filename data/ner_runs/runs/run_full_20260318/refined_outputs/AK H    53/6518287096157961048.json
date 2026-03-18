@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15160895096575464076,
+    "source_group_id": 6518287096157961048,
+    "source_candidate_ids": [
+      11501260044040460745
+    ],
+    "entity": "Department of Education and Early Development",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "Mt. Edgecumbe High School",
+    "entity_evidence": [
+      {
+        "span_id": 15188550758288818938,
+        "start": 57296,
+        "end": 57327,
+        "text": "Department of Education and Early Development",
+        "chunk_id": 3880681243965882855
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 176822211833613306,
+        "start": 57328,
+        "end": 57335,
+        "text": "Department of Education and Early Development",
+        "chunk_id": 3880681243965882855
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3139378465023721056,
+        "start": 57336,
+        "end": 57343,
+        "text": "Mt. Edgecumbe High School",
+        "chunk_id": 3880681243965882855
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8076140625896005570,
+        "start": 57344,
+        "end": 57351,
+        "text": "Mt. Edgecumbe High School",
+        "chunk_id": 3880681243965882855
+      }
+    ]
+  }
+]

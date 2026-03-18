@@ -1,0 +1,33 @@
+[
+  {
+    "refined_id": 11151387556900922484,
+    "source_group_id": 13624005387376010172,
+    "source_candidate_ids": [
+      5477737499095560015
+    ],
+    "entity": "personal information",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "meaningful and effective boundaries",
+    "entity_evidence": [
+      {
+        "span_id": 3060516997235431409,
+        "start": 2233,
+        "end": 2247,
+        "text": "personal information",
+        "chunk_id": 16460172754254544917
+      }
+    ],
+    "type_evidence": [],
+    "attribute_evidence": [],
+    "value_evidence": [
+      {
+        "span_id": 1466518546052095800,
+        "start": 2233,
+        "end": 2247,
+        "text": "personal information",
+        "chunk_id": 16460172754254544917
+      }
+    ]
+  }
+]

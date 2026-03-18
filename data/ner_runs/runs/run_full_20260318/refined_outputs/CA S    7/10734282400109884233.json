@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14804560069846817339,
+    "source_group_id": 10734282400109884233,
+    "source_candidate_ids": [
+      3848977571539451799
+    ],
+    "entity": "worker",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "one request every 12 months",
+    "entity_evidence": [
+      {
+        "span_id": 2893011946108620057,
+        "start": 7606,
+        "end": 7626,
+        "text": "A worker is limited to one request every 12 months",
+        "chunk_id": 5958386563065381111
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11452381065154057798,
+        "start": 7483,
+        "end": 7489,
+        "text": "individual",
+        "chunk_id": 5958386563065381111
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12484420169837098715,
+        "start": 7483,
+        "end": 7492,
+        "text": "restriction",
+        "chunk_id": 5958386563065381111
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 954054299336671160,
+        "start": 7587,
+        "end": 7626,
+        "text": "one request every 12 months",
+        "chunk_id": 5958386563065381111
+      }
+    ]
+  }
+]

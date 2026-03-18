@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 197656402072728778,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "approval",
+    "entity_evidence": [
+      {
+        "span_id": 3483573755739261686,
+        "start": 350394,
+        "end": 350413,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 10802101450020548813
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12607762311970641673,
+        "start": 350394,
+        "end": 350413,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 10802101450020548813
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6497724171107275676,
+        "start": 350394,
+        "end": 350413,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 10802101450020548813
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3408567688658501861,
+        "start": 350394,
+        "end": 350413,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 10802101450020548813
+      }
+    ]
+  },
+  {
+    "candidate_id": 2647862727387551460,
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 6127919112110124084,
+        "start": 350505,
+        "end": 350524,
+        "text": "allocation by the California Transportation Commission",
+        "chunk_id": 10802101450020548813
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13925167904066703870,
+        "start": 350505,
+        "end": 350524,
+        "text": "allocation by the California Transportation Commission",
+        "chunk_id": 10802101450020548813
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9415786578624278275,
+        "start": 350505,
+        "end": 350524,
+        "text": "allocation by the California Transportation Commission",
+        "chunk_id": 10802101450020548813
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1660818851040850960,
+        "start": 350505,
+        "end": 350524,
+        "text": "allocation by the California Transportation Commission",
+        "chunk_id": 10802101450020548813
+      }
+    ]
+  }
+]

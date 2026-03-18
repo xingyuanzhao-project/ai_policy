@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15530471288536084814,
+    "entity": "State Department of Developmental Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from review or approval of the Department of General Services",
+    "entity_evidence": [
+      {
+        "span_id": 16847630827893190030,
+        "start": 859917,
+        "end": 859938,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 2596549880269474478
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17890927635009133546,
+        "start": 859917,
+        "end": 859938,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 2596549880269474478
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6521375048511954416,
+        "start": 859949,
+        "end": 859967,
+        "text": "exempt from the review or approval",
+        "chunk_id": 2596549880269474478
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16867140100955851673,
+        "start": 859949,
+        "end": 859967,
+        "text": "exempt from the review or approval",
+        "chunk_id": 2596549880269474478
+      }
+    ]
+  },
+  {
+    "candidate_id": 5106615089473346711,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from review or approval",
+    "entity_evidence": [
+      {
+        "span_id": 8468174781944239659,
+        "start": 859994,
+        "end": 860012,
+        "text": "Department of General Services",
+        "chunk_id": 2596549880269474478
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10237961368483064879,
+        "start": 859994,
+        "end": 860012,
+        "text": "Department of General Services",
+        "chunk_id": 2596549880269474478
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2476273616317034679,
+        "start": 859949,
+        "end": 859967,
+        "text": "exempt from the review or approval",
+        "chunk_id": 2596549880269474478
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2387560382010557754,
+        "start": 859949,
+        "end": 859967,
+        "text": "exempt from the review or approval",
+        "chunk_id": 2596549880269474478
+      }
+    ]
+  }
+]

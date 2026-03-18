@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7445644679696344715,
+    "entity": "Domestic Violence Information",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9963963938456770395,
+        "start": 1667454,
+        "end": 1667478,
+        "text": "Domestic Violence Information",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1688252980131654764,
+        "start": 1667479,
+        "end": 1667497,
+        "text": "Ch. 1609, Stats. 1984",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11259764635810704189,
+        "start": 1667498,
+        "end": 1667505,
+        "text": "n",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4635747885204329514,
+        "start": 1667506,
+        "end": 1667507,
+        "text": "n",
+        "chunk_id": 1183430067795661472
+      }
+    ]
+  },
+  {
+    "candidate_id": 1411626394099681912,
+    "entity": "Elder Abuse, Law Enforcement Training",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "moderately supportive",
+    "entity_evidence": [
+      {
+        "span_id": 14952465606685148541,
+        "start": 1667479,
+        "end": 1667499,
+        "text": "Elder Abuse, Law Enforcement Training",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2767235589233318930,
+        "start": 1667500,
+        "end": 1667518,
+        "text": "Ch. 444, Stats. 1997",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15878805507032402341,
+        "start": 1667519,
+        "end": 1667526,
+        "text": "o",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12275232141561143254,
+        "start": 1667527,
+        "end": 1667528,
+        "text": "o",
+        "chunk_id": 1183430067795661472
+      }
+    ]
+  }
+]

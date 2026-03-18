@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10930270725030927836,
+    "source_group_id": 6010131721018565719,
+    "source_candidate_ids": [
+      10936910771834223598
+    ],
+    "entity": "California vs. Hate Resource Line",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "extension beyond 2025-26 fiscal year",
+    "entity_evidence": [
+      {
+        "span_id": 5826514397924425183,
+        "start": 278538,
+        "end": 278557,
+        "text": "California vs. Hate Resource Line",
+        "chunk_id": 16700036900744276075
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9918920216133547065,
+        "start": 278538,
+        "end": 278557,
+        "text": "program",
+        "chunk_id": 16700036900744276075
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14144815782700151183,
+        "start": 278538,
+        "end": 278557,
+        "text": "promotion",
+        "chunk_id": 16700036900744276075
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6407397840346097342,
+        "start": 278538,
+        "end": 278557,
+        "text": "extension beyond 2025-26 fiscal year",
+        "chunk_id": 16700036900744276075
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2328391449424652125,
+    "source_group_id": 11330787876490976384,
+    "source_candidate_ids": [
+      11266754051097347436
+    ],
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority increase",
+    "entity_evidence": [
+      {
+        "span_id": 18383344359619017793,
+        "start": 1003661,
+        "end": 1003681,
+        "text": "State Department of Social Services",
+        "chunk_id": 2184774243219685246
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1484194180142761072,
+        "start": 1003661,
+        "end": 1003681,
+        "text": "government agency",
+        "chunk_id": 2184774243219685246
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16935735889710381334,
+        "start": 1003661,
+        "end": 1003681,
+        "text": "restriction",
+        "chunk_id": 2184774243219685246
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1146810471518883710,
+        "start": 1003661,
+        "end": 1003681,
+        "text": "expenditure authority increase",
+        "chunk_id": 2184774243219685246
+      }
+    ]
+  }
+]

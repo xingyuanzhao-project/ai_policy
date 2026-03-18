@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15459948261010799366,
+    "entity": "Department of Administration",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7794836925982612493,
+        "start": 143,
+        "end": 164,
+        "text": "Department of Administration",
+        "chunk_id": 15346648767824010077
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10378527913445549261,
+        "start": 143,
+        "end": 164,
+        "text": "Department of Administration",
+        "chunk_id": 15346648767824010077
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9364977780070430207,
+        "start": 143,
+        "end": 164,
+        "text": "Department of Administration",
+        "chunk_id": 15346648767824010077
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13267042965325728926,
+        "start": 143,
+        "end": 164,
+        "text": "Department of Administration",
+        "chunk_id": 15346648767824010077
+      }
+    ]
+  },
+  {
+    "candidate_id": 2964708675734638876,
+    "entity": "Office of Information Technology",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 5041056603025988408,
+        "start": 434,
+        "end": 457,
+        "text": "Office of Information Technology",
+        "chunk_id": 15346648767824010077
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5086070192773602469,
+        "start": 434,
+        "end": 457,
+        "text": "Office of Information Technology",
+        "chunk_id": 15346648767824010077
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7680508863809123785,
+        "start": 434,
+        "end": 457,
+        "text": "Office of Information Technology",
+        "chunk_id": 15346648767824010077
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 544419939723495573,
+        "start": 434,
+        "end": 457,
+        "text": "Office of Information Technology",
+        "chunk_id": 15346648767824010077
+      }
+    ]
+  }
+]

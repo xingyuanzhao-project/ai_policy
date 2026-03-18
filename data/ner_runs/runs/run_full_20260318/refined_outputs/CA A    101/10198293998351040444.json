@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16259568379889372826,
+    "source_group_id": 10198293998351040444,
+    "source_candidate_ids": [
+      15732297765369806664
+    ],
+    "entity": "California Collaborative for Educational Excellence",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 3005947597327122474,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "California Collaborative for Educational Excellence",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17959648771206795938,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "government agency",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11378836694426385999,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "promotion",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12304591639813395458,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "subsidy",
+        "chunk_id": 6059027215474011727
+      }
+    ]
+  }
+]

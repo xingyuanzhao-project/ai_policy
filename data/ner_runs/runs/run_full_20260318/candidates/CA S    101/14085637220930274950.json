@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2770243751867157895,
+    "entity": "California Department of Tax and Fee Administration",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "extensively supported",
+    "entity_evidence": [
+      {
+        "span_id": 2931845052353023731,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Administration of the California Department of Tax and Fee Administration",
+        "chunk_id": 14085637220930274950
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9331685414320866246,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Administration of the California Department of Tax and Fee Administration",
+        "chunk_id": 14085637220930274950
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 237589032546289367,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Administration of the California Department of Tax and Fee Administration",
+        "chunk_id": 14085637220930274950
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8333413937453241694,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Administration of the California Department of Tax and Fee Administration",
+        "chunk_id": 14085637220930274950
+      }
+    ]
+  },
+  {
+    "candidate_id": 5975041848642024321,
+    "entity": "Water Rights Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "partially supported",
+    "entity_evidence": [
+      {
+        "span_id": 773903220623173163,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Water Rights Fund",
+        "chunk_id": 14085637220930274950
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3360996638222189982,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Water Rights Fund",
+        "chunk_id": 14085637220930274950
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15094920562865349005,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Water Rights Fund",
+        "chunk_id": 14085637220930274950
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10600570289351395752,
+        "start": 1445063,
+        "end": 1445083,
+        "text": "Water Rights Fund",
+        "chunk_id": 14085637220930274950
+      }
+    ]
+  }
+]

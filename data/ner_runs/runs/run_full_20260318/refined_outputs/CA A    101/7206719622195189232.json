@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2281924676047539828,
+    "source_group_id": 7206719622195189232,
+    "source_candidate_ids": [
+      3289173014130773735
+    ],
+    "entity": "University of California, Los Angeles Ralph J. Bunche Center for African American Studies",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 11404823531580909548,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "University of California, Los Angeles Ralph J. Bunche Center for African American Studies",
+        "chunk_id": 14412799074031334029
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12840407833933071957,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "University of California, Los Angeles Ralph J. Bunche Center for African American Studies",
+        "chunk_id": 14412799074031334029
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14463825976657166436,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "support",
+        "chunk_id": 14412799074031334029
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7681702385984063964,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "support",
+        "chunk_id": 14412799074031334029
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15324873466230340242,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 2767452035542539776,
+        "start": 1396547,
+        "end": 1396567,
+        "text": "community college districts providing textbooks or digital course content pursuant to this subdivision are encouraged",
+        "chunk_id": 6401261374334461230
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 250414333104602070,
+        "start": 1396547,
+        "end": 1396567,
+        "text": "community college districts providing textbooks or digital course content pursuant to this subdivision are encouraged",
+        "chunk_id": 6401261374334461230
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9164440298408295413,
+        "start": 1396547,
+        "end": 1396567,
+        "text": "community college districts providing textbooks or digital course content pursuant to this subdivision are encouraged",
+        "chunk_id": 6401261374334461230
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8171579025270573167,
+        "start": 1396547,
+        "end": 1396567,
+        "text": "community college districts providing textbooks or digital course content pursuant to this subdivision are encouraged",
+        "chunk_id": 6401261374334461230
+      }
+    ]
+  },
+  {
+    "candidate_id": 877077313914132176,
+    "entity": "Office of the Chancellor of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to any competitive bidding requirements",
+    "entity_evidence": [
+      {
+        "span_id": 11220558155096980096,
+        "start": 1396658,
+        "end": 1396688,
+        "text": "a contract between the Office of the Chancellor of the California Community Colleges and a community college district for purposes of this subdivision is not subject to any competitive bidding requirements",
+        "chunk_id": 6401261374334461230
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2920656291685490204,
+        "start": 1396658,
+        "end": 1396688,
+        "text": "a contract between the Office of the Chancellor of the California Community Colleges and a community college district for purposes of this subdivision is not subject to any competitive bidding requirements",
+        "chunk_id": 6401261374334461230
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10403170571059537678,
+        "start": 1396658,
+        "end": 1396688,
+        "text": "a contract between the Office of the Chancellor of the California Community Colleges and a community college district for purposes of this subdivision is not subject to any competitive bidding requirements",
+        "chunk_id": 6401261374334461230
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1186235528644997007,
+        "start": 1396658,
+        "end": 1396688,
+        "text": "a contract between the Office of the Chancellor of the California Community Colleges and a community college district for purposes of this subdivision is not subject to any competitive bidding requirements",
+        "chunk_id": 6401261374334461230
+      }
+    ]
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "group_id": 10064937196925128822,
+    "candidate_ids": [
+      9173416743317126302,
+      6306481196297004186
+    ],
+    "field_score_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 1891810254113911803,
+    "candidate_ids": [
+      16494795710264902701
+    ],
+    "field_score_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 1994145965352050175,
+    "candidate_ids": [
+      18012043912265942122
+    ],
+    "field_score_matrix": [
+      [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 4397889579581332881,
+    "candidate_ids": [
+      8425109321151338886,
+      14606745840099833738
+    ],
+    "field_score_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 1989178998770896682,
+    "candidate_ids": [
+      17868376684510603066
+    ],
+    "field_score_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 15500400187740781295,
+    "candidate_ids": [
+      3300061985553271354
+    ],
+    "field_score_matrix": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 1750697355582876836,
+    "candidate_ids": [
+      13759036151258524670,
+      5190377457303590927
+    ],
+    "field_score_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 9341147439592835868,
+    "candidate_ids": [
+      8088599061458456475,
+      14908205725453714436
+    ],
+    "field_score_matrix": [
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  }
+]

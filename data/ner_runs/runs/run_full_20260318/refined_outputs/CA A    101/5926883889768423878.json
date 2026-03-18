@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2138370868589323281,
+    "source_group_id": 5926883889768423878,
+    "source_candidate_ids": [
+      439991744729213691
+    ],
+    "entity": "Lake Tahoe Science and Lake Improvement Account",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6667130529958278172,
+        "start": 442391,
+        "end": 442411,
+        "text": "Lake Tahoe Science and Lake Improvement Account",
+        "chunk_id": 864787007821992825
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12008680318141179277,
+        "start": 442391,
+        "end": 442411,
+        "text": "Lake Tahoe Science and Lake Improvement Account",
+        "chunk_id": 864787007821992825
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 734602569493477863,
+        "start": 442391,
+        "end": 442411,
+        "text": "Lake Tahoe Science and Lake Improvement Account",
+        "chunk_id": 864787007821992825
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4711979851212764660,
+        "start": 442391,
+        "end": 442411,
+        "text": "Lake Tahoe Science and Lake Improvement Account",
+        "chunk_id": 864787007821992825
+      }
+    ]
+  }
+]

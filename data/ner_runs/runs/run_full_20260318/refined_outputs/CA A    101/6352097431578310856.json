@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2144713244847591680,
+    "source_group_id": 6352097431578310856,
+    "source_candidate_ids": [
+      3350989646891546816
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "authorization",
+    "value": "one or more short-term cash loans",
+    "entity_evidence": [
+      {
+        "span_id": 12183717087004742916,
+        "start": 623872,
+        "end": 623888,
+        "text": "Director of Finance",
+        "chunk_id": 16780360905306102703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10805924444688981198,
+        "start": 623872,
+        "end": 623888,
+        "text": "government agency",
+        "chunk_id": 16780360905306102703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2361154550825262255,
+        "start": 623872,
+        "end": 623888,
+        "text": "authorization",
+        "chunk_id": 16780360905306102703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12481570827218187518,
+        "start": 623872,
+        "end": 623888,
+        "text": "one or more short-term cash loans",
+        "chunk_id": 16780360905306102703
+      }
+    ]
+  }
+]

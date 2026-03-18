@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11704306257897611636,
+    "source_group_id": 4162188727686626708,
+    "source_candidate_ids": [
+      13835924659196251858
+    ],
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "increase resident undergraduate enrollment",
+    "entity_evidence": [
+      {
+        "span_id": 14928855426769025898,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "University of California",
+        "chunk_id": 14412799074031334029
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1525463490251604063,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "University of California",
+        "chunk_id": 14412799074031334029
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 751843322371743240,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "increase resident undergraduate enrollment",
+        "chunk_id": 14412799074031334029
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16222667746272495905,
+        "start": 1337214,
+        "end": 1337234,
+        "text": "increase resident undergraduate enrollment",
+        "chunk_id": 14412799074031334029
+      }
+    ]
+  }
+]

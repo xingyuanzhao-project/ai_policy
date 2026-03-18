@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6594449490051953713,
+    "entity": "Attorney General",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "evaluation",
+    "entity_evidence": [
+      {
+        "span_id": 4390347564587928010,
+        "start": 51773,
+        "end": 51785,
+        "text": "The Attorney General may evaluate the data protection",
+        "chunk_id": 2080292399574991391
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6806418343950786516,
+        "start": 51773,
+        "end": 51785,
+        "text": "The Attorney General may evaluate the data protection",
+        "chunk_id": 2080292399574991391
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7012990993454163177,
+        "start": 51773,
+        "end": 51785,
+        "text": "The Attorney General may evaluate the data protection",
+        "chunk_id": 2080292399574991391
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6713305401521823032,
+        "start": 51773,
+        "end": 51785,
+        "text": "The Attorney General may evaluate the data protection",
+        "chunk_id": 2080292399574991391
+      }
+    ]
+  },
+  {
+    "candidate_id": 1869816275955649301,
+    "entity": "Deceptive Trade Practices Act",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "availability",
+    "entity_evidence": [
+      {
+        "span_id": 14721531724811169791,
+        "start": 51896,
+        "end": 51915,
+        "text": "All remedies, penalties, and authority granted to the Attorney General under the Deceptive Trade Practices Act",
+        "chunk_id": 2080292399574991391
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11207701587342372221,
+        "start": 51896,
+        "end": 51915,
+        "text": "All remedies, penalties, and authority granted to the Attorney General under the Deceptive Trade Practices Act",
+        "chunk_id": 2080292399574991391
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15551031392872560555,
+        "start": 51896,
+        "end": 51915,
+        "text": "All remedies, penalties, and authority granted to the Attorney General under the Deceptive Trade Practices Act",
+        "chunk_id": 2080292399574991391
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9987133135997547265,
+        "start": 51896,
+        "end": 51915,
+        "text": "All remedies, penalties, and authority granted to the Attorney General under the Deceptive Trade Practices Act",
+        "chunk_id": 2080292399574991391
+      }
+    ]
+  }
+]

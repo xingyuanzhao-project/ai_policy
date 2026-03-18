@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2565062907941017738,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 8565068781338781600,
+        "start": 5050,
+        "end": 5063,
+        "text": "covered platform",
+        "chunk_id": 14542551283892158403
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16364708572867948446,
+        "start": 5050,
+        "end": 5063,
+        "text": "covered platform",
+        "chunk_id": 14542551283892158403
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9598273902937580649,
+        "start": 5050,
+        "end": 5063,
+        "text": "covered platform",
+        "chunk_id": 14542551283892158403
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2870492692718379774,
+        "start": 5050,
+        "end": 5063,
+        "text": "covered platform",
+        "chunk_id": 14542551283892158403
+      }
+    ]
+  },
+  {
+    "candidate_id": 13338259480504607526,
+    "entity": "product, service, or feature",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 6318842627490246319,
+        "start": 5064,
+        "end": 5084,
+        "text": "product, service, or feature",
+        "chunk_id": 14542551283892158403
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5540736534449742074,
+        "start": 5064,
+        "end": 5084,
+        "text": "product, service, or feature",
+        "chunk_id": 14542551283892158403
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5974694093079477665,
+        "start": 5064,
+        "end": 5084,
+        "text": "product, service, or feature",
+        "chunk_id": 14542551283892158403
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5134233077933718377,
+        "start": 5064,
+        "end": 5084,
+        "text": "product, service, or feature",
+        "chunk_id": 14542551283892158403
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1146198606382232424,
+    "entity": "California Tahoe Conservancy",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "reappropriated for the purposes provided for in those appropriations",
+    "entity_evidence": [
+      {
+        "span_id": 7345236199765104748,
+        "start": 428467,
+        "end": 428487,
+        "text": "Reappropriation, California Tahoe Conservancy",
+        "chunk_id": 4278292939362695684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10514285509620639323,
+        "start": 428467,
+        "end": 428487,
+        "text": "Reappropriation, California Tahoe Conservancy",
+        "chunk_id": 4278292939362695684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7867026935529975880,
+        "start": 428467,
+        "end": 428487,
+        "text": "Reappropriation, California Tahoe Conservancy",
+        "chunk_id": 4278292939362695684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11008947850140454474,
+        "start": 428467,
+        "end": 428487,
+        "text": "Reappropriation, California Tahoe Conservancy",
+        "chunk_id": 4278292939362695684
+      }
+    ]
+  },
+  {
+    "candidate_id": 6398557029968548078,
+    "entity": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+    "type": "infrastructure",
+    "attribute": "reversion",
+    "value": "as of June 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 13980361395050179516,
+        "start": 428589,
+        "end": 428610,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 4278292939362695684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11783585092458739637,
+        "start": 428589,
+        "end": 428610,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 4278292939362695684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17270190585937201026,
+        "start": 428589,
+        "end": 428610,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 4278292939362695684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14047778942086233633,
+        "start": 428589,
+        "end": 428610,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 4278292939362695684
+      }
+    ]
+  }
+]

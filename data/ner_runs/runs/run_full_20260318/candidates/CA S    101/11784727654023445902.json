@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1922454337685951063,
+    "entity": "Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior submission of expenditure plan",
+    "entity_evidence": [
+      {
+        "span_id": 12687543365757319998,
+        "start": 1121089,
+        "end": 1121108,
+        "text": "Department of Education",
+        "chunk_id": 11784727654023445902
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12102052686882425565,
+        "start": 1121109,
+        "end": 1121123,
+        "text": "government agency",
+        "chunk_id": 11784727654023445902
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15872300076856258016,
+        "start": 1121124,
+        "end": 1121135,
+        "text": "prior submission of expenditure plan",
+        "chunk_id": 11784727654023445902
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7140734130862359576,
+        "start": 1121136,
+        "end": 1121146,
+        "text": "prior submission of expenditure plan",
+        "chunk_id": 11784727654023445902
+      }
+    ]
+  },
+  {
+    "candidate_id": 14499052151541267724,
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "conditional approval",
+    "entity_evidence": [
+      {
+        "span_id": 8908689954182905227,
+        "start": 1121089,
+        "end": 1121109,
+        "text": "State Board of Education",
+        "chunk_id": 11784727654023445902
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5891651975312474525,
+        "start": 1121110,
+        "end": 1121124,
+        "text": "government agency",
+        "chunk_id": 11784727654023445902
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14428091382519066458,
+        "start": 1121125,
+        "end": 1121134,
+        "text": "approval",
+        "chunk_id": 11784727654023445902
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 260038277793030280,
+        "start": 1121135,
+        "end": 1121145,
+        "text": "conditional approval",
+        "chunk_id": 11784727654023445902
+      }
+    ]
+  }
+]

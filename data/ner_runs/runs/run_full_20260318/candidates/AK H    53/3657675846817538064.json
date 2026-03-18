@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7369388106769478198,
+    "entity": "Permanent Fund Corporation Gross",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4082666385399793048,
+        "start": 70724,
+        "end": 70748,
+        "text": "Permanent Fund Corporation Gross",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16796281342637995307,
+        "start": 70724,
+        "end": 70748,
+        "text": "technology",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16160221479206109410,
+        "start": 70724,
+        "end": 70748,
+        "text": "restriction",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12784925334792752116,
+        "start": 70724,
+        "end": 70748,
+        "text": "extremely restrictive",
+        "chunk_id": 3657675846817538064
+      }
+    ]
+  },
+  {
+    "candidate_id": 17322094859244413874,
+    "entity": "Alaska Liquefied Natural Gas Project Fund I/A",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 1269368449073933591,
+        "start": 70724,
+        "end": 70758,
+        "text": "Alaska Liquefied Natural Gas Project Fund I/A",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10756539132310282143,
+        "start": 70724,
+        "end": 70758,
+        "text": "infrastructure",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2693557632229568944,
+        "start": 70724,
+        "end": 70758,
+        "text": "promotion",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1165411814471244045,
+        "start": 70724,
+        "end": 70758,
+        "text": "moderate",
+        "chunk_id": 3657675846817538064
+      }
+    ]
+  }
+]

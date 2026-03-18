@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11541509049773032138,
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14172135216164494881,
+        "start": 1421010,
+        "end": 1421034,
+        "text": "Department of Human Resources",
+        "chunk_id": 4394175477240110458
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15364353840453097154,
+        "start": 1421010,
+        "end": 1421034,
+        "text": "government agency",
+        "chunk_id": 4394175477240110458
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7253052705937908794,
+        "start": 1420260,
+        "end": 1420260,
+        "text": "",
+        "chunk_id": 4394175477240110458
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9916616930902727727,
+        "start": 1420260,
+        "end": 1420260,
+        "text": "",
+        "chunk_id": 4394175477240110458
+      }
+    ]
+  },
+  {
+    "candidate_id": 11159321118481002744,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 5226621172278927217,
+        "start": 1420260,
+        "end": 1420260,
+        "text": "",
+        "chunk_id": 4394175477240110458
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6152765929956289510,
+        "start": 1420260,
+        "end": 1420260,
+        "text": "",
+        "chunk_id": 4394175477240110458
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17821981022242358415,
+        "start": 1420260,
+        "end": 1420260,
+        "text": "",
+        "chunk_id": 4394175477240110458
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5869314225973968024,
+        "start": 1420260,
+        "end": 1420260,
+        "text": "",
+        "chunk_id": 4394175477240110458
+      }
+    ]
+  }
+]

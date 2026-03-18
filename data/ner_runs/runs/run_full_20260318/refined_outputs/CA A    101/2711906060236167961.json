@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5247796407860154120,
+    "source_group_id": 2711906060236167961,
+    "source_candidate_ids": [
+      1282085511801372714
+    ],
+    "entity": "California Regional Water Quality Control Board, Santa Ana Region",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandated costs",
+    "entity_evidence": [
+      {
+        "span_id": 16903872435203887621,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "California Regional Water Quality Control Board, Santa Ana Region",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12450144352090267360,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "government agency",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4550966287571793683,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "restriction",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9966287379178198452,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "mandated costs",
+        "chunk_id": 3749246097714498931
+      }
+    ]
+  }
+]

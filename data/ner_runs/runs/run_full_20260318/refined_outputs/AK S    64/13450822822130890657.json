@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14460185197844895590,
+    "source_group_id": 13450822822130890657,
+    "source_candidate_ids": [
+      18354553367534259530
+    ],
+    "entity": "low-income neighborhood",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "threshold",
+    "entity_evidence": [
+      {
+        "span_id": 14501207195739165827,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13440534533853929954,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8550208649972077118,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1765753549260027686,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ]
+  }
+]

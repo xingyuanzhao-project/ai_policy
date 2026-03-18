@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17868650064799023400,
+    "source_group_id": 11669792557604625827,
+    "source_candidate_ids": [
+      10713758809979685005
+    ],
+    "entity": "Artificial Intelligence",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 4947383263609656910,
+        "start": 0,
+        "end": 34,
+        "text": "A machine-based system that may include software or physical hardware that performs tasks, based upon data set inputs, which requires human-like perception, cognition, planning, learning, communication, or physical action and which is capable of improving performance based upon learned experience without significant human oversight toward influencing real or virtual environments.",
+        "chunk_id": 7172825186674131217
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10256091329690608661,
+        "start": 0,
+        "end": 34,
+        "text": "A machine-based system that may include software or physical hardware that performs tasks, based upon data set inputs, which requires human-like perception, cognition, planning, learning, communication, or physical action and which is capable of improving performance based upon learned experience without significant human oversight toward influencing real or virtual environments.",
+        "chunk_id": 7172825186674131217
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10190624144809387787,
+        "start": 0,
+        "end": 34,
+        "text": "A machine-based system that may include software or physical hardware that performs tasks, based upon data set inputs, which requires human-like perception, cognition, planning, learning, communication, or physical action and which is capable of improving performance based upon learned experience without significant human oversight toward influencing real or virtual environments.",
+        "chunk_id": 7172825186674131217
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 763179346591875644,
+        "start": 0,
+        "end": 34,
+        "text": "A machine-based system that may include software or physical hardware that performs tasks, based upon data set inputs, which requires human-like perception, cognition, planning, learning, communication, or physical action and which is capable of improving performance based upon learned experience without significant human oversight toward influencing real or virtual environments.",
+        "chunk_id": 7172825186674131217
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5784907031336937874,
+    "source_group_id": 2899567817564833091,
+    "source_candidate_ids": [
+      16237333825122643222
+    ],
+    "entity": "Sierra Nevada Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 6586741448848430330,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16191255194596839229,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10157150092955470420,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6230525033750105785,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ]
+  }
+]

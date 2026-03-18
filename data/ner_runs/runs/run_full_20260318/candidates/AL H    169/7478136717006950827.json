@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11191730995278549018,
+    "entity": "State of Alabama",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance with Act 2024-34",
+    "entity_evidence": [
+      {
+        "span_id": 6867230099108834067,
+        "start": 128096,
+        "end": 128113,
+        "text": "State agency",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10811689251313597884,
+        "start": 128096,
+        "end": 128113,
+        "text": "State agency",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14931436992989876300,
+        "start": 128113,
+        "end": 128133,
+        "text": "in compliance with the provisions of Act 2024-34",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16659387053863814122,
+        "start": 128113,
+        "end": 128133,
+        "text": "Act 2024-34",
+        "chunk_id": 7478136717006950827
+      }
+    ]
+  },
+  {
+    "candidate_id": 520020693425283982,
+    "entity": "Department of Examiners of Public Accounts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "audit services",
+    "entity_evidence": [
+      {
+        "span_id": 13565121551084456012,
+        "start": 128238,
+        "end": 128258,
+        "text": "Department of Examiners of Public Accounts",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14052741151614863205,
+        "start": 128238,
+        "end": 128258,
+        "text": "Department of Examiners of Public Accounts",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16782116565213528904,
+        "start": 128258,
+        "end": 128275,
+        "text": "for audit services",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12992150966955840194,
+        "start": 128258,
+        "end": 128275,
+        "text": "audit services",
+        "chunk_id": 7478136717006950827
+      }
+    ]
+  }
+]

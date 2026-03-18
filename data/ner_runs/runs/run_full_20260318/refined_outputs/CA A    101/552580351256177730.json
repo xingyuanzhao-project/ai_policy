@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18172134929217091492,
+    "source_group_id": 552580351256177730,
+    "source_candidate_ids": [
+      8962348100645243174
+    ],
+    "entity": "State Controller's Office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8475979765099384843,
+        "start": 204125,
+        "end": 204146,
+        "text": "State Controller's Office",
+        "chunk_id": 3626446303733396961
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7365742750389955064,
+        "start": 204125,
+        "end": 204146,
+        "text": "State Controller's Office",
+        "chunk_id": 3626446303733396961
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6813792044369319769,
+        "start": 203991,
+        "end": 203991,
+        "text": "",
+        "chunk_id": 3626446303733396961
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6580157049664741127,
+        "start": 203991,
+        "end": 203991,
+        "text": "",
+        "chunk_id": 3626446303733396961
+      }
+    ]
+  }
+]

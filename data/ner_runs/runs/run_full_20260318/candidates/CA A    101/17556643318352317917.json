@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5471921666530577205,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific situations",
+    "entity_evidence": [
+      {
+        "span_id": 15196150244587493705,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15234491799478025842,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17135116382096418919,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13384454961724477975,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ]
+  },
+  {
+    "candidate_id": 969123195886605935,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific situations",
+    "entity_evidence": [
+      {
+        "span_id": 7040782070083474875,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10260314035787744713,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16550619155134584918,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7531306374840049227,
+        "start": 518900,
+        "end": 518921,
+        "text": "The funds shall be used only for situations where budgeted Department of Forestry and Fire Protection initial attack forces are unable to cope with a wildland fire emergency,",
+        "chunk_id": 17556643318352317917
+      }
+    ]
+  }
+]

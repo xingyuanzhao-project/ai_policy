@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8188947585595919993,
+    "source_group_id": 1066281800204677089,
+    "source_candidate_ids": [
+      16767275225849339704
+    ],
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "prohibition",
+    "value": "complete",
+    "entity_evidence": [
+      {
+        "span_id": 7496478549013398200,
+        "start": 650058,
+        "end": 650078,
+        "text": "Department of General Services",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17841665788960437311,
+        "start": 650058,
+        "end": 650078,
+        "text": "government agency",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10183095612758290108,
+        "start": 650058,
+        "end": 650078,
+        "text": "prohibition",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3390826245734446774,
+        "start": 650058,
+        "end": 650078,
+        "text": "complete",
+        "chunk_id": 17649836263228653181
+      }
+    ]
+  }
+]

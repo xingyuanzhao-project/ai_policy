@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13251733143840022199,
+    "entity": "Western Climate Initiative, Incorporated",
+    "type": "company",
+    "attribute": "promotion",
+    "value": "up to 25 percent of quarterly membership costs",
+    "entity_evidence": [
+      {
+        "span_id": 12069517476051775576,
+        "start": 616180,
+        "end": 616214,
+        "text": "Western Climate Initiative, Incorporated",
+        "chunk_id": 17719815336441378109
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8491106522022702535,
+        "start": 616180,
+        "end": 616214,
+        "text": "company",
+        "chunk_id": 17719815336441378109
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17986959505489232177,
+        "start": 616180,
+        "end": 616214,
+        "text": "promotion",
+        "chunk_id": 17719815336441378109
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16350275950185468217,
+        "start": 616180,
+        "end": 616214,
+        "text": "up to 25 percent of quarterly membership costs",
+        "chunk_id": 17719815336441378109
+      }
+    ]
+  },
+  {
+    "candidate_id": 17182478746183440695,
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "State Air Resources Board",
+    "entity_evidence": [
+      {
+        "span_id": 1171350537124827141,
+        "start": 616180,
+        "end": 616204,
+        "text": "State Air Resources Board",
+        "chunk_id": 17719815336441378109
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9086621000151538216,
+        "start": 616180,
+        "end": 616204,
+        "text": "government agency",
+        "chunk_id": 17719815336441378109
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6877571082363282601,
+        "start": 616180,
+        "end": 616204,
+        "text": "support",
+        "chunk_id": 17719815336441378109
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6036152794002744549,
+        "start": 616180,
+        "end": 616204,
+        "text": "State Air Resources Board",
+        "chunk_id": 17719815336441378109
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7452382134128768838,
+    "source_group_id": 7818882858479662211,
+    "source_candidate_ids": [
+      13390249918389251049
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual organizational audit",
+    "entity_evidence": [
+      {
+        "span_id": 12693061080651166716,
+        "start": 1228403,
+        "end": 1228423,
+        "text": "submit an annual organizational audit",
+        "chunk_id": 13014541345898189522
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11149708432955320415,
+        "start": 1228403,
+        "end": 1228423,
+        "text": "annual organizational audit",
+        "chunk_id": 13014541345898189522
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18200260841111390170,
+        "start": 1228403,
+        "end": 1228423,
+        "text": "annual organizational audit",
+        "chunk_id": 13014541345898189522
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6605007713862727110,
+        "start": 1228403,
+        "end": 1228423,
+        "text": "annual organizational audit",
+        "chunk_id": 13014541345898189522
+      }
+    ]
+  }
+]

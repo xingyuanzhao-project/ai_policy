@@ -1,0 +1,52 @@
+[
+  {
+    "refined_id": 10172526997387584494,
+    "source_group_id": 18207594285376213606,
+    "source_candidate_ids": [
+      2651196711557775288,
+      8005845987304557789,
+      16288043873126889420,
+      7369955191745704585
+    ],
+    "entity": "Department of Health Care Access and Information",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13900543889839215035,
+        "start": 795398,
+        "end": 795418,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4802861521251127359,
+        "start": 795398,
+        "end": 795418,
+        "text": "government agency",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12358985379164524595,
+        "start": 795398,
+        "end": 795418,
+        "text": "restriction",
+        "chunk_id": 3195052751436074333
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10351219752460571952,
+        "start": 795398,
+        "end": 795418,
+        "text": "limited",
+        "chunk_id": 3195052751436074333
+      }
+    ]
+  }
+]

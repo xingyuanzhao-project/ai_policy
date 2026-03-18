@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15746783082166650849,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reimbursement for legal services",
+    "entity_evidence": [
+      {
+        "span_id": 4706630311476174614,
+        "start": 644826,
+        "end": 644846,
+        "text": "Department of Justice",
+        "chunk_id": 9580961503495607168
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12228282759010005531,
+        "start": 644826,
+        "end": 644846,
+        "text": "government agency",
+        "chunk_id": 9580961503495607168
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17428464739353844442,
+        "start": 644826,
+        "end": 644846,
+        "text": "restriction",
+        "chunk_id": 9580961503495607168
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4334049490291073075,
+        "start": 644826,
+        "end": 644846,
+        "text": "reimbursement for legal services",
+        "chunk_id": 9580961503495607168
+      }
+    ]
+  },
+  {
+    "candidate_id": 9312914487763474229,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 18014456034658296355,
+        "start": 644826,
+        "end": 644846,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 9580961503495607168
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3588632941563795732,
+        "start": 644826,
+        "end": 644846,
+        "text": "government agency",
+        "chunk_id": 9580961503495607168
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12003649039207793369,
+        "start": 644826,
+        "end": 644846,
+        "text": "promotion",
+        "chunk_id": 9580961503495607168
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12792149042419672256,
+        "start": 644826,
+        "end": 644846,
+        "text": "support",
+        "chunk_id": 9580961503495607168
+      }
+    ]
+  }
+]

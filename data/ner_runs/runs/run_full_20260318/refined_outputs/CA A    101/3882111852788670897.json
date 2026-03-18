@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 763913836480884175,
+    "source_group_id": 3882111852788670897,
+    "source_candidate_ids": [
+      16027235858531054159
+    ],
+    "entity": "Public School System Stabilization Account",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "suspension",
+    "entity_evidence": [
+      {
+        "span_id": 5182875421871946007,
+        "start": 1867348,
+        "end": 1867369,
+        "text": "Public School System Stabilization Account",
+        "chunk_id": 17147194038127700984
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9792918260191946743,
+        "start": 1867348,
+        "end": 1867369,
+        "text": "government agency",
+        "chunk_id": 17147194038127700984
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6378816464008074642,
+        "start": 1867348,
+        "end": 1867369,
+        "text": "restriction",
+        "chunk_id": 17147194038127700984
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14950519971415579057,
+        "start": 1867348,
+        "end": 1867369,
+        "text": "suspension",
+        "chunk_id": 17147194038127700984
+      }
+    ]
+  }
+]

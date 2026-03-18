@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 220490099290880724,
+    "source_group_id": 5844315873314914797,
+    "source_candidate_ids": [
+      6292295900331350357,
+      4027627116156984152
+    ],
+    "entity": "Department of Pesticide Regulation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 1350475784937015386,
+        "start": 704720,
+        "end": 704740,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17740560082945676129,
+        "start": 704720,
+        "end": 704740,
+        "text": "government agency",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15237676451988565682,
+        "start": 704720,
+        "end": 704740,
+        "text": "restriction",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4608610291381783705,
+        "start": 704720,
+        "end": 704740,
+        "text": "encumbrance or expenditure until June 30, 2027",
+        "chunk_id": 4120285710033843858
+      }
+    ]
+  }
+]

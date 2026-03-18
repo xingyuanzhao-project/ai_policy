@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5661668817367842595,
+    "entity": "California State University Annuitants",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 1030213647822504571,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "Health Benefits for California State University Annuitants",
+        "chunk_id": 16749396825973258330
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9533342004717410726,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "California State University Annuitants",
+        "chunk_id": 16749396825973258330
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16470689797533502601,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "reversion",
+        "chunk_id": 16749396825973258330
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6775238175139971591,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "reversion",
+        "chunk_id": 16749396825973258330
+      }
+    ]
+  },
+  {
+    "candidate_id": 5513934889929516416,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 8614694658152523416,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 16749396825973258330
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1348093938153236422,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "government agency",
+        "chunk_id": 16749396825973258330
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7167516034637664181,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "support",
+        "chunk_id": 16749396825973258330
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17993760030256637726,
+        "start": 1277391,
+        "end": 1277411,
+        "text": "support",
+        "chunk_id": 16749396825973258330
+      }
+    ]
+  }
+]

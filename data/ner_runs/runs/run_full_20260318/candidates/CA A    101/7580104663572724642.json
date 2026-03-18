@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12681198092673882607,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 8655719164238237754,
+        "start": 929475,
+        "end": 929495,
+        "text": "State Department of Public Health",
+        "chunk_id": 7580104663572724642
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1984924830562401271,
+        "start": 929475,
+        "end": 929495,
+        "text": "State Department of Public Health",
+        "chunk_id": 7580104663572724642
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13526032359575766531,
+        "start": 929495,
+        "end": 929503,
+        "text": "for rental payments on lease-revenue bonds",
+        "chunk_id": 7580104663572724642
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8194691052202089692,
+        "start": 929503,
+        "end": 929513,
+        "text": "payable from the State Department of Public Health Licensing and Certification Program Fund",
+        "chunk_id": 7580104663572724642
+      }
+    ]
+  },
+  {
+    "candidate_id": 14842817182151770405,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 5713411925929429150,
+        "start": 929583,
+        "end": 929604,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 7580104663572724642
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12572684460054713307,
+        "start": 929583,
+        "end": 929604,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 7580104663572724642
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8823934824577704449,
+        "start": 929604,
+        "end": 929613,
+        "text": "to the Expense Account",
+        "chunk_id": 7580104663572724642
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4307754987470998004,
+        "start": 929613,
+        "end": 929623,
+        "text": "$5,000",
+        "chunk_id": 7580104663572724642
+      }
+    ]
+  }
+]

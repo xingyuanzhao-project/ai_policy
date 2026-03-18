@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4885342244338491994,
+    "entity": "classified workers",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "livable, competitive wage",
+    "entity_evidence": [
+      {
+        "span_id": 6263645425855927386,
+        "start": 2289,
+        "end": 2299,
+        "text": "livable, competitive wage",
+        "chunk_id": 2926109136925694994
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8730453637376321770,
+        "start": 2289,
+        "end": 2299,
+        "text": "livable, competitive wage",
+        "chunk_id": 2926109136925694994
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4092247076384001596,
+        "start": 2289,
+        "end": 2299,
+        "text": "livable, competitive wage",
+        "chunk_id": 2926109136925694994
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12052958959205380598,
+        "start": 2289,
+        "end": 2299,
+        "text": "livable, competitive wage",
+        "chunk_id": 2926109136925694994
+      }
+    ]
+  },
+  {
+    "candidate_id": 769845923017925507,
+    "entity": "classified workers",
+    "type": "individual",
+    "attribute": "prohibition",
+    "value": "16 weeks of paid family and medical leave",
+    "entity_evidence": [
+      {
+        "span_id": 5928259706297171210,
+        "start": 2401,
+        "end": 2417,
+        "text": "16 weeks of paid family and medical leave",
+        "chunk_id": 2926109136925694994
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15568850324077386181,
+        "start": 2401,
+        "end": 2417,
+        "text": "16 weeks of paid family and medical leave",
+        "chunk_id": 2926109136925694994
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1069341001144957412,
+        "start": 2401,
+        "end": 2417,
+        "text": "16 weeks of paid family and medical leave",
+        "chunk_id": 2926109136925694994
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1016684664805797589,
+        "start": 2401,
+        "end": 2417,
+        "text": "16 weeks of paid family and medical leave",
+        "chunk_id": 2926109136925694994
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4833368030969884063,
+    "entity": "California Career Technical Education Incentive Grant Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "incentive",
+    "entity_evidence": [
+      {
+        "span_id": 14890916604811768627,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "California Career Technical Education Incentive Grant Program",
+        "chunk_id": 12377751346384001420
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14871300625610773598,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "technology",
+        "chunk_id": 12377751346384001420
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 658465789570801444,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "promotion",
+        "chunk_id": 12377751346384001420
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7106640521058926382,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "incentive",
+        "chunk_id": 12377751346384001420
+      }
+    ]
+  },
+  {
+    "candidate_id": 15687130251706105731,
+    "entity": "Strong Workforce Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "strong workforce",
+    "entity_evidence": [
+      {
+        "span_id": 3256809535400000770,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "Strong Workforce Program",
+        "chunk_id": 12377751346384001420
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17069951480270796811,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "technology",
+        "chunk_id": 12377751346384001420
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18341258110857917935,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "promotion",
+        "chunk_id": 12377751346384001420
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2939266267927543492,
+        "start": 1159976,
+        "end": 1159996,
+        "text": "strong workforce",
+        "chunk_id": 12377751346384001420
+      }
+    ]
+  }
+]

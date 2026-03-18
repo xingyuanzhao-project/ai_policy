@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18291047161318604057,
+    "entity": "frontier developer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 12012535996869710336,
+        "start": 30184,
+        "end": 30197,
+        "text": "A frontier developer",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8043802134622394409,
+        "start": 30184,
+        "end": 30197,
+        "text": "A frontier developer",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16601624741400977683,
+        "start": 30197,
+        "end": 30202,
+        "text": "shall not",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7107333142863541044,
+        "start": 30202,
+        "end": 30207,
+        "text": "prevent",
+        "chunk_id": 7795682431347896540
+      }
+    ]
+  },
+  {
+    "candidate_id": 16832673101396819410,
+    "entity": "covered employee",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 831292155067202029,
+        "start": 30308,
+        "end": 30321,
+        "text": "A covered employee",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9633100007729089149,
+        "start": 30308,
+        "end": 30321,
+        "text": "A covered employee",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18297627193675330278,
+        "start": 30321,
+        "end": 30326,
+        "text": "may use",
+        "chunk_id": 7795682431347896540
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8698349145553395392,
+        "start": 30326,
+        "end": 30331,
+        "text": "make reports",
+        "chunk_id": 7795682431347896540
+      }
+    ]
+  }
+]

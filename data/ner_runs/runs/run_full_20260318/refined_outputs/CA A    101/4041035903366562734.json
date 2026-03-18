@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17380574366514317182,
+    "source_group_id": 4041035903366562734,
+    "source_candidate_ids": [
+      9308465157524469226
+    ],
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "$300,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 3838244940171024446,
+        "start": 390947,
+        "end": 390968,
+        "text": "the California Transportation Commission",
+        "chunk_id": 15843682782925455649
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7624710288392499811,
+        "start": 390947,
+        "end": 390968,
+        "text": "the California Transportation Commission",
+        "chunk_id": 15843682782925455649
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17870981931031058002,
+        "start": 390968,
+        "end": 390978,
+        "text": "Before allocating projects",
+        "chunk_id": 15843682782925455649
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2309298213313386670,
+        "start": 390978,
+        "end": 390989,
+        "text": "$300,000,000",
+        "chunk_id": 15843682782925455649
+      }
+    ]
+  }
+]

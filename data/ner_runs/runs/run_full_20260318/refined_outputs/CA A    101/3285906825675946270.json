@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12071125938540954324,
+    "source_group_id": 3285906825675946270,
+    "source_candidate_ids": [
+      5972557376328813433
+    ],
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "indefinite",
+    "entity_evidence": [
+      {
+        "span_id": 14680293546172681394,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4361245755255670651,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8454286067528527037,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16311184189292319356,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ]
+  }
+]

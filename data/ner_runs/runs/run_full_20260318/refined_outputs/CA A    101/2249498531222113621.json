@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2550338847913513375,
+    "source_group_id": 2249498531222113621,
+    "source_candidate_ids": [
+      15324968299965093002
+    ],
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 3753331160054489713,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "all be matched by a minimum of $1 contributed by private businesses or industry for each $1 of state funds. The Chancellor of the California Community Colleges",
+        "chunk_id": 452811664131187579
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10353654604048690216,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "The Chancellor of the California Community Colleges",
+        "chunk_id": 452811664131187579
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8772926387334253521,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "shall consider the level of involvement and financial commitments of business and industry in making awards for performance-based training",
+        "chunk_id": 452811664131187579
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7241396435507219510,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "minimum of $1 contributed by private businesses or industry for each $1 of state funds",
+        "chunk_id": 452811664131187579
+      }
+    ]
+  }
+]

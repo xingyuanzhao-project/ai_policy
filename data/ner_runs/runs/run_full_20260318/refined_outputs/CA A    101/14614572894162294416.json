@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12166107675788298764,
+    "source_group_id": 14614572894162294416,
+    "source_candidate_ids": [
+      962481363076368195
+    ],
+    "entity": "Proposition 98",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12465946932003702363,
+        "start": 1216537,
+        "end": 1216557,
+        "text": "Proposition 98",
+        "chunk_id": 10616950104417268880
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 684990496102144652,
+        "start": 1216537,
+        "end": 1216557,
+        "text": "infrastructure",
+        "chunk_id": 10616950104417268880
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4085097496949526335,
+        "start": 1216537,
+        "end": 1216557,
+        "text": "restriction",
+        "chunk_id": 10616950104417268880
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13147291798091135931,
+        "start": 1216537,
+        "end": 1216557,
+        "text": "extremely restrictive",
+        "chunk_id": 10616950104417268880
+      }
+    ]
+  }
+]

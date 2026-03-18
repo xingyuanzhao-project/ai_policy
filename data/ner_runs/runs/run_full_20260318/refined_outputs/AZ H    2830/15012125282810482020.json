@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 10603166732404712726,
+    "source_group_id": 15012125282810482020,
+    "source_candidate_ids": [
+      13005543108934222934,
+      7822875483319991736
+    ],
+    "entity": "state agencies",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 9644211691385243535,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2745704910393034597,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11202220030763634913,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1867051698613391022,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ]
+  }
+]

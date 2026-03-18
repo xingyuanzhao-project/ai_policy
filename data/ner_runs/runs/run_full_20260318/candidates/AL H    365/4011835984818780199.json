@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13319557139772967968,
+    "entity": "STEM Council",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "four-year renewable term",
+    "entity_evidence": [
+      {
+        "span_id": 4666480016229997009,
+        "start": 2390,
+        "end": 2400,
+        "text": "STEM Council",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15319416043084819182,
+        "start": 2390,
+        "end": 2400,
+        "text": "government agency",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2393827378122740496,
+        "start": 2390,
+        "end": 2400,
+        "text": "restriction",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6596661821480457693,
+        "start": 2390,
+        "end": 2400,
+        "text": "four-year renewable term",
+        "chunk_id": 4011835984818780199
+      }
+    ]
+  },
+  {
+    "candidate_id": 14147544444500195384,
+    "entity": "Governor",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "STEM education or workforce development",
+    "entity_evidence": [
+      {
+        "span_id": 6398908408890496798,
+        "start": 2390,
+        "end": 2397,
+        "text": "Governor",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17643430378768921592,
+        "start": 2390,
+        "end": 2397,
+        "text": "government agency",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14088646206902549612,
+        "start": 2390,
+        "end": 2397,
+        "text": "promotion",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7445815666870556272,
+        "start": 2390,
+        "end": 2397,
+        "text": "STEM education or workforce development",
+        "chunk_id": 4011835984818780199
+      }
+    ]
+  }
+]

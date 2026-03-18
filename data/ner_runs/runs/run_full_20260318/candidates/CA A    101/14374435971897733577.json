@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8591538273811504177,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "upon implementation of a suitable updated electronic subscription purchasing process",
+    "entity_evidence": [
+      {
+        "span_id": 3698363596588285385,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1835114340072935880,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10289048475925810934,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13227304108933281605,
+        "start": 233285,
+        "end": 233305,
+        "text": "Department of General Services",
+        "chunk_id": 14374435971897733577
+      }
+    ]
+  },
+  {
+    "candidate_id": 4618852404335655945,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days after notification in writing of the necessity therefor is provided to the chairpersons of the fiscal committees in each house of the Legislature and the Chairperson of the Joint Legislative Budget Committee",
+    "entity_evidence": [
+      {
+        "span_id": 15956019558641686203,
+        "start": 233358,
+        "end": 233374,
+        "text": "Director of Finance",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12764433886174986985,
+        "start": 233358,
+        "end": 233374,
+        "text": "Director of Finance",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1483641718358338544,
+        "start": 233358,
+        "end": 233374,
+        "text": "Director of Finance",
+        "chunk_id": 14374435971897733577
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3849640828419169724,
+        "start": 233358,
+        "end": 233374,
+        "text": "Director of Finance",
+        "chunk_id": 14374435971897733577
+      }
+    ]
+  }
+]

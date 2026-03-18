@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5571501216081333898,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditures up to $4,200,000",
+    "entity_evidence": [
+      {
+        "span_id": 15205647625009647562,
+        "start": 1011053,
+        "end": 1011073,
+        "text": "The Department of Finance is authorized to approve expenditures up to $4,200,000",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9720695728377915290,
+        "start": 1011053,
+        "end": 1011073,
+        "text": "The Department of Finance is authorized to approve expenditures up to $4,200,000",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17546645510175208176,
+        "start": 1011053,
+        "end": 1011073,
+        "text": "The Department of Finance is authorized to approve expenditures up to $4,200,000",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1968096074252237506,
+        "start": 1011053,
+        "end": 1011073,
+        "text": "The Department of Finance is authorized to approve expenditures up to $4,200,000",
+        "chunk_id": 10183039178152684684
+      }
+    ]
+  },
+  {
+    "candidate_id": 7132054832824513575,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditures up to $996,000",
+    "entity_evidence": [
+      {
+        "span_id": 15552854182484443726,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12129635219544536375,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7169839333645321469,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3625207223073302770,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ]
+  }
+]

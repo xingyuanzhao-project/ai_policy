@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5918537450106292788,
+    "entity": "California Tahoe Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 5800636037792645716,
+        "start": 444811,
+        "end": 444835,
+        "text": "California Tahoe Conservancy",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3365041801083968046,
+        "start": 444811,
+        "end": 444835,
+        "text": "government agency",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3178605340988291648,
+        "start": 444811,
+        "end": 444835,
+        "text": "restriction",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1704044105062444846,
+        "start": 444811,
+        "end": 444835,
+        "text": "until June 30, 2028",
+        "chunk_id": 11411499879689671112
+      }
+    ]
+  },
+  {
+    "candidate_id": 13668762819650201783,
+    "entity": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "500,000",
+    "entity_evidence": [
+      {
+        "span_id": 8743447574277463743,
+        "start": 444811,
+        "end": 444865,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10348715637909391977,
+        "start": 444811,
+        "end": 444865,
+        "text": "infrastructure",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8435976638778698251,
+        "start": 444811,
+        "end": 444865,
+        "text": "promotion",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 339572119518234405,
+        "start": 444811,
+        "end": 444865,
+        "text": "500,000",
+        "chunk_id": 11411499879689671112
+      }
+    ]
+  }
+]

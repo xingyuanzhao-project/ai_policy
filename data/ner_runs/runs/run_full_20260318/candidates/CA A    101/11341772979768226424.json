@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17476811548858429253,
+    "entity": "GARVEE bonds",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10110896955547809974,
+        "start": 331120,
+        "end": 331127,
+        "text": "GARVEE",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 326720061300568073,
+        "start": 331120,
+        "end": 331127,
+        "text": "GARVEE",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12614464176985497469,
+        "start": 331120,
+        "end": 331127,
+        "text": "GARVEE",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17650882478645613199,
+        "start": 331120,
+        "end": 331127,
+        "text": "GARVEE",
+        "chunk_id": 11341772979768226424
+      }
+    ]
+  },
+  {
+    "candidate_id": 12239395750504069668,
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8590237604226298651,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16018416249663963569,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12300369839729292731,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10564247582711464914,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ]
+  }
+]

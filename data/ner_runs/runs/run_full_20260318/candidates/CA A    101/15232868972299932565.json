@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3043017820118872609,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "pursuant to Public Resources Code Section 91520(b)",
+    "entity_evidence": [
+      {
+        "span_id": 14033181209866858840,
+        "start": 516229,
+        "end": 516249,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4494484482793183153,
+        "start": 516229,
+        "end": 516249,
+        "text": "government agency",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2895797687878689414,
+        "start": 516229,
+        "end": 516249,
+        "text": "restriction",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6552264992647119481,
+        "start": 516229,
+        "end": 516249,
+        "text": "pursuant to Public Resources Code Section 91520(b)",
+        "chunk_id": 15232868972299932565
+      }
+    ]
+  },
+  {
+    "candidate_id": 2249421537553877433,
+    "entity": "Forest Health Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "administration",
+    "entity_evidence": [
+      {
+        "span_id": 17854321625434981624,
+        "start": 516229,
+        "end": 516239,
+        "text": "Forest Health Program",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2208497980152197715,
+        "start": 516229,
+        "end": 516239,
+        "text": "program",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17096285091741527770,
+        "start": 516229,
+        "end": 516239,
+        "text": "promotion",
+        "chunk_id": 15232868972299932565
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 637199730550947268,
+        "start": 516229,
+        "end": 516239,
+        "text": "administration",
+        "chunk_id": 15232868972299932565
+      }
+    ]
+  }
+]

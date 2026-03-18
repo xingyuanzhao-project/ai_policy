@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18239312720092065360,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 11168583175524916684,
+        "start": 1557323,
+        "end": 1557357,
+        "text": "For support of Department of General Services",
+        "chunk_id": 8513938658664213241
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17187690098531585297,
+        "start": 1557323,
+        "end": 1557357,
+        "text": "For support of Department of General Services",
+        "chunk_id": 8513938658664213241
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5086093779177587523,
+        "start": 1557323,
+        "end": 1557357,
+        "text": "For support of Department of General Services",
+        "chunk_id": 8513938658664213241
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16279751762836922491,
+        "start": 1557323,
+        "end": 1557357,
+        "text": "For support of Department of General Services",
+        "chunk_id": 8513938658664213241
+      }
+    ]
+  },
+  {
+    "candidate_id": 122641620503067505,
+    "entity": "state's real property assets",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "management",
+    "entity_evidence": [
+      {
+        "span_id": 15518568815898694824,
+        "start": 1557446,
+        "end": 1557466,
+        "text": "supporting the management of the state's real property assets",
+        "chunk_id": 8513938658664213241
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14766118350503643256,
+        "start": 1557446,
+        "end": 1557466,
+        "text": "supporting the management of the state's real property assets",
+        "chunk_id": 8513938658664213241
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5460118020436460069,
+        "start": 1557446,
+        "end": 1557466,
+        "text": "supporting the management of the state's real property assets",
+        "chunk_id": 8513938658664213241
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 786646606192155197,
+        "start": 1557446,
+        "end": 1557466,
+        "text": "supporting the management of the state's real property assets",
+        "chunk_id": 8513938658664213241
+      }
+    ]
+  }
+]

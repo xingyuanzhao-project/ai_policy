@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16890531618183689490,
+    "entity": "California Statewide Automated Welfare System",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17775790244178613186,
+        "start": 978393,
+        "end": 978413,
+        "text": "California Statewide Automated Welfare System",
+        "chunk_id": 13803458461193879806
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9955420488299763973,
+        "start": 978393,
+        "end": 978413,
+        "text": "technology",
+        "chunk_id": 13803458461193879806
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12152796195832210282,
+        "start": 978393,
+        "end": 978413,
+        "text": "restriction",
+        "chunk_id": 13803458461193879806
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3000889488662346443,
+        "start": 978393,
+        "end": 978413,
+        "text": "limited",
+        "chunk_id": 13803458461193879806
+      }
+    ]
+  },
+  {
+    "candidate_id": 5115335014116140127,
+    "entity": "Child Welfare Services-California Automated Response and Engagement System",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10549634170413979758,
+        "start": 978393,
+        "end": 978413,
+        "text": "Child Welfare Services-California Automated Response and Engagement System",
+        "chunk_id": 13803458461193879806
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10624982999791759342,
+        "start": 978393,
+        "end": 978413,
+        "text": "technology",
+        "chunk_id": 13803458461193879806
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1980638229702053324,
+        "start": 978393,
+        "end": 978413,
+        "text": "restriction",
+        "chunk_id": 13803458461193879806
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5610291424327448609,
+        "start": 978393,
+        "end": 978413,
+        "text": "limited",
+        "chunk_id": 13803458461193879806
+      }
+    ]
+  }
+]

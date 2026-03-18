@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4942085104335321735,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "determines need for moneys",
+    "entity_evidence": [
+      {
+        "span_id": 16010860212528210370,
+        "start": 769084,
+        "end": 769104,
+        "text": "The Department of Finance may transfer up to $2,430,000 as a loan to the Pharmaceutical and Sharps Stewardship Fund.",
+        "chunk_id": 14751697161982794666
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7564309228898216753,
+        "start": 769084,
+        "end": 769104,
+        "text": "The Department of Finance may transfer up to $2,430,000 as a loan to the Pharmaceutical and Sharps Stewardship Fund.",
+        "chunk_id": 14751697161982794666
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17152710348812415763,
+        "start": 769084,
+        "end": 769104,
+        "text": "The Department of Finance may transfer up to $2,430,000 as a loan to the Pharmaceutical and Sharps Stewardship Fund.",
+        "chunk_id": 14751697161982794666
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9752603198842627186,
+        "start": 769084,
+        "end": 769104,
+        "text": "The Department of Finance may transfer up to $2,430,000 as a loan to the Pharmaceutical and Sharps Stewardship Fund.",
+        "chunk_id": 14751697161982794666
+      }
+    ]
+  },
+  {
+    "candidate_id": 10016169051329238101,
+    "entity": "Pooled Money Investment Account",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "earned rate",
+    "entity_evidence": [
+      {
+        "span_id": 5893706360661768268,
+        "start": 769195,
+        "end": 769215,
+        "text": "This loan shall be repaid with interest calculated at the rate earned by the Pooled Money Investment Account at the time of transfer.",
+        "chunk_id": 14751697161982794666
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12977131743270368568,
+        "start": 769195,
+        "end": 769215,
+        "text": "This loan shall be repaid with interest calculated at the rate earned by the Pooled Money Investment Account at the time of transfer.",
+        "chunk_id": 14751697161982794666
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13512278588288112337,
+        "start": 769195,
+        "end": 769215,
+        "text": "This loan shall be repaid with interest calculated at the rate earned by the Pooled Money Investment Account at the time of transfer.",
+        "chunk_id": 14751697161982794666
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1161565760004858448,
+        "start": 769195,
+        "end": 769215,
+        "text": "This loan shall be repaid with interest calculated at the rate earned by the Pooled Money Investment Account at the time of transfer.",
+        "chunk_id": 14751697161982794666
+      }
+    ]
+  }
+]

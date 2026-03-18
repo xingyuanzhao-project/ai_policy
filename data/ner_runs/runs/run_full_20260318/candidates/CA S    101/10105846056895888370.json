@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10174156174017138216,
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "written approval",
+    "entity_evidence": [
+      {
+        "span_id": 4424338404174151265,
+        "start": 1424897,
+        "end": 1424917,
+        "text": "The Director of Finance shall not approve any transfer of funding between the California Advanced Services Fund's Federal Funding Account, any other account or subaccount that is created to receive funding from the federal IIJA's Broadband Equity, Access, and Deployment (BEAD) Program, and any accounts for the Department of Technology's MMBI",
+        "chunk_id": 10105846056895888370
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14149407681155184894,
+        "start": 1424897,
+        "end": 1424917,
+        "text": "The Director of Finance shall not approve any transfer of funding between the California Advanced Services Fund's Federal Funding Account, any other account or subaccount that is created to receive funding from the federal IIJA's Broadband Equity, Access, and Deployment (BEAD) Program, and any accounts for the Department of Technology's MMBI",
+        "chunk_id": 10105846056895888370
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16582918496730237176,
+        "start": 1424897,
+        "end": 1424917,
+        "text": "The Director of Finance shall not approve any transfer of funding between the California Advanced Services Fund's Federal Funding Account, any other account or subaccount that is created to receive funding from the federal IIJA's Broadband Equity, Access, and Deployment (BEAD) Program, and any accounts for the Department of Technology's MMBI",
+        "chunk_id": 10105846056895888370
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14952082315325513930,
+        "start": 1424897,
+        "end": 1424917,
+        "text": "The Director of Finance shall not approve any transfer of funding between the California Advanced Services Fund's Federal Funding Account, any other account or subaccount that is created to receive funding from the federal IIJA's Broadband Equity, Access, and Deployment (BEAD) Program, and any accounts for the Department of Technology's MMBI",
+        "chunk_id": 10105846056895888370
+      }
+    ]
+  },
+  {
+    "candidate_id": 1007923164342387087,
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "biannually",
+    "entity_evidence": [
+      {
+        "span_id": 16290206849937706179,
+        "start": 1424917,
+        "end": 1424929,
+        "text": "On or before September 1, 2025, and biannually thereafter until 2026, the Department of Technology shall provide a report",
+        "chunk_id": 10105846056895888370
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7483302227525760845,
+        "start": 1424917,
+        "end": 1424929,
+        "text": "On or before September 1, 2025, and biannually thereafter until 2026, the Department of Technology shall provide a report",
+        "chunk_id": 10105846056895888370
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2661654508388943609,
+        "start": 1424917,
+        "end": 1424929,
+        "text": "On or before September 1, 2025, and biannually thereafter until 2026, the Department of Technology shall provide a report",
+        "chunk_id": 10105846056895888370
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2973583746245678865,
+        "start": 1424917,
+        "end": 1424929,
+        "text": "On or before September 1, 2025, and biannually thereafter until 2026, the Department of Technology shall provide a report",
+        "chunk_id": 10105846056895888370
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1546702778318458939,
+    "source_group_id": 10744917351480315708,
+    "source_candidate_ids": [
+      13729214370466088138
+    ],
+    "entity": "FI$Cal",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 305933879397539680,
+        "start": 2443,
+        "end": 2449,
+        "text": "FI$Cal",
+        "chunk_id": 3112719753831218424
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8028952118645387849,
+        "start": 2443,
+        "end": 2449,
+        "text": "FI$Cal",
+        "chunk_id": 3112719753831218424
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 306054046472419499,
+        "start": 2443,
+        "end": 2449,
+        "text": "FI$Cal",
+        "chunk_id": 3112719753831218424
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17038450860103177426,
+        "start": 2443,
+        "end": 2449,
+        "text": "FI$Cal",
+        "chunk_id": 3112719753831218424
+      }
+    ]
+  }
+]

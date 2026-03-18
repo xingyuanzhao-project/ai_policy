@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13482688915165354746,
+    "entity": "Greenhouse Gas Reduction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "75 percent",
+    "entity_evidence": [
+      {
+        "span_id": 5431428528286802516,
+        "start": 1825766,
+        "end": 1825796,
+        "text": "Greenhouse Gas Reduction Fund",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10383488237817357332,
+        "start": 1825766,
+        "end": 1825796,
+        "text": "infrastructure",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18070038880695920318,
+        "start": 1825766,
+        "end": 1825796,
+        "text": "restriction",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2617532826541435553,
+        "start": 1825766,
+        "end": 1825796,
+        "text": "75 percent",
+        "chunk_id": 16964919092828667285
+      }
+    ]
+  },
+  {
+    "candidate_id": 1871031744935801914,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "at least 10 days prior",
+    "entity_evidence": [
+      {
+        "span_id": 10161561773953967967,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10050501661078191995,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "government agency",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9680598332526995633,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "notification",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1315008453219623041,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "at least 10 days prior",
+        "chunk_id": 16964919092828667285
+      }
+    ]
+  }
+]

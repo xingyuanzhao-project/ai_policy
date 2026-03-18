@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4019323489076295654,
+    "source_group_id": 8613626103029175252,
+    "source_candidate_ids": [
+      9106035322287529794
+    ],
+    "entity": "Next Generation 9-1-1 system",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 6391340906479587838,
+        "start": 131514,
+        "end": 131535,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 15549367507965720655
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9020081174691993856,
+        "start": 131514,
+        "end": 131535,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 15549367507965720655
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14231135450067554766,
+        "start": 131514,
+        "end": 131535,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 15549367507965720655
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17848347278630185077,
+        "start": 131514,
+        "end": 131535,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 15549367507965720655
+      }
+    ]
+  }
+]

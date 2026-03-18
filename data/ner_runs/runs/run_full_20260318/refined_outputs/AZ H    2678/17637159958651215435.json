@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 17434875317083137656,
+    "source_group_id": 17637159958651215435,
+    "source_candidate_ids": [
+      887449195425978974,
+      2343693946734085847
+    ],
+    "entity": "person",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "life imprisonment",
+    "entity_evidence": [
+      {
+        "span_id": 13097812458068480278,
+        "start": 134,
+        "end": 138,
+        "text": "life imprisonment",
+        "chunk_id": 14395006299984255270
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1427881528189669580,
+        "start": 134,
+        "end": 138,
+        "text": "life imprisonment",
+        "chunk_id": 14395006299984255270
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13600002114440327819,
+        "start": 134,
+        "end": 138,
+        "text": "life imprisonment",
+        "chunk_id": 14395006299984255270
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15621972802933020271,
+        "start": 134,
+        "end": 138,
+        "text": "life imprisonment",
+        "chunk_id": 14395006299984255270
+      }
+    ]
+  }
+]

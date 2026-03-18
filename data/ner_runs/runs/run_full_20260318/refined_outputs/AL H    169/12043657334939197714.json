@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6616879016190129522,
+    "source_group_id": 12043657334939197714,
+    "source_candidate_ids": [
+      16057976962193135880
+    ],
+    "entity": "Common Core State Standards Initiative",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "after April 1, 2013",
+    "entity_evidence": [
+      {
+        "span_id": 17971843108785503918,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15891123844300466684,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6439840330431802508,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15470902962121047442,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4258627773480737370,
+    "source_group_id": 16914391426239126836,
+    "source_candidate_ids": [
+      4228328546492297016
+    ],
+    "entity": "Attorney General",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "reporting",
+    "entity_evidence": [
+      {
+        "span_id": 13175011854384817221,
+        "start": 1308965,
+        "end": 1308977,
+        "text": "Attorney General",
+        "chunk_id": 17960657564437001591
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3280448489331464538,
+        "start": 1308965,
+        "end": 1308977,
+        "text": "government agency",
+        "chunk_id": 17960657564437001591
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12704395807887286809,
+        "start": 1308965,
+        "end": 1308977,
+        "text": "regulation",
+        "chunk_id": 17960657564437001591
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11398510571031853940,
+        "start": 1308965,
+        "end": 1308977,
+        "text": "reporting",
+        "chunk_id": 17960657564437001591
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12260136682092084675,
+    "source_group_id": 334080354230587392,
+    "source_candidate_ids": [
+      15415389731008535566
+    ],
+    "entity": "Center for Data Insights and Innovation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 2313480408939459040,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3347107014089459073,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4894880966766463980,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13869822498931954535,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ]
+  }
+]

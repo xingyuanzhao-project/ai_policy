@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13547765743794715195,
+    "entity": "Individuals with Disabilities Education Act",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "federal",
+    "entity_evidence": [
+      {
+        "span_id": 4129198043123447563,
+        "start": 1080971,
+        "end": 1081000,
+        "text": "ederal Individuals with Disabilities Education Act",
+        "chunk_id": 1673681573377049484
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3871303829722391189,
+        "start": 1081000,
+        "end": 1081016,
+        "text": "Individuals with Disabilities Education Act",
+        "chunk_id": 1673681573377049484
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10291309248772925218,
+        "start": 1081016,
+        "end": 1081025,
+        "text": "funds shall be made available",
+        "chunk_id": 1673681573377049484
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5999778746083583481,
+        "start": 1081025,
+        "end": 1081030,
+        "text": "federal",
+        "chunk_id": 1673681573377049484
+      }
+    ]
+  },
+  {
+    "candidate_id": 9854508376953067101,
+    "entity": "Family Empowerment Center on Disability",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "continued funding eligibility assessment",
+    "entity_evidence": [
+      {
+        "span_id": 17023900709973699427,
+        "start": 1081030,
+        "end": 1081047,
+        "text": "Family Empowerment Center on Disability",
+        "chunk_id": 1673681573377049484
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7908839163276242986,
+        "start": 1081047,
+        "end": 1081063,
+        "text": "Family Empowerment Center on Disability",
+        "chunk_id": 1673681573377049484
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11825431122463071248,
+        "start": 1081063,
+        "end": 1081076,
+        "text": "has been identified by the Superintendent as being subject to a continued funding eligibility assessment",
+        "chunk_id": 1673681573377049484
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8010324239176585316,
+        "start": 1081076,
+        "end": 1081099,
+        "text": "continued funding eligibility assessment",
+        "chunk_id": 1673681573377049484
+      }
+    ]
+  }
+]

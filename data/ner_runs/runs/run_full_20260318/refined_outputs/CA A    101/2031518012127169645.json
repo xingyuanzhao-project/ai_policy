@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15623040297258673016,
+    "source_group_id": 2031518012127169645,
+    "source_candidate_ids": [
+      16903647710943967268
+    ],
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "direct expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 16314268064381973459,
+        "start": 655637,
+        "end": 655670,
+        "text": "Department of Water Resources",
+        "chunk_id": 4452075811357480642
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14873181014955935255,
+        "start": 655637,
+        "end": 655670,
+        "text": "Department of Water Resources",
+        "chunk_id": 4452075811357480642
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 507306908926197396,
+        "start": 655670,
+        "end": 655680,
+        "text": "for direct expenditure",
+        "chunk_id": 4452075811357480642
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7665925350996530093,
+        "start": 655670,
+        "end": 655680,
+        "text": "in such amounts as needed to meet operational needs",
+        "chunk_id": 4452075811357480642
+      }
+    ]
+  }
+]

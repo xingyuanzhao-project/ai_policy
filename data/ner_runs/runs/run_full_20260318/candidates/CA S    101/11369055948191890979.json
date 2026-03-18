@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9928345891131158297,
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not sooner than 30 days",
+    "entity_evidence": [
+      {
+        "span_id": 12713609504175662152,
+        "start": 1392358,
+        "end": 1392378,
+        "text": "California Workforce Development Board",
+        "chunk_id": 11369055948191890979
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18165996733056631251,
+        "start": 1392358,
+        "end": 1392378,
+        "text": "government agency",
+        "chunk_id": 11369055948191890979
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8866788001971875740,
+        "start": 1392358,
+        "end": 1392378,
+        "text": "restriction",
+        "chunk_id": 11369055948191890979
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3084327133301844481,
+        "start": 1392358,
+        "end": 1392378,
+        "text": "not sooner than 30 days",
+        "chunk_id": 11369055948191890979
+      }
+    ]
+  },
+  {
+    "candidate_id": 6113903780827704805,
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "facilitate the implementation and operation",
+    "entity_evidence": [
+      {
+        "span_id": 13506114329388930418,
+        "start": 1392469,
+        "end": 1392490,
+        "text": "Employment Development Department",
+        "chunk_id": 11369055948191890979
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11118067076150597049,
+        "start": 1392469,
+        "end": 1392490,
+        "text": "government agency",
+        "chunk_id": 11369055948191890979
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6476872260635474325,
+        "start": 1392469,
+        "end": 1392490,
+        "text": "promotion",
+        "chunk_id": 11369055948191890979
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 634038787624478599,
+        "start": 1392469,
+        "end": 1392490,
+        "text": "facilitate the implementation and operation",
+        "chunk_id": 11369055948191890979
+      }
+    ]
+  }
+]

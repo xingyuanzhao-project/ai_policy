@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5171185958790011361,
+    "entity": "Sierra Nevada Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "climate change impacts",
+    "entity_evidence": [
+      {
+        "span_id": 15634761997711024160,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14141387323686688384,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17226144684163191712,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9352639994646534184,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ]
+  },
+  {
+    "candidate_id": 14338682684407451304,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "water resources development",
+    "entity_evidence": [
+      {
+        "span_id": 618689445733425143,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14145657595280468165,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 446360058659684689,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1433247906257301015,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ]
+  }
+]

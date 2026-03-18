@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6180231021777881391,
+    "entity": "local educational agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on hiring additional permanent staff",
+    "entity_evidence": [
+      {
+        "span_id": 13032063008173881128,
+        "start": 1214209,
+        "end": 1214228,
+        "text": "Such funds shall not be expended to hire additional permanent staff.",
+        "chunk_id": 10872933070935254060
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11242197062748552017,
+        "start": 1214209,
+        "end": 1214228,
+        "text": "Such funds shall not be expended to hire additional permanent staff.",
+        "chunk_id": 10872933070935254060
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14024160978407971466,
+        "start": 1214209,
+        "end": 1214228,
+        "text": "Such funds shall not be expended to hire additional permanent staff.",
+        "chunk_id": 10872933070935254060
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16025116576167835117,
+        "start": 1214209,
+        "end": 1214228,
+        "text": "Such funds shall not be expended to hire additional permanent staff.",
+        "chunk_id": 10872933070935254060
+      }
+    ]
+  },
+  {
+    "candidate_id": 5806505384981891839,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "formula basis",
+    "entity_evidence": [
+      {
+        "span_id": 10930319387804136609,
+        "start": 1214104,
+        "end": 1214119,
+        "text": "The State Department of Education shall develop and administer a process for providing grants from these funds on a formula basis",
+        "chunk_id": 10872933070935254060
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7806736305472867763,
+        "start": 1214104,
+        "end": 1214119,
+        "text": "The State Department of Education shall develop and administer a process for providing grants from these funds on a formula basis",
+        "chunk_id": 10872933070935254060
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3725436324139142321,
+        "start": 1214104,
+        "end": 1214119,
+        "text": "The State Department of Education shall develop and administer a process for providing grants from these funds on a formula basis",
+        "chunk_id": 10872933070935254060
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6096734333594396922,
+        "start": 1214104,
+        "end": 1214119,
+        "text": "The State Department of Education shall develop and administer a process for providing grants from these funds on a formula basis",
+        "chunk_id": 10872933070935254060
+      }
+    ]
+  }
+]

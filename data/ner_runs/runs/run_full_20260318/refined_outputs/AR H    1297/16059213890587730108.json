@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4235497833136868179,
+    "source_group_id": 16059213890587730108,
+    "source_candidate_ids": [
+      8778276885173136358
+    ],
+    "entity": "Artificial Intelligence",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "undefined",
+    "entity_evidence": [
+      {
+        "span_id": 18344464894071256513,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial Intelligence",
+        "chunk_id": 6111658501066841450
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7790928300070142676,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial Intelligence",
+        "chunk_id": 6111658501066841450
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9420386684285873620,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial Intelligence",
+        "chunk_id": 6111658501066841450
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4308360388787699683,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial Intelligence",
+        "chunk_id": 6111658501066841450
+      }
+    ]
+  }
+]

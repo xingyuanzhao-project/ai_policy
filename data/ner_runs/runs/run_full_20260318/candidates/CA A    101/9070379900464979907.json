@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15733714998719260878,
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "reducing recidivism",
+    "entity_evidence": [
+      {
+        "span_id": 1047608030745418893,
+        "start": 1499378,
+        "end": 1499398,
+        "text": "California Workforce Development Board",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13519629144861961007,
+        "start": 1499378,
+        "end": 1499398,
+        "text": "government agency",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14522862421201770937,
+        "start": 1499378,
+        "end": 1499398,
+        "text": "promotion",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13134629465964722309,
+        "start": 1499378,
+        "end": 1499398,
+        "text": "reducing recidivism",
+        "chunk_id": 9070379900464979907
+      }
+    ]
+  },
+  {
+    "candidate_id": 7829551991298946270,
+    "entity": "Prison to Employment program",
+    "type": "technology",
+    "attribute": "extension",
+    "value": "June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 14389547829939390312,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "Prison to Employment program",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9820696789696992240,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "technology",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14533901485554818982,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "extension",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5684346509375435673,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "June 30, 2028",
+        "chunk_id": 9070379900464979907
+      }
+    ]
+  }
+]

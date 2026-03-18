@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6674950656188495785,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "maximum extent allowable under federal law",
+    "entity_evidence": [
+      {
+        "span_id": 16250444873630818179,
+        "start": 547384,
+        "end": 547404,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 699693413451732047
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9024512266765250515,
+        "start": 547384,
+        "end": 547404,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 699693413451732047
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13846842158429393960,
+        "start": 547384,
+        "end": 547404,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 699693413451732047
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18290975500740550859,
+        "start": 547384,
+        "end": 547404,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 699693413451732047
+      }
+    ]
+  },
+  {
+    "candidate_id": 5323854729016111413,
+    "entity": "nonprofit organizations",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "grants",
+    "entity_evidence": [
+      {
+        "span_id": 4241706827823649903,
+        "start": 547384,
+        "end": 547394,
+        "text": "nonprofit organizations",
+        "chunk_id": 699693413451732047
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18272295536048942274,
+        "start": 547384,
+        "end": 547394,
+        "text": "nonprofit organizations",
+        "chunk_id": 699693413451732047
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16151015846446790963,
+        "start": 547384,
+        "end": 547394,
+        "text": "nonprofit organizations",
+        "chunk_id": 699693413451732047
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3652077671893529702,
+        "start": 547384,
+        "end": 547394,
+        "text": "nonprofit organizations",
+        "chunk_id": 699693413451732047
+      }
+    ]
+  }
+]

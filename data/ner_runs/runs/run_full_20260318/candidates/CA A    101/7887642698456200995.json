@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2582750067222004294,
+    "entity": "Board of State and Community Corrections",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 4749774240718070213,
+        "start": 1119897,
+        "end": 1119917,
+        "text": "The Board of State and Community Corrections",
+        "chunk_id": 7887642698456200995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14724554074462971912,
+        "start": 1119897,
+        "end": 1119917,
+        "text": "The Board of State and Community Corrections",
+        "chunk_id": 7887642698456200995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 326018669828072076,
+        "start": 1119897,
+        "end": 1119917,
+        "text": "The Board of State and Community Corrections",
+        "chunk_id": 7887642698456200995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12979066939854111184,
+        "start": 1119897,
+        "end": 1119917,
+        "text": "The Board of State and Community Corrections",
+        "chunk_id": 7887642698456200995
+      }
+    ]
+  },
+  {
+    "candidate_id": 11240151048956757158,
+    "entity": "state parole",
+    "type": "government agency",
+    "attribute": "priority",
+    "value": "high",
+    "entity_evidence": [
+      {
+        "span_id": 11358820397171004524,
+        "start": 1119919,
+        "end": 1119929,
+        "text": "individuals released to state parole",
+        "chunk_id": 7887642698456200995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2131283189601419171,
+        "start": 1119919,
+        "end": 1119929,
+        "text": "individuals released to state parole",
+        "chunk_id": 7887642698456200995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14899780856989246193,
+        "start": 1119919,
+        "end": 1119929,
+        "text": "individuals released to state parole",
+        "chunk_id": 7887642698456200995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15240977667871237081,
+        "start": 1119919,
+        "end": 1119929,
+        "text": "individuals released to state parole",
+        "chunk_id": 7887642698456200995
+      }
+    ]
+  }
+]

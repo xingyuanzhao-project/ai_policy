@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10989960098459849508,
+    "entity": "California State Payroll System",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific criteria",
+    "entity_evidence": [
+      {
+        "span_id": 2055926679690956147,
+        "start": 192806,
+        "end": 192825,
+        "text": "specific criteria",
+        "chunk_id": 1088809979167826450
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17124242661248577524,
+        "start": 192806,
+        "end": 192825,
+        "text": "specific criteria",
+        "chunk_id": 1088809979167826450
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16973327498237217549,
+        "start": 192806,
+        "end": 192825,
+        "text": "specific criteria",
+        "chunk_id": 1088809979167826450
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17002691570536428237,
+        "start": 192806,
+        "end": 192825,
+        "text": "specific criteria",
+        "chunk_id": 1088809979167826450
+      }
+    ]
+  },
+  {
+    "candidate_id": 11078364675827869082,
+    "entity": "California Firefighters' Memorial Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 9454209037778498365,
+        "start": 192806,
+        "end": 192825,
+        "text": "California Firefighters' Memorial Fund",
+        "chunk_id": 1088809979167826450
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14471502587065570751,
+        "start": 192806,
+        "end": 192825,
+        "text": "infrastructure",
+        "chunk_id": 1088809979167826450
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9892065221272713036,
+        "start": 192806,
+        "end": 192825,
+        "text": "allocation",
+        "chunk_id": 1088809979167826450
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17825790282934888876,
+        "start": 192806,
+        "end": 192825,
+        "text": "allocation",
+        "chunk_id": 1088809979167826450
+      }
+    ]
+  }
+]

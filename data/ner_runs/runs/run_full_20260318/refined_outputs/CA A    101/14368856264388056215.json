@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 38229121862924455,
+    "source_group_id": 14368856264388056215,
+    "source_candidate_ids": [
+      13055420669077953135
+    ],
+    "entity": "Child Nutrition Programs",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 9528297064635713894,
+        "start": 1270652,
+        "end": 1270670,
+        "text": "Of the funds appropriated in Schedule (1), $21,929,000 is available to support the Summer Electronic Benefits Transfer Program.",
+        "chunk_id": 7995387864434985285
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10199683645817850452,
+        "start": 1270652,
+        "end": 1270670,
+        "text": "Of the funds appropriated in Schedule (1), $21,929,000 is available to support the Summer Electronic Benefits Transfer Program.",
+        "chunk_id": 7995387864434985285
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5795684676633052535,
+        "start": 1270652,
+        "end": 1270670,
+        "text": "Of the funds appropriated in Schedule (1), $21,929,000 is available to support the Summer Electronic Benefits Transfer Program.",
+        "chunk_id": 7995387864434985285
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3928757328224317030,
+        "start": 1270652,
+        "end": 1270670,
+        "text": "Of the funds appropriated in Schedule (1), $21,929,000 is available to support the Summer Electronic Benefits Transfer Program.",
+        "chunk_id": 7995387864434985285
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9499269726735181999,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 8478588432115701442,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11764888513136145372,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 917415228073726092,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12397782159864125979,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ]
+  },
+  {
+    "candidate_id": 8351239885934145067,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 9363049562128395613,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7142057612328425533,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8721863853995791107,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9631557930747586283,
+        "start": 1472682,
+        "end": 1472702,
+        "text": "until June 30, 2027",
+        "chunk_id": 10256727182658568095
+      }
+    ]
+  }
+]

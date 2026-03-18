@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18124924239153306342,
+    "source_group_id": 6257039811570973303,
+    "source_candidate_ids": [
+      4820695853849489551
+    ],
+    "entity": "Government Code",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 14779544900900510989,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9884200297595436684,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5372378720513794943,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17535568251185292742,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ]
+  }
+]

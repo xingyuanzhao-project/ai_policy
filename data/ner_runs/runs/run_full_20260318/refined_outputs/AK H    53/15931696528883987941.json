@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5513170849429310459,
+    "source_group_id": 15931696528883987941,
+    "source_candidate_ids": [
+      493685098948523278
+    ],
+    "entity": "Department of Military and Veterans’ Affairs",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "unrestricted",
+    "entity_evidence": [
+      {
+        "span_id": 16305655867367758939,
+        "start": 68033,
+        "end": 68067,
+        "text": "Department of Military and Veterans’ Affairs",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16652381068969644563,
+        "start": 68068,
+        "end": 68087,
+        "text": "government agency",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3393804012292876729,
+        "start": 68088,
+        "end": 68095,
+        "text": "regulation",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11740258227045472638,
+        "start": 68096,
+        "end": 68103,
+        "text": "unrestricted",
+        "chunk_id": 4667024304216263764
+      }
+    ]
+  }
+]

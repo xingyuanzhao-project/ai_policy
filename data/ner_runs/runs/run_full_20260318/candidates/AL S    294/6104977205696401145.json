@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4378002471777218569,
+    "entity": "utilization review organization",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "72 hours plus one additional business day",
+    "entity_evidence": [
+      {
+        "span_id": 1416120679812677467,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17137774778809641296,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17951935418844227356,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5791040974673683185,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ]
+  },
+  {
+    "candidate_id": 8457538659199730276,
+    "entity": "insurer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "72 hours plus one additional business day",
+    "entity_evidence": [
+      {
+        "span_id": 10474508974152460831,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4661177055661250761,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10759915311678005700,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16472707598152870620,
+        "start": 2310,
+        "end": 2330,
+        "text": "within 72 hours plus, if applicable, one additional business day",
+        "chunk_id": 6104977205696401145
+      }
+    ]
+  }
+]

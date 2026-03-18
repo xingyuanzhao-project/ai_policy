@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 6690553612467663283,
+    "source_group_id": 15450194018202725383,
+    "source_candidate_ids": [
+      13401772562649806837,
+      8317532646584612474
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 11257538260845718713,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11384916788274897265,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount of available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14889955329281010994,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12934324810721482948,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ]
+  }
+]

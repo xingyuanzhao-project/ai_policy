@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1079975487280540720,
+    "source_group_id": 12718038937196587447,
+    "source_candidate_ids": [
+      9452040906378938789
+    ],
+    "entity": "California dairy industry",
+    "type": "industry",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 5085155650193003881,
+        "start": 1629047,
+        "end": 1629067,
+        "text": "California dairy industry",
+        "chunk_id": 1601703471348395650
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2874532336520745967,
+        "start": 1629047,
+        "end": 1629067,
+        "text": "California dairy industry",
+        "chunk_id": 1601703471348395650
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18113078885730575066,
+        "start": 1629047,
+        "end": 1629067,
+        "text": "California dairy industry",
+        "chunk_id": 1601703471348395650
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1397764659855374489,
+        "start": 1629047,
+        "end": 1629067,
+        "text": "California dairy industry",
+        "chunk_id": 1601703471348395650
+      }
+    ]
+  }
+]

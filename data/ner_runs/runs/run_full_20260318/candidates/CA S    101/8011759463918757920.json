@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6648430645678212108,
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 10016140758784525398,
+        "start": 1400409,
+        "end": 1400431,
+        "text": "Reappropriation, California Workforce Development Board",
+        "chunk_id": 8011759463918757920
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17838706324632578582,
+        "start": 1400409,
+        "end": 1400431,
+        "text": "Reappropriation, California Workforce Development Board",
+        "chunk_id": 8011759463918757920
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6873703243748158329,
+        "start": 1400409,
+        "end": 1400431,
+        "text": "Reappropriation, California Workforce Development Board",
+        "chunk_id": 8011759463918757920
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16844181937497897304,
+        "start": 1400409,
+        "end": 1400431,
+        "text": "Reappropriation, California Workforce Development Board",
+        "chunk_id": 8011759463918757920
+      }
+    ]
+  },
+  {
+    "candidate_id": 14564200570521129599,
+    "entity": "Agricultural Labor Relations Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 7069091123948615017,
+        "start": 1400427,
+        "end": 1400448,
+        "text": "For support of Agricultural Labor Relations Board",
+        "chunk_id": 8011759463918757920
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13625451070207844137,
+        "start": 1400427,
+        "end": 1400448,
+        "text": "For support of Agricultural Labor Relations Board",
+        "chunk_id": 8011759463918757920
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16386484814351754057,
+        "start": 1400427,
+        "end": 1400448,
+        "text": "For support of Agricultural Labor Relations Board",
+        "chunk_id": 8011759463918757920
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13840168231495090800,
+        "start": 1400427,
+        "end": 1400448,
+        "text": "For support of Agricultural Labor Relations Board",
+        "chunk_id": 8011759463918757920
+      }
+    ]
+  }
+]

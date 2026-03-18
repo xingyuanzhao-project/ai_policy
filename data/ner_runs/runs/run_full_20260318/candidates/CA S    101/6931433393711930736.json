@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15660679983599974397,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "extensive support",
+    "entity_evidence": [
+      {
+        "span_id": 12788727468568789688,
+        "start": 1245295,
+        "end": 1245315,
+        "text": "For support of University of California",
+        "chunk_id": 6931433393711930736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14453458605214466511,
+        "start": 1245295,
+        "end": 1245315,
+        "text": "For support of University of California",
+        "chunk_id": 6931433393711930736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14367831280246768898,
+        "start": 1245295,
+        "end": 1245315,
+        "text": "For support of University of California",
+        "chunk_id": 6931433393711930736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 79910178315291745,
+        "start": 1245295,
+        "end": 1245315,
+        "text": "For support of University of California",
+        "chunk_id": 6931433393711930736
+      }
+    ]
+  },
+  {
+    "candidate_id": 1079665686123317167,
+    "entity": "Oiled Wildlife Care Network",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific use",
+    "entity_evidence": [
+      {
+        "span_id": 7145475821282969213,
+        "start": 1245415,
+        "end": 1245436,
+        "text": "Oiled Wildlife Care Network",
+        "chunk_id": 6931433393711930736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5063374857109050857,
+        "start": 1245415,
+        "end": 1245436,
+        "text": "Oiled Wildlife Care Network",
+        "chunk_id": 6931433393711930736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8029648107388604724,
+        "start": 1245415,
+        "end": 1245436,
+        "text": "Oiled Wildlife Care Network",
+        "chunk_id": 6931433393711930736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17247286018488921208,
+        "start": 1245415,
+        "end": 1245436,
+        "text": "Oiled Wildlife Care Network",
+        "chunk_id": 6931433393711930736
+      }
+    ]
+  }
+]

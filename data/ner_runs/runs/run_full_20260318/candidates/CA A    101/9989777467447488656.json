@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12607728946935908887,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15703036090793305442,
+        "start": 1029663,
+        "end": 1029683,
+        "text": "State Department of Social Services",
+        "chunk_id": 9989777467447488656
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5454779548571659858,
+        "start": 1029663,
+        "end": 1029683,
+        "text": "government agency",
+        "chunk_id": 9989777467447488656
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13874224310589708763,
+        "start": 1029663,
+        "end": 1029683,
+        "text": "restriction",
+        "chunk_id": 9989777467447488656
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16436816222792686457,
+        "start": 1029663,
+        "end": 1029683,
+        "text": "limited",
+        "chunk_id": 9989777467447488656
+      }
+    ]
+  },
+  {
+    "candidate_id": 2522913758130514122,
+    "entity": "CalWORKs",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 9309794709499264553,
+        "start": 1029663,
+        "end": 1029663,
+        "text": "CalWORKs",
+        "chunk_id": 9989777467447488656
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2837282223637502949,
+        "start": 1029663,
+        "end": 1029663,
+        "text": "technology",
+        "chunk_id": 9989777467447488656
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5971478189259582040,
+        "start": 1029663,
+        "end": 1029663,
+        "text": "prohibition",
+        "chunk_id": 9989777467447488656
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2816287198059620235,
+        "start": 1029663,
+        "end": 1029663,
+        "text": "partial",
+        "chunk_id": 9989777467447488656
+      }
+    ]
+  }
+]

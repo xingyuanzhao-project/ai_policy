@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10468712791053391154,
+    "source_group_id": 18358335061349025069,
+    "source_candidate_ids": [
+      8437232467704405931
+    ],
+    "entity": "Legislative Branch",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "program level",
+    "entity_evidence": [
+      {
+        "span_id": 696773183338615950,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9181456034226556086,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4269905850166777983,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 394666794154328133,
+        "start": 2515,
+        "end": 2535,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ]
+  }
+]

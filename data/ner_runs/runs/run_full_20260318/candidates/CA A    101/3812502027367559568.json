@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12512403637332581194,
+    "entity": "State Department of Developmental Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "cumulative total of $30,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 3912021598861863024,
+        "start": 944955,
+        "end": 944976,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12036100534440098146,
+        "start": 944955,
+        "end": 944976,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15930505378753500945,
+        "start": 944955,
+        "end": 944976,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7918376535660194493,
+        "start": 944955,
+        "end": 944976,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 3812502027367559568
+      }
+    ]
+  },
+  {
+    "candidate_id": 11479880586736905600,
+    "entity": "General Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "cumulative total of $30,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 8370868762278454142,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11856946160632009749,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3677853786684535725,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5670913076241523142,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ]
+  }
+]

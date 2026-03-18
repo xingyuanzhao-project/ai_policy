@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10251811356122194133,
+    "source_group_id": 13965024102184753472,
+    "source_candidate_ids": [
+      9699855724699907049
+    ],
+    "entity": "Child Nutrition Programs",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6003089021819186755,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Child Nutrition Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13001681192178662565,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4875491534666919704,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10349867541539675018,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16057976962193135880,
+    "entity": "Common Core State Standards Initiative",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "after April 1, 2013",
+    "entity_evidence": [
+      {
+        "span_id": 10114813223475527260,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5045204614120148895,
+        "start": 79939,
+        "end": 79959,
+        "text": "Common Core State Standards Initiative",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5507096627822583784,
+        "start": 79960,
+        "end": 79970,
+        "text": "after April 1, 2013",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6684195139046787242,
+        "start": 79960,
+        "end": 79970,
+        "text": "after April 1, 2013",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  },
+  {
+    "candidate_id": 9244887282957729398,
+    "entity": "Educational Television Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology",
+    "entity_evidence": [
+      {
+        "span_id": 3046156167775607530,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8856005803745000980,
+        "start": 80001,
+        "end": 80019,
+        "text": "Educational Television Commission",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17243239244322959646,
+        "start": 80020,
+        "end": 80040,
+        "text": "unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5766803632685386046,
+        "start": 80020,
+        "end": 80040,
+        "text": "unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  }
+]

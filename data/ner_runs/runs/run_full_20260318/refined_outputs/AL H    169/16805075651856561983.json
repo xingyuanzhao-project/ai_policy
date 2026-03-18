@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9800451362442296199,
+    "source_group_id": 16805075651856561983,
+    "source_candidate_ids": [
+      8384126777095543564
+    ],
+    "entity": "University of Alabama at Birmingham",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16590637279496859813,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16781771553594206042,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18160228605094022861,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 102945386103617146,
+        "start": 119935,
+        "end": 119956,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 6998269170628871307
+      }
+    ]
+  }
+]

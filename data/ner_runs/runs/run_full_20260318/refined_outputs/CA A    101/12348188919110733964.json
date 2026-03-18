@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3515581793360906212,
+    "source_group_id": 12348188919110733964,
+    "source_candidate_ids": [
+      16463128670067951696
+    ],
+    "entity": "Public Building Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "payable from",
+    "entity_evidence": [
+      {
+        "span_id": 10224995643662678557,
+        "start": 1345038,
+        "end": 1345058,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16656419770545848457,
+        "start": 1345038,
+        "end": 1345058,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15735172868418962126,
+        "start": 1345064,
+        "end": 1345084,
+        "text": "payable from",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1497346890013769197,
+        "start": 1345064,
+        "end": 1345084,
+        "text": "payable from",
+        "chunk_id": 12063120577769491799
+      }
+    ]
+  }
+]

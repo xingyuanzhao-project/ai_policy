@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7769081417029973055,
+    "source_group_id": 5288506129839336216,
+    "source_candidate_ids": [
+      1493592926754929810
+    ],
+    "entity": "Health and Safety Code",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 14484708754679950500,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2139469718527030453,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4094692344451180556,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3817353130088265081,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9687614234595915831,
+    "source_group_id": 8065156255299738604,
+    "source_candidate_ids": [
+      17436317740699662106
+    ],
+    "entity": "Department of Transportation and Public Facilities",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "maintenance and operations of facilities and leases",
+    "entity_evidence": [
+      {
+        "span_id": 7243432186576572270,
+        "start": 49457,
+        "end": 49491,
+        "text": "by the Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14188348699772911196,
+        "start": 49491,
+        "end": 49511,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2784403493006243166,
+        "start": 49511,
+        "end": 49531,
+        "text": "maintenance and operations of facilities and leases",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16110075299956826792,
+        "start": 49531,
+        "end": 49581,
+        "text": "maintenance and operations of facilities and leases",
+        "chunk_id": 17779640889395438327
+      }
+    ]
+  }
+]

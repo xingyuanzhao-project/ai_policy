@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3639655116786082638,
+    "entity": "Alaska State Troopers",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 8810053335571092255,
+        "start": 41625,
+        "end": 41640,
+        "text": "Alaska State Troopers",
+        "chunk_id": 5988934220535733948
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14905744463943467178,
+        "start": 41625,
+        "end": 41640,
+        "text": "Alaska State Troopers",
+        "chunk_id": 5988934220535733948
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9552554382612822901,
+        "start": 41625,
+        "end": 41640,
+        "text": "Alaska State Troopers",
+        "chunk_id": 5988934220535733948
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17842196670243903415,
+        "start": 41625,
+        "end": 41640,
+        "text": "Alaska State Troopers",
+        "chunk_id": 5988934220535733948
+      }
+    ]
+  },
+  {
+    "candidate_id": 802759680981310463,
+    "entity": "Alaska Police Standards Council",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "some",
+    "entity_evidence": [
+      {
+        "span_id": 12078122706122160107,
+        "start": 41848,
+        "end": 41864,
+        "text": "Alaska Police Standards Council",
+        "chunk_id": 5988934220535733948
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4379072477116227635,
+        "start": 41848,
+        "end": 41864,
+        "text": "Alaska Police Standards Council",
+        "chunk_id": 5988934220535733948
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3858650494082145624,
+        "start": 41848,
+        "end": 41864,
+        "text": "Alaska Police Standards Council",
+        "chunk_id": 5988934220535733948
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4274760648461481406,
+        "start": 41848,
+        "end": 41864,
+        "text": "Alaska Police Standards Council",
+        "chunk_id": 5988934220535733948
+      }
+    ]
+  }
+]

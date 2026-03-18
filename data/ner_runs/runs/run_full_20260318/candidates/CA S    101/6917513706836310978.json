@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16989567973332875424,
+    "entity": "Baldwin Hills and Urban Watersheds Conservancy",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "available for conservancy specified purposes",
+    "entity_evidence": [
+      {
+        "span_id": 4247529147741449435,
+        "start": 577439,
+        "end": 577469,
+        "text": "conservancy specified purposes",
+        "chunk_id": 6917513706836310978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13236484787727589300,
+        "start": 577439,
+        "end": 577469,
+        "text": "conservancy specified purposes",
+        "chunk_id": 6917513706836310978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4714316077851959438,
+        "start": 577439,
+        "end": 577469,
+        "text": "conservancy specified purposes",
+        "chunk_id": 6917513706836310978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14896453095514539568,
+        "start": 577439,
+        "end": 577469,
+        "text": "conservancy specified purposes",
+        "chunk_id": 6917513706836310978
+      }
+    ]
+  },
+  {
+    "candidate_id": 1873577268080959147,
+    "entity": "Delta Protection Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 7804399529529191394,
+        "start": 577440,
+        "end": 577462,
+        "text": "support of Delta Protection Commission",
+        "chunk_id": 6917513706836310978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16608086280413289888,
+        "start": 577440,
+        "end": 577462,
+        "text": "support of Delta Protection Commission",
+        "chunk_id": 6917513706836310978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18329539112458008407,
+        "start": 577440,
+        "end": 577462,
+        "text": "support of Delta Protection Commission",
+        "chunk_id": 6917513706836310978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8787712860338322906,
+        "start": 577440,
+        "end": 577462,
+        "text": "support of Delta Protection Commission",
+        "chunk_id": 6917513706836310978
+      }
+    ]
+  }
+]

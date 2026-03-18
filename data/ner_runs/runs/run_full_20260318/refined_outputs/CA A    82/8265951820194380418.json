@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18410886403929995445,
+    "source_group_id": 8265951820194380418,
+    "source_candidate_ids": [
+      16591933825339042049
+    ],
+    "entity": "practitioners",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "some restrictions",
+    "entity_evidence": [
+      {
+        "span_id": 6125558175000096236,
+        "start": 44590,
+        "end": 44598,
+        "text": "practitioners",
+        "chunk_id": 2959849709182533474
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8272384536370953222,
+        "start": 44590,
+        "end": 44598,
+        "text": "practitioners",
+        "chunk_id": 2959849709182533474
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14333001959447230706,
+        "start": 44590,
+        "end": 44598,
+        "text": "practitioners",
+        "chunk_id": 2959849709182533474
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11233904620197394328,
+        "start": 44590,
+        "end": 44598,
+        "text": "practitioners",
+        "chunk_id": 2959849709182533474
+      }
+    ]
+  }
+]

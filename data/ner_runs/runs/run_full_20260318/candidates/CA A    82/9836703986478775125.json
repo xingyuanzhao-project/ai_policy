@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4820695853849489551,
+    "entity": "Government Code",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6655592898862405302,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16238339032277490593,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12214871537281121408,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12193999401484594638,
+        "start": 29601,
+        "end": 29613,
+        "text": "Section 6218.05 of the Government Code",
+        "chunk_id": 9836703986478775125
+      }
+    ]
+  },
+  {
+    "candidate_id": 15013067731527391832,
+    "entity": "Designated health care services",
+    "type": "health care services",
+    "attribute": "promotion",
+    "value": "gender-affirming",
+    "entity_evidence": [
+      {
+        "span_id": 9717005417376908002,
+        "start": 29724,
+        "end": 29745,
+        "text": "gender-affirming health care services",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10331897310300294867,
+        "start": 29724,
+        "end": 29745,
+        "text": "gender-affirming health care services",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2777419084280594355,
+        "start": 29724,
+        "end": 29745,
+        "text": "gender-affirming health care services",
+        "chunk_id": 9836703986478775125
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5878559939735724173,
+        "start": 29724,
+        "end": 29745,
+        "text": "gender-affirming health care services",
+        "chunk_id": 9836703986478775125
+      }
+    ]
+  }
+]

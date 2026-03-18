@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16349671800266686304,
+    "source_group_id": 12778857061731875532,
+    "source_candidate_ids": [
+      1736711408587076360
+    ],
+    "entity": "Water Rights Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 7312057424297453458,
+        "start": 1544392,
+        "end": 1544412,
+        "text": "Water Rights Fund",
+        "chunk_id": 5721326658699639795
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4863499689432383707,
+        "start": 1544392,
+        "end": 1544412,
+        "text": "Water Rights Fund",
+        "chunk_id": 5721326658699639795
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7831983272705048445,
+        "start": 1544392,
+        "end": 1544412,
+        "text": "Water Rights Fund",
+        "chunk_id": 5721326658699639795
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3179496736112967204,
+        "start": 1544392,
+        "end": 1544412,
+        "text": "Water Rights Fund",
+        "chunk_id": 5721326658699639795
+      }
+    ]
+  }
+]

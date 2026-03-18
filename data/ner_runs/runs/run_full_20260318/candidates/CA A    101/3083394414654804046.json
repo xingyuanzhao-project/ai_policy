@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7369955191745704585,
+    "entity": "Department of Health Care Access and Information",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10236135345664149773,
+        "start": 803198,
+        "end": 803218,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6767236783610400558,
+        "start": 803198,
+        "end": 803218,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5558017294448713176,
+        "start": 803198,
+        "end": 803218,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9735239035511256529,
+        "start": 803198,
+        "end": 803218,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 3083394414654804046
+      }
+    ]
+  },
+  {
+    "candidate_id": 1493592926754929810,
+    "entity": "Health and Safety Code",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 640904343755105627,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 698523730599004696,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16563902128404366120,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1845402734858113220,
+        "start": 802907,
+        "end": 802927,
+        "text": "Health and Safety Code",
+        "chunk_id": 3083394414654804046
+      }
+    ]
+  }
+]

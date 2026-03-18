@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11351837147216666463,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "as allocated by the State Department of Education",
+    "entity_evidence": [
+      {
+        "span_id": 4476413578969107179,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "State Department of Education",
+        "chunk_id": 9638747058411530801
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8505197869454018379,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "State Department of Education",
+        "chunk_id": 9638747058411530801
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5201777369630027968,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "as allocated by the State Department of Education",
+        "chunk_id": 9638747058411530801
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4582538287501488762,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "as allocated by the State Department of Education",
+        "chunk_id": 9638747058411530801
+      }
+    ]
+  },
+  {
+    "candidate_id": 11394628182693433171,
+    "entity": "State Special Schools",
+    "type": "infrastructure",
+    "attribute": "allocation",
+    "value": "as allocated by the State Department of Education",
+    "entity_evidence": [
+      {
+        "span_id": 17314500762059893416,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "State Special Schools",
+        "chunk_id": 9638747058411530801
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10153707094819958062,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "State Special Schools",
+        "chunk_id": 9638747058411530801
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18153705877493519662,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "as allocated by the State Department of Education",
+        "chunk_id": 9638747058411530801
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 541955152674345790,
+        "start": 1178899,
+        "end": 1178923,
+        "text": "as allocated by the State Department of Education",
+        "chunk_id": 9638747058411530801
+      }
+    ]
+  }
+]

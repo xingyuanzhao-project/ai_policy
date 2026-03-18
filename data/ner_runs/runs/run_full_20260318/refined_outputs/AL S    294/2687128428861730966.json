@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6770869630506944091,
+    "source_group_id": 2687128428861730966,
+    "source_candidate_ids": [
+      16406577250760331230
+    ],
+    "entity": "health care professional",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "strictest confidence",
+    "entity_evidence": [
+      {
+        "span_id": 985424132843467075,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15345591686956210184,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4722509764390313692,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6218136379323767029,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ]
+  }
+]

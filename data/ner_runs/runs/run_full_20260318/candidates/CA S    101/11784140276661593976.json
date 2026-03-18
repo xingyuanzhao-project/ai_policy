@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7779789786941447518,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "capital outlay",
+    "entity_evidence": [
+      {
+        "span_id": 12266993690758229709,
+        "start": 1023937,
+        "end": 1023959,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 11784140276661593976
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5988273216124013643,
+        "start": 1023937,
+        "end": 1023959,
+        "text": "government agency",
+        "chunk_id": 11784140276661593976
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6102156887801138658,
+        "start": 1023937,
+        "end": 1023959,
+        "text": "promotion",
+        "chunk_id": 11784140276661593976
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12293917012283967902,
+        "start": 1023937,
+        "end": 1023959,
+        "text": "capital outlay",
+        "chunk_id": 11784140276661593976
+      }
+    ]
+  },
+  {
+    "candidate_id": 11729537804042973346,
+    "entity": "California Institution for Men",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "roof replacement",
+    "entity_evidence": [
+      {
+        "span_id": 7960298987331184953,
+        "start": 1024649,
+        "end": 1024673,
+        "text": "California Institution for Men",
+        "chunk_id": 11784140276661593976
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2497506170370390714,
+        "start": 1024649,
+        "end": 1024673,
+        "text": "infrastructure",
+        "chunk_id": 11784140276661593976
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1360824833180391161,
+        "start": 1024649,
+        "end": 1024673,
+        "text": "restriction",
+        "chunk_id": 11784140276661593976
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11583204718390691827,
+        "start": 1024649,
+        "end": 1024673,
+        "text": "roof replacement",
+        "chunk_id": 11784140276661593976
+      }
+    ]
+  }
+]

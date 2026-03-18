@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11697229508340179058,
+    "source_group_id": 13594619544171765332,
+    "source_candidate_ids": [
+      2710889649979645560
+    ],
+    "entity": "Alabama Science in Motion Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "no repurposing",
+    "entity_evidence": [
+      {
+        "span_id": 5469526629551221393,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11148696192648567178,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1040675045935978661,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 728000040608067355,
+        "start": 63980,
+        "end": 63999,
+        "text": "The ASIMS funding to each site within the In-service Center regions based on the most recent year's contractual agreements.",
+        "chunk_id": 12929542312907997116
+      }
+    ]
+  }
+]

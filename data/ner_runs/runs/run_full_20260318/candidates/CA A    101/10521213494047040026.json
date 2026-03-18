@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5191348755101071548,
+    "entity": "school district",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 17974355764347024073,
+        "start": 1130129,
+        "end": 1130142,
+        "text": "school district",
+        "chunk_id": 10521213494047040026
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2660231929352786934,
+        "start": 1130143,
+        "end": 1130152,
+        "text": "government agency",
+        "chunk_id": 10521213494047040026
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 771773808503732890,
+        "start": 1130153,
+        "end": 1130161,
+        "text": "restriction",
+        "chunk_id": 10521213494047040026
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2872404884624854179,
+        "start": 1130162,
+        "end": 1130172,
+        "text": "regulation",
+        "chunk_id": 10521213494047040026
+      }
+    ]
+  },
+  {
+    "candidate_id": 3006071882929266152,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 8721863434554014430,
+        "start": 1130263,
+        "end": 1130284,
+        "text": "State Department of Education",
+        "chunk_id": 10521213494047040026
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9934894128200689035,
+        "start": 1130285,
+        "end": 1130294,
+        "text": "government agency",
+        "chunk_id": 10521213494047040026
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3216060178113450385,
+        "start": 1130295,
+        "end": 1130303,
+        "text": "restriction",
+        "chunk_id": 10521213494047040026
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2149393665916372289,
+        "start": 1130304,
+        "end": 1130314,
+        "text": "regulation",
+        "chunk_id": 10521213494047040026
+      }
+    ]
+  }
+]

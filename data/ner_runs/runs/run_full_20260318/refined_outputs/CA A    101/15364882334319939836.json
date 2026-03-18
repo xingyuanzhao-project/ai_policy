@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15998291370440493025,
+    "source_group_id": 15364882334319939836,
+    "source_candidate_ids": [
+      14606005402342909087
+    ],
+    "entity": "local educational agency (LEA)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fiscal accountability policies and procedures",
+    "entity_evidence": [
+      {
+        "span_id": 2097429186420566970,
+        "start": 1837731,
+        "end": 1837751,
+        "text": "local educational agency (LEA)",
+        "chunk_id": 3665063470177479453
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10165119974296746706,
+        "start": 1837731,
+        "end": 1837751,
+        "text": "local educational agency (LEA)",
+        "chunk_id": 3665063470177479453
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12922530774045312939,
+        "start": 1837731,
+        "end": 1837751,
+        "text": "shall be subject to the LEA's fiscal accountability policies and procedures.",
+        "chunk_id": 3665063470177479453
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13176353220756384296,
+        "start": 1837731,
+        "end": 1837751,
+        "text": "fiscal accountability policies and procedures",
+        "chunk_id": 3665063470177479453
+      }
+    ]
+  }
+]

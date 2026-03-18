@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14636683704080884319,
+    "source_group_id": 5330782315792242929,
+    "source_candidate_ids": [
+      4732846565481116813
+    ],
+    "entity": "Secretary for Environmental Protection",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 4191731538117826180,
+        "start": 115713,
+        "end": 115734,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 758151271931541795
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12554706332167476327,
+        "start": 115713,
+        "end": 115734,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 758151271931541795
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1576820008492472255,
+        "start": 115713,
+        "end": 115734,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 758151271931541795
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7974500740806717732,
+        "start": 115713,
+        "end": 115734,
+        "text": "For support of Secretary for Environmental Protection",
+        "chunk_id": 758151271931541795
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1619584552922653413,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority increase",
+    "entity_evidence": [
+      {
+        "span_id": 2175389697250691824,
+        "start": 919229,
+        "end": 919255,
+        "text": "State Department of Social Services",
+        "chunk_id": 15665622703202596766
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15020148520829914050,
+        "start": 919229,
+        "end": 919255,
+        "text": "State Department of Social Services",
+        "chunk_id": 15665622703202596766
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9992913395443069339,
+        "start": 918815,
+        "end": 918831,
+        "text": "increase the expenditure authority",
+        "chunk_id": 15665622703202596766
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12187805489725848316,
+        "start": 918815,
+        "end": 918831,
+        "text": "increase the expenditure authority",
+        "chunk_id": 15665622703202596766
+      }
+    ]
+  },
+  {
+    "candidate_id": 14537136937457103889,
+    "entity": "Foster Family Home and Small Family Home Insurance Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "expenditure authority increase",
+    "entity_evidence": [
+      {
+        "span_id": 9400736855628244637,
+        "start": 918856,
+        "end": 918894,
+        "text": "Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 15665622703202596766
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6884449923967619631,
+        "start": 918856,
+        "end": 918894,
+        "text": "Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 15665622703202596766
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1136466344488563797,
+        "start": 918815,
+        "end": 918831,
+        "text": "increase the expenditure authority",
+        "chunk_id": 15665622703202596766
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13330530441900886605,
+        "start": 918815,
+        "end": 918831,
+        "text": "increase the expenditure authority",
+        "chunk_id": 15665622703202596766
+      }
+    ]
+  }
+]

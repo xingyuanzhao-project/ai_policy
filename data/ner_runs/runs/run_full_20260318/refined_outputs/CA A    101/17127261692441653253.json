@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7692107346544999437,
+    "source_group_id": 17127261692441653253,
+    "source_candidate_ids": [
+      11975549518653150460
+    ],
+    "entity": "Board of Administration of the Public Employees' Retirement System (PERS)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "sufficient detail",
+    "entity_evidence": [
+      {
+        "span_id": 12492587233973246787,
+        "start": 1592869,
+        "end": 1592912,
+        "text": "Board of Administration of the Public Employees' Retirement System (PERS)",
+        "chunk_id": 16948636868942894776
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17940490581075889253,
+        "start": 1592869,
+        "end": 1592912,
+        "text": "government agency",
+        "chunk_id": 16948636868942894776
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7582015058415901159,
+        "start": 1592869,
+        "end": 1592912,
+        "text": "restriction",
+        "chunk_id": 16948636868942894776
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13001810687155396643,
+        "start": 1592869,
+        "end": 1592912,
+        "text": "sufficient detail",
+        "chunk_id": 16948636868942894776
+      }
+    ]
+  }
+]

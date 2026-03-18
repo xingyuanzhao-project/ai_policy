@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 11970165881604841998,
+    "source_group_id": 6123535910735637941,
+    "source_candidate_ids": [
+      7113747161487062727,
+      2966033672168211798
+    ],
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13974076187662436172,
+        "start": 191839,
+        "end": 191848,
+        "text": "Controller",
+        "chunk_id": 360050190806375394
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16690357243923840532,
+        "start": 191839,
+        "end": 191848,
+        "text": "government agency",
+        "chunk_id": 360050190806375394
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7067946205432091826,
+        "start": 191839,
+        "end": 191848,
+        "text": "restriction",
+        "chunk_id": 360050190806375394
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1466042218329008300,
+        "start": 191839,
+        "end": 191848,
+        "text": "extremely restrictive",
+        "chunk_id": 360050190806375394
+      }
+    ]
+  }
+]

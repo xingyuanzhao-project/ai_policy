@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 15947048576620768741,
+    "source_group_id": 11670260854801389420,
+    "source_candidate_ids": [
+      15865467636025137022,
+      3874743318252062152
+    ],
+    "entity": "State of Alaska general obligation bonds",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13517796166286881562,
+        "start": 101846,
+        "end": 101867,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 16100446904615859342
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9859961702348501136,
+        "start": 101846,
+        "end": 101867,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 16100446904615859342
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9207521532630485397,
+        "start": 101846,
+        "end": 101867,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 16100446904615859342
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14351863242108406842,
+        "start": 101846,
+        "end": 101867,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 16100446904615859342
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3790822805173119323,
+    "entity": "California State Payroll System Project",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 18308922513491993942,
+        "start": 198983,
+        "end": 199007,
+        "text": "California State Payroll System Project",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6689784698997943578,
+        "start": 198983,
+        "end": 199007,
+        "text": "technology",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10733461551470128551,
+        "start": 198983,
+        "end": 199007,
+        "text": "restriction",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12967164170844469206,
+        "start": 198983,
+        "end": 199007,
+        "text": "limited",
+        "chunk_id": 1473192382339141942
+      }
+    ]
+  },
+  {
+    "candidate_id": 15283905062932532773,
+    "entity": "Book of Record Functionality Migration to FI$Cal project",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 17139702498157896204,
+        "start": 198983,
+        "end": 199017,
+        "text": "Book of Record Functionality Migration to FI$Cal project",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11038658812864386432,
+        "start": 198983,
+        "end": 199017,
+        "text": "technology",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9294835774381514208,
+        "start": 198983,
+        "end": 199017,
+        "text": "promotion",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14534337978082705180,
+        "start": 198983,
+        "end": 199017,
+        "text": "significant",
+        "chunk_id": 1473192382339141942
+      }
+    ]
+  }
+]

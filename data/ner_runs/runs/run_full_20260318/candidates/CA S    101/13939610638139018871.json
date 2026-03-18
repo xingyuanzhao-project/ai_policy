@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 602349604021978158,
+    "entity": "California Student Assessment System",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 491953129883794558,
+        "start": 1114229,
+        "end": 1114250,
+        "text": "California Student Assessment System",
+        "chunk_id": 13939610638139018871
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18235814236855570655,
+        "start": 1114229,
+        "end": 1114250,
+        "text": "California Student Assessment System",
+        "chunk_id": 13939610638139018871
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15377942734004971146,
+        "start": 1114229,
+        "end": 1114250,
+        "text": "California Student Assessment System",
+        "chunk_id": 13939610638139018871
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15770250887527207536,
+        "start": 1114229,
+        "end": 1114250,
+        "text": "California Student Assessment System",
+        "chunk_id": 13939610638139018871
+      }
+    ]
+  },
+  {
+    "candidate_id": 10347432362443843781,
+    "entity": "English Language Proficiency Assessments for California",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 12389502330378351803,
+        "start": 1114341,
+        "end": 1114368,
+        "text": "English Language Proficiency Assessments for California",
+        "chunk_id": 13939610638139018871
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6603203434257923409,
+        "start": 1114341,
+        "end": 1114368,
+        "text": "English Language Proficiency Assessments for California",
+        "chunk_id": 13939610638139018871
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7276489647714227336,
+        "start": 1114341,
+        "end": 1114368,
+        "text": "English Language Proficiency Assessments for California",
+        "chunk_id": 13939610638139018871
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11054412969150000774,
+        "start": 1114341,
+        "end": 1114368,
+        "text": "English Language Proficiency Assessments for California",
+        "chunk_id": 13939610638139018871
+      }
+    ]
+  }
+]

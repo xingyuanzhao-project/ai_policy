@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5351285592265992214,
+    "source_group_id": 5808275301882287695,
+    "source_candidate_ids": [
+      5406741456938336420
+    ],
+    "entity": "Arkansans",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "some",
+    "entity_evidence": [
+      {
+        "span_id": 4286630496746638354,
+        "start": 0,
+        "end": 8,
+        "text": "Arkansans",
+        "chunk_id": 742443231948410699
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 489029103984931379,
+        "start": 0,
+        "end": 8,
+        "text": "Arkansans",
+        "chunk_id": 742443231948410699
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10907346615577559787,
+        "start": 0,
+        "end": 8,
+        "text": "Arkansans",
+        "chunk_id": 742443231948410699
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9305031228068823157,
+        "start": 0,
+        "end": 8,
+        "text": "Arkansans",
+        "chunk_id": 742443231948410699
+      }
+    ]
+  }
+]

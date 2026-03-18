@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 287473595578992357,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "all of the following",
+    "entity_evidence": [
+      {
+        "span_id": 6912458867804655771,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10198518409322435134,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12913083686543272869,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10088946247287113505,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ]
+  },
+  {
+    "candidate_id": 11163630693873553813,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "all of the following",
+    "entity_evidence": [
+      {
+        "span_id": 13204492066230534571,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9925091761886246022,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10251473411096157058,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4375046687196643449,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ]
+  }
+]

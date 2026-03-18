@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13932530341187942172,
+    "source_group_id": 7846526785627145644,
+    "source_candidate_ids": [
+      2724842865373994
+    ],
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028, and for liquidation until June 30, 2031",
+    "entity_evidence": [
+      {
+        "span_id": 4800078101595830853,
+        "start": 524138,
+        "end": 524168,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3177114461665706108,
+        "start": 524138,
+        "end": 524168,
+        "text": "government agency",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3913168463720871099,
+        "start": 524168,
+        "end": 524188,
+        "text": "until June 30, 2028, and for liquidation until June 30, 2031",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4104111799164071704,
+        "start": 524168,
+        "end": 524188,
+        "text": "until June 30, 2028, and for liquidation until June 30, 2031",
+        "chunk_id": 9008275498411907504
+      }
+    ]
+  }
+]

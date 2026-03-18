@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6441500911285828548,
+    "entity": "Santa Monica Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on encumbering state-appropriated funds for real property purchases",
+    "entity_evidence": [
+      {
+        "span_id": 14265615965980150794,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15613600602899092856,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15102015927811894905,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16764259855467295359,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ]
+  },
+  {
+    "candidate_id": 14799050571637160133,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on entering into interest payments or terms in excess of those allowed by the State Public Works Board",
+    "entity_evidence": [
+      {
+        "span_id": 8890709211056274185,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 512270837127849084,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14388964439268562598,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11060480651674561033,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ]
+  }
+]

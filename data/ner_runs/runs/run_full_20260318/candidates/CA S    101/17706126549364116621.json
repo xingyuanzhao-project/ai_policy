@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2202695244041279986,
+    "entity": "Department of Resources Recycling and Recovery",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8427153667222039117,
+        "start": 686270,
+        "end": 686290,
+        "text": "Director of the Department of Resources Recycling and Recovery",
+        "chunk_id": 17706126549364116621
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1335645592237848346,
+        "start": 686270,
+        "end": 686290,
+        "text": "Director of the Department of Resources Recycling and Recovery",
+        "chunk_id": 17706126549364116621
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7624938156664946089,
+        "start": 686270,
+        "end": 686290,
+        "text": "Director of the Department of Resources Recycling and Recovery",
+        "chunk_id": 17706126549364116621
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17267082909964986022,
+        "start": 686270,
+        "end": 686290,
+        "text": "Director of the Department of Resources Recycling and Recovery",
+        "chunk_id": 17706126549364116621
+      }
+    ]
+  },
+  {
+    "candidate_id": 18273814852729353134,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14761076666757461522,
+        "start": 686381,
+        "end": 686402,
+        "text": "Director of Finance",
+        "chunk_id": 17706126549364116621
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2165447311167642506,
+        "start": 686381,
+        "end": 686402,
+        "text": "Director of Finance",
+        "chunk_id": 17706126549364116621
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3232877293170476521,
+        "start": 686381,
+        "end": 686402,
+        "text": "Director of Finance",
+        "chunk_id": 17706126549364116621
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9723199891699297510,
+        "start": 686381,
+        "end": 686402,
+        "text": "Director of Finance",
+        "chunk_id": 17706126549364116621
+      }
+    ]
+  }
+]

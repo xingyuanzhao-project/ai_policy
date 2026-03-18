@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14735849987967934503,
+    "entity": "United States Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "identified",
+    "entity_evidence": [
+      {
+        "span_id": 7288893165634465288,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2286942190616688819,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5102383712594957820,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1915003807235056022,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ]
+  },
+  {
+    "candidate_id": 13651997016309743992,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "identified",
+    "entity_evidence": [
+      {
+        "span_id": 17040550363059261641,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13092466229912351167,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3391953941818602099,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4498367495680242390,
+        "start": 1246461,
+        "end": 1246482,
+        "text": "local educational agencies identified by the United States Department of Education",
+        "chunk_id": 14854997026139543514
+      }
+    ]
+  }
+]

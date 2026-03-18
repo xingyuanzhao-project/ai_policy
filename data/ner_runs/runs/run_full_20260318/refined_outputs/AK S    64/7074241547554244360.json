@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 6232444930151218004,
+    "source_group_id": 7074241547554244360,
+    "source_candidate_ids": [
+      15936186948074949422,
+      15006363390583503500
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 7084782670093380908,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3986975135316148651,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1917168031157102065,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8992780543411620600,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ]
+  }
+]

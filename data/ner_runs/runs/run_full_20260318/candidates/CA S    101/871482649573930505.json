@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7784291523836498030,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "consultation",
+    "value": "with the State Department of Education",
+    "entity_evidence": [
+      {
+        "span_id": 12333492544345837614,
+        "start": 1341607,
+        "end": 1341631,
+        "text": "of the California Community Colleges shall consult with the State Department of Education",
+        "chunk_id": 871482649573930505
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 509185506585407132,
+        "start": 1341607,
+        "end": 1341631,
+        "text": "of the California Community Colleges shall consult with the State Department of Education",
+        "chunk_id": 871482649573930505
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14663827325997954540,
+        "start": 1341607,
+        "end": 1341631,
+        "text": "of the California Community Colleges shall consult with the State Department of Education",
+        "chunk_id": 871482649573930505
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 989474061380428405,
+        "start": 1341607,
+        "end": 1341631,
+        "text": "of the California Community Colleges shall consult with the State Department of Education",
+        "chunk_id": 871482649573930505
+      }
+    ]
+  },
+  {
+    "candidate_id": 600755674280667788,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "reimbursement",
+    "value": "in accordance with provisions of Section 6 of Article XIIIB of the California Constitution or Section 17561 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 14095130325820819020,
+        "start": 1341650,
+        "end": 1341690,
+        "text": "Board of Governors of the California Community Colleges (Proposition 98)",
+        "chunk_id": 871482649573930505
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15503274068590044715,
+        "start": 1341650,
+        "end": 1341690,
+        "text": "Board of Governors of the California Community Colleges (Proposition 98)",
+        "chunk_id": 871482649573930505
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2550449364678742256,
+        "start": 1341650,
+        "end": 1341690,
+        "text": "Board of Governors of the California Community Colleges (Proposition 98)",
+        "chunk_id": 871482649573930505
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4254602368135202957,
+        "start": 1341650,
+        "end": 1341690,
+        "text": "Board of Governors of the California Community Colleges (Proposition 98)",
+        "chunk_id": 871482649573930505
+      }
+    ]
+  }
+]

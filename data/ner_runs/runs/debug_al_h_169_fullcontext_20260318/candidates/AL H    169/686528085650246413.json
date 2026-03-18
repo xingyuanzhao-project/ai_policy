@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6585538405049286894,
+    "entity": "Alabama Board of Nursing Trust",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "Alabama Board of Nursing Trust",
+    "entity_evidence": [
+      {
+        "span_id": 9278060151277045075,
+        "start": 109178,
+        "end": 109202,
+        "text": "Alabama Board of Nursing Trust",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5236828296911488231,
+        "start": 109203,
+        "end": 109219,
+        "text": "government agency",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13337915956688079791,
+        "start": 109220,
+        "end": 109229,
+        "text": "recipient",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10584867641838772354,
+        "start": 109230,
+        "end": 109230,
+        "text": "Alabama Board of Nursing Trust",
+        "chunk_id": 686528085650246413
+      }
+    ]
+  },
+  {
+    "candidate_id": 9773166253405209901,
+    "entity": "Alabama Peace Officers' Standards and Training Fund",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "Alabama Peace Officers' Standards and Training Fund",
+    "entity_evidence": [
+      {
+        "span_id": 3402019264645786575,
+        "start": 109178,
+        "end": 109212,
+        "text": "Alabama Peace Officers' Standards and Training Fund",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17067750285771681572,
+        "start": 109213,
+        "end": 109229,
+        "text": "government agency",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2444498856058956683,
+        "start": 109230,
+        "end": 109241,
+        "text": "recipient",
+        "chunk_id": 686528085650246413
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12990767350287598336,
+        "start": 109242,
+        "end": 109242,
+        "text": "Alabama Peace Officers' Standards and Training Fund",
+        "chunk_id": 686528085650246413
+      }
+    ]
+  }
+]

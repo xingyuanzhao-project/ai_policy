@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8385787309067889506,
+    "source_group_id": 8937385942935520009,
+    "source_candidate_ids": [
+      10291345770384823039
+    ],
+    "entity": "Carl Moyer Air Quality Standards Attainment Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "administrative costs",
+    "entity_evidence": [
+      {
+        "span_id": 18211282136512300807,
+        "start": 699432,
+        "end": 699475,
+        "text": "Carl Moyer Air Quality Standards Attainment Program",
+        "chunk_id": 13360244923406904155
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3103192028461857266,
+        "start": 699432,
+        "end": 699475,
+        "text": "infrastructure",
+        "chunk_id": 13360244923406904155
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12413645329470691144,
+        "start": 699432,
+        "end": 699475,
+        "text": "restriction",
+        "chunk_id": 13360244923406904155
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12961778182537213835,
+        "start": 699432,
+        "end": 699475,
+        "text": "administrative costs",
+        "chunk_id": 13360244923406904155
+      }
+    ]
+  }
+]

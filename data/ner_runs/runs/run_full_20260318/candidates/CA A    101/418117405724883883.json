@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5589308908771024039,
+    "entity": "Office of Technology and Solutions Integration",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 2008882527958921434,
+        "start": 94842,
+        "end": 94863,
+        "text": "Office of Technology and Solutions Integration",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8845744636524001937,
+        "start": 94842,
+        "end": 94863,
+        "text": "Office of Technology and Solutions Integration",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2775267058124200887,
+        "start": 94842,
+        "end": 94863,
+        "text": "Office of Technology and Solutions Integration",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15295027044296804670,
+        "start": 94842,
+        "end": 94863,
+        "text": "Office of Technology and Solutions Integration",
+        "chunk_id": 418117405724883883
+      }
+    ]
+  },
+  {
+    "candidate_id": 292895296380637141,
+    "entity": "OTSI",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 13213286278918375627,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16079287915973556622,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1553147138939173805,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1598677173454093156,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ]
+  }
+]

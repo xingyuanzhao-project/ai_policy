@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 648058571236247641,
+    "entity": "Public Contracts",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6499984550216976159,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10614959947734328913,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10450903973825545420,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14495316380791892949,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ]
+  },
+  {
+    "candidate_id": 14765500824413110376,
+    "entity": "Immunization Records",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10301683583034412305,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17045526428712228639,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7423497747133679102,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17138975695368572129,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Immunization Records",
+        "chunk_id": 5577258445808670338
+      }
+    ]
+  }
+]

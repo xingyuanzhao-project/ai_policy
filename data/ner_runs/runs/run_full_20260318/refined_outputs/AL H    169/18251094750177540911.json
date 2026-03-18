@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9217532872792017989,
+    "source_group_id": 18251094750177540911,
+    "source_candidate_ids": [
+      6574914294191264565
+    ],
+    "entity": "Alabama Community College System Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "distributed",
+    "entity_evidence": [
+      {
+        "span_id": 1815513932811288730,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6771364372757855999,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15863310897285612364,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14953390320783024877,
+        "start": 13191,
+        "end": 13207,
+        "text": "Industry Certification Initiatives funds shall be distributed by the Alabama Community College System Board of Trustees",
+        "chunk_id": 5563145080297301783
+      }
+    ]
+  }
+]

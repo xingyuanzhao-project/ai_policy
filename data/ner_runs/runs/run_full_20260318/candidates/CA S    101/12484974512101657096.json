@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15222161378147048979,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "regulator",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 4838565252609398070,
+        "start": 360874,
+        "end": 360891,
+        "text": "Department of Finance",
+        "chunk_id": 12484974512101657096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13956384601902051284,
+        "start": 360874,
+        "end": 360891,
+        "text": "Department of Finance",
+        "chunk_id": 12484974512101657096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3608534454000509126,
+        "start": 360874,
+        "end": 360891,
+        "text": "Department of Finance",
+        "chunk_id": 12484974512101657096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15863185711445630750,
+        "start": 360874,
+        "end": 360891,
+        "text": "prior approval",
+        "chunk_id": 12484974512101657096
+      }
+    ]
+  },
+  {
+    "candidate_id": 9802967749435884834,
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "allocator",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 10985188770051919786,
+        "start": 361008,
+        "end": 361029,
+        "text": "California Transportation Commission",
+        "chunk_id": 12484974512101657096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11969118298895588604,
+        "start": 361008,
+        "end": 361029,
+        "text": "California Transportation Commission",
+        "chunk_id": 12484974512101657096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6924895980841974869,
+        "start": 361008,
+        "end": 361029,
+        "text": "California Transportation Commission",
+        "chunk_id": 12484974512101657096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12897452459588894088,
+        "start": 361008,
+        "end": 361029,
+        "text": "until June 30, 2027",
+        "chunk_id": 12484974512101657096
+      }
+    ]
+  }
+]

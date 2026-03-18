@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14415418107039654453,
+    "source_group_id": 3453920803747806936,
+    "source_candidate_ids": [
+      16255472683215511014
+    ],
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant funding",
+    "entity_evidence": [
+      {
+        "span_id": 1712680272782154925,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4757686025888078426,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4226745322434629897,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7023984196915198882,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ]
+  }
+]

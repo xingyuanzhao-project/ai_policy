@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 13241368800419175671,
+    "source_group_id": 5971146488333405736,
+    "source_candidate_ids": [
+      17612460615514928286,
+      9581646392578993813
+    ],
+    "entity": "child",
+    "type": "individual",
+    "attribute": "protection",
+    "value": "extremely protective",
+    "entity_evidence": [
+      {
+        "span_id": 13318264873864471038,
+        "start": 25183,
+        "end": 25187,
+        "text": "known child",
+        "chunk_id": 6749761414942587044
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9410726868219155934,
+        "start": 25183,
+        "end": 25187,
+        "text": "known child",
+        "chunk_id": 6749761414942587044
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5890442264012438744,
+        "start": 25183,
+        "end": 25187,
+        "text": "known child",
+        "chunk_id": 6749761414942587044
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1676175005186064950,
+        "start": 25183,
+        "end": 25187,
+        "text": "known child",
+        "chunk_id": 6749761414942587044
+      }
+    ]
+  }
+]

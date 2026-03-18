@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13741190651324374728,
+    "source_group_id": 16842319742832757861,
+    "source_candidate_ids": [
+      7095193680242457852
+    ],
+    "entity": "Medi-Cal",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12780542645926034136,
+        "start": 842806,
+        "end": 842812,
+        "text": "Medi-Cal",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16299436938430656163,
+        "start": 842813,
+        "end": 842818,
+        "text": "agency",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11068607418984168448,
+        "start": 842819,
+        "end": 842826,
+        "text": "restriction",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 220165071025697071,
+        "start": 842827,
+        "end": 842831,
+        "text": "limited",
+        "chunk_id": 5827690985346064495
+      }
+    ]
+  }
+]

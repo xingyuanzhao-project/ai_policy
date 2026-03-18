@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9594039320838052236,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not apply",
+    "entity_evidence": [
+      {
+        "span_id": 18055306800533920375,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6877075326707847457,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2696725751351172867,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1580927703858552922,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ]
+  },
+  {
+    "candidate_id": 2839677510100606702,
+    "entity": "processor",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not apply",
+    "entity_evidence": [
+      {
+        "span_id": 17890305971872994608,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4139020877576595162,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14942119242581301319,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 303082247174785830,
+        "start": 32814,
+        "end": 32818,
+        "text": "The rights afforded under Section 4 may not apply",
+        "chunk_id": 15787621549869606031
+      }
+    ]
+  }
+]

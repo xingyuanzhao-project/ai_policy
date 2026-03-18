@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15724212904642663227,
+    "entity": "United States Postal Service",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "periodically as requested",
+    "entity_evidence": [
+      {
+        "span_id": 4171139338022446928,
+        "start": 196620,
+        "end": 196641,
+        "text": "United States Postal Service",
+        "chunk_id": 13713273254333612260
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2522436656374550978,
+        "start": 196620,
+        "end": 196641,
+        "text": "government agency",
+        "chunk_id": 13713273254333612260
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11833236536489959712,
+        "start": 196620,
+        "end": 196641,
+        "text": "restriction",
+        "chunk_id": 13713273254333612260
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12886014836994379395,
+        "start": 196620,
+        "end": 196641,
+        "text": "periodically as requested",
+        "chunk_id": 13713273254333612260
+      }
+    ]
+  },
+  {
+    "candidate_id": 13769891897960564358,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "periodically as requested",
+    "entity_evidence": [
+      {
+        "span_id": 8430542332659384054,
+        "start": 196702,
+        "end": 196719,
+        "text": "Department of Finance",
+        "chunk_id": 13713273254333612260
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10835170233369542133,
+        "start": 196702,
+        "end": 196719,
+        "text": "government agency",
+        "chunk_id": 13713273254333612260
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16421817836062344495,
+        "start": 196702,
+        "end": 196719,
+        "text": "restriction",
+        "chunk_id": 13713273254333612260
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16035089343489184797,
+        "start": 196702,
+        "end": 196719,
+        "text": "periodically as requested",
+        "chunk_id": 13713273254333612260
+      }
+    ]
+  }
+]

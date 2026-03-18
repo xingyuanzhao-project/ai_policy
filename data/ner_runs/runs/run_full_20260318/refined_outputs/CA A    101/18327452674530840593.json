@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 11047277445469132814,
+    "source_group_id": 18327452674530840593,
+    "source_candidate_ids": [
+      8904920216979388182,
+      419926868870646308
+    ],
+    "entity": "Department of Motor Vehicles",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 685485591169745825,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11612854916798306582,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11086045720042305821,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12901625118564686729,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ]
+  }
+]

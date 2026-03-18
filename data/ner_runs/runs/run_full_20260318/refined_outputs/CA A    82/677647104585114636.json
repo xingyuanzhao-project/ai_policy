@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2133618151427284681,
+    "source_group_id": 677647104585114636,
+    "source_candidate_ids": [
+      16878235337587664520
+    ],
+    "entity": "election officials",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "confidentiality",
+    "entity_evidence": [
+      {
+        "span_id": 6021944118501442847,
+        "start": 2523,
+        "end": 2533,
+        "text": "election officials",
+        "chunk_id": 1848743952907625638
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14865134528803676718,
+        "start": 2523,
+        "end": 2533,
+        "text": "election officials",
+        "chunk_id": 1848743952907625638
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2465560570134937931,
+        "start": 2533,
+        "end": 2539,
+        "text": "feel unsafe because of their job",
+        "chunk_id": 1848743952907625638
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3031112345054189911,
+        "start": 2539,
+        "end": 2546,
+        "text": "one in three",
+        "chunk_id": 1848743952907625638
+      }
+    ]
+  }
+]

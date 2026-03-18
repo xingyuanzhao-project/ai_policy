@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11296576317102170600,
+    "source_group_id": 9682913733938529994,
+    "source_candidate_ids": [
+      17639808361129646688
+    ],
+    "entity": "Health Benefits for California State University Annuitants",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15135299947869674903,
+        "start": 1371219,
+        "end": 1371252,
+        "text": "For the state's contribution for the cost of a health benefits plan for annuitants and other employees, in accordance with Sections 22820, 22879, 22881, 22883, and 22953 of the Government Code, the cost of which is not chargeable to any other appropriation",
+        "chunk_id": 16308642049478987433
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1411348865398060826,
+        "start": 1371219,
+        "end": 1371252,
+        "text": "For the state's contribution for the cost of a health benefits plan for annuitants and other employees, in accordance with Sections 22820, 22879, 22881, 22883, and 22953 of the Government Code, the cost of which is not chargeable to any other appropriation",
+        "chunk_id": 16308642049478987433
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15170455213205139321,
+        "start": 1371219,
+        "end": 1371252,
+        "text": "For the state's contribution for the cost of a health benefits plan for annuitants and other employees, in accordance with Sections 22820, 22879, 22881, 22883, and 22953 of the Government Code, the cost of which is not chargeable to any other appropriation",
+        "chunk_id": 16308642049478987433
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5467892701089098984,
+        "start": 1371219,
+        "end": 1371252,
+        "text": "For the state's contribution for the cost of a health benefits plan for annuitants and other employees, in accordance with Sections 22820, 22879, 22881, 22883, and 22953 of the Government Code, the cost of which is not chargeable to any other appropriation",
+        "chunk_id": 16308642049478987433
+      }
+    ]
+  }
+]

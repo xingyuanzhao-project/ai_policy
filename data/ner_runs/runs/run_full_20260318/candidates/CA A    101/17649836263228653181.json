@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12705559220996062489,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 672675428617027505,
+        "start": 650058,
+        "end": 650078,
+        "text": "Department of Water Resources",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14977088622511501074,
+        "start": 650058,
+        "end": 650078,
+        "text": "government agency",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12463640841585902540,
+        "start": 650058,
+        "end": 650078,
+        "text": "restriction",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8923602365867736768,
+        "start": 650058,
+        "end": 650078,
+        "text": "limited",
+        "chunk_id": 17649836263228653181
+      }
+    ]
+  },
+  {
+    "candidate_id": 16767275225849339704,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "prohibition",
+    "value": "complete",
+    "entity_evidence": [
+      {
+        "span_id": 16694463321842930093,
+        "start": 650058,
+        "end": 650078,
+        "text": "Department of General Services",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7772675682666056574,
+        "start": 650058,
+        "end": 650078,
+        "text": "government agency",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 579308503038096147,
+        "start": 650058,
+        "end": 650078,
+        "text": "prohibition",
+        "chunk_id": 17649836263228653181
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4049544960074068793,
+        "start": 650058,
+        "end": 650078,
+        "text": "complete",
+        "chunk_id": 17649836263228653181
+      }
+    ]
+  }
+]

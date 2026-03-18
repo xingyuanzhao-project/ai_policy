@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11405585127417924222,
+    "entity": "public entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "protection from threats or acts of violence",
+    "entity_evidence": [
+      {
+        "span_id": 11351968976405932190,
+        "start": 16839,
+        "end": 16849,
+        "text": "public entity",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5269777188472190694,
+        "start": 16839,
+        "end": 16849,
+        "text": "government agency",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10804803971092725921,
+        "start": 16849,
+        "end": 16859,
+        "text": "restriction",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10374039668436538130,
+        "start": 16859,
+        "end": 16879,
+        "text": "protection from threats or acts of violence",
+        "chunk_id": 4290995824880085066
+      }
+    ]
+  },
+  {
+    "candidate_id": 699823338483943570,
+    "entity": "Secretary of State",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "protection from liability",
+    "entity_evidence": [
+      {
+        "span_id": 13143639344431736279,
+        "start": 16950,
+        "end": 16964,
+        "text": "Secretary of State",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5633292338686068784,
+        "start": 16950,
+        "end": 16964,
+        "text": "government agency",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8703360243016624188,
+        "start": 16964,
+        "end": 16974,
+        "text": "restriction",
+        "chunk_id": 4290995824880085066
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15974422782907112088,
+        "start": 16974,
+        "end": 16988,
+        "text": "protection from liability",
+        "chunk_id": 4290995824880085066
+      }
+    ]
+  }
+]

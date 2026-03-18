@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1523195432686204064,
+    "entity": "Coronavirus Fiscal Recovery Fund of 2021",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until December 31, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 8953102505722425765,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17196096793901279097,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4712155268533262263,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11886610449622278873,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ]
+  },
+  {
+    "candidate_id": 11475877207173724523,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until December 31, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 2876742774258215213,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "The Director of Finance is authorized to initiate the reversion of unspent funds from an appropriation for a specific programmatic purpose from the Coronavirus Fiscal Recovery Fund of 2021.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14094182931772209872,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "The Director of Finance is authorized to initiate the reversion of unspent funds from an appropriation for a specific programmatic purpose from the Coronavirus Fiscal Recovery Fund of 2021.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2790969362798470787,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "The Director of Finance is authorized to initiate the reversion of unspent funds from an appropriation for a specific programmatic purpose from the Coronavirus Fiscal Recovery Fund of 2021.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11858710821148056131,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "The Director of Finance is authorized to initiate the reversion of unspent funds from an appropriation for a specific programmatic purpose from the Coronavirus Fiscal Recovery Fund of 2021.",
+        "chunk_id": 8657837193231053811
+      }
+    ]
+  }
+]

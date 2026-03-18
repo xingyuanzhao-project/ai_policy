@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12211875874566921174,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2974601397781336272,
+        "start": 1157967,
+        "end": 1157987,
+        "text": "For support of State Department of Education",
+        "chunk_id": 10653361071672460634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2034819550143215694,
+        "start": 1157967,
+        "end": 1157987,
+        "text": "For support of State Department of Education",
+        "chunk_id": 10653361071672460634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3874043141273008847,
+        "start": 1157967,
+        "end": 1157987,
+        "text": "For support of State Department of Education",
+        "chunk_id": 10653361071672460634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10418484917987850705,
+        "start": 1157967,
+        "end": 1157987,
+        "text": "For support of State Department of Education",
+        "chunk_id": 10653361071672460634
+      }
+    ]
+  },
+  {
+    "candidate_id": 11331698811425086608,
+    "entity": "community colleges",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "interagency agreements",
+    "entity_evidence": [
+      {
+        "span_id": 8784393057007695883,
+        "start": 1158059,
+        "end": 1158069,
+        "text": "community colleges",
+        "chunk_id": 10653361071672460634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7679558908727685840,
+        "start": 1158059,
+        "end": 1158069,
+        "text": "community colleges",
+        "chunk_id": 10653361071672460634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18401145788636901293,
+        "start": 1158059,
+        "end": 1158069,
+        "text": "community colleges",
+        "chunk_id": 10653361071672460634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3047992486686042191,
+        "start": 1158059,
+        "end": 1158069,
+        "text": "community colleges",
+        "chunk_id": 10653361071672460634
+      }
+    ]
+  }
+]

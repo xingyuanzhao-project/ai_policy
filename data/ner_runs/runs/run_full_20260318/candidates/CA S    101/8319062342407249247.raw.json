@@ -1,0 +1,3 @@
+{
+  "raw_response": "{\"candidates\": [{\"entity\": \"Department of Veterans Affairs\", \"type\": \"organization\", \"attribute\": \"name\", \"value\": \"Department of Veterans Affairs\", \"entity_evidence\": [{\"start\": 895, \"end\": 895, \"text\": \"Department of Veterans Affairs\"}], \"type_evidence\": [{\"start\": 895, \"end\": 895, \"text\": \"Department of Veterans Affairs\"}], \"attribute_evidence\": [{\"start\": 895, \"end\": 895, \"text\": \"name\"}], \"value_evidence\": [{\"start\": 895, \"end\": 895, \"text\": \"Department of Veterans Affairs\"}]}]}"
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8390461617574176686,
+    "source_group_id": 6921340851227408342,
+    "source_candidate_ids": [
+      15389567366210500618
+    ],
+    "entity": "State Parks and Recreation Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 12555055833672346921,
+        "start": 611360,
+        "end": 611384,
+        "text": "0392--State Parks and Recreation Fund",
+        "chunk_id": 16450858445698119342
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11432739285169774247,
+        "start": 611360,
+        "end": 611384,
+        "text": "infrastructure",
+        "chunk_id": 16450858445698119342
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15478352956876835469,
+        "start": 611360,
+        "end": 611384,
+        "text": "restriction",
+        "chunk_id": 16450858445698119342
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1008189767886831236,
+        "start": 611360,
+        "end": 611384,
+        "text": "until June 30, 2028",
+        "chunk_id": 16450858445698119342
+      }
+    ]
+  }
+]

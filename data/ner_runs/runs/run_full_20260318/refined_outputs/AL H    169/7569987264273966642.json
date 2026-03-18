@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16149003034863813001,
+    "source_group_id": 7569987264273966642,
+    "source_candidate_ids": [
+      14872642034078258339
+    ],
+    "entity": "Alabama Community College System Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "semi-annually",
+    "entity_evidence": [
+      {
+        "span_id": 11951265157102320727,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10659322204911366426,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14232509865162218841,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2038674361644283544,
+        "start": 18799,
+        "end": 18818,
+        "text": "The allocations as set forth above shall be distributed by the Alabama Community College System Board of Trustees through the Office of the Chancellor.",
+        "chunk_id": 11739861092571899204
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18252859555712317368,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 5452238389433678279,
+        "start": 1323416,
+        "end": 1323439,
+        "text": "California Community Colleges",
+        "chunk_id": 3302092930821659790
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18015034525331220852,
+        "start": 1323416,
+        "end": 1323439,
+        "text": "government agency",
+        "chunk_id": 3302092930821659790
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15081641013492183249,
+        "start": 1323416,
+        "end": 1323439,
+        "text": "restriction",
+        "chunk_id": 3302092930821659790
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14606948954315884603,
+        "start": 1323416,
+        "end": 1323439,
+        "text": "none",
+        "chunk_id": 3302092930821659790
+      }
+    ]
+  },
+  {
+    "candidate_id": 8094517822572921772,
+    "entity": "Chancellor's Office",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "encouragement",
+    "entity_evidence": [
+      {
+        "span_id": 10064337412121727362,
+        "start": 1323539,
+        "end": 1323557,
+        "text": "Chancellor's Office",
+        "chunk_id": 3302092930821659790
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11622925435213971891,
+        "start": 1323539,
+        "end": 1323557,
+        "text": "government agency",
+        "chunk_id": 3302092930821659790
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13673380648789002432,
+        "start": 1323539,
+        "end": 1323557,
+        "text": "promotion",
+        "chunk_id": 3302092930821659790
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2968997996605366038,
+        "start": 1323539,
+        "end": 1323557,
+        "text": "encouragement",
+        "chunk_id": 3302092930821659790
+      }
+    ]
+  }
+]

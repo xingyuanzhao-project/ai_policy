@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11748146355463354564,
+    "source_group_id": 15387074667642819383,
+    "source_candidate_ids": [
+      15025041849146446807
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "in consultation with the Judicial Council",
+    "entity_evidence": [
+      {
+        "span_id": 16691608498207453619,
+        "start": 21738,
+        "end": 21755,
+        "text": "Department of Finance",
+        "chunk_id": 180066130965135745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 199273692044226260,
+        "start": 21756,
+        "end": 21767,
+        "text": "Finance",
+        "chunk_id": 180066130965135745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12916001267886811678,
+        "start": 21768,
+        "end": 21781,
+        "text": "in consultation with the Judicial Council",
+        "chunk_id": 180066130965135745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10624154108493284977,
+        "start": 21782,
+        "end": 21801,
+        "text": "in consultation with the Judicial Council",
+        "chunk_id": 180066130965135745
+      }
+    ]
+  }
+]

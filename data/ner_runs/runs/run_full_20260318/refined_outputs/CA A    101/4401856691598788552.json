@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6486926477358531007,
+    "source_group_id": 4401856691598788552,
+    "source_candidate_ids": [
+      10781502574969205380
+    ],
+    "entity": "Health Care Payments Data Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 18092284486568608827,
+        "start": 798988,
+        "end": 799008,
+        "text": "Health Care Payments Data Fund",
+        "chunk_id": 17865393962762977710
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11321698977254121034,
+        "start": 798988,
+        "end": 799008,
+        "text": "Health Care Payments Data Fund",
+        "chunk_id": 17865393962762977710
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1315287253093586233,
+        "start": 797647,
+        "end": 797647,
+        "text": "",
+        "chunk_id": 17865393962762977710
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10332432758984973974,
+        "start": 797647,
+        "end": 797647,
+        "text": "",
+        "chunk_id": 17865393962762977710
+      }
+    ]
+  }
+]

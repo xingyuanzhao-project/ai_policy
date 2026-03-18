@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8764403711731134518,
+    "source_group_id": 16825329797690053180,
+    "source_candidate_ids": [
+      10990134833132196776
+    ],
+    "entity": "CWS-CARES project",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6072714398902439750,
+        "start": 1045295,
+        "end": 1045307,
+        "text": "CWS-CARES project cost, schedule, and scope",
+        "chunk_id": 2764700758683462107
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10325817472949383124,
+        "start": 1045295,
+        "end": 1045307,
+        "text": "CWS-CARES project cost, schedule, and scope",
+        "chunk_id": 2764700758683462107
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13047156406679531515,
+        "start": 1045295,
+        "end": 1045307,
+        "text": "CWS-CARES project cost, schedule, and scope",
+        "chunk_id": 2764700758683462107
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14183485692147609029,
+        "start": 1045295,
+        "end": 1045307,
+        "text": "CWS-CARES project cost, schedule, and scope",
+        "chunk_id": 2764700758683462107
+      }
+    ]
+  }
+]

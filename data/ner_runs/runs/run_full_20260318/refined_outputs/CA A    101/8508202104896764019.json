@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11168220161534005431,
+    "source_group_id": 8508202104896764019,
+    "source_candidate_ids": [
+      14514512320704857971
+    ],
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "extension",
+    "value": "liquidate encumbrances",
+    "entity_evidence": [
+      {
+        "span_id": 10907609478889503619,
+        "start": 67010,
+        "end": 67018,
+        "text": "Judicial Council",
+        "chunk_id": 3477865598637564815
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4723759941586945009,
+        "start": 67010,
+        "end": 67018,
+        "text": "Judicial Council",
+        "chunk_id": 3477865598637564815
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12125108101678084127,
+        "start": 67010,
+        "end": 67018,
+        "text": "Judicial Council",
+        "chunk_id": 3477865598637564815
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17715393664153938474,
+        "start": 67010,
+        "end": 67018,
+        "text": "Judicial Council",
+        "chunk_id": 3477865598637564815
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7182733933588964498,
+    "source_group_id": 13204238617323104846,
+    "source_candidate_ids": [
+      14603724701710363701
+    ],
+    "entity": "Secretary for Environmental Protection",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "payable from the State Water Quality Control Fund",
+    "entity_evidence": [
+      {
+        "span_id": 9482769585399949030,
+        "start": 118265,
+        "end": 118288,
+        "text": "For support of Secretary for Environmental Protection, payable from the State Water Quality Control Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5198161119733389352,
+        "start": 118265,
+        "end": 118288,
+        "text": "For support of Secretary for Environmental Protection, payable from the State Water Quality Control Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14211348230187254601,
+        "start": 118265,
+        "end": 118288,
+        "text": "For support of Secretary for Environmental Protection, payable from the State Water Quality Control Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3911854054078357588,
+        "start": 118265,
+        "end": 118288,
+        "text": "For support of Secretary for Environmental Protection, payable from the State Water Quality Control Fund",
+        "chunk_id": 14815027833611570131
+      }
+    ]
+  }
+]

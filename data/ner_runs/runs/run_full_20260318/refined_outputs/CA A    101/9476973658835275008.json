@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13284094280119388580,
+    "source_group_id": 9476973658835275008,
+    "source_candidate_ids": [
+      17431376013731329594
+    ],
+    "entity": "Strong Workforce Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 17203524025411160041,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "The Chancellor of the California Community Colleges shall consider the level of involvement and financial commitments of business and industry in making awards for performance-based training",
+        "chunk_id": 452811664131187579
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10725875324598862233,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "pursuant to Part 54.5 (commencing with Section 88820) of Division 7 of Title 3 of the Education Code",
+        "chunk_id": 452811664131187579
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4967809529484438998,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "shall be available to support the Strong Workforce Program pursuant to Part 54.5 (commencing with Section 88820) of Division 7 of Title 3 of the Education Code",
+        "chunk_id": 452811664131187579
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16972547356912226601,
+        "start": 1398654,
+        "end": 1398677,
+        "text": "$290,400,000 shall be available to support the Strong Workforce Program",
+        "chunk_id": 452811664131187579
+      }
+    ]
+  }
+]

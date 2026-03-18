@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16886616145378459241,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 5550827122919711829,
+        "start": 1754393,
+        "end": 1754413,
+        "text": "30 days after notification in writing to the Joint Legislative Budget Committee",
+        "chunk_id": 7844696612406415396
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12411880363083675193,
+        "start": 1754393,
+        "end": 1754413,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 7844696612406415396
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11577977432093042221,
+        "start": 1754393,
+        "end": 1754413,
+        "text": "notification in writing",
+        "chunk_id": 7844696612406415396
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13157932134219648533,
+        "start": 1754393,
+        "end": 1754413,
+        "text": "30 days",
+        "chunk_id": 7844696612406415396
+      }
+    ]
+  },
+  {
+    "candidate_id": 12764042301187273621,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "impractical",
+    "entity_evidence": [
+      {
+        "span_id": 1557971660998178386,
+        "start": 1754504,
+        "end": 1754524,
+        "text": "the Director of Finance states in writing to the Chairperson of the Joint Legislative Budget Committee",
+        "chunk_id": 7844696612406415396
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16264166922264645515,
+        "start": 1754504,
+        "end": 1754524,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 7844696612406415396
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11572740080020720053,
+        "start": 1754504,
+        "end": 1754524,
+        "text": "states in writing",
+        "chunk_id": 7844696612406415396
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14035660403963145252,
+        "start": 1754504,
+        "end": 1754524,
+        "text": "impractical",
+        "chunk_id": 7844696612406415396
+      }
+    ]
+  }
+]

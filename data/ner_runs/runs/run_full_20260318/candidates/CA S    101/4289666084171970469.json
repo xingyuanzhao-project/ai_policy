@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5867719832926253068,
+    "entity": "California Alternative Energy and Advanced Transportation Financing Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 2276562996794713412,
+        "start": 226487,
+        "end": 226507,
+        "text": "expenditures for the California Alternative Energy and Advanced Transportation Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12417429083072678988,
+        "start": 226487,
+        "end": 226507,
+        "text": "the Director of Finance may authorize expenditures for the California Alternative Energy and Advanced Transportation Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14648420627329593498,
+        "start": 226487,
+        "end": 226507,
+        "text": "expenditures for the California Alternative Energy and Advanced Transportation Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8578063690147132659,
+        "start": 226487,
+        "end": 226507,
+        "text": "expenditures for the California Alternative Energy and Advanced Transportation Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ]
+  },
+  {
+    "candidate_id": 6960200261499275134,
+    "entity": "California Health Facilities Financing Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 8927420340598897340,
+        "start": 226487,
+        "end": 226507,
+        "text": "California Health Facilities Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15416108143452854972,
+        "start": 226487,
+        "end": 226507,
+        "text": "California Health Facilities Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8238212026320991611,
+        "start": 226487,
+        "end": 226507,
+        "text": "California Health Facilities Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4652062095277855097,
+        "start": 226487,
+        "end": 226507,
+        "text": "California Health Facilities Financing Authority",
+        "chunk_id": 4289666084171970469
+      }
+    ]
+  }
+]

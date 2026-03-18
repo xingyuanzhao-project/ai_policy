@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12998646615651185528,
+    "source_group_id": 14306296839166967027,
+    "source_candidate_ids": [
+      15813130810767645279
+    ],
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "liquidation",
+    "value": "through June 30, 2031",
+    "entity_evidence": [
+      {
+        "span_id": 3994572979210090763,
+        "start": 727638,
+        "end": 727658,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6307684606491535520,
+        "start": 727638,
+        "end": 727658,
+        "text": "government agency",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 216195053271134600,
+        "start": 727638,
+        "end": 727658,
+        "text": "liquidation",
+        "chunk_id": 12924325562064581144
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17703682574662679934,
+        "start": 727638,
+        "end": 727658,
+        "text": "through June 30, 2031",
+        "chunk_id": 12924325562064581144
+      }
+    ]
+  }
+]

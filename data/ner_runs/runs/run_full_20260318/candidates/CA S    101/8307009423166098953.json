@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3916350232861784138,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 5729096919738418788,
+        "start": 314784,
+        "end": 314784,
+        "text": "Department of Transportation",
+        "chunk_id": 8307009423166098953
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15411066564189987066,
+        "start": 314784,
+        "end": 314784,
+        "text": "government agency",
+        "chunk_id": 8307009423166098953
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5458242105116439948,
+        "start": 314784,
+        "end": 314784,
+        "text": "promotion",
+        "chunk_id": 8307009423166098953
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8279930601700416460,
+        "start": 314784,
+        "end": 314784,
+        "text": "support",
+        "chunk_id": 8307009423166098953
+      }
+    ]
+  },
+  {
+    "candidate_id": 15041724321092642296,
+    "entity": "Federal Grant Anticipation Revenue Vehicles (GARVEE)",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "debt service requirements",
+    "entity_evidence": [
+      {
+        "span_id": 7804479138918561679,
+        "start": 314784,
+        "end": 314784,
+        "text": "Federal Grant Anticipation Revenue Vehicles (GARVEE)",
+        "chunk_id": 8307009423166098953
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16923102864568995343,
+        "start": 314784,
+        "end": 314784,
+        "text": "technology",
+        "chunk_id": 8307009423166098953
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7306011028573521346,
+        "start": 314784,
+        "end": 314784,
+        "text": "restriction",
+        "chunk_id": 8307009423166098953
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4026624667430470350,
+        "start": 314784,
+        "end": 314784,
+        "text": "debt service requirements",
+        "chunk_id": 8307009423166098953
+      }
+    ]
+  }
+]

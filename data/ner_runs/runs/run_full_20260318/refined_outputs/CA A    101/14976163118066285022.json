@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6739905214692055714,
+    "source_group_id": 14976163118066285022,
+    "source_candidate_ids": [
+      6214277683086873851
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "written notification",
+    "entity_evidence": [
+      {
+        "span_id": 1626872593197012002,
+        "start": 1742479,
+        "end": 1742489,
+        "text": "The Department of Finance shall provide written notification",
+        "chunk_id": 12147149746624547444
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3734563841032676169,
+        "start": 1742479,
+        "end": 1742489,
+        "text": "The Department of Finance shall provide written notification",
+        "chunk_id": 12147149746624547444
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5349009935020612629,
+        "start": 1742479,
+        "end": 1742489,
+        "text": "The Department of Finance shall provide written notification",
+        "chunk_id": 12147149746624547444
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13313558894148436821,
+        "start": 1742479,
+        "end": 1742489,
+        "text": "The Department of Finance shall provide written notification",
+        "chunk_id": 12147149746624547444
+      }
+    ]
+  }
+]

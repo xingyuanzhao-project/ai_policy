@@ -1,0 +1,33 @@
+[
+  {
+    "refined_id": 3337024749159239622,
+    "source_group_id": 8565226222334742919,
+    "source_candidate_ids": [
+      4702556641817741342
+    ],
+    "entity": "algorithmic management",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 14913096765456399643,
+        "start": 12215,
+        "end": 12235,
+        "text": "algorithmic management",
+        "chunk_id": 591958002258320648
+      }
+    ],
+    "type_evidence": [],
+    "attribute_evidence": [],
+    "value_evidence": [
+      {
+        "span_id": 13681061756326473604,
+        "start": 12215,
+        "end": 12235,
+        "text": "algorithmic management",
+        "chunk_id": 591958002258320648
+      }
+    ]
+  }
+]

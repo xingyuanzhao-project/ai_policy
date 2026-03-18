@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13643644048697119261,
+    "source_group_id": 5123280860343288401,
+    "source_candidate_ids": [
+      16551088466383258813
+    ],
+    "entity": "Alabama Board of Nursing",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notwithstanding the limiting provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+    "entity_evidence": [
+      {
+        "span_id": 17031860164444811312,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15551557054999516114,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3450196184898613090,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11698171768567295808,
+        "start": 106614,
+        "end": 106634,
+        "text": "The above appropriation shall be expended pursuant to the provisions of Sections 34-21-60 through 34-21-63, Code of Alabama 1975.",
+        "chunk_id": 15101455185944738002
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15950321599708899826,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 9933901906242744490,
+        "start": 691457,
+        "end": 691477,
+        "text": "The Department of Finance",
+        "chunk_id": 13911430309723586983
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13505391839412637138,
+        "start": 691457,
+        "end": 691477,
+        "text": "The Department of Finance",
+        "chunk_id": 13911430309723586983
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7861194715045945199,
+        "start": 691457,
+        "end": 691477,
+        "text": "The Department of Finance",
+        "chunk_id": 13911430309723586983
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13349302367583935873,
+        "start": 691457,
+        "end": 691477,
+        "text": "The Department of Finance",
+        "chunk_id": 13911430309723586983
+      }
+    ]
+  },
+  {
+    "candidate_id": 14307567424344536548,
+    "entity": "Pooled Money Investment Account",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 2190484700406842959,
+        "start": 691457,
+        "end": 691477,
+        "text": "Pooled Money Investment Account",
+        "chunk_id": 13911430309723586983
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16294108109267041092,
+        "start": 691457,
+        "end": 691477,
+        "text": "Pooled Money Investment Account",
+        "chunk_id": 13911430309723586983
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6826628984528891954,
+        "start": 691457,
+        "end": 691477,
+        "text": "Pooled Money Investment Account",
+        "chunk_id": 13911430309723586983
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10092346093123578868,
+        "start": 691457,
+        "end": 691477,
+        "text": "Pooled Money Investment Account",
+        "chunk_id": 13911430309723586983
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2203663619239840158,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10347640505630448624,
+        "start": 836766,
+        "end": 836786,
+        "text": "State Department of Public Health",
+        "chunk_id": 9491431557052753714
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18425937327946857238,
+        "start": 836766,
+        "end": 836786,
+        "text": "government agency",
+        "chunk_id": 9491431557052753714
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11007023646871487237,
+        "start": 836766,
+        "end": 836786,
+        "text": "restriction",
+        "chunk_id": 9491431557052753714
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13141700055966885437,
+        "start": 836766,
+        "end": 836786,
+        "text": "limited",
+        "chunk_id": 9491431557052753714
+      }
+    ]
+  },
+  {
+    "candidate_id": 18358281313954822901,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 1708563490014778417,
+        "start": 836877,
+        "end": 836898,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 9491431557052753714
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6246460836161181871,
+        "start": 836877,
+        "end": 836898,
+        "text": "infrastructure",
+        "chunk_id": 9491431557052753714
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6886485953558259433,
+        "start": 836877,
+        "end": 836898,
+        "text": "promotion",
+        "chunk_id": 9491431557052753714
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1597739540903792700,
+        "start": 836877,
+        "end": 836898,
+        "text": "subsidy",
+        "chunk_id": 9491431557052753714
+      }
+    ]
+  }
+]

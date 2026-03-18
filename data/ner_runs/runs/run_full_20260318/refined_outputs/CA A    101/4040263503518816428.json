@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 332732651992130147,
+    "source_group_id": 4040263503518816428,
+    "source_candidate_ids": [
+      14202543099481987538
+    ],
+    "entity": "Horseracing Integrity and Safety Authority",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 3236258324027625769,
+        "start": 287726,
+        "end": 287746,
+        "text": "Horseracing Integrity and Safety Authority",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12921724787286665477,
+        "start": 287726,
+        "end": 287746,
+        "text": "government agency",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7708788837031178648,
+        "start": 287726,
+        "end": 287746,
+        "text": "promotion",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6346280375142668997,
+        "start": 287726,
+        "end": 287746,
+        "text": "encouraged",
+        "chunk_id": 5760139089450835823
+      }
+    ]
+  }
+]

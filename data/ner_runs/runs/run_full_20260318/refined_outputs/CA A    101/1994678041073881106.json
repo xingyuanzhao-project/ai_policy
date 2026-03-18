@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7781002217505171775,
+    "source_group_id": 1994678041073881106,
+    "source_candidate_ids": [
+      14338682684407451304
+    ],
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "water resources development",
+    "entity_evidence": [
+      {
+        "span_id": 13344980885046016104,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10132530037009152015,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9603430075877298201,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17267694589431212471,
+        "start": 647670,
+        "end": 647698,
+        "text": "Department of Water Resources",
+        "chunk_id": 12233984089851247371
+      }
+    ]
+  }
+]

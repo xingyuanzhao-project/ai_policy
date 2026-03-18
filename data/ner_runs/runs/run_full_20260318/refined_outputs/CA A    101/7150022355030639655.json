@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7770323853520392904,
+    "source_group_id": 7150022355030639655,
+    "source_candidate_ids": [
+      1063162955608018359
+    ],
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "effective management",
+    "entity_evidence": [
+      {
+        "span_id": 16726702702700371432,
+        "start": 315756,
+        "end": 315780,
+        "text": "Department of Transportation",
+        "chunk_id": 18290160660597327797
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9918401207355964004,
+        "start": 315756,
+        "end": 315780,
+        "text": "government agency",
+        "chunk_id": 18290160660597327797
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18043772804279013925,
+        "start": 315756,
+        "end": 315780,
+        "text": "promotion",
+        "chunk_id": 18290160660597327797
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16980047806325790774,
+        "start": 315756,
+        "end": 315780,
+        "text": "effective management",
+        "chunk_id": 18290160660597327797
+      }
+    ]
+  }
+]

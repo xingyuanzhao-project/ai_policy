@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13677947148845005214,
+    "source_group_id": 575583608281316817,
+    "source_candidate_ids": [
+      107850318805635448
+    ],
+    "entity": "Senate",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14448557493763336738,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9685029033730177240,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9026234142775643046,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16942893111432910013,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ]
+  }
+]

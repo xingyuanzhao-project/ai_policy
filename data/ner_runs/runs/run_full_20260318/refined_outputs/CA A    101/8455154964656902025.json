@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11664989964084842002,
+    "source_group_id": 8455154964656902025,
+    "source_candidate_ids": [
+      12405736899665471824
+    ],
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 8308985507352417087,
+        "start": 596013,
+        "end": 596033,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9553557638021951494,
+        "start": 596013,
+        "end": 596033,
+        "text": "government agency",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17986565036841102315,
+        "start": 596033,
+        "end": 596053,
+        "text": "restriction",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11425578159528405542,
+        "start": 596053,
+        "end": 596083,
+        "text": "encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 16360289446147248827
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4876182816341959203,
+    "source_group_id": 13641428693654706675,
+    "source_candidate_ids": [
+      7671276345976932420
+    ],
+    "entity": "Data and Innovation, Office of",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "encouragement",
+    "entity_evidence": [
+      {
+        "span_id": 7962879257164199267,
+        "start": 1875124,
+        "end": 1875124,
+        "text": "Data",
+        "chunk_id": 12798159320622701125
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8598287223798985848,
+        "start": 1875125,
+        "end": 1875125,
+        "text": "and",
+        "chunk_id": 12798159320622701125
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2871398918339828824,
+        "start": 1875126,
+        "end": 1875126,
+        "text": "Innovation",
+        "chunk_id": 12798159320622701125
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2656184218574067299,
+        "start": 1875127,
+        "end": 1875127,
+        "text": "Office",
+        "chunk_id": 12798159320622701125
+      }
+    ]
+  }
+]

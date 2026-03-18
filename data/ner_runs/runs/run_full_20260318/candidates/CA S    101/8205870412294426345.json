@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9025318023880158731,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "require approval",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 12275032795243147583,
+        "start": 317273,
+        "end": 317292,
+        "text": "require the prior approval of the Department of Finance",
+        "chunk_id": 8205870412294426345
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3605901446415666196,
+        "start": 317273,
+        "end": 317292,
+        "text": "require the prior approval of the Department of Finance",
+        "chunk_id": 8205870412294426345
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7403305883313978919,
+        "start": 317273,
+        "end": 317292,
+        "text": "require the prior approval of the Department of Finance",
+        "chunk_id": 8205870412294426345
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2168924093593959333,
+        "start": 317273,
+        "end": 317292,
+        "text": "require the prior approval of the Department of Finance",
+        "chunk_id": 8205870412294426345
+      }
+    ]
+  },
+  {
+    "candidate_id": 16442827852440124450,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "require approval",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 4990188254265621574,
+        "start": 317273,
+        "end": 317297,
+        "text": "support of Department of Transportation",
+        "chunk_id": 8205870412294426345
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4273273286798012308,
+        "start": 317273,
+        "end": 317297,
+        "text": "support of Department of Transportation",
+        "chunk_id": 8205870412294426345
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3651994299693895082,
+        "start": 317273,
+        "end": 317297,
+        "text": "support of Department of Transportation",
+        "chunk_id": 8205870412294426345
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5388647178880995796,
+        "start": 317273,
+        "end": 317297,
+        "text": "support of Department of Transportation",
+        "chunk_id": 8205870412294426345
+      }
+    ]
+  }
+]

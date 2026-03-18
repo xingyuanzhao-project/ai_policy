@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11107100838621701625,
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 11236805073109431086,
+        "start": 289239,
+        "end": 289259,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 18208212597106176542
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12550893972665597677,
+        "start": 289239,
+        "end": 289259,
+        "text": "government agency",
+        "chunk_id": 18208212597106176542
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9738918323241476977,
+        "start": 289239,
+        "end": 289259,
+        "text": "restriction",
+        "chunk_id": 18208212597106176542
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9319060981225937385,
+        "start": 289239,
+        "end": 289259,
+        "text": "until June 30, 2030",
+        "chunk_id": 18208212597106176542
+      }
+    ]
+  },
+  {
+    "candidate_id": 13585105976372314247,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "authorization",
+    "value": "extension",
+    "entity_evidence": [
+      {
+        "span_id": 3139919728252746590,
+        "start": 289350,
+        "end": 289371,
+        "text": "Department of Finance",
+        "chunk_id": 18208212597106176542
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6032793319276430777,
+        "start": 289350,
+        "end": 289371,
+        "text": "government agency",
+        "chunk_id": 18208212597106176542
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9185088972194255671,
+        "start": 289350,
+        "end": 289371,
+        "text": "authorization",
+        "chunk_id": 18208212597106176542
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9715756505005683003,
+        "start": 289350,
+        "end": 289371,
+        "text": "extension",
+        "chunk_id": 18208212597106176542
+      }
+    ]
+  }
+]

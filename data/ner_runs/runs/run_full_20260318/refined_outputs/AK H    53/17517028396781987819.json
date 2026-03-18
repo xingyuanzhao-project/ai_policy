@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7235705731724657146,
+    "source_group_id": 17517028396781987819,
+    "source_candidate_ids": [
+      15127497276872358553
+    ],
+    "entity": "Alaska Energy Authority",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "cogeneration projects",
+    "entity_evidence": [
+      {
+        "span_id": 16118792229487131463,
+        "start": 136345,
+        "end": 136361,
+        "text": "Alaska Energy Authority",
+        "chunk_id": 15205132919859645208
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7545081944954298127,
+        "start": 136345,
+        "end": 136361,
+        "text": "Alaska Energy Authority",
+        "chunk_id": 15205132919859645208
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 906036620869550438,
+        "start": 136345,
+        "end": 136361,
+        "text": "Alaska Energy Authority",
+        "chunk_id": 15205132919859645208
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6371264721563246756,
+        "start": 136345,
+        "end": 136361,
+        "text": "Alaska Energy Authority",
+        "chunk_id": 15205132919859645208
+      }
+    ]
+  }
+]

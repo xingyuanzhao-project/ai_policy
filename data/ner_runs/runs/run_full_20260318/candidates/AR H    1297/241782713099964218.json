@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14932529785375859257,
+    "entity": "healthcare insurer",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "high standards",
+    "entity_evidence": [
+      {
+        "span_id": 6095562420446831243,
+        "start": 12750,
+        "end": 12770,
+        "text": "healthcare insurer",
+        "chunk_id": 241782713099964218
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4001588977567579506,
+        "start": 12750,
+        "end": 12750,
+        "text": "company",
+        "chunk_id": 241782713099964218
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1927302924136663705,
+        "start": 12750,
+        "end": 12750,
+        "text": "restriction",
+        "chunk_id": 241782713099964218
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6319250163498318146,
+        "start": 12750,
+        "end": 12750,
+        "text": "highest standards",
+        "chunk_id": 241782713099964218
+      }
+    ]
+  },
+  {
+    "candidate_id": 5194287270508845592,
+    "entity": "artificial intelligence-based algorithms",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "safety, accuracy, and reliability",
+    "entity_evidence": [
+      {
+        "span_id": 5538141822333280367,
+        "start": 12772,
+        "end": 12800,
+        "text": "artificial intelligence-based algorithms",
+        "chunk_id": 241782713099964218
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5909061244776324210,
+        "start": 12772,
+        "end": 12772,
+        "text": "technology",
+        "chunk_id": 241782713099964218
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1300800054842602009,
+        "start": 12772,
+        "end": 12772,
+        "text": "restriction",
+        "chunk_id": 241782713099964218
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14225304047769269870,
+        "start": 12772,
+        "end": 12772,
+        "text": "safety, accuracy, and reliability",
+        "chunk_id": 241782713099964218
+      }
+    ]
+  }
+]

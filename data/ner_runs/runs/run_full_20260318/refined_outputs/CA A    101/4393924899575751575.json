@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12913983714755152332,
+    "source_group_id": 4393924899575751575,
+    "source_candidate_ids": [
+      7391591322858372967
+    ],
+    "entity": "Federal Emergency Management Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Section 28.00",
+    "entity_evidence": [
+      {
+        "span_id": 5636871160904616175,
+        "start": 157147,
+        "end": 157168,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7665007489280842791,
+        "start": 157147,
+        "end": 157168,
+        "text": "government agency",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16341105616953135692,
+        "start": 157147,
+        "end": 157168,
+        "text": "restriction",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2095202705822192851,
+        "start": 157147,
+        "end": 157168,
+        "text": "exempt from Section 28.00",
+        "chunk_id": 10442482922506650757
+      }
+    ]
+  }
+]

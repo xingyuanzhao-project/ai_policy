@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1469582090634071430,
+    "source_group_id": 3278614838374222612,
+    "source_candidate_ids": [
+      7445644679696344715
+    ],
+    "entity": "Domestic Violence Information",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2615539157322989842,
+        "start": 1667454,
+        "end": 1667478,
+        "text": "Domestic Violence Information",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17175883103467719776,
+        "start": 1667479,
+        "end": 1667497,
+        "text": "Ch. 1609, Stats. 1984",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4322111478580013195,
+        "start": 1667498,
+        "end": 1667505,
+        "text": "n",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13909850461557728412,
+        "start": 1667506,
+        "end": 1667507,
+        "text": "n",
+        "chunk_id": 1183430067795661472
+      }
+    ]
+  }
+]

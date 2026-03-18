@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16204672907824493595,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "adequate, relevant, and reasonably necessary",
+    "entity_evidence": [
+      {
+        "span_id": 15563472163044135664,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5505690698466164423,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10644605259322295073,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17548666688009828638,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ]
+  },
+  {
+    "candidate_id": 10426596876697990230,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "prohibition",
+    "value": "unlawful discrimination",
+    "entity_evidence": [
+      {
+        "span_id": 174077086065418512,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7992407863071192096,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1242843589049546932,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7533139258748047030,
+        "start": 22479,
+        "end": 22487,
+        "text": "controller",
+        "chunk_id": 7110886617448618152
+      }
+    ]
+  }
+]

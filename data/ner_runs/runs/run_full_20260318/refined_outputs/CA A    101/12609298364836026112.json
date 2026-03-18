@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11001335247703429125,
+    "source_group_id": 12609298364836026112,
+    "source_candidate_ids": [
+      9297284705742354172
+    ],
+    "entity": "Judicial Branch",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16776667067573042014,
+        "start": 19476,
+        "end": 19492,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 5255046119827884489
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10158801948724658111,
+        "start": 19476,
+        "end": 19492,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 5255046119827884489
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4322589175065199510,
+        "start": 19476,
+        "end": 19492,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 5255046119827884489
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4923243544152759689,
+        "start": 19476,
+        "end": 19492,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 5255046119827884489
+      }
+    ]
+  }
+]

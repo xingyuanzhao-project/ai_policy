@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1009047190007878574,
+    "entity": "legally protected health care activity",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "lawful under California law",
+    "entity_evidence": [
+      {
+        "span_id": 13313014203939763338,
+        "start": 61881,
+        "end": 61910,
+        "text": "legally protected health care activity",
+        "chunk_id": 3187710783424382888
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10601706720701552827,
+        "start": 61881,
+        "end": 61910,
+        "text": "technology",
+        "chunk_id": 3187710783424382888
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16185535024601941055,
+        "start": 61881,
+        "end": 61910,
+        "text": "promotion",
+        "chunk_id": 3187710783424382888
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16833181188230244673,
+        "start": 61881,
+        "end": 61910,
+        "text": "lawful under California law",
+        "chunk_id": 3187710783424382888
+      }
+    ]
+  },
+  {
+    "candidate_id": 3819455718225102775,
+    "entity": "stored communications",
+    "type": "infrastructure",
+    "attribute": "exemption",
+    "value": "stored content",
+    "entity_evidence": [
+      {
+        "span_id": 14777808123224876623,
+        "start": 61881,
+        "end": 61896,
+        "text": "stored communications",
+        "chunk_id": 3187710783424382888
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7633991810872286846,
+        "start": 61881,
+        "end": 61896,
+        "text": "infrastructure",
+        "chunk_id": 3187710783424382888
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17627125111684587510,
+        "start": 61881,
+        "end": 61896,
+        "text": "exemption",
+        "chunk_id": 3187710783424382888
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2710499320989223814,
+        "start": 61881,
+        "end": 61896,
+        "text": "stored content",
+        "chunk_id": 3187710783424382888
+      }
+    ]
+  }
+]

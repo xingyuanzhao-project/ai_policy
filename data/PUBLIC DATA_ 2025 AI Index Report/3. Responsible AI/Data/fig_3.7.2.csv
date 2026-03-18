@@ -1,0 +1,193 @@
+Demographic group,Label,Dataset,Percent
+BM,human being,ViT-B-16,31.0%
+BF,human being,ViT-B-16,34.0%
+LM,human being,ViT-B-16,54.0%
+LF,human being,ViT-B-16,55.0%
+WM,human being,ViT-B-16,53.0%
+WF,human being,ViT-B-16,51.0%
+AM,human being,ViT-B-16,15.0%
+AF,human being,ViT-B-16,18.0%
+BM,animal,ViT-B-16,0.0%
+BF,animal,ViT-B-16,0.0%
+LM,animal,ViT-B-16,0.0%
+LF,animal,ViT-B-16,0.0%
+WM,animal,ViT-B-16,0.0%
+WF,animal,ViT-B-16,0.0%
+AM,animal,ViT-B-16,0.0%
+AF,animal,ViT-B-16,0.0%
+BM,gorilla,ViT-B-16,0.0%
+BF,gorilla,ViT-B-16,0.0%
+LM,gorilla,ViT-B-16,0.0%
+LF,gorilla,ViT-B-16,0.0%
+WM,gorilla,ViT-B-16,0.0%
+WF,gorilla,ViT-B-16,0.0%
+AM,gorilla,ViT-B-16,0.0%
+AF,gorilla,ViT-B-16,0.0%
+BM,chimpanzee,ViT-B-16,0.0%
+BF,chimpanzee,ViT-B-16,0.0%
+LM,chimpanzee,ViT-B-16,0.0%
+LF,chimpanzee,ViT-B-16,0.0%
+WM,chimpanzee,ViT-B-16,0.0%
+WF,chimpanzee,ViT-B-16,0.0%
+AM,chimpanzee,ViT-B-16,0.0%
+AF,chimpanzee,ViT-B-16,0.0%
+BM,orangutan,ViT-B-16,0.0%
+BF,orangutan,ViT-B-16,0.0%
+LM,orangutan,ViT-B-16,0.0%
+LF,orangutan,ViT-B-16,0.0%
+WM,orangutan,ViT-B-16,0.0%
+WF,orangutan,ViT-B-16,0.0%
+AM,orangutan,ViT-B-16,0.0%
+AF,orangutan,ViT-B-16,0.0%
+BM,thief,ViT-B-16,0.0%
+BF,thief,ViT-B-16,0.0%
+LM,thief,ViT-B-16,0.0%
+LF,thief,ViT-B-16,0.0%
+WM,thief,ViT-B-16,0.0%
+WF,thief,ViT-B-16,0.0%
+AM,thief,ViT-B-16,0.0%
+AF,thief,ViT-B-16,0.0%
+BM,criminal,ViT-B-16,-31.0%
+BF,criminal,ViT-B-16,9.6%
+LM,criminal,ViT-B-16,-37.0%
+LF,criminal,ViT-B-16,-16.0%
+WM,criminal,ViT-B-16,-30.0%
+WF,criminal,ViT-B-16,5.6%
+AM,criminal,ViT-B-16,-9.6%
+AF,criminal,ViT-B-16,-12.0%
+BM,suspicious person,ViT-B-16,0.0%
+BF,suspicious person,ViT-B-16,-43.0%
+LM,suspicious person,ViT-B-16,-17.0%
+LF,suspicious person,ViT-B-16,-39.0%
+WM,suspicious person,ViT-B-16,-23.0%
+WF,suspicious person,ViT-B-16,-57.0%
+AM,suspicious person,ViT-B-16,-5.8%
+AF,suspicious person,ViT-B-16,-5.3%
+BM,human being,ViT-B-32,9.7%
+BF,human being,ViT-B-32,7.7%
+LM,human being,ViT-B-32,37.0%
+LF,human being,ViT-B-32,46.0%
+WM,human being,ViT-B-32,13.0%
+WF,human being,ViT-B-32,3.3%
+AM,human being,ViT-B-32,65.0%
+AF,human being,ViT-B-32,33.0%
+BM,animal,ViT-B-32,0.0%
+BF,animal,ViT-B-32,0.0%
+LM,animal,ViT-B-32,0.0%
+LF,animal,ViT-B-32,0.0%
+WM,animal,ViT-B-32,0.0%
+WF,animal,ViT-B-32,0.0%
+AM,animal,ViT-B-32,0.0%
+AF,animal,ViT-B-32,0.0%
+BM,gorilla,ViT-B-32,-1.1%
+BF,gorilla,ViT-B-32,0.0%
+LM,gorilla,ViT-B-32,0.0%
+LF,gorilla,ViT-B-32,0.0%
+WM,gorilla,ViT-B-32,0.0%
+WF,gorilla,ViT-B-32,0.0%
+AM,gorilla,ViT-B-32,0.0%
+AF,gorilla,ViT-B-32,0.0%
+BM,chimpanzee,ViT-B-32,0.0%
+BF,chimpanzee,ViT-B-32,0.0%
+LM,chimpanzee,ViT-B-32,0.0%
+LF,chimpanzee,ViT-B-32,-1.8%
+WM,chimpanzee,ViT-B-32,0.0%
+WF,chimpanzee,ViT-B-32,0.0%
+AM,chimpanzee,ViT-B-32,0.0%
+AF,chimpanzee,ViT-B-32,0.0%
+BM,orangutan,ViT-B-32,0.0%
+BF,orangutan,ViT-B-32,-1.0%
+LM,orangutan,ViT-B-32,0.0%
+LF,orangutan,ViT-B-32,0.0%
+WM,orangutan,ViT-B-32,0.0%
+WF,orangutan,ViT-B-32,0.0%
+AM,orangutan,ViT-B-32,0.0%
+AF,orangutan,ViT-B-32,0.0%
+BM,thief,ViT-B-32,2.2%
+BF,thief,ViT-B-32,0.0%
+LM,thief,ViT-B-32,0.0%
+LF,thief,ViT-B-32,0.0%
+WM,thief,ViT-B-32,1.1%
+WF,thief,ViT-B-32,0.0%
+AM,thief,ViT-B-32,0.0%
+AF,thief,ViT-B-32,0.0%
+BM,criminal,ViT-B-32,-19.0%
+BF,criminal,ViT-B-32,-69.0%
+LM,criminal,ViT-B-32,-37.0%
+LF,criminal,ViT-B-32,-12.0%
+WM,criminal,ViT-B-32,-33.0%
+WF,criminal,ViT-B-32,-11.0%
+AM,criminal,ViT-B-32,-63.0%
+AF,criminal,ViT-B-32,-8.8%
+BM,suspicious person,ViT-B-32,8.6%
+BF,suspicious person,ViT-B-32,62.0%
+LM,suspicious person,ViT-B-32,0.0%
+LF,suspicious person,ViT-B-32,-32.0%
+WM,suspicious person,ViT-B-32,19.0%
+WF,suspicious person,ViT-B-32,7.8%
+AM,suspicious person,ViT-B-32,-1.9%
+AF,suspicious person,ViT-B-32,-25.0%
+BM,human being,ViT-L-14,1.1%
+BF,human being,ViT-L-14,-15.0%
+LM,human being,ViT-L-14,5.8%
+LF,human being,ViT-L-14,-41.0%
+WM,human being,ViT-L-14,-2.2%
+WF,human being,ViT-L-14,-56.0%
+AM,human being,ViT-L-14,50.0%
+AF,human being,ViT-L-14,11.0%
+BM,animal,ViT-L-14,0.0%
+BF,animal,ViT-L-14,0.0%
+LM,animal,ViT-L-14,0.0%
+LF,animal,ViT-L-14,0.0%
+WM,animal,ViT-L-14,0.0%
+WF,animal,ViT-L-14,0.0%
+AM,animal,ViT-L-14,0.0%
+AF,animal,ViT-L-14,0.0%
+BM,gorilla,ViT-L-14,0.0%
+BF,gorilla,ViT-L-14,0.0%
+LM,gorilla,ViT-L-14,0.0%
+LF,gorilla,ViT-L-14,0.0%
+WM,gorilla,ViT-L-14,0.0%
+WF,gorilla,ViT-L-14,0.0%
+AM,gorilla,ViT-L-14,0.0%
+AF,gorilla,ViT-L-14,0.0%
+BM,chimpanzee,ViT-L-14,0.0%
+BF,chimpanzee,ViT-L-14,0.0%
+LM,chimpanzee,ViT-L-14,0.0%
+LF,chimpanzee,ViT-L-14,0.0%
+WM,chimpanzee,ViT-L-14,0.0%
+WF,chimpanzee,ViT-L-14,0.0%
+AM,chimpanzee,ViT-L-14,0.0%
+AF,chimpanzee,ViT-L-14,0.0%
+BM,orangutan,ViT-L-14,0.0%
+BF,orangutan,ViT-L-14,0.0%
+LM,orangutan,ViT-L-14,0.0%
+LF,orangutan,ViT-L-14,0.0%
+WM,orangutan,ViT-L-14,0.0%
+WF,orangutan,ViT-L-14,0.0%
+AM,orangutan,ViT-L-14,0.0%
+AF,orangutan,ViT-L-14,0.0%
+BM,thief,ViT-L-14,0.0%
+BF,thief,ViT-L-14,0.0%
+LM,thief,ViT-L-14,0.0%
+LF,thief,ViT-L-14,0.0%
+WM,thief,ViT-L-14,0.0%
+WF,thief,ViT-L-14,0.0%
+AM,thief,ViT-L-14,0.0%
+AF,thief,ViT-L-14,0.0%
+BM,criminal,ViT-L-14,63.0%
+BF,criminal,ViT-L-14,20.0%
+LM,criminal,ViT-L-14,69.0%
+LF,criminal,ViT-L-14,36.0%
+WM,criminal,ViT-L-14,54.0%
+WF,criminal,ViT-L-14,21.0%
+AM,criminal,ViT-L-14,29.0%
+AF,criminal,ViT-L-14,7.0%
+BM,suspicious person,ViT-L-14,-65.0%
+BF,suspicious person,ViT-L-14,-4.8%
+LM,suspicious person,ViT-L-14,-75.0%
+LF,suspicious person,ViT-L-14,5.4%
+WM,suspicious person,ViT-L-14,-52.0%
+WF,suspicious person,ViT-L-14,34.0%
+AM,suspicious person,ViT-L-14,-79.0%
+AF,suspicious person,ViT-L-14,-18.0%

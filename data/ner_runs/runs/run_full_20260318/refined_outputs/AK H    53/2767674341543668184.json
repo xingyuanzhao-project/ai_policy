@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5941526453292566374,
+    "source_group_id": 2767674341543668184,
+    "source_candidate_ids": [
+      11038408329923998498
+    ],
+    "entity": "State of Alaska general obligation bonds, series 2010A",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2486436860015913139,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13220976513579907319,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1688961108773876777,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 254338497408486494,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ]
+  }
+]

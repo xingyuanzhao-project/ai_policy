@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 107850318805635448,
+    "entity": "Senate",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 11589352140309275925,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1620893644308409290,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9086769055963215622,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16156813858740423542,
+        "start": 4829,
+        "end": 4836,
+        "text": "Senate",
+        "chunk_id": 1180830110308634197
+      }
+    ]
+  },
+  {
+    "candidate_id": 11246759016442346711,
+    "entity": "Assembly",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10341712878567395080,
+        "start": 4859,
+        "end": 4866,
+        "text": "Assembly",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8532941798036118164,
+        "start": 4859,
+        "end": 4866,
+        "text": "Assembly",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3178888437973887240,
+        "start": 4859,
+        "end": 4866,
+        "text": "Assembly",
+        "chunk_id": 1180830110308634197
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10474856044293828613,
+        "start": 4859,
+        "end": 4866,
+        "text": "Assembly",
+        "chunk_id": 1180830110308634197
+      }
+    ]
+  }
+]

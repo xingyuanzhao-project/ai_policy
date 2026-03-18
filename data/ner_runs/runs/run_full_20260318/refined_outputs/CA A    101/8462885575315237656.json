@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8637964548896677916,
+    "source_group_id": 8462885575315237656,
+    "source_candidate_ids": [
+      7220539573134275030
+    ],
+    "entity": "Department of Food and Agriculture",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12711948441008267343,
+        "start": 1628947,
+        "end": 1628967,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 1601703471348395650
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11370693130679838826,
+        "start": 1628947,
+        "end": 1628967,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 1601703471348395650
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9671414288402115550,
+        "start": 1628947,
+        "end": 1628967,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 1601703471348395650
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14306643735483226509,
+        "start": 1628947,
+        "end": 1628967,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 1601703471348395650
+      }
+    ]
+  }
+]

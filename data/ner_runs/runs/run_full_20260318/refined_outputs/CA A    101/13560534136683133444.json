@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7263379477978579199,
+    "source_group_id": 13560534136683133444,
+    "source_candidate_ids": [
+      482607256127172240
+    ],
+    "entity": "California Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "implementation activities",
+    "entity_evidence": [
+      {
+        "span_id": 6653092475547012390,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8569670427259927999,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11729530273747852053,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11968381592410856334,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ]
+  }
+]

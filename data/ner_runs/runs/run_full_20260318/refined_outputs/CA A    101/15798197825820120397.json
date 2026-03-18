@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5201511460011125368,
+    "source_group_id": 15798197825820120397,
+    "source_candidate_ids": [
+      510586940726499397
+    ],
+    "entity": "San Joaquin River Conservancy",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 485187111211496386,
+        "start": 631664,
+        "end": 631684,
+        "text": "San Joaquin River Conservancy",
+        "chunk_id": 12305027761909785742
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3377466924863728353,
+        "start": 631664,
+        "end": 631684,
+        "text": "infrastructure",
+        "chunk_id": 12305027761909785742
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 389502300536129832,
+        "start": 631664,
+        "end": 631684,
+        "text": "promotion",
+        "chunk_id": 12305027761909785742
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7718401792837605894,
+        "start": 631664,
+        "end": 631684,
+        "text": "support",
+        "chunk_id": 12305027761909785742
+      }
+    ]
+  }
+]

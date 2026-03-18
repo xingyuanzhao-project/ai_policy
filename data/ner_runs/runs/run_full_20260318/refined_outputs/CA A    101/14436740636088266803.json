@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9838039800989155987,
+    "source_group_id": 14436740636088266803,
+    "source_candidate_ids": [
+      8765051579754466136
+    ],
+    "entity": "California Environmental Protection Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 3800405513631719029,
+        "start": 751112,
+        "end": 751112,
+        "text": "California Environmental Protection Agency",
+        "chunk_id": 16769896478059675114
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14009477058391437196,
+        "start": 751112,
+        "end": 751112,
+        "text": "government agency",
+        "chunk_id": 16769896478059675114
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18037209877230761781,
+        "start": 751112,
+        "end": 751112,
+        "text": "restriction",
+        "chunk_id": 16769896478059675114
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2427708689072924005,
+        "start": 751112,
+        "end": 751112,
+        "text": "partial",
+        "chunk_id": 16769896478059675114
+      }
+    ]
+  }
+]

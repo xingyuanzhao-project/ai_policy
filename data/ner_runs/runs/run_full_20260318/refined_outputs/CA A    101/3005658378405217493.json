@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17945784827283177200,
+    "source_group_id": 3005658378405217493,
+    "source_candidate_ids": [
+      14666504654831678273
+    ],
+    "entity": "General Fund",
+    "type": "fund",
+    "attribute": "liquidation",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 15457779096120267952,
+        "start": 539191,
+        "end": 539202,
+        "text": "General Fund",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11653181549263044423,
+        "start": 539191,
+        "end": 539202,
+        "text": "fund",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1561267685942993256,
+        "start": 539191,
+        "end": 539202,
+        "text": "liquidation",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10378977658419174711,
+        "start": 539191,
+        "end": 539202,
+        "text": "until June 30, 2027",
+        "chunk_id": 2784438367216813883
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3139951244393363668,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 calendar days",
+    "entity_evidence": [
+      {
+        "span_id": 12933285995406854789,
+        "start": 1631966,
+        "end": 1631983,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 7454976884790865179
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8753853637135706340,
+        "start": 1631966,
+        "end": 1631983,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 7454976884790865179
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2737006187281690803,
+        "start": 1631983,
+        "end": 1631991,
+        "text": "not less than 30 calendar days",
+        "chunk_id": 7454976884790865179
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6329378076989258195,
+        "start": 1631991,
+        "end": 1632002,
+        "text": "30 calendar days",
+        "chunk_id": 7454976884790865179
+      }
+    ]
+  },
+  {
+    "candidate_id": 54846093872204188,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not sooner than whatever lesser time",
+    "entity_evidence": [
+      {
+        "span_id": 14234116890074346147,
+        "start": 1631895,
+        "end": 1631913,
+        "text": "Department of Finance",
+        "chunk_id": 7454976884790865179
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5160607285110828966,
+        "start": 1631895,
+        "end": 1631913,
+        "text": "Department of Finance",
+        "chunk_id": 7454976884790865179
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1773313722914353825,
+        "start": 1631913,
+        "end": 1631921,
+        "text": "not sooner than whatever lesser time",
+        "chunk_id": 7454976884790865179
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4630801978783826454,
+        "start": 1631921,
+        "end": 1631941,
+        "text": "not sooner than whatever lesser time",
+        "chunk_id": 7454976884790865179
+      }
+    ]
+  }
+]

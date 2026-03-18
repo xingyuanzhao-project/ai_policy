@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11226842526593500330,
+    "source_group_id": 10961514666481919089,
+    "source_candidate_ids": [
+      7641630896748636580
+    ],
+    "entity": "Alaska Aerospace Corporation",
+    "type": "corporation",
+    "attribute": "restriction",
+    "value": "unexpended and unobligated balance on June 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 8010310626711255851,
+        "start": 36650,
+        "end": 36671,
+        "text": "unexpended and unobligated balance on June 30, 2025",
+        "chunk_id": 5422353267710407955
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18362594151464799793,
+        "start": 36650,
+        "end": 36671,
+        "text": "unexpended and unobligated balance on June 30, 2025",
+        "chunk_id": 5422353267710407955
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14623118149975064691,
+        "start": 36650,
+        "end": 36671,
+        "text": "unexpended and unobligated balance on June 30, 2025",
+        "chunk_id": 5422353267710407955
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10976806363110927344,
+        "start": 36650,
+        "end": 36671,
+        "text": "unexpended and unobligated balance on June 30, 2025",
+        "chunk_id": 5422353267710407955
+      }
+    ]
+  }
+]

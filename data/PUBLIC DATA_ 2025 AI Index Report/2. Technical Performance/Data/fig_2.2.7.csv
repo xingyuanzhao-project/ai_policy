@@ -1,0 +1,11 @@
+model,arena_elo_rating,95_CI_upper,95_CI_lower
+Gemini-1.5-Pro-002,1303,1307,1299
+Step-2-16K-Exp,1305,1313,1296
+o1-mini,1306,1309,1303
+DeepSeek-V3,1319,1325,1313
+o1-preview,1335,1339,1331
+o1-2024-12-17,1351,1358,1344
+Gemini-2.0-Flash-Exp,1357,1363,1353
+Gemini-2.0-Flash-Thinking-Exp-1219,1364,1369,1358
+ChatGPT-4o-latest (2024-11-20),1365,1369,1362
+Gemini-Exp-1206,1374,1378,1369

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11757396427305974697,
+    "source_group_id": 7665227079422867271,
+    "source_candidate_ids": [
+      7269588964398673957
+    ],
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "unrestricted growth funding",
+    "entity_evidence": [
+      {
+        "span_id": 11540879360353692398,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10486133383482464565,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16642345583017579783,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10693968284611745003,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ]
+  }
+]

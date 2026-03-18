@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11359567820683549817,
+    "source_group_id": 7458254117166464870,
+    "source_candidate_ids": [
+      18000439318880629055
+    ],
+    "entity": "State Superintendent of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "discretion",
+    "entity_evidence": [
+      {
+        "span_id": 9921151954545208636,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9591680297735001858,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1929466487505206538,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5487268286507483467,
+        "start": 66990,
+        "end": 67009,
+        "text": "the State Superintendent of Education",
+        "chunk_id": 10568676582375512832
+      }
+    ]
+  }
+]

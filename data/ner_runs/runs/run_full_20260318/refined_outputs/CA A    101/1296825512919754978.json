@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6440843157798910184,
+    "source_group_id": 1296825512919754978,
+    "source_candidate_ids": [
+      17981090112257953575
+    ],
+    "entity": "California State Library",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8629287401606255627,
+        "start": 1296370,
+        "end": 1296390,
+        "text": "California State Library",
+        "chunk_id": 12656340498061182505
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11161249493669716788,
+        "start": 1296370,
+        "end": 1296390,
+        "text": "government agency",
+        "chunk_id": 12656340498061182505
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2012058444830992383,
+        "start": 1296370,
+        "end": 1296390,
+        "text": "restriction",
+        "chunk_id": 12656340498061182505
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7487038083541340407,
+        "start": 1296370,
+        "end": 1296390,
+        "text": "limited",
+        "chunk_id": 12656340498061182505
+      }
+    ]
+  }
+]

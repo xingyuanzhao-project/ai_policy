@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5480759179762409295,
+    "source_group_id": 3295370005799491384,
+    "source_candidate_ids": [
+      10013249622083584753
+    ],
+    "entity": "State Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "review or approval",
+    "entity_evidence": [
+      {
+        "span_id": 8870802859502945576,
+        "start": 847906,
+        "end": 847930,
+        "text": "State Department of General Services",
+        "chunk_id": 13990435387285602796
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15077139566809863989,
+        "start": 847906,
+        "end": 847930,
+        "text": "State Department of General Services",
+        "chunk_id": 13990435387285602796
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13403895314509944533,
+        "start": 847906,
+        "end": 847930,
+        "text": "State Department of General Services",
+        "chunk_id": 13990435387285602796
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15338394809849601859,
+        "start": 847906,
+        "end": 847930,
+        "text": "State Department of General Services",
+        "chunk_id": 13990435387285602796
+      }
+    ]
+  }
+]

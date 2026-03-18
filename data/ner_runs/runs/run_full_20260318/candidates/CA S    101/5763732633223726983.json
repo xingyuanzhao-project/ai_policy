@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8528230976923776362,
+    "entity": "California State Preschool Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "increased workload",
+    "entity_evidence": [
+      {
+        "span_id": 4732678673370277975,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "address increased workload in the California State Preschool Program",
+        "chunk_id": 5763732633223726983
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4596126649964242570,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "infrastructure",
+        "chunk_id": 5763732633223726983
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 329021458520167858,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "restriction",
+        "chunk_id": 5763732633223726983
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15880101931367230152,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "increased workload",
+        "chunk_id": 5763732633223726983
+      }
+    ]
+  },
+  {
+    "candidate_id": 3853520743128596258,
+    "entity": "California State Preschool Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "increased workload",
+    "entity_evidence": [
+      {
+        "span_id": 8965266876130987169,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "address increased workload in the California State Preschool Program",
+        "chunk_id": 5763732633223726983
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9223887531577402870,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "infrastructure",
+        "chunk_id": 5763732633223726983
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2922349607217582877,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "restriction",
+        "chunk_id": 5763732633223726983
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9057294679630854421,
+        "start": 1050998,
+        "end": 1051018,
+        "text": "increased workload",
+        "chunk_id": 5763732633223726983
+      }
+    ]
+  }
+]

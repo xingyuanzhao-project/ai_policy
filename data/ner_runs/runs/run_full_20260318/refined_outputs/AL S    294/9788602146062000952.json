@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1250724994998687386,
+    "source_group_id": 9788602146062000952,
+    "source_candidate_ids": [
+      8914851917371411568
+    ],
+    "entity": "insurer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "90 days",
+    "entity_evidence": [
+      {
+        "span_id": 5127538848053401041,
+        "start": 9821,
+        "end": 9831,
+        "text": "insurer",
+        "chunk_id": 2026924686559658014
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10276505493997533853,
+        "start": 9821,
+        "end": 9831,
+        "text": "insurer",
+        "chunk_id": 2026924686559658014
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16376961773575897699,
+        "start": 9821,
+        "end": 9831,
+        "text": "insurer",
+        "chunk_id": 2026924686559658014
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14271996127647948829,
+        "start": 9821,
+        "end": 9831,
+        "text": "insurer",
+        "chunk_id": 2026924686559658014
+      }
+    ]
+  }
+]

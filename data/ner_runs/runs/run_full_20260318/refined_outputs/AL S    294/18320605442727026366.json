@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10541214697058643367,
+    "source_group_id": 18320605442727026366,
+    "source_candidate_ids": [
+      13806547355711014854
+    ],
+    "entity": "health care professional",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "disproportionate or anomalous",
+    "entity_evidence": [
+      {
+        "span_id": 15674977694856506035,
+        "start": 12150,
+        "end": 12169,
+        "text": "s disproportionate or anomalous to the health care professional's historic rate of providing the health care service.",
+        "chunk_id": 10580596598084002005
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6915749293512696467,
+        "start": 12150,
+        "end": 12169,
+        "text": "s disproportionate or anomalous to the health care professional's historic rate of providing the health care service.",
+        "chunk_id": 10580596598084002005
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7749736435281452208,
+        "start": 12150,
+        "end": 12169,
+        "text": "s disproportionate or anomalous to the health care professional's historic rate of providing the health care service.",
+        "chunk_id": 10580596598084002005
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15031945604282550087,
+        "start": 12150,
+        "end": 12169,
+        "text": "s disproportionate or anomalous to the health care professional's historic rate of providing the health care service.",
+        "chunk_id": 10580596598084002005
+      }
+    ]
+  }
+]

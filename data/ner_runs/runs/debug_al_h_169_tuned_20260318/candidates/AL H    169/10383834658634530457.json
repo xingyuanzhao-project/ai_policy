@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16875169547831595633,
+    "entity": "Alabama Public Department of Social Services",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 6679764211373590819,
+        "start": 5214,
+        "end": 5234,
+        "text": "Alabama Public Department of Social Services",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6713876404168000590,
+        "start": 5214,
+        "end": 5234,
+        "text": "government agency",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6135325278416996257,
+        "start": 5214,
+        "end": 5234,
+        "text": "regulation",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16635119212440585402,
+        "start": 5214,
+        "end": 5234,
+        "text": "requirement",
+        "chunk_id": 10383834658634530457
+      }
+    ]
+  },
+  {
+    "candidate_id": 4048269745611882639,
+    "entity": "AIDT",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 11990981473903631378,
+        "start": 5214,
+        "end": 5214,
+        "text": "AIDT",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11235228824690451321,
+        "start": 5214,
+        "end": 5214,
+        "text": "government agency",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2107088580889501004,
+        "start": 5214,
+        "end": 5214,
+        "text": "regulation",
+        "chunk_id": 10383834658634530457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5887957509694865731,
+        "start": 5214,
+        "end": 5214,
+        "text": "requirement",
+        "chunk_id": 10383834658634530457
+      }
+    ]
+  }
+]

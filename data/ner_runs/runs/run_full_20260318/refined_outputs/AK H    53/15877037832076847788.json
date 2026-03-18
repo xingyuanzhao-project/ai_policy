@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 410336800731330733,
+    "source_group_id": 15877037832076847788,
+    "source_candidate_ids": [
+      5819565038623142354
+    ],
+    "entity": "University of Alaska",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "214,820,800",
+    "entity_evidence": [
+      {
+        "span_id": 17489367219833405538,
+        "start": 74403,
+        "end": 74403,
+        "text": "University of Alaska",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4853538471990006628,
+        "start": 74403,
+        "end": 74403,
+        "text": "University of Alaska",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1253041430886212666,
+        "start": 74403,
+        "end": 74403,
+        "text": "Federal Receipts",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16913634898951648809,
+        "start": 74403,
+        "end": 74403,
+        "text": "214,820,800",
+        "chunk_id": 682721320098783553
+      }
+    ]
+  }
+]

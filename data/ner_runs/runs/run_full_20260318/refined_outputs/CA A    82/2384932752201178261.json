@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4347795609906327353,
+    "source_group_id": 2384932752201178261,
+    "source_candidate_ids": [
+      14856641273462987002
+    ],
+    "entity": "CURES",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "not required to register",
+    "entity_evidence": [
+      {
+        "span_id": 5413450349856618479,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13974909610867809904,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7613422843826610806,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4263087899920572084,
+        "start": 41905,
+        "end": 41909,
+        "text": "CURES",
+        "chunk_id": 8608566358479150162
+      }
+    ]
+  }
+]

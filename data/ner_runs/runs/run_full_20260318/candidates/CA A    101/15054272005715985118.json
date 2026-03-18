@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2297616077779268808,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 14416727379165031081,
+        "start": 1654312,
+        "end": 1654332,
+        "text": "30 days after notification in writing to the chairpersons of the committees of each house of the Legislature",
+        "chunk_id": 15054272005715985118
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2027918489230969186,
+        "start": 1654312,
+        "end": 1654332,
+        "text": "the Department of Finance",
+        "chunk_id": 15054272005715985118
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17736593718381627944,
+        "start": 1654312,
+        "end": 1654332,
+        "text": "may take effect no sooner than 30 days",
+        "chunk_id": 15054272005715985118
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7139488366503073620,
+        "start": 1654312,
+        "end": 1654332,
+        "text": "30 days",
+        "chunk_id": 15054272005715985118
+      }
+    ]
+  },
+  {
+    "candidate_id": 1542674099885439938,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "December 31, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 6944463364232398843,
+        "start": 1654423,
+        "end": 1654443,
+        "text": "Funds must be expended by December 31, 2026",
+        "chunk_id": 15054272005715985118
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16086493509679005262,
+        "start": 1654423,
+        "end": 1654443,
+        "text": "the General Fund",
+        "chunk_id": 15054272005715985118
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5830839688444996569,
+        "start": 1654423,
+        "end": 1654443,
+        "text": "and any remaining funds shall revert to the General Fund",
+        "chunk_id": 15054272005715985118
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4376614190860500767,
+        "start": 1654423,
+        "end": 1654443,
+        "text": "December 31, 2026",
+        "chunk_id": 15054272005715985118
+      }
+    ]
+  }
+]

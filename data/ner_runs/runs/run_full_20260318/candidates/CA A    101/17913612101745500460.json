@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5852195267734755782,
+    "entity": "special education local plan areas",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "technical assistance",
+    "entity_evidence": [
+      {
+        "span_id": 245243146319428234,
+        "start": 1241385,
+        "end": 1241408,
+        "text": "special education local plan areas",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13118946605168621119,
+        "start": 1241385,
+        "end": 1241408,
+        "text": "special education local plan areas",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4126195630320366330,
+        "start": 1241385,
+        "end": 1241408,
+        "text": "special education local plan areas",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3387370337288715119,
+        "start": 1241385,
+        "end": 1241408,
+        "text": "special education local plan areas",
+        "chunk_id": 17913612101745500460
+      }
+    ]
+  },
+  {
+    "candidate_id": 17810958323962438624,
+    "entity": "Superintendent of Public Instruction",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "technical assistance",
+    "entity_evidence": [
+      {
+        "span_id": 12596915797323996727,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13961909104073336528,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18045777087949330025,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6769111222877516702,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ]
+  }
+]

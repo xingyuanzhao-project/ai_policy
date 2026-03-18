@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2724842865373994,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028, and for liquidation until June 30, 2031",
+    "entity_evidence": [
+      {
+        "span_id": 7951036686619047517,
+        "start": 524138,
+        "end": 524168,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1013888792451680974,
+        "start": 524138,
+        "end": 524168,
+        "text": "government agency",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11011348934141514146,
+        "start": 524168,
+        "end": 524188,
+        "text": "until June 30, 2028, and for liquidation until June 30, 2031",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16531525741175488575,
+        "start": 524168,
+        "end": 524188,
+        "text": "until June 30, 2028, and for liquidation until June 30, 2031",
+        "chunk_id": 9008275498411907504
+      }
+    ]
+  },
+  {
+    "candidate_id": 13991609061419526391,
+    "entity": "Forest Health Program",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "until June 30, 2028, and for liquidation until June 30, 2031",
+    "entity_evidence": [
+      {
+        "span_id": 9572855461265619291,
+        "start": 524168,
+        "end": 524188,
+        "text": "Forest Health Program",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8259831433363342951,
+        "start": 524168,
+        "end": 524188,
+        "text": "program",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 693471377563774605,
+        "start": 524168,
+        "end": 524188,
+        "text": "until June 30, 2028, and for liquidation until June 30, 2031",
+        "chunk_id": 9008275498411907504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7033141694507763585,
+        "start": 524168,
+        "end": 524188,
+        "text": "until June 30, 2028, and for liquidation until June 30, 2031",
+        "chunk_id": 9008275498411907504
+      }
+    ]
+  }
+]

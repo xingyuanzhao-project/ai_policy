@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10136658092231082220,
+    "source_group_id": 6593197797450652486,
+    "source_candidate_ids": [
+      4580268755136061331
+    ],
+    "entity": "California Justice Information Services",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "compliance",
+    "entity_evidence": [
+      {
+        "span_id": 1319198154588766658,
+        "start": 1105163,
+        "end": 1105184,
+        "text": "California Justice Information Services",
+        "chunk_id": 14658569099538387490
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8602411804809982645,
+        "start": 1105163,
+        "end": 1105184,
+        "text": "technology",
+        "chunk_id": 14658569099538387490
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5918264536113432770,
+        "start": 1105163,
+        "end": 1105184,
+        "text": "restriction",
+        "chunk_id": 14658569099538387490
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15984002996817587360,
+        "start": 1105163,
+        "end": 1105184,
+        "text": "compliance",
+        "chunk_id": 14658569099538387490
+      }
+    ]
+  }
+]

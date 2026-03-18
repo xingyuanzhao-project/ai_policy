@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18389290601268821588,
+    "source_group_id": 6869318795382856737,
+    "source_candidate_ids": [
+      6163971532059916256
+    ],
+    "entity": "Pine Grove Youth Conservation Camp",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "rehabilitation and life skills",
+    "entity_evidence": [
+      {
+        "span_id": 12383516514491477116,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15318109275895030216,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8492017304011635109,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15323474172829016306,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ]
+  }
+]

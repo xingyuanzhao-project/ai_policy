@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16574008411066028055,
+    "entity": "Department of Veterans Affairs",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "exempt from Chapter 615 of the Statutes of 2006",
+    "entity_evidence": [
+      {
+        "span_id": 17974572123505846807,
+        "start": 1691975,
+        "end": 1692004,
+        "text": "Department of Veterans Affairs",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3415877490102318950,
+        "start": 1691975,
+        "end": 1692004,
+        "text": "Department of Veterans Affairs",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17108484249597937036,
+        "start": 1692005,
+        "end": 1692025,
+        "text": "not required to comply",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5300198084610025278,
+        "start": 1692026,
+        "end": 1692047,
+        "text": "Chapter 615 of the Statutes of 2006",
+        "chunk_id": 11567772065770167286
+      }
+    ]
+  },
+  {
+    "candidate_id": 6471271197871310121,
+    "entity": "Veterans' Home of California",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "replacement of equipment and furnishings",
+    "entity_evidence": [
+      {
+        "span_id": 10637517872862945213,
+        "start": 1692060,
+        "end": 1692076,
+        "text": "Veterans' Home of California",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16715317741007176707,
+        "start": 1692060,
+        "end": 1692076,
+        "text": "Veterans' Home of California",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2810907851542475820,
+        "start": 1692077,
+        "end": 1692094,
+        "text": "replacement of equipment and furnishings",
+        "chunk_id": 11567772065770167286
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11777300954407310422,
+        "start": 1692077,
+        "end": 1692094,
+        "text": "replacement of equipment and furnishings",
+        "chunk_id": 11567772065770167286
+      }
+    ]
+  }
+]

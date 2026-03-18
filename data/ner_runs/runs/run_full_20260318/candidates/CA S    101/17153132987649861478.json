@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5827575127103367085,
+    "entity": "Department of Alcoholic Beverage Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 11932631377575936771,
+        "start": 273318,
+        "end": 273338,
+        "text": "Department of Alcoholic Beverage Control",
+        "chunk_id": 17153132987649861478
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16441872818123318681,
+        "start": 273318,
+        "end": 273338,
+        "text": "government agency",
+        "chunk_id": 17153132987649861478
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2839333958786791927,
+        "start": 273318,
+        "end": 273338,
+        "text": "restriction",
+        "chunk_id": 17153132987649861478
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8796900848158072067,
+        "start": 273318,
+        "end": 273338,
+        "text": "limited",
+        "chunk_id": 17153132987649861478
+      }
+    ]
+  },
+  {
+    "candidate_id": 3995485011316651032,
+    "entity": "Alcoholic Beverage Control Appeals Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "full",
+    "entity_evidence": [
+      {
+        "span_id": 8341268422129841224,
+        "start": 273429,
+        "end": 273450,
+        "text": "Alcoholic Beverage Control Appeals Board",
+        "chunk_id": 17153132987649861478
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13664760706427843681,
+        "start": 273429,
+        "end": 273450,
+        "text": "government agency",
+        "chunk_id": 17153132987649861478
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8614495098866429173,
+        "start": 273429,
+        "end": 273450,
+        "text": "promotion",
+        "chunk_id": 17153132987649861478
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15080622420786627549,
+        "start": 273429,
+        "end": 273450,
+        "text": "full",
+        "chunk_id": 17153132987649861478
+      }
+    ]
+  }
+]

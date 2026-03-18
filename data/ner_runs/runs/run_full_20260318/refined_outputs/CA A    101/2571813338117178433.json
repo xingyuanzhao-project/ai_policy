@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7707714202353306265,
+    "source_group_id": 2571813338117178433,
+    "source_candidate_ids": [
+      4725481806633166732
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notwithstanding any other law",
+    "entity_evidence": [
+      {
+        "span_id": 2681331726493835145,
+        "start": 1289102,
+        "end": 1289122,
+        "text": "State Department of Education",
+        "chunk_id": 448486558576438815
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7762838427406167705,
+        "start": 1289102,
+        "end": 1289122,
+        "text": "State Department of Education",
+        "chunk_id": 448486558576438815
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4739385221060131006,
+        "start": 1289124,
+        "end": 1289134,
+        "text": "notwithstanding any other law",
+        "chunk_id": 448486558576438815
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17637989177655718169,
+        "start": 1289124,
+        "end": 1289134,
+        "text": "notwithstanding any other law",
+        "chunk_id": 448486558576438815
+      }
+    ]
+  }
+]

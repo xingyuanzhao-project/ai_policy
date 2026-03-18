@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 538130687561736555,
+    "source_group_id": 6393797907599255424,
+    "source_candidate_ids": [
+      6148238133070971278
+    ],
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "56,750,000",
+    "entity_evidence": [
+      {
+        "span_id": 16696701731789452586,
+        "start": 593317,
+        "end": 593337,
+        "text": "For support of Department of Parks and Recreation",
+        "chunk_id": 10857284290950521228
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18302963596384518496,
+        "start": 593317,
+        "end": 593337,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 10857284290950521228
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14102100150422376024,
+        "start": 593317,
+        "end": 593337,
+        "text": "support",
+        "chunk_id": 10857284290950521228
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5335599475769948169,
+        "start": 593317,
+        "end": 593337,
+        "text": "56,750,000",
+        "chunk_id": 10857284290950521228
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 12691624616416079636,
+    "source_group_id": 11088555660750706052,
+    "source_candidate_ids": [
+      10882626230223141843,
+      9168887424680534936
+    ],
+    "entity": "algorithmic ranking system",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "input-transparent",
+    "entity_evidence": [
+      {
+        "span_id": 1806898406605338944,
+        "start": 23251,
+        "end": 23272,
+        "text": "Input-transparent algorithm",
+        "chunk_id": 9333848878240126372
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6552800107381423897,
+        "start": 23251,
+        "end": 23272,
+        "text": "algorithmic ranking system",
+        "chunk_id": 9333848878240126372
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4695207465628064712,
+        "start": 23251,
+        "end": 23272,
+        "text": "Input-transparent algorithm",
+        "chunk_id": 9333848878240126372
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15012487592039677386,
+        "start": 23251,
+        "end": 23272,
+        "text": "Input-transparent algorithm",
+        "chunk_id": 9333848878240126372
+      }
+    ]
+  }
+]

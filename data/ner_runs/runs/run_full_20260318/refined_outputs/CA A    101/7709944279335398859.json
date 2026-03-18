@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15888878788764035481,
+    "source_group_id": 7709944279335398859,
+    "source_candidate_ids": [
+      12570108480905933995
+    ],
+    "entity": "Riverside County Office of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "apportioned to the Riverside County Office of Education",
+    "entity_evidence": [
+      {
+        "span_id": 5402630194262317632,
+        "start": 1256593,
+        "end": 1256613,
+        "text": "Riverside County Office of Education",
+        "chunk_id": 12407066606366588628
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13760940291356919701,
+        "start": 1256593,
+        "end": 1256613,
+        "text": "government agency",
+        "chunk_id": 12407066606366588628
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13413228440011409007,
+        "start": 1256615,
+        "end": 1256625,
+        "text": "restriction",
+        "chunk_id": 12407066606366588628
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1009775017956677941,
+        "start": 1256626,
+        "end": 1256655,
+        "text": "apportioned to the Riverside County Office of Education",
+        "chunk_id": 12407066606366588628
+      }
+    ]
+  }
+]

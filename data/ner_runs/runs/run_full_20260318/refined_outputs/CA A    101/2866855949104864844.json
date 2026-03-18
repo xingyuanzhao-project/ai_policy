@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3352973639492342580,
+    "source_group_id": 2866855949104864844,
+    "source_candidate_ids": [
+      13528678972838429859
+    ],
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "through June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 11522767376155005747,
+        "start": 753592,
+        "end": 753620,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 17090195842819794880
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12727379465519253515,
+        "start": 753592,
+        "end": 753620,
+        "text": "government agency",
+        "chunk_id": 17090195842819794880
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18117836765147664543,
+        "start": 753592,
+        "end": 753620,
+        "text": "reappropriation",
+        "chunk_id": 17090195842819794880
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16402570724891100836,
+        "start": 753592,
+        "end": 753620,
+        "text": "through June 30, 2027",
+        "chunk_id": 17090195842819794880
+      }
+    ]
+  }
+]

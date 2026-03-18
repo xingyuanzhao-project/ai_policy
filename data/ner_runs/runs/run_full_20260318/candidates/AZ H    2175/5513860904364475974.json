@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7318584592161676885,
+    "entity": "Health Care Insurer",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "independent medical judgment",
+    "entity_evidence": [
+      {
+        "span_id": 3494981906586960006,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13004388515016864804,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10513797242719789317,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 824403159853604700,
+        "start": 134,
+        "end": 144,
+        "text": "independent medical judgment",
+        "chunk_id": 5513860904364475974
+      }
+    ]
+  },
+  {
+    "candidate_id": 13933605114719953022,
+    "entity": "Medical Director",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "independent medical judgment",
+    "entity_evidence": [
+      {
+        "span_id": 6591177023167336868,
+        "start": 161,
+        "end": 171,
+        "text": "Medical Director",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7813677973548466615,
+        "start": 161,
+        "end": 171,
+        "text": "Medical Director",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9886571685864971737,
+        "start": 161,
+        "end": 171,
+        "text": "Medical Director",
+        "chunk_id": 5513860904364475974
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14329225681463157902,
+        "start": 161,
+        "end": 171,
+        "text": "Medical Director",
+        "chunk_id": 5513860904364475974
+      }
+    ]
+  }
+]

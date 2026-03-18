@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12455639594491353215,
+    "source_group_id": 1061851992693502574,
+    "source_candidate_ids": [
+      13019078887076404514
+    ],
+    "entity": "Visual depiction",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "no restriction",
+    "entity_evidence": [
+      {
+        "span_id": 13412500583057093023,
+        "start": 15273,
+        "end": 15289,
+        "text": "Visual depiction",
+        "chunk_id": 437245123457097686
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14028966677356202262,
+        "start": 15273,
+        "end": 15289,
+        "text": "Visual depiction",
+        "chunk_id": 437245123457097686
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3088063202699204817,
+        "start": 15273,
+        "end": 15289,
+        "text": "Visual depiction",
+        "chunk_id": 437245123457097686
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16211720270051776625,
+        "start": 15273,
+        "end": 15289,
+        "text": "Visual depiction",
+        "chunk_id": 437245123457097686
+      }
+    ]
+  }
+]

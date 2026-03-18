@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13663588087185656064,
+    "entity": "California Environmental Protection Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5722002662040395735,
+        "start": 673190,
+        "end": 673224,
+        "text": "California Environmental Protection Agency",
+        "chunk_id": 17731163218169865608
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1819080467367396828,
+        "start": 673190,
+        "end": 673224,
+        "text": "government agency",
+        "chunk_id": 17731163218169865608
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15557043671936899381,
+        "start": 673190,
+        "end": 673224,
+        "text": "restriction",
+        "chunk_id": 17731163218169865608
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9839770320081696969,
+        "start": 673190,
+        "end": 673224,
+        "text": "limited",
+        "chunk_id": 17731163218169865608
+      }
+    ]
+  },
+  {
+    "candidate_id": 2974761890918552179,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "through June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 11738136020862908377,
+        "start": 673190,
+        "end": 673221,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 17731163218169865608
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5999553920893594972,
+        "start": 673190,
+        "end": 673221,
+        "text": "government agency",
+        "chunk_id": 17731163218169865608
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2892896654629787396,
+        "start": 673190,
+        "end": 673221,
+        "text": "reappropriation",
+        "chunk_id": 17731163218169865608
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 20021421327919100,
+        "start": 673190,
+        "end": 673221,
+        "text": "through June 30, 2027",
+        "chunk_id": 17731163218169865608
+      }
+    ]
+  }
+]

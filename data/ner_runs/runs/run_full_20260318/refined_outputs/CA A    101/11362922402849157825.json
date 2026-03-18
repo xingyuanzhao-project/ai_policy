@@ -1,0 +1,51 @@
+[
+  {
+    "refined_id": 11376397826649764147,
+    "source_group_id": 11362922402849157825,
+    "source_candidate_ids": [
+      2437714432514092333,
+      6604892743647757791,
+      18311773381455724097
+    ],
+    "entity": "Secretary of the Natural Resources Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 14785020351859268042,
+        "start": 105135,
+        "end": 105155,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7521586795391783988,
+        "start": 105135,
+        "end": 105155,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6476365711912785836,
+        "start": 105135,
+        "end": 105155,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 528612681310739612,
+        "start": 105135,
+        "end": 105155,
+        "text": "until June 30, 2028",
+        "chunk_id": 16519069472987636878
+      }
+    ]
+  }
+]

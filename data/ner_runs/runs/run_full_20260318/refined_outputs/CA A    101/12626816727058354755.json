@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3381501514089256970,
+    "source_group_id": 12626816727058354755,
+    "source_candidate_ids": [
+      16643046452922611854
+    ],
+    "entity": "Safe and Affordable Drinking Water Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exclusion from calculation",
+    "entity_evidence": [
+      {
+        "span_id": 1544706131251010178,
+        "start": 1829113,
+        "end": 1829133,
+        "text": "Safe and Affordable Drinking Water Fund",
+        "chunk_id": 6371140058715756748
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17233561845214575476,
+        "start": 1829113,
+        "end": 1829133,
+        "text": "Safe and Affordable Drinking Water Fund",
+        "chunk_id": 6371140058715756748
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8660472873358000196,
+        "start": 1829134,
+        "end": 1829154,
+        "text": "exclusion from calculation",
+        "chunk_id": 6371140058715756748
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2136706381178052830,
+        "start": 1829134,
+        "end": 1829154,
+        "text": "exclusion from calculation",
+        "chunk_id": 6371140058715756748
+      }
+    ]
+  }
+]

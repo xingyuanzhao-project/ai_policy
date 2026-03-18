@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 145299464017843585,
+    "entity": "California Ports Infrastructure, Security, and Air Quality Improvement Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "previously authorized",
+    "entity_evidence": [
+      {
+        "span_id": 2983416185342813132,
+        "start": 624688,
+        "end": 624728,
+        "text": "California Ports Infrastructure, Security, and Air Quality Improvement Account, Highway Safety, Traffic Reduction, Air Quality, and Port Security Fund of 2006",
+        "chunk_id": 13159768033627120942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4334495629965126475,
+        "start": 624688,
+        "end": 624728,
+        "text": "infrastructure",
+        "chunk_id": 13159768033627120942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3120429745819223017,
+        "start": 624688,
+        "end": 624728,
+        "text": "previously authorized",
+        "chunk_id": 13159768033627120942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13484066920032799382,
+        "start": 624688,
+        "end": 624728,
+        "text": "previously authorized",
+        "chunk_id": 13159768033627120942
+      }
+    ]
+  },
+  {
+    "candidate_id": 382826413780147145,
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "administering incentive programs",
+    "entity_evidence": [
+      {
+        "span_id": 7761232259756899,
+        "start": 624473,
+        "end": 624503,
+        "text": "3900-491--Reappropriation, State Air Resources Board",
+        "chunk_id": 13159768033627120942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16047470010897698079,
+        "start": 624473,
+        "end": 624503,
+        "text": "government agency",
+        "chunk_id": 13159768033627120942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7466316671047376922,
+        "start": 624473,
+        "end": 624503,
+        "text": "administering incentive programs",
+        "chunk_id": 13159768033627120942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8690022189179796793,
+        "start": 624473,
+        "end": 624503,
+        "text": "administering incentive programs",
+        "chunk_id": 13159768033627120942
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7296878304771982537,
+    "entity": "CURES",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 14127642929773125944,
+        "start": 47164,
+        "end": 47168,
+        "text": "CURES",
+        "chunk_id": 5992690922257858127
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10823086053480826606,
+        "start": 47164,
+        "end": 47168,
+        "text": "CURES",
+        "chunk_id": 5992690922257858127
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17005421108901700040,
+        "start": 47164,
+        "end": 47168,
+        "text": "CURES",
+        "chunk_id": 5992690922257858127
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17880468219544689739,
+        "start": 47164,
+        "end": 47168,
+        "text": "CURES",
+        "chunk_id": 5992690922257858127
+      }
+    ]
+  },
+  {
+    "candidate_id": 2008846391331852934,
+    "entity": "health care practitioner",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 10907331845085471202,
+        "start": 47287,
+        "end": 47303,
+        "text": "health care practitioner",
+        "chunk_id": 5992690922257858127
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3575087185232454638,
+        "start": 47287,
+        "end": 47303,
+        "text": "health care practitioner",
+        "chunk_id": 5992690922257858127
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5321441996773525488,
+        "start": 47287,
+        "end": 47303,
+        "text": "health care practitioner",
+        "chunk_id": 5992690922257858127
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11206372523611581842,
+        "start": 47287,
+        "end": 47303,
+        "text": "health care practitioner",
+        "chunk_id": 5992690922257858127
+      }
+    ]
+  }
+]

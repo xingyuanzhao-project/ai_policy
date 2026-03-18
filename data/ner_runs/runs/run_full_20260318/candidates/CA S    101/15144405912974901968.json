@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9062011032180194777,
+    "entity": "California Regional Water Quality Control Board, San Diego Region",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "Order No. R9-2009-0002",
+    "entity_evidence": [
+      {
+        "span_id": 939726309454838337,
+        "start": 1566622,
+        "end": 1566669,
+        "text": "California Regional Water Quality Control Board, San Diego Region",
+        "chunk_id": 15144405912974901968
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14893127729115656022,
+        "start": 1566670,
+        "end": 1566685,
+        "text": "government agency",
+        "chunk_id": 15144405912974901968
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2172034591350308368,
+        "start": 1566686,
+        "end": 1566696,
+        "text": "regulation",
+        "chunk_id": 15144405912974901968
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5413566343623683974,
+        "start": 1566697,
+        "end": 1566715,
+        "text": "Order No. R9-2009-0002",
+        "chunk_id": 15144405912974901968
+      }
+    ]
+  },
+  {
+    "candidate_id": 9902409751900827016,
+    "entity": "California Regional Water Quality Control Board, Santa Ana Region",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "Order No. R8-2009-0030",
+    "entity_evidence": [
+      {
+        "span_id": 17339526696096544676,
+        "start": 1566716,
+        "end": 1566745,
+        "text": "California Regional Water Quality Control Board, Santa Ana Region",
+        "chunk_id": 15144405912974901968
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5477603303915195689,
+        "start": 1566746,
+        "end": 1566761,
+        "text": "government agency",
+        "chunk_id": 15144405912974901968
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14713464281078869180,
+        "start": 1566762,
+        "end": 1566772,
+        "text": "regulation",
+        "chunk_id": 15144405912974901968
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11073638527238510235,
+        "start": 1566773,
+        "end": 1566791,
+        "text": "Order No. R8-2009-0030",
+        "chunk_id": 15144405912974901968
+      }
+    ]
+  }
+]

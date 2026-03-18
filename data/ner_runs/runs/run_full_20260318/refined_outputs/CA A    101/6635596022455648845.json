@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13711412790749636018,
+    "source_group_id": 6635596022455648845,
+    "source_candidate_ids": [
+      12428877419172389460
+    ],
+    "entity": "State Emergency Telephone Number Account",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17844627177731745481,
+        "start": 506541,
+        "end": 506571,
+        "text": "State Emergency Telephone Number Account",
+        "chunk_id": 10352949579466717567
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12171476323664678792,
+        "start": 506541,
+        "end": 506571,
+        "text": "infrastructure",
+        "chunk_id": 10352949579466717567
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12854523551792376739,
+        "start": 506541,
+        "end": 506571,
+        "text": "restriction",
+        "chunk_id": 10352949579466717567
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16049760234378575435,
+        "start": 506541,
+        "end": 506571,
+        "text": "limited",
+        "chunk_id": 10352949579466717567
+      }
+    ]
+  }
+]

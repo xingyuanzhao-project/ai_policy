@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5619607768383810450,
+    "entity": "California Conservation Corps",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 2851492483046969541,
+        "start": 455255,
+        "end": 455275,
+        "text": "until June 30, 2028",
+        "chunk_id": 7526592518232108494
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5216977853701898598,
+        "start": 455255,
+        "end": 455275,
+        "text": "until June 30, 2028",
+        "chunk_id": 7526592518232108494
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11520746624220400144,
+        "start": 455255,
+        "end": 455275,
+        "text": "until June 30, 2028",
+        "chunk_id": 7526592518232108494
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16658071611166784470,
+        "start": 455255,
+        "end": 455275,
+        "text": "until June 30, 2028",
+        "chunk_id": 7526592518232108494
+      }
+    ]
+  },
+  {
+    "candidate_id": 8130573646238882555,
+    "entity": "California Conservation Corps",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 9487622833593678439,
+        "start": 455355,
+        "end": 455375,
+        "text": "until June 30, 2027",
+        "chunk_id": 7526592518232108494
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14728381927253715716,
+        "start": 455355,
+        "end": 455375,
+        "text": "until June 30, 2027",
+        "chunk_id": 7526592518232108494
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5374892080741897497,
+        "start": 455355,
+        "end": 455375,
+        "text": "until June 30, 2027",
+        "chunk_id": 7526592518232108494
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 598062773436222661,
+        "start": 455355,
+        "end": 455375,
+        "text": "until June 30, 2027",
+        "chunk_id": 7526592518232108494
+      }
+    ]
+  }
+]

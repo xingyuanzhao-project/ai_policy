@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1559886364680595170,
+    "entity": "Riverside County Office of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority of no greater than $10,440,000",
+    "entity_evidence": [
+      {
+        "span_id": 1068861939013752739,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "Riverside County Office of Education",
+        "chunk_id": 16483743235646729882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8185797002963062329,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "government agency",
+        "chunk_id": 16483743235646729882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13922806829492999597,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "restriction",
+        "chunk_id": 16483743235646729882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17386675168012340377,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "expenditure authority of no greater than $10,440,000",
+        "chunk_id": 16483743235646729882
+      }
+    ]
+  },
+  {
+    "candidate_id": 3658932662094819008,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority of no greater than $10,440,000",
+    "entity_evidence": [
+      {
+        "span_id": 10478637414214261476,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "State Department of Education",
+        "chunk_id": 16483743235646729882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15499854845890162650,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "government agency",
+        "chunk_id": 16483743235646729882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13512626433304072094,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "restriction",
+        "chunk_id": 16483743235646729882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16355069819927714528,
+        "start": 1162485,
+        "end": 1162505,
+        "text": "expenditure authority of no greater than $10,440,000",
+        "chunk_id": 16483743235646729882
+      }
+    ]
+  }
+]

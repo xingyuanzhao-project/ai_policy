@@ -1,0 +1,205 @@
+Country of developer,Country of developer_label,Country of provider,Country of provider_label,is_open_source,quality_index,ref_date,type
+USA,United States,ALL,-- All countries --,All,0.2720000000000001,2023-01-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.2914285714285715,2023-02-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3370588235294118,2023-03-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3370588235294118,2023-04-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3370588235294118,2023-05-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3733333333333333,2023-06-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3818181818181818,2023-07-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4075,2023-08-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4075,2023-09-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3821739130434782,2023-10-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3933333333333333,2023-11-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3944,2023-12-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.3794285714285714,2024-01-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4158823529411765,2024-02-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.422909090909091,2024-03-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4368055555555555,2024-04-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4429999999999999,2024-05-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4658000000000003,2024-06-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4699459459459464,2024-07-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.4937209302325587,2024-08-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.5111832061068706,2024-09-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.5054314720812192,2024-10-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.5161842105263166,2024-11-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.517124352331607,2024-12-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.5262531017369733,2025-01-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.5273267326732679,2025-02-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.5319211822660105,2025-03-01,Text-to-text
+USA,United States,ALL,-- All countries --,All,0.5351225490196085,2025-04-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2023-07-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2023-08-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2023-09-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2023-10-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2023-11-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2023-12-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2024-01-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2024-02-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.47,2024-03-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.49,2024-04-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4859999999999999,2024-05-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4859999999999999,2024-06-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.487142857142857,2024-07-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.487142857142857,2024-08-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4892307692307692,2024-09-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.49,2024-10-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4846153846153846,2024-11-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4846153846153846,2024-12-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4846153846153846,2025-01-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4846153846153846,2025-02-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4846153846153846,2025-03-01,Text-to-text
+CAN,Canada,ALL,-- All countries --,All,0.4846153846153846,2025-04-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,,2023-06-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,,2023-07-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,,2023-08-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,,2023-09-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,,2023-10-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,,2023-11-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.51,2023-12-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.51,2024-01-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.51,2024-02-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.51,2024-03-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.51,2024-04-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,,2024-05-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.5189999999999999,2024-06-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.5809090909090909,2024-07-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.589090909090909,2024-08-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.5841176470588236,2024-09-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.5618181818181818,2024-10-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.572391304347826,2024-11-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.5727659574468085,2024-12-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.6111428571428572,2025-01-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.6215789473684211,2025-02-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.6265168539325845,2025-03-01,Text-to-text
+CHN,China (People's Republic of),ALL,-- All countries --,All,0.6327368421052634,2025-04-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-02-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-03-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-04-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-05-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-06-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-07-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-08-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-09-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-10-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,,2023-11-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.492,2023-12-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.492,2024-01-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.475,2024-02-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4624999999999999,2024-03-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4774999999999999,2024-04-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.48,2024-05-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4704,2024-06-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4790000000000001,2024-07-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4953125,2024-08-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.5047222222222223,2024-09-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4844827586206893,2024-10-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4874137931034479,2024-11-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4874137931034479,2024-12-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4921052631578944,2025-01-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4932758620689652,2025-02-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4939999999999997,2025-03-01,Text-to-text
+FRA,France,ALL,-- All countries --,All,0.4944444444444442,2025-04-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2023-07-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-02-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-03-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-04-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-05-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-06-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-07-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-08-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-09-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-10-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-11-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2024-12-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2025-01-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2025-02-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2025-03-01,Text-to-text
+ARE,United Arab Emirates,ALL,-- All countries --,All,0.41,2025-04-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-03-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-04-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-05-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-06-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-07-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-08-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-09-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-10-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-11-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2023-12-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2024-01-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2024-02-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2024-03-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2024-04-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2024-05-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,,2024-06-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.42,2024-07-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.4633333333333333,2024-08-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5145454545454545,2024-09-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5199999999999999,2024-10-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5199999999999999,2024-11-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5199999999999999,2024-12-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5199999999999999,2025-01-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5199999999999999,2025-02-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5145454545454545,2025-03-01,Text-to-text
+ISR,Israel,ALL,-- All countries --,All,0.5145454545454545,2025-04-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,,2024-06-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,,2024-07-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,,2024-08-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.51,2024-09-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.52,2024-10-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.51,2024-11-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.51,2024-12-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.51,2025-01-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.51,2025-02-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.51,2025-03-01,Text-to-text
+KOR,Korea,ALL,-- All countries --,All,0.51,2025-04-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-02-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-03-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-04-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-05-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-06-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2023-07-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-07-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-08-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-09-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-10-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-11-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2023-12-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-01-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-02-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-03-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-04-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-05-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-05-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-06-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-06-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2024-06-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2024-07-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-07-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-07-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-08-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-08-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2024-08-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-09-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-09-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2024-09-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-10-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-10-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2024-10-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2024-11-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-11-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-11-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2024-12-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2024-12-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2024-12-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2025-01-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2025-01-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2025-01-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2025-02-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2025-02-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2025-02-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2025-03-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2025-03-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2025-03-01,Text-to-text
+JPN,Japan,ALL,-- All countries --,All,,2025-04-01,Text-to-text
+GBR,United Kingdom,ALL,-- All countries --,All,,2025-04-01,Text-to-text
+DEU,Germany,ALL,-- All countries --,All,,2025-04-01,Text-to-text

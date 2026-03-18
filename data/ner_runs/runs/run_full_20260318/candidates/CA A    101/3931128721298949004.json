@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 941631561939191916,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "liquidation",
+    "value": "until June 30, 2033",
+    "entity_evidence": [
+      {
+        "span_id": 3272644878939619963,
+        "start": 463218,
+        "end": 463238,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 3931128721298949004
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8283308051839774124,
+        "start": 463218,
+        "end": 463238,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 3931128721298949004
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16485200250067856921,
+        "start": 463218,
+        "end": 463238,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 3931128721298949004
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14086534290107469053,
+        "start": 463218,
+        "end": 463238,
+        "text": "until June 30, 2033",
+        "chunk_id": 3931128721298949004
+      }
+    ]
+  },
+  {
+    "candidate_id": 5266451432894480747,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "encumbrance or expenditure",
+    "value": "until June 30, 2029",
+    "entity_evidence": [
+      {
+        "span_id": 14930008946526744438,
+        "start": 463218,
+        "end": 463238,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 3931128721298949004
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18001493283554334866,
+        "start": 463218,
+        "end": 463238,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 3931128721298949004
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11416412779146600848,
+        "start": 463218,
+        "end": 463238,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 3931128721298949004
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7930154163523654131,
+        "start": 463218,
+        "end": 463238,
+        "text": "until June 30, 2029",
+        "chunk_id": 3931128721298949004
+      }
+    ]
+  }
+]

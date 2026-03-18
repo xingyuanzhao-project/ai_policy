@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18077106795136677120,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 2937127601287660109,
+        "start": 121685,
+        "end": 121709,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 12062798143524463495
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15063823685282865492,
+        "start": 121685,
+        "end": 121709,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 12062798143524463495
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7311581206562872525,
+        "start": 121685,
+        "end": 121709,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 12062798143524463495
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2427865926985155755,
+        "start": 121685,
+        "end": 121709,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 12062798143524463495
+      }
+    ]
+  },
+  {
+    "candidate_id": 9452392696130498693,
+    "entity": "Next Generation 9-1-1 system",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 8939369132221610921,
+        "start": 121685,
+        "end": 121709,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 12062798143524463495
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4722058293725611776,
+        "start": 121685,
+        "end": 121709,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 12062798143524463495
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2074127049683970234,
+        "start": 121685,
+        "end": 121709,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 12062798143524463495
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9548656195717123196,
+        "start": 121685,
+        "end": 121709,
+        "text": "Next Generation 9-1-1 system",
+        "chunk_id": 12062798143524463495
+      }
+    ]
+  }
+]

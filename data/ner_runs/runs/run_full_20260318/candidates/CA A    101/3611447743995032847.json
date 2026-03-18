@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13788441388175397508,
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to the provisions of subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 14074378752983017745,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "California Workforce Development Board",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10852975347448778226,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "government agency",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 318595779805881319,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "restriction",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11995962986327912163,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "subject to the provisions of subdivision (b) of Section 15.14",
+        "chunk_id": 3611447743995032847
+      }
+    ]
+  },
+  {
+    "candidate_id": 1644427812835487572,
+    "entity": "federal Workforce Innovation and Opportunity Act (WIOA)",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "consistent with the expenditure plan for WIOA discretionary funds",
+    "entity_evidence": [
+      {
+        "span_id": 4355072457899730511,
+        "start": 1492195,
+        "end": 1492225,
+        "text": "federal Workforce Innovation and Opportunity Act (WIOA)",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3737107262502697532,
+        "start": 1492195,
+        "end": 1492225,
+        "text": "technology",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7532665792506797873,
+        "start": 1492195,
+        "end": 1492225,
+        "text": "restriction",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17751406903169968808,
+        "start": 1492195,
+        "end": 1492225,
+        "text": "consistent with the expenditure plan for WIOA discretionary funds",
+        "chunk_id": 3611447743995032847
+      }
+    ]
+  }
+]

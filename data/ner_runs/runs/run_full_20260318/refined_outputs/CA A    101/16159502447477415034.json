@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6369989879188058876,
+    "source_group_id": 16159502447477415034,
+    "source_candidate_ids": [
+      5918537450106292788
+    ],
+    "entity": "California Tahoe Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 7473086194989264225,
+        "start": 444811,
+        "end": 444835,
+        "text": "California Tahoe Conservancy",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8440625942636420150,
+        "start": 444811,
+        "end": 444835,
+        "text": "government agency",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4085471525557807546,
+        "start": 444811,
+        "end": 444835,
+        "text": "restriction",
+        "chunk_id": 11411499879689671112
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16967927789140007367,
+        "start": 444811,
+        "end": 444835,
+        "text": "until June 30, 2028",
+        "chunk_id": 11411499879689671112
+      }
+    ]
+  }
+]

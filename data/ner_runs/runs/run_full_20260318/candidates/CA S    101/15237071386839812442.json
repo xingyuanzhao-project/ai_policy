@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11681306142146116422,
+    "entity": "California Coastal Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to provisions of subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 2302138806428628088,
+        "start": 528981,
+        "end": 529001,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 15237071386839812442
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16224735326401097860,
+        "start": 528981,
+        "end": 529001,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 15237071386839812442
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 420611853035619268,
+        "start": 528981,
+        "end": 529001,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 15237071386839812442
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9885039859594025567,
+        "start": 528981,
+        "end": 529001,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 15237071386839812442
+      }
+    ]
+  },
+  {
+    "candidate_id": 1528980468640949682,
+    "entity": "California Environmental License Plate Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support of California Coastal Commission",
+    "entity_evidence": [
+      {
+        "span_id": 11643015859691504892,
+        "start": 529092,
+        "end": 529112,
+        "text": "payable from the California Beach and Coastal Enhancement Account, California Environmental License Plate Fund",
+        "chunk_id": 15237071386839812442
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17219890365025295162,
+        "start": 529092,
+        "end": 529112,
+        "text": "payable from the California Beach and Coastal Enhancement Account, California Environmental License Plate Fund",
+        "chunk_id": 15237071386839812442
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10368754982069955706,
+        "start": 529092,
+        "end": 529112,
+        "text": "payable from the California Beach and Coastal Enhancement Account, California Environmental License Plate Fund",
+        "chunk_id": 15237071386839812442
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15357654556303600864,
+        "start": 529092,
+        "end": 529112,
+        "text": "payable from the California Beach and Coastal Enhancement Account, California Environmental License Plate Fund",
+        "chunk_id": 15237071386839812442
+      }
+    ]
+  }
+]

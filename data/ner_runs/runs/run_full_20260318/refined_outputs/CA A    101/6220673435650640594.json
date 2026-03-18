@@ -1,0 +1,33 @@
+[
+  {
+    "refined_id": 10129980306422314280,
+    "source_group_id": 6220673435650640594,
+    "source_candidate_ids": [
+      16591869232590241592
+    ],
+    "entity": "local entities",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandated reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 16885593392603025217,
+        "start": 1674942,
+        "end": 1674952,
+        "text": "local entities",
+        "chunk_id": 10375143553597860419
+      }
+    ],
+    "type_evidence": [],
+    "attribute_evidence": [],
+    "value_evidence": [
+      {
+        "span_id": 11094659344410828835,
+        "start": 1674942,
+        "end": 1674952,
+        "text": "local entities",
+        "chunk_id": 10375143553597860419
+      }
+    ]
+  }
+]

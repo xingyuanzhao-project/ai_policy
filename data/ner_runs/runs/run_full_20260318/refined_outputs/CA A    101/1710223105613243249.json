@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7969954158903908284,
+    "source_group_id": 1710223105613243249,
+    "source_candidate_ids": [
+      1385540348432608382
+    ],
+    "entity": "Fair Political Practices Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual reporting",
+    "entity_evidence": [
+      {
+        "span_id": 3239997479126862241,
+        "start": 1634304,
+        "end": 1634325,
+        "text": "the Fair Political Practices Commission",
+        "chunk_id": 13369100879365383096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3856098289749742439,
+        "start": 1634304,
+        "end": 1634325,
+        "text": "the Fair Political Practices Commission",
+        "chunk_id": 13369100879365383096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5902277925659143192,
+        "start": 1634304,
+        "end": 1634325,
+        "text": "the Fair Political Practices Commission",
+        "chunk_id": 13369100879365383096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11046679962954980213,
+        "start": 1634304,
+        "end": 1634325,
+        "text": "the Fair Political Practices Commission",
+        "chunk_id": 13369100879365383096
+      }
+    ]
+  }
+]

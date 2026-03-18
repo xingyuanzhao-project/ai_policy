@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16509066069200978010,
+    "source_group_id": 10016623340928293632,
+    "source_candidate_ids": [
+      11418448674763267604
+    ],
+    "entity": "Public Utilities Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 1165393200824323535,
+        "start": 1642924,
+        "end": 1642958,
+        "text": "Public Utilities Commission",
+        "chunk_id": 8956000334627635904
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12820565141619964535,
+        "start": 1642924,
+        "end": 1642958,
+        "text": "Public Utilities Commission",
+        "chunk_id": 8956000334627635904
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4071583174026406925,
+        "start": 1642958,
+        "end": 1642964,
+        "text": "shall be available for encumbrance or expenditure",
+        "chunk_id": 8956000334627635904
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10404347633438882401,
+        "start": 1642964,
+        "end": 1642982,
+        "text": "until June 30, 2027",
+        "chunk_id": 8956000334627635904
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14458807004755750705,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 5122994941109447148,
+        "start": 542202,
+        "end": 542222,
+        "text": "Support of the Department of Parks and Recreation",
+        "chunk_id": 18126330321627502769
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8836114492026874794,
+        "start": 542202,
+        "end": 542222,
+        "text": "Support of the Department of Parks and Recreation",
+        "chunk_id": 18126330321627502769
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16457649904386707613,
+        "start": 542202,
+        "end": 542222,
+        "text": "Support of the Department of Parks and Recreation",
+        "chunk_id": 18126330321627502769
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1788210903426525327,
+        "start": 542202,
+        "end": 542222,
+        "text": "Support of the Department of Parks and Recreation",
+        "chunk_id": 18126330321627502769
+      }
+    ]
+  },
+  {
+    "candidate_id": 1614856081937340437,
+    "entity": "State Parks and Recreation Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 707076569544397449,
+        "start": 542202,
+        "end": 542222,
+        "text": "State Parks and Recreation Fund",
+        "chunk_id": 18126330321627502769
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 531264920231743007,
+        "start": 542202,
+        "end": 542222,
+        "text": "State Parks and Recreation Fund",
+        "chunk_id": 18126330321627502769
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3380445479641841430,
+        "start": 542202,
+        "end": 542222,
+        "text": "State Parks and Recreation Fund",
+        "chunk_id": 18126330321627502769
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1451555224760090828,
+        "start": 542202,
+        "end": 542222,
+        "text": "State Parks and Recreation Fund",
+        "chunk_id": 18126330321627502769
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3708106080474352867,
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior consultation",
+    "entity_evidence": [
+      {
+        "span_id": 12442320784637846328,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5292933201302516065,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6637283377701156565,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6090937106708934498,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ]
+  },
+  {
+    "candidate_id": 16255472683215511014,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant funding",
+    "entity_evidence": [
+      {
+        "span_id": 8282151904821854354,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2840998775692518805,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15771327977334926374,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 50935959596166378,
+        "start": 313323,
+        "end": 313342,
+        "text": "Department of Transportation",
+        "chunk_id": 10306996456397304209
+      }
+    ]
+  }
+]

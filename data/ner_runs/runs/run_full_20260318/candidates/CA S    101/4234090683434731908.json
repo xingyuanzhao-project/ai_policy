@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3420699471480892559,
+    "entity": "Financial Information System for California",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 10981577391353781681,
+        "start": 1556069,
+        "end": 1556104,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 4234090683434731908
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12501455234001412063,
+        "start": 1556069,
+        "end": 1556104,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 4234090683434731908
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13186542609219227547,
+        "start": 1556069,
+        "end": 1556104,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 4234090683434731908
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11623392601465311940,
+        "start": 1556069,
+        "end": 1556104,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 4234090683434731908
+      }
+    ]
+  },
+  {
+    "candidate_id": 11758723820623985215,
+    "entity": "Commission on State Mandates",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "tolled",
+    "entity_evidence": [
+      {
+        "span_id": 11850638697748195301,
+        "start": 1556104,
+        "end": 1556134,
+        "text": "Commission on State Mandates",
+        "chunk_id": 4234090683434731908
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10696685453450148007,
+        "start": 1556104,
+        "end": 1556134,
+        "text": "Commission on State Mandates",
+        "chunk_id": 4234090683434731908
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17631478039917118528,
+        "start": 1556104,
+        "end": 1556134,
+        "text": "Commission on State Mandates",
+        "chunk_id": 4234090683434731908
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8492414118751542898,
+        "start": 1556104,
+        "end": 1556134,
+        "text": "Commission on State Mandates",
+        "chunk_id": 4234090683434731908
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15255318620329258293,
+    "entity": "Internet Crimes Against Children Task Forces",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 4578211925617971641,
+        "start": 152159,
+        "end": 152193,
+        "text": "shall be used to fund Internet Crimes Against Children Task Forces",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2942966671394047081,
+        "start": 152159,
+        "end": 152193,
+        "text": "shall be used to fund Internet Crimes Against Children Task Forces",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10246934037473690954,
+        "start": 152159,
+        "end": 152193,
+        "text": "shall be used to fund Internet Crimes Against Children Task Forces",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16934929348957265104,
+        "start": 152159,
+        "end": 152193,
+        "text": "shall be used to fund Internet Crimes Against Children Task Forces",
+        "chunk_id": 4362566473318884279
+      }
+    ]
+  },
+  {
+    "candidate_id": 7257000824922214205,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 14745199267225065583,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1747279266091701671,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4827761593595485437,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9862594067754386105,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ]
+  }
+]

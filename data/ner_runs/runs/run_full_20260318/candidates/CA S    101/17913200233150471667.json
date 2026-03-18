@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14583923279974650405,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Sections 6.00 and 31.00",
+    "entity_evidence": [
+      {
+        "span_id": 13819740578061907509,
+        "start": 1220903,
+        "end": 1220923,
+        "text": "University of California",
+        "chunk_id": 17913200233150471667
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13789149381004176359,
+        "start": 1220903,
+        "end": 1220923,
+        "text": "government agency",
+        "chunk_id": 17913200233150471667
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7777507503831894231,
+        "start": 1220903,
+        "end": 1220923,
+        "text": "restriction",
+        "chunk_id": 17913200233150471667
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17101101607073749164,
+        "start": 1220903,
+        "end": 1220923,
+        "text": "exempt from Sections 6.00 and 31.00",
+        "chunk_id": 17913200233150471667
+      }
+    ]
+  },
+  {
+    "candidate_id": 13448221280358826802,
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "reversion",
+    "value": "balances specified below",
+    "entity_evidence": [
+      {
+        "span_id": 8941847832493564221,
+        "start": 1220895,
+        "end": 1220915,
+        "text": "Commission on Teacher Credentialing",
+        "chunk_id": 17913200233150471667
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2737136509012304256,
+        "start": 1220895,
+        "end": 1220915,
+        "text": "government agency",
+        "chunk_id": 17913200233150471667
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7584029327057121298,
+        "start": 1220895,
+        "end": 1220915,
+        "text": "reversion",
+        "chunk_id": 17913200233150471667
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13748083113969692050,
+        "start": 1220895,
+        "end": 1220915,
+        "text": "balances specified below",
+        "chunk_id": 17913200233150471667
+      }
+    ]
+  }
+]

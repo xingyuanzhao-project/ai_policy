@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10407760430386007102,
+    "source_group_id": 8407756933156182361,
+    "source_candidate_ids": [
+      13984781942331982261
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 4315488169112459665,
+        "start": 1122592,
+        "end": 1122612,
+        "text": "State Department of Education",
+        "chunk_id": 2123912976156825228
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11659262080583958680,
+        "start": 1122592,
+        "end": 1122612,
+        "text": "government agency",
+        "chunk_id": 2123912976156825228
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 840120691109602932,
+        "start": 1122592,
+        "end": 1122612,
+        "text": "restriction",
+        "chunk_id": 2123912976156825228
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3175820484801788249,
+        "start": 1122592,
+        "end": 1122612,
+        "text": "prohibition on expenditure",
+        "chunk_id": 2123912976156825228
+      }
+    ]
+  }
+]

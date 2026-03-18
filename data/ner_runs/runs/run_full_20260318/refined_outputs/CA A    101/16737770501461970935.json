@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15486071148336023082,
+    "source_group_id": 16737770501461970935,
+    "source_candidate_ids": [
+      2252356390704247611
+    ],
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual report",
+    "entity_evidence": [
+      {
+        "span_id": 4631271026517883493,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12789371018696491616,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4005715363089039462,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13018519618172562045,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ]
+  }
+]

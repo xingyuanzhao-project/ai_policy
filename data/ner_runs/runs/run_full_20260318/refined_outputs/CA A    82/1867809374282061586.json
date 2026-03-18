@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8338320188703069455,
+    "source_group_id": 1867809374282061586,
+    "source_candidate_ids": [
+      15310620502334388308
+    ],
+    "entity": "law enforcement agent or entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 6574667943528670701,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14632349127213553199,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15980103474179208622,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11556212476559708652,
+        "start": 72300,
+        "end": 72324,
+        "text": "law enforcement agent or entity",
+        "chunk_id": 16548523930616552685
+      }
+    ]
+  }
+]

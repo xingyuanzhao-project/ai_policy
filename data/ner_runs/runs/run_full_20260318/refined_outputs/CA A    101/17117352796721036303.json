@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7964901952848830729,
+    "source_group_id": 17117352796721036303,
+    "source_candidate_ids": [
+      8568338690237699110
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 8149733753917074311,
+        "start": 1774464,
+        "end": 1774480,
+        "text": "The Director of Finance may adjust amounts in any appropriation item, or in any category thereof, as a result of changes from amounts budgeted for the employers' contributions for prefunding other postemployment benefits for the 2025-26 fiscal year to achieve the percentages specified in this subdivision.",
+        "chunk_id": 5014873146575683740
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7302268907509451615,
+        "start": 1774464,
+        "end": 1774480,
+        "text": "The Director of Finance may adjust amounts in any appropriation item, or in any category thereof, as a result of changes from amounts budgeted for the employers' contributions for prefunding other postemployment benefits for the 2025-26 fiscal year to achieve the percentages specified in this subdivision.",
+        "chunk_id": 5014873146575683740
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1411274604600084458,
+        "start": 1774464,
+        "end": 1774480,
+        "text": "The Director of Finance may adjust amounts in any appropriation item, or in any category thereof, as a result of changes from amounts budgeted for the employers' contributions for prefunding other postemployment benefits for the 2025-26 fiscal year to achieve the percentages specified in this subdivision.",
+        "chunk_id": 5014873146575683740
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16954143505133244543,
+        "start": 1774464,
+        "end": 1774480,
+        "text": "The Director of Finance may adjust amounts in any appropriation item, or in any category thereof, as a result of changes from amounts budgeted for the employers' contributions for prefunding other postemployment benefits for the 2025-26 fiscal year to achieve the percentages specified in this subdivision.",
+        "chunk_id": 5014873146575683740
+      }
+    ]
+  }
+]

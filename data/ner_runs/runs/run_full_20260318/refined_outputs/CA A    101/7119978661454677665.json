@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8286714064569782684,
+    "source_group_id": 7119978661454677665,
+    "source_candidate_ids": [
+      743723369844928297
+    ],
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "cost increases for pay, basic allowances for housing and subsistence, cost-of-living, and salary driven benefit adjustments",
+    "entity_evidence": [
+      {
+        "span_id": 11027678806797103627,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15513487419833324098,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11247181353703026288,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10313272748234166376,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10027577770206480535,
+    "entity": "High-Speed Rail Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific requirements for payment",
+    "entity_evidence": [
+      {
+        "span_id": 3787185839313862239,
+        "start": 395337,
+        "end": 395357,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 17171122113275837679
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12323552687374827819,
+        "start": 395337,
+        "end": 395357,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 17171122113275837679
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5882107896639842272,
+        "start": 396305,
+        "end": 396325,
+        "text": "ensure that all deliverables and services included in contracts between the authority and each of its contractors are completed to the level prescribed by the contract as a requirement for payment by the authority to the contractor",
+        "chunk_id": 17171122113275837679
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9942051760400203467,
+        "start": 396305,
+        "end": 396325,
+        "text": "requirement for payment by the authority to the contractor",
+        "chunk_id": 17171122113275837679
+      }
+    ]
+  },
+  {
+    "candidate_id": 6522950423292786183,
+    "entity": "High-Speed Rail Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific requirements for payment",
+    "entity_evidence": [
+      {
+        "span_id": 6386489193276723860,
+        "start": 395337,
+        "end": 395357,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 17171122113275837679
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15967268919786025816,
+        "start": 395337,
+        "end": 395357,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 17171122113275837679
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8556487498977469351,
+        "start": 396305,
+        "end": 396325,
+        "text": "ensure that all deliverables and services included in contracts between the authority and each of its contractors are completed to the level prescribed by the contract as a requirement for payment by the authority to the contractor",
+        "chunk_id": 17171122113275837679
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2553841917248912275,
+        "start": 396305,
+        "end": 396325,
+        "text": "requirement for payment by the authority to the contractor",
+        "chunk_id": 17171122113275837679
+      }
+    ]
+  }
+]

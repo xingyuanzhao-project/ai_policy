@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10766679123830039675,
+    "entity": "California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 16161797653545996863,
+        "start": 1871702,
+        "end": 1871711,
+        "text": "California",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7158529528025235237,
+        "start": 1871702,
+        "end": 1871715,
+        "text": "government agency",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8575734323342406545,
+        "start": 1871702,
+        "end": 1871711,
+        "text": "restriction",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11960779461045089821,
+        "start": 1871702,
+        "end": 1871710,
+        "text": "regulation",
+        "chunk_id": 15196003565319559393
+      }
+    ]
+  },
+  {
+    "candidate_id": 2426300924339902912,
+    "entity": "Los Angeles County",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 13969377893933677112,
+        "start": 1871702,
+        "end": 1871717,
+        "text": "Los Angeles County",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6730073620004430283,
+        "start": 1871702,
+        "end": 1871716,
+        "text": "infrastructure",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6151829754984222348,
+        "start": 1871702,
+        "end": 1871713,
+        "text": "restriction",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4123782888690390492,
+        "start": 1871702,
+        "end": 1871712,
+        "text": "regulation",
+        "chunk_id": 15196003565319559393
+      }
+    ]
+  }
+]

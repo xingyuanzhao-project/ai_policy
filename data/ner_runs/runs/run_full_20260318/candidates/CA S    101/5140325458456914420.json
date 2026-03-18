@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6857632722247264750,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on fee increase",
+    "entity_evidence": [
+      {
+        "span_id": 6630571150034212022,
+        "start": 754811,
+        "end": 754832,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 5140325458456914420
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2077385218596804634,
+        "start": 754811,
+        "end": 754832,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 5140325458456914420
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11773504879751740917,
+        "start": 754811,
+        "end": 754832,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 5140325458456914420
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3391656927042820136,
+        "start": 754811,
+        "end": 754832,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 5140325458456914420
+      }
+    ]
+  },
+  {
+    "candidate_id": 564555063447328295,
+    "entity": "Health Insurance Portability and Accountability Act",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "implementation",
+    "entity_evidence": [
+      {
+        "span_id": 511937300195099888,
+        "start": 754898,
+        "end": 754921,
+        "text": "Health Insurance Portability and Accountability Act",
+        "chunk_id": 5140325458456914420
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7858574607958498321,
+        "start": 754898,
+        "end": 754921,
+        "text": "Health Insurance Portability and Accountability Act",
+        "chunk_id": 5140325458456914420
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17546467604196131941,
+        "start": 754898,
+        "end": 754921,
+        "text": "Health Insurance Portability and Accountability Act",
+        "chunk_id": 5140325458456914420
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15281091267153585306,
+        "start": 754898,
+        "end": 754921,
+        "text": "Health Insurance Portability and Accountability Act",
+        "chunk_id": 5140325458456914420
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 579164617079532900,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 11320268023400774633,
+        "start": 511880,
+        "end": 511900,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 3867724496848689193
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7780997179899389700,
+        "start": 511880,
+        "end": 511900,
+        "text": "government agency",
+        "chunk_id": 3867724496848689193
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10200976217069193519,
+        "start": 511880,
+        "end": 511900,
+        "text": "restriction",
+        "chunk_id": 3867724496848689193
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7330771149916850042,
+        "start": 511880,
+        "end": 511900,
+        "text": "partial",
+        "chunk_id": 3867724496848689193
+      }
+    ]
+  },
+  {
+    "candidate_id": 3832833492080763165,
+    "entity": "Greenhouse Gas Reduction Fund",
+    "type": "infrastructure",
+    "attribute": "subsidy",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 17519023050384014025,
+        "start": 511900,
+        "end": 511920,
+        "text": "Greenhouse Gas Reduction Fund",
+        "chunk_id": 3867724496848689193
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4266580629284644224,
+        "start": 511900,
+        "end": 511920,
+        "text": "infrastructure",
+        "chunk_id": 3867724496848689193
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1678506948502591465,
+        "start": 511900,
+        "end": 511920,
+        "text": "subsidy",
+        "chunk_id": 3867724496848689193
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11429757457168198606,
+        "start": 511900,
+        "end": 511920,
+        "text": "partial",
+        "chunk_id": 3867724496848689193
+      }
+    ]
+  }
+]

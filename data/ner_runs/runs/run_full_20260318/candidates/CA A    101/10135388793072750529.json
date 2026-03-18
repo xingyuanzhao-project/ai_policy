@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2520608836172923630,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 15396032320006684545,
+        "start": 476208,
+        "end": 476247,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12823180665637919691,
+        "start": 476208,
+        "end": 476247,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14597777124375408379,
+        "start": 476208,
+        "end": 476247,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16905695117004339473,
+        "start": 476208,
+        "end": 476247,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ]
+  },
+  {
+    "candidate_id": 12117491554632818730,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 15302618928331384383,
+        "start": 476508,
+        "end": 476547,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1857276813593421539,
+        "start": 476508,
+        "end": 476547,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3363510096868835506,
+        "start": 476508,
+        "end": 476547,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4965488136420454773,
+        "start": 476508,
+        "end": 476547,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 10135388793072750529
+      }
+    ]
+  }
+]

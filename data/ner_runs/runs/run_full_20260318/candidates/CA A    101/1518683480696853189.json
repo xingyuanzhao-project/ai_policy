@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17377818750879042293,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "sole discretion",
+    "entity_evidence": [
+      {
+        "span_id": 2609666608931485542,
+        "start": 845260,
+        "end": 845280,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 1518683480696853189
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11396778230711436880,
+        "start": 845260,
+        "end": 845280,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 1518683480696853189
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4388116716634542501,
+        "start": 845260,
+        "end": 845280,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 1518683480696853189
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10741920183294431915,
+        "start": 845260,
+        "end": 845280,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 1518683480696853189
+      }
+    ]
+  },
+  {
+    "candidate_id": 6425804727416254756,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "adjustment",
+    "value": "any amount",
+    "entity_evidence": [
+      {
+        "span_id": 16533158918006623234,
+        "start": 845392,
+        "end": 845405,
+        "text": "Department of Finance",
+        "chunk_id": 1518683480696853189
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12304686361732407374,
+        "start": 845392,
+        "end": 845405,
+        "text": "Department of Finance",
+        "chunk_id": 1518683480696853189
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7548098341438566440,
+        "start": 845392,
+        "end": 845405,
+        "text": "Department of Finance",
+        "chunk_id": 1518683480696853189
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16276036553547891383,
+        "start": 845392,
+        "end": 845405,
+        "text": "Department of Finance",
+        "chunk_id": 1518683480696853189
+      }
+    ]
+  }
+]

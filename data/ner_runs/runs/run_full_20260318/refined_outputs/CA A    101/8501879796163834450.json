@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15359891229724194636,
+    "source_group_id": 8501879796163834450,
+    "source_candidate_ids": [
+      15850460333247107484
+    ],
+    "entity": "California Conservation Corps",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to provisions of subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 11977648272306331291,
+        "start": 452893,
+        "end": 452913,
+        "text": "California Conservation Corps",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10985506700385959498,
+        "start": 452893,
+        "end": 452913,
+        "text": "government agency",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14518188740889991198,
+        "start": 453793,
+        "end": 453813,
+        "text": "shall not be subject to the provisions of subdivision (b) of Section 15.14",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1967369955254200196,
+        "start": 453793,
+        "end": 453813,
+        "text": "not subject to provisions of subdivision (b) of Section 15.14",
+        "chunk_id": 5052945798752753487
+      }
+    ]
+  }
+]

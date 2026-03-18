@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 7792568274230173056,
+    "source_group_id": 12383491982029734417,
+    "source_candidate_ids": [
+      16405630137051213914,
+      511332727791513142
+    ],
+    "entity": "data center",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely large loads of electricity and water",
+    "entity_evidence": [
+      {
+        "span_id": 1109523204190690982,
+        "start": 134,
+        "end": 144,
+        "text": "large-format data centers",
+        "chunk_id": 4983950981727513802
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16103559085101349113,
+        "start": 134,
+        "end": 144,
+        "text": "data centers",
+        "chunk_id": 4983950981727513802
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7540133920417977089,
+        "start": 145,
+        "end": 155,
+        "text": "currently require extremely large loads of electricity and water",
+        "chunk_id": 4983950981727513802
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17185614356511015554,
+        "start": 145,
+        "end": 155,
+        "text": "extremely large loads of electricity and water",
+        "chunk_id": 4983950981727513802
+      }
+    ]
+  }
+]

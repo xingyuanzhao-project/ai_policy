@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16655818190969397173,
+    "entity": "California E-Bike Incentive Project",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 11571250973646781412,
+        "start": 626852,
+        "end": 626872,
+        "text": "California E-Bike Incentive Project",
+        "chunk_id": 4015102778915376403
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12857895830379975213,
+        "start": 626852,
+        "end": 626872,
+        "text": "technology",
+        "chunk_id": 4015102778915376403
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 749211193295609358,
+        "start": 626852,
+        "end": 626872,
+        "text": "promotion",
+        "chunk_id": 4015102778915376403
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3079931378870346249,
+        "start": 626852,
+        "end": 626872,
+        "text": "subsidy",
+        "chunk_id": 4015102778915376403
+      }
+    ]
+  },
+  {
+    "candidate_id": 7575301028148851890,
+    "entity": "Advanced Clean Cars II Zero-Emission Vehicle Regulation Tracking System",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "information technology costs",
+    "entity_evidence": [
+      {
+        "span_id": 14414829229826431446,
+        "start": 626963,
+        "end": 626984,
+        "text": "Advanced Clean Cars II Zero-Emission Vehicle Regulation Tracking System",
+        "chunk_id": 4015102778915376403
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12471225175084769547,
+        "start": 626963,
+        "end": 626984,
+        "text": "technology",
+        "chunk_id": 4015102778915376403
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14333094968665833492,
+        "start": 626963,
+        "end": 626984,
+        "text": "restriction",
+        "chunk_id": 4015102778915376403
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2773322785370606527,
+        "start": 626963,
+        "end": 626984,
+        "text": "information technology costs",
+        "chunk_id": 4015102778915376403
+      }
+    ]
+  }
+]

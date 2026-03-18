@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3162079591071417946,
+    "source_group_id": 434586784917891683,
+    "source_candidate_ids": [
+      2928545086444463177
+    ],
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 2911242244330321667,
+        "start": 1114654,
+        "end": 1114674,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 6501370228386502877
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13773851726515204470,
+        "start": 1114654,
+        "end": 1114674,
+        "text": "government agency",
+        "chunk_id": 6501370228386502877
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12041630691614503593,
+        "start": 1114654,
+        "end": 1114674,
+        "text": "restriction",
+        "chunk_id": 6501370228386502877
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6234871151453164678,
+        "start": 1114654,
+        "end": 1114674,
+        "text": "until June 30, 2026",
+        "chunk_id": 6501370228386502877
+      }
+    ]
+  }
+]

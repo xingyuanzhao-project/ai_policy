@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2192992356012826447,
+    "source_group_id": 11699406206867697831,
+    "source_candidate_ids": [
+      10207066814760824532
+    ],
+    "entity": "California Victim Compensation Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 5513366754581992239,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "California Victim Compensation Board",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5657171889137737154,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "government agency",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3938453098979223431,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "restriction",
+        "chunk_id": 7576050292396939370
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18175742452205794909,
+        "start": 1574880,
+        "end": 1574900,
+        "text": "partial",
+        "chunk_id": 7576050292396939370
+      }
+    ]
+  }
+]

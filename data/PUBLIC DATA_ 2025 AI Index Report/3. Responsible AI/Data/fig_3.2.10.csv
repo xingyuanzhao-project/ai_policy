@@ -1,0 +1,10 @@
+Model,Factuality Score
+o1-preview,61.70%
+o1-mini,62.00%
+gpt-4o-mini,71.00%
+claude-3.5-haiku-20241022,74.20%
+gpt-4o,78.80%
+claude-3.5-sonnet-20241022,79.40%
+gemini-1.5-pro-002,80.00%
+gemini-1.5-flash-002,82.90%
+gemini-2.0-flash-exp,83.60%

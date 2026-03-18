@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15369262619203995964,
+    "source_group_id": 8310268358082372049,
+    "source_candidate_ids": [
+      10613720351857130173
+    ],
+    "entity": "Unclaimed Property Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17394278649067006474,
+        "start": 201725,
+        "end": 201745,
+        "text": "Unclaimed Property Program",
+        "chunk_id": 17328667225499591321
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4925384047102684211,
+        "start": 201725,
+        "end": 201745,
+        "text": "infrastructure",
+        "chunk_id": 17328667225499591321
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17330053291855326320,
+        "start": 201725,
+        "end": 201745,
+        "text": "restriction",
+        "chunk_id": 17328667225499591321
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5523856547858502634,
+        "start": 201725,
+        "end": 201745,
+        "text": "limited",
+        "chunk_id": 17328667225499591321
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6453672284873697788,
+    "source_group_id": 5361138910431825511,
+    "source_candidate_ids": [
+      11909941537631978945
+    ],
+    "entity": "controller",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "compliance with requirements",
+    "entity_evidence": [
+      {
+        "span_id": 13349808961260930380,
+        "start": 49092,
+        "end": 49103,
+        "text": "the controller’s compliance with the requirements of this chapter",
+        "chunk_id": 1433448714760707756
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 135898653364319746,
+        "start": 49092,
+        "end": 49099,
+        "text": "controller",
+        "chunk_id": 1433448714760707756
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1742933254378177632,
+        "start": 49099,
+        "end": 49113,
+        "text": "compliance with the requirements",
+        "chunk_id": 1433448714760707756
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7753006092423232731,
+        "start": 49113,
+        "end": 49125,
+        "text": "the requirements of this chapter",
+        "chunk_id": 1433448714760707756
+      }
+    ]
+  }
+]

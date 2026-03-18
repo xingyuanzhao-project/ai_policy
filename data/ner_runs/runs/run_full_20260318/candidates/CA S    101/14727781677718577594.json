@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17932643522568904317,
+    "entity": "State Department of Developmental Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 16781836266185440782,
+        "start": 864863,
+        "end": 864896,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 14727781677718577594
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7267281616816836191,
+        "start": 864863,
+        "end": 864896,
+        "text": "government agency",
+        "chunk_id": 14727781677718577594
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12971248355775101265,
+        "start": 864863,
+        "end": 864896,
+        "text": "expenditures for the State Department of Developmental Services in excess of the amount appropriated",
+        "chunk_id": 14727781677718577594
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6903830816455315209,
+        "start": 864863,
+        "end": 864896,
+        "text": "excess of appropriation",
+        "chunk_id": 14727781677718577594
+      }
+    ]
+  },
+  {
+    "candidate_id": 7344486700858328142,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 14295675987244705166,
+        "start": 864863,
+        "end": 864896,
+        "text": "Department of Finance",
+        "chunk_id": 14727781677718577594
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4188570981750322081,
+        "start": 864863,
+        "end": 864896,
+        "text": "government agency",
+        "chunk_id": 14727781677718577594
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5999338661721555445,
+        "start": 864863,
+        "end": 864896,
+        "text": "expenditures for the State Department of Developmental Services in excess of the amount appropriated",
+        "chunk_id": 14727781677718577594
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15091774264298165024,
+        "start": 864863,
+        "end": 864896,
+        "text": "excess of appropriation",
+        "chunk_id": 14727781677718577594
+      }
+    ]
+  }
+]

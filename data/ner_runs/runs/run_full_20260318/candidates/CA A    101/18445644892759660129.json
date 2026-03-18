@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11313163094397327412,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "quarterly basis",
+    "entity_evidence": [
+      {
+        "span_id": 1915913479694197530,
+        "start": 1225863,
+        "end": 1225881,
+        "text": "The State Department of Education shall reimburse claims on a quarterly basis",
+        "chunk_id": 18445644892759660129
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9451040204714760457,
+        "start": 1225863,
+        "end": 1225881,
+        "text": "The State Department of Education shall reimburse claims on a quarterly basis",
+        "chunk_id": 18445644892759660129
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1293095684233674347,
+        "start": 1225863,
+        "end": 1225881,
+        "text": "The State Department of Education shall reimburse claims on a quarterly basis",
+        "chunk_id": 18445644892759660129
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3509098661193371722,
+        "start": 1225863,
+        "end": 1225881,
+        "text": "The State Department of Education shall reimburse claims on a quarterly basis",
+        "chunk_id": 18445644892759660129
+      }
+    ]
+  },
+  {
+    "candidate_id": 8320256098753915555,
+    "entity": "local educational agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "same rate",
+    "entity_evidence": [
+      {
+        "span_id": 1410859459324158090,
+        "start": 1225697,
+        "end": 1225719,
+        "text": "h local educational agency has fully claimed its respective adult education or ROC/Ps average daily attendance cap for the current year.",
+        "chunk_id": 18445644892759660129
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18175409751917267960,
+        "start": 1225697,
+        "end": 1225719,
+        "text": "h local educational agency has fully claimed its respective adult education or ROC/Ps average daily attendance cap for the current year.",
+        "chunk_id": 18445644892759660129
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17030643907250564803,
+        "start": 1225697,
+        "end": 1225719,
+        "text": "h local educational agency has fully claimed its respective adult education or ROC/Ps average daily attendance cap for the current year.",
+        "chunk_id": 18445644892759660129
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15064357856806089739,
+        "start": 1225697,
+        "end": 1225719,
+        "text": "h local educational agency has fully claimed its respective adult education or ROC/Ps average daily attendance cap for the current year.",
+        "chunk_id": 18445644892759660129
+      }
+    ]
+  }
+]

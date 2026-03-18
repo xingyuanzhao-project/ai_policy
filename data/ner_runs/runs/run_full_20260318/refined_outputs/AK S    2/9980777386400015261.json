@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15195982117550951263,
+    "source_group_id": 9980777386400015261,
+    "source_candidate_ids": [
+      15001984998337219055
+    ],
+    "entity": "deepfake",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 7629475026962638841,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16048092087338898325,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5421036224235241615,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11222137456322469036,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ]
+  }
+]

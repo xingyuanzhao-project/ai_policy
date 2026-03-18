@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17885576171605548813,
+    "entity": "Department of Conservation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 1744052423112476799,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8716657091060891178,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6769878999305161320,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2930468994811603334,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ]
+  },
+  {
+    "candidate_id": 3957738541241700432,
+    "entity": "Geologic Energy Management Division",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "pursuant to paragraph (2) of subdivision (a) of Section 3258 of the Public Resources Code",
+    "entity_evidence": [
+      {
+        "span_id": 993172254205474300,
+        "start": 493856,
+        "end": 493876,
+        "text": "Geologic Energy Management Division",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2325895805242545745,
+        "start": 493856,
+        "end": 493876,
+        "text": "Geologic Energy Management Division",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11596883974332998373,
+        "start": 493856,
+        "end": 493876,
+        "text": "pursuant to paragraph (2) of subdivision (a) of Section 3258 of the Public Resources Code",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2370681879299292202,
+        "start": 493856,
+        "end": 493876,
+        "text": "pursuant to paragraph (2) of subdivision (a) of Section 3258 of the Public Resources Code",
+        "chunk_id": 10664844072438020980
+      }
+    ]
+  }
+]

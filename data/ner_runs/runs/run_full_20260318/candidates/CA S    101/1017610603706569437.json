@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5729691605947772159,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 5785988176786729667,
+        "start": 655179,
+        "end": 655199,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 1017610603706569437
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15577809344844550936,
+        "start": 655179,
+        "end": 655199,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 1017610603706569437
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3797677988093262708,
+        "start": 655179,
+        "end": 655199,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 1017610603706569437
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5255470601847781433,
+        "start": 655179,
+        "end": 655199,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 1017610603706569437
+      }
+    ]
+  },
+  {
+    "candidate_id": 14485675392346541002,
+    "entity": "Santa Susana Field Laboratory",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 2219035662965783393,
+        "start": 655828,
+        "end": 655848,
+        "text": "Santa Susana Field Laboratory",
+        "chunk_id": 1017610603706569437
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4077487224132749180,
+        "start": 655828,
+        "end": 655848,
+        "text": "Santa Susana Field Laboratory",
+        "chunk_id": 1017610603706569437
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11906181245798127243,
+        "start": 655828,
+        "end": 655848,
+        "text": "Santa Susana Field Laboratory",
+        "chunk_id": 1017610603706569437
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15302172412884305516,
+        "start": 655828,
+        "end": 655848,
+        "text": "Santa Susana Field Laboratory",
+        "chunk_id": 1017610603706569437
+      }
+    ]
+  }
+]

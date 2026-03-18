@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5751095237527449388,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16606978170867473599,
+        "start": 950099,
+        "end": 950119,
+        "text": "State Department of Social Services",
+        "chunk_id": 5155174730559976131
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7800550841972106184,
+        "start": 950099,
+        "end": 950119,
+        "text": "government agency",
+        "chunk_id": 5155174730559976131
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4009864292411612162,
+        "start": 950099,
+        "end": 950119,
+        "text": "restriction",
+        "chunk_id": 5155174730559976131
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9240131430223646692,
+        "start": 950099,
+        "end": 950119,
+        "text": "limited",
+        "chunk_id": 5155174730559976131
+      }
+    ]
+  },
+  {
+    "candidate_id": 13996733626565969538,
+    "entity": "Child Support Collections Recovery Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 14046109414151103788,
+        "start": 950099,
+        "end": 950119,
+        "text": "Child Support Collections Recovery Fund",
+        "chunk_id": 5155174730559976131
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12550735489943358665,
+        "start": 950099,
+        "end": 950119,
+        "text": "infrastructure",
+        "chunk_id": 5155174730559976131
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11251215430904578191,
+        "start": 950099,
+        "end": 950119,
+        "text": "promotion",
+        "chunk_id": 5155174730559976131
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3904124447651539947,
+        "start": 950099,
+        "end": 950119,
+        "text": "significant",
+        "chunk_id": 5155174730559976131
+      }
+    ]
+  }
+]

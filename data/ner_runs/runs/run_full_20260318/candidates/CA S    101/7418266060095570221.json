@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15478206223755407371,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2408353658671351262,
+        "start": 1467452,
+        "end": 1467472,
+        "text": "The Director of General Services",
+        "chunk_id": 7418266060095570221
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8384372019189575585,
+        "start": 1467452,
+        "end": 1467472,
+        "text": "The Director of General Services",
+        "chunk_id": 7418266060095570221
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7742209093087185449,
+        "start": 1467452,
+        "end": 1467472,
+        "text": "The Director of General Services",
+        "chunk_id": 7418266060095570221
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4313149172597076069,
+        "start": 1467452,
+        "end": 1467472,
+        "text": "The Director of General Services",
+        "chunk_id": 7418266060095570221
+      }
+    ]
+  },
+  {
+    "candidate_id": 2434288482390261976,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1152271823523818830,
+        "start": 1467563,
+        "end": 1467583,
+        "text": "the Department of Finance",
+        "chunk_id": 7418266060095570221
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9515051462362916030,
+        "start": 1467563,
+        "end": 1467583,
+        "text": "the Department of Finance",
+        "chunk_id": 7418266060095570221
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1119116093782602521,
+        "start": 1467563,
+        "end": 1467583,
+        "text": "the Department of Finance",
+        "chunk_id": 7418266060095570221
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9475088594380985219,
+        "start": 1467563,
+        "end": 1467583,
+        "text": "the Department of Finance",
+        "chunk_id": 7418266060095570221
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+{
+  "raw_response": "{\"candidates\": [{\"entity\": \"utilization review organization\", \"type\": \"organization\", \"attribute\": \"determinations\", \"value\": \"physician\", \"entity_evidence\": [{\"start\": 0, \"end\": 19, \"text\": \"utilization review organization\"}], \"type_evidence\": [{\"start\": 20, \"end\": 28, \"text\": \"organization\"}], \"attribute_evidence\": [{\"start\": 29, \"end\": 31, \"text\": \"determinations\"}], \"value_evidence\": [{\"start\": 32, \"end\": 41, \"text\": \"physician\"}]}]}"
+}

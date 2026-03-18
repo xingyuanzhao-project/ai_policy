@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15035273705226276640,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 16943630893666448965,
+        "start": 828747,
+        "end": 828767,
+        "text": "State Department of Public Health",
+        "chunk_id": 15032852814618585106
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14101563485936795408,
+        "start": 828747,
+        "end": 828767,
+        "text": "government agency",
+        "chunk_id": 15032852814618585106
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14036996619120466380,
+        "start": 828747,
+        "end": 828767,
+        "text": "promotion",
+        "chunk_id": 15032852814618585106
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6957708164492169291,
+        "start": 828747,
+        "end": 828767,
+        "text": "support",
+        "chunk_id": 15032852814618585106
+      }
+    ]
+  },
+  {
+    "candidate_id": 13403547848812932193,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "transfer",
+    "entity_evidence": [
+      {
+        "span_id": 9061648161517746955,
+        "start": 828858,
+        "end": 828870,
+        "text": "The Controller",
+        "chunk_id": 15032852814618585106
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15593482027906915366,
+        "start": 828858,
+        "end": 828870,
+        "text": "government agency",
+        "chunk_id": 15032852814618585106
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11899839969204032464,
+        "start": 828858,
+        "end": 828870,
+        "text": "restriction",
+        "chunk_id": 15032852814618585106
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4413828843528270808,
+        "start": 828858,
+        "end": 828870,
+        "text": "transfer",
+        "chunk_id": 15032852814618585106
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16156336762107225802,
+    "source_group_id": 3749762938087347513,
+    "source_candidate_ids": [
+      13143673847211016844
+    ],
+    "entity": "Pierce's Disease Management Account",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "combating Pierce's disease",
+    "entity_evidence": [
+      {
+        "span_id": 4825720772028561483,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "Pierce's Disease Management Account",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7998858667719176349,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "infrastructure",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8884793096058586451,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "regulation",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2564828883548855615,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "combating Pierce's disease",
+        "chunk_id": 12354707710699983987
+      }
+    ]
+  }
+]

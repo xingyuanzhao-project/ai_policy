@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7564849525969388780,
+    "source_group_id": 770955457863977988,
+    "source_candidate_ids": [
+      13040617929808136827
+    ],
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16854116104809883396,
+        "start": 1301580,
+        "end": 1301610,
+        "text": "Commission on Teacher Credentialing",
+        "chunk_id": 9947789021940405134
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7839842559574096204,
+        "start": 1301580,
+        "end": 1301610,
+        "text": "Commission on Teacher Credentialing",
+        "chunk_id": 9947789021940405134
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18286246983751796663,
+        "start": 1301580,
+        "end": 1301610,
+        "text": "Commission on Teacher Credentialing",
+        "chunk_id": 9947789021940405134
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14471437515697753965,
+        "start": 1301580,
+        "end": 1301610,
+        "text": "Commission on Teacher Credentialing",
+        "chunk_id": 9947789021940405134
+      }
+    ]
+  }
+]

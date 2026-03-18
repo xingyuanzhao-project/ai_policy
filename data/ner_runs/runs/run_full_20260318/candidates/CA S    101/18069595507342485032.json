@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12767847340677195734,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "individually determined",
+    "entity_evidence": [
+      {
+        "span_id": 8902997703899042693,
+        "start": 986448,
+        "end": 986469,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 18069595507342485032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18243805273638313453,
+        "start": 986448,
+        "end": 986469,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 18069595507342485032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4446641910035705473,
+        "start": 986448,
+        "end": 986469,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 18069595507342485032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16739031154322500991,
+        "start": 986448,
+        "end": 986469,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 18069595507342485032
+      }
+    ]
+  },
+  {
+    "candidate_id": 4273239951280758648,
+    "entity": "district attorney's office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "individually determined",
+    "entity_evidence": [
+      {
+        "span_id": 15389777403685466037,
+        "start": 986560,
+        "end": 986576,
+        "text": "district attorney's office",
+        "chunk_id": 18069595507342485032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4335373853852095083,
+        "start": 986560,
+        "end": 986576,
+        "text": "district attorney's office",
+        "chunk_id": 18069595507342485032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3980042624122764886,
+        "start": 986560,
+        "end": 986576,
+        "text": "district attorney's office",
+        "chunk_id": 18069595507342485032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14694370681904108253,
+        "start": 986560,
+        "end": 986576,
+        "text": "district attorney's office",
+        "chunk_id": 18069595507342485032
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 16097700637305601958,
+    "source_group_id": 14114876261102308597,
+    "source_candidate_ids": [
+      8128566598169646316,
+      12436855602351269483
+    ],
+    "entity": "Connected device",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "primarily designed for or marketed to consumers",
+    "entity_evidence": [
+      {
+        "span_id": 14399298307333189047,
+        "start": 143,
+        "end": 157,
+        "text": "Connected device",
+        "chunk_id": 2700088121568311861
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3971378254729805574,
+        "start": 143,
+        "end": 157,
+        "text": "Connected device",
+        "chunk_id": 2700088121568311861
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7605640315041584521,
+        "start": 143,
+        "end": 157,
+        "text": "Connected device",
+        "chunk_id": 2700088121568311861
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8592323335167616206,
+        "start": 143,
+        "end": 157,
+        "text": "Connected device",
+        "chunk_id": 2700088121568311861
+      }
+    ]
+  }
+]

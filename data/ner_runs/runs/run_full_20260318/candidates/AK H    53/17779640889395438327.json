@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17436317740699662106,
+    "entity": "Department of Transportation and Public Facilities",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "maintenance and operations of facilities and leases",
+    "entity_evidence": [
+      {
+        "span_id": 1046682997828956058,
+        "start": 49457,
+        "end": 49491,
+        "text": "by the Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13161804531720037732,
+        "start": 49491,
+        "end": 49511,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5624557981910527590,
+        "start": 49457,
+        "end": 49491,
+        "text": "by the Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10264041448577900828,
+        "start": 49457,
+        "end": 49491,
+        "text": "by the Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ]
+  },
+  {
+    "candidate_id": 955841117627736239,
+    "entity": "Department of Transportation and Public Facilities",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "maintenance and operations of facilities and leases",
+    "entity_evidence": [
+      {
+        "span_id": 13725919802011884579,
+        "start": 49491,
+        "end": 49511,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12456904653464515034,
+        "start": 49491,
+        "end": 49511,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9711970177491863668,
+        "start": 49491,
+        "end": 49511,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2600611350909792809,
+        "start": 49491,
+        "end": 49511,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 17779640889395438327
+      }
+    ]
+  }
+]

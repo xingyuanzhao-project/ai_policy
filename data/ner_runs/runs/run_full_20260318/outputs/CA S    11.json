@@ -1,0 +1,382 @@
+[
+  {
+    "refined_id": 3680055961386014712,
+    "source_group_id": 10064937196925128822,
+    "source_candidate_ids": [
+      9173416743317126302,
+      6306481196297004186
+    ],
+    "entity": "Artificial Intelligence Technology Providers",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "restriction",
+    "entity_evidence": [
+      {
+        "span_id": 9789986307062523626,
+        "start": 0,
+        "end": 27,
+        "text": "Artificial Intelligence Technology Providers",
+        "chunk_id": 10897131240686048211
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15702094026524322541,
+        "start": 0,
+        "end": 27,
+        "text": "technology",
+        "chunk_id": 10897131240686048211
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1802578739138791767,
+        "start": 0,
+        "end": 27,
+        "text": "regulation",
+        "chunk_id": 10897131240686048211
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7447678514272603796,
+        "start": 0,
+        "end": 27,
+        "text": "restriction",
+        "chunk_id": 10897131240686048211
+      }
+    ]
+  },
+  {
+    "refined_id": 9050075254454892994,
+    "source_group_id": 1891810254113911803,
+    "source_candidate_ids": [
+      16494795710264902701
+    ],
+    "entity": "Attorney General",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 12926390485938546891,
+        "start": 1797,
+        "end": 1809,
+        "text": "Public prosecutor",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11856373030469232012,
+        "start": 1797,
+        "end": 1809,
+        "text": "Public prosecutor",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12622043692864586319,
+        "start": 1797,
+        "end": 1809,
+        "text": "Public prosecutor",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2928650169813903,
+        "start": 1797,
+        "end": 1809,
+        "text": "Public prosecutor",
+        "chunk_id": 7701138732958922469
+      }
+    ]
+  },
+  {
+    "refined_id": 15150723603564736239,
+    "source_group_id": 1994145965352050175,
+    "source_candidate_ids": [
+      18012043912265942122
+    ],
+    "entity": "Video game",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 10523568804220991248,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15608600817660705497,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 378566661387870198,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9102149146360503480,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ]
+  },
+  {
+    "refined_id": 3965094750684570392,
+    "source_group_id": 4397889579581332881,
+    "source_candidate_ids": [
+      8425109321151338886,
+      14606745840099833738
+    ],
+    "entity": "person",
+    "type": "individual",
+    "attribute": "exemption",
+    "value": "commercial use",
+    "entity_evidence": [
+      {
+        "span_id": 14810030898986059626,
+        "start": 4344,
+        "end": 4349,
+        "text": "person",
+        "chunk_id": 16153670390926803449
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8216456115513815825,
+        "start": 4350,
+        "end": 4356,
+        "text": "individual",
+        "chunk_id": 16153670390926803449
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13915346530254301782,
+        "start": 4357,
+        "end": 4363,
+        "text": "exemption",
+        "chunk_id": 16153670390926803449
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13618741272570816965,
+        "start": 4364,
+        "end": 4373,
+        "text": "commercial use",
+        "chunk_id": 16153670390926803449
+      }
+    ]
+  },
+  {
+    "refined_id": 12170571770193964151,
+    "source_group_id": 1989178998770896682,
+    "source_candidate_ids": [
+      17868376684510603066
+    ],
+    "entity": "digital replica",
+    "type": "technology",
+    "attribute": "definition",
+    "value": "digital replica",
+    "entity_evidence": [
+      {
+        "span_id": 6283396412366018683,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4974553244723505045,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5451423516766824527,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3371150380177542423,
+        "start": 5901,
+        "end": 5914,
+        "text": "digital replica",
+        "chunk_id": 8915440190561206426
+      }
+    ]
+  },
+  {
+    "refined_id": 9913242522590580799,
+    "source_group_id": 15500400187740781295,
+    "source_candidate_ids": [
+      3300061985553271354
+    ],
+    "entity": "name, voice, signature, photograph, or likeness",
+    "type": "infrastructure",
+    "attribute": "protection",
+    "value": "prior consent",
+    "entity_evidence": [
+      {
+        "span_id": 8046459903820821764,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14212463904885122113,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1539957632850842622,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13036240147166714222,
+        "start": 5915,
+        "end": 5935,
+        "text": "name, voice, signature, photograph, or likeness",
+        "chunk_id": 8915440190561206426
+      }
+    ]
+  },
+  {
+    "refined_id": 5377275615991192347,
+    "source_group_id": 1750697355582876836,
+    "source_candidate_ids": [
+      13759036151258524670,
+      5190377457303590927
+    ],
+    "entity": "person",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "readily identifiable",
+    "entity_evidence": [
+      {
+        "span_id": 2655076497588276600,
+        "start": 8365,
+        "end": 8382,
+        "text": "that the person is readily identifiable.",
+        "chunk_id": 7690283381937299305
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 591200169672256860,
+        "start": 8365,
+        "end": 8382,
+        "text": "that the person is readily identifiable.",
+        "chunk_id": 7690283381937299305
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6776425107761775454,
+        "start": 8365,
+        "end": 8382,
+        "text": "that the person is readily identifiable.",
+        "chunk_id": 7690283381937299305
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8941409938856893555,
+        "start": 8365,
+        "end": 8382,
+        "text": "that the person is readily identifiable.",
+        "chunk_id": 7690283381937299305
+      }
+    ]
+  },
+  {
+    "refined_id": 7212820693574722759,
+    "source_group_id": 9341147439592835868,
+    "source_candidate_ids": [
+      8088599061458456475,
+      14908205725453714436
+    ],
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "screening",
+    "entity_evidence": [
+      {
+        "span_id": 13483012981241910756,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3210635329400804700,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11201564911116127656,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3141443457530478301,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ]
+  }
+]

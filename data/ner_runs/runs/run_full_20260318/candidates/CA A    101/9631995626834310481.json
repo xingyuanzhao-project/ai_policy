@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2749254685811085508,
+    "entity": "Governor's Office of Business and Economic Development (GO-Biz)",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 8635851823208078963,
+        "start": 79407,
+        "end": 79429,
+        "text": "Governor's Office of Business and Economic Development (GO-Biz)",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5972781041201592643,
+        "start": 79407,
+        "end": 79429,
+        "text": "government agency",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15632305278659869008,
+        "start": 79407,
+        "end": 79429,
+        "text": "promotion",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6540948540466263535,
+        "start": 79407,
+        "end": 79429,
+        "text": "support",
+        "chunk_id": 9631995626834310481
+      }
+    ]
+  },
+  {
+    "candidate_id": 13149887603701229784,
+    "entity": "Small Business Expansion Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "minimum reserves",
+    "entity_evidence": [
+      {
+        "span_id": 13368760652652639563,
+        "start": 79407,
+        "end": 79429,
+        "text": "Small Business Expansion Fund",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2793225516381574967,
+        "start": 79407,
+        "end": 79429,
+        "text": "infrastructure",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4857966989984246363,
+        "start": 79407,
+        "end": 79429,
+        "text": "restriction",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10735684034564732163,
+        "start": 79407,
+        "end": 79429,
+        "text": "minimum reserves",
+        "chunk_id": 9631995626834310481
+      }
+    ]
+  }
+]

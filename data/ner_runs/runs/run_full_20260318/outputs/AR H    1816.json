@@ -1,0 +1,98 @@
+[
+  {
+    "refined_id": 5370936624208195291,
+    "source_group_id": 7369695987139411405,
+    "source_candidate_ids": [
+      10900146549733707081,
+      10107028776216131870
+    ],
+    "entity": "Artificial intelligence",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "healthcare",
+    "entity_evidence": [
+      {
+        "span_id": 4977429963711841392,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial intelligence",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5517615181210892487,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial intelligence",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17840922838013761212,
+        "start": 19,
+        "end": 25,
+        "text": "prohibition",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6784700399634552095,
+        "start": 26,
+        "end": 32,
+        "text": "healthcare",
+        "chunk_id": 9715851432030713655
+      }
+    ]
+  },
+  {
+    "refined_id": 15411437949612572386,
+    "source_group_id": 3934879898012842861,
+    "source_candidate_ids": [
+      16657609150304024739,
+      5807697472765255455
+    ],
+    "entity": "Healthcare provider",
+    "type": "government definition",
+    "attribute": "restriction",
+    "value": "approved by the United States Food and Drug Administration and verified by a quality assurance laboratory",
+    "entity_evidence": [
+      {
+        "span_id": 7608494501724288574,
+        "start": 2355,
+        "end": 2372,
+        "text": "Healthcare provider",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15219129953921520203,
+        "start": 2355,
+        "end": 2372,
+        "text": "government definition",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6965645090157087003,
+        "start": 2373,
+        "end": 2395,
+        "text": "restriction",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3136746820890707408,
+        "start": 2396,
+        "end": 2435,
+        "text": "approved by the United States Food and Drug Administration and verified by a quality assurance laboratory",
+        "chunk_id": 17739911860786833787
+      }
+    ]
+  }
+]

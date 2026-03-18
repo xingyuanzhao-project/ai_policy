@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 10064453121294340052,
+    "source_group_id": 15920032979825739443,
+    "source_candidate_ids": [
+      17519353928936029527,
+      3464966952831621708
+    ],
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 11388017857640716116,
+        "start": 738334,
+        "end": 738354,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1474613353026071357,
+        "start": 738334,
+        "end": 738354,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17494740605579079868,
+        "start": 738334,
+        "end": 738354,
+        "text": "support of Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13308478893278871582,
+        "start": 738334,
+        "end": 738354,
+        "text": "support of Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ]
+  }
+]

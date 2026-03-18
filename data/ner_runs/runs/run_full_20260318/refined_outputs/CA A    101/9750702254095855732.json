@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5954928995780151744,
+    "source_group_id": 9750702254095855732,
+    "source_candidate_ids": [
+      5522991655247400318
+    ],
+    "entity": "Chancellor's Office of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "full support",
+    "entity_evidence": [
+      {
+        "span_id": 2755547787181350940,
+        "start": 1132360,
+        "end": 1132389,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 3580792697808969427
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8216510160976198315,
+        "start": 1132360,
+        "end": 1132389,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 3580792697808969427
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4142187567789024940,
+        "start": 1132360,
+        "end": 1132389,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 3580792697808969427
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4530439198973389851,
+        "start": 1132360,
+        "end": 1132389,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 3580792697808969427
+      }
+    ]
+  }
+]

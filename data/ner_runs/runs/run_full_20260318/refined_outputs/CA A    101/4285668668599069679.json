@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 921739561632327553,
+    "source_group_id": 4285668668599069679,
+    "source_candidate_ids": [
+      107716959701815055
+    ],
+    "entity": "Chapter 229 of the Statutes of 2023",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10870135061764387001,
+        "start": 1152671,
+        "end": 1152705,
+        "text": "Chapter 229 of the Statutes of 2023",
+        "chunk_id": 15159576491986236634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12153721261938176185,
+        "start": 1152671,
+        "end": 1152705,
+        "text": "Chapter 229 of the Statutes of 2023",
+        "chunk_id": 15159576491986236634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8734988553432282668,
+        "start": 1152671,
+        "end": 1152705,
+        "text": "Chapter 229 of the Statutes of 2023",
+        "chunk_id": 15159576491986236634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4352665259942857813,
+        "start": 1152671,
+        "end": 1152705,
+        "text": "Chapter 229 of the Statutes of 2023",
+        "chunk_id": 15159576491986236634
+      }
+    ]
+  }
+]

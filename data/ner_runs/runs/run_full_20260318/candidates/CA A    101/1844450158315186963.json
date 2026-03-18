@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7328765621335836254,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10967981670124109889,
+        "start": 1426367,
+        "end": 1426386,
+        "text": "California Community Colleges",
+        "chunk_id": 1844450158315186963
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11075481029722914427,
+        "start": 1426367,
+        "end": 1426386,
+        "text": "government agency",
+        "chunk_id": 1844450158315186963
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13606432511882139656,
+        "start": 1426367,
+        "end": 1426386,
+        "text": "restriction",
+        "chunk_id": 1844450158315186963
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13495120576597409720,
+        "start": 1426367,
+        "end": 1426386,
+        "text": "extremely restrictive",
+        "chunk_id": 1844450158315186963
+      }
+    ]
+  },
+  {
+    "candidate_id": 3831022001842357128,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 1539309264745198831,
+        "start": 1427030,
+        "end": 1427059,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 1844450158315186963
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6721542491488575587,
+        "start": 1427030,
+        "end": 1427059,
+        "text": "government agency",
+        "chunk_id": 1844450158315186963
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8801899188027562003,
+        "start": 1427030,
+        "end": 1427059,
+        "text": "restriction",
+        "chunk_id": 1844450158315186963
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11873639318264971415,
+        "start": 1427030,
+        "end": 1427059,
+        "text": "extremely restrictive",
+        "chunk_id": 1844450158315186963
+      }
+    ]
+  }
+]

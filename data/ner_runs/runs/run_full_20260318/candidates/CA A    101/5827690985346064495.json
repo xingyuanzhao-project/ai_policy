@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7095193680242457852,
+    "entity": "Medi-Cal",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 11863772950990445588,
+        "start": 842806,
+        "end": 842812,
+        "text": "Medi-Cal",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15225434964288308977,
+        "start": 842813,
+        "end": 842818,
+        "text": "agency",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1262830175590209811,
+        "start": 842819,
+        "end": 842826,
+        "text": "restriction",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4123637113874898458,
+        "start": 842827,
+        "end": 842831,
+        "text": "limited",
+        "chunk_id": 5827690985346064495
+      }
+    ]
+  },
+  {
+    "candidate_id": 8396962001329956687,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "favorable terms",
+    "entity_evidence": [
+      {
+        "span_id": 1178242933349945759,
+        "start": 842840,
+        "end": 842865,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1466852600135035859,
+        "start": 842866,
+        "end": 842881,
+        "text": "agency",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8510078648311150432,
+        "start": 842882,
+        "end": 842890,
+        "text": "promotion",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17918597411154280394,
+        "start": 842891,
+        "end": 842902,
+        "text": "favorable terms",
+        "chunk_id": 5827690985346064495
+      }
+    ]
+  }
+]

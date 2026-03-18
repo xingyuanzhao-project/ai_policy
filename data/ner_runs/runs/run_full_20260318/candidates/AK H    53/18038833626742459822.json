@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12614864670076501579,
+    "entity": "Office of Management and Budget",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "zero-based budgeting principles",
+    "entity_evidence": [
+      {
+        "span_id": 16165577023853580237,
+        "start": 23568,
+        "end": 23592,
+        "text": "Office of Management and Budget",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3742689284900402463,
+        "start": 23593,
+        "end": 23609,
+        "text": "government agency",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 633390546136632923,
+        "start": 23610,
+        "end": 23621,
+        "text": "restriction",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 261505905173084943,
+        "start": 23622,
+        "end": 23637,
+        "text": "zero-based budgeting principles",
+        "chunk_id": 18038833626742459822
+      }
+    ]
+  },
+  {
+    "candidate_id": 9707036881452776569,
+    "entity": "Office of the Governor",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "unexpended and unobligated balance",
+    "entity_evidence": [
+      {
+        "span_id": 2446481537189035932,
+        "start": 23568,
+        "end": 23585,
+        "text": "Office of the Governor",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7575958555042410260,
+        "start": 23586,
+        "end": 23602,
+        "text": "government agency",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 983607106722265965,
+        "start": 23603,
+        "end": 23614,
+        "text": "promotion",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7378951030900065739,
+        "start": 23615,
+        "end": 23635,
+        "text": "unexpended and unobligated balance",
+        "chunk_id": 18038833626742459822
+      }
+    ]
+  }
+]

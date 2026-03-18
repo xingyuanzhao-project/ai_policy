@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 831121483821375730,
+    "entity": "Artificial Intelligence",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 5173753524537416546,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17801148103880217842,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4702370940340018897,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12370460365851238481,
+        "start": 134,
+        "end": 146,
+        "text": "through the use of artificial intelligence",
+        "chunk_id": 7211323658502496750
+      }
+    ]
+  },
+  {
+    "candidate_id": 2000130859567230915,
+    "entity": "Artificial Intelligence Developer",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "structured evaluation methods",
+    "entity_evidence": [
+      {
+        "span_id": 289203440777175837,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7231578725958833446,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1725413056301541682,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12752235464070865410,
+        "start": 434,
+        "end": 449,
+        "text": "collaboration with an artificial intelligence developer",
+        "chunk_id": 7211323658502496750
+      }
+    ]
+  }
+]

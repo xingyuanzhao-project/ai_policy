@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15499876898606030594,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "increased monitoring",
+    "entity_evidence": [
+      {
+        "span_id": 10551092472413982493,
+        "start": 1071561,
+        "end": 1071579,
+        "text": "3.0 positions within the State Department of Education",
+        "chunk_id": 13082323259719858657
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4466207904064880194,
+        "start": 1071561,
+        "end": 1071579,
+        "text": "State Department of Education",
+        "chunk_id": 13082323259719858657
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12801406798537906515,
+        "start": 1071579,
+        "end": 1071587,
+        "text": "increased monitoring",
+        "chunk_id": 13082323259719858657
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14430396526422975782,
+        "start": 1071579,
+        "end": 1071587,
+        "text": "increased monitoring",
+        "chunk_id": 13082323259719858657
+      }
+    ]
+  },
+  {
+    "candidate_id": 12270288904359287349,
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "interagency agreement",
+    "entity_evidence": [
+      {
+        "span_id": 6261264905324589514,
+        "start": 1071640,
+        "end": 1071657,
+        "text": "Commission on Teacher Credentialing",
+        "chunk_id": 13082323259719858657
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8041041756978988785,
+        "start": 1071640,
+        "end": 1071657,
+        "text": "Commission on Teacher Credentialing",
+        "chunk_id": 13082323259719858657
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7467118956423203457,
+        "start": 1071657,
+        "end": 1071665,
+        "text": "interagency agreement",
+        "chunk_id": 13082323259719858657
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6520824221059809848,
+        "start": 1071657,
+        "end": 1071665,
+        "text": "interagency agreement",
+        "chunk_id": 13082323259719858657
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5634278969319257750,
+    "source_group_id": 16092655115101500316,
+    "source_candidate_ids": [
+      9638105270775205689
+    ],
+    "entity": "Instructional Quality Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "indirect costs prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 7575009829711607759,
+        "start": 1175761,
+        "end": 1175781,
+        "text": "to support the 2025-26 fiscal year activities of the Instructional Quality Commission",
+        "chunk_id": 3021254183157334678
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17363991127563166431,
+        "start": 1175761,
+        "end": 1175781,
+        "text": "to support the 2025-26 fiscal year activities of the Instructional Quality Commission",
+        "chunk_id": 3021254183157334678
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15965232387745349980,
+        "start": 1175761,
+        "end": 1175781,
+        "text": "to support the 2025-26 fiscal year activities of the Instructional Quality Commission",
+        "chunk_id": 3021254183157334678
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13840121417360014503,
+        "start": 1175761,
+        "end": 1175781,
+        "text": "to support the 2025-26 fiscal year activities of the Instructional Quality Commission",
+        "chunk_id": 3021254183157334678
+      }
+    ]
+  }
+]

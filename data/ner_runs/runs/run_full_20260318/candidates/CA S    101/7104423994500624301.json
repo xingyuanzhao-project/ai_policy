@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10587467206494980761,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 1034945624781529841,
+        "start": 518318,
+        "end": 518338,
+        "text": "The amount appropriated in this item shall be available for encumbrance or expenditure until June 30, 2027.",
+        "chunk_id": 7104423994500624301
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14308799635023884459,
+        "start": 518318,
+        "end": 518338,
+        "text": "The amount appropriated in this item shall be available for encumbrance or expenditure until June 30, 2027.",
+        "chunk_id": 7104423994500624301
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8821646438441091547,
+        "start": 518318,
+        "end": 518338,
+        "text": "The amount appropriated in this item shall be available for encumbrance or expenditure until June 30, 2027.",
+        "chunk_id": 7104423994500624301
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5817773439434643856,
+        "start": 518318,
+        "end": 518338,
+        "text": "The amount appropriated in this item shall be available for encumbrance or expenditure until June 30, 2027.",
+        "chunk_id": 7104423994500624301
+      }
+    ]
+  },
+  {
+    "candidate_id": 17062534167041661743,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2029",
+    "entity_evidence": [
+      {
+        "span_id": 2467673421655500583,
+        "start": 518318,
+        "end": 518338,
+        "text": "The funds appropriated in this item shall be available for encumbrance or expenditure until June 30, 2029.",
+        "chunk_id": 7104423994500624301
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13825987027853233020,
+        "start": 518318,
+        "end": 518338,
+        "text": "The funds appropriated in this item shall be available for encumbrance or expenditure until June 30, 2029.",
+        "chunk_id": 7104423994500624301
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7119682897933664918,
+        "start": 518318,
+        "end": 518338,
+        "text": "The funds appropriated in this item shall be available for encumbrance or expenditure until June 30, 2029.",
+        "chunk_id": 7104423994500624301
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6332709982244673295,
+        "start": 518318,
+        "end": 518338,
+        "text": "The funds appropriated in this item shall be available for encumbrance or expenditure until June 30, 2029.",
+        "chunk_id": 7104423994500624301
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4942542146419890298,
+    "source_group_id": 14643929839832855325,
+    "source_candidate_ids": [
+      7429021744064962250
+    ],
+    "entity": "Arizona Revised Statutes",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 7794973784189671961,
+        "start": 12440,
+        "end": 12464,
+        "text": "Arizona Revised Statutes",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13707651170906054605,
+        "start": 12440,
+        "end": 12464,
+        "text": "infrastructure",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12874056074794512649,
+        "start": 12440,
+        "end": 12464,
+        "text": "restriction",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11560023648234692276,
+        "start": 12440,
+        "end": 12464,
+        "text": "extremely restrictive",
+        "chunk_id": 4231032712934685707
+      }
+    ]
+  }
+]

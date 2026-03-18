@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11405743673622404342,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "ongoing base increase",
+    "entity_evidence": [
+      {
+        "span_id": 5185182216649818927,
+        "start": 1331943,
+        "end": 1331963,
+        "text": "University of California",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11674918501389624207,
+        "start": 1331943,
+        "end": 1331963,
+        "text": "government agency",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16529027219946025615,
+        "start": 1331943,
+        "end": 1331963,
+        "text": "restriction",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7063216061138886439,
+        "start": 1331943,
+        "end": 1331963,
+        "text": "ongoing base increase",
+        "chunk_id": 12998140073333909923
+      }
+    ]
+  },
+  {
+    "candidate_id": 17404569212803634851,
+    "entity": "California Federation of Labor",
+    "type": "organization",
+    "attribute": "promotion",
+    "value": "appointing members",
+    "entity_evidence": [
+      {
+        "span_id": 3803131884395421024,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "California Federation of Labor",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10096095422368659374,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "organization",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5370872003173251154,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "promotion",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7574447357577267909,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "appointing members",
+        "chunk_id": 12998140073333909923
+      }
+    ]
+  }
+]

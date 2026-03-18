@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18190056695011910746,
+    "entity": "CalWORKs Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 17246657564858464748,
+        "start": 1431555,
+        "end": 1431568,
+        "text": "CalWORKs Services",
+        "chunk_id": 6011330442342434397
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6503325748895133459,
+        "start": 1431555,
+        "end": 1431568,
+        "text": "CalWORKs Services",
+        "chunk_id": 6011330442342434397
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5358142664653447024,
+        "start": 1431555,
+        "end": 1431568,
+        "text": "CalWORKs Services",
+        "chunk_id": 6011330442342434397
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10609422284420788973,
+        "start": 1431555,
+        "end": 1431568,
+        "text": "CalWORKs Services",
+        "chunk_id": 6011330442342434397
+      }
+    ]
+  },
+  {
+    "candidate_id": 18226465204969208936,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 10858901561210081437,
+        "start": 1431555,
+        "end": 1431598,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 6011330442342434397
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7803412856568350098,
+        "start": 1431555,
+        "end": 1431598,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 6011330442342434397
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13759623207340401963,
+        "start": 1431555,
+        "end": 1431598,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 6011330442342434397
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16355621941240248730,
+        "start": 1431555,
+        "end": 1431598,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 6011330442342434397
+      }
+    ]
+  }
+]

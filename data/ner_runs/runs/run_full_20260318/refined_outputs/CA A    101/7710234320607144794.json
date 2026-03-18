@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15439389408881098827,
+    "source_group_id": 7710234320607144794,
+    "source_candidate_ids": [
+      14576439992360874159
+    ],
+    "entity": "Alfred E. Alquist Seismic Safety Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 898286060025252115,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16005131663385124337,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5170107338488850837,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3374496575970486156,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ]
+  }
+]

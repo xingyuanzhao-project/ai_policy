@@ -1,0 +1,42 @@
+[
+  {
+    "group_id": 6579019591781756273,
+    "candidate_ids": [
+      3152645061047237703
+    ],
+    "field_score_matrix": [
+      [
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  },
+  {
+    "group_id": 6619246693463854804,
+    "candidate_ids": [
+      6882997681258718102
+    ],
+    "field_score_matrix": [
+      [
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ]
+    ],
+    "field_order": [
+      "entity",
+      "type",
+      "attribute",
+      "value"
+    ]
+  }
+]

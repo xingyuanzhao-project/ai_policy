@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2512022674992913330,
+    "source_group_id": 3080571797936984653,
+    "source_candidate_ids": [
+      3361592102023954224
+    ],
+    "entity": "Department of the California Highway Patrol",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "single contract for architectural and engineering services",
+    "entity_evidence": [
+      {
+        "span_id": 5224417193056488605,
+        "start": 427293,
+        "end": 427323,
+        "text": "The Department of the California Highway Patrol",
+        "chunk_id": 3641176922192914070
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17212918533069408232,
+        "start": 427293,
+        "end": 427323,
+        "text": "The Department of the California Highway Patrol",
+        "chunk_id": 3641176922192914070
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6932632806303637958,
+        "start": 427323,
+        "end": 427343,
+        "text": "single contract for architectural and engineering services",
+        "chunk_id": 3641176922192914070
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16823690877769579507,
+        "start": 427323,
+        "end": 427343,
+        "text": "single contract for architectural and engineering services",
+        "chunk_id": 3641176922192914070
+      }
+    ]
+  }
+]

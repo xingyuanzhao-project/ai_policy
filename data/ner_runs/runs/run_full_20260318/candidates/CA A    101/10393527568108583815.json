@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 88697631787863207,
+    "entity": "Digital Identity Pilot Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11822934818369622297,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9764974892667279034,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1397702654126632115,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 948607513823148389,
+        "start": 1526707,
+        "end": 1526728,
+        "text": "Digital Identity Pilot Program",
+        "chunk_id": 10393527568108583815
+      }
+    ]
+  },
+  {
+    "candidate_id": 15588287562768128851,
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13754937773458587359,
+        "start": 1526696,
+        "end": 1526716,
+        "text": "Department of Technology",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11352146410269627205,
+        "start": 1526696,
+        "end": 1526716,
+        "text": "Department of Technology",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11668522467844523532,
+        "start": 1526696,
+        "end": 1526716,
+        "text": "Department of Technology",
+        "chunk_id": 10393527568108583815
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13229268576812430536,
+        "start": 1526696,
+        "end": 1526716,
+        "text": "Department of Technology",
+        "chunk_id": 10393527568108583815
+      }
+    ]
+  }
+]

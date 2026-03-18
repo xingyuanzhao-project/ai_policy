@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14452983086395089707,
+    "entity": "California Career Technical Education Incentive Grant Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11032926022089456542,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "California Career Technical Education Incentive Grant Program",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11650596239539900242,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "Program",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14276137710355720916,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "Program",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11790248076029015968,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "Program",
+        "chunk_id": 16634765793229556096
+      }
+    ]
+  },
+  {
+    "candidate_id": 9699855724699907049,
+    "entity": "Child Nutrition Programs",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10012009355129310635,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Child Nutrition Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3532733223877295748,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14477378599304955285,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7288564447917417855,
+        "start": 1291616,
+        "end": 1291635,
+        "text": "Programs",
+        "chunk_id": 16634765793229556096
+      }
+    ]
+  }
+]

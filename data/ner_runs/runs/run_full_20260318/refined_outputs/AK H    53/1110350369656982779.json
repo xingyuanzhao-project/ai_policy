@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1160322083061260648,
+    "source_group_id": 1110350369656982779,
+    "source_candidate_ids": [
+      4352996685961954030
+    ],
+    "entity": "Alaska Industrial Development and Export Authority",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "from the unrestricted balance in the Alaska Industrial Development and Export Authority revolving fund",
+    "entity_evidence": [
+      {
+        "span_id": 5519735910659023571,
+        "start": 107230,
+        "end": 107252,
+        "text": "Alaska Industrial Development and Export Authority",
+        "chunk_id": 13616429384678521676
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17294355090016968876,
+        "start": 107230,
+        "end": 107252,
+        "text": "Alaska Industrial Development and Export Authority",
+        "chunk_id": 13616429384678521676
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16788440911270244279,
+        "start": 107230,
+        "end": 107252,
+        "text": "Alaska Industrial Development and Export Authority",
+        "chunk_id": 13616429384678521676
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16431651482439939870,
+        "start": 107230,
+        "end": 107252,
+        "text": "Alaska Industrial Development and Export Authority",
+        "chunk_id": 13616429384678521676
+      }
+    ]
+  }
+]

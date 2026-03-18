@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14214473239793261815,
+    "source_group_id": 6693032082632287583,
+    "source_candidate_ids": [
+      10025871518202346201
+    ],
+    "entity": "Regional and Community Jails program",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 268328863830135523,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12687420583395304034,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2228601551939049983,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3526676842397108434,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ]
+  }
+]

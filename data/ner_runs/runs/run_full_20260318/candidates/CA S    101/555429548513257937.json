@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7499977916847935766,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 429431062875036662,
+        "start": 670728,
+        "end": 670755,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 555429548513257937
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6651127383334485822,
+        "start": 670728,
+        "end": 670755,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 555429548513257937
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10210483807334802638,
+        "start": 670728,
+        "end": 670755,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 555429548513257937
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2853255903810155474,
+        "start": 670728,
+        "end": 670755,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 555429548513257937
+      }
+    ]
+  },
+  {
+    "candidate_id": 11676884611974417045,
+    "entity": "California Environmental Protection Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 3092618042446360080,
+        "start": 670878,
+        "end": 670905,
+        "text": "California Environmental Protection Agency",
+        "chunk_id": 555429548513257937
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 404665579268323156,
+        "start": 670878,
+        "end": 670905,
+        "text": "California Environmental Protection Agency",
+        "chunk_id": 555429548513257937
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15583353617245970889,
+        "start": 670878,
+        "end": 670905,
+        "text": "California Environmental Protection Agency",
+        "chunk_id": 555429548513257937
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3323759192419265597,
+        "start": 670878,
+        "end": 670905,
+        "text": "California Environmental Protection Agency",
+        "chunk_id": 555429548513257937
+      }
+    ]
+  }
+]

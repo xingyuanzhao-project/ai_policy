@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17391414173287549375,
+    "source_group_id": 643497304133109863,
+    "source_candidate_ids": [
+      9784890880038253763
+    ],
+    "entity": "Fish and Game Preservation Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "grants",
+    "entity_evidence": [
+      {
+        "span_id": 11729304471746287894,
+        "start": 560161,
+        "end": 560181,
+        "text": "Fish and Game Preservation Fund",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6385188533641960522,
+        "start": 560161,
+        "end": 560181,
+        "text": "infrastructure",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16045035920592300959,
+        "start": 560161,
+        "end": 560181,
+        "text": "support",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3716309101176005449,
+        "start": 560161,
+        "end": 560181,
+        "text": "grants",
+        "chunk_id": 14007004819701974523
+      }
+    ]
+  }
+]

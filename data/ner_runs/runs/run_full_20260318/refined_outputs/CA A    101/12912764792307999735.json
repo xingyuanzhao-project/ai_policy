@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 942271686828306632,
+    "source_group_id": 12912764792307999735,
+    "source_candidate_ids": [
+      1622001366031860485
+    ],
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from review or approval",
+    "entity_evidence": [
+      {
+        "span_id": 7106666964527518219,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8221664419950829588,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6388323213442597681,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2119500163062376188,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ]
+  }
+]

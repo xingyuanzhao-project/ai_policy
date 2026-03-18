@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8901962702267496396,
+    "source_group_id": 10356468499906277189,
+    "source_candidate_ids": [
+      4493102249975553186
+    ],
+    "entity": "land or other real property",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "all necessary expenses in connection with the acquisition of the property",
+    "entity_evidence": [
+      {
+        "span_id": 15943320550888827050,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "land or other real property",
+        "chunk_id": 11725999436359161201
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12831886982153163747,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "infrastructure",
+        "chunk_id": 11725999436359161201
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18068335601402167046,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "restriction",
+        "chunk_id": 11725999436359161201
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 501119103982120345,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "all necessary expenses in connection with the acquisition of the property",
+        "chunk_id": 11725999436359161201
+      }
+    ]
+  }
+]

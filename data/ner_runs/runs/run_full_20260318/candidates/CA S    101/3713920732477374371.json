@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10159635256857127245,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 4586123317316558514,
+        "start": 126847,
+        "end": 126869,
+        "text": "Office of Emergency Services",
+        "chunk_id": 3713920732477374371
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8140004784333359330,
+        "start": 126847,
+        "end": 126869,
+        "text": "Office of Emergency Services",
+        "chunk_id": 3713920732477374371
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2395686189714284758,
+        "start": 126901,
+        "end": 126907,
+        "text": "30 days",
+        "chunk_id": 3713920732477374371
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2663409978339094453,
+        "start": 126901,
+        "end": 126907,
+        "text": "30 days",
+        "chunk_id": 3713920732477374371
+      }
+    ]
+  },
+  {
+    "candidate_id": 2931875325761333358,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 4030388117394456032,
+        "start": 126901,
+        "end": 126919,
+        "text": "Director of Finance",
+        "chunk_id": 3713920732477374371
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17074910749754256268,
+        "start": 126901,
+        "end": 126919,
+        "text": "Director of Finance",
+        "chunk_id": 3713920732477374371
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6460587226688874161,
+        "start": 126901,
+        "end": 126907,
+        "text": "30 days",
+        "chunk_id": 3713920732477374371
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1909125500069651892,
+        "start": 126901,
+        "end": 126907,
+        "text": "30 days",
+        "chunk_id": 3713920732477374371
+      }
+    ]
+  }
+]

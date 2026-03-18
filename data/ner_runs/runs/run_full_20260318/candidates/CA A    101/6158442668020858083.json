@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4612464875516788321,
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 8091029755597173568,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12714223936588870464,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9352074918197220089,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17379583305479280129,
+        "start": 564750,
+        "end": 564771,
+        "text": "For support of Wildlife Conservation Board",
+        "chunk_id": 6158442668020858083
+      }
+    ]
+  },
+  {
+    "candidate_id": 2173877519416829865,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short-term cash loan",
+    "entity_evidence": [
+      {
+        "span_id": 8283457856608725814,
+        "start": 564721,
+        "end": 564739,
+        "text": "The Director of Finance may authorize a short-term cash loan",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1587726810739618219,
+        "start": 564721,
+        "end": 564739,
+        "text": "The Director of Finance may authorize a short-term cash loan",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 409932665864069099,
+        "start": 564721,
+        "end": 564739,
+        "text": "The Director of Finance may authorize a short-term cash loan",
+        "chunk_id": 6158442668020858083
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8887627903607032775,
+        "start": 564721,
+        "end": 564739,
+        "text": "The Director of Finance may authorize a short-term cash loan",
+        "chunk_id": 6158442668020858083
+      }
+    ]
+  }
+]

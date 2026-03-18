@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1162382899964005223,
+    "source_group_id": 11807738938314881702,
+    "source_candidate_ids": [
+      16405224845481405024
+    ],
+    "entity": "High-Speed Passenger Train Bond Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 17761556809424658420,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17670090619341029874,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15666955829185369915,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8514519938579855102,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ]
+  }
+]

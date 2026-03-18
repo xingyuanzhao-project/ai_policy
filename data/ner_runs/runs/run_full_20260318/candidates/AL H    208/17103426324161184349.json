@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8324320890745951817,
+    "entity": "state agencies",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12365177232271331839,
+        "start": 2400,
+        "end": 2409,
+        "text": "state agencies",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7497372737875287899,
+        "start": 2400,
+        "end": 2409,
+        "text": "state agencies",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5912624376378298584,
+        "start": 2409,
+        "end": 2417,
+        "text": "to carry out this chapter",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4565070339607132735,
+        "start": 2417,
+        "end": 2430,
+        "text": "extremely restrictive",
+        "chunk_id": 17103426324161184349
+      }
+    ]
+  },
+  {
+    "candidate_id": 16101130597990321905,
+    "entity": "novel technologies",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "responsible and transparent",
+    "entity_evidence": [
+      {
+        "span_id": 6875250522151983164,
+        "start": 2512,
+        "end": 2524,
+        "text": "novel technologies",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3005588387212444252,
+        "start": 2512,
+        "end": 2524,
+        "text": "novel technologies",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5362501138925453169,
+        "start": 2524,
+        "end": 2532,
+        "text": "promote the responsible and transparent",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2583005512663148045,
+        "start": 2532,
+        "end": 2549,
+        "text": "responsible and transparent",
+        "chunk_id": 17103426324161184349
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5253119208560886128,
+    "source_group_id": 8472880864801294225,
+    "source_candidate_ids": [
+      2548806346943668412
+    ],
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of permit processing times",
+    "entity_evidence": [
+      {
+        "span_id": 5140943913460144621,
+        "start": 549516,
+        "end": 549536,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 17014752087374164682
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3790480105776685639,
+        "start": 549516,
+        "end": 549536,
+        "text": "government agency",
+        "chunk_id": 17014752087374164682
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2446360232967922923,
+        "start": 549516,
+        "end": 549536,
+        "text": "restriction",
+        "chunk_id": 17014752087374164682
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2532011036293981595,
+        "start": 549516,
+        "end": 549536,
+        "text": "regulation of permit processing times",
+        "chunk_id": 17014752087374164682
+      }
+    ]
+  }
+]

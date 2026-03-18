@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9963486230054293460,
+    "source_group_id": 13593796463953920521,
+    "source_candidate_ids": [
+      948461418863451270
+    ],
+    "entity": "California Highway Patrol Computer Crimes Investigation Unit",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 12221642784446443548,
+        "start": 419747,
+        "end": 419767,
+        "text": "California Highway Patrol Computer Crimes Investigation Unit",
+        "chunk_id": 2429400819688835580
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17937461333489717384,
+        "start": 419747,
+        "end": 419767,
+        "text": "government agency",
+        "chunk_id": 2429400819688835580
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17418898519883050484,
+        "start": 419747,
+        "end": 419767,
+        "text": "restriction",
+        "chunk_id": 2429400819688835580
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12423224799770462837,
+        "start": 419747,
+        "end": 419767,
+        "text": "conditional",
+        "chunk_id": 2429400819688835580
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13788688110168434860,
+    "entity": "ALSDE",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "competitive grant process",
+    "entity_evidence": [
+      {
+        "span_id": 15031677289368133113,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14227836668605393967,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15312587124373184512,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 225277527209306632,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ]
+  },
+  {
+    "candidate_id": 9505500804394052542,
+    "entity": "State Superintendent",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "directed",
+    "entity_evidence": [
+      {
+        "span_id": 10577200052643019662,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 774177394454980808,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6595812674995723719,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7068419764846508924,
+        "start": 77289,
+        "end": 77300,
+        "text": "State Superintendent",
+        "chunk_id": 4348895783881981901
+      }
+    ]
+  }
+]

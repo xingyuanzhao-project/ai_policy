@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6667052861345888741,
+    "source_group_id": 18253527095800387822,
+    "source_candidate_ids": [
+      11590120297375456474
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "temporary or permanent redirection of funds",
+    "entity_evidence": [
+      {
+        "span_id": 10995618727751393986,
+        "start": 501271,
+        "end": 501294,
+        "text": "Notwithstanding any other law, the Director of Finance may authorize the temporary or permanent redirection of funds",
+        "chunk_id": 10016127979066947407
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17211958415947249471,
+        "start": 501271,
+        "end": 501294,
+        "text": "Notwithstanding any other law, the Director of Finance may authorize the temporary or permanent redirection of funds",
+        "chunk_id": 10016127979066947407
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12571298539931546438,
+        "start": 501271,
+        "end": 501294,
+        "text": "Notwithstanding any other law, the Director of Finance may authorize the temporary or permanent redirection of funds",
+        "chunk_id": 10016127979066947407
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10730688050785194409,
+        "start": 501271,
+        "end": 501294,
+        "text": "Notwithstanding any other law, the Director of Finance may authorize the temporary or permanent redirection of funds",
+        "chunk_id": 10016127979066947407
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "candidate_id": 12823107090324460298,
+    "entity": "Legal Services Trust Fund Commission",
+    "type": "organization",
+    "attribute": "Legal Services Trust Fund Commission",
+    "value": "Legal Services Trust Fund Commission",
+    "entity_evidence": [
+      {
+        "span_id": 18434099923650087847,
+        "start": 36646,
+        "end": 36675,
+        "text": "Legal Services Trust Fund Commission",
+        "chunk_id": 11853883495326255200
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2659233356052109952,
+        "start": 36646,
+        "end": 36675,
+        "text": "organization",
+        "chunk_id": 11853883495326255200
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14691592434150657094,
+        "start": 36646,
+        "end": 36675,
+        "text": "Legal Services Trust Fund Commission",
+        "chunk_id": 11853883495326255200
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16606671448668915866,
+        "start": 36646,
+        "end": 36675,
+        "text": "Legal Services Trust Fund Commission",
+        "chunk_id": 11853883495326255200
+      }
+    ]
+  }
+]

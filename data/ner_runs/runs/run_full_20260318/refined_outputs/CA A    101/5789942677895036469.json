@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1312590255154205668,
+    "source_group_id": 5789942677895036469,
+    "source_candidate_ids": [
+      7096106846628131202
+    ],
+    "entity": "Surplus Money Investment Fund",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 8093257165508646998,
+        "start": 1771614,
+        "end": 1771638,
+        "text": "The Surplus Money Investment Fund",
+        "chunk_id": 13356608496673218456
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7240305929259659405,
+        "start": 1771614,
+        "end": 1771638,
+        "text": "The Surplus Money Investment Fund",
+        "chunk_id": 13356608496673218456
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11027994768480133030,
+        "start": 1771614,
+        "end": 1771638,
+        "text": "The Surplus Money Investment Fund",
+        "chunk_id": 13356608496673218456
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9691928768712088338,
+        "start": 1771614,
+        "end": 1771638,
+        "text": "The Surplus Money Investment Fund",
+        "chunk_id": 13356608496673218456
+      }
+    ]
+  }
+]

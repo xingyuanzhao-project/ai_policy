@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9495873286721513746,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "4,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 3643840159518278717,
+        "start": 1009072,
+        "end": 1009093,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7209109113398808369,
+        "start": 1009072,
+        "end": 1009093,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14298195009232677563,
+        "start": 1009072,
+        "end": 1009093,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8717246789739466080,
+        "start": 1009072,
+        "end": 1009093,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ]
+  },
+  {
+    "candidate_id": 14771726124833346188,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "20,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 14675495776416734035,
+        "start": 1009103,
+        "end": 1009124,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 734335242947522952,
+        "start": 1009103,
+        "end": 1009124,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3158856464810189489,
+        "start": 1009103,
+        "end": 1009124,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17027638638106324549,
+        "start": 1009103,
+        "end": 1009124,
+        "text": "For support of Department of Corrections and Rehabilitation",
+        "chunk_id": 9732664286866148522
+      }
+    ]
+  }
+]

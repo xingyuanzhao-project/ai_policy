@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13344443906657966850,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "monies in the fund are subject to legislative appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 11605559230461717498,
+        "start": 7508,
+        "end": 7528,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 14578829553723011078
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2480197576379931324,
+        "start": 7508,
+        "end": 7528,
+        "text": "government agency",
+        "chunk_id": 14578829553723011078
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13323830470264960722,
+        "start": 7508,
+        "end": 7528,
+        "text": "restriction",
+        "chunk_id": 14578829553723011078
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17411051412570559159,
+        "start": 7508,
+        "end": 7528,
+        "text": "monies in the fund are subject to legislative appropriation",
+        "chunk_id": 14578829553723011078
+      }
+    ]
+  },
+  {
+    "candidate_id": 5260986521187104451,
+    "entity": "federal Edward Byrne memorial justice assistance grant",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "designated state administering agency",
+    "entity_evidence": [
+      {
+        "span_id": 12736965958849013519,
+        "start": 7619,
+        "end": 7640,
+        "text": "federal Edward Byrne memorial justice assistance grant",
+        "chunk_id": 14578829553723011078
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13023437141144789746,
+        "start": 7619,
+        "end": 7640,
+        "text": "technology",
+        "chunk_id": 14578829553723011078
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5291063220752348835,
+        "start": 7619,
+        "end": 7640,
+        "text": "promotion",
+        "chunk_id": 14578829553723011078
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7775845568217121298,
+        "start": 7619,
+        "end": 7640,
+        "text": "designated state administering agency",
+        "chunk_id": 14578829553723011078
+      }
+    ]
+  }
+]

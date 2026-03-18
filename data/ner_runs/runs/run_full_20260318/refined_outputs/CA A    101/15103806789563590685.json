@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13526446979435404462,
+    "source_group_id": 15103806789563590685,
+    "source_candidate_ids": [
+      2241321774524949546
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short-term loan",
+    "entity_evidence": [
+      {
+        "span_id": 12101485199202777536,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5727947741789174828,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12021328412003522913,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5421414443611809257,
+        "start": 1367044,
+        "end": 1367056,
+        "text": "For the 2025- 26 fiscal year, the Director of Finance may authorize a short-term loan",
+        "chunk_id": 2666615668095483002
+      }
+    ]
+  }
+]

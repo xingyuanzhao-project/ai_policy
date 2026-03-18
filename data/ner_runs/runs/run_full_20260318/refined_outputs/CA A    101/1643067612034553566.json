@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8805178803233382041,
+    "source_group_id": 1643067612034553566,
+    "source_candidate_ids": [
+      2212169596443265354
+    ],
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "54,921,000",
+    "entity_evidence": [
+      {
+        "span_id": 14987486984180714421,
+        "start": 1521671,
+        "end": 1521691,
+        "text": "Department of Technology",
+        "chunk_id": 13205798270827756164
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4653516967891064039,
+        "start": 1521671,
+        "end": 1521691,
+        "text": "government agency",
+        "chunk_id": 13205798270827756164
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17619303513363948136,
+        "start": 1521671,
+        "end": 1521691,
+        "text": "promotion",
+        "chunk_id": 13205798270827756164
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8384849173252263138,
+        "start": 1521671,
+        "end": 1521691,
+        "text": "54,921,000",
+        "chunk_id": 13205798270827756164
+      }
+    ]
+  }
+]

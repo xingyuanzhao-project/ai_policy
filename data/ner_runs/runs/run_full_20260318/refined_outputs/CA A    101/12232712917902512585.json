@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16809191886342693528,
+    "source_group_id": 12232712917902512585,
+    "source_candidate_ids": [
+      2141793049451628643
+    ],
+    "entity": "Department of Financial Protection and Innovation",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "annual report submission",
+    "entity_evidence": [
+      {
+        "span_id": 7383292207499415311,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6833618772667803496,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7415825793224280621,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10289723058347540210,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ]
+  }
+]

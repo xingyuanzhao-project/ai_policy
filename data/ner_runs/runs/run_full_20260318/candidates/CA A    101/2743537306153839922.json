@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8116924274934073184,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "temporary",
+    "entity_evidence": [
+      {
+        "span_id": 1969588805122750952,
+        "start": 1783530,
+        "end": 1783550,
+        "text": "Department of Finance",
+        "chunk_id": 2743537306153839922
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13762101173743884097,
+        "start": 1783530,
+        "end": 1783550,
+        "text": "Department of Finance",
+        "chunk_id": 2743537306153839922
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17963944012599653559,
+        "start": 1783530,
+        "end": 1783550,
+        "text": "Department of Finance",
+        "chunk_id": 2743537306153839922
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14817531823894970862,
+        "start": 1783530,
+        "end": 1783550,
+        "text": "Department of Finance",
+        "chunk_id": 2743537306153839922
+      }
+    ]
+  },
+  {
+    "candidate_id": 12308981604956692575,
+    "entity": "Public Employees' Contingency Reserve Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 13427215083799276242,
+        "start": 1783752,
+        "end": 1783780,
+        "text": "Public Employees' Contingency Reserve Fund",
+        "chunk_id": 2743537306153839922
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11470345021754649753,
+        "start": 1783752,
+        "end": 1783780,
+        "text": "Public Employees' Contingency Reserve Fund",
+        "chunk_id": 2743537306153839922
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6846188789982764611,
+        "start": 1783752,
+        "end": 1783780,
+        "text": "Public Employees' Contingency Reserve Fund",
+        "chunk_id": 2743537306153839922
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12547194582059490377,
+        "start": 1783752,
+        "end": 1783780,
+        "text": "Public Employees' Contingency Reserve Fund",
+        "chunk_id": 2743537306153839922
+      }
+    ]
+  }
+]

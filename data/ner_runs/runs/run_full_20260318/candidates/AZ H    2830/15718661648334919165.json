@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12839113486490340323,
+    "entity": "attorney general agency services fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exempt",
+    "entity_evidence": [
+      {
+        "span_id": 6073033968984577053,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7234282415974076014,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16619053212865672156,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16175433980792101762,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ]
+  },
+  {
+    "candidate_id": 1730867038094466649,
+    "entity": "state general fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exempt",
+    "entity_evidence": [
+      {
+        "span_id": 15311851801531073877,
+        "start": 8710,
+        "end": 8729,
+        "text": "state general fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9805005255119803823,
+        "start": 8710,
+        "end": 8729,
+        "text": "state general fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10486209643167054159,
+        "start": 8710,
+        "end": 8729,
+        "text": "state general fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11003331453340576075,
+        "start": 8710,
+        "end": 8729,
+        "text": "state general fund",
+        "chunk_id": 15718661648334919165
+      }
+    ]
+  }
+]

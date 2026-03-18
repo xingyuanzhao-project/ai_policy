@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3551599799562942554,
+    "source_group_id": 11439180613305100375,
+    "source_candidate_ids": [
+      12875041083589636507
+    ],
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "quarterly",
+    "entity_evidence": [
+      {
+        "span_id": 5230689897082097539,
+        "start": 321007,
+        "end": 321026,
+        "text": "Department of Transportation",
+        "chunk_id": 12031147930205617320
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11232151947748259220,
+        "start": 321007,
+        "end": 321026,
+        "text": "Department of Transportation",
+        "chunk_id": 12031147930205617320
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12072345376584460696,
+        "start": 321007,
+        "end": 321026,
+        "text": "Department of Transportation",
+        "chunk_id": 12031147930205617320
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2675997692156057069,
+        "start": 321007,
+        "end": 321026,
+        "text": "Department of Transportation",
+        "chunk_id": 12031147930205617320
+      }
+    ]
+  }
+]

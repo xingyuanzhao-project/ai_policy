@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4672695162226476625,
+    "source_group_id": 13018027964372652122,
+    "source_candidate_ids": [
+      2131885689690690607
+    ],
+    "entity": "African American Male Education Network and Development (A2MEND)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 15798720224622279349,
+        "start": 1413707,
+        "end": 1413727,
+        "text": "African American Male Education Network and Development (A2MEND)",
+        "chunk_id": 2539034545909911986
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8636026510889779813,
+        "start": 1413707,
+        "end": 1413727,
+        "text": "technology",
+        "chunk_id": 2539034545909911986
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15704119186842297519,
+        "start": 1413707,
+        "end": 1413727,
+        "text": "promotion",
+        "chunk_id": 2539034545909911986
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12190698045883710618,
+        "start": 1413707,
+        "end": 1413727,
+        "text": "extensive",
+        "chunk_id": 2539034545909911986
+      }
+    ]
+  }
+]

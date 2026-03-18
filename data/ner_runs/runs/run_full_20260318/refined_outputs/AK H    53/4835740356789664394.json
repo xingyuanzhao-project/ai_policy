@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10365134477766404597,
+    "source_group_id": 4835740356789664394,
+    "source_candidate_ids": [
+      17288268473253420311
+    ],
+    "entity": "Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expansion of service provision",
+    "entity_evidence": [
+      {
+        "span_id": 17064160119180351303,
+        "start": 28737,
+        "end": 28742,
+        "text": "Department",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6589178548730008254,
+        "start": 28737,
+        "end": 28744,
+        "text": "Department direct grantees",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9996968192336283458,
+        "start": 28744,
+        "end": 28754,
+        "text": "expand service provision",
+        "chunk_id": 14557379215365275205
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17288384465457660050,
+        "start": 28754,
+        "end": 28764,
+        "text": "25 percent or more delay",
+        "chunk_id": 14557379215365275205
+      }
+    ]
+  }
+]

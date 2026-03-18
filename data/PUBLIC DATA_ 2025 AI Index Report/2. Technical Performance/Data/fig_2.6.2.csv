@@ -1,0 +1,4 @@
+year,model,accuracy
+2022,Minerva 62B (maj5@100),89.00%
+2023,PaLM 2 (few-shot k=8 SC),91.00%
+2024,Claude 3.5 Sonnet (HPT),97.72%

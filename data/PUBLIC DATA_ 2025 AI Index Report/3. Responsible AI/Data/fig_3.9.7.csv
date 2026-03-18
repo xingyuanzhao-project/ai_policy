@@ -1,0 +1,19 @@
+Attack type,Attack success rate,Model
+Direct requests,0.086,Llama3-8B-instruct
+PAIR,0.089,Llama3-8B-instruct
+Prefill,0.488,Llama3-8B-instruct
+AutoPrompt,0.151,Llama3-8B-instruct
+GCG,0.197,Llama3-8B-instruct
+Many-shot,0.165,Llama3-8B-instruct
+Direct requests,0,RT
+PAIR,0.143,RT
+Prefill,0.135,RT
+AutoPrompt,0.01,RT
+GCG,0.039,RT
+Many-shot,0.033,RT
+Direct requests,0,RT-EAT-LAT
+PAIR,0.033,RT-EAT-LAT
+Prefill,0.068,RT-EAT-LAT
+AutoPrompt,0,RT-EAT-LAT
+GCG,0.009,RT-EAT-LAT
+Many-shot,0,RT-EAT-LAT

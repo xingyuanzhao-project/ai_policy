@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11120926483383352267,
+    "source_group_id": 1076353523784955893,
+    "source_candidate_ids": [
+      12657258152027125835
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "consultation",
+    "value": "regular consultation",
+    "entity_evidence": [
+      {
+        "span_id": 13741366399347636973,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17224926784724981891,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14086301748937009271,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12411806738606384047,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ]
+  }
+]

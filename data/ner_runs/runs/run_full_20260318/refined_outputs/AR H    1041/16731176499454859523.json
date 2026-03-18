@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 10794287756954101005,
+    "source_group_id": 16731176499454859523,
+    "source_candidate_ids": [
+      5112476905077243469,
+      6679040802334311106
+    ],
+    "entity": "Deceptive and fraudulent deepfakes",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "within ninety (90) days of an election",
+    "entity_evidence": [
+      {
+        "span_id": 14484895568867584410,
+        "start": 0,
+        "end": 24,
+        "text": "Deceptive and fraudulent deepfakes",
+        "chunk_id": 17357540344161209333
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11667869290441867959,
+        "start": 0,
+        "end": 13,
+        "text": "Synthetic media",
+        "chunk_id": 17357540344161209333
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11575127802858446375,
+        "start": 25,
+        "end": 43,
+        "text": "restriction",
+        "chunk_id": 17357540344161209333
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8733451704087947088,
+        "start": 44,
+        "end": 63,
+        "text": "within ninety (90) days of an election",
+        "chunk_id": 17357540344161209333
+      }
+    ]
+  }
+]

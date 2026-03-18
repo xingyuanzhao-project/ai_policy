@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8071775165246149315,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 2134478740695336100,
+        "start": 928742,
+        "end": 928749,
+        "text": "30 days",
+        "chunk_id": 2779437221599353924
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8126451669258769979,
+        "start": 928742,
+        "end": 928749,
+        "text": "30 days",
+        "chunk_id": 2779437221599353924
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5685963550625889343,
+        "start": 928742,
+        "end": 928749,
+        "text": "30 days",
+        "chunk_id": 2779437221599353924
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16111741234123356986,
+        "start": 928742,
+        "end": 928749,
+        "text": "30 days",
+        "chunk_id": 2779437221599353924
+      }
+    ]
+  },
+  {
+    "candidate_id": 15002781088348731470,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "$500,000",
+    "entity_evidence": [
+      {
+        "span_id": 7866814483043867445,
+        "start": 928853,
+        "end": 928861,
+        "text": "General Fund",
+        "chunk_id": 2779437221599353924
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5421725430556575135,
+        "start": 928853,
+        "end": 928861,
+        "text": "infrastructure",
+        "chunk_id": 2779437221599353924
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11371140768662317440,
+        "start": 928853,
+        "end": 928861,
+        "text": "infrastructure",
+        "chunk_id": 2779437221599353924
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3018276375969565914,
+        "start": 928853,
+        "end": 928861,
+        "text": "infrastructure",
+        "chunk_id": 2779437221599353924
+      }
+    ]
+  }
+]

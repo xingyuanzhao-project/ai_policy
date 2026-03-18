@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10060704695385435906,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from competitive bidding",
+    "entity_evidence": [
+      {
+        "span_id": 16196483966100269487,
+        "start": 534367,
+        "end": 534387,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 9399931719088882623
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12123624756966834225,
+        "start": 534367,
+        "end": 534387,
+        "text": "government agency",
+        "chunk_id": 9399931719088882623
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4411408794939320686,
+        "start": 534367,
+        "end": 534387,
+        "text": "restriction",
+        "chunk_id": 9399931719088882623
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8282771013402453406,
+        "start": 534367,
+        "end": 534387,
+        "text": "exempt from competitive bidding",
+        "chunk_id": 9399931719088882623
+      }
+    ]
+  },
+  {
+    "candidate_id": 18250696616160493852,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "available for encumbrance or expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 7161530642520452771,
+        "start": 534389,
+        "end": 534408,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 9399931719088882623
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3425839388292905826,
+        "start": 534389,
+        "end": 534408,
+        "text": "infrastructure",
+        "chunk_id": 9399931719088882623
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12800208199023712436,
+        "start": 534389,
+        "end": 534408,
+        "text": "promotion",
+        "chunk_id": 9399931719088882623
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1633195603679489995,
+        "start": 534389,
+        "end": 534408,
+        "text": "available for encumbrance or expenditure",
+        "chunk_id": 9399931719088882623
+      }
+    ]
+  }
+]

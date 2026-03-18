@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9168208872184292316,
+    "entity": "California Tahoe Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "capital outlay",
+    "entity_evidence": [
+      {
+        "span_id": 7480615703025907967,
+        "start": 426218,
+        "end": 426241,
+        "text": "California Tahoe Conservancy",
+        "chunk_id": 17934845879700937568
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3196804863926827431,
+        "start": 426218,
+        "end": 426241,
+        "text": "government agency",
+        "chunk_id": 17934845879700937568
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5324169366993811326,
+        "start": 426218,
+        "end": 426241,
+        "text": "promotion",
+        "chunk_id": 17934845879700937568
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16946745642647407849,
+        "start": 426218,
+        "end": 426241,
+        "text": "capital outlay",
+        "chunk_id": 17934845879700937568
+      }
+    ]
+  },
+  {
+    "candidate_id": 984915409841917401,
+    "entity": "Environmental License Plate Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 9657195346314656163,
+        "start": 425906,
+        "end": 425940,
+        "text": "Environmental License Plate Fund",
+        "chunk_id": 17934845879700937568
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6484977088111135719,
+        "start": 425906,
+        "end": 425940,
+        "text": "infrastructure",
+        "chunk_id": 17934845879700937568
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7518385496840693433,
+        "start": 425906,
+        "end": 425940,
+        "text": "restriction",
+        "chunk_id": 17934845879700937568
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6021475836657088177,
+        "start": 425906,
+        "end": 425940,
+        "text": "encumbrance or expenditure",
+        "chunk_id": 17934845879700937568
+      }
+    ]
+  }
+]

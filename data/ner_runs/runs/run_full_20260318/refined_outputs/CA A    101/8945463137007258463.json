@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17519821530250639346,
+    "source_group_id": 8945463137007258463,
+    "source_candidate_ids": [
+      1570178544752601264
+    ],
+    "entity": "Trade Corridors Improvement Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 1714540541755760824,
+        "start": 404131,
+        "end": 404151,
+        "text": "Trade Corridors Improvement Fund",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8869792822465154532,
+        "start": 404131,
+        "end": 404151,
+        "text": "infrastructure",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10772931783553395407,
+        "start": 404131,
+        "end": 404151,
+        "text": "promotion",
+        "chunk_id": 8797915374763609727
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7037952729027948323,
+        "start": 404131,
+        "end": 404151,
+        "text": "moderate",
+        "chunk_id": 8797915374763609727
+      }
+    ]
+  }
+]

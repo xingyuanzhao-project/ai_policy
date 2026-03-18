@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14654910269272320238,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 17093414288280184792,
+        "start": 980985,
+        "end": 981005,
+        "text": "State Department of Social Services",
+        "chunk_id": 17605278245931866353
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13010647307927447501,
+        "start": 980985,
+        "end": 981005,
+        "text": "State Department of Social Services",
+        "chunk_id": 17605278245931866353
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4748792349365817284,
+        "start": 980985,
+        "end": 981005,
+        "text": "State Department of Social Services",
+        "chunk_id": 17605278245931866353
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16405376301613594047,
+        "start": 980985,
+        "end": 981005,
+        "text": "until June 30, 2028",
+        "chunk_id": 17605278245931866353
+      }
+    ]
+  },
+  {
+    "candidate_id": 222871784320606703,
+    "entity": "California Food Assistance Program Expansion",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "$38,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 5162524838191361849,
+        "start": 981085,
+        "end": 981105,
+        "text": "California Food Assistance Program Expansion",
+        "chunk_id": 17605278245931866353
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15408025653058073930,
+        "start": 981085,
+        "end": 981105,
+        "text": "California Food Assistance Program Expansion",
+        "chunk_id": 17605278245931866353
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14035102695325857709,
+        "start": 981085,
+        "end": 981105,
+        "text": "California Food Assistance Program Expansion",
+        "chunk_id": 17605278245931866353
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6198452388738163352,
+        "start": 981085,
+        "end": 981105,
+        "text": "$38,000,000",
+        "chunk_id": 17605278245931866353
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5170833918805207148,
+    "entity": "Department of Alcoholic Beverage Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15404551154686920859,
+        "start": 287726,
+        "end": 287746,
+        "text": "Department of Alcoholic Beverage Control",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17921052413349174030,
+        "start": 287726,
+        "end": 287746,
+        "text": "government agency",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12889699800920709178,
+        "start": 287726,
+        "end": 287746,
+        "text": "restriction",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10733443716555800010,
+        "start": 287726,
+        "end": 287746,
+        "text": "limited",
+        "chunk_id": 5760139089450835823
+      }
+    ]
+  },
+  {
+    "candidate_id": 14202543099481987538,
+    "entity": "Horseracing Integrity and Safety Authority",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 493320375052904933,
+        "start": 287726,
+        "end": 287746,
+        "text": "Horseracing Integrity and Safety Authority",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16110538261086085565,
+        "start": 287726,
+        "end": 287746,
+        "text": "government agency",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3112739803016566644,
+        "start": 287726,
+        "end": 287746,
+        "text": "promotion",
+        "chunk_id": 5760139089450835823
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17909634868661998758,
+        "start": 287726,
+        "end": 287746,
+        "text": "encouraged",
+        "chunk_id": 5760139089450835823
+      }
+    ]
+  }
+]

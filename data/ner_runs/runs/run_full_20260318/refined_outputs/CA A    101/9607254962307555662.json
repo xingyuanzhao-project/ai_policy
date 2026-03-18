@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12990297560434729751,
+    "source_group_id": 9607254962307555662,
+    "source_candidate_ids": [
+      10795352680926308416
+    ],
+    "entity": "Habitat Conservation Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 16436402164866500157,
+        "start": 572823,
+        "end": 572843,
+        "text": "Habitat Conservation Fund",
+        "chunk_id": 13191070215691123849
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2681745905971081346,
+        "start": 572823,
+        "end": 572843,
+        "text": "Habitat Conservation Fund",
+        "chunk_id": 13191070215691123849
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15913353412761414111,
+        "start": 572843,
+        "end": 572854,
+        "text": "consistent with the requirements",
+        "chunk_id": 13191070215691123849
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5326433945777206448,
+        "start": 572854,
+        "end": 572865,
+        "text": "until June 30, 2028",
+        "chunk_id": 13191070215691123849
+      }
+    ]
+  }
+]

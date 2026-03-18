@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7092677979045055024,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "recipient",
+    "entity_evidence": [
+      {
+        "span_id": 11175317451029756059,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14631086721238121711,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4433550947865914290,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9128782943409081329,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ]
+  },
+  {
+    "candidate_id": 16625888073415289990,
+    "entity": "California State Board of Education",
+    "type": "government agency",
+    "attribute": "regulator",
+    "value": "regulator",
+    "entity_evidence": [
+      {
+        "span_id": 1330596301556994696,
+        "start": 1264469,
+        "end": 1264489,
+        "text": "California State Board of Education",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3118120147172207510,
+        "start": 1264469,
+        "end": 1264489,
+        "text": "California State Board of Education",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7713516791553935465,
+        "start": 1264469,
+        "end": 1264489,
+        "text": "California State Board of Education",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9175676961883592853,
+        "start": 1264469,
+        "end": 1264489,
+        "text": "California State Board of Education",
+        "chunk_id": 7323534862309789224
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12433099949748747652,
+    "source_group_id": 11838508840630001981,
+    "source_candidate_ids": [
+      7136716436492634486
+    ],
+    "entity": "California Small Business Development Technical Assistance Expansion Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 15202105459302682011,
+        "start": 76889,
+        "end": 76909,
+        "text": "California Small Business Development Technical Assistance Expansion Program",
+        "chunk_id": 9570606235683028403
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 489648263568006547,
+        "start": 76889,
+        "end": 76909,
+        "text": "technology",
+        "chunk_id": 9570606235683028403
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1830545599064217709,
+        "start": 76889,
+        "end": 76909,
+        "text": "promotion",
+        "chunk_id": 9570606235683028403
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1976341892265399453,
+        "start": 76889,
+        "end": 76909,
+        "text": "extensive",
+        "chunk_id": 9570606235683028403
+      }
+    ]
+  }
+]

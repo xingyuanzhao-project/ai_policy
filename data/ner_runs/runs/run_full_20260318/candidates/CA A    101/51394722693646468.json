@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16667943070131925962,
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16277902082101276275,
+        "start": 1481667,
+        "end": 1481687,
+        "text": "For support of Employment Development Department",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10079773010604861637,
+        "start": 1481667,
+        "end": 1481687,
+        "text": "For support of Employment Development Department",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3473809419854514412,
+        "start": 1481667,
+        "end": 1481687,
+        "text": "For support of Employment Development Department",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13562027381475757899,
+        "start": 1481667,
+        "end": 1481687,
+        "text": "For support of Employment Development Department",
+        "chunk_id": 51394722693646468
+      }
+    ]
+  },
+  {
+    "candidate_id": 860241954164930633,
+    "entity": "Unemployment Insurance Code",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6541044563012381898,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13080411045563314862,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17139581090607790355,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4424215133142419394,
+        "start": 1481767,
+        "end": 1481787,
+        "text": "Section 1555 of the Unemployment Insurance Code",
+        "chunk_id": 51394722693646468
+      }
+    ]
+  }
+]

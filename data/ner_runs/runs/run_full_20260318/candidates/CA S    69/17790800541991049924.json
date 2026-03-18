@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17369463337046266102,
+    "entity": "Clean Cars 4 All",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "state funding",
+    "entity_evidence": [
+      {
+        "span_id": 18348985938066271194,
+        "start": 2383,
+        "end": 2396,
+        "text": "Clean Cars 4 All",
+        "chunk_id": 17790800541991049924
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3975237227410534295,
+        "start": 2383,
+        "end": 2396,
+        "text": "Clean Cars 4 All",
+        "chunk_id": 17790800541991049924
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8034535488265712756,
+        "start": 2383,
+        "end": 2396,
+        "text": "Clean Cars 4 All",
+        "chunk_id": 17790800541991049924
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9126983519505831952,
+        "start": 2383,
+        "end": 2396,
+        "text": "Clean Cars 4 All",
+        "chunk_id": 17790800541991049924
+      }
+    ]
+  },
+  {
+    "candidate_id": 8072245127754194593,
+    "entity": "state board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "minimal impact",
+    "entity_evidence": [
+      {
+        "span_id": 11976708830876987865,
+        "start": 2517,
+        "end": 2525,
+        "text": "state board",
+        "chunk_id": 17790800541991049924
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11950003389302174561,
+        "start": 2517,
+        "end": 2525,
+        "text": "state board",
+        "chunk_id": 17790800541991049924
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1786430163553508560,
+        "start": 2517,
+        "end": 2525,
+        "text": "state board",
+        "chunk_id": 17790800541991049924
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17644146411212745258,
+        "start": 2517,
+        "end": 2525,
+        "text": "state board",
+        "chunk_id": 17790800541991049924
+      }
+    ]
+  }
+]

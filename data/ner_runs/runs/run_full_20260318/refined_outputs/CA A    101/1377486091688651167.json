@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15015653769836496645,
+    "source_group_id": 1377486091688651167,
+    "source_candidate_ids": [
+      4303390084366092752
+    ],
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 16619117657375377365,
+        "start": 720071,
+        "end": 720096,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 8234213564250992713
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12757259068634859691,
+        "start": 720071,
+        "end": 720096,
+        "text": "government agency",
+        "chunk_id": 8234213564250992713
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6423416241514736907,
+        "start": 720071,
+        "end": 720096,
+        "text": "promotion",
+        "chunk_id": 8234213564250992713
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5670789660764086146,
+        "start": 720071,
+        "end": 720096,
+        "text": "support",
+        "chunk_id": 8234213564250992713
+      }
+    ]
+  }
+]

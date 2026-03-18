@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17393969858680347220,
+    "source_group_id": 12374177209916924278,
+    "source_candidate_ids": [
+      18233909716070698720
+    ],
+    "entity": "Department of Resources Recycling and Recovery",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure augmentation",
+    "entity_evidence": [
+      {
+        "span_id": 4602583296862780474,
+        "start": 764135,
+        "end": 764155,
+        "text": "Department of Resources Recycling and Recovery",
+        "chunk_id": 4039170637676176385
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2932292665261176736,
+        "start": 764135,
+        "end": 764155,
+        "text": "Department of Resources Recycling and Recovery",
+        "chunk_id": 4039170637676176385
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5640832702868493133,
+        "start": 763872,
+        "end": 763882,
+        "text": "expenditures for the Department of Resources Recycling and Recovery",
+        "chunk_id": 4039170637676176385
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7407180755764888907,
+        "start": 763872,
+        "end": 763882,
+        "text": "expenditures for the Department of Resources Recycling and Recovery",
+        "chunk_id": 4039170637676176385
+      }
+    ]
+  }
+]

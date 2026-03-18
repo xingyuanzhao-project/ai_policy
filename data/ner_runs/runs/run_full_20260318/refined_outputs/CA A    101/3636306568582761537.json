@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12868778722205205266,
+    "source_group_id": 3636306568582761537,
+    "source_candidate_ids": [
+      15626391595429248142
+    ],
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "one-time basis",
+    "entity_evidence": [
+      {
+        "span_id": 7307427617747048372,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "State Department of Social Services",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8011080891981791169,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "government agency",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1806989487950792317,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "allocation",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15447932116419909442,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "one-time basis",
+        "chunk_id": 9533150594215128995
+      }
+    ]
+  }
+]

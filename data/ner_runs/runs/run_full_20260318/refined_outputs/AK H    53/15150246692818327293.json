@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3563408022143081720,
+    "source_group_id": 15150246692818327293,
+    "source_candidate_ids": [
+      18037680463583216879
+    ],
+    "entity": "Department of Commerce, Community, and Economic Development",
+    "type": "government agency",
+    "attribute": "actuarial support",
+    "value": "fiscal years ending June 30, 2026, and June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 14584885023074137330,
+        "start": 120962,
+        "end": 120990,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11252648769843770366,
+        "start": 120962,
+        "end": 120990,
+        "text": "government agency",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1872515259664259812,
+        "start": 120962,
+        "end": 120990,
+        "text": "actuarial support",
+        "chunk_id": 4548140352001086735
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16213140346701184993,
+        "start": 120962,
+        "end": 120990,
+        "text": "fiscal years ending June 30, 2026, and June 30, 2027",
+        "chunk_id": 4548140352001086735
+      }
+    ]
+  }
+]

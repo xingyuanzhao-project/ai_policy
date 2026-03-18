@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 419926868870646308,
+    "entity": "Department of Motor Vehicles",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 10158964872553767395,
+        "start": 434743,
+        "end": 434763,
+        "text": "support of Department of Motor Vehicles",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14696053803657092992,
+        "start": 434743,
+        "end": 434763,
+        "text": "Department of Motor Vehicles",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11592197150493817385,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9990145750526375344,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ]
+  },
+  {
+    "candidate_id": 1838012306487587412,
+    "entity": "Digital eXperience Platform project",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 12263868296060437379,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6267903383192252244,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18354752476996378672,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12290759275053531473,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ]
+  }
+]

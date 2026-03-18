@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15274628333328368138,
+    "entity": "election official",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "knowingly permits or makes or attempts to make a false count of election returns",
+    "entity_evidence": [
+      {
+        "span_id": 986706946954183513,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7237327169546004425,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18070883861770791235,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3937936649955285528,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ]
+  },
+  {
+    "candidate_id": 1832431645558630761,
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+    "entity_evidence": [
+      {
+        "span_id": 17766647066543374852,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7625847080268149723,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2465684823780571954,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7234966833327415490,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ]
+  }
+]

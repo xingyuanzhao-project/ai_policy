@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11128955439971912422,
+    "entity": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 14046292645550299071,
+        "start": 562364,
+        "end": 562384,
+        "text": "until June 30, 2026",
+        "chunk_id": 2957288150581534025
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12239840753538405252,
+        "start": 562364,
+        "end": 562384,
+        "text": "until June 30, 2026",
+        "chunk_id": 2957288150581534025
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6145744393748099748,
+        "start": 562364,
+        "end": 562384,
+        "text": "until June 30, 2026",
+        "chunk_id": 2957288150581534025
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4380630401305464222,
+        "start": 562364,
+        "end": 562384,
+        "text": "until June 30, 2026",
+        "chunk_id": 2957288150581534025
+      }
+    ]
+  },
+  {
+    "candidate_id": 1326365058521030837,
+    "entity": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 1119050396267910174,
+        "start": 562475,
+        "end": 562495,
+        "text": "until June 30, 2028",
+        "chunk_id": 2957288150581534025
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10380647298269002149,
+        "start": 562475,
+        "end": 562495,
+        "text": "until June 30, 2028",
+        "chunk_id": 2957288150581534025
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11583369661986178725,
+        "start": 562475,
+        "end": 562495,
+        "text": "until June 30, 2028",
+        "chunk_id": 2957288150581534025
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12993801470512188906,
+        "start": 562475,
+        "end": 562495,
+        "text": "until June 30, 2028",
+        "chunk_id": 2957288150581534025
+      }
+    ]
+  }
+]

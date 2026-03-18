@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1049746237752227223,
+    "entity": "Department for Child Care and After School Care Programs",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "expenditure of federal stimulus funds",
+    "entity_evidence": [
+      {
+        "span_id": 900336131633928317,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6056697523529756360,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7407719310525874871,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9088848494792853791,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ]
+  },
+  {
+    "candidate_id": 7337210707384038331,
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "expenditure of funds",
+    "entity_evidence": [
+      {
+        "span_id": 14679659871907373733,
+        "start": 99545,
+        "end": 99566,
+        "text": "Department of Human Resources",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17882743075338727039,
+        "start": 99545,
+        "end": 99566,
+        "text": "Department of Human Resources",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5798677388613259383,
+        "start": 99545,
+        "end": 99566,
+        "text": "Department of Human Resources",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18083529395529817097,
+        "start": 99545,
+        "end": 99566,
+        "text": "Department of Human Resources",
+        "chunk_id": 9876269681712651882
+      }
+    ]
+  }
+]

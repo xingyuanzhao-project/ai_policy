@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7083492266117985743,
+    "entity": "Arts Council",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "further expand programs into communities and populations",
+    "entity_evidence": [
+      {
+        "span_id": 1378612390851183936,
+        "start": 1510686,
+        "end": 1510698,
+        "text": "Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1204393289713304822,
+        "start": 1510686,
+        "end": 1510698,
+        "text": "Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2199448542877221940,
+        "start": 1510686,
+        "end": 1510698,
+        "text": "Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2338196236357820473,
+        "start": 1510686,
+        "end": 1510698,
+        "text": "Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ]
+  },
+  {
+    "candidate_id": 9619868985954578761,
+    "entity": "California Arts Council",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "arts programming grants",
+    "entity_evidence": [
+      {
+        "span_id": 4794442299238514576,
+        "start": 1510686,
+        "end": 1510706,
+        "text": "California Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8042728089033580051,
+        "start": 1510686,
+        "end": 1510706,
+        "text": "California Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3107162800465669614,
+        "start": 1510686,
+        "end": 1510706,
+        "text": "California Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8815416528091334658,
+        "start": 1510686,
+        "end": 1510706,
+        "text": "California Arts Council",
+        "chunk_id": 6260356072329727023
+      }
+    ]
+  }
+]

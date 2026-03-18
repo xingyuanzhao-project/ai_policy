@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14225212257730404256,
+    "entity": "Judicial Branch",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of rental payments on lease-revenue bonds",
+    "entity_evidence": [
+      {
+        "span_id": 9194860362255343722,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17825187880248782328,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9083630357628494147,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2126619012575919725,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ]
+  },
+  {
+    "candidate_id": 17419396501048115839,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of rental payments on lease-revenue bonds",
+    "entity_evidence": [
+      {
+        "span_id": 8546262209877296375,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2486141566421456101,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18379008322576176111,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9711581280436257284,
+        "start": 24160,
+        "end": 24178,
+        "text": "For support of Judicial Branch, for rental payments on lease-revenue bonds",
+        "chunk_id": 12639898727334874408
+      }
+    ]
+  }
+]

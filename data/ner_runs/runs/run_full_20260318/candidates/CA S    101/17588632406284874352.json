@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13686750855523104254,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "early transfer of funds",
+    "entity_evidence": [
+      {
+        "span_id": 712847595836341515,
+        "start": 839417,
+        "end": 839437,
+        "text": "State Department of Public Health",
+        "chunk_id": 17588632406284874352
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9292849575148475215,
+        "start": 839417,
+        "end": 839437,
+        "text": "government agency",
+        "chunk_id": 17588632406284874352
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7723260278401205614,
+        "start": 839417,
+        "end": 839437,
+        "text": "restriction",
+        "chunk_id": 17588632406284874352
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14221161119225054011,
+        "start": 839417,
+        "end": 839437,
+        "text": "early transfer of funds",
+        "chunk_id": 17588632406284874352
+      }
+    ]
+  },
+  {
+    "candidate_id": 459243709353567364,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "additional rental",
+    "entity_evidence": [
+      {
+        "span_id": 12888578504220965618,
+        "start": 839528,
+        "end": 839549,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 17588632406284874352
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14447601276844988351,
+        "start": 839528,
+        "end": 839549,
+        "text": "infrastructure",
+        "chunk_id": 17588632406284874352
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6321589648700601095,
+        "start": 839528,
+        "end": 839549,
+        "text": "promotion",
+        "chunk_id": 17588632406284874352
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3651966182107665988,
+        "start": 839528,
+        "end": 839549,
+        "text": "additional rental",
+        "chunk_id": 17588632406284874352
+      }
+    ]
+  }
+]

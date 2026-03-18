@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11028567591281546941,
+    "source_group_id": 14769151241515932948,
+    "source_candidate_ids": [
+      1876766911287399630
+    ],
+    "entity": "Office of the Inspector General",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "52,397,000",
+    "entity_evidence": [
+      {
+        "span_id": 687287547389982818,
+        "start": 113951,
+        "end": 113971,
+        "text": "Office of the Inspector General",
+        "chunk_id": 16602714046320050713
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14692527966046093596,
+        "start": 113951,
+        "end": 113971,
+        "text": "Office of the Inspector General",
+        "chunk_id": 16602714046320050713
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11419865466512635216,
+        "start": 113951,
+        "end": 113971,
+        "text": "Office of the Inspector General",
+        "chunk_id": 16602714046320050713
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8628026400408143949,
+        "start": 113951,
+        "end": 113971,
+        "text": "Office of the Inspector General",
+        "chunk_id": 16602714046320050713
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11028727830931447930,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "supplement",
+    "entity_evidence": [
+      {
+        "span_id": 16223359179205067610,
+        "start": 1326847,
+        "end": 1326867,
+        "text": "University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5158104904830958056,
+        "start": 1326847,
+        "end": 1326867,
+        "text": "University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6965615487060315258,
+        "start": 1326847,
+        "end": 1326867,
+        "text": "University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16396591618650840708,
+        "start": 1326847,
+        "end": 1326867,
+        "text": "University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ]
+  },
+  {
+    "candidate_id": 13713146841594787424,
+    "entity": "Office of the President of the University of California",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "regularly",
+    "entity_evidence": [
+      {
+        "span_id": 14000536200730113472,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18364218326532003224,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8838650078469143952,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2304450662532391270,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ]
+  }
+]

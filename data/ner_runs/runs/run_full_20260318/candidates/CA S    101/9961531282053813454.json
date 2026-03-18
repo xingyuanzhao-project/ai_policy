@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8107524102990609395,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "competitive bidding",
+    "entity_evidence": [
+      {
+        "span_id": 568844680412688082,
+        "start": 479562,
+        "end": 479592,
+        "text": "The Department of Forestry and Fire Protection",
+        "chunk_id": 9961531282053813454
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18036589666148387982,
+        "start": 479562,
+        "end": 479592,
+        "text": "The Department of Forestry and Fire Protection",
+        "chunk_id": 9961531282053813454
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14826433216129691172,
+        "start": 479562,
+        "end": 479592,
+        "text": "The Department of Forestry and Fire Protection",
+        "chunk_id": 9961531282053813454
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14755915719894494632,
+        "start": 479562,
+        "end": 479592,
+        "text": "The Department of Forestry and Fire Protection",
+        "chunk_id": 9961531282053813454
+      }
+    ]
+  },
+  {
+    "candidate_id": 10385490378719719071,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "augmentation",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 11897580487670518331,
+        "start": 479674,
+        "end": 479690,
+        "text": "The Department of Finance",
+        "chunk_id": 9961531282053813454
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12462068900727387290,
+        "start": 479674,
+        "end": 479690,
+        "text": "The Department of Finance",
+        "chunk_id": 9961531282053813454
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 819758083811310921,
+        "start": 479674,
+        "end": 479690,
+        "text": "The Department of Finance",
+        "chunk_id": 9961531282053813454
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5535820279347685572,
+        "start": 479674,
+        "end": 479690,
+        "text": "The Department of Finance",
+        "chunk_id": 9961531282053813454
+      }
+    ]
+  }
+]

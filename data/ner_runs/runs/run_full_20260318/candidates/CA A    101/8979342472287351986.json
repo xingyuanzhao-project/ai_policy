@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15400096955120070743,
+    "entity": "community college districts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportional share of students",
+    "entity_evidence": [
+      {
+        "span_id": 4048298887270342037,
+        "start": 1416171,
+        "end": 1416190,
+        "text": "community college districts",
+        "chunk_id": 8979342472287351986
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4474477806141125742,
+        "start": 1416171,
+        "end": 1416190,
+        "text": "government agency",
+        "chunk_id": 8979342472287351986
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 594138285722069182,
+        "start": 1416171,
+        "end": 1416190,
+        "text": "restriction",
+        "chunk_id": 8979342472287351986
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14388002650954963473,
+        "start": 1416171,
+        "end": 1416190,
+        "text": "proportional share of students",
+        "chunk_id": 8979342472287351986
+      }
+    ]
+  },
+  {
+    "candidate_id": 16739187576772070789,
+    "entity": "Chancellor's Office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "equity metrics",
+    "entity_evidence": [
+      {
+        "span_id": 17740213056232004270,
+        "start": 1416171,
+        "end": 1416184,
+        "text": "Chancellor's Office",
+        "chunk_id": 8979342472287351986
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18081245594622578357,
+        "start": 1416171,
+        "end": 1416184,
+        "text": "government agency",
+        "chunk_id": 8979342472287351986
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5802876458093034229,
+        "start": 1416171,
+        "end": 1416184,
+        "text": "restriction",
+        "chunk_id": 8979342472287351986
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7357574528100455778,
+        "start": 1416171,
+        "end": 1416184,
+        "text": "equity metrics",
+        "chunk_id": 8979342472287351986
+      }
+    ]
+  }
+]

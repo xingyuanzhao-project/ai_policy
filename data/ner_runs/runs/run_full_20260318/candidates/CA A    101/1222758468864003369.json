@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5979900469886053222,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 6740393684577161812,
+        "start": 668785,
+        "end": 668819,
+        "text": "Department of Water Resources",
+        "chunk_id": 1222758468864003369
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2592222420746065785,
+        "start": 668785,
+        "end": 668819,
+        "text": "government agency",
+        "chunk_id": 1222758468864003369
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15934061552411949744,
+        "start": 668785,
+        "end": 668819,
+        "text": "restriction",
+        "chunk_id": 1222758468864003369
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18337892129682543236,
+        "start": 668785,
+        "end": 668819,
+        "text": "until June 30, 2028",
+        "chunk_id": 1222758468864003369
+      }
+    ]
+  },
+  {
+    "candidate_id": 134237074078114581,
+    "entity": "Salton Sea Management Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "10-year Plan",
+    "entity_evidence": [
+      {
+        "span_id": 11111799367007577336,
+        "start": 669744,
+        "end": 669764,
+        "text": "Salton Sea Management Program",
+        "chunk_id": 1222758468864003369
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7208868379136325630,
+        "start": 669744,
+        "end": 669764,
+        "text": "technology",
+        "chunk_id": 1222758468864003369
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17324576222649300478,
+        "start": 669744,
+        "end": 669764,
+        "text": "promotion",
+        "chunk_id": 1222758468864003369
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18406135325346418864,
+        "start": 669744,
+        "end": 669764,
+        "text": "10-year Plan",
+        "chunk_id": 1222758468864003369
+      }
+    ]
+  }
+]

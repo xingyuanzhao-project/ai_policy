@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15270106135684980326,
+    "entity": "California Department of Technology",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "supporting",
+    "entity_evidence": [
+      {
+        "span_id": 4917872371532675560,
+        "start": 1139934,
+        "end": 1139952,
+        "text": "California Department of Technology",
+        "chunk_id": 17237344878666128300
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17750451703961760390,
+        "start": 1139934,
+        "end": 1139952,
+        "text": "government agency",
+        "chunk_id": 17237344878666128300
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1783136692882651958,
+        "start": 1139934,
+        "end": 1139952,
+        "text": "promotion",
+        "chunk_id": 17237344878666128300
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14577502050466273734,
+        "start": 1139934,
+        "end": 1139952,
+        "text": "supporting",
+        "chunk_id": 17237344878666128300
+      }
+    ]
+  },
+  {
+    "candidate_id": 7114973347390322790,
+    "entity": "Cradle-to-Career Data System",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "supporting",
+    "entity_evidence": [
+      {
+        "span_id": 15680950008740867912,
+        "start": 1140075,
+        "end": 1140094,
+        "text": "Cradle-to-Career Data System",
+        "chunk_id": 17237344878666128300
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13173987106102311510,
+        "start": 1140075,
+        "end": 1140094,
+        "text": "technology",
+        "chunk_id": 17237344878666128300
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3097536812003372227,
+        "start": 1140075,
+        "end": 1140094,
+        "text": "promotion",
+        "chunk_id": 17237344878666128300
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4998534220058284329,
+        "start": 1140075,
+        "end": 1140094,
+        "text": "supporting",
+        "chunk_id": 17237344878666128300
+      }
+    ]
+  }
+]

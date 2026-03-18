@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13487038456421070394,
+    "entity": "Student Aid Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15587822746975030338,
+        "start": 1362360,
+        "end": 1362378,
+        "text": "Student Aid Commission",
+        "chunk_id": 18338187497487651074
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6461714609133854440,
+        "start": 1362360,
+        "end": 1362378,
+        "text": "Student Aid Commission",
+        "chunk_id": 18338187497487651074
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4614632283393531793,
+        "start": 1362360,
+        "end": 1362378,
+        "text": "Student Aid Commission",
+        "chunk_id": 18338187497487651074
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5214433120686415390,
+        "start": 1362360,
+        "end": 1362378,
+        "text": "Student Aid Commission",
+        "chunk_id": 18338187497487651074
+      }
+    ]
+  },
+  {
+    "candidate_id": 15268567901547120609,
+    "entity": "Cal Grant Program",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16638057178465493319,
+        "start": 1362896,
+        "end": 1362913,
+        "text": "The Cal Grant Program",
+        "chunk_id": 18338187497487651074
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12031482410490434475,
+        "start": 1362896,
+        "end": 1362913,
+        "text": "The Cal Grant Program",
+        "chunk_id": 18338187497487651074
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17765278458026370135,
+        "start": 1362896,
+        "end": 1362913,
+        "text": "The Cal Grant Program",
+        "chunk_id": 18338187497487651074
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1118718507700622093,
+        "start": 1362896,
+        "end": 1362913,
+        "text": "The Cal Grant Program",
+        "chunk_id": 18338187497487651074
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5255186613183473703,
+    "entity": "K-12 High-Speed Network",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 7905653356890296646,
+        "start": 1259126,
+        "end": 1259147,
+        "text": "All major subcontracts of the K-12 High-Speed Network program",
+        "chunk_id": 970739415710525723
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8028078659622870213,
+        "start": 1259126,
+        "end": 1259147,
+        "text": "All major subcontracts of the K-12 High-Speed Network program",
+        "chunk_id": 970739415710525723
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13826671312567492785,
+        "start": 1259126,
+        "end": 1259147,
+        "text": "All major subcontracts of the K-12 High-Speed Network program",
+        "chunk_id": 970739415710525723
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12856416236907478138,
+        "start": 1259126,
+        "end": 1259147,
+        "text": "All major subcontracts of the K-12 High-Speed Network program",
+        "chunk_id": 970739415710525723
+      }
+    ]
+  },
+  {
+    "candidate_id": 11829989813520437006,
+    "entity": "K-12 High-Speed Network",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 4473188700986366760,
+        "start": 1259226,
+        "end": 1259247,
+        "text": "The K-12 High-Speed Network or CENIC, or both",
+        "chunk_id": 970739415710525723
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13594243539181214613,
+        "start": 1259226,
+        "end": 1259247,
+        "text": "The K-12 High-Speed Network or CENIC, or both",
+        "chunk_id": 970739415710525723
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15614156787317688332,
+        "start": 1259226,
+        "end": 1259247,
+        "text": "The K-12 High-Speed Network or CENIC, or both",
+        "chunk_id": 970739415710525723
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5369683783371724508,
+        "start": 1259226,
+        "end": 1259247,
+        "text": "The K-12 High-Speed Network or CENIC, or both",
+        "chunk_id": 970739415710525723
+      }
+    ]
+  }
+]

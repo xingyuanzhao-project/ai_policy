@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15862210991402210005,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "10-day notification",
+    "entity_evidence": [
+      {
+        "span_id": 9752100421754127424,
+        "start": 802927,
+        "end": 802937,
+        "text": "The Department of Finance shall notify the Legislature within 10 days",
+        "chunk_id": 2001379396821626539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6151053777812986908,
+        "start": 802927,
+        "end": 802937,
+        "text": "The Department of Finance shall notify the Legislature within 10 days",
+        "chunk_id": 2001379396821626539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7924867589168855253,
+        "start": 802927,
+        "end": 802937,
+        "text": "The Department of Finance shall notify the Legislature within 10 days",
+        "chunk_id": 2001379396821626539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6977858563505408998,
+        "start": 802927,
+        "end": 802937,
+        "text": "The Department of Finance shall notify the Legislature within 10 days",
+        "chunk_id": 2001379396821626539
+      }
+    ]
+  },
+  {
+    "candidate_id": 5805894088987608231,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "up to $381,865,000",
+    "entity_evidence": [
+      {
+        "span_id": 14131744680975321647,
+        "start": 803038,
+        "end": 803055,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 2001379396821626539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17525864315998308740,
+        "start": 803038,
+        "end": 803055,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 2001379396821626539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12409162590085837148,
+        "start": 803038,
+        "end": 803055,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 2001379396821626539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11819001802287199151,
+        "start": 803038,
+        "end": 803055,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 2001379396821626539
+      }
+    ]
+  }
+]

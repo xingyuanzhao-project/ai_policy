@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6255252103766969104,
+    "entity": "Identifiable Individual",
+    "type": "Individual",
+    "attribute": "Protection",
+    "value": "Preservation of Privacy",
+    "entity_evidence": [
+      {
+        "span_id": 5996914725206567870,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4229629328277690408,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15530633530173992271,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10761814886375093676,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ]
+  },
+  {
+    "candidate_id": 7799302768728511274,
+    "entity": "Intimate Visual Depiction or Digital Forgery",
+    "type": "Technology",
+    "attribute": "Regulation",
+    "value": "Restriction",
+    "entity_evidence": [
+      {
+        "span_id": 16356070752522854967,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6899498593806193419,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8965995340464607580,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13324810572202987113,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6006069237065428058,
+    "entity": "California State University",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exempt from Sections 6.00 and 31.00",
+    "entity_evidence": [
+      {
+        "span_id": 6747886608361995817,
+        "start": 1350239,
+        "end": 1350261,
+        "text": "California State University",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14692003784347078262,
+        "start": 1350239,
+        "end": 1350261,
+        "text": "infrastructure",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 310255234134924741,
+        "start": 1350273,
+        "end": 1350295,
+        "text": "exempt from",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13456981136174532600,
+        "start": 1350273,
+        "end": 1350295,
+        "text": "exempt from Sections 6.00 and 31.00",
+        "chunk_id": 5715450653550147995
+      }
+    ]
+  },
+  {
+    "candidate_id": 16090071259860357195,
+    "entity": "Legislature",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "defer an estimated base increase of $252,255,000",
+    "entity_evidence": [
+      {
+        "span_id": 17997846490479753604,
+        "start": 1350312,
+        "end": 1350320,
+        "text": "Legislature",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1121947948082943285,
+        "start": 1350312,
+        "end": 1350320,
+        "text": "government agency",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15028903504653333060,
+        "start": 1350323,
+        "end": 1350345,
+        "text": "defer an estimated base increase",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7839393156890127007,
+        "start": 1350323,
+        "end": 1350345,
+        "text": "defer an estimated base increase of $252,255,000",
+        "chunk_id": 5715450653550147995
+      }
+    ]
+  }
+]

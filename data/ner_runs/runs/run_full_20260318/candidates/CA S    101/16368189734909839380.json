@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7706293394769698200,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent upon submittal of contract",
+    "entity_evidence": [
+      {
+        "span_id": 11755566600007897994,
+        "start": 1111702,
+        "end": 1111722,
+        "text": "State Department of Education",
+        "chunk_id": 16368189734909839380
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13040453301370621493,
+        "start": 1111702,
+        "end": 1111722,
+        "text": "State Department of Education",
+        "chunk_id": 16368189734909839380
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2260825785133695834,
+        "start": 1111702,
+        "end": 1111722,
+        "text": "State Department of Education",
+        "chunk_id": 16368189734909839380
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6824992334781905010,
+        "start": 1111702,
+        "end": 1111722,
+        "text": "State Department of Education",
+        "chunk_id": 16368189734909839380
+      }
+    ]
+  },
+  {
+    "candidate_id": 2880587773691985559,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "adjustment",
+    "value": "reflect changes in actual reimbursements",
+    "entity_evidence": [
+      {
+        "span_id": 2836011715512209868,
+        "start": 1111813,
+        "end": 1111834,
+        "text": "Department of Finance",
+        "chunk_id": 16368189734909839380
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4758382010023594927,
+        "start": 1111813,
+        "end": 1111834,
+        "text": "Department of Finance",
+        "chunk_id": 16368189734909839380
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10403124384283328144,
+        "start": 1111813,
+        "end": 1111834,
+        "text": "Department of Finance",
+        "chunk_id": 16368189734909839380
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18036049683009890471,
+        "start": 1111813,
+        "end": 1111834,
+        "text": "Department of Finance",
+        "chunk_id": 16368189734909839380
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10598435797303913953,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "supplemental funding",
+    "entity_evidence": [
+      {
+        "span_id": 2786963566185559287,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8994544359799961834,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7890054768035513751,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 900622001695425634,
+        "start": 166819,
+        "end": 166838,
+        "text": "add capacity in the Consumer Protection Section",
+        "chunk_id": 1377608842435265082
+      }
+    ]
+  },
+  {
+    "candidate_id": 14756197813055657859,
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent funding",
+    "entity_evidence": [
+      {
+        "span_id": 5177289024040177676,
+        "start": 167124,
+        "end": 167143,
+        "text": "the Department of Technology",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12820930195526481378,
+        "start": 167124,
+        "end": 167143,
+        "text": "the Department of Technology",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7865330895702336222,
+        "start": 167124,
+        "end": 167143,
+        "text": "the Department of Technology",
+        "chunk_id": 1377608842435265082
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17997919640253868722,
+        "start": 167124,
+        "end": 167143,
+        "text": "the Department of Technology",
+        "chunk_id": 1377608842435265082
+      }
+    ]
+  }
+]

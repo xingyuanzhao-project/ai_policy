@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16325928612487152230,
+    "source_group_id": 9167726002195288322,
+    "source_candidate_ids": [
+      10309455966849331934
+    ],
+    "entity": "Listos California Grant Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "culturally competent outreach and resources",
+    "entity_evidence": [
+      {
+        "span_id": 17235589395407696161,
+        "start": 149692,
+        "end": 149713,
+        "text": "Listos California Grant Program",
+        "chunk_id": 7210730480251496744
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15455747601467939195,
+        "start": 149692,
+        "end": 149713,
+        "text": "Listos California Grant Program",
+        "chunk_id": 7210730480251496744
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11655484404187504744,
+        "start": 149692,
+        "end": 149713,
+        "text": "Listos California Grant Program",
+        "chunk_id": 7210730480251496744
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11380019482041019254,
+        "start": 149692,
+        "end": 149713,
+        "text": "Listos California Grant Program",
+        "chunk_id": 7210730480251496744
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1217997514127822738,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 9752125873333582201,
+        "start": 847020,
+        "end": 847040,
+        "text": "For support of State Department of Public Health",
+        "chunk_id": 8618973786984583128
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6105488694852055680,
+        "start": 847020,
+        "end": 847040,
+        "text": "State Department of Public Health",
+        "chunk_id": 8618973786984583128
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12037296962947155475,
+        "start": 847020,
+        "end": 847040,
+        "text": "support",
+        "chunk_id": 8618973786984583128
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11180394159998379532,
+        "start": 847020,
+        "end": 847040,
+        "text": "partial",
+        "chunk_id": 8618973786984583128
+      }
+    ]
+  },
+  {
+    "candidate_id": 9228945232050686509,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 10746536939547547711,
+        "start": 847020,
+        "end": 847040,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 8618973786984583128
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9447405955097295289,
+        "start": 847020,
+        "end": 847040,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 8618973786984583128
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7254801966254491894,
+        "start": 847020,
+        "end": 847040,
+        "text": "support",
+        "chunk_id": 8618973786984583128
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14271415687108353431,
+        "start": 847020,
+        "end": 847040,
+        "text": "partial",
+        "chunk_id": 8618973786984583128
+      }
+    ]
+  }
+]

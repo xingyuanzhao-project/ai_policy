@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9007492061991793672,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "available for expenditure or encumbrance until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 5805886841539807210,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "State Department of Education",
+        "chunk_id": 16026164613973095265
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11176543420676498063,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "government agency",
+        "chunk_id": 16026164613973095265
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12103432056340155620,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "restriction",
+        "chunk_id": 16026164613973095265
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5835788529349268553,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "available for expenditure or encumbrance until June 30, 2028",
+        "chunk_id": 16026164613973095265
+      }
+    ]
+  },
+  {
+    "candidate_id": 2475539341995765826,
+    "entity": "Electronic Cigarette Settlements Fund",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 6536270301853482981,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "Electronic Cigarette Settlements Fund",
+        "chunk_id": 16026164613973095265
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4954101685427453656,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "infrastructure",
+        "chunk_id": 16026164613973095265
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7381930183788227303,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "prohibition",
+        "chunk_id": 16026164613973095265
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10962148145050840928,
+        "start": 1094311,
+        "end": 1094331,
+        "text": "none",
+        "chunk_id": 16026164613973095265
+      }
+    ]
+  }
+]

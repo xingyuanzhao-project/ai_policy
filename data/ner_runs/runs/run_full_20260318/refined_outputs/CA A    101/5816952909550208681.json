@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17781985922240518906,
+    "source_group_id": 5816952909550208681,
+    "source_candidate_ids": [
+      17700334117629693820
+    ],
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "complete prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 8895925101853585152,
+        "start": 934659,
+        "end": 934679,
+        "text": "Federal Trust Fund",
+        "chunk_id": 15290203287354248824
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3516149214458145066,
+        "start": 934659,
+        "end": 934679,
+        "text": "infrastructure",
+        "chunk_id": 15290203287354248824
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6461185925053415479,
+        "start": 934659,
+        "end": 934679,
+        "text": "prohibition",
+        "chunk_id": 15290203287354248824
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8068012492887831883,
+        "start": 934659,
+        "end": 934679,
+        "text": "complete prohibition",
+        "chunk_id": 15290203287354248824
+      }
+    ]
+  }
+]

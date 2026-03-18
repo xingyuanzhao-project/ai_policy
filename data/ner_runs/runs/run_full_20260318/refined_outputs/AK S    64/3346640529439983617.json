@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4184400922177990812,
+    "source_group_id": 3346640529439983617,
+    "source_candidate_ids": [
+      4917349968801193692
+    ],
+    "entity": "commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "six years",
+    "entity_evidence": [
+      {
+        "span_id": 3740916211837938608,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10771622054250568738,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15128571389240991635,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5629777033796613402,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ]
+  }
+]

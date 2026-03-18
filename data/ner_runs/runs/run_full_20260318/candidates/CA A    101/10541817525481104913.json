@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8269613441717806599,
+    "entity": "state employee salaries",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 14496894608148887310,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14247345406948032121,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3738826592766087711,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 912063635054676550,
+        "start": 1817717,
+        "end": 1817741,
+        "text": "adjust as necessary any items to recognize the change in the accounting method for the payment of state employee salaries",
+        "chunk_id": 10541817525481104913
+      }
+    ]
+  },
+  {
+    "candidate_id": 16500897128573183899,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "loans",
+    "entity_evidence": [
+      {
+        "span_id": 2427367325825655911,
+        "start": 1817717,
+        "end": 1817729,
+        "text": "The Director of Finance shall make available from the General Fund",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9016166302689865363,
+        "start": 1817717,
+        "end": 1817729,
+        "text": "The Director of Finance shall make available from the General Fund",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16564426842280945928,
+        "start": 1817717,
+        "end": 1817729,
+        "text": "The Director of Finance shall make available from the General Fund",
+        "chunk_id": 10541817525481104913
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12376581675029434740,
+        "start": 1817717,
+        "end": 1817729,
+        "text": "The Director of Finance shall make available from the General Fund",
+        "chunk_id": 10541817525481104913
+      }
+    ]
+  }
+]

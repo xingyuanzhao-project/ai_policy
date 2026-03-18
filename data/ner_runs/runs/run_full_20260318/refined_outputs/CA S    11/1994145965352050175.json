@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15150723603564736239,
+    "source_group_id": 1994145965352050175,
+    "source_candidate_ids": [
+      18012043912265942122
+    ],
+    "entity": "Video game",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 10523568804220991248,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15608600817660705497,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 378566661387870198,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9102149146360503480,
+        "start": 1920,
+        "end": 1929,
+        "text": "Video game",
+        "chunk_id": 7701138732958922469
+      }
+    ]
+  }
+]

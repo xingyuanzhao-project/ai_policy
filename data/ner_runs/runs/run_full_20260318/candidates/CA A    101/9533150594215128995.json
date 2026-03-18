@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 150317505772962480,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption from review or approval",
+    "entity_evidence": [
+      {
+        "span_id": 5512811950793511530,
+        "start": 1034792,
+        "end": 1034812,
+        "text": "Department of Finance",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5854131782086090618,
+        "start": 1034792,
+        "end": 1034812,
+        "text": "government agency",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7067531190749968684,
+        "start": 1034792,
+        "end": 1034812,
+        "text": "restriction",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17952683789539836971,
+        "start": 1034792,
+        "end": 1034812,
+        "text": "exemption from review or approval",
+        "chunk_id": 9533150594215128995
+      }
+    ]
+  },
+  {
+    "candidate_id": 15626391595429248142,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "one-time basis",
+    "entity_evidence": [
+      {
+        "span_id": 15349326971737665007,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "State Department of Social Services",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1314971654082743978,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "government agency",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10137484012858559141,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "allocation",
+        "chunk_id": 9533150594215128995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6599551105468268920,
+        "start": 1034903,
+        "end": 1034924,
+        "text": "one-time basis",
+        "chunk_id": 9533150594215128995
+      }
+    ]
+  }
+]

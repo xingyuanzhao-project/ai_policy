@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 516969268782371868,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "six months",
+    "entity_evidence": [
+      {
+        "span_id": 13796764658425901885,
+        "start": 1020989,
+        "end": 1021010,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 10641759748982594868
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16419244862161578808,
+        "start": 1020989,
+        "end": 1021010,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 10641759748982594868
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14883831970765319176,
+        "start": 1020989,
+        "end": 1021010,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 10641759748982594868
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2008074491617299439,
+        "start": 1020989,
+        "end": 1021010,
+        "text": "six months",
+        "chunk_id": 10641759748982594868
+      }
+    ]
+  },
+  {
+    "candidate_id": 16455600809636770883,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "six months",
+    "entity_evidence": [
+      {
+        "span_id": 9579450742043648641,
+        "start": 1021080,
+        "end": 1021092,
+        "text": "Controller",
+        "chunk_id": 10641759748982594868
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9120787718165967827,
+        "start": 1021080,
+        "end": 1021092,
+        "text": "Controller",
+        "chunk_id": 10641759748982594868
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17330539813685985438,
+        "start": 1021080,
+        "end": 1021092,
+        "text": "Controller",
+        "chunk_id": 10641759748982594868
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13734016323610407237,
+        "start": 1021080,
+        "end": 1021092,
+        "text": "six months",
+        "chunk_id": 10641759748982594868
+      }
+    ]
+  }
+]

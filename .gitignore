@@ -12,6 +12,8 @@
 !docs/**
 !plot/
 !plot/**
+!data/
+!data/**
 
 # Git config files (mandatory)
 !.gitignore

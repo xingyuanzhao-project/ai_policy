@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9051182066101537243,
+    "source_group_id": 1561733226327822942,
+    "source_candidate_ids": [
+      16189137874520124801
+    ],
+    "entity": "Family Empowerment Center on Disability",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "continued funding eligibility assessment",
+    "entity_evidence": [
+      {
+        "span_id": 6459399100442276475,
+        "start": 1170471,
+        "end": 1170495,
+        "text": "Family Empowerment Center on Disability",
+        "chunk_id": 16036321271464356543
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6749258756056876067,
+        "start": 1170495,
+        "end": 1170516,
+        "text": "Family Empowerment Center on Disability",
+        "chunk_id": 16036321271464356543
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11973447943808969214,
+        "start": 1170516,
+        "end": 1170535,
+        "text": "has been identified by the Superintendent as being subject to a continued funding eligibility assessment",
+        "chunk_id": 16036321271464356543
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 887291986574524674,
+        "start": 1170535,
+        "end": 1170555,
+        "text": "continued funding eligibility assessment",
+        "chunk_id": 16036321271464356543
+      }
+    ]
+  }
+]

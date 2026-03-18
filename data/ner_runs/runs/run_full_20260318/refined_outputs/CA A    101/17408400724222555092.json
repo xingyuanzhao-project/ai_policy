@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4914791384284679107,
+    "source_group_id": 17408400724222555092,
+    "source_candidate_ids": [
+      14082904691269771758
+    ],
+    "entity": "Workforce Innovation and Opportunity Act (WIOA)",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3179111956372134297,
+        "start": 1478994,
+        "end": 1479018,
+        "text": "Workforce Innovation and Opportunity Act (WIOA)",
+        "chunk_id": 17240311980348405992
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4446199552497038746,
+        "start": 1478994,
+        "end": 1479018,
+        "text": "technology",
+        "chunk_id": 17240311980348405992
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17566573836804889396,
+        "start": 1478994,
+        "end": 1479018,
+        "text": "restriction",
+        "chunk_id": 17240311980348405992
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7705683840466251120,
+        "start": 1478994,
+        "end": 1479018,
+        "text": "extremely restrictive",
+        "chunk_id": 17240311980348405992
+      }
+    ]
+  }
+]

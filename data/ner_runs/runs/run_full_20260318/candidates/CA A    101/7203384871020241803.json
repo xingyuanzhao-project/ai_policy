@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8994763504426829868,
+    "entity": "Association of Independent California Colleges and Universities",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support integration onto ASSIST platform",
+    "entity_evidence": [
+      {
+        "span_id": 17114484110643438495,
+        "start": 1329240,
+        "end": 1329283,
+        "text": "Association of Independent California Colleges and Universities",
+        "chunk_id": 7203384871020241803
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1057631879483404621,
+        "start": 1329240,
+        "end": 1329283,
+        "text": "government agency",
+        "chunk_id": 7203384871020241803
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5765429648408616102,
+        "start": 1329240,
+        "end": 1329283,
+        "text": "promotion",
+        "chunk_id": 7203384871020241803
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7425547336583518080,
+        "start": 1329240,
+        "end": 1329283,
+        "text": "support integration onto ASSIST platform",
+        "chunk_id": 7203384871020241803
+      }
+    ]
+  },
+  {
+    "candidate_id": 6205044682977240676,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "establish and sustain Underground Scholars programs",
+    "entity_evidence": [
+      {
+        "span_id": 801516419186494155,
+        "start": 1329374,
+        "end": 1329395,
+        "text": "University of California",
+        "chunk_id": 7203384871020241803
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3573118103878253675,
+        "start": 1329374,
+        "end": 1329395,
+        "text": "government agency",
+        "chunk_id": 7203384871020241803
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1693526691668787050,
+        "start": 1329374,
+        "end": 1329395,
+        "text": "promotion",
+        "chunk_id": 7203384871020241803
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16824593654938886940,
+        "start": 1329374,
+        "end": 1329395,
+        "text": "establish and sustain Underground Scholars programs",
+        "chunk_id": 7203384871020241803
+      }
+    ]
+  }
+]

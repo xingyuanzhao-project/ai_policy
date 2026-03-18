@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6122433230306439309,
+    "source_group_id": 12908080332293628832,
+    "source_candidate_ids": [
+      3091498439871002104
+    ],
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "future legislative appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 16679346293924866974,
+        "start": 1752023,
+        "end": 1752035,
+        "text": "No loan shall be made which requires repayment from a future legislative appropriation",
+        "chunk_id": 17055827580433813778
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13996540687915475267,
+        "start": 1752023,
+        "end": 1752035,
+        "text": "No loan shall be made which requires repayment from a future legislative appropriation",
+        "chunk_id": 17055827580433813778
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11055770227394364242,
+        "start": 1752023,
+        "end": 1752035,
+        "text": "No loan shall be made which requires repayment from a future legislative appropriation",
+        "chunk_id": 17055827580433813778
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8299147282468464625,
+        "start": 1752023,
+        "end": 1752035,
+        "text": "No loan shall be made which requires repayment from a future legislative appropriation",
+        "chunk_id": 17055827580433813778
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7147052119519990820,
+    "entity": "Department of Labor and Workforce Development",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "fishermen's fund allocation",
+    "entity_evidence": [
+      {
+        "span_id": 7497498207505099764,
+        "start": 128756,
+        "end": 128777,
+        "text": "fishermen’s fund (AS 23.35.060) to the Department of Labor and Workforce Development, fishermen’s fund allocation",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8186451645791399179,
+        "start": 128756,
+        "end": 128777,
+        "text": "fishermen’s fund (AS 23.35.060) to the Department of Labor and Workforce Development, fishermen’s fund allocation",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6373296371011107583,
+        "start": 128756,
+        "end": 128777,
+        "text": "fishermen’s fund (AS 23.35.060) to the Department of Labor and Workforce Development, fishermen’s fund allocation",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7598326351664054182,
+        "start": 128756,
+        "end": 128777,
+        "text": "fishermen’s fund (AS 23.35.060) to the Department of Labor and Workforce Development, fishermen’s fund allocation",
+        "chunk_id": 5446783781110696178
+      }
+    ]
+  },
+  {
+    "candidate_id": 8947787960782742614,
+    "entity": "Department of Military and Veterans’ Affairs",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "veterans’ memorials",
+    "entity_evidence": [
+      {
+        "span_id": 11713516035463669429,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10723121269904427996,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12791649316184423854,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7547563495037019494,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ]
+  }
+]

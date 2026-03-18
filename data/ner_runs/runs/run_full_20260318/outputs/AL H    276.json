@@ -1,0 +1,520 @@
+[
+  {
+    "refined_id": 15885691362293939882,
+    "source_group_id": 18341395666974072640,
+    "source_candidate_ids": [
+      287473595578992357,
+      11163630693873553813
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "all of the following",
+    "entity_evidence": [
+      {
+        "span_id": 584432312064269623,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10420057447084730575,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4243840578086547903,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13695065681122118129,
+        "start": 166,
+        "end": 183,
+        "text": "A social media platform shall do all of the following:",
+        "chunk_id": 17005240689722631415
+      }
+    ]
+  },
+  {
+    "refined_id": 15369498295648807989,
+    "source_group_id": 13074932339794654979,
+    "source_candidate_ids": [
+      6457535397382967769
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "permanent deletion",
+    "entity_evidence": [
+      {
+        "span_id": 16931314303855514405,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5668736091777911678,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16733494906712749706,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1433556276357611555,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ]
+  },
+  {
+    "refined_id": 587269581378888299,
+    "source_group_id": 10094517120750791176,
+    "source_candidate_ids": [
+      1673060032278453658
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "all",
+    "entity_evidence": [
+      {
+        "span_id": 9021893236329571330,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11949703423359420471,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5275581402060707539,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9175499474084026646,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ]
+  },
+  {
+    "refined_id": 10873427317976711109,
+    "source_group_id": 3164523308189123586,
+    "source_candidate_ids": [
+      18374551513929624182
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "commercially reasonable process",
+    "entity_evidence": [
+      {
+        "span_id": 11900808369972205682,
+        "start": 4947,
+        "end": 4966,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17457708551055537785,
+        "start": 4947,
+        "end": 4966,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3849073859867237208,
+        "start": 4947,
+        "end": 4966,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2170977910297853482,
+        "start": 4947,
+        "end": 4966,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ]
+  },
+  {
+    "refined_id": 17768683370987119865,
+    "source_group_id": 3448696352419877279,
+    "source_candidate_ids": [
+      8077846493452474455
+    ],
+    "entity": "platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "readily accessible and easy-to-use tools and settings",
+    "entity_evidence": [
+      {
+        "span_id": 17640916073327337320,
+        "start": 4947,
+        "end": 4954,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18078841058628631278,
+        "start": 4947,
+        "end": 4954,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1926572530772874545,
+        "start": 4947,
+        "end": 4954,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8524897700698315873,
+        "start": 4947,
+        "end": 4954,
+        "text": "A social media platform shall use a commercially reasonable process to verify the age of each user of the platform.",
+        "chunk_id": 723814973838407367
+      }
+    ]
+  },
+  {
+    "refined_id": 12750288337195035262,
+    "source_group_id": 5114015599872671267,
+    "source_candidate_ids": [
+      3969843103844690352
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12117298214570473095,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2945988482130086291,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4657346789104139762,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3637107841252878216,
+        "start": 7635,
+        "end": 7652,
+        "text": "social media platform",
+        "chunk_id": 7710602292270649461
+      }
+    ]
+  },
+  {
+    "refined_id": 12054192991038795846,
+    "source_group_id": 5481323028201791599,
+    "source_candidate_ids": [
+      4525945403933088153
+    ],
+    "entity": "minor",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8586565459291927646,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3185769238685575064,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14235118094327285586,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15284236279617016920,
+        "start": 7635,
+        "end": 7639,
+        "text": "minor",
+        "chunk_id": 7710602292270649461
+      }
+    ]
+  },
+  {
+    "refined_id": 9181218048015321504,
+    "source_group_id": 4866416670553898061,
+    "source_candidate_ids": [
+      38935999894437008
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "clear and conspicuous warnings",
+    "entity_evidence": [
+      {
+        "span_id": 10702965277304198004,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13471311917570425748,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6115961000459714901,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12812854012880969922,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ]
+  },
+  {
+    "refined_id": 12362207149430373134,
+    "source_group_id": 5085983319424137847,
+    "source_candidate_ids": [
+      3819703715601519754
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "knowing or reckless violation",
+    "entity_evidence": [
+      {
+        "span_id": 7290935829316761197,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16902976372105587057,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3234532547776323194,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5195105096075332928,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ]
+  },
+  {
+    "refined_id": 645437210237943394,
+    "source_group_id": 7481336819870676103,
+    "source_candidate_ids": [
+      16629768665095082860
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "maintenance",
+    "value": "annual",
+    "entity_evidence": [
+      {
+        "span_id": 3857532099915143267,
+        "start": 13002,
+        "end": 13022,
+        "text": "The State Department of Education",
+        "chunk_id": 3591962110989725580
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12059705559791960677,
+        "start": 13002,
+        "end": 13022,
+        "text": "The State Department of Education",
+        "chunk_id": 3591962110989725580
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4223308108400981043,
+        "start": 13002,
+        "end": 13022,
+        "text": "The State Department of Education",
+        "chunk_id": 3591962110989725580
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15462740349307809831,
+        "start": 13002,
+        "end": 13022,
+        "text": "The State Department of Education",
+        "chunk_id": 3591962110989725580
+      }
+    ]
+  },
+  {
+    "refined_id": 4022557666148275637,
+    "source_group_id": 12203038531392823972,
+    "source_candidate_ids": [
+      6210900153849022110
+    ],
+    "entity": "Internet service provider",
+    "type": "technology",
+    "attribute": "exemption",
+    "value": "solely by providing access or connections",
+    "entity_evidence": [
+      {
+        "span_id": 8010754836399817581,
+        "start": 13079,
+        "end": 13093,
+        "text": "Internet service provider",
+        "chunk_id": 3591962110989725580
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16442330481466321426,
+        "start": 13079,
+        "end": 13093,
+        "text": "Internet service provider",
+        "chunk_id": 3591962110989725580
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17373976636542080155,
+        "start": 13079,
+        "end": 13093,
+        "text": "Internet service provider",
+        "chunk_id": 3591962110989725580
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11534609487174219913,
+        "start": 13079,
+        "end": 13093,
+        "text": "Internet service provider",
+        "chunk_id": 3591962110989725580
+      }
+    ]
+  }
+]

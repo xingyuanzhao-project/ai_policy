@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17359974984058966635,
+    "source_group_id": 17776671058719693515,
+    "source_candidate_ids": [
+      2348248569348118624
+    ],
+    "entity": "Bureau of Real Estate Appraisers",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 14267994120260370047,
+        "start": 269457,
+        "end": 269481,
+        "text": "Bureau of Real Estate Appraisers",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15083930472788364583,
+        "start": 269457,
+        "end": 269481,
+        "text": "government agency",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13972618770226687863,
+        "start": 269457,
+        "end": 269481,
+        "text": "regulation",
+        "chunk_id": 8223660941490042825
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10271738519637849527,
+        "start": 269457,
+        "end": 269481,
+        "text": "oversight",
+        "chunk_id": 8223660941490042825
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10308577659348948542,
+    "entity": "Department of Family and Community Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12757130710960174649,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12129152149391426105,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5199216985670331866,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1530303232074826015,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ]
+  },
+  {
+    "candidate_id": 7263163844180208726,
+    "entity": "Department of Family and Community Services",
+    "type": "government agency",
+    "attribute": "report submission",
+    "value": "by September 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 16505670110793902235,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4443446483568144242,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16974740238101329536,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9951594785524430030,
+        "start": 18418,
+        "end": 18439,
+        "text": "Department of Family and Community Services",
+        "chunk_id": 1720485171118808818
+      }
+    ]
+  }
+]

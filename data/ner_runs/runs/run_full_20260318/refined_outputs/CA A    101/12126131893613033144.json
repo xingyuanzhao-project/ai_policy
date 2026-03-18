@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2885735299121365569,
+    "source_group_id": 12126131893613033144,
+    "source_candidate_ids": [
+      9828617517462079149
+    ],
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "approval required",
+    "entity_evidence": [
+      {
+        "span_id": 7422750101233236192,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "State Department of Social Services",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13027560524465642380,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "government agency",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 668435822735762600,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "restriction",
+        "chunk_id": 9145246575412505107
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13647434278773046050,
+        "start": 1012942,
+        "end": 1012963,
+        "text": "approval required",
+        "chunk_id": 9145246575412505107
+      }
+    ]
+  }
+]

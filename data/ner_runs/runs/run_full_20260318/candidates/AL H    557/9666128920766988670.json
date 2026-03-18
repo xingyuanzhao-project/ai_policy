@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8185080789853091991,
+    "entity": "utilization review agent",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 5924807056095178773,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8740687285388311620,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8661795004192475732,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3382252784857295393,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ]
+  },
+  {
+    "candidate_id": 5218163114067834097,
+    "entity": "utilization review agent",
+    "type": "private company",
+    "attribute": "restriction",
+    "value": "moderately restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12648008047793764417,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11420393212151325354,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3267092582914950246,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18360511182957357265,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ]
+  }
+]

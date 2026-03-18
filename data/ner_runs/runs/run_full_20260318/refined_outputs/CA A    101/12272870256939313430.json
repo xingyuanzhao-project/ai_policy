@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6635708646428847548,
+    "source_group_id": 12272870256939313430,
+    "source_candidate_ids": [
+      7582108841461698593
+    ],
+    "entity": "Garment Worker Protection Act",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support implementation",
+    "entity_evidence": [
+      {
+        "span_id": 7360947323446777077,
+        "start": 1514312,
+        "end": 1514331,
+        "text": "Garment Worker Protection Act",
+        "chunk_id": 2164959562437661316
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16150010851715870793,
+        "start": 1514312,
+        "end": 1514331,
+        "text": "Garment Worker Protection Act",
+        "chunk_id": 2164959562437661316
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7991553948329371676,
+        "start": 1514332,
+        "end": 1514349,
+        "text": "support implementation",
+        "chunk_id": 2164959562437661316
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3200348661374141914,
+        "start": 1514332,
+        "end": 1514349,
+        "text": "support implementation",
+        "chunk_id": 2164959562437661316
+      }
+    ]
+  }
+]

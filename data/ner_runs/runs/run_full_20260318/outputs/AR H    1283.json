@@ -1,0 +1,146 @@
+[
+  {
+    "refined_id": 12872907722059508955,
+    "source_group_id": 17430684936296754736,
+    "source_candidate_ids": [
+      14833117645844775728,
+      2305273230636514492
+    ],
+    "entity": "social media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 219126510091566763,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8986460256538076580,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2335575514833502964,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11532749368008694269,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ]
+  },
+  {
+    "refined_id": 12921226276303220904,
+    "source_group_id": 14956636130578218031,
+    "source_candidate_ids": [
+      18004482692872351440,
+      10481085901890356782
+    ],
+    "entity": "library media specialist",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "age-appropriate",
+    "entity_evidence": [
+      {
+        "span_id": 16986976547119325621,
+        "start": 2203,
+        "end": 2220,
+        "text": "library media specialist",
+        "chunk_id": 3747572701916309500
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14927592323376313904,
+        "start": 2203,
+        "end": 2220,
+        "text": "library media specialist",
+        "chunk_id": 3747572701916309500
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14531704321899019684,
+        "start": 2203,
+        "end": 2220,
+        "text": "library media specialist",
+        "chunk_id": 3747572701916309500
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 911909601865734106,
+        "start": 2203,
+        "end": 2220,
+        "text": "library media specialist",
+        "chunk_id": 3747572701916309500
+      }
+    ]
+  },
+  {
+    "refined_id": 1311885068646489351,
+    "source_group_id": 6466595119161796800,
+    "source_candidate_ids": [
+      18184173203084711482,
+      12228330903596009989
+    ],
+    "entity": "library media center",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10557176017029943367,
+        "start": 4994,
+        "end": 5006,
+        "text": "library media center",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13338636327540391241,
+        "start": 4994,
+        "end": 5006,
+        "text": "library media center",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2331335322020633224,
+        "start": 5008,
+        "end": 5013,
+        "text": "limited",
+        "chunk_id": 6224406826456719041
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13909775096127685937,
+        "start": 5008,
+        "end": 5013,
+        "text": "limited",
+        "chunk_id": 6224406826456719041
+      }
+    ]
+  }
+]

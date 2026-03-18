@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3942478606014649542,
+    "source_group_id": 15079790434881566427,
+    "source_candidate_ids": [
+      11226049854347404761
+    ],
+    "entity": "Chico Air Attack Base",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "available for encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 1250046828950947008,
+        "start": 531546,
+        "end": 531570,
+        "text": "Chico Air Attack Base",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 643897420876773507,
+        "start": 531571,
+        "end": 531580,
+        "text": "Infrastructure Improvements",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14634026604325268736,
+        "start": 531581,
+        "end": 531592,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7100346916322143529,
+        "start": 531593,
+        "end": 531604,
+        "text": "until June 30, 2028",
+        "chunk_id": 11703305215387970592
+      }
+    ]
+  }
+]

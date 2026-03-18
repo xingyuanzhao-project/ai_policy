@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1594342599898624864,
+    "entity": "Public Utilities Commission",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 343567101288520111,
+        "start": 1534025,
+        "end": 1534043,
+        "text": "Public Utilities Commission",
+        "chunk_id": 5195711644916952480
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17347877839681179092,
+        "start": 1534025,
+        "end": 1534043,
+        "text": "Public Utilities Commission",
+        "chunk_id": 5195711644916952480
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6016602632398090817,
+        "start": 1534043,
+        "end": 1534050,
+        "text": "support",
+        "chunk_id": 5195711644916952480
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17643683453326139782,
+        "start": 1534050,
+        "end": 1534053,
+        "text": "support",
+        "chunk_id": 5195711644916952480
+      }
+    ]
+  },
+  {
+    "candidate_id": 13289234848138644560,
+    "entity": "Political Reform Act of 1974",
+    "type": "legislation",
+    "attribute": "regulation",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 15487723415559833598,
+        "start": 1533859,
+        "end": 1533883,
+        "text": "Political Reform Act of 1974",
+        "chunk_id": 5195711644916952480
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13294672690382624492,
+        "start": 1533859,
+        "end": 1533883,
+        "text": "Political Reform Act of 1974",
+        "chunk_id": 5195711644916952480
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5603985667824345124,
+        "start": 1533883,
+        "end": 1533890,
+        "text": "regulation",
+        "chunk_id": 5195711644916952480
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11500232533139485624,
+        "start": 1533890,
+        "end": 1533897,
+        "text": "support",
+        "chunk_id": 5195711644916952480
+      }
+    ]
+  }
+]

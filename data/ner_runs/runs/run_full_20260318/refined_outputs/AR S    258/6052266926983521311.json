@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8800530604398296167,
+    "source_group_id": 6052266926983521311,
+    "source_candidate_ids": [
+      16949262276130728475
+    ],
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 9628852724042677167,
+        "start": 30738,
+        "end": 30747,
+        "text": "A controller shall establish two (2) or more secure and reliable methods to enable consumers to submit a request to exercise their consumer rights under this chapter.",
+        "chunk_id": 15273005907501531178
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16790624472115124237,
+        "start": 30748,
+        "end": 30756,
+        "text": "controller",
+        "chunk_id": 15273005907501531178
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12228415332079834494,
+        "start": 30757,
+        "end": 30765,
+        "text": "Methods for submitting consumer requests",
+        "chunk_id": 15273005907501531178
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1634252805633332419,
+        "start": 30766,
+        "end": 30773,
+        "text": "secure and reliable",
+        "chunk_id": 15273005907501531178
+      }
+    ]
+  }
+]

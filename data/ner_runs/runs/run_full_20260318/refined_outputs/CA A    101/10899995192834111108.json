@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4446553496706285832,
+    "source_group_id": 10899995192834111108,
+    "source_candidate_ids": [
+      13788441388175397508
+    ],
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to the provisions of subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 2304391595928137069,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "California Workforce Development Board",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13097101324990794130,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "government agency",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9232541462155176379,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "restriction",
+        "chunk_id": 3611447743995032847
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13599255201797454296,
+        "start": 1491862,
+        "end": 1491882,
+        "text": "subject to the provisions of subdivision (b) of Section 15.14",
+        "chunk_id": 3611447743995032847
+      }
+    ]
+  }
+]

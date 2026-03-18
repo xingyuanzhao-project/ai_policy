@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1526973081073129248,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from the requirements of Article 4 (commencing with Section 19130) of Chapter 5 of Part 2 of Division 5 of Title 2 of the Government Code, and from the Public Contract Code and the State Contracting Manual",
+    "entity_evidence": [
+      {
+        "span_id": 6155321898995609548,
+        "start": 963154,
+        "end": 963174,
+        "text": "State Department of Social Services",
+        "chunk_id": 4838426596870418672
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16185497420460070080,
+        "start": 963154,
+        "end": 963174,
+        "text": "government agency",
+        "chunk_id": 4838426596870418672
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2642797854441891875,
+        "start": 963154,
+        "end": 963174,
+        "text": "exemption",
+        "chunk_id": 4838426596870418672
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5821925373304100996,
+        "start": 963154,
+        "end": 963174,
+        "text": "from the requirements of Article 4 (commencing with Section 19130) of Chapter 5 of Part 2 of Division 5 of Title 2 of the Government Code, and from the Public Contract Code and the State Contracting Manual",
+        "chunk_id": 4838426596870418672
+      }
+    ]
+  },
+  {
+    "candidate_id": 12451742401012920031,
+    "entity": "United States Department of Agriculture Food and Nutrition Service",
+    "type": "government agency",
+    "attribute": "determination",
+    "value": "of the state's Supplemental Nutrition Assistance Program's Standard Utility Allowance methodology update",
+    "entity_evidence": [
+      {
+        "span_id": 912862261121309717,
+        "start": 963265,
+        "end": 963286,
+        "text": "United States Department of Agriculture Food and Nutrition Service",
+        "chunk_id": 4838426596870418672
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7786689871264379029,
+        "start": 963265,
+        "end": 963286,
+        "text": "government agency",
+        "chunk_id": 4838426596870418672
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4191159218005152308,
+        "start": 963265,
+        "end": 963286,
+        "text": "determination",
+        "chunk_id": 4838426596870418672
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13331016904725281915,
+        "start": 963265,
+        "end": 963286,
+        "text": "of the state's Supplemental Nutrition Assistance Program's Standard Utility Allowance methodology update",
+        "chunk_id": 4838426596870418672
+      }
+    ]
+  }
+]

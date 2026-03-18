@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13144499326405278246,
+    "source_group_id": 6161842684866670307,
+    "source_candidate_ids": [
+      15803367813463101173
+    ],
+    "entity": "Child Development and Nutrition Fiscal Services Division",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "3.0 positions",
+    "entity_evidence": [
+      {
+        "span_id": 5729509545591935809,
+        "start": 1137220,
+        "end": 1137240,
+        "text": "Child Development and Nutrition Fiscal Services Division",
+        "chunk_id": 17818113164794230342
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9542504258583249820,
+        "start": 1137220,
+        "end": 1137240,
+        "text": "Division",
+        "chunk_id": 17818113164794230342
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7126868202833065864,
+        "start": 1137220,
+        "end": 1137240,
+        "text": "available to support early learning workload",
+        "chunk_id": 17818113164794230342
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15723051141962498181,
+        "start": 1137220,
+        "end": 1137240,
+        "text": "3.0 positions",
+        "chunk_id": 17818113164794230342
+      }
+    ]
+  }
+]

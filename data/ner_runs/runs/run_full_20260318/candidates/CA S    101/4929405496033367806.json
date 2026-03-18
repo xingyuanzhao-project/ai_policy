@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9561421802416812351,
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 8917107605736476686,
+        "start": 329909,
+        "end": 329933,
+        "text": "Funds appropriated in Schedule (1) shall be available for allocation by the California Transportation Commission",
+        "chunk_id": 4929405496033367806
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18166332725812840220,
+        "start": 329909,
+        "end": 329933,
+        "text": "Funds appropriated in Schedule (1) shall be available for allocation by the California Transportation Commission",
+        "chunk_id": 4929405496033367806
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12104293517321094587,
+        "start": 329909,
+        "end": 329933,
+        "text": "Funds appropriated in Schedule (1) shall be available for allocation by the California Transportation Commission",
+        "chunk_id": 4929405496033367806
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11162832817813052214,
+        "start": 329909,
+        "end": 329933,
+        "text": "Funds appropriated in Schedule (1) shall be available for allocation by the California Transportation Commission",
+        "chunk_id": 4929405496033367806
+      }
+    ]
+  },
+  {
+    "candidate_id": 13152507474187600849,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 4849343732460423530,
+        "start": 329909,
+        "end": 329923,
+        "text": "These transfers shall require the prior approval of the Department of Finance.",
+        "chunk_id": 4929405496033367806
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6877399559266401587,
+        "start": 329909,
+        "end": 329923,
+        "text": "These transfers shall require the prior approval of the Department of Finance.",
+        "chunk_id": 4929405496033367806
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12545518806351299138,
+        "start": 329909,
+        "end": 329923,
+        "text": "These transfers shall require the prior approval of the Department of Finance.",
+        "chunk_id": 4929405496033367806
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14084836085838793802,
+        "start": 329909,
+        "end": 329923,
+        "text": "These transfers shall require the prior approval of the Department of Finance.",
+        "chunk_id": 4929405496033367806
+      }
+    ]
+  }
+]

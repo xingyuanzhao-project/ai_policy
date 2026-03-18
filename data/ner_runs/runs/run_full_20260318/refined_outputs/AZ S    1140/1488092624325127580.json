@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 4290807589806360435,
+    "source_group_id": 1488092624325127580,
+    "source_candidate_ids": [
+      6164672821856298017,
+      5689027400444892799
+    ],
+    "entity": "Homeless recovery telehealth pilot program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "statewide",
+    "entity_evidence": [
+      {
+        "span_id": 14003836597453173549,
+        "start": 0,
+        "end": 29,
+        "text": "Homeless recovery telehealth pilot program",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17724840292934275897,
+        "start": 0,
+        "end": 29,
+        "text": "program",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2902353699390108912,
+        "start": 0,
+        "end": 29,
+        "text": "establish",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15855722590317950516,
+        "start": 0,
+        "end": 29,
+        "text": "statewide",
+        "chunk_id": 193461994671174365
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16454242531904772375,
+    "source_group_id": 1841231860524955390,
+    "source_candidate_ids": [
+      13788688110168434860
+    ],
+    "entity": "ALSDE",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "competitive grant process",
+    "entity_evidence": [
+      {
+        "span_id": 1813488240325450396,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16645844340447663347,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5180700330594483284,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10528886915167238736,
+        "start": 77319,
+        "end": 77323,
+        "text": "ALSDE",
+        "chunk_id": 4348895783881981901
+      }
+    ]
+  }
+]

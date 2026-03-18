@@ -1,0 +1,51 @@
+[
+  {
+    "refined_id": 4007551539373274304,
+    "source_group_id": 12662573985060802322,
+    "source_candidate_ids": [
+      13382603626996142363,
+      15773651935001164841,
+      9341741607496002248
+    ],
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16951879795324391928,
+        "start": 503837,
+        "end": 503857,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 3537944484728303939
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16515455652068739844,
+        "start": 503837,
+        "end": 503857,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 3537944484728303939
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10865899167252574716,
+        "start": 503837,
+        "end": 503857,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 3537944484728303939
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1748823530562110185,
+        "start": 503837,
+        "end": 503857,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 3537944484728303939
+      }
+    ]
+  }
+]

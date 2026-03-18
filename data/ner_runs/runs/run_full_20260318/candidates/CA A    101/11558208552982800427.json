@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3867420411795510811,
+    "entity": "California State Library",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 18225723317556883409,
+        "start": 1294516,
+        "end": 1294538,
+        "text": "California State Library",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15428595728956085864,
+        "start": 1294516,
+        "end": 1294538,
+        "text": "government agency",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8976842855359656221,
+        "start": 1294516,
+        "end": 1294538,
+        "text": "restriction",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12626882572503748998,
+        "start": 1294516,
+        "end": 1294538,
+        "text": "specific",
+        "chunk_id": 11558208552982800427
+      }
+    ]
+  },
+  {
+    "candidate_id": 10429539581441347484,
+    "entity": "Proposition 98 Reversion Account",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 14345405422707330268,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "Proposition 98 Reversion Account",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5256509955265799267,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "infrastructure",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3989730687948065380,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "restriction",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4382646122633008529,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "specific",
+        "chunk_id": 11558208552982800427
+      }
+    ]
+  }
+]

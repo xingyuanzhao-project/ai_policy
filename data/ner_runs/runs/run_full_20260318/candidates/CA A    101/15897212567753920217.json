@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15959532085226913246,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "maximum extent allowable under federal law",
+    "entity_evidence": [
+      {
+        "span_id": 7901501927729476402,
+        "start": 598555,
+        "end": 598579,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 15897212567753920217
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 257169925110888705,
+        "start": 598579,
+        "end": 598596,
+        "text": "government agency",
+        "chunk_id": 15897212567753920217
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3438768093755407449,
+        "start": 598596,
+        "end": 598619,
+        "text": "restriction",
+        "chunk_id": 15897212567753920217
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1359974583370851778,
+        "start": 598619,
+        "end": 598659,
+        "text": "maximum extent allowable under federal law",
+        "chunk_id": 15897212567753920217
+      }
+    ]
+  },
+  {
+    "candidate_id": 12519196894007995616,
+    "entity": "nonprofit organizations",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "grants",
+    "entity_evidence": [
+      {
+        "span_id": 8938204279055652375,
+        "start": 598555,
+        "end": 598572,
+        "text": "nonprofit organizations",
+        "chunk_id": 15897212567753920217
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 276168818556454306,
+        "start": 598572,
+        "end": 598583,
+        "text": "individual",
+        "chunk_id": 15897212567753920217
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4268044650828620544,
+        "start": 598583,
+        "end": 598589,
+        "text": "promotion",
+        "chunk_id": 15897212567753920217
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16934265014895801826,
+        "start": 598589,
+        "end": 598595,
+        "text": "grants",
+        "chunk_id": 15897212567753920217
+      }
+    ]
+  }
+]

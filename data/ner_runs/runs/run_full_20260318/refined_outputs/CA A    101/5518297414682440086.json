@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2078431523416793333,
+    "source_group_id": 5518297414682440086,
+    "source_candidate_ids": [
+      2410924154071165024
+    ],
+    "entity": "Public Buildings Construction Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days after enactment of this budget",
+    "entity_evidence": [
+      {
+        "span_id": 12840298061106755399,
+        "start": 916828,
+        "end": 916848,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 7695137559706877639
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11081087099419687450,
+        "start": 916828,
+        "end": 916848,
+        "text": "government agency",
+        "chunk_id": 7695137559706877639
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8696476950893149006,
+        "start": 916828,
+        "end": 916848,
+        "text": "restriction",
+        "chunk_id": 7695137559706877639
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 770274278754143371,
+        "start": 916828,
+        "end": 916848,
+        "text": "30 days after enactment of this budget",
+        "chunk_id": 7695137559706877639
+      }
+    ]
+  }
+]

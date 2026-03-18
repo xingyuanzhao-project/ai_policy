@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 250518407715302647,
+    "source_group_id": 2497665453083736134,
+    "source_candidate_ids": [
+      12579857010221269233
+    ],
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prioritize disadvantaged communities",
+    "entity_evidence": [
+      {
+        "span_id": 14630415484353769315,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16187893972716372888,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4899698160200786163,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11474342215965983981,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ]
+  }
+]

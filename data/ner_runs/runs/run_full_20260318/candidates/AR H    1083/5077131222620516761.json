@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9317590791259068801,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 12288987493259108144,
+        "start": 7702,
+        "end": 7711,
+        "text": "covered platform",
+        "chunk_id": 5077131222620516761
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9435935296983098034,
+        "start": 7702,
+        "end": 7711,
+        "text": "covered platform",
+        "chunk_id": 5077131222620516761
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2498268820877951437,
+        "start": 7711,
+        "end": 7721,
+        "text": "reasonable measures",
+        "chunk_id": 5077131222620516761
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6568589583167905480,
+        "start": 7711,
+        "end": 7721,
+        "text": "reasonable measures",
+        "chunk_id": 5077131222620516761
+      }
+    ]
+  },
+  {
+    "candidate_id": 16219139649747731982,
+    "entity": "minor",
+    "type": "individual",
+    "attribute": "protection",
+    "value": "safeguards",
+    "entity_evidence": [
+      {
+        "span_id": 17444509885512466582,
+        "start": 7802,
+        "end": 7808,
+        "text": "minor",
+        "chunk_id": 5077131222620516761
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17297161841285594711,
+        "start": 7802,
+        "end": 7808,
+        "text": "minor",
+        "chunk_id": 5077131222620516761
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3396957351714664096,
+        "start": 7808,
+        "end": 7814,
+        "text": "safeguards",
+        "chunk_id": 5077131222620516761
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8698749888043406519,
+        "start": 7808,
+        "end": 7814,
+        "text": "safeguards",
+        "chunk_id": 5077131222620516761
+      }
+    ]
+  }
+]

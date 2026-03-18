@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2979958220537598004,
+    "source_group_id": 13576209842940128886,
+    "source_candidate_ids": [
+      3346506068115636001
+    ],
+    "entity": "local educational agencies",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 2663051333159272385,
+        "start": 1237008,
+        "end": 1237024,
+        "text": "local educational agencies",
+        "chunk_id": 5387409119886834291
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14820720459261892716,
+        "start": 1237008,
+        "end": 1237024,
+        "text": "local educational agencies",
+        "chunk_id": 5387409119886834291
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7962675325525951268,
+        "start": 1237008,
+        "end": 1237024,
+        "text": "local educational agencies",
+        "chunk_id": 5387409119886834291
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11861758027524385854,
+        "start": 1237008,
+        "end": 1237024,
+        "text": "local educational agencies",
+        "chunk_id": 5387409119886834291
+      }
+    ]
+  }
+]

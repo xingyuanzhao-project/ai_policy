@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7813525032598172409,
+    "entity": "Judicial Branch",
+    "type": "ORGANIZATION",
+    "attribute": "judicial_branch",
+    "value": "Judicial Branch",
+    "entity_evidence": [
+      {
+        "span_id": 6687310304498257184,
+        "start": 53624,
+        "end": 53624,
+        "text": "Judicial",
+        "chunk_id": 5824715307181457654
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12904949381277231903,
+        "start": 53624,
+        "end": 53624,
+        "text": "Branch",
+        "chunk_id": 5824715307181457654
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17608692124483827867,
+        "start": 53624,
+        "end": 53624,
+        "text": "judicial_branch",
+        "chunk_id": 5824715307181457654
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7832894893109077170,
+        "start": 53624,
+        "end": 53624,
+        "text": "Judicial Branch",
+        "chunk_id": 5824715307181457654
+      }
+    ]
+  },
+  {
+    "candidate_id": 10981524521344242116,
+    "entity": "Court Employee Retirement, Compensation, and Benefits",
+    "type": "ORGANIZATION",
+    "attribute": "court_employee_retirement_compensation_and_benefits",
+    "value": "Court Employee Retirement, Compensation, and Benefits",
+    "entity_evidence": [
+      {
+        "span_id": 2855178009316333137,
+        "start": 54404,
+        "end": 54404,
+        "text": "Court Employee",
+        "chunk_id": 5824715307181457654
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12171369121315094398,
+        "start": 54404,
+        "end": 54404,
+        "text": "Retirement",
+        "chunk_id": 5824715307181457654
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11004095399768093857,
+        "start": 54404,
+        "end": 54404,
+        "text": "court_employee_retirement_compensation_and_benefits",
+        "chunk_id": 5824715307181457654
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 123364522275131994,
+        "start": 54404,
+        "end": 54404,
+        "text": "Court Employee Retirement, Compensation, and Benefits",
+        "chunk_id": 5824715307181457654
+      }
+    ]
+  }
+]

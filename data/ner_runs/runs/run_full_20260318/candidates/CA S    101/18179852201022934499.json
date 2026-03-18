@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15170700916796933737,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "full support",
+    "entity_evidence": [
+      {
+        "span_id": 11368633359424210405,
+        "start": 1043106,
+        "end": 1043127,
+        "text": "State Department of Education",
+        "chunk_id": 18179852201022934499
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3636115112538777452,
+        "start": 1043106,
+        "end": 1043127,
+        "text": "State Department of Education",
+        "chunk_id": 18179852201022934499
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18292415933967839713,
+        "start": 1043106,
+        "end": 1043127,
+        "text": "State Department of Education",
+        "chunk_id": 18179852201022934499
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17221704494809416496,
+        "start": 1043106,
+        "end": 1043127,
+        "text": "State Department of Education",
+        "chunk_id": 18179852201022934499
+      }
+    ]
+  },
+  {
+    "candidate_id": 14711817356199202280,
+    "entity": "Chancellor's Office of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "full support",
+    "entity_evidence": [
+      {
+        "span_id": 12383778046271505904,
+        "start": 1043406,
+        "end": 1043435,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 18179852201022934499
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1063686390555348430,
+        "start": 1043406,
+        "end": 1043435,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 18179852201022934499
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9151703963128667576,
+        "start": 1043406,
+        "end": 1043435,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 18179852201022934499
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9152768102987405442,
+        "start": 1043406,
+        "end": 1043435,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 18179852201022934499
+      }
+    ]
+  }
+]

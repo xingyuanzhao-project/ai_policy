@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15001984998337219055,
+    "entity": "deepfake",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 7377351897892379445,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4758186154513239035,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2509028596263196961,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17425413983419040021,
+        "start": 0,
+        "end": 7,
+        "text": "Deepfake",
+        "chunk_id": 5402270018987339325
+      }
+    ]
+  },
+  {
+    "candidate_id": 7492236092776283803,
+    "entity": "election-related communication",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 475021105111249312,
+        "start": 123,
+        "end": 144,
+        "text": "election-related communication",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8491051044831147097,
+        "start": 123,
+        "end": 144,
+        "text": "election-related communication",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14896736085218719702,
+        "start": 123,
+        "end": 144,
+        "text": "election-related communication",
+        "chunk_id": 5402270018987339325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7669149857695000820,
+        "start": 123,
+        "end": 144,
+        "text": "election-related communication",
+        "chunk_id": 5402270018987339325
+      }
+    ]
+  }
+]

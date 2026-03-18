@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17612902114127172960,
+    "entity": "California State Library",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific funding appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 7921497855200243432,
+        "start": 1201498,
+        "end": 1201520,
+        "text": "California State Library",
+        "chunk_id": 2694671896830282235
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15468641351679059649,
+        "start": 1201498,
+        "end": 1201520,
+        "text": "government agency",
+        "chunk_id": 2694671896830282235
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9262744718668519218,
+        "start": 1201498,
+        "end": 1201520,
+        "text": "restriction",
+        "chunk_id": 2694671896830282235
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17174238105432334931,
+        "start": 1201498,
+        "end": 1201520,
+        "text": "specific funding appropriation",
+        "chunk_id": 2694671896830282235
+      }
+    ]
+  },
+  {
+    "candidate_id": 9886044344644374119,
+    "entity": "California State Law Library Special Account",
+    "type": "infrastructure",
+    "attribute": "augmentation",
+    "value": "not sooner than 30 days",
+    "entity_evidence": [
+      {
+        "span_id": 12285215172986870477,
+        "start": 1202120,
+        "end": 1202144,
+        "text": "California State Law Library Special Account",
+        "chunk_id": 2694671896830282235
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17589548402883050293,
+        "start": 1202120,
+        "end": 1202144,
+        "text": "infrastructure",
+        "chunk_id": 2694671896830282235
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15628907970492920101,
+        "start": 1202120,
+        "end": 1202144,
+        "text": "augmentation",
+        "chunk_id": 2694671896830282235
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7684950679474691645,
+        "start": 1202120,
+        "end": 1202144,
+        "text": "not sooner than 30 days",
+        "chunk_id": 2694671896830282235
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2409557991112259225,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 11900093412127984292,
+        "start": 823272,
+        "end": 823296,
+        "text": "Of the amount appropriated in Schedule (1), up to $1,112,000 shall be available for implementation and the maintenance and operation of the Patient Safety and Antidiscrimination Project, upon approval of a Project Delegation Request or the Project Approval Lifecycle by the Department of Technology.",
+        "chunk_id": 6098636667381205883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18155693784198450478,
+        "start": 823272,
+        "end": 823296,
+        "text": "Of the amount appropriated in Schedule (1), up to $1,112,000 shall be available for implementation and the maintenance and operation of the Patient Safety and Antidiscrimination Project, upon approval of a Project Delegation Request or the Project Approval Lifecycle by the Department of Technology.",
+        "chunk_id": 6098636667381205883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2315838408193245251,
+        "start": 823272,
+        "end": 823296,
+        "text": "Of the amount appropriated in Schedule (1), up to $1,112,000 shall be available for implementation and the maintenance and operation of the Patient Safety and Antidiscrimination Project, upon approval of a Project Delegation Request or the Project Approval Lifecycle by the Department of Technology.",
+        "chunk_id": 6098636667381205883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15173174228786506303,
+        "start": 823272,
+        "end": 823296,
+        "text": "Of the amount appropriated in Schedule (1), up to $1,112,000 shall be available for implementation and the maintenance and operation of the Patient Safety and Antidiscrimination Project, upon approval of a Project Delegation Request or the Project Approval Lifecycle by the Department of Technology.",
+        "chunk_id": 6098636667381205883
+      }
+    ]
+  },
+  {
+    "candidate_id": 8087201597088200080,
+    "entity": "fentanyl",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "availability",
+    "entity_evidence": [
+      {
+        "span_id": 13868258738957584046,
+        "start": 823272,
+        "end": 823282,
+        "text": "fentanyl program grants and innovative approaches to make fentanyl test strips and naloxone more widely available.",
+        "chunk_id": 6098636667381205883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16666753003010243274,
+        "start": 823272,
+        "end": 823282,
+        "text": "fentanyl program grants and innovative approaches to make fentanyl test strips and naloxone more widely available.",
+        "chunk_id": 6098636667381205883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11584553100361406306,
+        "start": 823272,
+        "end": 823282,
+        "text": "fentanyl program grants and innovative approaches to make fentanyl test strips and naloxone more widely available.",
+        "chunk_id": 6098636667381205883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11791054231124395413,
+        "start": 823272,
+        "end": 823282,
+        "text": "fentanyl program grants and innovative approaches to make fentanyl test strips and naloxone more widely available.",
+        "chunk_id": 6098636667381205883
+      }
+    ]
+  }
+]

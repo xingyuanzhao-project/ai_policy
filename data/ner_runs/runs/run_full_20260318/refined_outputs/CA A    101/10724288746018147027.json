@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13646327155629065439,
+    "source_group_id": 10724288746018147027,
+    "source_candidate_ids": [
+      12517304433523808708
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 12263409472300455401,
+        "start": 1737619,
+        "end": 1737637,
+        "text": "by the Director of Finance",
+        "chunk_id": 8449600868954992641
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5902897328286591842,
+        "start": 1737619,
+        "end": 1737637,
+        "text": "by the Director of Finance",
+        "chunk_id": 8449600868954992641
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12983330915048776105,
+        "start": 1737619,
+        "end": 1737637,
+        "text": "by the Director of Finance",
+        "chunk_id": 8449600868954992641
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4401691134263559607,
+        "start": 1737619,
+        "end": 1737637,
+        "text": "by the Director of Finance",
+        "chunk_id": 8449600868954992641
+      }
+    ]
+  }
+]

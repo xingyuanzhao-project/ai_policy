@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1420464414863798555,
+    "source_group_id": 2744649590872210823,
+    "source_candidate_ids": [
+      11557942368899580118
+    ],
+    "entity": "Mt. Edgecumbe High School",
+    "type": "infrastructure",
+    "attribute": "recipient",
+    "value": "maintenance and operations",
+    "entity_evidence": [
+      {
+        "span_id": 5932686294252565837,
+        "start": 123412,
+        "end": 123432,
+        "text": "Mt. Edgecumbe High School",
+        "chunk_id": 7796299806151498561
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6004272016119488854,
+        "start": 123412,
+        "end": 123432,
+        "text": "infrastructure",
+        "chunk_id": 7796299806151498561
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7243713108145159987,
+        "start": 123412,
+        "end": 123432,
+        "text": "recipient",
+        "chunk_id": 7796299806151498561
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17558517680819805027,
+        "start": 123412,
+        "end": 123432,
+        "text": "maintenance and operations",
+        "chunk_id": 7796299806151498561
+      }
+    ]
+  }
+]

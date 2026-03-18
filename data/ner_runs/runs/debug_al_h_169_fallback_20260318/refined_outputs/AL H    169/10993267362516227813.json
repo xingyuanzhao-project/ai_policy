@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7387224439273837246,
+    "source_group_id": 10993267362516227813,
+    "source_candidate_ids": [
+      17714983251817703733
+    ],
+    "entity": "Alabama Medicaid Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "standard per diem paid",
+    "entity_evidence": [
+      {
+        "span_id": 9500215129685042152,
+        "start": 111877,
+        "end": 111901,
+        "text": "the Alabama Medicaid Agency",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16647057354029774680,
+        "start": 111901,
+        "end": 111918,
+        "text": "agency",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6589742684515309668,
+        "start": 111918,
+        "end": 111931,
+        "text": "paid",
+        "chunk_id": 14134159057134452690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10831193613232538361,
+        "start": 111931,
+        "end": 111950,
+        "text": "per diem paid by",
+        "chunk_id": 14134159057134452690
+      }
+    ]
+  }
+]

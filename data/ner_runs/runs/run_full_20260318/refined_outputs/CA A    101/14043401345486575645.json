@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11264815892242678550,
+    "source_group_id": 14043401345486575645,
+    "source_candidate_ids": [
+      11606926627673813260
+    ],
+    "entity": "California Department of Aging",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportion to the total number of beds in licensed skilled nursing home facilities in the state",
+    "entity_evidence": [
+      {
+        "span_id": 9889191444848114264,
+        "start": 818551,
+        "end": 818571,
+        "text": "California Department of Aging",
+        "chunk_id": 17518776437159932596
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7334294775147464653,
+        "start": 818551,
+        "end": 818571,
+        "text": "government agency",
+        "chunk_id": 17518776437159932596
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1748103190798799770,
+        "start": 818551,
+        "end": 818571,
+        "text": "restriction",
+        "chunk_id": 17518776437159932596
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8275100050695859714,
+        "start": 818551,
+        "end": 818571,
+        "text": "proportion to the total number of beds in licensed skilled nursing home facilities in the state",
+        "chunk_id": 17518776437159932596
+      }
+    ]
+  }
+]

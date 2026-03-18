@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17862517158731139934,
+    "source_group_id": 6901967044845577279,
+    "source_candidate_ids": [
+      7925592037928790878
+    ],
+    "entity": "Offshore Wind Generation",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "available",
+    "entity_evidence": [
+      {
+        "span_id": 10942442578661009144,
+        "start": 478774,
+        "end": 478794,
+        "text": "Offshore Wind Generation",
+        "chunk_id": 9442644105677283887
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17345825661620557628,
+        "start": 478774,
+        "end": 478794,
+        "text": "technology",
+        "chunk_id": 9442644105677283887
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13394216609056097269,
+        "start": 478774,
+        "end": 478794,
+        "text": "promotion",
+        "chunk_id": 9442644105677283887
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14945645670205629883,
+        "start": 478774,
+        "end": 478794,
+        "text": "available",
+        "chunk_id": 9442644105677283887
+      }
+    ]
+  }
+]

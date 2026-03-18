@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5297964114727646987,
+    "entity": "Arizona automated fingerprint identification system",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 8931263065559447940,
+        "start": 2410,
+        "end": 2430,
+        "text": "To provide support to the Arizona automated fingerprint identification system.",
+        "chunk_id": 10622736250422784700
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13074743095976741526,
+        "start": 2410,
+        "end": 2430,
+        "text": "To provide support to the Arizona automated fingerprint identification system.",
+        "chunk_id": 10622736250422784700
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5150203345932650398,
+        "start": 2410,
+        "end": 2430,
+        "text": "To provide support to the Arizona automated fingerprint identification system.",
+        "chunk_id": 10622736250422784700
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7318815635421098386,
+        "start": 2410,
+        "end": 2430,
+        "text": "To provide support to the Arizona automated fingerprint identification system.",
+        "chunk_id": 10622736250422784700
+      }
+    ]
+  },
+  {
+    "candidate_id": 5514759557215388162,
+    "entity": "criminal justice information system",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "operational costs",
+    "entity_evidence": [
+      {
+        "span_id": 4273328259502611318,
+        "start": 2451,
+        "end": 2471,
+        "text": "Operational costs of the criminal justice information system.",
+        "chunk_id": 10622736250422784700
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12559915262251990721,
+        "start": 2451,
+        "end": 2471,
+        "text": "Operational costs of the criminal justice information system.",
+        "chunk_id": 10622736250422784700
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3746768497739682769,
+        "start": 2451,
+        "end": 2471,
+        "text": "Operational costs of the criminal justice information system.",
+        "chunk_id": 10622736250422784700
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8140478491873387330,
+        "start": 2451,
+        "end": 2471,
+        "text": "Operational costs of the criminal justice information system.",
+        "chunk_id": 10622736250422784700
+      }
+    ]
+  }
+]

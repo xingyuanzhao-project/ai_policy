@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8549798979874910675,
+    "entity": "San Diego River Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 10238301719925612221,
+        "start": 639507,
+        "end": 639527,
+        "text": "San Diego River Conservancy",
+        "chunk_id": 5552186194456433075
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12587114246043155798,
+        "start": 639507,
+        "end": 639527,
+        "text": "San Diego River Conservancy",
+        "chunk_id": 5552186194456433075
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9850892845245522873,
+        "start": 639528,
+        "end": 639538,
+        "text": "available for encumbrance or expenditure",
+        "chunk_id": 5552186194456433075
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10989929606642919216,
+        "start": 639539,
+        "end": 639545,
+        "text": "until June 30, 2028",
+        "chunk_id": 5552186194456433075
+      }
+    ]
+  },
+  {
+    "candidate_id": 18357908391970236650,
+    "entity": "Coachella Valley Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 15127555193467101873,
+        "start": 639627,
+        "end": 639648,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 5552186194456433075
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15527131268106418914,
+        "start": 639627,
+        "end": 639648,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 5552186194456433075
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2250251444735598451,
+        "start": 639649,
+        "end": 639659,
+        "text": "available for encumbrance or expenditure",
+        "chunk_id": 5552186194456433075
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1578133880266833018,
+        "start": 639660,
+        "end": 639666,
+        "text": "until June 30, 2028",
+        "chunk_id": 5552186194456433075
+      }
+    ]
+  }
+]

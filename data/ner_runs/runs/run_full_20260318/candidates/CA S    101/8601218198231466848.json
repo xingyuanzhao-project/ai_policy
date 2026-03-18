@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8666082165137853343,
+    "entity": "California Department of Aging",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from the ratio provided in subdivision (d) of Section 9541.5 of the Welfare and Institutions Code",
+    "entity_evidence": [
+      {
+        "span_id": 16569388716946425589,
+        "start": 727652,
+        "end": 727672,
+        "text": "California Department of Aging",
+        "chunk_id": 8601218198231466848
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6318148750298535580,
+        "start": 727652,
+        "end": 727672,
+        "text": "government agency",
+        "chunk_id": 8601218198231466848
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11604576096300762169,
+        "start": 727652,
+        "end": 727672,
+        "text": "restriction",
+        "chunk_id": 8601218198231466848
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11939365843936966945,
+        "start": 727652,
+        "end": 727672,
+        "text": "exempt from the ratio provided in subdivision (d) of Section 9541.5 of the Welfare and Institutions Code",
+        "chunk_id": 8601218198231466848
+      }
+    ]
+  },
+  {
+    "candidate_id": 15986368522329693816,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "in writing",
+    "entity_evidence": [
+      {
+        "span_id": 1569031776944156359,
+        "start": 727763,
+        "end": 727784,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 8601218198231466848
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8117209716746072498,
+        "start": 727763,
+        "end": 727784,
+        "text": "government agency",
+        "chunk_id": 8601218198231466848
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5716518356166991344,
+        "start": 727763,
+        "end": 727784,
+        "text": "notification",
+        "chunk_id": 8601218198231466848
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15916646387293579997,
+        "start": 727763,
+        "end": 727784,
+        "text": "in writing",
+        "chunk_id": 8601218198231466848
+      }
+    ]
+  }
+]

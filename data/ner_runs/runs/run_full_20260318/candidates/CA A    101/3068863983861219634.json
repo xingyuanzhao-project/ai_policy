@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1076490548262796517,
+    "entity": "Office of Environmental Health Hazard Assessment",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 14412858984395881959,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11320896283369327559,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11889587855153894919,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7531221579709365040,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ]
+  },
+  {
+    "candidate_id": 18020167724939346616,
+    "entity": "California Used Oil Recycling Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 11045116349960362280,
+        "start": 783097,
+        "end": 783127,
+        "text": "California Used Oil Recycling Fund",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1873179798125979746,
+        "start": 783097,
+        "end": 783127,
+        "text": "California Used Oil Recycling Fund",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13515082043555197910,
+        "start": 783097,
+        "end": 783127,
+        "text": "California Used Oil Recycling Fund",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15065732738359052291,
+        "start": 783097,
+        "end": 783127,
+        "text": "California Used Oil Recycling Fund",
+        "chunk_id": 3068863983861219634
+      }
+    ]
+  }
+]

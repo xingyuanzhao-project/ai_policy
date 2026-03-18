@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5478504374567263300,
+    "entity": "public school student",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 10663335694080467325,
+        "start": 4916,
+        "end": 4926,
+        "text": "public school student",
+        "chunk_id": 7844237601500615933
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14614658090646642431,
+        "start": 4916,
+        "end": 4926,
+        "text": "individual",
+        "chunk_id": 7844237601500615933
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18384165387105395552,
+        "start": 4916,
+        "end": 4926,
+        "text": "restriction",
+        "chunk_id": 7844237601500615933
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10240747501480114658,
+        "start": 4916,
+        "end": 4926,
+        "text": "specific",
+        "chunk_id": 7844237601500615933
+      }
+    ]
+  },
+  {
+    "candidate_id": 14751458021044707685,
+    "entity": "department-approved computer science courses",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 11152036285620573234,
+        "start": 4937,
+        "end": 4958,
+        "text": "department-approved computer science courses",
+        "chunk_id": 7844237601500615933
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 333703324159802701,
+        "start": 4937,
+        "end": 4958,
+        "text": "technology",
+        "chunk_id": 7844237601500615933
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15300968288196631971,
+        "start": 4937,
+        "end": 4958,
+        "text": "promotion",
+        "chunk_id": 7844237601500615933
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3117192983440962681,
+        "start": 4937,
+        "end": 4958,
+        "text": "specific",
+        "chunk_id": 7844237601500615933
+      }
+    ]
+  }
+]

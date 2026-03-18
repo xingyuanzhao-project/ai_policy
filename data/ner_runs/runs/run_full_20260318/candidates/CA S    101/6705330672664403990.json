@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15697501460722983982,
+    "entity": "Secretary of Business, Consumer Services, and Housing",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "payable from the Alcohol Beverage Control Fund",
+    "entity_evidence": [
+      {
+        "span_id": 8268365452794870010,
+        "start": 81321,
+        "end": 81353,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing, payable from the Alcohol Beverage Control Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 598842543573449476,
+        "start": 81321,
+        "end": 81353,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing, payable from the Alcohol Beverage Control Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5649019743980840621,
+        "start": 81321,
+        "end": 81353,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing, payable from the Alcohol Beverage Control Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5641716127987391771,
+        "start": 81321,
+        "end": 81353,
+        "text": "For support of Secretary of Business, Consumer Services, and Housing, payable from the Alcohol Beverage Control Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ]
+  },
+  {
+    "candidate_id": 328106981406077570,
+    "entity": "Secretary of Transportation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "payable from the State Highway Account, State Transportation Fund",
+    "entity_evidence": [
+      {
+        "span_id": 2420606533936600413,
+        "start": 81375,
+        "end": 81407,
+        "text": "For support of Secretary of Transportation, payable from the State Highway Account, State Transportation Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3426291300233601992,
+        "start": 81375,
+        "end": 81407,
+        "text": "For support of Secretary of Transportation, payable from the State Highway Account, State Transportation Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2865324037633923065,
+        "start": 81375,
+        "end": 81407,
+        "text": "For support of Secretary of Transportation, payable from the State Highway Account, State Transportation Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9738236208937948368,
+        "start": 81375,
+        "end": 81407,
+        "text": "For support of Secretary of Transportation, payable from the State Highway Account, State Transportation Fund",
+        "chunk_id": 6705330672664403990
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 828964945914324737,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt",
+    "entity_evidence": [
+      {
+        "span_id": 16517307157020575190,
+        "start": 767164,
+        "end": 767182,
+        "text": "Contracts entered into or amended pursuant to this provision shall be exempt",
+        "chunk_id": 664981156404698358
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15188211065140032982,
+        "start": 767164,
+        "end": 767182,
+        "text": "Contracts entered into or amended pursuant to this provision shall be exempt",
+        "chunk_id": 664981156404698358
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4580344578786333179,
+        "start": 767164,
+        "end": 767182,
+        "text": "Contracts entered into or amended pursuant to this provision shall be exempt",
+        "chunk_id": 664981156404698358
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11121488189569010508,
+        "start": 767164,
+        "end": 767182,
+        "text": "Contracts entered into or amended pursuant to this provision shall be exempt",
+        "chunk_id": 664981156404698358
+      }
+    ]
+  },
+  {
+    "candidate_id": 6832913485102847174,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "autonomy",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 12527782345925039792,
+        "start": 767211,
+        "end": 767227,
+        "text": "Notwithstanding Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 664981156404698358
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15905333303416955783,
+        "start": 767211,
+        "end": 767227,
+        "text": "Notwithstanding Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 664981156404698358
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6222660144427272892,
+        "start": 767211,
+        "end": 767227,
+        "text": "Notwithstanding Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 664981156404698358
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1397821999823302439,
+        "start": 767211,
+        "end": 767227,
+        "text": "Notwithstanding Chapter 3.5 (commencing with Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code",
+        "chunk_id": 664981156404698358
+      }
+    ]
+  }
+]

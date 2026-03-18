@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13966501731093880684,
+    "source_group_id": 11672485677003061846,
+    "source_candidate_ids": [
+      6043175891503906251
+    ],
+    "entity": "California Community College Strong Workforce Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "strong workforce",
+    "entity_evidence": [
+      {
+        "span_id": 12107691728197755967,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "California Community College Strong Workforce Program",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17043954526690583938,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "technology",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13716977216344003727,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "promotion",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7723329250138002719,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "strong workforce",
+        "chunk_id": 16178646357819491899
+      }
+    ]
+  }
+]

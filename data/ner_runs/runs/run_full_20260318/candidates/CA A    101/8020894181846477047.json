@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1586917674765148142,
+    "entity": "Department of Industrial Relations",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "payable from the Occupational Safety and Health Fund",
+    "entity_evidence": [
+      {
+        "span_id": 3637811427155728792,
+        "start": 1511625,
+        "end": 1511654,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 8020894181846477047
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7594280655521768788,
+        "start": 1511655,
+        "end": 1511670,
+        "text": "government agency",
+        "chunk_id": 8020894181846477047
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10289296786196633946,
+        "start": 1511671,
+        "end": 1511688,
+        "text": "funding",
+        "chunk_id": 8020894181846477047
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6778603864463266991,
+        "start": 1511689,
+        "end": 1511748,
+        "text": "payable from the Occupational Safety and Health Fund",
+        "chunk_id": 8020894181846477047
+      }
+    ]
+  },
+  {
+    "candidate_id": 2877383210835103751,
+    "entity": "Division of Labor Standards Enforcement",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "payable from the State Public Works Enforcement Fund",
+    "entity_evidence": [
+      {
+        "span_id": 6500783598860672517,
+        "start": 1511625,
+        "end": 1511656,
+        "text": "Division of Labor Standards Enforcement",
+        "chunk_id": 8020894181846477047
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9062842721081445043,
+        "start": 1511657,
+        "end": 1511672,
+        "text": "government agency",
+        "chunk_id": 8020894181846477047
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1567807841313255000,
+        "start": 1511673,
+        "end": 1511690,
+        "text": "funding",
+        "chunk_id": 8020894181846477047
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6188186453360476397,
+        "start": 1511691,
+        "end": 1511748,
+        "text": "payable from the State Public Works Enforcement Fund",
+        "chunk_id": 8020894181846477047
+      }
+    ]
+  }
+]

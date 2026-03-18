@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16752848578341617945,
+    "source_group_id": 11173507555534558531,
+    "source_candidate_ids": [
+      17196808580344587848
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior written approval",
+    "entity_evidence": [
+      {
+        "span_id": 16645872795191292078,
+        "start": 1847364,
+        "end": 1847374,
+        "text": "prior written approval",
+        "chunk_id": 11990500788115025597
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5006588356966902613,
+        "start": 1847364,
+        "end": 1847374,
+        "text": "prior written approval",
+        "chunk_id": 11990500788115025597
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12150548198795659618,
+        "start": 1847364,
+        "end": 1847374,
+        "text": "prior written approval",
+        "chunk_id": 11990500788115025597
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15611101503902124573,
+        "start": 1847364,
+        "end": 1847374,
+        "text": "prior written approval",
+        "chunk_id": 11990500788115025597
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17489718909018353935,
+    "entity": "frontier developer",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 8216603782067094242,
+        "start": 12366,
+        "end": 12377,
+        "text": "A frontier developer is encouraged",
+        "chunk_id": 6509056275958261686
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2704412593226860680,
+        "start": 12366,
+        "end": 12377,
+        "text": "A frontier developer",
+        "chunk_id": 6509056275958261686
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13839604193765582576,
+        "start": 12366,
+        "end": 12377,
+        "text": "is encouraged",
+        "chunk_id": 6509056275958261686
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15066078179981524692,
+        "start": 12366,
+        "end": 12377,
+        "text": "but not required",
+        "chunk_id": 6509056275958261686
+      }
+    ]
+  },
+  {
+    "candidate_id": 10096441747960862363,
+    "entity": "large frontier developer",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8013940934465988992,
+        "start": 12478,
+        "end": 12494,
+        "text": "A large frontier developer",
+        "chunk_id": 6509056275958261686
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7935317708804795558,
+        "start": 12478,
+        "end": 12494,
+        "text": "A large frontier developer",
+        "chunk_id": 6509056275958261686
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10102213618476913288,
+        "start": 12478,
+        "end": 12494,
+        "text": "shall not make",
+        "chunk_id": 6509056275958261686
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11442764238858844131,
+        "start": 12478,
+        "end": 12494,
+        "text": "shall not make",
+        "chunk_id": 6509056275958261686
+      }
+    ]
+  }
+]

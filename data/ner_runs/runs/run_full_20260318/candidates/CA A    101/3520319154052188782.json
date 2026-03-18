@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 293436373359258160,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportional to each student",
+    "entity_evidence": [
+      {
+        "span_id": 14538900605041044586,
+        "start": 1364933,
+        "end": 1364953,
+        "text": "California State University",
+        "chunk_id": 3520319154052188782
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12231097109909840863,
+        "start": 1364933,
+        "end": 1364953,
+        "text": "government agency",
+        "chunk_id": 3520319154052188782
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13486243581566554262,
+        "start": 1364933,
+        "end": 1364953,
+        "text": "restriction",
+        "chunk_id": 3520319154052188782
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16570900161319186756,
+        "start": 1364933,
+        "end": 1364953,
+        "text": "proportional to each student",
+        "chunk_id": 3520319154052188782
+      }
+    ]
+  },
+  {
+    "candidate_id": 13259433540123542669,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 11990801371244141241,
+        "start": 1365055,
+        "end": 1365072,
+        "text": "Director of Finance",
+        "chunk_id": 3520319154052188782
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10378693308335724337,
+        "start": 1365055,
+        "end": 1365072,
+        "text": "government agency",
+        "chunk_id": 3520319154052188782
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16971917201227064926,
+        "start": 1365055,
+        "end": 1365072,
+        "text": "restriction",
+        "chunk_id": 3520319154052188782
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 150649732056360588,
+        "start": 1365055,
+        "end": 1365072,
+        "text": "30 days",
+        "chunk_id": 3520319154052188782
+      }
+    ]
+  }
+]

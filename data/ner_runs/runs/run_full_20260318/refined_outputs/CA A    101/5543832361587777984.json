@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9452743354488849629,
+    "source_group_id": 5543832361587777984,
+    "source_candidate_ids": [
+      3026279055183722272
+    ],
+    "entity": "Public Transportation Modernization, Improvement, and Service Enhancement Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 16262047551220719304,
+        "start": 406635,
+        "end": 406681,
+        "text": "Public Transportation Modernization, Improvement, and Service Enhancement Account",
+        "chunk_id": 13025535042466113465
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18197917810802278750,
+        "start": 406635,
+        "end": 406681,
+        "text": "infrastructure",
+        "chunk_id": 13025535042466113465
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11996854446613320943,
+        "start": 406635,
+        "end": 406681,
+        "text": "promotion",
+        "chunk_id": 13025535042466113465
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12615733054902119788,
+        "start": 406635,
+        "end": 406681,
+        "text": "moderate",
+        "chunk_id": 13025535042466113465
+      }
+    ]
+  }
+]

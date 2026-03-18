@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5162052089180814907,
+    "source_group_id": 9602531848348988212,
+    "source_candidate_ids": [
+      5753003389538080666
+    ],
+    "entity": "Department of Child Support Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16923707656138428640,
+        "start": 991994,
+        "end": 992014,
+        "text": "Department of Child Support Services",
+        "chunk_id": 15879949043077679303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7659013844363813004,
+        "start": 991994,
+        "end": 992014,
+        "text": "government agency",
+        "chunk_id": 15879949043077679303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4787035817365791584,
+        "start": 991994,
+        "end": 992014,
+        "text": "restriction",
+        "chunk_id": 15879949043077679303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16653238566776165497,
+        "start": 991994,
+        "end": 992014,
+        "text": "limited",
+        "chunk_id": 15879949043077679303
+      }
+    ]
+  }
+]

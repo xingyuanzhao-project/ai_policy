@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1115714690934501928,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "longer period",
+    "entity_evidence": [
+      {
+        "span_id": 253737293680677310,
+        "start": 1072154,
+        "end": 1072175,
+        "text": "The following events shall require staff to preserve the recorded data for a longer period if filed or reported within 90 days of the event:",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11840738249893784123,
+        "start": 1072154,
+        "end": 1072175,
+        "text": "The following events shall require staff to preserve the recorded data for a longer period if filed or reported within 90 days of the event:",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9031194462709059591,
+        "start": 1072154,
+        "end": 1072175,
+        "text": "The following events shall require staff to preserve the recorded data for a longer period if filed or reported within 90 days of the event:",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3092485758910030682,
+        "start": 1072154,
+        "end": 1072175,
+        "text": "The following events shall require staff to preserve the recorded data for a longer period if filed or reported within 90 days of the event:",
+        "chunk_id": 18322470147113928256
+      }
+    ]
+  },
+  {
+    "candidate_id": 5972557376328813433,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "indefinite",
+    "entity_evidence": [
+      {
+        "span_id": 14680293546172681394,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4361245755255670651,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8454286067528527037,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16311184189292319356,
+        "start": 1072286,
+        "end": 1072307,
+        "text": "An audio or video recording that the Department of Corrections and Rehabilitation has reason to believe may become evidence in an administrative, civil, or criminal proceeding shall be stored indefinitely unless other direction is given by the Office of Legal Affairs or, in the event of a criminal proceeding, the district attorney's office.",
+        "chunk_id": 18322470147113928256
+      }
+    ]
+  }
+]

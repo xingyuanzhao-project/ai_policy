@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10848219813553734368,
+    "source_group_id": 8703516410405904605,
+    "source_candidate_ids": [
+      9124614388936071969
+    ],
+    "entity": "California State Military",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "substitution",
+    "entity_evidence": [
+      {
+        "span_id": 10826777708519918793,
+        "start": 1677366,
+        "end": 1677376,
+        "text": "the California State Military",
+        "chunk_id": 4546349922708939744
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11478893838218275423,
+        "start": 1677366,
+        "end": 1677376,
+        "text": "the California State Military",
+        "chunk_id": 4546349922708939744
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13712178302958002538,
+        "start": 1677366,
+        "end": 1677376,
+        "text": "the California State Military",
+        "chunk_id": 4546349922708939744
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14927264263141645486,
+        "start": 1677366,
+        "end": 1677376,
+        "text": "the California State Military",
+        "chunk_id": 4546349922708939744
+      }
+    ]
+  }
+]

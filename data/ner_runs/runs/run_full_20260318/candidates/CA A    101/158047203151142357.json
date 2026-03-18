@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9951119240855852797,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "requirement to spend at least $1 from local or other resources for every $2 received",
+    "entity_evidence": [
+      {
+        "span_id": 11643938338052004994,
+        "start": 1419034,
+        "end": 1419052,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12878434907852685894,
+        "start": 1419034,
+        "end": 1419052,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11522697459394372668,
+        "start": 1419034,
+        "end": 1419052,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15001176044540090509,
+        "start": 1419034,
+        "end": 1419052,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 158047203151142357
+      }
+    ]
+  },
+  {
+    "candidate_id": 16362148583568123926,
+    "entity": "chancellor",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "statewide priorities",
+    "entity_evidence": [
+      {
+        "span_id": 7593969734101155332,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7425322908670047787,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 386485360100257496,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15201723797801096797,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15607271831790044231,
+    "entity": "State Controller's Office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6161731038681365077,
+        "start": 190622,
+        "end": 190643,
+        "text": "State Controller's Office",
+        "chunk_id": 1943494560044054211
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10393006611280939343,
+        "start": 190622,
+        "end": 190643,
+        "text": "State Controller's Office",
+        "chunk_id": 1943494560044054211
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11544913797347197398,
+        "start": 190622,
+        "end": 190643,
+        "text": "State Controller's Office",
+        "chunk_id": 1943494560044054211
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2938547547577932353,
+        "start": 190622,
+        "end": 190643,
+        "text": "State Controller's Office",
+        "chunk_id": 1943494560044054211
+      }
+    ]
+  },
+  {
+    "candidate_id": 2363425865574620054,
+    "entity": "Property Tax Postponement Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15644436097549561909,
+        "start": 190922,
+        "end": 190947,
+        "text": "Property Tax Postponement Program",
+        "chunk_id": 1943494560044054211
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6261673674606674759,
+        "start": 190922,
+        "end": 190947,
+        "text": "Property Tax Postponement Program",
+        "chunk_id": 1943494560044054211
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7246774204557907598,
+        "start": 190922,
+        "end": 190947,
+        "text": "Property Tax Postponement Program",
+        "chunk_id": 1943494560044054211
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8345034552313380065,
+        "start": 190922,
+        "end": 190947,
+        "text": "Property Tax Postponement Program",
+        "chunk_id": 1943494560044054211
+      }
+    ]
+  }
+]

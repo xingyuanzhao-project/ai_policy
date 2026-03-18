@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9767909986113580784,
+    "entity": "Peralta Community College District",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16799260448925141982,
+        "start": 1446807,
+        "end": 1446827,
+        "text": "Peralta Community College District",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10933176591834860850,
+        "start": 1446807,
+        "end": 1446827,
+        "text": "government agency",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14566279897270473037,
+        "start": 1446807,
+        "end": 1446827,
+        "text": "restriction",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13866193441679521882,
+        "start": 1446807,
+        "end": 1446827,
+        "text": "extremely restrictive",
+        "chunk_id": 915260168541058947
+      }
+    ]
+  },
+  {
+    "candidate_id": 9497537696876048964,
+    "entity": "Merritt College",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 8284952786133220879,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "Merritt College",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2605722734370414894,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "infrastructure",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10941213977768212546,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "prohibition",
+        "chunk_id": 915260168541058947
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17678335634109205178,
+        "start": 1446827,
+        "end": 1446837,
+        "text": "partial",
+        "chunk_id": 915260168541058947
+      }
+    ]
+  }
+]

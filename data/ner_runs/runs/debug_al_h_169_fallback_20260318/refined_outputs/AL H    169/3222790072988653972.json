@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5978538154142039702,
+    "source_group_id": 3222790072988653972,
+    "source_candidate_ids": [
+      5598921728616995982
+    ],
+    "entity": "Alabama Reading Initiative",
+    "type": "Program",
+    "attribute": "funds",
+    "value": "151,950,000",
+    "entity_evidence": [
+      {
+        "span_id": 2819246751918588220,
+        "start": 42408,
+        "end": 45407,
+        "text": "Alabama Reading Initiative",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 214582113606213466,
+        "start": 42408,
+        "end": 45407,
+        "text": "Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14193382625992510107,
+        "start": 42408,
+        "end": 45407,
+        "text": "funds",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3625532649078615843,
+        "start": 42408,
+        "end": 45407,
+        "text": "151,950,000",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  }
+]

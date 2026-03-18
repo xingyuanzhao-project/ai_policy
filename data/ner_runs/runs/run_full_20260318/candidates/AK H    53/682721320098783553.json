@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5819565038623142354,
+    "entity": "University of Alaska",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "214,820,800",
+    "entity_evidence": [
+      {
+        "span_id": 5301345530497036757,
+        "start": 74403,
+        "end": 74403,
+        "text": "University of Alaska",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9598828104718220518,
+        "start": 74403,
+        "end": 74403,
+        "text": "University of Alaska",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15787769314696080881,
+        "start": 74403,
+        "end": 74403,
+        "text": "Federal Receipts",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10533817138254603760,
+        "start": 74403,
+        "end": 74403,
+        "text": "214,820,800",
+        "chunk_id": 682721320098783553
+      }
+    ]
+  },
+  {
+    "candidate_id": 4014113475191939049,
+    "entity": "Legislature",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "89,928,400",
+    "entity_evidence": [
+      {
+        "span_id": 13187703643117985573,
+        "start": 74405,
+        "end": 74405,
+        "text": "Legislature",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10807725342862209189,
+        "start": 74405,
+        "end": 74405,
+        "text": "Legislature",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12902810874051400292,
+        "start": 74405,
+        "end": 74405,
+        "text": "Unrestricted General Fund",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14624454701818964878,
+        "start": 74405,
+        "end": 74405,
+        "text": "89,928,400",
+        "chunk_id": 682721320098783553
+      }
+    ]
+  }
+]

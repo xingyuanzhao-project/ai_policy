@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4631708812291322037,
+    "source_group_id": 4047666575646789370,
+    "source_candidate_ids": [
+      2761783664898289108
+    ],
+    "entity": "Office of the City Attorney, City and County of San Francisco",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 15883494287126514793,
+        "start": 172099,
+        "end": 172127,
+        "text": "Office of the City Attorney, City and County of San Francisco",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8934882252433113288,
+        "start": 172099,
+        "end": 172127,
+        "text": "government agency",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8063770148197323678,
+        "start": 172099,
+        "end": 172127,
+        "text": "promotion",
+        "chunk_id": 8397204511194980809
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11018790775736452327,
+        "start": 172099,
+        "end": 172127,
+        "text": "support",
+        "chunk_id": 8397204511194980809
+      }
+    ]
+  }
+]

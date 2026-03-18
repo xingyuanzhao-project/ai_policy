@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14862114688023203087,
+    "source_group_id": 7922795301372541602,
+    "source_candidate_ids": [
+      3668002099976846420
+    ],
+    "entity": "University of Alaska",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "25 percent",
+    "entity_evidence": [
+      {
+        "span_id": 11518936732085321351,
+        "start": 114048,
+        "end": 114068,
+        "text": "University of Alaska",
+        "chunk_id": 14637621348288090578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16457340110309608762,
+        "start": 114048,
+        "end": 114068,
+        "text": "University of Alaska",
+        "chunk_id": 14637621348288090578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8655182820410694359,
+        "start": 114048,
+        "end": 114068,
+        "text": "University of Alaska",
+        "chunk_id": 14637621348288090578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11061310913837878741,
+        "start": 114048,
+        "end": 114068,
+        "text": "University of Alaska",
+        "chunk_id": 14637621348288090578
+      }
+    ]
+  }
+]

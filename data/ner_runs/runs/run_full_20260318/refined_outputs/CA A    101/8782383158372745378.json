@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15686387430898645772,
+    "source_group_id": 8782383158372745378,
+    "source_candidate_ids": [
+      2749254685811085508
+    ],
+    "entity": "Governor's Office of Business and Economic Development (GO-Biz)",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 746030191065982422,
+        "start": 79407,
+        "end": 79429,
+        "text": "Governor's Office of Business and Economic Development (GO-Biz)",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10757120030582331095,
+        "start": 79407,
+        "end": 79429,
+        "text": "government agency",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10010294141001632276,
+        "start": 79407,
+        "end": 79429,
+        "text": "promotion",
+        "chunk_id": 9631995626834310481
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11602996673082764505,
+        "start": 79407,
+        "end": 79429,
+        "text": "support",
+        "chunk_id": 9631995626834310481
+      }
+    ]
+  }
+]

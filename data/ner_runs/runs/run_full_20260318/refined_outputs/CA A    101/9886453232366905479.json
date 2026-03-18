@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11704234115664433040,
+    "source_group_id": 9886453232366905479,
+    "source_candidate_ids": [
+      438594344348952150
+    ],
+    "entity": "Dental Board of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "revenue derived from assessment of fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 13054931437483990751,
+        "start": 253767,
+        "end": 253787,
+        "text": "Dental Board of California",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17307769337943727801,
+        "start": 253767,
+        "end": 253787,
+        "text": "government agency",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9147303571388063252,
+        "start": 253767,
+        "end": 253787,
+        "text": "restriction",
+        "chunk_id": 4350583573810893578
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15891562960275962880,
+        "start": 253767,
+        "end": 253787,
+        "text": "revenue derived from assessment of fines and penalties",
+        "chunk_id": 4350583573810893578
+      }
+    ]
+  }
+]

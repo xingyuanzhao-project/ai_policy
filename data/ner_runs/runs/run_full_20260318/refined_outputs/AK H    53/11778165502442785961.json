@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7816035928481240290,
+    "source_group_id": 11778165502442785961,
+    "source_candidate_ids": [
+      14239756611241238156
+    ],
+    "entity": "Department of Education and Early Development",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "grants",
+    "entity_evidence": [
+      {
+        "span_id": 2696004225292907914,
+        "start": 123412,
+        "end": 123432,
+        "text": "Department of Education and Early Development",
+        "chunk_id": 7796299806151498561
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18169091455187436809,
+        "start": 123412,
+        "end": 123432,
+        "text": "government agency",
+        "chunk_id": 7796299806151498561
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3658544448255776236,
+        "start": 123412,
+        "end": 123432,
+        "text": "recipient",
+        "chunk_id": 7796299806151498561
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15939985917145448771,
+        "start": 123412,
+        "end": 123432,
+        "text": "grants",
+        "chunk_id": 7796299806151498561
+      }
+    ]
+  }
+]

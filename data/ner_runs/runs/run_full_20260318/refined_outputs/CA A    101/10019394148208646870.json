@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14844044825214718737,
+    "source_group_id": 10019394148208646870,
+    "source_candidate_ids": [
+      3966967460965975494
+    ],
+    "entity": "Child Support Administration",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 15457273400804603061,
+        "start": 991994,
+        "end": 992014,
+        "text": "Child Support Administration",
+        "chunk_id": 15879949043077679303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4713911492748444976,
+        "start": 991994,
+        "end": 992014,
+        "text": "government agency",
+        "chunk_id": 15879949043077679303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 404549503283088725,
+        "start": 991994,
+        "end": 992014,
+        "text": "promotion",
+        "chunk_id": 15879949043077679303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6086311419989191792,
+        "start": 991994,
+        "end": 992014,
+        "text": "significant",
+        "chunk_id": 15879949043077679303
+      }
+    ]
+  }
+]

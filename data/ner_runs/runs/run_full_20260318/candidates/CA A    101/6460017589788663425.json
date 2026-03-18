@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17567858297668946650,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 12461342012060370655,
+        "start": 1087090,
+        "end": 1087112,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 6460017589788663425
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6942770259992202224,
+        "start": 1087090,
+        "end": 1087112,
+        "text": "government agency",
+        "chunk_id": 6460017589788663425
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14213230655838805444,
+        "start": 1087090,
+        "end": 1087112,
+        "text": "restriction",
+        "chunk_id": 6460017589788663425
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 183200016346007163,
+        "start": 1087090,
+        "end": 1087112,
+        "text": "specific",
+        "chunk_id": 6460017589788663425
+      }
+    ]
+  },
+  {
+    "candidate_id": 16395853204207959290,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 14576781409503295727,
+        "start": 1086690,
+        "end": 1086702,
+        "text": "General Fund",
+        "chunk_id": 6460017589788663425
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15211383176991418682,
+        "start": 1086690,
+        "end": 1086702,
+        "text": "infrastructure",
+        "chunk_id": 6460017589788663425
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14295705745270548217,
+        "start": 1086690,
+        "end": 1086702,
+        "text": "restriction",
+        "chunk_id": 6460017589788663425
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4464819061441107192,
+        "start": 1086690,
+        "end": 1086702,
+        "text": "specific",
+        "chunk_id": 6460017589788663425
+      }
+    ]
+  }
+]

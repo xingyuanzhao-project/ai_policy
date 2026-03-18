@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2539381618215941658,
+    "source_group_id": 8373757409987110477,
+    "source_candidate_ids": [
+      8662971440268192862
+    ],
+    "entity": "California Collaborative for Educational Excellence",
+    "type": "organization",
+    "attribute": "promotion",
+    "value": "assist the State Department of Education in administering the 21st Century California School Leadership Academy",
+    "entity_evidence": [
+      {
+        "span_id": 8752049253795999114,
+        "start": 1265598,
+        "end": 1265632,
+        "text": "the California Collaborative for Educational Excellence to assist the State Department of Education in administering the 21st Century California School Leadership Academy",
+        "chunk_id": 17813228148255277159
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15494289252088538651,
+        "start": 1265598,
+        "end": 1265632,
+        "text": "the California Collaborative for Educational Excellence to assist the State Department of Education in administering the 21st Century California School Leadership Academy",
+        "chunk_id": 17813228148255277159
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6630280310389582995,
+        "start": 1265598,
+        "end": 1265632,
+        "text": "the California Collaborative for Educational Excellence to assist the State Department of Education in administering the 21st Century California School Leadership Academy",
+        "chunk_id": 17813228148255277159
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4874705580306774561,
+        "start": 1265598,
+        "end": 1265632,
+        "text": "the California Collaborative for Educational Excellence to assist the State Department of Education in administering the 21st Century California School Leadership Academy",
+        "chunk_id": 17813228148255277159
+      }
+    ]
+  }
+]

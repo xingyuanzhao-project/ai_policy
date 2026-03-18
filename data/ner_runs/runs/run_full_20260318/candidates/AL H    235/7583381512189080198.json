@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12347057503489327955,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "prohibit",
+    "entity_evidence": [
+      {
+        "span_id": 6498855159386253645,
+        "start": 166,
+        "end": 183,
+        "text": "social media platform",
+        "chunk_id": 7583381512189080198
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18420542090287645761,
+        "start": 166,
+        "end": 183,
+        "text": "social media platform",
+        "chunk_id": 7583381512189080198
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18161006763793018703,
+        "start": 183,
+        "end": 191,
+        "text": "prohibit",
+        "chunk_id": 7583381512189080198
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14056423744078361613,
+        "start": 183,
+        "end": 191,
+        "text": "prohibit",
+        "chunk_id": 7583381512189080198
+      }
+    ]
+  },
+  {
+    "candidate_id": 9100477679523217692,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "verification",
+    "value": "commercially reasonable process",
+    "entity_evidence": [
+      {
+        "span_id": 9839036323385861431,
+        "start": 166,
+        "end": 183,
+        "text": "social media platform",
+        "chunk_id": 7583381512189080198
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3860313728081111485,
+        "start": 166,
+        "end": 183,
+        "text": "social media platform",
+        "chunk_id": 7583381512189080198
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15844128070891452436,
+        "start": 191,
+        "end": 205,
+        "text": "verify the age of any individual attempting to create an account",
+        "chunk_id": 7583381512189080198
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12139963549490009061,
+        "start": 205,
+        "end": 221,
+        "text": "commercially reasonable process",
+        "chunk_id": 7583381512189080198
+      }
+    ]
+  }
+]

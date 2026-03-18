@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2233605935771969386,
+    "entity": "Alabama Leaders in Educational Technology (ALET)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "collaborative support",
+    "entity_evidence": [
+      {
+        "span_id": 13264643281143994349,
+        "start": 29122,
+        "end": 29143,
+        "text": "Alabama Leaders in Educational Technology (ALET)",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13907737150548113023,
+        "start": 29122,
+        "end": 29143,
+        "text": "Alabama Leaders in Educational Technology (ALET)",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8494304986847177342,
+        "start": 29122,
+        "end": 29143,
+        "text": "Alabama Leaders in Educational Technology (ALET)",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11680162669077211780,
+        "start": 29122,
+        "end": 29143,
+        "text": "collaborative support",
+        "chunk_id": 1729752726499996704
+      }
+    ]
+  },
+  {
+    "candidate_id": 14820586111088606735,
+    "entity": "Alabama School for Cyber Technology and Engineering",
+    "type": "school",
+    "attribute": "promotion",
+    "value": "cybersecurity",
+    "entity_evidence": [
+      {
+        "span_id": 12506456686305325256,
+        "start": 29329,
+        "end": 29353,
+        "text": "Alabama School for Cyber Technology and Engineering",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8398622139073629843,
+        "start": 29329,
+        "end": 29353,
+        "text": "school",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9293081819033328970,
+        "start": 29329,
+        "end": 29353,
+        "text": "cybersecurity",
+        "chunk_id": 1729752726499996704
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11009957063043443695,
+        "start": 29329,
+        "end": 29353,
+        "text": "cybersecurity",
+        "chunk_id": 1729752726499996704
+      }
+    ]
+  }
+]

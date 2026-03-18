@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2836609849146953690,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from review or approval",
+    "entity_evidence": [
+      {
+        "span_id": 11014526053441442161,
+        "start": 749577,
+        "end": 749598,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 2408151803083918400
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1157154967928372580,
+        "start": 749577,
+        "end": 749598,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 2408151803083918400
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8544886887503331073,
+        "start": 749659,
+        "end": 749674,
+        "text": "exempt from review or approval",
+        "chunk_id": 2408151803083918400
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6039409214366720903,
+        "start": 749659,
+        "end": 749674,
+        "text": "exempt from review or approval",
+        "chunk_id": 2408151803083918400
+      }
+    ]
+  },
+  {
+    "candidate_id": 12184458263018247036,
+    "entity": "Centers for Medicare and Medicaid Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "operative",
+    "entity_evidence": [
+      {
+        "span_id": 4809179275695903875,
+        "start": 749882,
+        "end": 749906,
+        "text": "Centers for Medicare and Medicaid Services",
+        "chunk_id": 2408151803083918400
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5191106465624903603,
+        "start": 749882,
+        "end": 749906,
+        "text": "Centers for Medicare and Medicaid Services",
+        "chunk_id": 2408151803083918400
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8408635543888520602,
+        "start": 749908,
+        "end": 749914,
+        "text": "operative",
+        "chunk_id": 2408151803083918400
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18161230743115425528,
+        "start": 749908,
+        "end": 749914,
+        "text": "operative",
+        "chunk_id": 2408151803083918400
+      }
+    ]
+  }
+]

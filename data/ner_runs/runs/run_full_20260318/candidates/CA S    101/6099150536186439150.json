@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9618617432111601911,
+    "entity": "Employee Compensation Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6893616206920506075,
+        "start": 1616845,
+        "end": 1616867,
+        "text": "Employee Compensation Program",
+        "chunk_id": 6099150536186439150
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17126901731315683635,
+        "start": 1616845,
+        "end": 1616867,
+        "text": "Employee Compensation Program",
+        "chunk_id": 6099150536186439150
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6576544217980287700,
+        "start": 1616845,
+        "end": 1616867,
+        "text": "Employee Compensation Program",
+        "chunk_id": 6099150536186439150
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9526002144495069804,
+        "start": 1616845,
+        "end": 1616867,
+        "text": "Employee Compensation Program",
+        "chunk_id": 6099150536186439150
+      }
+    ]
+  },
+  {
+    "candidate_id": 12180496352101802803,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10049293867798166728,
+        "start": 1616979,
+        "end": 1616989,
+        "text": "General Fund",
+        "chunk_id": 6099150536186439150
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10869510690691527899,
+        "start": 1616979,
+        "end": 1616989,
+        "text": "General Fund",
+        "chunk_id": 6099150536186439150
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9935107256678861626,
+        "start": 1616979,
+        "end": 1616989,
+        "text": "General Fund",
+        "chunk_id": 6099150536186439150
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15921617949528139792,
+        "start": 1616979,
+        "end": 1616989,
+        "text": "General Fund",
+        "chunk_id": 6099150536186439150
+      }
+    ]
+  }
+]

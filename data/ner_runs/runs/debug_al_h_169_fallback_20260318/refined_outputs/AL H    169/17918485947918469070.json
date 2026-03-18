@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10361659857929081949,
+    "source_group_id": 17918485947918469070,
+    "source_candidate_ids": [
+      17501054639542982125
+    ],
+    "entity": "school environment",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "free of harassment, intimidation, violence, and threats of violence",
+    "entity_evidence": [
+      {
+        "span_id": 7499585860810671409,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4203892889173850792,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6505445009302868593,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5634779887397593824,
+        "start": 55836,
+        "end": 55856,
+        "text": "free of harassment, intimidation, violence, and threats of violence",
+        "chunk_id": 7416843063371399616
+      }
+    ]
+  }
+]

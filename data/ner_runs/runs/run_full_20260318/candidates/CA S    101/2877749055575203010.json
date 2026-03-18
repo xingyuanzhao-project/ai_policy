@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8185346381594671082,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "zero-emission vehicles",
+    "entity_evidence": [
+      {
+        "span_id": 15555086425703808761,
+        "start": 307101,
+        "end": 307119,
+        "text": "Department of Transportation",
+        "chunk_id": 2877749055575203010
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9768967333077679607,
+        "start": 307101,
+        "end": 307119,
+        "text": "Department of Transportation",
+        "chunk_id": 2877749055575203010
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12598872013926845505,
+        "start": 307101,
+        "end": 307119,
+        "text": "Department of Transportation",
+        "chunk_id": 2877749055575203010
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 818183472337151650,
+        "start": 307101,
+        "end": 307119,
+        "text": "Department of Transportation",
+        "chunk_id": 2877749055575203010
+      }
+    ]
+  },
+  {
+    "candidate_id": 12832354534903180459,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "augmentation",
+    "value": "actual vehicle insurance costs",
+    "entity_evidence": [
+      {
+        "span_id": 9974190261396210808,
+        "start": 307228,
+        "end": 307245,
+        "text": "Department of Finance",
+        "chunk_id": 2877749055575203010
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10363594649611162043,
+        "start": 307228,
+        "end": 307245,
+        "text": "Department of Finance",
+        "chunk_id": 2877749055575203010
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4242301446687020536,
+        "start": 307228,
+        "end": 307245,
+        "text": "Department of Finance",
+        "chunk_id": 2877749055575203010
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17901507732954527144,
+        "start": 307228,
+        "end": 307245,
+        "text": "Department of Finance",
+        "chunk_id": 2877749055575203010
+      }
+    ]
+  }
+]

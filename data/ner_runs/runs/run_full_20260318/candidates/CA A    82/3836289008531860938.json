@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5162413834826506039,
+    "entity": "designated health care services facility",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "protection",
+    "entity_evidence": [
+      {
+        "span_id": 11561139305539874225,
+        "start": 9874,
+        "end": 9904,
+        "text": "designated health care services facility",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4730034493533427313,
+        "start": 9874,
+        "end": 9904,
+        "text": "infrastructure",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 208750177457800963,
+        "start": 9874,
+        "end": 9904,
+        "text": "restriction",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6651924632487617795,
+        "start": 9874,
+        "end": 9904,
+        "text": "protection",
+        "chunk_id": 3836289008531860938
+      }
+    ]
+  },
+  {
+    "candidate_id": 15761392362462763384,
+    "entity": "volunteer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "protection",
+    "entity_evidence": [
+      {
+        "span_id": 9416932263424985077,
+        "start": 9874,
+        "end": 9883,
+        "text": "volunteer",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14511668659481245249,
+        "start": 9874,
+        "end": 9883,
+        "text": "individual",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13611388408221642761,
+        "start": 9874,
+        "end": 9883,
+        "text": "restriction",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11550067885683760317,
+        "start": 9874,
+        "end": 9883,
+        "text": "protection",
+        "chunk_id": 3836289008531860938
+      }
+    ]
+  }
+]

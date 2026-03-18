@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4936972830858638710,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "designating federal laws",
+    "entity_evidence": [
+      {
+        "span_id": 1096333519795592427,
+        "start": 17227,
+        "end": 17251,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 14224622747381338944
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17263648416403715007,
+        "start": 17227,
+        "end": 17251,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 14224622747381338944
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18134336716107027096,
+        "start": 17227,
+        "end": 17251,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 14224622747381338944
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12333281366496687678,
+        "start": 17227,
+        "end": 17251,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 14224622747381338944
+      }
+    ]
+  },
+  {
+    "candidate_id": 8274169749481257303,
+    "entity": "frontier developer",
+    "type": "individual",
+    "attribute": "regulation",
+    "value": "compliance",
+    "entity_evidence": [
+      {
+        "span_id": 2314737921966834185,
+        "start": 17227,
+        "end": 17242,
+        "text": "frontier developer",
+        "chunk_id": 14224622747381338944
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2823881765947426063,
+        "start": 17227,
+        "end": 17242,
+        "text": "frontier developer",
+        "chunk_id": 14224622747381338944
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8003177334524335005,
+        "start": 17227,
+        "end": 17242,
+        "text": "frontier developer",
+        "chunk_id": 14224622747381338944
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 513888473174425230,
+        "start": 17227,
+        "end": 17242,
+        "text": "frontier developer",
+        "chunk_id": 14224622747381338944
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17569199426506774899,
+    "source_group_id": 16325482604839436307,
+    "source_candidate_ids": [
+      3783674181205307660
+    ],
+    "entity": "state-owned or state-leased property",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "minor projects, studies, specifications, design, construction, and equipment",
+    "entity_evidence": [
+      {
+        "span_id": 4867733721292601998,
+        "start": 1757825,
+        "end": 1757846,
+        "text": "state-owned or state-leased property",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9885490804963667694,
+        "start": 1757825,
+        "end": 1757846,
+        "text": "state-owned or state-leased property",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 941689342284908978,
+        "start": 1757847,
+        "end": 1757876,
+        "text": "minor projects, studies, specifications, design, construction, and equipment",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4679373628732471438,
+        "start": 1757847,
+        "end": 1757876,
+        "text": "minor projects, studies, specifications, design, construction, and equipment",
+        "chunk_id": 18028853965026256483
+      }
+    ]
+  }
+]

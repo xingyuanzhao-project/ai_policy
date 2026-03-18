@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4757996747591815395,
+    "entity": "Alabama Department of Insurance",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 432441320697186772,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14824765222832516597,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5344223552749736636,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17943194657129420138,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ]
+  },
+  {
+    "candidate_id": 16123953080772135953,
+    "entity": "health care providers",
+    "type": "individual",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 6125540393998225741,
+        "start": 166,
+        "end": 184,
+        "text": "health care providers",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10781339239833995390,
+        "start": 166,
+        "end": 184,
+        "text": "health care providers",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5161715779165315847,
+        "start": 166,
+        "end": 184,
+        "text": "health care providers",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16065339512772658742,
+        "start": 166,
+        "end": 184,
+        "text": "health care providers",
+        "chunk_id": 12655966820651651674
+      }
+    ]
+  }
+]

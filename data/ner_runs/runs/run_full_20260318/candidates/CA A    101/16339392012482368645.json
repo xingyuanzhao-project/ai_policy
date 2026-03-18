@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2373260657928767692,
+    "entity": "Department of Health Care Access and Information",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "payable from the Medically Underserved Account for Physicians, Health Professions Education Fund",
+    "entity_evidence": [
+      {
+        "span_id": 16041567391414048399,
+        "start": 805447,
+        "end": 805467,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12313729227489998531,
+        "start": 805447,
+        "end": 805467,
+        "text": "government agency",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2356712277406998968,
+        "start": 805447,
+        "end": 805467,
+        "text": "restriction",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12572616595413566725,
+        "start": 805447,
+        "end": 805467,
+        "text": "payable from the Medically Underserved Account for Physicians, Health Professions Education Fund",
+        "chunk_id": 16339392012482368645
+      }
+    ]
+  },
+  {
+    "candidate_id": 4972849594756995744,
+    "entity": "Department of Managed Health Care",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "payable from the Managed Care Fund",
+    "entity_evidence": [
+      {
+        "span_id": 8357945193147973756,
+        "start": 805647,
+        "end": 805668,
+        "text": "Department of Managed Health Care",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12416871469702188753,
+        "start": 805647,
+        "end": 805668,
+        "text": "government agency",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16707300348417137668,
+        "start": 805647,
+        "end": 805668,
+        "text": "restriction",
+        "chunk_id": 16339392012482368645
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8913525406534005740,
+        "start": 805647,
+        "end": 805668,
+        "text": "payable from the Managed Care Fund",
+        "chunk_id": 16339392012482368645
+      }
+    ]
+  }
+]

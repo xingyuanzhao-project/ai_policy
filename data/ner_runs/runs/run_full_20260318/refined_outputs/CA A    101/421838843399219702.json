@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3226867344900558289,
+    "source_group_id": 421838843399219702,
+    "source_candidate_ids": [
+      16427516852790821223
+    ],
+    "entity": "Individuals with Disabilities Education Act",
+    "type": "legislation",
+    "attribute": "promotion",
+    "value": "federally required monitoring",
+    "entity_evidence": [
+      {
+        "span_id": 16116296704925755727,
+        "start": 1173199,
+        "end": 1173220,
+        "text": "Individuals with Disabilities Education Act",
+        "chunk_id": 4822079664232547002
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13712204975609588350,
+        "start": 1173199,
+        "end": 1173220,
+        "text": "legislation",
+        "chunk_id": 4822079664232547002
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8661426240921370704,
+        "start": 1173199,
+        "end": 1173220,
+        "text": "promotion",
+        "chunk_id": 4822079664232547002
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 442634534669834433,
+        "start": 1173199,
+        "end": 1173220,
+        "text": "federally required monitoring",
+        "chunk_id": 4822079664232547002
+      }
+    ]
+  }
+]

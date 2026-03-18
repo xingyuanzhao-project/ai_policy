@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 15435466298413543858,
+    "source_group_id": 16855474082617204174,
+    "source_candidate_ids": [
+      5278137721607642129,
+      4972412150414873705
+    ],
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 11129469135454036619,
+        "start": 1566871,
+        "end": 1566891,
+        "text": "The Director of General Services",
+        "chunk_id": 2766639465304726550
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6713117214799339570,
+        "start": 1566871,
+        "end": 1566891,
+        "text": "The Director of General Services",
+        "chunk_id": 2766639465304726550
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12507643486515475234,
+        "start": 1566871,
+        "end": 1566891,
+        "text": "The Director of General Services",
+        "chunk_id": 2766639465304726550
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15030252216044049510,
+        "start": 1566871,
+        "end": 1566891,
+        "text": "The Director of General Services",
+        "chunk_id": 2766639465304726550
+      }
+    ]
+  }
+]

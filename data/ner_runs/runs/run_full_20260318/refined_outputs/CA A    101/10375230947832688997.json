@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6497368225946987954,
+    "source_group_id": 10375230947832688997,
+    "source_candidate_ids": [
+      7092677979045055024
+    ],
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "recipient",
+    "entity_evidence": [
+      {
+        "span_id": 10935059098342923296,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10257094893348052936,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14934827439591545314,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13544297223965894122,
+        "start": 1264357,
+        "end": 1264376,
+        "text": "University of California",
+        "chunk_id": 7323534862309789224
+      }
+    ]
+  }
+]

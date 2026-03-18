@@ -1,0 +1,11 @@
+Model,Year,Macro-F1
+BERT-base with gold and synthetic data,2018,0.47
+BERT-base with gold data,2018,0.53
+Flan-T5-base with gold data,2020,0.36
+Flan-T5-base with gold and synthetic data,2020,0.49
+Flan-T5-large with gold data,2022,0.42
+Flan-T5-large with gold and synthetic data,2022,0.6
+Flan-T5-XL with gold data,2022,0.65
+Flan-T5-XXL with gold data,2022,0.65
+Flan-T5-XL with gold and synthetic data,2022,0.68
+Flan-T5-XXL with gold and synthetic data,2022,0.7

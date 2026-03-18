@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4407786660753446348,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 8833443388671494345,
+        "start": 1776478,
+        "end": 1776489,
+        "text": "General Fund",
+        "chunk_id": 587257256391224229
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13459971905461440892,
+        "start": 1776478,
+        "end": 1776489,
+        "text": "infrastructure",
+        "chunk_id": 587257256391224229
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1566773250604793773,
+        "start": 1776478,
+        "end": 1776487,
+        "text": "restriction",
+        "chunk_id": 587257256391224229
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4604168543373553148,
+        "start": 1776478,
+        "end": 1776486,
+        "text": "adjustment",
+        "chunk_id": 587257256391224229
+      }
+    ]
+  },
+  {
+    "candidate_id": 12948018536305628687,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "final determination",
+    "entity_evidence": [
+      {
+        "span_id": 16803046225650342630,
+        "start": 1776478,
+        "end": 1776493,
+        "text": "Department of Finance",
+        "chunk_id": 587257256391224229
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5080978331084292057,
+        "start": 1776478,
+        "end": 1776493,
+        "text": "government agency",
+        "chunk_id": 587257256391224229
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8259378905743726645,
+        "start": 1776478,
+        "end": 1776490,
+        "text": "promotion",
+        "chunk_id": 587257256391224229
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16050494518991633992,
+        "start": 1776478,
+        "end": 1776491,
+        "text": "final determination",
+        "chunk_id": 587257256391224229
+      }
+    ]
+  }
+]

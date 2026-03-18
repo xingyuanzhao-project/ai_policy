@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13284878869226655228,
+    "source_group_id": 1160455527820968494,
+    "source_candidate_ids": [
+      8868525151979634451
+    ],
+    "entity": "San Diego River Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "extensive support",
+    "entity_evidence": [
+      {
+        "span_id": 1127323542631488873,
+        "start": 637028,
+        "end": 637048,
+        "text": "For support of San Diego River Conservancy",
+        "chunk_id": 11239367033563285772
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8711915243371240949,
+        "start": 637028,
+        "end": 637048,
+        "text": "For support of San Diego River Conservancy",
+        "chunk_id": 11239367033563285772
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18024021420586617270,
+        "start": 637028,
+        "end": 637048,
+        "text": "For support of San Diego River Conservancy",
+        "chunk_id": 11239367033563285772
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12713476694602690412,
+        "start": 637028,
+        "end": 637048,
+        "text": "For support of San Diego River Conservancy",
+        "chunk_id": 11239367033563285772
+      }
+    ]
+  }
+]

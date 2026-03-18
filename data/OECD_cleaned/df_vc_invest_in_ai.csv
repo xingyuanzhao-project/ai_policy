@@ -1,0 +1,307 @@
+Country,Country_label,INDUSTRY,STAGE,Sum_of_deals,Year
+USA,United States,-- All industries --,VC,4775.340195,2012-01-01
+USA,United States,-- All industries --,VC,7189.071544,2013-01-01
+USA,United States,-- All industries --,VC,18673.618916,2014-01-01
+USA,United States,-- All industries --,VC,24524.966816,2015-01-01
+USA,United States,-- All industries --,VC,18966.17199,2016-01-01
+USA,United States,-- All industries --,VC,29267.418839,2017-01-01
+USA,United States,-- All industries --,VC,42287.773949,2018-01-01
+USA,United States,-- All industries --,VC,49977.329763,2019-01-01
+USA,United States,-- All industries --,VC,59921.309999,2020-01-01
+USA,United States,-- All industries --,VC,128437.723534,2021-01-01
+USA,United States,-- All industries --,VC,71810.5307435,2022-01-01
+USA,United States,-- All industries --,VC,68942.026427,2023-01-01
+USA,United States,-- All industries --,VC,95519.75044,2024-01-01
+USA,United States,-- All industries --,VC,57513.829517,2025-01-01
+CHN,China (People's Republic of),-- All industries --,VC,206.97333,2012-01-01
+CHN,China (People's Republic of),-- All industries --,VC,539.7222675,2013-01-01
+CHN,China (People's Republic of),-- All industries --,VC,3058.7491425,2014-01-01
+CHN,China (People's Republic of),-- All industries --,VC,10338.6310675,2015-01-01
+CHN,China (People's Republic of),-- All industries --,VC,18707.4441855,2016-01-01
+CHN,China (People's Republic of),-- All industries --,VC,32420.552707,2017-01-01
+CHN,China (People's Republic of),-- All industries --,VC,38020.3188985,2018-01-01
+CHN,China (People's Republic of),-- All industries --,VC,25380.043099,2019-01-01
+CHN,China (People's Republic of),-- All industries --,VC,32059.042934,2020-01-01
+CHN,China (People's Republic of),-- All industries --,VC,53029.5428915,2021-01-01
+CHN,China (People's Republic of),-- All industries --,VC,25001.399364,2022-01-01
+CHN,China (People's Republic of),-- All industries --,VC,20762.697827,2023-01-01
+CHN,China (People's Republic of),-- All industries --,VC,16958.0317585,2024-01-01
+CHN,China (People's Republic of),-- All industries --,VC,5692.8006245,2025-01-01
+GBR,United Kingdom,-- All industries --,VC,183.3471655,2012-01-01
+GBR,United Kingdom,-- All industries --,VC,201.576535,2013-01-01
+GBR,United Kingdom,-- All industries --,VC,284.945876,2014-01-01
+GBR,United Kingdom,-- All industries --,VC,789.9921945,2015-01-01
+GBR,United Kingdom,-- All industries --,VC,878.143253,2016-01-01
+GBR,United Kingdom,-- All industries --,VC,2053.6566355,2017-01-01
+GBR,United Kingdom,-- All industries --,VC,2251.6846805,2018-01-01
+GBR,United Kingdom,-- All industries --,VC,3582.61554,2019-01-01
+GBR,United Kingdom,-- All industries --,VC,3265.697137,2020-01-01
+GBR,United Kingdom,-- All industries --,VC,8865.314474,2021-01-01
+GBR,United Kingdom,-- All industries --,VC,7987.407164,2022-01-01
+GBR,United Kingdom,-- All industries --,VC,4027.215552,2023-01-01
+GBR,United Kingdom,-- All industries --,VC,5188.00727,2024-01-01
+GBR,United Kingdom,-- All industries --,VC,8904.47965,2025-01-01
+DEU,Germany,-- All industries --,VC,35.005733,2012-01-01
+DEU,Germany,-- All industries --,VC,124.507735,2013-01-01
+DEU,Germany,-- All industries --,VC,176.159331,2014-01-01
+DEU,Germany,-- All industries --,VC,532.6568685,2015-01-01
+DEU,Germany,-- All industries --,VC,304.173217,2016-01-01
+DEU,Germany,-- All industries --,VC,551.399102,2017-01-01
+DEU,Germany,-- All industries --,VC,859.38458,2018-01-01
+DEU,Germany,-- All industries --,VC,2054.9125315,2019-01-01
+DEU,Germany,-- All industries --,VC,1671.522178,2020-01-01
+DEU,Germany,-- All industries --,VC,5824.855305,2021-01-01
+DEU,Germany,-- All industries --,VC,4624.696756,2022-01-01
+DEU,Germany,-- All industries --,VC,3200.287268,2023-01-01
+DEU,Germany,-- All industries --,VC,4074.576439,2024-01-01
+DEU,Germany,-- All industries --,VC,2396.976164,2025-01-01
+ISR,Israel,-- All industries --,VC,249.451485,2012-01-01
+ISR,Israel,-- All industries --,VC,115.83,2013-01-01
+ISR,Israel,-- All industries --,VC,326.6,2014-01-01
+ISR,Israel,-- All industries --,VC,420.893775,2015-01-01
+ISR,Israel,-- All industries --,VC,518.52,2016-01-01
+ISR,Israel,-- All industries --,VC,1034.944101,2017-01-01
+ISR,Israel,-- All industries --,VC,1231.788088,2018-01-01
+ISR,Israel,-- All industries --,VC,1793.653814,2019-01-01
+ISR,Israel,-- All industries --,VC,2440.670603,2020-01-01
+ISR,Israel,-- All industries --,VC,5221.223867,2021-01-01
+ISR,Israel,-- All industries --,VC,5211.069134,2022-01-01
+ISR,Israel,-- All industries --,VC,1862.247265,2023-01-01
+ISR,Israel,-- All industries --,VC,1859.506361,2024-01-01
+ISR,Israel,-- All industries --,VC,1673.938053,2025-01-01
+CAN,Canada,-- All industries --,VC,130.419316,2012-01-01
+CAN,Canada,-- All industries --,VC,169.512608,2013-01-01
+CAN,Canada,-- All industries --,VC,254.42679,2014-01-01
+CAN,Canada,-- All industries --,VC,387.772484,2015-01-01
+CAN,Canada,-- All industries --,VC,738.801018,2016-01-01
+CAN,Canada,-- All industries --,VC,921.7392305,2017-01-01
+CAN,Canada,-- All industries --,VC,1424.641523,2018-01-01
+CAN,Canada,-- All industries --,VC,1976.896573,2019-01-01
+CAN,Canada,-- All industries --,VC,1742.7914785,2020-01-01
+CAN,Canada,-- All industries --,VC,5577.47256,2021-01-01
+CAN,Canada,-- All industries --,VC,3747.2085085,2022-01-01
+CAN,Canada,-- All industries --,VC,2311.539674,2023-01-01
+CAN,Canada,-- All industries --,VC,3318.440675,2024-01-01
+CAN,Canada,-- All industries --,VC,950.175498,2025-01-01
+KOR,Korea,-- All industries --,VC,97.664679,2012-01-01
+KOR,Korea,-- All industries --,VC,16.0182455,2013-01-01
+KOR,Korea,-- All industries --,VC,106.329336,2014-01-01
+KOR,Korea,-- All industries --,VC,111.9222395,2015-01-01
+KOR,Korea,-- All industries --,VC,178.8551125,2016-01-01
+KOR,Korea,-- All industries --,VC,720.7531220000001,2017-01-01
+KOR,Korea,-- All industries --,VC,1098.756355,2018-01-01
+KOR,Korea,-- All industries --,VC,982.2201065,2019-01-01
+KOR,Korea,-- All industries --,VC,1156.919718,2020-01-01
+KOR,Korea,-- All industries --,VC,4579.97962,2021-01-01
+KOR,Korea,-- All industries --,VC,4225.484388,2022-01-01
+KOR,Korea,-- All industries --,VC,3902.692496,2023-01-01
+KOR,Korea,-- All industries --,VC,2694.7128845,2024-01-01
+KOR,Korea,-- All industries --,VC,610.4221955,2025-01-01
+FRA,France,-- All industries --,VC,111.722755,2012-01-01
+FRA,France,-- All industries --,VC,60.9733035,2013-01-01
+FRA,France,-- All industries --,VC,94.044164,2014-01-01
+FRA,France,-- All industries --,VC,208.9154405,2015-01-01
+FRA,France,-- All industries --,VC,233.3144245,2016-01-01
+FRA,France,-- All industries --,VC,443.297371,2017-01-01
+FRA,France,-- All industries --,VC,752.2107665,2018-01-01
+FRA,France,-- All industries --,VC,954.082539,2019-01-01
+FRA,France,-- All industries --,VC,1091.909093,2020-01-01
+FRA,France,-- All industries --,VC,2955.837155,2021-01-01
+FRA,France,-- All industries --,VC,3228.9139245,2022-01-01
+FRA,France,-- All industries --,VC,2251.9368855,2023-01-01
+FRA,France,-- All industries --,VC,2471.1636415,2024-01-01
+FRA,France,-- All industries --,VC,1008.0503005,2025-01-01
+SWE,Sweden,-- All industries --,VC,2.554157,2012-01-01
+SWE,Sweden,-- All industries --,VC,25.993143,2013-01-01
+SWE,Sweden,-- All industries --,VC,144.177568,2014-01-01
+SWE,Sweden,-- All industries --,VC,20.630604,2015-01-01
+SWE,Sweden,-- All industries --,VC,80.257896,2016-01-01
+SWE,Sweden,-- All industries --,VC,115.14815,2017-01-01
+SWE,Sweden,-- All industries --,VC,156.269452,2018-01-01
+SWE,Sweden,-- All industries --,VC,704.446819,2019-01-01
+SWE,Sweden,-- All industries --,VC,1091.8926239999998,2020-01-01
+SWE,Sweden,-- All industries --,VC,2315.6209765000003,2021-01-01
+SWE,Sweden,-- All industries --,VC,5918.879738,2022-01-01
+SWE,Sweden,-- All industries --,VC,2013.6388775,2023-01-01
+SWE,Sweden,-- All industries --,VC,1099.1115945,2024-01-01
+SWE,Sweden,-- All industries --,VC,539.362377,2025-01-01
+JPN,Japan,-- All industries --,VC,21.428359,2012-01-01
+JPN,Japan,-- All industries --,VC,64.137557,2013-01-01
+JPN,Japan,-- All industries --,VC,107.6081135,2014-01-01
+JPN,Japan,-- All industries --,VC,219.978871,2015-01-01
+JPN,Japan,-- All industries --,VC,300.0504035,2016-01-01
+JPN,Japan,-- All industries --,VC,666.696552,2017-01-01
+JPN,Japan,-- All industries --,VC,1231.769143,2018-01-01
+JPN,Japan,-- All industries --,VC,1413.3276915,2019-01-01
+JPN,Japan,-- All industries --,VC,1252.6309225,2020-01-01
+JPN,Japan,-- All industries --,VC,1552.383521,2021-01-01
+JPN,Japan,-- All industries --,VC,1999.426156,2022-01-01
+JPN,Japan,-- All industries --,VC,1847.2300645,2023-01-01
+JPN,Japan,-- All industries --,VC,1631.48411,2024-01-01
+JPN,Japan,-- All industries --,VC,566.9807995,2025-01-01
+AUS,Australia,-- All industries --,VC,15.07059,2012-01-01
+AUS,Australia,-- All industries --,VC,24.297126,2013-01-01
+AUS,Australia,-- All industries --,VC,47.1264795,2014-01-01
+AUS,Australia,-- All industries --,VC,63.552333,2015-01-01
+AUS,Australia,-- All industries --,VC,112.5822465,2016-01-01
+AUS,Australia,-- All industries --,VC,152.0222085,2017-01-01
+AUS,Australia,-- All industries --,VC,312.234385,2018-01-01
+AUS,Australia,-- All industries --,VC,568.4565585,2019-01-01
+AUS,Australia,-- All industries --,VC,480.5796075,2020-01-01
+AUS,Australia,-- All industries --,VC,2061.214949,2021-01-01
+AUS,Australia,-- All industries --,VC,928.0854835,2022-01-01
+AUS,Australia,-- All industries --,VC,777.86151,2023-01-01
+AUS,Australia,-- All industries --,VC,583.875568,2024-01-01
+AUS,Australia,-- All industries --,VC,403.602476,2025-01-01
+ESP,Spain,-- All industries --,VC,15.0443035,2012-01-01
+ESP,Spain,-- All industries --,VC,14.783413500000002,2013-01-01
+ESP,Spain,-- All industries --,VC,36.634232,2014-01-01
+ESP,Spain,-- All industries --,VC,69.400264,2015-01-01
+ESP,Spain,-- All industries --,VC,94.042222,2016-01-01
+ESP,Spain,-- All industries --,VC,96.2271355,2017-01-01
+ESP,Spain,-- All industries --,VC,233.629469,2018-01-01
+ESP,Spain,-- All industries --,VC,427.350126,2019-01-01
+ESP,Spain,-- All industries --,VC,350.69228200000003,2020-01-01
+ESP,Spain,-- All industries --,VC,916.948075,2021-01-01
+ESP,Spain,-- All industries --,VC,1753.5861495,2022-01-01
+ESP,Spain,-- All industries --,VC,354.519874,2023-01-01
+ESP,Spain,-- All industries --,VC,510.704608,2024-01-01
+ESP,Spain,-- All industries --,VC,866.00913,2025-01-01
+NLD,Netherlands,-- All industries --,VC,2.654897,2012-01-01
+NLD,Netherlands,-- All industries --,VC,24.65393,2013-01-01
+NLD,Netherlands,-- All industries --,VC,272.791725,2014-01-01
+NLD,Netherlands,-- All industries --,VC,56.039232,2015-01-01
+NLD,Netherlands,-- All industries --,VC,73.306053,2016-01-01
+NLD,Netherlands,-- All industries --,VC,121.104387,2017-01-01
+NLD,Netherlands,-- All industries --,VC,160.225834,2018-01-01
+NLD,Netherlands,-- All industries --,VC,234.255892,2019-01-01
+NLD,Netherlands,-- All industries --,VC,188.533689,2020-01-01
+NLD,Netherlands,-- All industries --,VC,604.660024,2021-01-01
+NLD,Netherlands,-- All industries --,VC,461.398417,2022-01-01
+NLD,Netherlands,-- All industries --,VC,591.020934,2023-01-01
+NLD,Netherlands,-- All industries --,VC,685.504003,2024-01-01
+NLD,Netherlands,-- All industries --,VC,460.1271895,2025-01-01
+FIN,Finland,-- All industries --,VC,30.9714825,2012-01-01
+FIN,Finland,-- All industries --,VC,48.066682,2013-01-01
+FIN,Finland,-- All industries --,VC,38.822033,2014-01-01
+FIN,Finland,-- All industries --,VC,61.9152,2015-01-01
+FIN,Finland,-- All industries --,VC,46.871438000000005,2016-01-01
+FIN,Finland,-- All industries --,VC,89.633403,2017-01-01
+FIN,Finland,-- All industries --,VC,120.163644,2018-01-01
+FIN,Finland,-- All industries --,VC,110.653775,2019-01-01
+FIN,Finland,-- All industries --,VC,240.717118,2020-01-01
+FIN,Finland,-- All industries --,VC,442.249525,2021-01-01
+FIN,Finland,-- All industries --,VC,589.40671,2022-01-01
+FIN,Finland,-- All industries --,VC,106.140061,2023-01-01
+FIN,Finland,-- All industries --,VC,348.3903875,2024-01-01
+FIN,Finland,-- All industries --,VC,80.2044455,2025-01-01
+IRL,Ireland,-- All industries --,VC,8.633542,2012-01-01
+IRL,Ireland,-- All industries --,VC,15.379619,2013-01-01
+IRL,Ireland,-- All industries --,VC,21.116332,2014-01-01
+IRL,Ireland,-- All industries --,VC,86.496627,2015-01-01
+IRL,Ireland,-- All industries --,VC,53.244653,2016-01-01
+IRL,Ireland,-- All industries --,VC,71.32817299999999,2017-01-01
+IRL,Ireland,-- All industries --,VC,117.097326,2018-01-01
+IRL,Ireland,-- All industries --,VC,175.974914,2019-01-01
+IRL,Ireland,-- All industries --,VC,114.7235,2020-01-01
+IRL,Ireland,-- All industries --,VC,344.0093475,2021-01-01
+IRL,Ireland,-- All industries --,VC,316.9765155,2022-01-01
+IRL,Ireland,-- All industries --,VC,189.909102,2023-01-01
+IRL,Ireland,-- All industries --,VC,277.599583,2024-01-01
+IRL,Ireland,-- All industries --,VC,233.6402475,2025-01-01
+DNK,Denmark,-- All industries --,VC,2.3802345,2012-01-01
+DNK,Denmark,-- All industries --,VC,12.1704695,2013-01-01
+DNK,Denmark,-- All industries --,VC,21.0117875,2014-01-01
+DNK,Denmark,-- All industries --,VC,45.743358,2015-01-01
+DNK,Denmark,-- All industries --,VC,61.180681,2016-01-01
+DNK,Denmark,-- All industries --,VC,32.983286,2017-01-01
+DNK,Denmark,-- All industries --,VC,106.206927,2018-01-01
+DNK,Denmark,-- All industries --,VC,143.870462,2019-01-01
+DNK,Denmark,-- All industries --,VC,151.259569,2020-01-01
+DNK,Denmark,-- All industries --,VC,397.5605475,2021-01-01
+DNK,Denmark,-- All industries --,VC,258.058727,2022-01-01
+DNK,Denmark,-- All industries --,VC,194.14429,2023-01-01
+DNK,Denmark,-- All industries --,VC,207.078854,2024-01-01
+DNK,Denmark,-- All industries --,VC,176.61669,2025-01-01
+ITA,Italy,-- All industries --,VC,3.793845,2012-01-01
+ITA,Italy,-- All industries --,VC,11.571812,2013-01-01
+ITA,Italy,-- All industries --,VC,13.604964,2014-01-01
+ITA,Italy,-- All industries --,VC,19.746347,2015-01-01
+ITA,Italy,-- All industries --,VC,21.0185305,2016-01-01
+ITA,Italy,-- All industries --,VC,42.708627,2017-01-01
+ITA,Italy,-- All industries --,VC,87.2144565,2018-01-01
+ITA,Italy,-- All industries --,VC,21.57573,2019-01-01
+ITA,Italy,-- All industries --,VC,154.5051505,2020-01-01
+ITA,Italy,-- All industries --,VC,156.3361975,2021-01-01
+ITA,Italy,-- All industries --,VC,527.335973,2022-01-01
+ITA,Italy,-- All industries --,VC,154.558186,2023-01-01
+ITA,Italy,-- All industries --,VC,431.33369,2024-01-01
+ITA,Italy,-- All industries --,VC,141.7112105,2025-01-01
+BEL,Belgium,-- All industries --,VC,1.643042,2012-01-01
+BEL,Belgium,-- All industries --,VC,2.576025,2013-01-01
+BEL,Belgium,-- All industries --,VC,13.130883,2014-01-01
+BEL,Belgium,-- All industries --,VC,43.195972,2015-01-01
+BEL,Belgium,-- All industries --,VC,71.806767,2016-01-01
+BEL,Belgium,-- All industries --,VC,99.229692,2017-01-01
+BEL,Belgium,-- All industries --,VC,101.869239,2018-01-01
+BEL,Belgium,-- All industries --,VC,154.671637,2019-01-01
+BEL,Belgium,-- All industries --,VC,171.372979,2020-01-01
+BEL,Belgium,-- All industries --,VC,398.0128095,2021-01-01
+BEL,Belgium,-- All industries --,VC,207.406505,2022-01-01
+BEL,Belgium,-- All industries --,VC,81.9273225,2023-01-01
+BEL,Belgium,-- All industries --,VC,176.244132,2024-01-01
+BEL,Belgium,-- All industries --,VC,107.048989,2025-01-01
+NOR,Norway,-- All industries --,VC,2.9352655,2013-01-01
+NOR,Norway,-- All industries --,VC,0.1,2014-01-01
+NOR,Norway,-- All industries --,VC,8.0,2015-01-01
+NOR,Norway,-- All industries --,VC,12.780408,2016-01-01
+NOR,Norway,-- All industries --,VC,49.812688,2017-01-01
+NOR,Norway,-- All industries --,VC,47.802744,2018-01-01
+NOR,Norway,-- All industries --,VC,116.770116,2019-01-01
+NOR,Norway,-- All industries --,VC,166.566928,2020-01-01
+NOR,Norway,-- All industries --,VC,367.336856,2021-01-01
+NOR,Norway,-- All industries --,VC,346.163097,2022-01-01
+NOR,Norway,-- All industries --,VC,194.64521,2023-01-01
+NOR,Norway,-- All industries --,VC,216.140605,2024-01-01
+NOR,Norway,-- All industries --,VC,37.201855,2025-01-01
+ARE,United Arab Emirates,-- All industries --,VC,0.3,2012-01-01
+ARE,United Arab Emirates,-- All industries --,VC,1.2,2013-01-01
+ARE,United Arab Emirates,-- All industries --,VC,0.1,2014-01-01
+ARE,United Arab Emirates,-- All industries --,VC,12.6,2015-01-01
+ARE,United Arab Emirates,-- All industries --,VC,18.0,2016-01-01
+ARE,United Arab Emirates,-- All industries --,VC,62.766775,2017-01-01
+ARE,United Arab Emirates,-- All industries --,VC,18.010873,2018-01-01
+ARE,United Arab Emirates,-- All industries --,VC,76.08,2019-01-01
+ARE,United Arab Emirates,-- All industries --,VC,75.165,2020-01-01
+ARE,United Arab Emirates,-- All industries --,VC,156.8,2021-01-01
+ARE,United Arab Emirates,-- All industries --,VC,474.018063,2022-01-01
+ARE,United Arab Emirates,-- All industries --,VC,106.635,2023-01-01
+ARE,United Arab Emirates,-- All industries --,VC,290.629998,2024-01-01
+ARE,United Arab Emirates,-- All industries --,VC,151.267162,2025-01-01
+POL,Poland,-- All industries --,VC,0.43,2012-01-01
+POL,Poland,-- All industries --,VC,0.52,2013-01-01
+POL,Poland,-- All industries --,VC,1.7,2014-01-01
+POL,Poland,-- All industries --,VC,10.689679,2016-01-01
+POL,Poland,-- All industries --,VC,3.8624385,2017-01-01
+POL,Poland,-- All industries --,VC,6.9061905,2018-01-01
+POL,Poland,-- All industries --,VC,21.0694245,2019-01-01
+POL,Poland,-- All industries --,VC,53.452434,2020-01-01
+POL,Poland,-- All industries --,VC,57.377342,2021-01-01
+POL,Poland,-- All industries --,VC,159.6361885,2022-01-01
+POL,Poland,-- All industries --,VC,153.793634,2023-01-01
+POL,Poland,-- All industries --,VC,313.405914,2024-01-01
+POL,Poland,-- All industries --,VC,252.760383,2025-01-01
+NZL,New Zealand,-- All industries --,VC,2.0,2012-01-01
+NZL,New Zealand,-- All industries --,VC,0.016276,2013-01-01
+NZL,New Zealand,-- All industries --,VC,6.968011000000001,2014-01-01
+NZL,New Zealand,-- All industries --,VC,20.103277,2015-01-01
+NZL,New Zealand,-- All industries --,VC,17.49239,2016-01-01
+NZL,New Zealand,-- All industries --,VC,12.972561,2017-01-01
+NZL,New Zealand,-- All industries --,VC,26.1728435,2018-01-01
+NZL,New Zealand,-- All industries --,VC,45.546226,2019-01-01
+NZL,New Zealand,-- All industries --,VC,56.098388,2020-01-01
+NZL,New Zealand,-- All industries --,VC,113.045263,2021-01-01
+NZL,New Zealand,-- All industries --,VC,121.864899,2022-01-01
+NZL,New Zealand,-- All industries --,VC,171.202882,2023-01-01
+NZL,New Zealand,-- All industries --,VC,49.124245,2024-01-01
+NZL,New Zealand,-- All industries --,VC,17.772833,2025-01-01

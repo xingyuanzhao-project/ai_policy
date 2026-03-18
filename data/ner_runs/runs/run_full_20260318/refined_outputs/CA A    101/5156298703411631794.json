@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4759036014031569584,
+    "source_group_id": 5156298703411631794,
+    "source_candidate_ids": [
+      7132398995857105994
+    ],
+    "entity": "Harbors and Watercraft Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 8117002535691663007,
+        "start": 1619472,
+        "end": 1619492,
+        "text": "payable from the Harbors and Watercraft Revolving Fund",
+        "chunk_id": 3092305096210894587
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12891319376593615260,
+        "start": 1619472,
+        "end": 1619492,
+        "text": "payable from the Harbors and Watercraft Revolving Fund",
+        "chunk_id": 3092305096210894587
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10575393236669025451,
+        "start": 1619472,
+        "end": 1619492,
+        "text": "payable from the Harbors and Watercraft Revolving Fund",
+        "chunk_id": 3092305096210894587
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10482223059941393497,
+        "start": 1619472,
+        "end": 1619492,
+        "text": "payable from the Harbors and Watercraft Revolving Fund",
+        "chunk_id": 3092305096210894587
+      }
+    ]
+  }
+]

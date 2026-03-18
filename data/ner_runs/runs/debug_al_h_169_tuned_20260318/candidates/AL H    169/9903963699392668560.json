@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1623156431801659398,
+    "entity": "Total Educational Television Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "unbiased",
+    "entity_evidence": [
+      {
+        "span_id": 11265296735989082172,
+        "start": 82503,
+        "end": 82527,
+        "text": "Total Educational Television Commission",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11133050670378116774,
+        "start": 82527,
+        "end": 82546,
+        "text": "Commission",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14606725177313574861,
+        "start": 82546,
+        "end": 82554,
+        "text": "that is unbiased",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15092981510607172802,
+        "start": 82554,
+        "end": 82562,
+        "text": "unbiased",
+        "chunk_id": 9903963699392668560
+      }
+    ]
+  },
+  {
+    "candidate_id": 17998894009223251452,
+    "entity": "Executive Commission on Community Services Grants, State",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "public education purposes",
+    "entity_evidence": [
+      {
+        "span_id": 12447792822576318618,
+        "start": 82503,
+        "end": 82546,
+        "text": "Executive Commission on Community Services Grants, State",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18259955307799586256,
+        "start": 82546,
+        "end": 82567,
+        "text": "Services Grants, State",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 881062061323463779,
+        "start": 82567,
+        "end": 82577,
+        "text": "purposes",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5360328989390618681,
+        "start": 82577,
+        "end": 82588,
+        "text": "public education purposes",
+        "chunk_id": 9903963699392668560
+      }
+    ]
+  }
+]

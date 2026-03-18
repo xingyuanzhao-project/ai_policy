@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5718277071777464289,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 56984517089742573,
+        "start": 1646409,
+        "end": 1646429,
+        "text": "Director of Finance",
+        "chunk_id": 1409702450026338785
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13274990801515552016,
+        "start": 1646409,
+        "end": 1646429,
+        "text": "Director of Finance",
+        "chunk_id": 1409702450026338785
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14424655226396582925,
+        "start": 1646409,
+        "end": 1646429,
+        "text": "Director of Finance",
+        "chunk_id": 1409702450026338785
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17960599173573030032,
+        "start": 1646409,
+        "end": 1646429,
+        "text": "Director of Finance",
+        "chunk_id": 1409702450026338785
+      }
+    ]
+  },
+  {
+    "candidate_id": 909218332395556245,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17153955185143461116,
+        "start": 1646520,
+        "end": 1646541,
+        "text": "General Fund",
+        "chunk_id": 1409702450026338785
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5373671685518439765,
+        "start": 1646520,
+        "end": 1646541,
+        "text": "General Fund",
+        "chunk_id": 1409702450026338785
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11870838381555944602,
+        "start": 1646520,
+        "end": 1646541,
+        "text": "General Fund",
+        "chunk_id": 1409702450026338785
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3593766471831970144,
+        "start": 1646520,
+        "end": 1646541,
+        "text": "General Fund",
+        "chunk_id": 1409702450026338785
+      }
+    ]
+  }
+]

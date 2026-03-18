@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11226049854347404761,
+    "entity": "Chico Air Attack Base",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "available for encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 3897965783318329702,
+        "start": 531546,
+        "end": 531570,
+        "text": "Chico Air Attack Base",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15533338832901575562,
+        "start": 531571,
+        "end": 531580,
+        "text": "Infrastructure Improvements",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1298544144739943846,
+        "start": 531581,
+        "end": 531592,
+        "text": "available for encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2062300162222063146,
+        "start": 531593,
+        "end": 531604,
+        "text": "until June 30, 2028",
+        "chunk_id": 11703305215387970592
+      }
+    ]
+  },
+  {
+    "candidate_id": 15417216045649021515,
+    "entity": "Perris Emergency Command Center",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "available for encumbrance or expenditure until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 16394969971756891913,
+        "start": 531546,
+        "end": 531570,
+        "text": "Perris Emergency Command Center",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15696536407694166631,
+        "start": 531571,
+        "end": 531580,
+        "text": "Remodel Facility",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8815573284089657217,
+        "start": 531581,
+        "end": 531592,
+        "text": "available for encumbrance or expenditure until June 30, 2026",
+        "chunk_id": 11703305215387970592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16986495845117591764,
+        "start": 531593,
+        "end": 531604,
+        "text": "until June 30, 2026",
+        "chunk_id": 11703305215387970592
+      }
+    ]
+  }
+]

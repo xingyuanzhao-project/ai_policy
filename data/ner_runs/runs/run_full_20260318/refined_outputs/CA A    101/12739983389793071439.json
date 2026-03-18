@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5807844959459219823,
+    "source_group_id": 12739983389793071439,
+    "source_candidate_ids": [
+      16507030439169652070
+    ],
+    "entity": "California Alternative Energy and Advanced Transportation Financing Authority",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "$500,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 14693402691283025221,
+        "start": 238425,
+        "end": 238445,
+        "text": "California Alternative Energy and Advanced Transportation Financing Authority",
+        "chunk_id": 8497098360002368196
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2321080666675400852,
+        "start": 238425,
+        "end": 238445,
+        "text": "government agency",
+        "chunk_id": 8497098360002368196
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17379311200561869788,
+        "start": 238425,
+        "end": 238445,
+        "text": "promotion",
+        "chunk_id": 8497098360002368196
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4746425253773218208,
+        "start": 238425,
+        "end": 238445,
+        "text": "$500,000,000",
+        "chunk_id": 8497098360002368196
+      }
+    ]
+  }
+]

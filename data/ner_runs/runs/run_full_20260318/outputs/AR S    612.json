@@ -1,0 +1,284 @@
+[
+  {
+    "refined_id": 7626969197721063393,
+    "source_group_id": 6657064411030707597,
+    "source_candidate_ids": [
+      5300036863568199788
+    ],
+    "entity": "Social media platform",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 6351478622975041481,
+        "start": 0,
+        "end": 24,
+        "text": "SUBCHAPTER 15 — REGULATION OF SOCIAL MEDIA PLATFORMS",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1289511738948429963,
+        "start": 24,
+        "end": 41,
+        "text": "Social media platform",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4738433491215342452,
+        "start": 41,
+        "end": 51,
+        "text": "regulation",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6666629144611319549,
+        "start": 51,
+        "end": 61,
+        "text": "regulation",
+        "chunk_id": 11390312635007288237
+      }
+    ]
+  },
+  {
+    "refined_id": 18436986228895824797,
+    "source_group_id": 1361359325884841878,
+    "source_candidate_ids": [
+      17028547440565820363
+    ],
+    "entity": "Minor",
+    "type": "individual",
+    "attribute": "protection",
+    "value": "under sixteen (16) years of age",
+    "entity_evidence": [
+      {
+        "span_id": 10427756543248447971,
+        "start": 0,
+        "end": 5,
+        "text": "Minor",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6110098758389128747,
+        "start": 5,
+        "end": 12,
+        "text": "individual",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7933173528319807307,
+        "start": 12,
+        "end": 21,
+        "text": "protection",
+        "chunk_id": 11390312635007288237
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4214902789941772280,
+        "start": 21,
+        "end": 41,
+        "text": "under sixteen (16) years of age",
+        "chunk_id": 11390312635007288237
+      }
+    ]
+  },
+  {
+    "refined_id": 9418612715686342692,
+    "source_group_id": 5297033610024715821,
+    "source_candidate_ids": [
+      4098663292569403836
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 17602396293256515496,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12563849402082450456,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10673745380499752921,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5711046216866604829,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ]
+  },
+  {
+    "refined_id": 5060899395966140253,
+    "source_group_id": 14803612722213695585,
+    "source_candidate_ids": [
+      7503020417110266685
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "liability",
+    "value": "liable",
+    "entity_evidence": [
+      {
+        "span_id": 7473612222004679343,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1608891977520289075,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11849476992329717707,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16537124382055709401,
+        "start": 2497,
+        "end": 2509,
+        "text": "social media platform",
+        "chunk_id": 244338557664489866
+      }
+    ]
+  },
+  {
+    "refined_id": 13237083417760803133,
+    "source_group_id": 8987992072397830875,
+    "source_candidate_ids": [
+      11794035969034088888
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "exemption",
+    "value": "liability",
+    "entity_evidence": [
+      {
+        "span_id": 5111125058837930409,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7118967763637876990,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12620867415065428046,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2169283469574381785,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ]
+  },
+  {
+    "refined_id": 12455235593727676247,
+    "source_group_id": 13731058213397593918,
+    "source_candidate_ids": [
+      14356962211099763412
+    ],
+    "entity": "third party",
+    "type": "individual",
+    "attribute": "exemption",
+    "value": "liability",
+    "entity_evidence": [
+      {
+        "span_id": 18324677324256931118,
+        "start": 5148,
+        "end": 5161,
+        "text": "third party",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8030711679878021746,
+        "start": 5148,
+        "end": 5161,
+        "text": "third party",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10238980922354291402,
+        "start": 5148,
+        "end": 5161,
+        "text": "third party",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12006231873771833967,
+        "start": 5148,
+        "end": 5161,
+        "text": "third party",
+        "chunk_id": 17631870715298779581
+      }
+    ]
+  }
+]

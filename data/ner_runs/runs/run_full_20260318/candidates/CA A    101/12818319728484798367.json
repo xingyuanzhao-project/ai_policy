@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13373086209484157277,
+    "entity": "Special Education Programs for Exceptional Children",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 1500391138572511249,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "Special Education Programs for Exceptional Children",
+        "chunk_id": 12818319728484798367
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7803227328985964528,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "infrastructure",
+        "chunk_id": 12818319728484798367
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16845488267999599950,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "promotion",
+        "chunk_id": 12818319728484798367
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17444098906903391552,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "subsidy",
+        "chunk_id": 12818319728484798367
+      }
+    ]
+  },
+  {
+    "candidate_id": 8337880871232041199,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4326746196352286970,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "State Department of Education",
+        "chunk_id": 12818319728484798367
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10311285362035257135,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "government agency",
+        "chunk_id": 12818319728484798367
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12729465751625537163,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "restriction",
+        "chunk_id": 12818319728484798367
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13432866199558822063,
+        "start": 1244328,
+        "end": 1244328,
+        "text": "extremely restrictive",
+        "chunk_id": 12818319728484798367
+      }
+    ]
+  }
+]

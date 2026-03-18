@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5781691180925386425,
+    "source_group_id": 10783858958090635804,
+    "source_candidate_ids": [
+      3515011502330160525
+    ],
+    "entity": "Teacher Education Preparation Program",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "eligibility",
+    "entity_evidence": [
+      {
+        "span_id": 7417557455686527456,
+        "start": 70516,
+        "end": 70536,
+        "text": "Teacher Education Preparation Program",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5775509164605751887,
+        "start": 70516,
+        "end": 70526,
+        "text": "Education",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17623262927237073357,
+        "start": 70527,
+        "end": 70531,
+        "text": "Preparation",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3439239370295595133,
+        "start": 70532,
+        "end": 70538,
+        "text": "Program",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  }
+]

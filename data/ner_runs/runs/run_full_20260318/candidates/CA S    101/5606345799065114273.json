@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15798390298180128097,
+    "entity": "Chapter 229 of the Statutes of 2023",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11932018754432596536,
+        "start": 1063604,
+        "end": 1063638,
+        "text": "the implementation of Chapter 229 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 152766678334410041,
+        "start": 1063604,
+        "end": 1063638,
+        "text": "the implementation of Chapter 229 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11930004337648104008,
+        "start": 1063604,
+        "end": 1063638,
+        "text": "the implementation of Chapter 229 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11302856082285979804,
+        "start": 1063604,
+        "end": 1063638,
+        "text": "the implementation of Chapter 229 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ]
+  },
+  {
+    "candidate_id": 13719645352646339808,
+    "entity": "Chapter 364 of the Statutes of 2023",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8476182185700985207,
+        "start": 1063720,
+        "end": 1063744,
+        "text": "pursuant to Chapter 364 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9290083161782767896,
+        "start": 1063720,
+        "end": 1063744,
+        "text": "pursuant to Chapter 364 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 588739395499453224,
+        "start": 1063720,
+        "end": 1063744,
+        "text": "pursuant to Chapter 364 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15007316998306433677,
+        "start": 1063720,
+        "end": 1063744,
+        "text": "pursuant to Chapter 364 of the Statutes of 2023",
+        "chunk_id": 5606345799065114273
+      }
+    ]
+  }
+]

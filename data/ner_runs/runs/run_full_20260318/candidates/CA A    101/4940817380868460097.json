@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1904228399579666573,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2720318341550405354,
+        "start": 835946,
+        "end": 835966,
+        "text": "For support of State Department of Health Care Services",
+        "chunk_id": 4940817380868460097
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17521649268736902644,
+        "start": 835946,
+        "end": 835966,
+        "text": "For support of State Department of Health Care Services",
+        "chunk_id": 4940817380868460097
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5665988760974052056,
+        "start": 835946,
+        "end": 835966,
+        "text": "For support of State Department of Health Care Services",
+        "chunk_id": 4940817380868460097
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6302311267426984178,
+        "start": 835946,
+        "end": 835966,
+        "text": "For support of State Department of Health Care Services",
+        "chunk_id": 4940817380868460097
+      }
+    ]
+  },
+  {
+    "candidate_id": 1533967942136560421,
+    "entity": "Health Insurance Portability and Accountability Act of 1996",
+    "type": "legislation",
+    "attribute": "promotion",
+    "value": "implementation",
+    "entity_evidence": [
+      {
+        "span_id": 2693127822377189700,
+        "start": 835946,
+        "end": 835966,
+        "text": "for implementation of the Health Insurance Portability and Accountability Act of 1996",
+        "chunk_id": 4940817380868460097
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9266353590589985488,
+        "start": 835946,
+        "end": 835966,
+        "text": "for implementation of the Health Insurance Portability and Accountability Act of 1996",
+        "chunk_id": 4940817380868460097
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13055478461288993657,
+        "start": 835946,
+        "end": 835966,
+        "text": "for implementation of the Health Insurance Portability and Accountability Act of 1996",
+        "chunk_id": 4940817380868460097
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13320805675449767497,
+        "start": 835946,
+        "end": 835966,
+        "text": "for implementation of the Health Insurance Portability and Accountability Act of 1996",
+        "chunk_id": 4940817380868460097
+      }
+    ]
+  }
+]

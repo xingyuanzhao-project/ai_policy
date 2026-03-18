@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 710168933549587320,
+    "source_group_id": 2367436423664097808,
+    "source_candidate_ids": [
+      7417340803202632016,
+      13057407927828769269
+    ],
+    "entity": "cigarettes",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "compliance with all applicable requirements imposed by or pursuant to federal law and federal implementing regulations",
+    "entity_evidence": [
+      {
+        "span_id": 6715764133197812942,
+        "start": 10087,
+        "end": 10095,
+        "text": "cigarettes",
+        "chunk_id": 15377911213933114966
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2259883287898821230,
+        "start": 10096,
+        "end": 10102,
+        "text": "technology",
+        "chunk_id": 15377911213933114966
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18125182303819293246,
+        "start": 10103,
+        "end": 10121,
+        "text": "restriction",
+        "chunk_id": 15377911213933114966
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10179046121176953896,
+        "start": 10122,
+        "end": 10161,
+        "text": "compliance with all applicable requirements imposed by or pursuant to federal law and federal implementing regulations",
+        "chunk_id": 15377911213933114966
+      }
+    ]
+  }
+]

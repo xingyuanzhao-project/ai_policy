@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18326825094147753166,
+    "source_group_id": 7139755474555646783,
+    "source_candidate_ids": [
+      13728933667613052390
+    ],
+    "entity": "Motor Vehicle Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 8657547083033462122,
+        "start": 1552784,
+        "end": 1552804,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 13699797923582549251
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4695408133445984625,
+        "start": 1552784,
+        "end": 1552804,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 13699797923582549251
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8472230405049739051,
+        "start": 1552784,
+        "end": 1552804,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 13699797923582549251
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3087489840586691882,
+        "start": 1552784,
+        "end": 1552804,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 13699797923582549251
+      }
+    ]
+  }
+]

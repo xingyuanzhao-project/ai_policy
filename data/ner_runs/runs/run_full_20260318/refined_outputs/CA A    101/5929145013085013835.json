@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9794615053792363308,
+    "source_group_id": 5929145013085013835,
+    "source_candidate_ids": [
+      8057230264019547094
+    ],
+    "entity": "California Association of Student Councils",
+    "type": "organization",
+    "attribute": "promotion",
+    "value": "encouragement",
+    "entity_evidence": [
+      {
+        "span_id": 17447075437543508820,
+        "start": 1273489,
+        "end": 1273510,
+        "text": "California Association of Student Councils",
+        "chunk_id": 16323226386240146000
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5147603515599354714,
+        "start": 1273489,
+        "end": 1273510,
+        "text": "organization",
+        "chunk_id": 16323226386240146000
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11602760308482787217,
+        "start": 1273489,
+        "end": 1273510,
+        "text": "promotion",
+        "chunk_id": 16323226386240146000
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6649454300353978330,
+        "start": 1273489,
+        "end": 1273510,
+        "text": "encouragement",
+        "chunk_id": 16323226386240146000
+      }
+    ]
+  }
+]

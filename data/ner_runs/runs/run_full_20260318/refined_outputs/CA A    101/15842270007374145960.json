@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6175684313753506354,
+    "source_group_id": 15842270007374145960,
+    "source_candidate_ids": [
+      12644369153480391997
+    ],
+    "entity": "California Circular Economy Fund",
+    "type": "fund",
+    "attribute": "subsidy",
+    "value": "up to $10,833,000",
+    "entity_evidence": [
+      {
+        "span_id": 13583987972160408220,
+        "start": 766528,
+        "end": 766548,
+        "text": "California Circular Economy Fund",
+        "chunk_id": 17143624255037687176
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9539729888355122656,
+        "start": 766528,
+        "end": 766548,
+        "text": "fund",
+        "chunk_id": 17143624255037687176
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2134285746674768656,
+        "start": 766528,
+        "end": 766548,
+        "text": "subsidy",
+        "chunk_id": 17143624255037687176
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17527410955965656461,
+        "start": 766528,
+        "end": 766548,
+        "text": "up to $10,833,000",
+        "chunk_id": 17143624255037687176
+      }
+    ]
+  }
+]

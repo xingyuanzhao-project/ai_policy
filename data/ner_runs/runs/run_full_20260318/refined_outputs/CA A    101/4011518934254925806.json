@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16534633630289557489,
+    "source_group_id": 4011518934254925806,
+    "source_candidate_ids": [
+      1523195432686204064
+    ],
+    "entity": "Coronavirus Fiscal Recovery Fund of 2021",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until December 31, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 11892634120097097329,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9634743605554788744,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 718559697409189644,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12772516511552147512,
+        "start": 1807734,
+        "end": 1807768,
+        "text": "These funds shall be deposited in the Coronavirus Fiscal Recovery Fund of 2021 and may earn interest.",
+        "chunk_id": 8657837193231053811
+      }
+    ]
+  }
+]

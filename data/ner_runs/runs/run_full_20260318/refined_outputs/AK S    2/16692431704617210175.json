@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4558355698037054367,
+    "source_group_id": 16692431704617210175,
+    "source_candidate_ids": [
+      8416608712934023752
+    ],
+    "entity": "individual",
+    "type": "individual",
+    "attribute": "protection",
+    "value": "sensitive personal data",
+    "entity_evidence": [
+      {
+        "span_id": 5023132802318603457,
+        "start": 10016,
+        "end": 10022,
+        "text": "individual",
+        "chunk_id": 9235451469721347931
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18355834277965752508,
+        "start": 10016,
+        "end": 10022,
+        "text": "individual",
+        "chunk_id": 9235451469721347931
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13704100651108517822,
+        "start": 10016,
+        "end": 10022,
+        "text": "individual",
+        "chunk_id": 9235451469721347931
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7049287240570680152,
+        "start": 10016,
+        "end": 10022,
+        "text": "individual",
+        "chunk_id": 9235451469721347931
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17282999618240829095,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 776241899119032940,
+        "start": 912045,
+        "end": 912060,
+        "text": "The Department of Finance",
+        "chunk_id": 17564891052959310256
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11604962945313457231,
+        "start": 912045,
+        "end": 912060,
+        "text": "The Department of Finance",
+        "chunk_id": 17564891052959310256
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4831995903685269397,
+        "start": 912045,
+        "end": 912060,
+        "text": "The Department of Finance",
+        "chunk_id": 17564891052959310256
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13171928633424110867,
+        "start": 912045,
+        "end": 912060,
+        "text": "The Department of Finance",
+        "chunk_id": 17564891052959310256
+      }
+    ]
+  },
+  {
+    "candidate_id": 15137793640894840406,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 456918642584773342,
+        "start": 912045,
+        "end": 912069,
+        "text": "State Department of Social Services",
+        "chunk_id": 17564891052959310256
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8781951492145239062,
+        "start": 912045,
+        "end": 912069,
+        "text": "State Department of Social Services",
+        "chunk_id": 17564891052959310256
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7968865449526101524,
+        "start": 912045,
+        "end": 912069,
+        "text": "State Department of Social Services",
+        "chunk_id": 17564891052959310256
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 113761120631536219,
+        "start": 912045,
+        "end": 912069,
+        "text": "State Department of Social Services",
+        "chunk_id": 17564891052959310256
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9875283905724568482,
+    "source_group_id": 13955717598456155741,
+    "source_candidate_ids": [
+      114209212441869188
+    ],
+    "entity": "Consumer",
+    "type": "individual",
+    "attribute": "definition",
+    "value": "an individual who is a resident of this state acting only in an individual or household context",
+    "entity_evidence": [
+      {
+        "span_id": 2722837824512978325,
+        "start": 4894,
+        "end": 4902,
+        "text": "Consumer",
+        "chunk_id": 1145752625963524429
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8956468298440262513,
+        "start": 4903,
+        "end": 4904,
+        "text": "individual",
+        "chunk_id": 1145752625963524429
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12325174751819167309,
+        "start": 4894,
+        "end": 4903,
+        "text": "definition",
+        "chunk_id": 1145752625963524429
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12721359283665218050,
+        "start": 4905,
+        "end": 4958,
+        "text": "an individual who is a resident of this state acting only in an individual or household context",
+        "chunk_id": 1145752625963524429
+      }
+    ]
+  }
+]

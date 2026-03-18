@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8192627148456955940,
+    "source_group_id": 12519090859823542188,
+    "source_candidate_ids": [
+      9420362457844218905
+    ],
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 12754907457453389233,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12100841907681915582,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8047869446681190265,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11038486198809784488,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16091964058733432173,
+    "source_group_id": 10820129696243316726,
+    "source_candidate_ids": [
+      16310467580615834786
+    ],
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 10932767498747145936,
+        "start": 1421193,
+        "end": 1421216,
+        "text": "California Community Colleges",
+        "chunk_id": 10485552298616266533
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8109542174280716499,
+        "start": 1421193,
+        "end": 1421216,
+        "text": "government agency",
+        "chunk_id": 10485552298616266533
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9687198637486829466,
+        "start": 1421193,
+        "end": 1421216,
+        "text": "restriction",
+        "chunk_id": 10485552298616266533
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16366529725659076426,
+        "start": 1421193,
+        "end": 1421216,
+        "text": "none",
+        "chunk_id": 10485552298616266533
+      }
+    ]
+  }
+]

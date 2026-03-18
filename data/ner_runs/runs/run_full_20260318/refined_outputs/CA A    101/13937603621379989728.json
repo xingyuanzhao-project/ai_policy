@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15901303594101324390,
+    "source_group_id": 13937603621379989728,
+    "source_candidate_ids": [
+      7754929867760351359
+    ],
+    "entity": "Dental Hygiene Board of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10090921183877705118,
+        "start": 264237,
+        "end": 264257,
+        "text": "Dental Hygiene Board of California",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14775245642217014144,
+        "start": 264237,
+        "end": 264257,
+        "text": "government agency",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14115004772754771376,
+        "start": 264237,
+        "end": 264257,
+        "text": "restriction",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8532594818795406508,
+        "start": 264237,
+        "end": 264257,
+        "text": "extremely restrictive",
+        "chunk_id": 6554153107942889661
+      }
+    ]
+  }
+]

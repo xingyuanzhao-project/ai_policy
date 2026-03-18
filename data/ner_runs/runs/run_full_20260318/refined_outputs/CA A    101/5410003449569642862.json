@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12514900453731692547,
+    "source_group_id": 5410003449569642862,
+    "source_candidate_ids": [
+      12239395750504069668
+    ],
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2169094029680237007,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3377172247026916673,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10111313758182422210,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7012794843085541082,
+        "start": 331120,
+        "end": 331144,
+        "text": "California Transportation Commission",
+        "chunk_id": 11341772979768226424
+      }
+    ]
+  }
+]

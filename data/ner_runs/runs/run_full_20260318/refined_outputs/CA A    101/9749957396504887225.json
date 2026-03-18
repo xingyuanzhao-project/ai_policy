@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 12127162518682343286,
+    "source_group_id": 9749957396504887225,
+    "source_candidate_ids": [
+      12483840086955008039,
+      1349190707065630575
+    ],
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Section 28.00",
+    "entity_evidence": [
+      {
+        "span_id": 15625392354919268991,
+        "start": 141672,
+        "end": 141692,
+        "text": "Office of Emergency Services",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5621033082673811217,
+        "start": 141672,
+        "end": 141692,
+        "text": "Office of Emergency Services",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17217189568817457521,
+        "start": 141672,
+        "end": 141692,
+        "text": "Office of Emergency Services",
+        "chunk_id": 6416965992964176220
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11040071442726557332,
+        "start": 141672,
+        "end": 141692,
+        "text": "exempt from Section 28.00",
+        "chunk_id": 6416965992964176220
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8917634657723621839,
+    "source_group_id": 645474618265879620,
+    "source_candidate_ids": [
+      11342347243579903105
+    ],
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "promptly post on its public internet website",
+    "entity_evidence": [
+      {
+        "span_id": 16320490564495894655,
+        "start": 1725376,
+        "end": 1725400,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17909056648675410458
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11604350111483101301,
+        "start": 1725376,
+        "end": 1725400,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17909056648675410458
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18046916164638031268,
+        "start": 1725376,
+        "end": 1725400,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17909056648675410458
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7430354346377215343,
+        "start": 1725376,
+        "end": 1725400,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17909056648675410458
+      }
+    ]
+  }
+]

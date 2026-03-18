@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17691507266580468878,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "clearly and conspicuously disclose",
+    "entity_evidence": [
+      {
+        "span_id": 10763186243073782283,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4791416725003353724,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14960577288547385026,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1929713536800957837,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ]
+  },
+  {
+    "candidate_id": 17006307653082354443,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "obtain the consumer’s consent",
+    "entity_evidence": [
+      {
+        "span_id": 5897689052038408179,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10288877917228178229,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8839992766359153036,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8229983915211568676,
+        "start": 38437,
+        "end": 38445,
+        "text": "controller",
+        "chunk_id": 4503131141679560070
+      }
+    ]
+  }
+]

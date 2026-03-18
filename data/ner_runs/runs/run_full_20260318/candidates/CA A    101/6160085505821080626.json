@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16290311771241613896,
+    "entity": "California state preschool programs",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "family literacy supplemental grant",
+    "entity_evidence": [
+      {
+        "span_id": 7252882893591442780,
+        "start": 1268031,
+        "end": 1268051,
+        "text": "family literacy supplemental grant provided to California state preschool programs",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12297150051645351300,
+        "start": 1268031,
+        "end": 1268051,
+        "text": "California state preschool programs",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9610454005006661003,
+        "start": 1268031,
+        "end": 1268051,
+        "text": "provided to",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7443413977447534177,
+        "start": 1268031,
+        "end": 1268051,
+        "text": "family literacy supplemental grant",
+        "chunk_id": 6160085505821080626
+      }
+    ]
+  },
+  {
+    "candidate_id": 7742814382532635662,
+    "entity": "Quality Rating and Improvement System grants",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "Quality Rating and Improvement System grants",
+    "entity_evidence": [
+      {
+        "span_id": 16425984039551774562,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "Quality Rating and Improvement System grants",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13781767660443865806,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "Quality Rating and Improvement System grants",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3983418499831470077,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "provided to",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11773421022255091308,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "Quality Rating and Improvement System grants",
+        "chunk_id": 6160085505821080626
+      }
+    ]
+  }
+]

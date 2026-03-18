@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15062536292803830389,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "subject to legislative appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 7658299482829610515,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7103837533663183639,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9909793495063871375,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13244513117304585442,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ]
+  },
+  {
+    "candidate_id": 15405233138308008441,
+    "entity": "victim compensation and assistance fund",
+    "type": "infrastructure",
+    "attribute": "allocation",
+    "value": "subject to legislative appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 9106203864565924261,
+        "start": 17889,
+        "end": 17909,
+        "text": "The victim compensation and assistance fund",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17683334248512924625,
+        "start": 17889,
+        "end": 17909,
+        "text": "The victim compensation and assistance fund",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14019358291040253864,
+        "start": 17889,
+        "end": 17909,
+        "text": "The victim compensation and assistance fund",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6235751192690369031,
+        "start": 17889,
+        "end": 17909,
+        "text": "The victim compensation and assistance fund",
+        "chunk_id": 8099978742380906063
+      }
+    ]
+  }
+]

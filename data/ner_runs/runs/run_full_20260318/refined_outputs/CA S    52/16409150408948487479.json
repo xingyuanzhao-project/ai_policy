@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16596634719611267958,
+    "source_group_id": 16409150408948487479,
+    "source_candidate_ids": [
+      5896838059808161933
+    ],
+    "entity": "rental pricing algorithm",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4760346174479858912,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8049972500343093151,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13501414161221439801,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8936120999441887929,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ]
+  }
+]

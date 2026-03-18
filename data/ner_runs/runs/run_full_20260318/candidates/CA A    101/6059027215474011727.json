@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15732297765369806664,
+    "entity": "California Collaborative for Educational Excellence",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 13989485132188765093,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "California Collaborative for Educational Excellence",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10828095566086400602,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "government agency",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5724859134986034624,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "promotion",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6086677461064017376,
+        "start": 1187915,
+        "end": 1187935,
+        "text": "subsidy",
+        "chunk_id": 6059027215474011727
+      }
+    ]
+  },
+  {
+    "candidate_id": 4904700833207038085,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "approval",
+    "entity_evidence": [
+      {
+        "span_id": 15968681127280653738,
+        "start": 1187937,
+        "end": 1187955,
+        "text": "State Department of Education",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 491087749489071225,
+        "start": 1187937,
+        "end": 1187955,
+        "text": "government agency",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1882429505142574325,
+        "start": 1187937,
+        "end": 1187955,
+        "text": "restriction",
+        "chunk_id": 6059027215474011727
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7870449841648511680,
+        "start": 1187937,
+        "end": 1187955,
+        "text": "approval",
+        "chunk_id": 6059027215474011727
+      }
+    ]
+  }
+]

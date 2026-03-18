@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16085837682313418161,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "fully",
+    "entity_evidence": [
+      {
+        "span_id": 18108613886390853596,
+        "start": 722692,
+        "end": 722717,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 11942630893851428071
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6311577901298021272,
+        "start": 722692,
+        "end": 722717,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 11942630893851428071
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9941815505886319644,
+        "start": 722692,
+        "end": 722717,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 11942630893851428071
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7928105102497582745,
+        "start": 722692,
+        "end": 722717,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 11942630893851428071
+      }
+    ]
+  },
+  {
+    "candidate_id": 6103192976484000498,
+    "entity": "Water Quality",
+    "type": "technology",
+    "attribute": "support",
+    "value": "fully",
+    "entity_evidence": [
+      {
+        "span_id": 10606485904762943125,
+        "start": 722421,
+        "end": 722432,
+        "text": "Water Quality",
+        "chunk_id": 11942630893851428071
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2699601258412430985,
+        "start": 722421,
+        "end": 722432,
+        "text": "Water Quality",
+        "chunk_id": 11942630893851428071
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2839311100272080689,
+        "start": 722421,
+        "end": 722432,
+        "text": "Water Quality",
+        "chunk_id": 11942630893851428071
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 637216503401049405,
+        "start": 722421,
+        "end": 722432,
+        "text": "Water Quality",
+        "chunk_id": 11942630893851428071
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7855260715235038690,
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "timely followup information",
+    "entity_evidence": [
+      {
+        "span_id": 17508645874324185503,
+        "start": 1217561,
+        "end": 1217585,
+        "text": "The Commission on Teacher Credentialing",
+        "chunk_id": 5425429361460820148
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1556550648513896264,
+        "start": 1217585,
+        "end": 1217604,
+        "text": "The Commission on Teacher Credentialing",
+        "chunk_id": 5425429361460820148
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10684016007771297538,
+        "start": 1217604,
+        "end": 1217616,
+        "text": "shall maintain a data-sharing agreement",
+        "chunk_id": 5425429361460820148
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10064133388190982461,
+        "start": 1217616,
+        "end": 1217626,
+        "text": "to provide the commission with certificated employee assignment data",
+        "chunk_id": 5425429361460820148
+      }
+    ]
+  },
+  {
+    "candidate_id": 11768835051950522739,
+    "entity": "State Department of Education (SDE)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "timely followup information",
+    "entity_evidence": [
+      {
+        "span_id": 2627957465725081487,
+        "start": 1217561,
+        "end": 1217585,
+        "text": "The State Department of Education",
+        "chunk_id": 5425429361460820148
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17036678711366474015,
+        "start": 1217585,
+        "end": 1217604,
+        "text": "The State Department of Education",
+        "chunk_id": 5425429361460820148
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12322947604979794974,
+        "start": 1217604,
+        "end": 1217616,
+        "text": "shall maintain a data-sharing agreement",
+        "chunk_id": 5425429361460820148
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7669804144334949660,
+        "start": 1217616,
+        "end": 1217626,
+        "text": "to provide the commission with certificated employee assignment data",
+        "chunk_id": 5425429361460820148
+      }
+    ]
+  }
+]

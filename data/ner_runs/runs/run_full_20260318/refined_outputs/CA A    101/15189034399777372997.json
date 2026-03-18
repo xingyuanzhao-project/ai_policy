@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11469016959580044835,
+    "source_group_id": 15189034399777372997,
+    "source_candidate_ids": [
+      6784589540487257162
+    ],
+    "entity": "Secretary of State",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reporting requirement",
+    "entity_evidence": [
+      {
+        "span_id": 8702652176766958546,
+        "start": 221212,
+        "end": 221226,
+        "text": "The Secretary of State",
+        "chunk_id": 14938144342085389959
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17625126803499121248,
+        "start": 221212,
+        "end": 221226,
+        "text": "The Secretary of State",
+        "chunk_id": 14938144342085389959
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17481086754216971706,
+        "start": 221226,
+        "end": 221232,
+        "text": "shall report",
+        "chunk_id": 14938144342085389959
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6114248478240419788,
+        "start": 221232,
+        "end": 221239,
+        "text": "to the Department of Finance",
+        "chunk_id": 14938144342085389959
+      }
+    ]
+  }
+]

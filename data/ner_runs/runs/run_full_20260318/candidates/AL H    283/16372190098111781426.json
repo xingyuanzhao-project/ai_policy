@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13688258443877283601,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 301433170844037350,
+        "start": 20284,
+        "end": 20292,
+        "text": "controller",
+        "chunk_id": 16372190098111781426
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14180111675632516414,
+        "start": 20284,
+        "end": 20292,
+        "text": "controller",
+        "chunk_id": 16372190098111781426
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14073798067767636719,
+        "start": 20284,
+        "end": 20292,
+        "text": "controller",
+        "chunk_id": 16372190098111781426
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15794337356293336812,
+        "start": 20284,
+        "end": 20292,
+        "text": "controller",
+        "chunk_id": 16372190098111781426
+      }
+    ]
+  },
+  {
+    "candidate_id": 7106059071426449696,
+    "entity": "consumer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 9414974942806293092,
+        "start": 20318,
+        "end": 20326,
+        "text": "consumer",
+        "chunk_id": 16372190098111781426
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3714519246873215896,
+        "start": 20318,
+        "end": 20326,
+        "text": "consumer",
+        "chunk_id": 16372190098111781426
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7734071346734294203,
+        "start": 20318,
+        "end": 20326,
+        "text": "consumer",
+        "chunk_id": 16372190098111781426
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17180136266565349906,
+        "start": 20318,
+        "end": 20326,
+        "text": "consumer",
+        "chunk_id": 16372190098111781426
+      }
+    ]
+  }
+]

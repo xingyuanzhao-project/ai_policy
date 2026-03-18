@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17369705998981905307,
+    "source_group_id": 17178570404977897253,
+    "source_candidate_ids": [
+      18410466578765677320
+    ],
+    "entity": "United States Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 5066917142023978304,
+        "start": 947447,
+        "end": 947468,
+        "text": "United States Department of Justice",
+        "chunk_id": 14965472314249223298
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2659830264952785811,
+        "start": 947447,
+        "end": 947468,
+        "text": "United States Department of Justice",
+        "chunk_id": 14965472314249223298
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7437504925767759096,
+        "start": 947447,
+        "end": 947468,
+        "text": "United States Department of Justice",
+        "chunk_id": 14965472314249223298
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13893205897079246461,
+        "start": 947447,
+        "end": 947468,
+        "text": "United States Department of Justice",
+        "chunk_id": 14965472314249223298
+      }
+    ]
+  }
+]

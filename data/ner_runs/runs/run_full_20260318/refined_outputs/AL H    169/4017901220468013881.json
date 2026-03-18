@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1099078004524598762,
+    "source_group_id": 4017901220468013881,
+    "source_candidate_ids": [
+      4243164422156224956
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "implementation costs",
+    "entity_evidence": [
+      {
+        "span_id": 625792866949095946,
+        "start": 23986,
+        "end": 24006,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4957254041392281390,
+        "start": 23986,
+        "end": 24006,
+        "text": "State Department of Education",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7007481809029524943,
+        "start": 24014,
+        "end": 24025,
+        "text": "implementation costs",
+        "chunk_id": 9627372540562978657
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2851309183304901419,
+        "start": 24014,
+        "end": 24025,
+        "text": "implementation costs",
+        "chunk_id": 9627372540562978657
+      }
+    ]
+  }
+]

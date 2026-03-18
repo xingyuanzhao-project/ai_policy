@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12612144453365999220,
+    "entity": "state facility",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exceed $3,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 688149352869301216,
+        "start": 1685029,
+        "end": 1685042,
+        "text": "mprovement of a state facility",
+        "chunk_id": 8968387512908660143
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16367113634421629109,
+        "start": 1685029,
+        "end": 1685042,
+        "text": "mprovement of a state facility",
+        "chunk_id": 8968387512908660143
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1582915883496965806,
+        "start": 1685029,
+        "end": 1685042,
+        "text": "mprovement of a state facility",
+        "chunk_id": 8968387512908660143
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1347809622798474775,
+        "start": 1685029,
+        "end": 1685042,
+        "text": "mprovement of a state facility",
+        "chunk_id": 8968387512908660143
+      }
+    ]
+  },
+  {
+    "candidate_id": 3775377467967833628,
+    "entity": "federal government",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "maximum amount allowable under federal law",
+    "entity_evidence": [
+      {
+        "span_id": 15906600856218719353,
+        "start": 1685163,
+        "end": 1685173,
+        "text": "federal government",
+        "chunk_id": 8968387512908660143
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6386716593842285874,
+        "start": 1685163,
+        "end": 1685173,
+        "text": "federal government",
+        "chunk_id": 8968387512908660143
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6369432148364044831,
+        "start": 1685163,
+        "end": 1685173,
+        "text": "federal government",
+        "chunk_id": 8968387512908660143
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4723652126717296210,
+        "start": 1685163,
+        "end": 1685173,
+        "text": "federal government",
+        "chunk_id": 8968387512908660143
+      }
+    ]
+  }
+]

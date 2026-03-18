@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15100175115348748605,
+    "source_group_id": 3112599805676777257,
+    "source_candidate_ids": [
+      15283905062932532773
+    ],
+    "entity": "Book of Record Functionality Migration to FI$Cal project",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 1732805247709525003,
+        "start": 198983,
+        "end": 199017,
+        "text": "Book of Record Functionality Migration to FI$Cal project",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2846286593934027285,
+        "start": 198983,
+        "end": 199017,
+        "text": "technology",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9893188215517988105,
+        "start": 198983,
+        "end": 199017,
+        "text": "promotion",
+        "chunk_id": 1473192382339141942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3657650640465413887,
+        "start": 198983,
+        "end": 199017,
+        "text": "significant",
+        "chunk_id": 1473192382339141942
+      }
+    ]
+  }
+]

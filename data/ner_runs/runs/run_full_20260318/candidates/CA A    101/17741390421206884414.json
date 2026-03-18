@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14232602111439092572,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "exclusion",
+    "value": "specifically excluded",
+    "entity_evidence": [
+      {
+        "span_id": 5565116996032940164,
+        "start": 1832570,
+        "end": 1832591,
+        "text": "This process shall not be used for the Department of Corrections and Rehabilitation.",
+        "chunk_id": 17741390421206884414
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1783330589755315868,
+        "start": 1832570,
+        "end": 1832591,
+        "text": "This process shall not be used for the Department of Corrections and Rehabilitation.",
+        "chunk_id": 17741390421206884414
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2460945089390699428,
+        "start": 1832570,
+        "end": 1832591,
+        "text": "This process shall not be used for the Department of Corrections and Rehabilitation.",
+        "chunk_id": 17741390421206884414
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1096177633515363637,
+        "start": 1832570,
+        "end": 1832591,
+        "text": "This process shall not be used for the Department of Corrections and Rehabilitation.",
+        "chunk_id": 17741390421206884414
+      }
+    ]
+  },
+  {
+    "candidate_id": 7721055596359744824,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "authority",
+    "value": "unrestricted",
+    "entity_evidence": [
+      {
+        "span_id": 6606003502547840875,
+        "start": 1832652,
+        "end": 1832667,
+        "text": "The Director of Finance may extend the date of availability for encumbrance or expenditure, of any appropriation or reappropriation, or a portion thereof,",
+        "chunk_id": 17741390421206884414
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2089355304061179557,
+        "start": 1832652,
+        "end": 1832667,
+        "text": "The Director of Finance may extend the date of availability for encumbrance or expenditure, of any appropriation or reappropriation, or a portion thereof,",
+        "chunk_id": 17741390421206884414
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6996735304345705684,
+        "start": 1832652,
+        "end": 1832667,
+        "text": "The Director of Finance may extend the date of availability for encumbrance or expenditure, of any appropriation or reappropriation, or a portion thereof,",
+        "chunk_id": 17741390421206884414
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2665438802129388201,
+        "start": 1832652,
+        "end": 1832667,
+        "text": "The Director of Finance may extend the date of availability for encumbrance or expenditure, of any appropriation or reappropriation, or a portion thereof,",
+        "chunk_id": 17741390421206884414
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16730515040339232405,
+    "source_group_id": 11377705117716320897,
+    "source_candidate_ids": [
+      10078813057692214356
+    ],
+    "entity": "Public Employment Relations Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 5757856420118347408,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17922275187077550849,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8460453914120890712,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2335956965261675100,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ]
+  }
+]

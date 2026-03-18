@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8326705358802284860,
+    "source_group_id": 1427884758233119730,
+    "source_candidate_ids": [
+      1404791604123251322
+    ],
+    "entity": "community college district",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 4046637467161530970,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10311425201853562330,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3612292891349141485,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7833673700986650620,
+        "start": 1406065,
+        "end": 1406085,
+        "text": "community college district",
+        "chunk_id": 9785923994509791157
+      }
+    ]
+  }
+]

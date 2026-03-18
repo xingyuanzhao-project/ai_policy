@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12926647994183335814,
+    "source_group_id": 7635618410403564198,
+    "source_candidate_ids": [
+      9707036881452776569
+    ],
+    "entity": "Office of the Governor",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "unexpended and unobligated balance",
+    "entity_evidence": [
+      {
+        "span_id": 8607055922966983921,
+        "start": 23568,
+        "end": 23585,
+        "text": "Office of the Governor",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16257027776282679021,
+        "start": 23586,
+        "end": 23602,
+        "text": "government agency",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7102385524895563506,
+        "start": 23603,
+        "end": 23614,
+        "text": "promotion",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14154653110283105900,
+        "start": 23615,
+        "end": 23632,
+        "text": "unexpended and unobligated balance",
+        "chunk_id": 18038833626742459822
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2138472963365492201,
+    "entity": "Genetic or biometric data",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11053462759333600623,
+        "start": 15185,
+        "end": 15209,
+        "text": "Genetic or biometric data",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5608134727900293508,
+        "start": 15185,
+        "end": 15209,
+        "text": "technology",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17661184239302486539,
+        "start": 15185,
+        "end": 15209,
+        "text": "restriction",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14957771585912562258,
+        "start": 15185,
+        "end": 15209,
+        "text": "extremely restrictive",
+        "chunk_id": 928532910975373241
+      }
+    ]
+  },
+  {
+    "candidate_id": 3471279208968576495,
+    "entity": "State agency",
+    "type": "government agency",
+    "attribute": "definition",
+    "value": "department, commission, board, office, council, authority, or other agency",
+    "entity_evidence": [
+      {
+        "span_id": 13577425970225997187,
+        "start": 15318,
+        "end": 15329,
+        "text": "State agency",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3139995131489590751,
+        "start": 15318,
+        "end": 15329,
+        "text": "government agency",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17154836148614138319,
+        "start": 15318,
+        "end": 15329,
+        "text": "definition",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16465631571628659945,
+        "start": 15318,
+        "end": 15329,
+        "text": "department, commission, board, office, council, authority, or other agency",
+        "chunk_id": 928532910975373241
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5632325261791971408,
+    "source_group_id": 7681345643102884620,
+    "source_candidate_ids": [
+      12799265372763848309
+    ],
+    "entity": "federal lands",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "85 percent",
+    "entity_evidence": [
+      {
+        "span_id": 1243977265182737746,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "federal lands",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18293966685828254763,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "infrastructure",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 998935098334154258,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "restriction",
+        "chunk_id": 10238293536890659170
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17212056560213522045,
+        "start": 1835253,
+        "end": 1835261,
+        "text": "85 percent",
+        "chunk_id": 10238293536890659170
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10776105276505589382,
+    "entity": "California Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short term",
+    "entity_evidence": [
+      {
+        "span_id": 1064557656421729958,
+        "start": 1481328,
+        "end": 1481351,
+        "text": "California Public Employees' Retirement System",
+        "chunk_id": 15403568017375698154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 930351940765881763,
+        "start": 1481328,
+        "end": 1481351,
+        "text": "government agency",
+        "chunk_id": 15403568017375698154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13918466377473091154,
+        "start": 1481593,
+        "end": 1481604,
+        "text": "short term",
+        "chunk_id": 15403568017375698154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10414210334952091602,
+        "start": 1481593,
+        "end": 1481604,
+        "text": "short term",
+        "chunk_id": 15403568017375698154
+      }
+    ]
+  },
+  {
+    "candidate_id": 6607504515011249282,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "50 percent",
+    "entity_evidence": [
+      {
+        "span_id": 13895653419181140766,
+        "start": 1481589,
+        "end": 1481599,
+        "text": "General Fund",
+        "chunk_id": 15403568017375698154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13479093173917827713,
+        "start": 1481589,
+        "end": 1481599,
+        "text": "infrastructure",
+        "chunk_id": 15403568017375698154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8126091308961578685,
+        "start": 1481582,
+        "end": 1481592,
+        "text": "50 percent",
+        "chunk_id": 15403568017375698154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16128800582116485745,
+        "start": 1481582,
+        "end": 1481592,
+        "text": "50 percent",
+        "chunk_id": 15403568017375698154
+      }
+    ]
+  }
+]

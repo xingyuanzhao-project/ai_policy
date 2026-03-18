@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 133500420691816923,
+    "entity": "California Underserved and Small Producers Program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "technical assistance",
+    "entity_evidence": [
+      {
+        "span_id": 5426229902669945003,
+        "start": 1528841,
+        "end": 1528862,
+        "text": "California Underserved and Small Producers Program",
+        "chunk_id": 5606795920455372227
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1212402069860788608,
+        "start": 1528841,
+        "end": 1528862,
+        "text": "Program",
+        "chunk_id": 5606795920455372227
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1591743322592644578,
+        "start": 1528841,
+        "end": 1528862,
+        "text": "Program",
+        "chunk_id": 5606795920455372227
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6286609541370492133,
+        "start": 1528841,
+        "end": 1528862,
+        "text": "technical assistance",
+        "chunk_id": 5606795920455372227
+      }
+    ]
+  },
+  {
+    "candidate_id": 14022746156730013382,
+    "entity": "Healthy Soils Program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "up to $1,468,000",
+    "entity_evidence": [
+      {
+        "span_id": 9168639630425400769,
+        "start": 1528802,
+        "end": 1528822,
+        "text": "Healthy Soils Program",
+        "chunk_id": 5606795920455372227
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16981866844372267823,
+        "start": 1528802,
+        "end": 1528822,
+        "text": "Program",
+        "chunk_id": 5606795920455372227
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1899440397580499309,
+        "start": 1528802,
+        "end": 1528822,
+        "text": "Program",
+        "chunk_id": 5606795920455372227
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1336827425383109303,
+        "start": 1528802,
+        "end": 1528822,
+        "text": "up to $1,468,000",
+        "chunk_id": 5606795920455372227
+      }
+    ]
+  }
+]

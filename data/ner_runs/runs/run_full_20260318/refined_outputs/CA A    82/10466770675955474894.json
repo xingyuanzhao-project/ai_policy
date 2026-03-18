@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6140557126682214762,
+    "source_group_id": 10466770675955474894,
+    "source_candidate_ids": [
+      17743219749244106332
+    ],
+    "entity": "prescriber or dispenser invitee",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 14245208972177599452,
+        "start": 39325,
+        "end": 39345,
+        "text": "prescriber or dispenser invitee",
+        "chunk_id": 4015611474376119986
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12121664234150573415,
+        "start": 39325,
+        "end": 39345,
+        "text": "prescriber or dispenser invitee",
+        "chunk_id": 4015611474376119986
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6006331337882282235,
+        "start": 39325,
+        "end": 39345,
+        "text": "prescriber or dispenser invitee",
+        "chunk_id": 4015611474376119986
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16800769657470117168,
+        "start": 39325,
+        "end": 39345,
+        "text": "prescriber or dispenser invitee",
+        "chunk_id": 4015611474376119986
+      }
+    ]
+  }
+]

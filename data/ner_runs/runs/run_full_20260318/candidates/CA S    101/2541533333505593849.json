@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 194144459063917666,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17015980385670256056,
+        "start": 1075911,
+        "end": 1075932,
+        "text": "State Department of Education",
+        "chunk_id": 2541533333505593849
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12206343434102210785,
+        "start": 1075911,
+        "end": 1075932,
+        "text": "State Department of Education",
+        "chunk_id": 2541533333505593849
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3815813657689414537,
+        "start": 1075911,
+        "end": 1075932,
+        "text": "State Department of Education",
+        "chunk_id": 2541533333505593849
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5664756095509275993,
+        "start": 1075911,
+        "end": 1075932,
+        "text": "State Department of Education",
+        "chunk_id": 2541533333505593849
+      }
+    ]
+  },
+  {
+    "candidate_id": 8363781505651465639,
+    "entity": "local educational agencies",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1094765822508711549,
+        "start": 1076023,
+        "end": 1076042,
+        "text": "local educational agencies",
+        "chunk_id": 2541533333505593849
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7800001865114940101,
+        "start": 1076023,
+        "end": 1076042,
+        "text": "local educational agencies",
+        "chunk_id": 2541533333505593849
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5834050718151055371,
+        "start": 1076023,
+        "end": 1076042,
+        "text": "local educational agencies",
+        "chunk_id": 2541533333505593849
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17444059706623926996,
+        "start": 1076023,
+        "end": 1076042,
+        "text": "local educational agencies",
+        "chunk_id": 2541533333505593849
+      }
+    ]
+  }
+]

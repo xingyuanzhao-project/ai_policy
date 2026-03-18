@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3327440432326611053,
+    "source_group_id": 3923602589844152458,
+    "source_candidate_ids": [
+      7225174678536554844
+    ],
+    "entity": "Federal Comprehensive Literacy State Development Grant",
+    "type": "technology",
+    "attribute": "integration",
+    "value": "into the Literacy Roadmap",
+    "entity_evidence": [
+      {
+        "span_id": 8621257395714675039,
+        "start": 1206899,
+        "end": 1206919,
+        "text": "federal Comprehensive Literacy State Development Grant",
+        "chunk_id": 17969426814810888698
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8372331264801363775,
+        "start": 1206899,
+        "end": 1206919,
+        "text": "federal Comprehensive Literacy State Development Grant",
+        "chunk_id": 17969426814810888698
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11367353353920784886,
+        "start": 1206919,
+        "end": 1206939,
+        "text": "into the Literacy Roadmap",
+        "chunk_id": 17969426814810888698
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5408136383534039361,
+        "start": 1206939,
+        "end": 1206959,
+        "text": "into the Literacy Roadmap",
+        "chunk_id": 17969426814810888698
+      }
+    ]
+  }
+]

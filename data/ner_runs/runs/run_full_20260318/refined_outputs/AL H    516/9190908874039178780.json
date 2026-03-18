@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 2273807830885032450,
+    "source_group_id": 9190908874039178780,
+    "source_candidate_ids": [
+      18408449206360062861,
+      6311858338220381008
+    ],
+    "entity": "chain referral sales plan",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "complete prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 1025874921278897356,
+        "start": 2322,
+        "end": 2341,
+        "text": "chain referral sales plan",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12752511871424361673,
+        "start": 2322,
+        "end": 2341,
+        "text": "technology",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2486615184950209124,
+        "start": 2322,
+        "end": 2341,
+        "text": "prohibition",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4571395806722169298,
+        "start": 2322,
+        "end": 2341,
+        "text": "complete prohibition",
+        "chunk_id": 14288730237711977781
+      }
+    ]
+  }
+]

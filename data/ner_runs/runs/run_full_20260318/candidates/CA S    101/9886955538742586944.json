@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5848554272675150847,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "deferral",
+    "entity_evidence": [
+      {
+        "span_id": 16902957534910951274,
+        "start": 1282369,
+        "end": 1282389,
+        "text": "The Chancellor's Office of the California Community Colleges",
+        "chunk_id": 9886955538742586944
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2849963780720374657,
+        "start": 1282369,
+        "end": 1282389,
+        "text": "Office",
+        "chunk_id": 9886955538742586944
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8361564223081088928,
+        "start": 1282369,
+        "end": 1282389,
+        "text": "may transfer",
+        "chunk_id": 9886955538742586944
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17886880610501184933,
+        "start": 1282369,
+        "end": 1282389,
+        "text": "deferred",
+        "chunk_id": 9886955538742586944
+      }
+    ]
+  },
+  {
+    "candidate_id": 15500647181247445897,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notification",
+    "entity_evidence": [
+      {
+        "span_id": 4204039811514855869,
+        "start": 1282480,
+        "end": 1282500,
+        "text": "the Controller",
+        "chunk_id": 9886955538742586944
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12947654885419262296,
+        "start": 1282480,
+        "end": 1282500,
+        "text": "Controller",
+        "chunk_id": 9886955538742586944
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10416571565439000159,
+        "start": 1282480,
+        "end": 1282500,
+        "text": "shall be implemented",
+        "chunk_id": 9886955538742586944
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4437334159113457524,
+        "start": 1282480,
+        "end": 1282500,
+        "text": "notification",
+        "chunk_id": 9886955538742586944
+      }
+    ]
+  }
+]

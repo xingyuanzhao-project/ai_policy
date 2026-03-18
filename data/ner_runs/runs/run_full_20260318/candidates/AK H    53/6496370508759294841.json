@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 789292395143103837,
+    "entity": "Alaska Aerospace Corporation",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2870064903629402169,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16432775839501039669,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13409802391497388606,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3722228985131174124,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ]
+  },
+  {
+    "candidate_id": 5279657187841054510,
+    "entity": "Alaska Housing Finance Corporation",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8791101982142621257,
+        "start": 104671,
+        "end": 104696,
+        "text": "ALASKA HOUSING FINANCE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8740374887501692558,
+        "start": 104671,
+        "end": 104696,
+        "text": "ALASKA HOUSING FINANCE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14970374921273762744,
+        "start": 104671,
+        "end": 104696,
+        "text": "ALASKA HOUSING FINANCE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16229603615878189160,
+        "start": 104671,
+        "end": 104696,
+        "text": "ALASKA HOUSING FINANCE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ]
+  }
+]

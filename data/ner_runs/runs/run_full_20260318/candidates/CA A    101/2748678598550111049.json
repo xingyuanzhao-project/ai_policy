@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2141793049451628643,
+    "entity": "Department of Financial Protection and Innovation",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "annual report submission",
+    "entity_evidence": [
+      {
+        "span_id": 11386964601090125648,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7578104513585780555,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1710768435980198713,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5359452188587094078,
+        "start": 281168,
+        "end": 281189,
+        "text": "The Department of Financial Protection and Innovation shall submit an annual report",
+        "chunk_id": 2748678598550111049
+      }
+    ]
+  },
+  {
+    "candidate_id": 4068769564134724788,
+    "entity": "Credit Unions",
+    "type": "financial institution",
+    "attribute": "regulation",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 15833628109850912616,
+        "start": 281102,
+        "end": 281113,
+        "text": "For support of Department of Financial Protection and Innovation, payable from the Credit Union Fund",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14287530475813963046,
+        "start": 281102,
+        "end": 281113,
+        "text": "For support of Department of Financial Protection and Innovation, payable from the Credit Union Fund",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16521969972180517649,
+        "start": 281102,
+        "end": 281113,
+        "text": "For support of Department of Financial Protection and Innovation, payable from the Credit Union Fund",
+        "chunk_id": 2748678598550111049
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14046808182847665715,
+        "start": 281102,
+        "end": 281113,
+        "text": "For support of Department of Financial Protection and Innovation, payable from the Credit Union Fund",
+        "chunk_id": 2748678598550111049
+      }
+    ]
+  }
+]

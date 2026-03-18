@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12576734417638447137,
+    "entity": "Alaska clean water fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 15072032152274252215,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7001946662751665249,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12809588976493074144,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6926072298695630906,
+        "start": 151563,
+        "end": 151587,
+        "text": "of the Alaska clean water fund (AS 46.03.032(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ]
+  },
+  {
+    "candidate_id": 11038192781127747245,
+    "entity": "Alaska drinking water fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 1890668111241629139,
+        "start": 151563,
+        "end": 151591,
+        "text": "of the Alaska drinking water fund (AS 46.03.036(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 370689292583997731,
+        "start": 151563,
+        "end": 151591,
+        "text": "of the Alaska drinking water fund (AS 46.03.036(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8026287883756944865,
+        "start": 151563,
+        "end": 151591,
+        "text": "of the Alaska drinking water fund (AS 46.03.036(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12290197437034387031,
+        "start": 151563,
+        "end": 151591,
+        "text": "of the Alaska drinking water fund (AS 46.03.036(a))",
+        "chunk_id": 9728356769900537317
+      }
+    ]
+  }
+]

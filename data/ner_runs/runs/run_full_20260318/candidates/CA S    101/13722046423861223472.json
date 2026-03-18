@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8131598246680576635,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportional reduction",
+    "entity_evidence": [
+      {
+        "span_id": 17882714443998292556,
+        "start": 1268579,
+        "end": 1268597,
+        "text": "the Director of Finance may reduce funding proportional to each student under the specified level.",
+        "chunk_id": 13722046423861223472
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10737841065366429390,
+        "start": 1268579,
+        "end": 1268597,
+        "text": "the Director of Finance may reduce funding proportional to each student under the specified level.",
+        "chunk_id": 13722046423861223472
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8053147524417409101,
+        "start": 1268579,
+        "end": 1268597,
+        "text": "the Director of Finance may reduce funding proportional to each student under the specified level.",
+        "chunk_id": 13722046423861223472
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12274824656213328388,
+        "start": 1268579,
+        "end": 1268597,
+        "text": "the Director of Finance may reduce funding proportional to each student under the specified level.",
+        "chunk_id": 13722046423861223472
+      }
+    ]
+  },
+  {
+    "candidate_id": 15081256211169413438,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 9380616875153891563,
+        "start": 1268499,
+        "end": 1268517,
+        "text": "the Director of Finance provides notice of the intended reduction to the Chairperson of the Joint Legislative Budget Committee.",
+        "chunk_id": 13722046423861223472
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3124966754519659495,
+        "start": 1268499,
+        "end": 1268517,
+        "text": "the Director of Finance provides notice of the intended reduction to the Chairperson of the Joint Legislative Budget Committee.",
+        "chunk_id": 13722046423861223472
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1488185242534787320,
+        "start": 1268499,
+        "end": 1268517,
+        "text": "the Director of Finance provides notice of the intended reduction to the Chairperson of the Joint Legislative Budget Committee.",
+        "chunk_id": 13722046423861223472
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3029330661373463678,
+        "start": 1268499,
+        "end": 1268517,
+        "text": "the Director of Finance provides notice of the intended reduction to the Chairperson of the Joint Legislative Budget Committee.",
+        "chunk_id": 13722046423861223472
+      }
+    ]
+  }
+]

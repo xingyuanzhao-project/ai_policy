@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3022055054631154878,
+    "source_group_id": 16747441585553491151,
+    "source_candidate_ids": [
+      10429539581441347484
+    ],
+    "entity": "Proposition 98 Reversion Account",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 9630701665153285158,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "Proposition 98 Reversion Account",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11047695394516752444,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "infrastructure",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12963210239037934369,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "restriction",
+        "chunk_id": 11558208552982800427
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4911060090836504629,
+        "start": 1295138,
+        "end": 1295162,
+        "text": "specific",
+        "chunk_id": 11558208552982800427
+      }
+    ]
+  }
+]

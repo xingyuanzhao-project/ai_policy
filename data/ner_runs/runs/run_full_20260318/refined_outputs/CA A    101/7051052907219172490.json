@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8902409066952336521,
+    "source_group_id": 7051052907219172490,
+    "source_candidate_ids": [
+      11919312083281412617
+    ],
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended period to liquidate encumbrances",
+    "entity_evidence": [
+      {
+        "span_id": 11259332842184042303,
+        "start": 161815,
+        "end": 161835,
+        "text": "Office of Emergency Services",
+        "chunk_id": 8581962406867890291
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10957121289578002971,
+        "start": 161815,
+        "end": 161835,
+        "text": "Office of Emergency Services",
+        "chunk_id": 8581962406867890291
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 851116218025396601,
+        "start": 161815,
+        "end": 161835,
+        "text": "Office of Emergency Services",
+        "chunk_id": 8581962406867890291
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8146122584288324060,
+        "start": 161815,
+        "end": 161835,
+        "text": "Office of Emergency Services",
+        "chunk_id": 8581962406867890291
+      }
+    ]
+  }
+]

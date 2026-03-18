@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14476898283092279385,
+    "source_group_id": 9223165587994252791,
+    "source_candidate_ids": [
+      2823791047424023689
+    ],
+    "entity": "California Board of Naturopathic Medicine",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "1,000",
+    "entity_evidence": [
+      {
+        "span_id": 3143785955327822705,
+        "start": 262843,
+        "end": 262859,
+        "text": "1205-California Board of Naturopathic Medicine",
+        "chunk_id": 13745067838945046047
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6383633100695977339,
+        "start": 262843,
+        "end": 262859,
+        "text": "1205-California Board of Naturopathic Medicine",
+        "chunk_id": 13745067838945046047
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18012473534363567532,
+        "start": 262843,
+        "end": 262859,
+        "text": "1205-California Board of Naturopathic Medicine",
+        "chunk_id": 13745067838945046047
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16072884644346565783,
+        "start": 262843,
+        "end": 262859,
+        "text": "1205-California Board of Naturopathic Medicine",
+        "chunk_id": 13745067838945046047
+      }
+    ]
+  }
+]

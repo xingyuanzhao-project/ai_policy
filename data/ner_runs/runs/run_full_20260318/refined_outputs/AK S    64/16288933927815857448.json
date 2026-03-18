@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4592191963378297803,
+    "source_group_id": 16288933927815857448,
+    "source_candidate_ids": [
+      5873617345555027133
+    ],
+    "entity": "commissioner",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "security protocols",
+    "entity_evidence": [
+      {
+        "span_id": 6017593693845149337,
+        "start": 60592,
+        "end": 60601,
+        "text": "commissioner",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3860027017301455959,
+        "start": 60592,
+        "end": 60601,
+        "text": "commissioner",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5264242332477850401,
+        "start": 60601,
+        "end": 60612,
+        "text": "develop security protocols",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8979796422168118062,
+        "start": 60612,
+        "end": 60626,
+        "text": "security protocols",
+        "chunk_id": 8502654333254680246
+      }
+    ]
+  }
+]

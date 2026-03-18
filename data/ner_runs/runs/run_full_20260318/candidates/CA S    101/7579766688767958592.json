@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14723634382611518790,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17536959121691444998,
+        "start": 1091526,
+        "end": 1091550,
+        "text": "allocated by the State Department of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2828006975857882610,
+        "start": 1091526,
+        "end": 1091550,
+        "text": "allocated by the State Department of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5695643412457272973,
+        "start": 1091526,
+        "end": 1091550,
+        "text": "allocated by the State Department of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 987003234060292118,
+        "start": 1091526,
+        "end": 1091550,
+        "text": "allocated by the State Department of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ]
+  },
+  {
+    "candidate_id": 16320843115300098716,
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "full",
+    "entity_evidence": [
+      {
+        "span_id": 12735453456151208781,
+        "start": 1091660,
+        "end": 1091678,
+        "text": "State Board of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11333363636117938682,
+        "start": 1091660,
+        "end": 1091678,
+        "text": "State Board of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12482358891318927884,
+        "start": 1091660,
+        "end": 1091678,
+        "text": "State Board of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8102296361467764228,
+        "start": 1091660,
+        "end": 1091678,
+        "text": "State Board of Education",
+        "chunk_id": 7579766688767958592
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17664675103578397219,
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "short term",
+    "entity_evidence": [
+      {
+        "span_id": 13306432105296492522,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4836205880518720340,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16343278137695582475,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17601837593848816983,
+        "start": 1680016,
+        "end": 1680026,
+        "text": "short term",
+        "chunk_id": 10462007018477944082
+      }
+    ]
+  },
+  {
+    "candidate_id": 10507474729824691220,
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "repayment upon order",
+    "entity_evidence": [
+      {
+        "span_id": 333427087396270136,
+        "start": 1680043,
+        "end": 1680053,
+        "text": "repaid upon order",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1137486181833036921,
+        "start": 1680043,
+        "end": 1680053,
+        "text": "repaid upon order",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2264735836256952434,
+        "start": 1680043,
+        "end": 1680053,
+        "text": "repaid upon order",
+        "chunk_id": 10462007018477944082
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6940462962474566879,
+        "start": 1680043,
+        "end": 1680053,
+        "text": "repaid upon order",
+        "chunk_id": 10462007018477944082
+      }
+    ]
+  }
+]

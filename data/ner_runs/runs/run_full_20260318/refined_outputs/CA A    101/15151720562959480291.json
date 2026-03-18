@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 564263151708140545,
+    "source_group_id": 15151720562959480291,
+    "source_candidate_ids": [
+      7241237694036992024
+    ],
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "zero-emission vehicles",
+    "entity_evidence": [
+      {
+        "span_id": 24941781056961106,
+        "start": 323573,
+        "end": 323591,
+        "text": "Department of Transportation",
+        "chunk_id": 14555976949849735999
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17094449015262886763,
+        "start": 323573,
+        "end": 323591,
+        "text": "Department of Transportation",
+        "chunk_id": 14555976949849735999
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16563438121005099270,
+        "start": 323573,
+        "end": 323591,
+        "text": "Department of Transportation",
+        "chunk_id": 14555976949849735999
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11840373148765906503,
+        "start": 323573,
+        "end": 323591,
+        "text": "Department of Transportation",
+        "chunk_id": 14555976949849735999
+      }
+    ]
+  }
+]

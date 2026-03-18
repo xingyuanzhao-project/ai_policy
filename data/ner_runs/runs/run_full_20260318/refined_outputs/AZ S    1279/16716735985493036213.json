@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 4443324127845257798,
+    "source_group_id": 16716735985493036213,
+    "source_candidate_ids": [
+      9520453781203191162,
+      4202922050946262289
+    ],
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "establishment",
+    "value": "monies collected pursuant to section 12-116.01 and monies available from any other source",
+    "entity_evidence": [
+      {
+        "span_id": 13156107849838528736,
+        "start": 0,
+        "end": 34,
+        "text": "The SHERIFFS' criminal justice enhancement fund is established",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3312603415385828979,
+        "start": 34,
+        "end": 41,
+        "text": "SHERIFFS",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11070990386789431758,
+        "start": 0,
+        "end": 34,
+        "text": "established",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17858009569827442558,
+        "start": 35,
+        "end": 69,
+        "text": "monies collected pursuant to section 12-116.01 and monies available from any other source",
+        "chunk_id": 12368809445786842746
+      }
+    ]
+  }
+]

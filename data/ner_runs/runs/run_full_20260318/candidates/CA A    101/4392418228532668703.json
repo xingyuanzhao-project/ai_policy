@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9950843838315962518,
+    "entity": "Judicial Branch Workers' Compensation Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "adequate resources",
+    "entity_evidence": [
+      {
+        "span_id": 6133295679633824756,
+        "start": 46185,
+        "end": 46206,
+        "text": "Judicial Branch Workers' Compensation Fund",
+        "chunk_id": 4392418228532668703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3393449573715782963,
+        "start": 46185,
+        "end": 46206,
+        "text": "Judicial Branch Workers' Compensation Fund",
+        "chunk_id": 4392418228532668703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12082544927989577536,
+        "start": 46185,
+        "end": 46206,
+        "text": "Judicial Branch Workers' Compensation Fund",
+        "chunk_id": 4392418228532668703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12952745954712886077,
+        "start": 46185,
+        "end": 46206,
+        "text": "Judicial Branch Workers' Compensation Fund",
+        "chunk_id": 4392418228532668703
+      }
+    ]
+  },
+  {
+    "candidate_id": 3334079855353797407,
+    "entity": "Equal Access Fund program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "qualified legal services projects and support centers",
+    "entity_evidence": [
+      {
+        "span_id": 18299365631779165717,
+        "start": 46374,
+        "end": 46393,
+        "text": "Equal Access Fund program",
+        "chunk_id": 4392418228532668703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16213064392811613217,
+        "start": 46374,
+        "end": 46393,
+        "text": "Equal Access Fund program",
+        "chunk_id": 4392418228532668703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9752059437630543261,
+        "start": 46374,
+        "end": 46393,
+        "text": "Equal Access Fund program",
+        "chunk_id": 4392418228532668703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3939395391722698424,
+        "start": 46374,
+        "end": 46393,
+        "text": "Equal Access Fund program",
+        "chunk_id": 4392418228532668703
+      }
+    ]
+  }
+]

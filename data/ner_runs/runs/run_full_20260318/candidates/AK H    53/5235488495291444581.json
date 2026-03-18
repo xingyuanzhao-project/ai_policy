@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13592269792670305553,
+    "entity": "Department of Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 15740216622205106291,
+        "start": 30932,
+        "end": 30952,
+        "text": "Department of Health",
+        "chunk_id": 5235488495291444581
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6566098670889540485,
+        "start": 30932,
+        "end": 30952,
+        "text": "government agency",
+        "chunk_id": 5235488495291444581
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8739982765828078551,
+        "start": 30932,
+        "end": 30952,
+        "text": "restriction",
+        "chunk_id": 5235488495291444581
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15913472461021991768,
+        "start": 30932,
+        "end": 30952,
+        "text": "extremely restrictive",
+        "chunk_id": 5235488495291444581
+      }
+    ]
+  },
+  {
+    "candidate_id": 5257252979878632292,
+    "entity": "U.S. Supreme Court",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "new precedent",
+    "entity_evidence": [
+      {
+        "span_id": 18249798365856084038,
+        "start": 31043,
+        "end": 31062,
+        "text": "U.S. Supreme Court",
+        "chunk_id": 5235488495291444581
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8241536108476977490,
+        "start": 31043,
+        "end": 31062,
+        "text": "government agency",
+        "chunk_id": 5235488495291444581
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11642299424812575711,
+        "start": 31043,
+        "end": 31062,
+        "text": "promotion",
+        "chunk_id": 5235488495291444581
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2332873578744944174,
+        "start": 31043,
+        "end": 31062,
+        "text": "new precedent",
+        "chunk_id": 5235488495291444581
+      }
+    ]
+  }
+]

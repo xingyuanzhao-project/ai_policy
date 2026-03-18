@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14362510087773324711,
+    "source_group_id": 6579019591781756273,
+    "source_candidate_ids": [
+      3152645061047237703
+    ],
+    "entity": "Ignite",
+    "type": "company",
+    "attribute": "promotion",
+    "value": "highly commended",
+    "entity_evidence": [
+      {
+        "span_id": 7245933385751845623,
+        "start": 134,
+        "end": 140,
+        "text": "highly commended",
+        "chunk_id": 12733193817474674870
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2255961434093767691,
+        "start": 134,
+        "end": 140,
+        "text": "highly commended",
+        "chunk_id": 12733193817474674870
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17954989814950184125,
+        "start": 134,
+        "end": 140,
+        "text": "highly commended",
+        "chunk_id": 12733193817474674870
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 287131031918973923,
+        "start": 134,
+        "end": 140,
+        "text": "highly commended",
+        "chunk_id": 12733193817474674870
+      }
+    ]
+  }
+]

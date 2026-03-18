@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5244246867925000721,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 14937455868342151801,
+        "start": 10176,
+        "end": 10189,
+        "text": "covered platform",
+        "chunk_id": 15912769262714156249
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8339045623795496039,
+        "start": 10176,
+        "end": 10189,
+        "text": "covered platform",
+        "chunk_id": 15912769262714156249
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15856357543550965579,
+        "start": 10176,
+        "end": 10189,
+        "text": "covered platform",
+        "chunk_id": 15912769262714156249
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15529570416215436076,
+        "start": 10176,
+        "end": 10189,
+        "text": "covered platform",
+        "chunk_id": 15912769262714156249
+      }
+    ]
+  },
+  {
+    "candidate_id": 11013115425202771589,
+    "entity": "minor",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17205325185294533274,
+        "start": 10200,
+        "end": 10204,
+        "text": "minor",
+        "chunk_id": 15912769262714156249
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17543397451325265982,
+        "start": 10200,
+        "end": 10204,
+        "text": "minor",
+        "chunk_id": 15912769262714156249
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11145026593161484827,
+        "start": 10200,
+        "end": 10204,
+        "text": "minor",
+        "chunk_id": 15912769262714156249
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16717291732273134520,
+        "start": 10200,
+        "end": 10204,
+        "text": "minor",
+        "chunk_id": 15912769262714156249
+      }
+    ]
+  }
+]

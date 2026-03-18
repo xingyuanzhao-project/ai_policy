@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2689214156888710932,
+    "entity": "Adjutant General",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "substitution",
+    "entity_evidence": [
+      {
+        "span_id": 13801510889688412415,
+        "start": 1573937,
+        "end": 1573947,
+        "text": "Adjutant General",
+        "chunk_id": 11842630733284086109
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2448648457974084453,
+        "start": 1573937,
+        "end": 1573947,
+        "text": "Adjutant General",
+        "chunk_id": 11842630733284086109
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8853358935970622700,
+        "start": 1573937,
+        "end": 1573947,
+        "text": "Adjutant General",
+        "chunk_id": 11842630733284086109
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1352971201487752962,
+        "start": 1573937,
+        "end": 1573947,
+        "text": "Adjutant General",
+        "chunk_id": 11842630733284086109
+      }
+    ]
+  },
+  {
+    "candidate_id": 18170864407061519292,
+    "entity": "California Cybersecurity Integration Center",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "protects",
+    "entity_evidence": [
+      {
+        "span_id": 10343905188610050539,
+        "start": 1574848,
+        "end": 1574869,
+        "text": "California Cybersecurity Integration Center",
+        "chunk_id": 11842630733284086109
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7852147124731647381,
+        "start": 1574848,
+        "end": 1574869,
+        "text": "California Cybersecurity Integration Center",
+        "chunk_id": 11842630733284086109
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16478273134648845638,
+        "start": 1574848,
+        "end": 1574869,
+        "text": "California Cybersecurity Integration Center",
+        "chunk_id": 11842630733284086109
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1483025957865786286,
+        "start": 1574848,
+        "end": 1574869,
+        "text": "California Cybersecurity Integration Center",
+        "chunk_id": 11842630733284086109
+      }
+    ]
+  }
+]

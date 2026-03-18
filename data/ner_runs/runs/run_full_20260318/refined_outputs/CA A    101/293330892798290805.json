@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14052312508342651764,
+    "source_group_id": 293330892798290805,
+    "source_candidate_ids": [
+      5812706824863069434
+    ],
+    "entity": "Electronic Cigarette Settlements Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 18358988748832619485,
+        "start": 1185139,
+        "end": 1185161,
+        "text": "Electronic Cigarette Settlements Fund",
+        "chunk_id": 4645616901445930140
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14944443989405341729,
+        "start": 1185139,
+        "end": 1185161,
+        "text": "Electronic Cigarette Settlements Fund",
+        "chunk_id": 4645616901445930140
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5067323512012693926,
+        "start": 1185139,
+        "end": 1185161,
+        "text": "Electronic Cigarette Settlements Fund",
+        "chunk_id": 4645616901445930140
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6990158781188689878,
+        "start": 1185139,
+        "end": 1185161,
+        "text": "Electronic Cigarette Settlements Fund",
+        "chunk_id": 4645616901445930140
+      }
+    ]
+  }
+]

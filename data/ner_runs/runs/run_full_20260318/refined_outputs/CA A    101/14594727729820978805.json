@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16068202399937598004,
+    "source_group_id": 14594727729820978805,
+    "source_candidate_ids": [
+      18120386742673875209
+    ],
+    "entity": "General Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 14407406873434688579,
+        "start": 1781067,
+        "end": 1781077,
+        "text": "General Fund",
+        "chunk_id": 14928654133726906565
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10986834751173796815,
+        "start": 1781067,
+        "end": 1781077,
+        "text": "government agency",
+        "chunk_id": 14928654133726906565
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3245841140799459987,
+        "start": 1781067,
+        "end": 1781077,
+        "text": "restriction",
+        "chunk_id": 14928654133726906565
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16010112601804840755,
+        "start": 1781067,
+        "end": 1781077,
+        "text": "adjustment",
+        "chunk_id": 14928654133726906565
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12669428339810897418,
+    "source_group_id": 13924322866535963893,
+    "source_candidate_ids": [
+      12213034538728598983
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 17450263523677565457,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7814187094942807043,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18024413016036740345,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18328686688561462513,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ]
+  }
+]

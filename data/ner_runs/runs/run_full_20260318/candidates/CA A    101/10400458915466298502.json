@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8588843872442986134,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 15096708938024218359,
+        "start": 942287,
+        "end": 942307,
+        "text": "State Department of Public Health",
+        "chunk_id": 10400458915466298502
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17040403007359069725,
+        "start": 942287,
+        "end": 942307,
+        "text": "government agency",
+        "chunk_id": 10400458915466298502
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11518486165959275203,
+        "start": 942287,
+        "end": 942307,
+        "text": "restriction",
+        "chunk_id": 10400458915466298502
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12117506928179231948,
+        "start": 942287,
+        "end": 942307,
+        "text": "exemption",
+        "chunk_id": 10400458915466298502
+      }
+    ]
+  },
+  {
+    "candidate_id": 9721003635518277816,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 17613568000784483189,
+        "start": 942287,
+        "end": 942307,
+        "text": "Department of General Services",
+        "chunk_id": 10400458915466298502
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2973374952101580576,
+        "start": 942287,
+        "end": 942307,
+        "text": "government agency",
+        "chunk_id": 10400458915466298502
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17849087756330839387,
+        "start": 942287,
+        "end": 942307,
+        "text": "restriction",
+        "chunk_id": 10400458915466298502
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12689193596403743204,
+        "start": 942287,
+        "end": 942307,
+        "text": "exemption",
+        "chunk_id": 10400458915466298502
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7895831771594421458,
+    "source_group_id": 7054842264032607341,
+    "source_candidate_ids": [
+      15980808602652599914
+    ],
+    "entity": "Attorney General",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "representation",
+    "entity_evidence": [
+      {
+        "span_id": 14435560997693193840,
+        "start": 1311041,
+        "end": 1311054,
+        "text": "The total fees charged during the period by the Attorney General",
+        "chunk_id": 7046831326615076772
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16173006510952411248,
+        "start": 1311041,
+        "end": 1311054,
+        "text": "The total fees charged during the period by the Attorney General",
+        "chunk_id": 7046831326615076772
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12538342894906544284,
+        "start": 1311041,
+        "end": 1311054,
+        "text": "The total fees charged during the period by the Attorney General",
+        "chunk_id": 7046831326615076772
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15624324112681805500,
+        "start": 1311041,
+        "end": 1311054,
+        "text": "The total fees charged during the period by the Attorney General",
+        "chunk_id": 7046831326615076772
+      }
+    ]
+  }
+]

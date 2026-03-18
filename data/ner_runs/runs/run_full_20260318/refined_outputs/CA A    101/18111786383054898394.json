@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14581398307920041391,
+    "source_group_id": 18111786383054898394,
+    "source_candidate_ids": [
+      15790060334192742906
+    ],
+    "entity": "California Community College Mathematics, Engineering, Science Achievement (MESA) programs",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 3634744219187182792,
+        "start": 1402109,
+        "end": 1402149,
+        "text": "California Community College Mathematics, Engineering, Science Achievement (MESA) programs",
+        "chunk_id": 4478964591778672942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13522229416557909731,
+        "start": 1402109,
+        "end": 1402149,
+        "text": "California Community College Mathematics, Engineering, Science Achievement (MESA) programs",
+        "chunk_id": 4478964591778672942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2615108598102996104,
+        "start": 1402109,
+        "end": 1402149,
+        "text": "California Community College Mathematics, Engineering, Science Achievement (MESA) programs",
+        "chunk_id": 4478964591778672942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6493555868501191506,
+        "start": 1402109,
+        "end": 1402149,
+        "text": "California Community College Mathematics, Engineering, Science Achievement (MESA) programs",
+        "chunk_id": 4478964591778672942
+      }
+    ]
+  }
+]

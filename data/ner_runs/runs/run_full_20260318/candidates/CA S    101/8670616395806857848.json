@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 140786726098631827,
+    "entity": "Sierra Nevada Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended to June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 5089052385661676204,
+        "start": 584829,
+        "end": 584849,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 8670616395806857848
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9761541078007404822,
+        "start": 584829,
+        "end": 584849,
+        "text": "government agency",
+        "chunk_id": 8670616395806857848
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13633774601570389562,
+        "start": 584829,
+        "end": 584849,
+        "text": "restriction",
+        "chunk_id": 8670616395806857848
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8146036510911389155,
+        "start": 584829,
+        "end": 584849,
+        "text": "extended to June 30, 2028",
+        "chunk_id": 8670616395806857848
+      }
+    ]
+  },
+  {
+    "candidate_id": 10158367824204795320,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "available for grants",
+    "entity_evidence": [
+      {
+        "span_id": 2122800865785346767,
+        "start": 584829,
+        "end": 584839,
+        "text": "General Fund",
+        "chunk_id": 8670616395806857848
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17361723963819428373,
+        "start": 584829,
+        "end": 584839,
+        "text": "infrastructure",
+        "chunk_id": 8670616395806857848
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10758693805041245570,
+        "start": 584829,
+        "end": 584839,
+        "text": "promotion",
+        "chunk_id": 8670616395806857848
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12101163844265897691,
+        "start": 584829,
+        "end": 584839,
+        "text": "available for grants",
+        "chunk_id": 8670616395806857848
+      }
+    ]
+  }
+]

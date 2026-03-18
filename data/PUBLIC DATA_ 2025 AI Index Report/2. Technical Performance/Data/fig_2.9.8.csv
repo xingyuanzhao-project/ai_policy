@@ -1,0 +1,13 @@
+task_type,task,success_rate
+Shirt hanging,ShirtMessy,70%
+Shirt hanging,ShirtEasy,75%
+Shoelace tying,LaceMessy,40%
+Shoelace tying,LaceEasy,70%
+ Robot finger  replacement,FingerReplace,75%
+Gear insertion,GearInsert-3,40%
+Gear insertion,GearInsert-2,75%
+Gear insertion,GearInsert-1,95%
+Random kitchen stack,RandomKitchen -Bowl+Cup+Fork,25%
+Random kitchen stack,RandomKitchen -Bowl+Cup,65%
+Random kitchen stack,RandomKitchen -Bowl,95%
+,,

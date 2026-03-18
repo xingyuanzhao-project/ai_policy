@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16641678383920477922,
+    "entity": "Department of Consumer Affairs",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 12745945627646196187,
+        "start": 272232,
+        "end": 272253,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 13039439988061823154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17543513955967083752,
+        "start": 272232,
+        "end": 272253,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 13039439988061823154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6550653850997189320,
+        "start": 272264,
+        "end": 272271,
+        "text": "upon request",
+        "chunk_id": 13039439988061823154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3931798318974676102,
+        "start": 272264,
+        "end": 272271,
+        "text": "upon request",
+        "chunk_id": 13039439988061823154
+      }
+    ]
+  },
+  {
+    "candidate_id": 413235060845929132,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 10732933749162791716,
+        "start": 272277,
+        "end": 272292,
+        "text": "Department of Finance",
+        "chunk_id": 13039439988061823154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6778887887445395846,
+        "start": 272277,
+        "end": 272292,
+        "text": "Department of Finance",
+        "chunk_id": 13039439988061823154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14583733515144479424,
+        "start": 272264,
+        "end": 272271,
+        "text": "upon request",
+        "chunk_id": 13039439988061823154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12249053471216923507,
+        "start": 272264,
+        "end": 272271,
+        "text": "upon request",
+        "chunk_id": 13039439988061823154
+      }
+    ]
+  }
+]

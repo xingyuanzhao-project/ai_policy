@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12534958091437538854,
+    "source_group_id": 10793104926006540131,
+    "source_candidate_ids": [
+      8018423949821560123
+    ],
+    "entity": "healthcare insurer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until the commissioner is satisfied that the basis for the determination has been corrected and is not likely to recur",
+    "entity_evidence": [
+      {
+        "span_id": 3084633278101113133,
+        "start": 15048,
+        "end": 15063,
+        "text": "healthcare insurer",
+        "chunk_id": 16330098760320438590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1641882471324276139,
+        "start": 15064,
+        "end": 15073,
+        "text": "government agency",
+        "chunk_id": 16330098760320438590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12478915643988284534,
+        "start": 15074,
+        "end": 15083,
+        "text": "restriction",
+        "chunk_id": 16330098760320438590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10205478683471809637,
+        "start": 15084,
+        "end": 15113,
+        "text": "until the commissioner is satisfied that the basis for the determination has been corrected and is not likely to recur",
+        "chunk_id": 16330098760320438590
+      }
+    ]
+  }
+]

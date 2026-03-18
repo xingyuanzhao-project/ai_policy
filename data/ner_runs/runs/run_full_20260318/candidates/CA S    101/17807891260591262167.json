@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8911881995544632471,
+    "entity": "Department of Food and Agriculture",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 8325782960493984702,
+        "start": 1523526,
+        "end": 1523557,
+        "text": "For support of Department of Food and Agriculture",
+        "chunk_id": 17807891260591262167
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2123851606492643118,
+        "start": 1523526,
+        "end": 1523557,
+        "text": "For support of Department of Food and Agriculture",
+        "chunk_id": 17807891260591262167
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10554640010810425035,
+        "start": 1523526,
+        "end": 1523557,
+        "text": "For support of Department of Food and Agriculture",
+        "chunk_id": 17807891260591262167
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11426603571998815884,
+        "start": 1523526,
+        "end": 1523557,
+        "text": "For support of Department of Food and Agriculture",
+        "chunk_id": 17807891260591262167
+      }
+    ]
+  },
+  {
+    "candidate_id": 10677954842019215781,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 9405589525581582062,
+        "start": 1523526,
+        "end": 1523550,
+        "text": "State Public Works Board",
+        "chunk_id": 17807891260591262167
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11964941426267021634,
+        "start": 1523526,
+        "end": 1523550,
+        "text": "State Public Works Board",
+        "chunk_id": 17807891260591262167
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5833659913546780347,
+        "start": 1523526,
+        "end": 1523550,
+        "text": "State Public Works Board",
+        "chunk_id": 17807891260591262167
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1590744095607934274,
+        "start": 1523526,
+        "end": 1523550,
+        "text": "State Public Works Board",
+        "chunk_id": 17807891260591262167
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 541290217948119064,
+    "source_group_id": 7700404017498664765,
+    "source_candidate_ids": [
+      18151508038807709537
+    ],
+    "entity": "California Health Benefit Exchange",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 6965951500818294050,
+        "start": 982108,
+        "end": 982128,
+        "text": "California Health Benefit Exchange",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4473017681251592745,
+        "start": 982108,
+        "end": 982128,
+        "text": "government agency",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2444414266443857392,
+        "start": 982108,
+        "end": 982128,
+        "text": "promotion",
+        "chunk_id": 4300074797319733830
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14137396495409768318,
+        "start": 982108,
+        "end": 982128,
+        "text": "subsidy",
+        "chunk_id": 4300074797319733830
+      }
+    ]
+  }
+]

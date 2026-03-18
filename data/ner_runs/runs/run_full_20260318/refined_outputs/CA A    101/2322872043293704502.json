@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12396167138850377760,
+    "source_group_id": 2322872043293704502,
+    "source_candidate_ids": [
+      17404569212803634851
+    ],
+    "entity": "California Federation of Labor",
+    "type": "organization",
+    "attribute": "promotion",
+    "value": "appointing members",
+    "entity_evidence": [
+      {
+        "span_id": 12953327186386204239,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "California Federation of Labor",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 606044814775236700,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "organization",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3183616156091967094,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "promotion",
+        "chunk_id": 12998140073333909923
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5785618016484500246,
+        "start": 1332054,
+        "end": 1332075,
+        "text": "appointing members",
+        "chunk_id": 12998140073333909923
+      }
+    ]
+  }
+]

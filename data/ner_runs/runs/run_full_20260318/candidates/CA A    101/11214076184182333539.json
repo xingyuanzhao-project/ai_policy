@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8090768840997297736,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "5 percent",
+    "entity_evidence": [
+      {
+        "span_id": 4357644704087270290,
+        "start": 901351,
+        "end": 901371,
+        "text": "The funds appropriated in this item shall not exceed 5 percent of the total amount appropriated to the State Department of Public Health from the Child Health and Safety Fund.",
+        "chunk_id": 11214076184182333539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5163083777455728934,
+        "start": 901351,
+        "end": 901371,
+        "text": "The funds appropriated in this item shall not exceed 5 percent of the total amount appropriated to the State Department of Public Health from the Child Health and Safety Fund.",
+        "chunk_id": 11214076184182333539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1405421145547161119,
+        "start": 901351,
+        "end": 901371,
+        "text": "The funds appropriated in this item shall not exceed 5 percent of the total amount appropriated to the State Department of Public Health from the Child Health and Safety Fund.",
+        "chunk_id": 11214076184182333539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6161551201153263811,
+        "start": 901351,
+        "end": 901371,
+        "text": "The funds appropriated in this item shall not exceed 5 percent of the total amount appropriated to the State Department of Public Health from the Child Health and Safety Fund.",
+        "chunk_id": 11214076184182333539
+      }
+    ]
+  },
+  {
+    "candidate_id": 14894836786200866223,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9424225421959425112,
+        "start": 901228,
+        "end": 901258,
+        "text": "For support of State Department of Public Health",
+        "chunk_id": 11214076184182333539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17516706326704667113,
+        "start": 901228,
+        "end": 901258,
+        "text": "For support of State Department of Public Health",
+        "chunk_id": 11214076184182333539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15188463490067837415,
+        "start": 901228,
+        "end": 901258,
+        "text": "For support of State Department of Public Health",
+        "chunk_id": 11214076184182333539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 661037480439363437,
+        "start": 901228,
+        "end": 901258,
+        "text": "For support of State Department of Public Health",
+        "chunk_id": 11214076184182333539
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15502061932163319279,
+    "source_group_id": 15206587730666834597,
+    "source_candidate_ids": [
+      10778692918114777674
+    ],
+    "entity": "designated health care services facility",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16966370767222324964,
+        "start": 7201,
+        "end": 7233,
+        "text": "designated health care services facility",
+        "chunk_id": 8345545057529405598
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3031936863421000072,
+        "start": 7201,
+        "end": 7233,
+        "text": "technology",
+        "chunk_id": 8345545057529405598
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12861529066529511061,
+        "start": 7201,
+        "end": 7233,
+        "text": "restriction",
+        "chunk_id": 8345545057529405598
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16881595265648099581,
+        "start": 7201,
+        "end": 7233,
+        "text": "extremely restrictive",
+        "chunk_id": 8345545057529405598
+      }
+    ]
+  }
+]

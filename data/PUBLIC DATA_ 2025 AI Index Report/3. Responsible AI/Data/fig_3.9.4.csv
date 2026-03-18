@@ -1,0 +1,21 @@
+Number of prefilled harmful tokens,Model,Attack success rate
+0,Llama 2 7B (Base),67%
+3,Llama 2 7B (Base),81%
+5,Llama 2 7B (Base),86%
+7,Llama 2 7B (Base),87%
+10,Llama 2 7B (Base),89%
+0,Llama 2 7B Chat (Aligned),0%
+3,Llama 2 7B Chat (Aligned),19%
+5,Llama 2 7B Chat (Aligned),46%
+7,Llama 2 7B Chat (Aligned),49%
+10,Llama 2 7B Chat (Aligned),55%
+0,Gemma 7B (Base),88%
+3,Gemma 7B (Base),92%
+5,Gemma 7B (Base),93%
+7,Gemma 7B (Base),93%
+10,Gemma 7B (Base),94%
+0,Gemma 1.1. 7B IT (Aligned),2%
+3,Gemma 1.1. 7B IT (Aligned),29%
+5,Gemma 1.1. 7B IT (Aligned),42%
+7,Gemma 1.1. 7B IT (Aligned),51%
+10,Gemma 1.1. 7B IT (Aligned),58%

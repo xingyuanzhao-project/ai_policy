@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4125784290241634844,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from requirements of Article 4 (commencing with Section 19130) of Chapter 5 of Part 2 of Division 5 of Title 2 of the Government Code, and from the Public Contract Code and the State Contracting Manual",
+    "entity_evidence": [
+      {
+        "span_id": 10874683389873577678,
+        "start": 1050171,
+        "end": 1050192,
+        "text": "State Department of Social Services",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6433545793853272688,
+        "start": 1050171,
+        "end": 1050192,
+        "text": "State Department of Social Services",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9409896573286488909,
+        "start": 1050171,
+        "end": 1050192,
+        "text": "State Department of Social Services",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10887875268249053055,
+        "start": 1050171,
+        "end": 1050192,
+        "text": "State Department of Social Services",
+        "chunk_id": 13471407993590635541
+      }
+    ]
+  },
+  {
+    "candidate_id": 4913059704442748190,
+    "entity": "CalFresh E&T Workers' Compensation Fund",
+    "type": "infrastructure",
+    "attribute": "authorization",
+    "value": "to transfer funds",
+    "entity_evidence": [
+      {
+        "span_id": 5060722830981351142,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10531818773582473403,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5185020355638530962,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9981481202883432802,
+        "start": 1050378,
+        "end": 1050394,
+        "text": "CalFresh E&T Workers' Compensation Fund",
+        "chunk_id": 13471407993590635541
+      }
+    ]
+  }
+]

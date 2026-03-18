@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 15598624556091087434,
+    "source_group_id": 15367326708319907492,
+    "source_candidate_ids": [
+      10021280546414176252,
+      7158216890970564844
+    ],
+    "entity": "Alaska Industrial Development and Export Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7435419986081118199,
+        "start": 169573,
+        "end": 169593,
+        "text": "Alaska Industrial Development and Export Authority",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14961564455171580704,
+        "start": 169573,
+        "end": 169593,
+        "text": "government agency",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5773246717250917899,
+        "start": 169573,
+        "end": 169593,
+        "text": "restriction",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3459302943774457631,
+        "start": 169573,
+        "end": 169593,
+        "text": "limited",
+        "chunk_id": 2771145208088878420
+      }
+    ]
+  }
+]

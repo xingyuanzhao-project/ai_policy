@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14834539415547991024,
+    "entity": "Greenhouse Gas Reduction Fund",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 11374350826268605037,
+        "start": 483720,
+        "end": 483744,
+        "text": "Greenhouse Gas Reduction Fund",
+        "chunk_id": 6111891876384604817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15331338380322552189,
+        "start": 483720,
+        "end": 483744,
+        "text": "technology",
+        "chunk_id": 6111891876384604817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8083572595593660217,
+        "start": 483720,
+        "end": 483744,
+        "text": "restriction",
+        "chunk_id": 6111891876384604817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9477587134177443785,
+        "start": 483720,
+        "end": 483744,
+        "text": "extended",
+        "chunk_id": 6111891876384604817
+      }
+    ]
+  },
+  {
+    "candidate_id": 12341327836676192426,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 7360768450553817431,
+        "start": 483720,
+        "end": 483763,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 6111891876384604817
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7927335323592525942,
+        "start": 483720,
+        "end": 483763,
+        "text": "government agency",
+        "chunk_id": 6111891876384604817
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7454830727911531860,
+        "start": 483720,
+        "end": 483763,
+        "text": "restriction",
+        "chunk_id": 6111891876384604817
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6424814174090966261,
+        "start": 483720,
+        "end": 483763,
+        "text": "extended",
+        "chunk_id": 6111891876384604817
+      }
+    ]
+  }
+]

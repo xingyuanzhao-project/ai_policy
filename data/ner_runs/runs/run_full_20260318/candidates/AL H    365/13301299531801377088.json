@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6834062146481646233,
+    "entity": "Alabama Science, Technology, Engineering, and Mathematics (STEM) Council",
+    "type": "government agency",
+    "attribute": "establishment",
+    "value": "state entity",
+    "entity_evidence": [
+      {
+        "span_id": 5247410408311451093,
+        "start": 134,
+        "end": 164,
+        "text": "The Alabama Science, Technology, Engineering, and Mathematics (STEM) Council created by this act.",
+        "chunk_id": 13301299531801377088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8693798935219257527,
+        "start": 134,
+        "end": 164,
+        "text": "The Alabama Science, Technology, Engineering, and Mathematics (STEM) Council created by this act.",
+        "chunk_id": 13301299531801377088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6502136726507770200,
+        "start": 134,
+        "end": 164,
+        "text": "The Alabama Science, Technology, Engineering, and Mathematics (STEM) Council created by this act.",
+        "chunk_id": 13301299531801377088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1538639798999494679,
+        "start": 134,
+        "end": 164,
+        "text": "The Alabama Science, Technology, Engineering, and Mathematics (STEM) Council created by this act.",
+        "chunk_id": 13301299531801377088
+      }
+    ]
+  },
+  {
+    "candidate_id": 13325700188681674745,
+    "entity": "Department of Workforce",
+    "type": "government agency",
+    "attribute": "responsibility",
+    "value": "administrative functions",
+    "entity_evidence": [
+      {
+        "span_id": 10698053180348913937,
+        "start": 219,
+        "end": 233,
+        "text": "The Chief of the Workforce Pathways Division of the department shall be responsible for the administrative functions of the council",
+        "chunk_id": 13301299531801377088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13955466401121363184,
+        "start": 219,
+        "end": 233,
+        "text": "The Chief of the Workforce Pathways Division of the department shall be responsible for the administrative functions of the council",
+        "chunk_id": 13301299531801377088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16691344296137446966,
+        "start": 219,
+        "end": 233,
+        "text": "The Chief of the Workforce Pathways Division of the department shall be responsible for the administrative functions of the council",
+        "chunk_id": 13301299531801377088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16449280349912983877,
+        "start": 219,
+        "end": 233,
+        "text": "The Chief of the Workforce Pathways Division of the department shall be responsible for the administrative functions of the council",
+        "chunk_id": 13301299531801377088
+      }
+    ]
+  }
+]

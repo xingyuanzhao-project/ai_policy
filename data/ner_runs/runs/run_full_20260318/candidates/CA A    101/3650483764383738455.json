@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11029223885638885368,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 17287478645469364518,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 950888824580332837,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17526058065996143577,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15911785279307497668,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ]
+  },
+  {
+    "candidate_id": 16405224845481405024,
+    "entity": "High-Speed Passenger Train Bond Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 3877222431641775695,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3050976693308240580,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7479766758295462254,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4630399373248083045,
+        "start": 399258,
+        "end": 399278,
+        "text": "High-Speed Passenger Train Bond Fund",
+        "chunk_id": 3650483764383738455
+      }
+    ]
+  }
+]

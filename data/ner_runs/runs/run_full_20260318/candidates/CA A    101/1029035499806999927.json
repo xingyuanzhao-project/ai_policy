@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4096512337825602274,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "periodically updated",
+    "entity_evidence": [
+      {
+        "span_id": 4707294206262920192,
+        "start": 877692,
+        "end": 877712,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 1029035499806999927
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18384500235941996190,
+        "start": 877692,
+        "end": 877712,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 1029035499806999927
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4314752286764855890,
+        "start": 877389,
+        "end": 877407,
+        "text": "periodically updated",
+        "chunk_id": 1029035499806999927
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10169721508693109076,
+        "start": 877389,
+        "end": 877407,
+        "text": "periodically updated",
+        "chunk_id": 1029035499806999927
+      }
+    ]
+  },
+  {
+    "candidate_id": 13131779629479353599,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "10 days",
+    "entity_evidence": [
+      {
+        "span_id": 9001204159780808802,
+        "start": 877389,
+        "end": 877401,
+        "text": "Director of Finance",
+        "chunk_id": 1029035499806999927
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4552073129927282493,
+        "start": 877389,
+        "end": 877401,
+        "text": "Director of Finance",
+        "chunk_id": 1029035499806999927
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12884385718969368789,
+        "start": 877389,
+        "end": 877401,
+        "text": "Director of Finance",
+        "chunk_id": 1029035499806999927
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1902761749720970864,
+        "start": 877389,
+        "end": 877401,
+        "text": "Director of Finance",
+        "chunk_id": 1029035499806999927
+      }
+    ]
+  }
+]

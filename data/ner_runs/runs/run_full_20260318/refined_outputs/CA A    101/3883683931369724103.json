@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 13915758028047673607,
+    "source_group_id": 3883683931369724103,
+    "source_candidate_ids": [
+      4540194694849154583,
+      13145768353402482303
+    ],
+    "entity": "Public Utilities Commission",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 3928913465578779112,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4001787978093738494,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7325794079258005485,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7198562046264919697
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17587018445185559563,
+        "start": 1639484,
+        "end": 1639504,
+        "text": "reimbursement",
+        "chunk_id": 7198562046264919697
+      }
+    ]
+  }
+]

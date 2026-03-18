@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2638393839103935952,
+    "source_group_id": 3725914019191653527,
+    "source_candidate_ids": [
+      14859039722521476638
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "exempt from personal services contracting requirements",
+    "entity_evidence": [
+      {
+        "span_id": 5498374518520479031,
+        "start": 1147668,
+        "end": 1147694,
+        "text": "State Department of Education",
+        "chunk_id": 18111884118852103382
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11774309368791508149,
+        "start": 1147668,
+        "end": 1147694,
+        "text": "State Department of Education",
+        "chunk_id": 18111884118852103382
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8108890244569903236,
+        "start": 1147668,
+        "end": 1147694,
+        "text": "exempt from personal services contracting requirements",
+        "chunk_id": 18111884118852103382
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8584472124003387471,
+        "start": 1147668,
+        "end": 1147694,
+        "text": "exempt from personal services contracting requirements",
+        "chunk_id": 18111884118852103382
+      }
+    ]
+  }
+]

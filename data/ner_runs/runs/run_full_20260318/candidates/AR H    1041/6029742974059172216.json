@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2743638983932577202,
+    "entity": "deepfake",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16967335151156403838,
+        "start": 4839,
+        "end": 4847,
+        "text": "deceptive and fraudulent deepfake",
+        "chunk_id": 6029742974059172216
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17909281477515239089,
+        "start": 4839,
+        "end": 4847,
+        "text": "deceptive and fraudulent deepfake",
+        "chunk_id": 6029742974059172216
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9406529235533231045,
+        "start": 4839,
+        "end": 4847,
+        "text": "deceptive and fraudulent deepfake",
+        "chunk_id": 6029742974059172216
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4865653633302134132,
+        "start": 4839,
+        "end": 4847,
+        "text": "deceptive and fraudulent deepfake",
+        "chunk_id": 6029742974059172216
+      }
+    ]
+  },
+  {
+    "candidate_id": 6343548038417776221,
+    "entity": "radio or television broadcasting station",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "certain cases",
+    "entity_evidence": [
+      {
+        "span_id": 17590205351094133180,
+        "start": 4853,
+        "end": 4882,
+        "text": "radio or television broadcasting station",
+        "chunk_id": 6029742974059172216
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2307189770741154878,
+        "start": 4853,
+        "end": 4882,
+        "text": "radio or television broadcasting station",
+        "chunk_id": 6029742974059172216
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13209088914258396569,
+        "start": 4883,
+        "end": 4890,
+        "text": "when acting as a platform",
+        "chunk_id": 6029742974059172216
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7807737808836729978,
+        "start": 4883,
+        "end": 4890,
+        "text": "when acting as a platform",
+        "chunk_id": 6029742974059172216
+      }
+    ]
+  }
+]

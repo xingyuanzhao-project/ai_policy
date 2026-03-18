@@ -1,0 +1,52 @@
+[
+  {
+    "refined_id": 5290573605749510005,
+    "source_group_id": 9421746342868849378,
+    "source_candidate_ids": [
+      13147027623149046367,
+      10795663937866319956,
+      8881000296788207411,
+      12681198092673882607
+    ],
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 3945601226502774331,
+        "start": 914161,
+        "end": 914181,
+        "text": "State Department of Public Health",
+        "chunk_id": 16145650916384892547
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7499344361919542513,
+        "start": 914161,
+        "end": 914181,
+        "text": "government agency",
+        "chunk_id": 16145650916384892547
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10700357683100755913,
+        "start": 914161,
+        "end": 914181,
+        "text": "restriction",
+        "chunk_id": 16145650916384892547
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9641094173921367486,
+        "start": 914161,
+        "end": 914181,
+        "text": "partial",
+        "chunk_id": 16145650916384892547
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4872062790020181170,
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 422427948279414277,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11698167352943428308,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15803750580324622034,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8650158992805185657,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ]
+  },
+  {
+    "candidate_id": 11233130468808259968,
+    "entity": "election board member",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "compensation",
+    "entity_evidence": [
+      {
+        "span_id": 2277851605867772930,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9713054064336266552,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5230267826128129339,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7661137111801890869,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ]
+  }
+]

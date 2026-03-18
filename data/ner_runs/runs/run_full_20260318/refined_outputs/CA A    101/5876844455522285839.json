@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13057859373457419910,
+    "source_group_id": 5876844455522285839,
+    "source_candidate_ids": [
+      5115659268216075844
+    ],
+    "entity": "Commission on State Mandates",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "tolled",
+    "entity_evidence": [
+      {
+        "span_id": 16717810113603840817,
+        "start": 1659584,
+        "end": 1659605,
+        "text": "Commission on State Mandates",
+        "chunk_id": 7916786261995960073
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15825986514146793789,
+        "start": 1659584,
+        "end": 1659605,
+        "text": "Commission on State Mandates",
+        "chunk_id": 7916786261995960073
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4162382245674516223,
+        "start": 1659584,
+        "end": 1659605,
+        "text": "Commission on State Mandates",
+        "chunk_id": 7916786261995960073
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13645381610585136920,
+        "start": 1659584,
+        "end": 1659605,
+        "text": "Commission on State Mandates",
+        "chunk_id": 7916786261995960073
+      }
+    ]
+  }
+]

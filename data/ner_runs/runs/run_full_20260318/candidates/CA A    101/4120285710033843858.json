@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6292295900331350357,
+    "entity": "Department of Pesticide Regulation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 11874159789934923206,
+        "start": 704720,
+        "end": 704740,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12530356462862255066,
+        "start": 704720,
+        "end": 704740,
+        "text": "government agency",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16430295150564518322,
+        "start": 704720,
+        "end": 704740,
+        "text": "restriction",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5301397966410260374,
+        "start": 704720,
+        "end": 704740,
+        "text": "encumbrance or expenditure until June 30, 2027",
+        "chunk_id": 4120285710033843858
+      }
+    ]
+  },
+  {
+    "candidate_id": 2851228515681830727,
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "approval of the appropriate Project Approval Lifecycle documents",
+    "entity_evidence": [
+      {
+        "span_id": 17485325519047177704,
+        "start": 704720,
+        "end": 704740,
+        "text": "Department of Technology",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16259995387121634759,
+        "start": 704720,
+        "end": 704740,
+        "text": "government agency",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8563037365852961909,
+        "start": 704720,
+        "end": 704740,
+        "text": "restriction",
+        "chunk_id": 4120285710033843858
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4713986024555224906,
+        "start": 704720,
+        "end": 704740,
+        "text": "approval of the appropriate Project Approval Lifecycle documents",
+        "chunk_id": 4120285710033843858
+      }
+    ]
+  }
+]

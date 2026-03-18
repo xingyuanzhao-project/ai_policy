@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13244213288784774276,
+    "entity": "Board of Administration of the Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "submission",
+    "value": "quarterly reports",
+    "entity_evidence": [
+      {
+        "span_id": 14827156899617348455,
+        "start": 1590347,
+        "end": 1590377,
+        "text": "the Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18255918586104701150,
+        "start": 1590347,
+        "end": 1590377,
+        "text": "the Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12534707359006928290,
+        "start": 1590347,
+        "end": 1590377,
+        "text": "the Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3044660882581156850,
+        "start": 1590347,
+        "end": 1590377,
+        "text": "the Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 6026895266240647745
+      }
+    ]
+  },
+  {
+    "candidate_id": 14085312136192796059,
+    "entity": "PERS",
+    "type": "government agency",
+    "attribute": "submission",
+    "value": "quarterly reports",
+    "entity_evidence": [
+      {
+        "span_id": 2862070365966992896,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17453245139872579910,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11399308767390762747,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9837386363174413466,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ]
+  }
+]

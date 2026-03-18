@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1283562893368352528,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 14006536325923569794,
+        "start": 1324145,
+        "end": 1324162,
+        "text": "The University of California",
+        "chunk_id": 9654236883494433222
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13368973761087702266,
+        "start": 1324145,
+        "end": 1324162,
+        "text": "The University of California",
+        "chunk_id": 9654236883494433222
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10140202923343865409,
+        "start": 1324145,
+        "end": 1324162,
+        "text": "The University of California",
+        "chunk_id": 9654236883494433222
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6410104902396765734,
+        "start": 1324145,
+        "end": 1324162,
+        "text": "The University of California",
+        "chunk_id": 9654236883494433222
+      }
+    ]
+  },
+  {
+    "candidate_id": 8388230199465291031,
+    "entity": "UC Programs in Medical Education",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "state priorities",
+    "entity_evidence": [
+      {
+        "span_id": 6358133645285298945,
+        "start": 1324179,
+        "end": 1324199,
+        "text": "UC Programs in Medical Education",
+        "chunk_id": 9654236883494433222
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5666800757611274071,
+        "start": 1324179,
+        "end": 1324199,
+        "text": "UC Programs in Medical Education",
+        "chunk_id": 9654236883494433222
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10049766959149890701,
+        "start": 1324179,
+        "end": 1324199,
+        "text": "UC Programs in Medical Education",
+        "chunk_id": 9654236883494433222
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17852750045185735417,
+        "start": 1324179,
+        "end": 1324199,
+        "text": "UC Programs in Medical Education",
+        "chunk_id": 9654236883494433222
+      }
+    ]
+  }
+]

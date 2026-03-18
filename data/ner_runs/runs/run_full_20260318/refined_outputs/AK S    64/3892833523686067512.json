@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9677390986486746966,
+    "source_group_id": 3892833523686067512,
+    "source_candidate_ids": [
+      3752916234134040839
+    ],
+    "entity": "election supervisor",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 17364128190285090574,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9643467891944358061,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13381259050632095414,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17094480280793805694,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ]
+  }
+]

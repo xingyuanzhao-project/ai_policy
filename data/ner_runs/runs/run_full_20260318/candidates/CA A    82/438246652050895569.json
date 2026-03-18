@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18012390517891926663,
+    "entity": "CURES",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "compliance with federal and state privacy and security laws",
+    "entity_evidence": [
+      {
+        "span_id": 2432736527673540036,
+        "start": 32002,
+        "end": 32008,
+        "text": "CURES",
+        "chunk_id": 438246652050895569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13568423646894188283,
+        "start": 32002,
+        "end": 32008,
+        "text": "CURES",
+        "chunk_id": 438246652050895569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10656537461957701313,
+        "start": 32009,
+        "end": 32023,
+        "text": "comply with all applicable federal and state privacy and security laws and regulations",
+        "chunk_id": 438246652050895569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15303774169757306387,
+        "start": 32009,
+        "end": 32023,
+        "text": "comply with all applicable federal and state privacy and security laws and regulations",
+        "chunk_id": 438246652050895569
+      }
+    ]
+  },
+  {
+    "candidate_id": 15217650451792200689,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "maintain the Controlled Substance Utilization Review and Evaluation System (CURES)",
+    "entity_evidence": [
+      {
+        "span_id": 1531161442864457462,
+        "start": 31963,
+        "end": 31991,
+        "text": "Department of Justice",
+        "chunk_id": 438246652050895569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11994206705619077809,
+        "start": 31963,
+        "end": 31991,
+        "text": "Department of Justice",
+        "chunk_id": 438246652050895569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11185429620315869609,
+        "start": 31992,
+        "end": 32011,
+        "text": "maintain the Controlled Substance Utilization Review and Evaluation System (CURES)",
+        "chunk_id": 438246652050895569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13958032350576798351,
+        "start": 31992,
+        "end": 32011,
+        "text": "maintain the Controlled Substance Utilization Review and Evaluation System (CURES)",
+        "chunk_id": 438246652050895569
+      }
+    ]
+  }
+]

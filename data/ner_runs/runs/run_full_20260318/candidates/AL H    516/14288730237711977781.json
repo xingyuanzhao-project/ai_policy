@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18408449206360062861,
+    "entity": "chain referral sales plan",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "complete prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 11879815157167076002,
+        "start": 2322,
+        "end": 2341,
+        "text": "chain referral sales plan",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18001951961677453270,
+        "start": 2322,
+        "end": 2341,
+        "text": "technology",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15209265567641986958,
+        "start": 2322,
+        "end": 2341,
+        "text": "prohibition",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5797284396989828005,
+        "start": 2322,
+        "end": 2341,
+        "text": "complete prohibition",
+        "chunk_id": 14288730237711977781
+      }
+    ]
+  },
+  {
+    "candidate_id": 6311858338220381008,
+    "entity": "pyramid promotional scheme",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "complete prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 7010485962151089698,
+        "start": 2322,
+        "end": 2346,
+        "text": "pyramid promotional scheme",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18290093127679048268,
+        "start": 2322,
+        "end": 2346,
+        "text": "technology",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 833938386715363701,
+        "start": 2322,
+        "end": 2346,
+        "text": "prohibition",
+        "chunk_id": 14288730237711977781
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17530434742027362901,
+        "start": 2322,
+        "end": 2346,
+        "text": "complete prohibition",
+        "chunk_id": 14288730237711977781
+      }
+    ]
+  }
+]

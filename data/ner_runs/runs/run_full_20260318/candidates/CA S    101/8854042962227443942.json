@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13146897098061208248,
+    "entity": "Board of State and Community Corrections",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "standards for selection and training",
+    "entity_evidence": [
+      {
+        "span_id": 6344994435933195387,
+        "start": 1028515,
+        "end": 1028535,
+        "text": "Board of State and Community Corrections",
+        "chunk_id": 8854042962227443942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11485714568501505101,
+        "start": 1028515,
+        "end": 1028535,
+        "text": "government agency",
+        "chunk_id": 8854042962227443942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5437736510067921926,
+        "start": 1028515,
+        "end": 1028535,
+        "text": "regulation",
+        "chunk_id": 8854042962227443942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3087643353234979810,
+        "start": 1028515,
+        "end": 1028535,
+        "text": "standards for selection and training",
+        "chunk_id": 8854042962227443942
+      }
+    ]
+  },
+  {
+    "candidate_id": 2590693556985491751,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "allocation",
+    "value": "periodic",
+    "entity_evidence": [
+      {
+        "span_id": 10827520527044939805,
+        "start": 1028848,
+        "end": 1028863,
+        "text": "General Fund",
+        "chunk_id": 8854042962227443942
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12846874901392311124,
+        "start": 1028848,
+        "end": 1028863,
+        "text": "infrastructure",
+        "chunk_id": 8854042962227443942
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10679557460752304596,
+        "start": 1028848,
+        "end": 1028863,
+        "text": "allocation",
+        "chunk_id": 8854042962227443942
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1392153031236994598,
+        "start": 1028848,
+        "end": 1028863,
+        "text": "periodic",
+        "chunk_id": 8854042962227443942
+      }
+    ]
+  }
+]

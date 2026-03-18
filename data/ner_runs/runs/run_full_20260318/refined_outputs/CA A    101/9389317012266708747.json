@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16547478122920149863,
+    "source_group_id": 9389317012266708747,
+    "source_candidate_ids": [
+      17138249460742043701
+    ],
+    "entity": "Santa Monica Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "periodic reporting",
+    "entity_evidence": [
+      {
+        "span_id": 1949320924703883723,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2600758204370313705,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5980583053012633754,
+        "start": 619498,
+        "end": 619512,
+        "text": "periodically to the Legislature",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 882091719552290634,
+        "start": 619498,
+        "end": 619512,
+        "text": "periodically to the Legislature",
+        "chunk_id": 7568175199512060104
+      }
+    ]
+  }
+]

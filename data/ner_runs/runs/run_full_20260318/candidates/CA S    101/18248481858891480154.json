@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17344162308591958496,
+    "entity": "Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 4388781482658561390,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1646541896368761631,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12868291729398674767,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1719341557165329701,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ]
+  },
+  {
+    "candidate_id": 16999762282755160082,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 14768108180301201072,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6736117867680263555,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4329395723552686370,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1030775295907917179,
+        "start": 1666123,
+        "end": 1666144,
+        "text": "The Director of Finance may adjust the percentage levels of the employers' retirement contributions listed in subdivisions (a) and (d) as a result of rates provided by the Board of Administration of the Public Employees' Retirement System.",
+        "chunk_id": 18248481858891480154
+      }
+    ]
+  }
+]

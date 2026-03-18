@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13929433020114738969,
+    "entity": "state officers",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "salaries in effect on June 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 17820239426124305079,
+        "start": 1757636,
+        "end": 1757644,
+        "text": "state officers",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14212157259287657022,
+        "start": 1757636,
+        "end": 1757644,
+        "text": "state officers",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2263855022357885084,
+        "start": 1757645,
+        "end": 1757653,
+        "text": "salaries in effect on June 30, 2025",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3970261502809126058,
+        "start": 1757645,
+        "end": 1757653,
+        "text": "salaries in effect on June 30, 2025",
+        "chunk_id": 18028853965026256483
+      }
+    ]
+  },
+  {
+    "candidate_id": 3783674181205307660,
+    "entity": "state-owned or state-leased property",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "minor projects, studies, specifications, design, construction, and equipment",
+    "entity_evidence": [
+      {
+        "span_id": 15846648421519518128,
+        "start": 1757825,
+        "end": 1757846,
+        "text": "state-owned or state-leased property",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1099092235998798906,
+        "start": 1757825,
+        "end": 1757846,
+        "text": "state-owned or state-leased property",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2632288132144670560,
+        "start": 1757847,
+        "end": 1757876,
+        "text": "minor projects, studies, specifications, design, construction, and equipment",
+        "chunk_id": 18028853965026256483
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6964419243168066498,
+        "start": 1757847,
+        "end": 1757876,
+        "text": "minor projects, studies, specifications, design, construction, and equipment",
+        "chunk_id": 18028853965026256483
+      }
+    ]
+  }
+]

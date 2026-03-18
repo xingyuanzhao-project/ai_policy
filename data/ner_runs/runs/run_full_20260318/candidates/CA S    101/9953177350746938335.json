@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18096189600277976034,
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 10386081963292247256,
+        "start": 83898,
+        "end": 83915,
+        "text": "Federal Trust Fund",
+        "chunk_id": 9953177350746938335
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2580806930812814840,
+        "start": 83898,
+        "end": 83915,
+        "text": "Federal Trust Fund",
+        "chunk_id": 9953177350746938335
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14990591938780774905,
+        "start": 83898,
+        "end": 83915,
+        "text": "Federal Trust Fund",
+        "chunk_id": 9953177350746938335
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9658088134597510328,
+        "start": 83898,
+        "end": 83915,
+        "text": "Federal Trust Fund",
+        "chunk_id": 9953177350746938335
+      }
+    ]
+  },
+  {
+    "candidate_id": 16860618253729740876,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 18291533574747632536,
+        "start": 83898,
+        "end": 83913,
+        "text": "Department of Finance",
+        "chunk_id": 9953177350746938335
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14014524338591793648,
+        "start": 83898,
+        "end": 83913,
+        "text": "Department of Finance",
+        "chunk_id": 9953177350746938335
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11073106093979997189,
+        "start": 83898,
+        "end": 83913,
+        "text": "Department of Finance",
+        "chunk_id": 9953177350746938335
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17154618489231396123,
+        "start": 83898,
+        "end": 83913,
+        "text": "Department of Finance",
+        "chunk_id": 9953177350746938335
+      }
+    ]
+  }
+]

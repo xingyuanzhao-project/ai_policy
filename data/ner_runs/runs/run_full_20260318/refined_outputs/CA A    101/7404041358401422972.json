@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 848843589804933501,
+    "source_group_id": 7404041358401422972,
+    "source_candidate_ids": [
+      16167078627638538022
+    ],
+    "entity": "community college system",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 18241598764318491161,
+        "start": 1423860,
+        "end": 1423879,
+        "text": "technology investments of the community college system",
+        "chunk_id": 2550868719587661150
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10703441648301128812,
+        "start": 1423860,
+        "end": 1423879,
+        "text": "technology investments of the community college system",
+        "chunk_id": 2550868719587661150
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12848639293399900984,
+        "start": 1423860,
+        "end": 1423879,
+        "text": "technology investments of the community college system",
+        "chunk_id": 2550868719587661150
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8826869219943408135,
+        "start": 1423860,
+        "end": 1423879,
+        "text": "technology investments of the community college system",
+        "chunk_id": 2550868719587661150
+      }
+    ]
+  }
+]

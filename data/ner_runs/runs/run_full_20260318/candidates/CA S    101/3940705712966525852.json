@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10846189094402213721,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "ongoing",
+    "entity_evidence": [
+      {
+        "span_id": 3526043905459236188,
+        "start": 1258348,
+        "end": 1258368,
+        "text": "California State University",
+        "chunk_id": 3940705712966525852
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15662226484917211413,
+        "start": 1258348,
+        "end": 1258368,
+        "text": "government agency",
+        "chunk_id": 3940705712966525852
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9331495913360076111,
+        "start": 1258348,
+        "end": 1258368,
+        "text": "support",
+        "chunk_id": 3940705712966525852
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4572624559346544765,
+        "start": 1258348,
+        "end": 1258368,
+        "text": "ongoing",
+        "chunk_id": 3940705712966525852
+      }
+    ]
+  },
+  {
+    "candidate_id": 10247639720283648461,
+    "entity": "Humboldt State University",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "transition",
+    "entity_evidence": [
+      {
+        "span_id": 405285639780771864,
+        "start": 1258370,
+        "end": 1258388,
+        "text": "Humboldt State University",
+        "chunk_id": 3940705712966525852
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12989215589521240741,
+        "start": 1258370,
+        "end": 1258388,
+        "text": "government agency",
+        "chunk_id": 3940705712966525852
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1045479661670774050,
+        "start": 1258370,
+        "end": 1258388,
+        "text": "support",
+        "chunk_id": 3940705712966525852
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14149094981412545731,
+        "start": 1258370,
+        "end": 1258388,
+        "text": "transition",
+        "chunk_id": 3940705712966525852
+      }
+    ]
+  }
+]

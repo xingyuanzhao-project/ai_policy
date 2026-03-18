@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 482607256127172240,
+    "entity": "California Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "implementation activities",
+    "entity_evidence": [
+      {
+        "span_id": 16683024607659350021,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10161219575066093625,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10993017248011102839,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11951940386843220875,
+        "start": 417006,
+        "end": 417027,
+        "text": "implementation activities of the Whistleblower Complaint Receipt and Investigation System project",
+        "chunk_id": 7550784756472376552
+      }
+    ]
+  },
+  {
+    "candidate_id": 3011629846968768794,
+    "entity": "California Cybersecurity Integration Center",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "up to $849,000",
+    "entity_evidence": [
+      {
+        "span_id": 9627023718672456858,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13242943231954127962,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13669023512649707903,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 582185463468808281,
+        "start": 417116,
+        "end": 417137,
+        "text": "the California Cybersecurity Integration Center",
+        "chunk_id": 7550784756472376552
+      }
+    ]
+  }
+]

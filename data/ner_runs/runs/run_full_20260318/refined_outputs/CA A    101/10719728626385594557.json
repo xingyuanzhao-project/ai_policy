@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17530958580355706505,
+    "source_group_id": 10719728626385594557,
+    "source_candidate_ids": [
+      3618292130940940487
+    ],
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "subsidy",
+    "value": "increased costs",
+    "entity_evidence": [
+      {
+        "span_id": 13130549567343862528,
+        "start": 990063,
+        "end": 990082,
+        "text": "Judicial Council",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14493765924337046933,
+        "start": 990063,
+        "end": 990082,
+        "text": "government agency",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 323450010919000661,
+        "start": 990063,
+        "end": 990082,
+        "text": "subsidy",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13400151019412649798,
+        "start": 990063,
+        "end": 990082,
+        "text": "increased costs",
+        "chunk_id": 2170910090497308376
+      }
+    ]
+  }
+]

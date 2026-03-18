@@ -1,0 +1,13 @@
+License category,Number of datasets,Label
+Academic-only,193,Data Provenance
+Commercial,2030,Data Provenance
+Noncommercial,843,Data Provenance
+Unspecified,651,Data Provenance
+Commercial,1279,GitHub
+Unspecified,2438,GitHub
+Noncommercial,0,GitHub
+Academic-only,0,GitHub
+Academic-only,1,Hugging Face
+Commercial,2404,Hugging Face
+Noncommercial,484,Hugging Face
+Unspecified,828,Hugging Face

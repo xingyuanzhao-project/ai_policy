@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11191225289177516847,
+    "entity": "individual",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4242396625528937375,
+        "start": 12540,
+        "end": 12541,
+        "text": "an",
+        "chunk_id": 10694282131043084918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3798204279182902000,
+        "start": 12540,
+        "end": 12541,
+        "text": "an",
+        "chunk_id": 10694282131043084918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1834780773367930480,
+        "start": 12541,
+        "end": 12542,
+        "text": "individual",
+        "chunk_id": 10694282131043084918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4006862290759405827,
+        "start": 12542,
+        "end": 12543,
+        "text": "individual",
+        "chunk_id": 10694282131043084918
+      }
+    ]
+  },
+  {
+    "candidate_id": 15772228386640407942,
+    "entity": "social security number",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "completely prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 4983868764746470185,
+        "start": 12629,
+        "end": 12639,
+        "text": "social security number",
+        "chunk_id": 10694282131043084918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5076805701070462631,
+        "start": 12629,
+        "end": 12639,
+        "text": "social security number",
+        "chunk_id": 10694282131043084918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11450513721401414190,
+        "start": 12640,
+        "end": 12641,
+        "text": "or",
+        "chunk_id": 10694282131043084918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9560313306545321224,
+        "start": 12641,
+        "end": 12642,
+        "text": "or",
+        "chunk_id": 10694282131043084918
+      }
+    ]
+  }
+]

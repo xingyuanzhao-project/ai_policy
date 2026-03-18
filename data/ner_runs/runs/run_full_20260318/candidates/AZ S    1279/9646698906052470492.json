@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7276752111025643026,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 3921262507296196303,
+        "start": 15409,
+        "end": 15427,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 9646698906052470492
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12069306536645177642,
+        "start": 15409,
+        "end": 15427,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 9646698906052470492
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4420548451090888171,
+        "start": 15409,
+        "end": 15427,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 9646698906052470492
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 255197398705118254,
+        "start": 15409,
+        "end": 15427,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 9646698906052470492
+      }
+    ]
+  },
+  {
+    "candidate_id": 5275449576751388080,
+    "entity": "department of public safety",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16566508629765944885,
+        "start": 15488,
+        "end": 15505,
+        "text": "department of public safety",
+        "chunk_id": 9646698906052470492
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2089886207928108459,
+        "start": 15488,
+        "end": 15505,
+        "text": "department of public safety",
+        "chunk_id": 9646698906052470492
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7906508213351515143,
+        "start": 15488,
+        "end": 15505,
+        "text": "department of public safety",
+        "chunk_id": 9646698906052470492
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9508656461606755348,
+        "start": 15488,
+        "end": 15505,
+        "text": "department of public safety",
+        "chunk_id": 9646698906052470492
+      }
+    ]
+  }
+]

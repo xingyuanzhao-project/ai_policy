@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14506808881685194020,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "20-day notification",
+    "entity_evidence": [
+      {
+        "span_id": 16519122044419344150,
+        "start": 1112213,
+        "end": 1112234,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 16908858833178444240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2893962925834844739,
+        "start": 1112213,
+        "end": 1112234,
+        "text": "government agency",
+        "chunk_id": 16908858833178444240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4439294868619937333,
+        "start": 1112213,
+        "end": 1112234,
+        "text": "restriction",
+        "chunk_id": 16908858833178444240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15439783018062295538,
+        "start": 1112213,
+        "end": 1112234,
+        "text": "20-day notification",
+        "chunk_id": 16908858833178444240
+      }
+    ]
+  },
+  {
+    "candidate_id": 9236024529810471798,
+    "entity": "Legislature",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "20-day",
+    "entity_evidence": [
+      {
+        "span_id": 8399817117855479194,
+        "start": 1112313,
+        "end": 1112323,
+        "text": "Legislature",
+        "chunk_id": 16908858833178444240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6121792182400726993,
+        "start": 1112313,
+        "end": 1112323,
+        "text": "government agency",
+        "chunk_id": 16908858833178444240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1385872203244540219,
+        "start": 1112313,
+        "end": 1112323,
+        "text": "notification",
+        "chunk_id": 16908858833178444240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2752645708654038997,
+        "start": 1112313,
+        "end": 1112323,
+        "text": "20-day",
+        "chunk_id": 16908858833178444240
+      }
+    ]
+  }
+]

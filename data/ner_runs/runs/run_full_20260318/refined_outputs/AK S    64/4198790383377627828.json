@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2805590429488932633,
+    "source_group_id": 4198790383377627828,
+    "source_candidate_ids": [
+      8937801633470158049
+    ],
+    "entity": "election board",
+    "type": "government agency",
+    "attribute": "prescription",
+    "value": "manner",
+    "entity_evidence": [
+      {
+        "span_id": 16357054943387043675,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8761331880768574474,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17698954520216624770,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11106501868750857425,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ]
+  }
+]

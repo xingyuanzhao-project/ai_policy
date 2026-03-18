@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7316358409396998564,
+    "source_group_id": 12875066598468754669,
+    "source_candidate_ids": [
+      15868528816274949597
+    ],
+    "entity": "High-Speed Rail Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 16462711644279676725,
+        "start": 320985,
+        "end": 321005,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 12031147930205617320
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12587774681299415482,
+        "start": 320985,
+        "end": 321005,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 12031147930205617320
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16787320783240509055,
+        "start": 320985,
+        "end": 321005,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 12031147930205617320
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8281094217175280620,
+        "start": 320985,
+        "end": 321005,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 12031147930205617320
+      }
+    ]
+  }
+]

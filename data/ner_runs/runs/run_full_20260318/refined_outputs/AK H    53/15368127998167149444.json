@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11438992923852825317,
+    "source_group_id": 15368127998167149444,
+    "source_candidate_ids": [
+      1908482224492039544
+    ],
+    "entity": "Department of Transportation and Public Facilities",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 8621500575002193115,
+        "start": 47008,
+        "end": 47035,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 15009962599727688313
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3271933984381079765,
+        "start": 47008,
+        "end": 47035,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 15009962599727688313
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10634338824463297270,
+        "start": 47008,
+        "end": 47035,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 15009962599727688313
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7763574735211151215,
+        "start": 47008,
+        "end": 47035,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 15009962599727688313
+      }
+    ]
+  }
+]

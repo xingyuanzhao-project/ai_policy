@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 11556962918860139975,
+    "source_group_id": 1226996942405881466,
+    "source_candidate_ids": [
+      11332090361739157121,
+      482591219056293358
+    ],
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "eligibility",
+    "entity_evidence": [
+      {
+        "span_id": 6895442123639869258,
+        "start": 10074,
+        "end": 10097,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 6033438271987721323
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15914733589921518804,
+        "start": 10074,
+        "end": 10097,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 6033438271987721323
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8041520939016226895,
+        "start": 10074,
+        "end": 10097,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 6033438271987721323
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14265894323183010804,
+        "start": 10074,
+        "end": 10097,
+        "text": "The Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 6033438271987721323
+      }
+    ]
+  }
+]

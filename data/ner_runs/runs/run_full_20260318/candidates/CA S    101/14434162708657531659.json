@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3353828944582306080,
+    "entity": "Umoja program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 6447166569382916300,
+        "start": 1306913,
+        "end": 1306923,
+        "text": "Umoja program",
+        "chunk_id": 14434162708657531659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3711290781406246512,
+        "start": 1306913,
+        "end": 1306923,
+        "text": "Umoja program",
+        "chunk_id": 14434162708657531659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 536879575649998532,
+        "start": 1306913,
+        "end": 1306923,
+        "text": "Umoja program",
+        "chunk_id": 14434162708657531659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10273383672538805127,
+        "start": 1306913,
+        "end": 1306923,
+        "text": "Umoja program",
+        "chunk_id": 14434162708657531659
+      }
+    ]
+  },
+  {
+    "candidate_id": 3512272079643204316,
+    "entity": "Veteran Resource Centers",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 2639856411532360409,
+        "start": 1307213,
+        "end": 1307228,
+        "text": "Veteran Resource Centers",
+        "chunk_id": 14434162708657531659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15804572727018712420,
+        "start": 1307213,
+        "end": 1307228,
+        "text": "Veteran Resource Centers",
+        "chunk_id": 14434162708657531659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15815959801650949143,
+        "start": 1307213,
+        "end": 1307228,
+        "text": "Veteran Resource Centers",
+        "chunk_id": 14434162708657531659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12799467437319476566,
+        "start": 1307213,
+        "end": 1307228,
+        "text": "Veteran Resource Centers",
+        "chunk_id": 14434162708657531659
+      }
+    ]
+  }
+]

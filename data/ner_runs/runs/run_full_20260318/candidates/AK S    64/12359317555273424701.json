@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4917349968801193692,
+    "entity": "commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "six years",
+    "entity_evidence": [
+      {
+        "span_id": 1548561269332685150,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 48822545456504744,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 589555116473892144,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3228592756928546251,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ]
+  },
+  {
+    "candidate_id": 10548633010077400887,
+    "entity": "department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "permanent fund dividend",
+    "entity_evidence": [
+      {
+        "span_id": 10693768519769542512,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11760174020876857062,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17062710083061295303,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9659173584843441078,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ]
+  }
+]

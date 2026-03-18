@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6043175891503906251,
+    "entity": "California Community College Strong Workforce Program",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "strong workforce",
+    "entity_evidence": [
+      {
+        "span_id": 15758408670790364074,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "California Community College Strong Workforce Program",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15179652080274335771,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "technology",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3864739807610976096,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "promotion",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12633580107158768359,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "strong workforce",
+        "chunk_id": 16178646357819491899
+      }
+    ]
+  },
+  {
+    "candidate_id": 1804594746467195853,
+    "entity": "Part-Time Faculty Health Insurance",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "unexpected balance",
+    "entity_evidence": [
+      {
+        "span_id": 1036227140003670349,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "Part-Time Faculty Health Insurance",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 651080518191529080,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "infrastructure",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9050480987216977932,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "restriction",
+        "chunk_id": 16178646357819491899
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2483599220047517232,
+        "start": 1451920,
+        "end": 1451954,
+        "text": "unexpected balance",
+        "chunk_id": 16178646357819491899
+      }
+    ]
+  }
+]

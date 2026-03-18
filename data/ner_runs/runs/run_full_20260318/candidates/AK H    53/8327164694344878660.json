@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15427114688482387873,
+    "entity": "Department of Administration",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "594,600",
+    "entity_evidence": [
+      {
+        "span_id": 5884563028746330137,
+        "start": 59965,
+        "end": 59984,
+        "text": "Department of Administration",
+        "chunk_id": 8327164694344878660
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11474342072735055533,
+        "start": 59985,
+        "end": 60000,
+        "text": "government agency",
+        "chunk_id": 8327164694344878660
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8744189598589644692,
+        "start": 60001,
+        "end": 60008,
+        "text": "funding",
+        "chunk_id": 8327164694344878660
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2988060199435171706,
+        "start": 60009,
+        "end": 60014,
+        "text": "594,600",
+        "chunk_id": 8327164694344878660
+      }
+    ]
+  },
+  {
+    "candidate_id": 13131006666482880151,
+    "entity": "Department of Commerce, Community and Economic Development",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "42,563,700",
+    "entity_evidence": [
+      {
+        "span_id": 14138938705529770124,
+        "start": 59965,
+        "end": 60009,
+        "text": "Department of Commerce, Community and Economic Development",
+        "chunk_id": 8327164694344878660
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11755239564475829277,
+        "start": 60010,
+        "end": 60032,
+        "text": "government agency",
+        "chunk_id": 8327164694344878660
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3530087405451575695,
+        "start": 60033,
+        "end": 60040,
+        "text": "funding",
+        "chunk_id": 8327164694344878660
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10810118311106107421,
+        "start": 60041,
+        "end": 60056,
+        "text": "42,563,700",
+        "chunk_id": 8327164694344878660
+      }
+    ]
+  }
+]

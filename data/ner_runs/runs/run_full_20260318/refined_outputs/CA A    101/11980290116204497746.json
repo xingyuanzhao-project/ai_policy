@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15048683184137021978,
+    "source_group_id": 11980290116204497746,
+    "source_candidate_ids": [
+      9679198095077069205
+    ],
+    "entity": "campuses",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 2671816910806351523,
+        "start": 1321498,
+        "end": 1321504,
+        "text": "campuses",
+        "chunk_id": 13085096771424207194
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 105744279151758446,
+        "start": 1321498,
+        "end": 1321504,
+        "text": "campuses",
+        "chunk_id": 13085096771424207194
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15868990957639227911,
+        "start": 1321498,
+        "end": 1321504,
+        "text": "campuses",
+        "chunk_id": 13085096771424207194
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8460823060651119829,
+        "start": 1321498,
+        "end": 1321504,
+        "text": "campuses",
+        "chunk_id": 13085096771424207194
+      }
+    ]
+  }
+]

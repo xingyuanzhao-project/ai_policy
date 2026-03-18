@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11195915513943708884,
+    "entity": "processor",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4677591768354266473,
+        "start": 27829,
+        "end": 27835,
+        "text": "processor",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12482878808613194212,
+        "start": 27829,
+        "end": 27837,
+        "text": "processor",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 743757163332944241,
+        "start": 27837,
+        "end": 27847,
+        "text": "adhere to the instructions",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12486924138012510154,
+        "start": 27847,
+        "end": 27859,
+        "text": "as much as reasonably practicable",
+        "chunk_id": 7322324940008856737
+      }
+    ]
+  },
+  {
+    "candidate_id": 11373968834230037238,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 11060802046191433562,
+        "start": 27718,
+        "end": 27726,
+        "text": "controller",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12208622910488680260,
+        "start": 27718,
+        "end": 27728,
+        "text": "controller",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17270467494479551803,
+        "start": 27728,
+        "end": 27738,
+        "text": "meet the controller's obligations",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14104345924772611615,
+        "start": 27738,
+        "end": 27748,
+        "text": "as much as reasonably practicable",
+        "chunk_id": 7322324940008856737
+      }
+    ]
+  }
+]

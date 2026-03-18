@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16057976962193135880,
+    "entity": "Common Core State Standards Initiative",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "after April 1, 2013",
+    "entity_evidence": [
+      {
+        "span_id": 6322792534882761068,
+        "start": 80900,
+        "end": 80916,
+        "text": "The funds appropriated above shall not be used to implement standards, programs or student assessments created by the Common Core State Standards Initiative after April 1, 2013.",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11555283491114453473,
+        "start": 80900,
+        "end": 80916,
+        "text": "The funds appropriated above shall not be used to implement standards, programs or student assessments created by the Common Core State Standards Initiative after April 1, 2013.",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7659206511194169256,
+        "start": 80900,
+        "end": 80916,
+        "text": "The funds appropriated above shall not be used to implement standards, programs or student assessments created by the Common Core State Standards Initiative after April 1, 2013.",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4968959500318449626,
+        "start": 80900,
+        "end": 80916,
+        "text": "The funds appropriated above shall not be used to implement standards, programs or student assessments created by the Common Core State Standards Initiative after April 1, 2013.",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  },
+  {
+    "candidate_id": 9244887282957729398,
+    "entity": "Educational Television Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology",
+    "entity_evidence": [
+      {
+        "span_id": 12140721959717358474,
+        "start": 81069,
+        "end": 81086,
+        "text": "The above appropriation is made with encouragement that it only be used for programming that is unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology.",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10460567823624358221,
+        "start": 81069,
+        "end": 81086,
+        "text": "The above appropriation is made with encouragement that it only be used for programming that is unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology.",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8103617475188213989,
+        "start": 81069,
+        "end": 81086,
+        "text": "The above appropriation is made with encouragement that it only be used for programming that is unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology.",
+        "chunk_id": 12685457571409080303
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11355300415787855963,
+        "start": 81069,
+        "end": 81086,
+        "text": "The above appropriation is made with encouragement that it only be used for programming that is unbiased, appropriate for the audiences to which it is targeted, and fails to promote specific political or social ideology.",
+        "chunk_id": 12685457571409080303
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1843301884796354616,
+    "entity": "Department of Industrial Relations",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 17095083123672648002,
+        "start": 1407739,
+        "end": 1407763,
+        "text": "For support of Department of Industrial Relations",
+        "chunk_id": 17838736156586629254
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14999780756791275697,
+        "start": 1407739,
+        "end": 1407763,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 17838736156586629254
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3977046512263504828,
+        "start": 1407739,
+        "end": 1407763,
+        "text": "support",
+        "chunk_id": 17838736156586629254
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9595556311985270482,
+        "start": 1407739,
+        "end": 1407763,
+        "text": "support",
+        "chunk_id": 17838736156586629254
+      }
+    ]
+  },
+  {
+    "candidate_id": 16587418796794305028,
+    "entity": "Division of Labor Standards Enforcement",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 5931743393635230088,
+        "start": 1407739,
+        "end": 1407773,
+        "text": "Division of Labor Standards Enforcement",
+        "chunk_id": 17838736156586629254
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3558327807630137521,
+        "start": 1407739,
+        "end": 1407773,
+        "text": "Division of Labor Standards Enforcement",
+        "chunk_id": 17838736156586629254
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6067693617500976928,
+        "start": 1407739,
+        "end": 1407773,
+        "text": "support",
+        "chunk_id": 17838736156586629254
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14526962442414912104,
+        "start": 1407739,
+        "end": 1407773,
+        "text": "support",
+        "chunk_id": 17838736156586629254
+      }
+    ]
+  }
+]

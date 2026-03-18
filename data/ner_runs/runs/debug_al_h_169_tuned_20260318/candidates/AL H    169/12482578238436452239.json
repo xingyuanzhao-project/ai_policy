@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4892431238671560575,
+    "entity": "Alabama Community College System Board of Trustees",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "inclusive",
+    "entity_evidence": [
+      {
+        "span_id": 1626226573784603749,
+        "start": 7776,
+        "end": 7802,
+        "text": "8. Community College System Board of Trustees, Alabama :",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2999040239919356926,
+        "start": 7776,
+        "end": 7802,
+        "text": "8. Community College System Board of Trustees, Alabama :",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13427304705933899461,
+        "start": 7902,
+        "end": 7908,
+        "text": "inclusive",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11174244894270049184,
+        "start": 7902,
+        "end": 7908,
+        "text": "inclusive",
+        "chunk_id": 12482578238436452239
+      }
+    ]
+  },
+  {
+    "candidate_id": 5132348481512874711,
+    "entity": "Alabama Department of Commerce",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "semi-annually",
+    "entity_evidence": [
+      {
+        "span_id": 16417077836764919995,
+        "start": 7891,
+        "end": 7909,
+        "text": "The Secretary of the Department of Commerce",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5977691453847960988,
+        "start": 7891,
+        "end": 7909,
+        "text": "The Secretary of the Department of Commerce",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 735813377308025711,
+        "start": 7913,
+        "end": 7919,
+        "text": "reporting",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12814581101820505782,
+        "start": 7913,
+        "end": 7919,
+        "text": "reporting",
+        "chunk_id": 12482578238436452239
+      }
+    ]
+  }
+]

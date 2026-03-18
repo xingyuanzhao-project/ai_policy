@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12299835457817952331,
+    "source_group_id": 4534221728916478739,
+    "source_candidate_ids": [
+      12361082905863125896
+    ],
+    "entity": "State Air Resources Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent with the commercial harbor craft regulation",
+    "entity_evidence": [
+      {
+        "span_id": 9721734526486388385,
+        "start": 692086,
+        "end": 692106,
+        "text": "State Air Resources Board",
+        "chunk_id": 16063165610667093875
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12954647248031189842,
+        "start": 692086,
+        "end": 692106,
+        "text": "State Air Resources Board",
+        "chunk_id": 16063165610667093875
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2300930138989700278,
+        "start": 692086,
+        "end": 692106,
+        "text": "State Air Resources Board",
+        "chunk_id": 16063165610667093875
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8997425240140358849,
+        "start": 692086,
+        "end": 692106,
+        "text": "State Air Resources Board",
+        "chunk_id": 16063165610667093875
+      }
+    ]
+  }
+]

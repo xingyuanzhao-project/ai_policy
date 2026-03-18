@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13242684570082132098,
+    "source_group_id": 11333459525320566966,
+    "source_candidate_ids": [
+      12266950627876502227
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notification",
+    "entity_evidence": [
+      {
+        "span_id": 1966250655500134648,
+        "start": 763861,
+        "end": 763873,
+        "text": "Department of Finance",
+        "chunk_id": 4039170637676176385
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5865163449576465053,
+        "start": 763861,
+        "end": 763873,
+        "text": "Department of Finance",
+        "chunk_id": 4039170637676176385
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7113470093403305806,
+        "start": 763831,
+        "end": 763841,
+        "text": "notify the Legislature",
+        "chunk_id": 4039170637676176385
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 520193868503866724,
+        "start": 763831,
+        "end": 763841,
+        "text": "notify the Legislature",
+        "chunk_id": 4039170637676176385
+      }
+    ]
+  }
+]

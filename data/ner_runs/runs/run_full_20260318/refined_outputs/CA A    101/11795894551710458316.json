@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11678276709292094526,
+    "source_group_id": 11795894551710458316,
+    "source_candidate_ids": [
+      941192451387904921
+    ],
+    "entity": "Teacher Credentials Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "Teacher Credentials Fund",
+    "entity_evidence": [
+      {
+        "span_id": 4218809247352265671,
+        "start": 1304827,
+        "end": 1304846,
+        "text": "Teacher Credentials Fund",
+        "chunk_id": 15038257391627127752
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1203456528964656868,
+        "start": 1304827,
+        "end": 1304846,
+        "text": "Teacher Credentials Fund",
+        "chunk_id": 15038257391627127752
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3983950189584601151,
+        "start": 1304827,
+        "end": 1304846,
+        "text": "Teacher Credentials Fund",
+        "chunk_id": 15038257391627127752
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17161036293437613531,
+        "start": 1304827,
+        "end": 1304846,
+        "text": "Teacher Credentials Fund",
+        "chunk_id": 15038257391627127752
+      }
+    ]
+  }
+]

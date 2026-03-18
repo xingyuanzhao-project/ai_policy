@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8831191930068575784,
+    "entity": "California Senior Legislature",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 15189590632381394269,
+        "start": 740222,
+        "end": 740246,
+        "text": "For support of California Senior Legislature",
+        "chunk_id": 11244818272902701533
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 807670181099794474,
+        "start": 740222,
+        "end": 740246,
+        "text": "For support of California Senior Legislature",
+        "chunk_id": 11244818272902701533
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5359377537727311602,
+        "start": 740222,
+        "end": 740246,
+        "text": "For support of California Senior Legislature",
+        "chunk_id": 11244818272902701533
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17691911901090113713,
+        "start": 740222,
+        "end": 740246,
+        "text": "For support of California Senior Legislature",
+        "chunk_id": 11244818272902701533
+      }
+    ]
+  },
+  {
+    "candidate_id": 4048028722635693039,
+    "entity": "California Senior Citizen Advocacy Voluntary Tax Contribution Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 6438349152255490888,
+        "start": 740240,
+        "end": 740265,
+        "text": "California Senior Citizen Advocacy Voluntary Tax Contribution Fund",
+        "chunk_id": 11244818272902701533
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18437501104208668163,
+        "start": 740240,
+        "end": 740265,
+        "text": "California Senior Citizen Advocacy Voluntary Tax Contribution Fund",
+        "chunk_id": 11244818272902701533
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15346006363869697769,
+        "start": 740240,
+        "end": 740265,
+        "text": "California Senior Citizen Advocacy Voluntary Tax Contribution Fund",
+        "chunk_id": 11244818272902701533
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4685391232175605049,
+        "start": 740240,
+        "end": 740265,
+        "text": "California Senior Citizen Advocacy Voluntary Tax Contribution Fund",
+        "chunk_id": 11244818272902701533
+      }
+    ]
+  }
+]

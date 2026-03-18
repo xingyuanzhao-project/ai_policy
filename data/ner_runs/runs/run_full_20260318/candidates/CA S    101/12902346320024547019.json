@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15492293118742794862,
+    "entity": "statewide software license agreement",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "prior approval by the Legislature",
+    "entity_evidence": [
+      {
+        "span_id": 11240605725627509515,
+        "start": 1698312,
+        "end": 1698336,
+        "text": "statewide software license agreement",
+        "chunk_id": 12902346320024547019
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6756703756476664208,
+        "start": 1698312,
+        "end": 1698336,
+        "text": "technology",
+        "chunk_id": 12902346320024547019
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 798363734264988775,
+        "start": 1698312,
+        "end": 1698336,
+        "text": "restriction",
+        "chunk_id": 12902346320024547019
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1151894707338247873,
+        "start": 1698312,
+        "end": 1698336,
+        "text": "prior approval by the Legislature",
+        "chunk_id": 12902346320024547019
+      }
+    ]
+  },
+  {
+    "candidate_id": 2005147613332034876,
+    "entity": "department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval by the Director of Finance",
+    "entity_evidence": [
+      {
+        "span_id": 7050149002868615072,
+        "start": 1698312,
+        "end": 1698320,
+        "text": "department",
+        "chunk_id": 12902346320024547019
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13975153751958376959,
+        "start": 1698312,
+        "end": 1698320,
+        "text": "government agency",
+        "chunk_id": 12902346320024547019
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7079433644400381722,
+        "start": 1698312,
+        "end": 1698320,
+        "text": "restriction",
+        "chunk_id": 12902346320024547019
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12989046198580317217,
+        "start": 1698312,
+        "end": 1698320,
+        "text": "prior approval by the Director of Finance",
+        "chunk_id": 12902346320024547019
+      }
+    ]
+  }
+]

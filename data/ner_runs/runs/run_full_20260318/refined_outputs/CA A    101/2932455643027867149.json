@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10795576921175888604,
+    "source_group_id": 2932455643027867149,
+    "source_candidate_ids": [
+      8526613602202944776
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of $200,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 18278551424375873454,
+        "start": 1708691,
+        "end": 1708713,
+        "text": "allocation by the Department of Finance to the trustee of the Golden State Tobacco Securitization Corporation",
+        "chunk_id": 13711362766326702820
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6920859412884526956,
+        "start": 1708691,
+        "end": 1708713,
+        "text": "allocation by the Department of Finance to the trustee of the Golden State Tobacco Securitization Corporation",
+        "chunk_id": 13711362766326702820
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2188993272259941375,
+        "start": 1708691,
+        "end": 1708713,
+        "text": "allocation by the Department of Finance to the trustee of the Golden State Tobacco Securitization Corporation",
+        "chunk_id": 13711362766326702820
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9378300216150528921,
+        "start": 1708691,
+        "end": 1708713,
+        "text": "allocation by the Department of Finance to the trustee of the Golden State Tobacco Securitization Corporation",
+        "chunk_id": 13711362766326702820
+      }
+    ]
+  }
+]

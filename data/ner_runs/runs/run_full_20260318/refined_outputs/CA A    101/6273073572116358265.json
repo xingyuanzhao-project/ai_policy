@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6536424493300006788,
+    "source_group_id": 6273073572116358265,
+    "source_candidate_ids": [
+      6402831489400460717
+    ],
+    "entity": "community colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 7615769738254519625,
+        "start": 1408573,
+        "end": 1408588,
+        "text": "community colleges",
+        "chunk_id": 11445989138629416854
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7384051576421371199,
+        "start": 1408573,
+        "end": 1408588,
+        "text": "government agency",
+        "chunk_id": 11445989138629416854
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5490840919081187092,
+        "start": 1408573,
+        "end": 1408580,
+        "text": "promotion",
+        "chunk_id": 11445989138629416854
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9931235910951763183,
+        "start": 1408573,
+        "end": 1408579,
+        "text": "support",
+        "chunk_id": 11445989138629416854
+      }
+    ]
+  }
+]

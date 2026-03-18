@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10753991787895219244,
+    "source_group_id": 9767456481108163302,
+    "source_candidate_ids": [
+      1000248110825465514
+    ],
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "lease-revenue bond base rental payments",
+    "entity_evidence": [
+      {
+        "span_id": 1241057197028176884,
+        "start": 828126,
+        "end": 828141,
+        "text": "State Department of Public Health",
+        "chunk_id": 15141398746215311936
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 462317490071749627,
+        "start": 828126,
+        "end": 828141,
+        "text": "State Department of Public Health",
+        "chunk_id": 15141398746215311936
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17788471361005808874,
+        "start": 828048,
+        "end": 828071,
+        "text": "lease-revenue bond base rental payments",
+        "chunk_id": 15141398746215311936
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6205660629554987901,
+        "start": 828048,
+        "end": 828071,
+        "text": "lease-revenue bond base rental payments",
+        "chunk_id": 15141398746215311936
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7525840651116208238,
+    "source_group_id": 3843026610149411538,
+    "source_candidate_ids": [
+      3957738541241700432
+    ],
+    "entity": "Geologic Energy Management Division",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "pursuant to paragraph (2) of subdivision (a) of Section 3258 of the Public Resources Code",
+    "entity_evidence": [
+      {
+        "span_id": 14113017874174420991,
+        "start": 493856,
+        "end": 493876,
+        "text": "Geologic Energy Management Division",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 723488204095243913,
+        "start": 493856,
+        "end": 493876,
+        "text": "Geologic Energy Management Division",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17005011331364789289,
+        "start": 493856,
+        "end": 493876,
+        "text": "pursuant to paragraph (2) of subdivision (a) of Section 3258 of the Public Resources Code",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9796477765990959033,
+        "start": 493856,
+        "end": 493876,
+        "text": "pursuant to paragraph (2) of subdivision (a) of Section 3258 of the Public Resources Code",
+        "chunk_id": 10664844072438020980
+      }
+    ]
+  }
+]

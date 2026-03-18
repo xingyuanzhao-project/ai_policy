@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11508732713242879409,
+    "entity": "California Beverage Container Recycling Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 15851699599841098146,
+        "start": 779198,
+        "end": 779218,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 894656400746977329
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10138086015046441066,
+        "start": 779198,
+        "end": 779218,
+        "text": "infrastructure",
+        "chunk_id": 894656400746977329
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2331604134342956604,
+        "start": 779175,
+        "end": 779175,
+        "text": "restriction",
+        "chunk_id": 894656400746977329
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17440938842231321799,
+        "start": 779175,
+        "end": 779175,
+        "text": "until June 30, 2027",
+        "chunk_id": 894656400746977329
+      }
+    ]
+  },
+  {
+    "candidate_id": 9044787347198209794,
+    "entity": "Office of Environmental Health Hazard Assessment",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "12,605,000",
+    "entity_evidence": [
+      {
+        "span_id": 16303091126559056450,
+        "start": 779175,
+        "end": 779175,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 894656400746977329
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11369976336890772889,
+        "start": 779175,
+        "end": 779175,
+        "text": "government agency",
+        "chunk_id": 894656400746977329
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7922891059532259328,
+        "start": 779175,
+        "end": 779175,
+        "text": "promotion",
+        "chunk_id": 894656400746977329
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16524208897946223001,
+        "start": 779175,
+        "end": 779175,
+        "text": "12,605,000",
+        "chunk_id": 894656400746977329
+      }
+    ]
+  }
+]

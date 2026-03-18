@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2875340456572983841,
+    "source_group_id": 749918513679528969,
+    "source_candidate_ids": [
+      18384655864843223375
+    ],
+    "entity": "Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15867915882463813,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6149192007247638682,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14246546715232097039,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11585859354595312315,
+        "start": 1039867,
+        "end": 1039891,
+        "text": "Department of Social Services",
+        "chunk_id": 6093727880652387231
+      }
+    ]
+  }
+]

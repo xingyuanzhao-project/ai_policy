@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11887871727538604228,
+    "source_group_id": 7186542328934662697,
+    "source_candidate_ids": [
+      7085185987780200074
+    ],
+    "entity": "Regents of the University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "use a market reference zone that includes state employees",
+    "entity_evidence": [
+      {
+        "span_id": 10219340605327906066,
+        "start": 1313726,
+        "end": 1313752,
+        "text": "The Regents of the University of California",
+        "chunk_id": 13127680296690333249
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1408391647352826600,
+        "start": 1313726,
+        "end": 1313752,
+        "text": "The Regents of the University of California",
+        "chunk_id": 13127680296690333249
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14469049541641117532,
+        "start": 1313753,
+        "end": 1313771,
+        "text": "use a market reference zone that includes state employees",
+        "chunk_id": 13127680296690333249
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13992998451631740430,
+        "start": 1313753,
+        "end": 1313771,
+        "text": "use a market reference zone that includes state employees",
+        "chunk_id": 13127680296690333249
+      }
+    ]
+  }
+]

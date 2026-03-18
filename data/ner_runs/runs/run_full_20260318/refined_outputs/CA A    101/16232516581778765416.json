@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8455047683445517181,
+    "source_group_id": 16232516581778765416,
+    "source_candidate_ids": [
+      3708106080474352867
+    ],
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior consultation",
+    "entity_evidence": [
+      {
+        "span_id": 6311000952741112534,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13596752648338236414,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11265600401244085787,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18357562702374492442,
+        "start": 313200,
+        "end": 313220,
+        "text": "the California Transportation Commission",
+        "chunk_id": 10306996456397304209
+      }
+    ]
+  }
+]

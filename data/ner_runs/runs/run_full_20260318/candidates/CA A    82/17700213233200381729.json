@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12045965232694025412,
+    "entity": "public entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "protection services",
+    "entity_evidence": [
+      {
+        "span_id": 11946513654797434339,
+        "start": 4617,
+        "end": 4623,
+        "text": "public entity",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14596769279618007275,
+        "start": 4617,
+        "end": 4623,
+        "text": "public entity",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10375348522351891884,
+        "start": 4623,
+        "end": 4629,
+        "text": "exposes them to violent threats",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11081020299562657292,
+        "start": 4629,
+        "end": 4637,
+        "text": "violent threats",
+        "chunk_id": 17700213233200381729
+      }
+    ]
+  },
+  {
+    "candidate_id": 14325662055065497528,
+    "entity": "designated health care services provider",
+    "type": "individual",
+    "attribute": "protection",
+    "value": "gender-affirming health care services",
+    "entity_evidence": [
+      {
+        "span_id": 5102205820907911834,
+        "start": 4706,
+        "end": 4726,
+        "text": "designated health care services provider",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6326031612040105481,
+        "start": 4706,
+        "end": 4726,
+        "text": "designated health care services provider",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6461651101680885280,
+        "start": 4726,
+        "end": 4736,
+        "text": "gender-affirming health care services",
+        "chunk_id": 17700213233200381729
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10602020547648783906,
+        "start": 4736,
+        "end": 4756,
+        "text": "gender-affirming health care services",
+        "chunk_id": 17700213233200381729
+      }
+    ]
+  }
+]

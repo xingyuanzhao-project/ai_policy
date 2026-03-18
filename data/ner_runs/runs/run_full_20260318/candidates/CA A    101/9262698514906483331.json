@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12862802368293620901,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 10401744016682905476,
+        "start": 887609,
+        "end": 887629,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 9262698514906483331
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13444024517443610352,
+        "start": 887609,
+        "end": 887629,
+        "text": "government agency",
+        "chunk_id": 9262698514906483331
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10250332226230832608,
+        "start": 887629,
+        "end": 887639,
+        "text": "restriction",
+        "chunk_id": 9262698514906483331
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13014900475914617505,
+        "start": 887639,
+        "end": 887650,
+        "text": "until June 30, 2026",
+        "chunk_id": 9262698514906483331
+      }
+    ]
+  },
+  {
+    "candidate_id": 8753553593100418396,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until September 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 1032279388784612072,
+        "start": 887729,
+        "end": 887749,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 9262698514906483331
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11147436095872842240,
+        "start": 887729,
+        "end": 887749,
+        "text": "government agency",
+        "chunk_id": 9262698514906483331
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1747185009111921052,
+        "start": 887749,
+        "end": 887759,
+        "text": "restriction",
+        "chunk_id": 9262698514906483331
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12412831792356325831,
+        "start": 887759,
+        "end": 887770,
+        "text": "until September 30, 2025",
+        "chunk_id": 9262698514906483331
+      }
+    ]
+  }
+]

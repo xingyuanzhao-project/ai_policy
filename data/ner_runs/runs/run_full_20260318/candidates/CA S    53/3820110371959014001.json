@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13168634378237132748,
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "annual assessment",
+    "entity_evidence": [
+      {
+        "span_id": 4807089383041448464,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17356487623461734696,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15297675690529311109,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1682239862329748928,
+        "start": 19789,
+        "end": 19809,
+        "text": "the Department of Technology",
+        "chunk_id": 3820110371959014001
+      }
+    ]
+  },
+  {
+    "candidate_id": 15488336662796484148,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "revocation",
+    "value": "immediate",
+    "entity_evidence": [
+      {
+        "span_id": 14237896577651068941,
+        "start": 19911,
+        "end": 19931,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15727133394737019556,
+        "start": 19911,
+        "end": 19931,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13145805773230042824,
+        "start": 19911,
+        "end": 19931,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 3820110371959014001
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17690619726994913626,
+        "start": 19911,
+        "end": 19931,
+        "text": "The Office of Emergency Services",
+        "chunk_id": 3820110371959014001
+      }
+    ]
+  }
+]

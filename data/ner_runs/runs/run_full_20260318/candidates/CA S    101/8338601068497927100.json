@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17925460380288049637,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual report",
+    "entity_evidence": [
+      {
+        "span_id": 1806693733520404227,
+        "start": 663092,
+        "end": 663112,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 8338601068497927100
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17893313052203316981,
+        "start": 663092,
+        "end": 663112,
+        "text": "government agency",
+        "chunk_id": 8338601068497927100
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2743118922310301174,
+        "start": 662696,
+        "end": 662696,
+        "text": "restriction",
+        "chunk_id": 8338601068497927100
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6468281533423244297,
+        "start": 662696,
+        "end": 662696,
+        "text": "annual report",
+        "chunk_id": 8338601068497927100
+      }
+    ]
+  },
+  {
+    "candidate_id": 8773182044065101414,
+    "entity": "Exide Technologies",
+    "type": "individual/company",
+    "attribute": "prohibition",
+    "value": "lead contamination",
+    "entity_evidence": [
+      {
+        "span_id": 13481957100741400006,
+        "start": 664041,
+        "end": 664051,
+        "text": "Exide Technologies",
+        "chunk_id": 8338601068497927100
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15779120656455258548,
+        "start": 664041,
+        "end": 664051,
+        "text": "individual/company",
+        "chunk_id": 8338601068497927100
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1116542427001568713,
+        "start": 662696,
+        "end": 662696,
+        "text": "prohibition",
+        "chunk_id": 8338601068497927100
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14491574451064124471,
+        "start": 662696,
+        "end": 662696,
+        "text": "lead contamination",
+        "chunk_id": 8338601068497927100
+      }
+    ]
+  }
+]

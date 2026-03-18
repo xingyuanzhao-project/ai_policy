@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7319261560940113608,
+    "entity": "public entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specifically developed and marketed",
+    "entity_evidence": [
+      {
+        "span_id": 301098744008375169,
+        "start": 0,
+        "end": 12,
+        "text": "public entity",
+        "chunk_id": 5335011315068003523
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13911052982324904483,
+        "start": 13,
+        "end": 24,
+        "text": "government agency",
+        "chunk_id": 5335011315068003523
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17297616041300340290,
+        "start": 25,
+        "end": 43,
+        "text": "specifically developed and marketed",
+        "chunk_id": 5335011315068003523
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5663157148295861368,
+        "start": 44,
+        "end": 55,
+        "text": "specifically developed and marketed",
+        "chunk_id": 5335011315068003523
+      }
+    ]
+  },
+  {
+    "candidate_id": 6564867897357328525,
+    "entity": "public school district",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specifically developed and marketed",
+    "entity_evidence": [
+      {
+        "span_id": 12958977324981759852,
+        "start": 0,
+        "end": 17,
+        "text": "public school district",
+        "chunk_id": 5335011315068003523
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11759499227772128519,
+        "start": 18,
+        "end": 29,
+        "text": "government agency",
+        "chunk_id": 5335011315068003523
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11329306056357487427,
+        "start": 30,
+        "end": 48,
+        "text": "specifically developed and marketed",
+        "chunk_id": 5335011315068003523
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16052310839403995227,
+        "start": 49,
+        "end": 60,
+        "text": "specifically developed and marketed",
+        "chunk_id": 5335011315068003523
+      }
+    ]
+  }
+]

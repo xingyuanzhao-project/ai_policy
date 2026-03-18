@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18296336936678565142,
+    "source_group_id": 11280113709357917052,
+    "source_candidate_ids": [
+      10987571203380188522
+    ],
+    "entity": "State Department of Developmental Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 240633396361518914,
+        "start": 947490,
+        "end": 947510,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 14965472314249223298
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12097555215732219264,
+        "start": 947490,
+        "end": 947510,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 14965472314249223298
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17662154928303778776,
+        "start": 947490,
+        "end": 947510,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 14965472314249223298
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6093495186022968487,
+        "start": 947490,
+        "end": 947510,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 14965472314249223298
+      }
+    ]
+  }
+]

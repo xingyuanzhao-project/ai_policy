@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13505867551489991708,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "same language, form, and manner",
+    "entity_evidence": [
+      {
+        "span_id": 582083453923000555,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11643105315211543346,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18208413827260342746,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12553431324117991206,
+        "start": 20554,
+        "end": 20564,
+        "text": "same language, form, and manner",
+        "chunk_id": 11169225587618997548
+      }
+    ]
+  },
+  {
+    "candidate_id": 14788225350551356536,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "ninety (90) days",
+    "entity_evidence": [
+      {
+        "span_id": 127320023655305714,
+        "start": 20524,
+        "end": 20534,
+        "text": "covered platform",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5937482319636764324,
+        "start": 20524,
+        "end": 20534,
+        "text": "covered platform",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8964813591596357534,
+        "start": 20524,
+        "end": 20534,
+        "text": "covered platform",
+        "chunk_id": 11169225587618997548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15683681971736330976,
+        "start": 20524,
+        "end": 20534,
+        "text": "covered platform",
+        "chunk_id": 11169225587618997548
+      }
+    ]
+  }
+]

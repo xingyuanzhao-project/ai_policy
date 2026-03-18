@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16359782554419376898,
+    "entity": "California Privacy Protection Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual adjustment for cost-of-living changes",
+    "entity_evidence": [
+      {
+        "span_id": 643715562044869139,
+        "start": 270653,
+        "end": 270653,
+        "text": "California Privacy Protection Agency",
+        "chunk_id": 10935341234413138698
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6981565469147668697,
+        "start": 270653,
+        "end": 270653,
+        "text": "government agency",
+        "chunk_id": 10935341234413138698
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11333856798146052151,
+        "start": 270653,
+        "end": 270653,
+        "text": "restriction",
+        "chunk_id": 10935341234413138698
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15450012205507050991,
+        "start": 270653,
+        "end": 270653,
+        "text": "annual adjustment for cost-of-living changes",
+        "chunk_id": 10935341234413138698
+      }
+    ]
+  },
+  {
+    "candidate_id": 15981646300942075295,
+    "entity": "California Department of Financial Protection and Innovation",
+    "type": "government agency",
+    "attribute": "prohibition",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 1210941627653749585,
+        "start": 270653,
+        "end": 270653,
+        "text": "California Department of Financial Protection and Innovation",
+        "chunk_id": 10935341234413138698
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9331746271291731596,
+        "start": 270653,
+        "end": 270653,
+        "text": "government agency",
+        "chunk_id": 10935341234413138698
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11919432720053877221,
+        "start": 270653,
+        "end": 270653,
+        "text": "prohibition",
+        "chunk_id": 10935341234413138698
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15255652252910362339,
+        "start": 270653,
+        "end": 270653,
+        "text": "none",
+        "chunk_id": 10935341234413138698
+      }
+    ]
+  }
+]

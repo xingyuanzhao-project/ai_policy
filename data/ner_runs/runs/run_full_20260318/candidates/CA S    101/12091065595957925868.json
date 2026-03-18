@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6616786292166277066,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 14755005874918863073,
+        "start": 515650,
+        "end": 515670,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 12091065595957925868
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18154091107202932880,
+        "start": 515650,
+        "end": 515670,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 12091065595957925868
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17991526553052247807,
+        "start": 515650,
+        "end": 515670,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 12091065595957925868
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12392964594468394769,
+        "start": 515650,
+        "end": 515670,
+        "text": "until June 30, 2026",
+        "chunk_id": 12091065595957925868
+      }
+    ]
+  },
+  {
+    "candidate_id": 1550274522739208036,
+    "entity": "Salton Sea Restoration Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "Salton Sea Restoration Fund",
+    "entity_evidence": [
+      {
+        "span_id": 16459392571059160182,
+        "start": 515650,
+        "end": 515670,
+        "text": "Salton Sea Restoration Fund",
+        "chunk_id": 12091065595957925868
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6638449484903579161,
+        "start": 515650,
+        "end": 515670,
+        "text": "infrastructure",
+        "chunk_id": 12091065595957925868
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2858656268037288514,
+        "start": 515650,
+        "end": 515670,
+        "text": "promotion",
+        "chunk_id": 12091065595957925868
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8216738375312903828,
+        "start": 515650,
+        "end": 515670,
+        "text": "Salton Sea Restoration Fund",
+        "chunk_id": 12091065595957925868
+      }
+    ]
+  }
+]

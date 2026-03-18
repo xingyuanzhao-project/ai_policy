@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1576361684335440668,
+    "source_group_id": 764899461877219390,
+    "source_candidate_ids": [
+      17557979564004632978
+    ],
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "Expense Account",
+    "entity_evidence": [
+      {
+        "span_id": 18385993526325728355,
+        "start": 1107748,
+        "end": 1107768,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 11761511925443328820
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8265165031314169981,
+        "start": 1107748,
+        "end": 1107768,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 11761511925443328820
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8174969863658898834,
+        "start": 1107748,
+        "end": 1107768,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 11761511925443328820
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10404390781217449956,
+        "start": 1107748,
+        "end": 1107768,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 11761511925443328820
+      }
+    ]
+  }
+]

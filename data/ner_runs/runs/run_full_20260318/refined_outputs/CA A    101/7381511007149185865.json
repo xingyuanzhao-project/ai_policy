@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7886288317193423019,
+    "source_group_id": 7381511007149185865,
+    "source_candidate_ids": [
+      15304634410614530188
+    ],
+    "entity": "California State Preschool Program (CSPP)",
+    "type": "infrastructure",
+    "attribute": "exemption",
+    "value": "exempt from requirements of Part 2 (commencing with Section 10100) of Division 2 of the Public Contract Code",
+    "entity_evidence": [
+      {
+        "span_id": 15817416739430388113,
+        "start": 1147675,
+        "end": 1147705,
+        "text": "California State Preschool Programs (CSPPs)",
+        "chunk_id": 18111884118852103382
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15132764706528183735,
+        "start": 1147675,
+        "end": 1147705,
+        "text": "infrastructure",
+        "chunk_id": 18111884118852103382
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15883369223569226632,
+        "start": 1147675,
+        "end": 1147705,
+        "text": "exempt from requirements of Part 2 (commencing with Section 10100) of Division 2 of the Public Contract Code",
+        "chunk_id": 18111884118852103382
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1703258516295130485,
+        "start": 1147675,
+        "end": 1147705,
+        "text": "exempt from requirements of Part 2 (commencing with Section 10100) of Division 2 of the Public Contract Code",
+        "chunk_id": 18111884118852103382
+      }
+    ]
+  }
+]

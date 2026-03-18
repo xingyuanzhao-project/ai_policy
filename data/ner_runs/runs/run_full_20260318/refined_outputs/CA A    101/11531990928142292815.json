@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9745401547522928064,
+    "source_group_id": 11531990928142292815,
+    "source_candidate_ids": [
+      12080010682975238006
+    ],
+    "entity": "State Lands Commission",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 11716132547583372249,
+        "start": 544902,
+        "end": 544919,
+        "text": "State Lands Commission",
+        "chunk_id": 7696064061766183024
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6071987466719238799,
+        "start": 544902,
+        "end": 544919,
+        "text": "State Lands Commission",
+        "chunk_id": 7696064061766183024
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11214326037301348302,
+        "start": 544902,
+        "end": 544919,
+        "text": "State Lands Commission",
+        "chunk_id": 7696064061766183024
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15817304924721954072,
+        "start": 544902,
+        "end": 544919,
+        "text": "State Lands Commission",
+        "chunk_id": 7696064061766183024
+      }
+    ]
+  }
+]

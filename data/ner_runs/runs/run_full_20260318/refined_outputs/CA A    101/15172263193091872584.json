@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8185652896916641255,
+    "source_group_id": 15172263193091872584,
+    "source_candidate_ids": [
+      729285516541075107
+    ],
+    "entity": "generative artificial intelligence projects",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 4625993562454521111,
+        "start": 1806628,
+        "end": 1806648,
+        "text": "generative artificial intelligence projects",
+        "chunk_id": 8961539642526693691
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1648097749999061389,
+        "start": 1806628,
+        "end": 1806648,
+        "text": "generative artificial intelligence projects",
+        "chunk_id": 8961539642526693691
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14255116816824849703,
+        "start": 1806628,
+        "end": 1806648,
+        "text": "generative artificial intelligence projects",
+        "chunk_id": 8961539642526693691
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15942677196633906621,
+        "start": 1806628,
+        "end": 1806648,
+        "text": "generative artificial intelligence projects",
+        "chunk_id": 8961539642526693691
+      }
+    ]
+  }
+]

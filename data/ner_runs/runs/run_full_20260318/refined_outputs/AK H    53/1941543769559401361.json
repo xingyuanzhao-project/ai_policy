@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6736068180116946012,
+    "source_group_id": 1941543769559401361,
+    "source_candidate_ids": [
+      8947787960782742614
+    ],
+    "entity": "Department of Military and Veterans’ Affairs",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "veterans’ memorials",
+    "entity_evidence": [
+      {
+        "span_id": 10332706295049052120,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14382734724643246712,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2276209871307134818,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2832013125068281485,
+        "start": 128963,
+        "end": 128984,
+        "text": "to the Department of Military and Veterans’ Affairs for the purposes specified in AS 37.14.730(b) for the fiscal year ending June 30, 2026",
+        "chunk_id": 5446783781110696178
+      }
+    ]
+  }
+]

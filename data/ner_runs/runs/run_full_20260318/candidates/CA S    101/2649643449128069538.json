@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10063594878346211486,
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 13993931159538973723,
+        "start": 884908,
+        "end": 884932,
+        "text": "State Department of State Hospitals",
+        "chunk_id": 2649643449128069538
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4457042079606531670,
+        "start": 884908,
+        "end": 884932,
+        "text": "State Department of State Hospitals",
+        "chunk_id": 2649643449128069538
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3641047270793213805,
+        "start": 884908,
+        "end": 884932,
+        "text": "State Department of State Hospitals",
+        "chunk_id": 2649643449128069538
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15892199483120767156,
+        "start": 884908,
+        "end": 884932,
+        "text": "State Department of State Hospitals",
+        "chunk_id": 2649643449128069538
+      }
+    ]
+  },
+  {
+    "candidate_id": 17983099994014126676,
+    "entity": "Incompetent to Stand Trial Infrastructure Grant Program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 9519348092419837936,
+        "start": 884991,
+        "end": 885023,
+        "text": "Incompetent to Stand Trial Infrastructure Grant Program",
+        "chunk_id": 2649643449128069538
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2372534268243479871,
+        "start": 884991,
+        "end": 885023,
+        "text": "Incompetent to Stand Trial Infrastructure Grant Program",
+        "chunk_id": 2649643449128069538
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9884449073615712066,
+        "start": 884991,
+        "end": 885023,
+        "text": "Incompetent to Stand Trial Infrastructure Grant Program",
+        "chunk_id": 2649643449128069538
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13183412345430396387,
+        "start": 884991,
+        "end": 885023,
+        "text": "Incompetent to Stand Trial Infrastructure Grant Program",
+        "chunk_id": 2649643449128069538
+      }
+    ]
+  }
+]

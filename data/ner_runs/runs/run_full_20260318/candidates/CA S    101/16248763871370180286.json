@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16522212411356242006,
+    "entity": "State Highway Account",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "reduced",
+    "entity_evidence": [
+      {
+        "span_id": 7615242384947881578,
+        "start": 299616,
+        "end": 299635,
+        "text": "State Highway Account",
+        "chunk_id": 16248763871370180286
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 201539462313124657,
+        "start": 299616,
+        "end": 299635,
+        "text": "infrastructure",
+        "chunk_id": 16248763871370180286
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18368349381547759304,
+        "start": 299616,
+        "end": 299623,
+        "text": "reduced",
+        "chunk_id": 16248763871370180286
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5128831384441497811,
+        "start": 299616,
+        "end": 299623,
+        "text": "reduced",
+        "chunk_id": 16248763871370180286
+      }
+    ]
+  },
+  {
+    "candidate_id": 7602209732575245931,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "equivalent amount of federal funds",
+    "entity_evidence": [
+      {
+        "span_id": 5085710561190015569,
+        "start": 299739,
+        "end": 299759,
+        "text": "Department of Transportation",
+        "chunk_id": 16248763871370180286
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13022845355542276691,
+        "start": 299739,
+        "end": 299759,
+        "text": "government agency",
+        "chunk_id": 16248763871370180286
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3450871539970236333,
+        "start": 299739,
+        "end": 299759,
+        "text": "promotion",
+        "chunk_id": 16248763871370180286
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11330949914513269,
+        "start": 299739,
+        "end": 299759,
+        "text": "equivalent amount of federal funds",
+        "chunk_id": 16248763871370180286
+      }
+    ]
+  }
+]

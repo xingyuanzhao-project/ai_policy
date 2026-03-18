@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 8191605809408031127,
+    "source_group_id": 6036599998529061481,
+    "source_candidate_ids": [
+      2911548044007920642,
+      7512932555376492999
+    ],
+    "entity": "Alabama Personal Data Protection Act",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6317909166734058119,
+        "start": 0,
+        "end": 24,
+        "text": "Alabama Personal Data Protection Act",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4058899082342210135,
+        "start": 24,
+        "end": 34,
+        "text": "legislation",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10716778144380437254,
+        "start": 34,
+        "end": 43,
+        "text": "restriction",
+        "chunk_id": 14086398982739742978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18444967195429379890,
+        "start": 43,
+        "end": 54,
+        "text": "extremely restrictive",
+        "chunk_id": 14086398982739742978
+      }
+    ]
+  }
+]

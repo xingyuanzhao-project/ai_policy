@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 762019706051085722,
+    "entity": "Governor's Office of Land Use and Climate Innovation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 14087656179392390458,
+        "start": 123607,
+        "end": 123627,
+        "text": "For support of Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12080606377005481993,
+        "start": 123607,
+        "end": 123627,
+        "text": "For support of Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16563147760462424131,
+        "start": 123607,
+        "end": 123627,
+        "text": "For support of Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11090709150632322733,
+        "start": 123607,
+        "end": 123627,
+        "text": "For support of Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 16339945152676970473
+      }
+    ]
+  },
+  {
+    "candidate_id": 1059563725911574891,
+    "entity": "Extreme Heat and Community Resilience Program",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 6420440662509300049,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9797370880818680547,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1049277824226613039,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10397699254557997640,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ]
+  }
+]

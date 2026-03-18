@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5730110077918304471,
+    "source_group_id": 7248459821641727315,
+    "source_candidate_ids": [
+      16402425784163649855
+    ],
+    "entity": "Regulatory Commission of Alaska",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "0",
+    "entity_evidence": [
+      {
+        "span_id": 1196483752354294732,
+        "start": 77240,
+        "end": 77240,
+        "text": "Regulatory Commission of Alaska",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 525505935936572658,
+        "start": 77240,
+        "end": 77240,
+        "text": "government agency",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8243838271763240364,
+        "start": 77240,
+        "end": 77240,
+        "text": "restriction",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2289819915504830804,
+        "start": 77240,
+        "end": 77240,
+        "text": "0",
+        "chunk_id": 12673454789676537105
+      }
+    ]
+  }
+]

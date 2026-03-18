@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5115084671581371251,
+    "entity": "Department of Resources Recycling and Recovery",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exceed the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 3402253692502731267,
+        "start": 761655,
+        "end": 761692,
+        "text": "Department of Resources Recycling and Recovery",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8663699616076568158,
+        "start": 761655,
+        "end": 761692,
+        "text": "government agency",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8886309391801376286,
+        "start": 761655,
+        "end": 761692,
+        "text": "restriction",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12815956089608239559,
+        "start": 761655,
+        "end": 761692,
+        "text": "exceed the amount appropriated",
+        "chunk_id": 13156413962256335994
+      }
+    ]
+  },
+  {
+    "candidate_id": 12593916021272247380,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "authorization",
+    "value": "expenditures in excess of the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 13247813114408787823,
+        "start": 761655,
+        "end": 761692,
+        "text": "Department of Finance",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6832542909008748580,
+        "start": 761655,
+        "end": 761692,
+        "text": "government agency",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8617760819254912431,
+        "start": 761655,
+        "end": 761692,
+        "text": "authorization",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1963826697628389858,
+        "start": 761655,
+        "end": 761692,
+        "text": "expenditures in excess of the amount appropriated",
+        "chunk_id": 13156413962256335994
+      }
+    ]
+  }
+]

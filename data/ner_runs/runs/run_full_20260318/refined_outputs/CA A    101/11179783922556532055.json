@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16949703972990608000,
+    "source_group_id": 11179783922556532055,
+    "source_candidate_ids": [
+      5171185958790011361
+    ],
+    "entity": "Sierra Nevada Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "climate change impacts",
+    "entity_evidence": [
+      {
+        "span_id": 15108904194131736293,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3726131982363040095,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5256556206037829556,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12719404115033200876,
+        "start": 647669,
+        "end": 647689,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 12233984089851247371
+      }
+    ]
+  }
+]

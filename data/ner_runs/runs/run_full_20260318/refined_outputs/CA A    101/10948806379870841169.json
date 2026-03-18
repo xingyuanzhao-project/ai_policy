@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12604897146781292855,
+    "source_group_id": 10948806379870841169,
+    "source_candidate_ids": [
+      3499433611299951106
+    ],
+    "entity": "State Personnel Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 5156803353488705918,
+        "start": 1531946,
+        "end": 1531966,
+        "text": "State Personnel Board",
+        "chunk_id": 18328330298384208327
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9749946358657890614,
+        "start": 1531946,
+        "end": 1531966,
+        "text": "State Personnel Board",
+        "chunk_id": 18328330298384208327
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6797464629091465794,
+        "start": 1531966,
+        "end": 1531976,
+        "text": "restriction",
+        "chunk_id": 18328330298384208327
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13286952572641200141,
+        "start": 1531976,
+        "end": 1531986,
+        "text": "partial",
+        "chunk_id": 18328330298384208327
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5477824822323415867,
+    "entity": "State Coastal Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 3297426305114392024,
+        "start": 534532,
+        "end": 534552,
+        "text": "State Coastal Conservancy",
+        "chunk_id": 4239739765664909617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1343472663535620613,
+        "start": 534532,
+        "end": 534552,
+        "text": "government agency",
+        "chunk_id": 4239739765664909617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8564583921995482161,
+        "start": 534552,
+        "end": 534562,
+        "text": "restriction",
+        "chunk_id": 4239739765664909617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 269046854461856386,
+        "start": 534562,
+        "end": 534579,
+        "text": "until June 30, 2027",
+        "chunk_id": 4239739765664909617
+      }
+    ]
+  },
+  {
+    "candidate_id": 11968438757319065786,
+    "entity": "State Coastal Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 2578314854449818083,
+        "start": 535222,
+        "end": 535242,
+        "text": "State Coastal Conservancy",
+        "chunk_id": 4239739765664909617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3494181101817785941,
+        "start": 535222,
+        "end": 535242,
+        "text": "government agency",
+        "chunk_id": 4239739765664909617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1492437177965174768,
+        "start": 535242,
+        "end": 535252,
+        "text": "restriction",
+        "chunk_id": 4239739765664909617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9301751593850886157,
+        "start": 535252,
+        "end": 535269,
+        "text": "until June 30, 2028",
+        "chunk_id": 4239739765664909617
+      }
+    ]
+  }
+]

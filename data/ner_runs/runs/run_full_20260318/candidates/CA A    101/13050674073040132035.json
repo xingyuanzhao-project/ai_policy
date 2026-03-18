@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16237333825122643222,
+    "entity": "Sierra Nevada Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 583793889090005018,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12196533555342909275,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15894367447446059612,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5141814157525395108,
+        "start": 642394,
+        "end": 642418,
+        "text": "Sierra Nevada Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ]
+  },
+  {
+    "candidate_id": 4326697190040618276,
+    "entity": "Coachella Valley Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 6982540811454304242,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6316169438468369626,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11833219720955842392,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8882299834361957226,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ]
+  }
+]

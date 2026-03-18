@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 7156809296691603794,
+    "source_group_id": 10343436590735962853,
+    "source_candidate_ids": [
+      9115947356449035122,
+      8961989022354015126
+    ],
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reasonable safeguards",
+    "entity_evidence": [
+      {
+        "span_id": 2381682503410610523,
+        "start": 35236,
+        "end": 35244,
+        "text": "Whether the controller has implemented reasonable safeguards",
+        "chunk_id": 16098630097580299668
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17223438538474200438,
+        "start": 35236,
+        "end": 35244,
+        "text": "Whether the controller has implemented reasonable safeguards",
+        "chunk_id": 16098630097580299668
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2418980608810376581,
+        "start": 35236,
+        "end": 35244,
+        "text": "Whether the controller has implemented reasonable safeguards",
+        "chunk_id": 16098630097580299668
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16750105155266210954,
+        "start": 35236,
+        "end": 35244,
+        "text": "Whether the controller has implemented reasonable safeguards",
+        "chunk_id": 16098630097580299668
+      }
+    ]
+  }
+]

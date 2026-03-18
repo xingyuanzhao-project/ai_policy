@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 6136397908286061576,
+    "source_group_id": 11900256345383233425,
+    "source_candidate_ids": [
+      7630036418510712561,
+      6136053273197912052
+    ],
+    "entity": "developer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "do not knowingly misrepresent parental consent disclosure",
+    "entity_evidence": [
+      {
+        "span_id": 10255657266862435527,
+        "start": 134,
+        "end": 142,
+        "text": "DEVELOPER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9610307937875486149,
+        "start": 134,
+        "end": 142,
+        "text": "DEVELOPER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1390227942256992740,
+        "start": 134,
+        "end": 142,
+        "text": "DEVELOPER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6570656166275521637,
+        "start": 2324,
+        "end": 2331,
+        "text": "do not knowingly misrepresent parental consent disclosure",
+        "chunk_id": 2955599811225475275
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10294110353002219299,
+    "source_group_id": 5984166993262937019,
+    "source_candidate_ids": [
+      8456906055383856208
+    ],
+    "entity": "Department of Commerce, Community, and Economic Development",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "qualified regional associations",
+    "entity_evidence": [
+      {
+        "span_id": 17224059738205233827,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9802149019873265734,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7197681907777045798,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12580513038537394651,
+        "start": 164322,
+        "end": 164365,
+        "text": "Department of Commerce, Community, and Economic Development",
+        "chunk_id": 14178694402857471544
+      }
+    ]
+  }
+]

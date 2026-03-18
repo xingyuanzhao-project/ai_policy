@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7528243195754383551,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12783409759293316806,
+        "start": 70769,
+        "end": 70788,
+        "text": "Upon order of the Department of Finance",
+        "chunk_id": 16898246214653727394
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3146165759049490933,
+        "start": 70769,
+        "end": 70788,
+        "text": "Upon order of the Department of Finance",
+        "chunk_id": 16898246214653727394
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16919737076833929388,
+        "start": 70769,
+        "end": 70788,
+        "text": "Upon order of the Department of Finance",
+        "chunk_id": 16898246214653727394
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4041362912849024758,
+        "start": 70769,
+        "end": 70788,
+        "text": "Upon order of the Department of Finance",
+        "chunk_id": 16898246214653727394
+      }
+    ]
+  },
+  {
+    "candidate_id": 14811365569790609960,
+    "entity": "Governor's Office",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 8922270751390690995,
+        "start": 70892,
+        "end": 70904,
+        "text": "For support of Governor and of Governor's Office",
+        "chunk_id": 16898246214653727394
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10318871036986127174,
+        "start": 70892,
+        "end": 70904,
+        "text": "For support of Governor and of Governor's Office",
+        "chunk_id": 16898246214653727394
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9559700835251117026,
+        "start": 70892,
+        "end": 70904,
+        "text": "For support of Governor and of Governor's Office",
+        "chunk_id": 16898246214653727394
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3542088457980852468,
+        "start": 70892,
+        "end": 70904,
+        "text": "For support of Governor and of Governor's Office",
+        "chunk_id": 16898246214653727394
+      }
+    ]
+  }
+]

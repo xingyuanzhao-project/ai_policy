@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3189272840124759258,
+    "entity": "legally protected health care activity",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "prohibited in other states",
+    "entity_evidence": [
+      {
+        "span_id": 16185193759271754922,
+        "start": 67293,
+        "end": 67314,
+        "text": "legally protected health care activity",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15012829154184760647,
+        "start": 67293,
+        "end": 67314,
+        "text": "legally protected health care activity",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17693141282588010355,
+        "start": 67293,
+        "end": 67314,
+        "text": "legally protected health care activity",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15309297119236098716,
+        "start": 67293,
+        "end": 67314,
+        "text": "legally protected health care activity",
+        "chunk_id": 8360361638811239416
+      }
+    ]
+  },
+  {
+    "candidate_id": 8774984680988911681,
+    "entity": "state or local law enforcement agency or officer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibited from arresting",
+    "entity_evidence": [
+      {
+        "span_id": 10123190098595978692,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15731498433565523063,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7027153399260514749,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16024466230270989830,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ]
+  }
+]

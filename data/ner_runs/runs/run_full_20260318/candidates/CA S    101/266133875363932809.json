@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11301350912291175183,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 10683145168665411134,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12147064062187218891,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8445802896892907217,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1478722057272623862,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ]
+  },
+  {
+    "candidate_id": 17753384173566609007,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 14346042381228609529,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4760540959265102655,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14376553784958185977,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10439426329645719337,
+        "start": 309728,
+        "end": 309746,
+        "text": "prior approval of the Department of Finance",
+        "chunk_id": 266133875363932809
+      }
+    ]
+  }
+]

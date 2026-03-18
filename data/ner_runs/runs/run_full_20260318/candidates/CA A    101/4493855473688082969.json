@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 269211395206068414,
+    "entity": "High-Speed Rail Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "equivalent amount of federal funds",
+    "entity_evidence": [
+      {
+        "span_id": 15836003825486083533,
+        "start": 414584,
+        "end": 414601,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 4493855473688082969
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8909131492106306625,
+        "start": 414584,
+        "end": 414601,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 4493855473688082969
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6950946172051426048,
+        "start": 414659,
+        "end": 414675,
+        "text": "reduced and replaced by an equivalent amount",
+        "chunk_id": 4493855473688082969
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8905613398629261820,
+        "start": 414659,
+        "end": 414675,
+        "text": "reduced and replaced by an equivalent amount",
+        "chunk_id": 4493855473688082969
+      }
+    ]
+  },
+  {
+    "candidate_id": 11853432831217424543,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 11593297750888784386,
+        "start": 414441,
+        "end": 414453,
+        "text": "Department of Finance",
+        "chunk_id": 4493855473688082969
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15218573961618913908,
+        "start": 414441,
+        "end": 414453,
+        "text": "Department of Finance",
+        "chunk_id": 4493855473688082969
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14465893934089427299,
+        "start": 414441,
+        "end": 414453,
+        "text": "Department of Finance",
+        "chunk_id": 4493855473688082969
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7945739001769285595,
+        "start": 414441,
+        "end": 414453,
+        "text": "not sooner than 30 days",
+        "chunk_id": 4493855473688082969
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8719156905416095398,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 18312102651911932108,
+        "start": 774525,
+        "end": 774541,
+        "text": "the Department of Finance may transfer up to $698,000 as a loan",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14397099220337478748,
+        "start": 774525,
+        "end": 774541,
+        "text": "the Department of Finance may transfer up to $698,000 as a loan",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4237481002454742690,
+        "start": 774525,
+        "end": 774541,
+        "text": "the Department of Finance may transfer up to $698,000 as a loan",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11356877197086697199,
+        "start": 774525,
+        "end": 774541,
+        "text": "the Department of Finance may transfer up to $698,000 as a loan",
+        "chunk_id": 12439249163633846087
+      }
+    ]
+  },
+  {
+    "candidate_id": 6991405199115990486,
+    "entity": "Textile Stewardship Recovery Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 1501621732268365055,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7183279196913073029,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17479757766608965951,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6717581646758713651,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ]
+  }
+]

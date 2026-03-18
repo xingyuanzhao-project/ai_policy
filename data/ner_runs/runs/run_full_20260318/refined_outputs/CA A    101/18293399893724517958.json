@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8045573936789591427,
+    "source_group_id": 18293399893724517958,
+    "source_candidate_ids": [
+      873757747333921998
+    ],
+    "entity": "CalWORKs program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "job training services",
+    "entity_evidence": [
+      {
+        "span_id": 9833155174518743406,
+        "start": 1222628,
+        "end": 1222642,
+        "text": "CalWORKs program",
+        "chunk_id": 11758215813867136103
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12547242336284928846,
+        "start": 1222628,
+        "end": 1222642,
+        "text": "program",
+        "chunk_id": 11758215813867136103
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5770389070147713799,
+        "start": 1222628,
+        "end": 1222642,
+        "text": "job training services",
+        "chunk_id": 11758215813867136103
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15733022564549340552,
+        "start": 1222628,
+        "end": 1222642,
+        "text": "job training services",
+        "chunk_id": 11758215813867136103
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "refined_id": 1453313839048179854,
+    "source_group_id": 514697904591023111,
+    "source_candidate_ids": [
+      14605829430989714365,
+      529534026081631708,
+      15071825507054959236
+    ],
+    "entity": "Department of Consumer Affairs",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7442367437386565739,
+        "start": 266878,
+        "end": 266910,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 6238892013255337442
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14759979233247565015,
+        "start": 266878,
+        "end": 266910,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 6238892013255337442
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7469696020075003551,
+        "start": 266878,
+        "end": 266910,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 6238892013255337442
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2607727926440518092,
+        "start": 266878,
+        "end": 266910,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 6238892013255337442
+      }
+    ]
+  }
+]

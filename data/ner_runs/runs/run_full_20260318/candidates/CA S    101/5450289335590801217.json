@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12525438506551093468,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consultation",
+    "entity_evidence": [
+      {
+        "span_id": 2508192785251515554,
+        "start": 1339133,
+        "end": 1339154,
+        "text": "California Community Colleges",
+        "chunk_id": 5450289335590801217
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4380062388436590466,
+        "start": 1339133,
+        "end": 1339154,
+        "text": "government agency",
+        "chunk_id": 5450289335590801217
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13644916509567360906,
+        "start": 1339133,
+        "end": 1339154,
+        "text": "consultation",
+        "chunk_id": 5450289335590801217
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5750001752403989443,
+        "start": 1339133,
+        "end": 1339154,
+        "text": "consultation",
+        "chunk_id": 5450289335590801217
+      }
+    ]
+  },
+  {
+    "candidate_id": 11016084091136876208,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consultation",
+    "entity_evidence": [
+      {
+        "span_id": 4679087039950180351,
+        "start": 1339133,
+        "end": 1339153,
+        "text": "State Department of Education",
+        "chunk_id": 5450289335590801217
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3845539461901066002,
+        "start": 1339133,
+        "end": 1339153,
+        "text": "government agency",
+        "chunk_id": 5450289335590801217
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14501175493657606845,
+        "start": 1339133,
+        "end": 1339153,
+        "text": "consultation",
+        "chunk_id": 5450289335590801217
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7176367010647391396,
+        "start": 1339133,
+        "end": 1339153,
+        "text": "consultation",
+        "chunk_id": 5450289335590801217
+      }
+    ]
+  }
+]

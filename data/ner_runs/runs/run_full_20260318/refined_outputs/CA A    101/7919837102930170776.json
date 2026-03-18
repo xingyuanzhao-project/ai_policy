@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12397791413724630216,
+    "source_group_id": 7919837102930170776,
+    "source_candidate_ids": [
+      7829551991298946270
+    ],
+    "entity": "Prison to Employment program",
+    "type": "technology",
+    "attribute": "extension",
+    "value": "June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 17415369692804341417,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "Prison to Employment program",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18212707348857707261,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "technology",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2794059562577574166,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "extension",
+        "chunk_id": 9070379900464979907
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9685494848224120469,
+        "start": 1499488,
+        "end": 1499508,
+        "text": "June 30, 2028",
+        "chunk_id": 9070379900464979907
+      }
+    ]
+  }
+]

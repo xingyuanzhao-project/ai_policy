@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11253056656111270805,
+    "source_group_id": 13045067646412212427,
+    "source_candidate_ids": [
+      4216291350617434093
+    ],
+    "entity": "designated health care services",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11853193334978944240,
+        "start": 27063,
+        "end": 27084,
+        "text": "designated health care services",
+        "chunk_id": 7925403113277510783
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4080505323800920920,
+        "start": 27063,
+        "end": 27084,
+        "text": "technology",
+        "chunk_id": 7925403113277510783
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14655237524788555508,
+        "start": 27063,
+        "end": 27084,
+        "text": "restriction",
+        "chunk_id": 7925403113277510783
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3912739432872249264,
+        "start": 27063,
+        "end": 27084,
+        "text": "extremely restrictive",
+        "chunk_id": 7925403113277510783
+      }
+    ]
+  }
+]

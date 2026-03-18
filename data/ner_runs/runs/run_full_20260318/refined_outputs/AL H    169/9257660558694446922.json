@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13308225087327792581,
+    "source_group_id": 9257660558694446922,
+    "source_candidate_ids": [
+      1623156431801659398
+    ],
+    "entity": "Total Educational Television Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "unbiased",
+    "entity_evidence": [
+      {
+        "span_id": 3240742292198259175,
+        "start": 82503,
+        "end": 82532,
+        "text": "Total Educational Television Commission",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5187743637228017666,
+        "start": 82533,
+        "end": 82548,
+        "text": "government agency",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4045538843029430121,
+        "start": 82549,
+        "end": 82556,
+        "text": "restriction",
+        "chunk_id": 9903963699392668560
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5296159630823164321,
+        "start": 82557,
+        "end": 82564,
+        "text": "unbiased",
+        "chunk_id": 9903963699392668560
+      }
+    ]
+  }
+]

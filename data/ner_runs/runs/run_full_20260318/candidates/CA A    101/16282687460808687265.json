@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11509529645481924029,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5388432975616597401,
+        "start": 1037354,
+        "end": 1037378,
+        "text": "ance, State Department of Social Services",
+        "chunk_id": 16282687460808687265
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18068525943233092381,
+        "start": 1037354,
+        "end": 1037378,
+        "text": "ance, State Department of Social Services",
+        "chunk_id": 16282687460808687265
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18234872649862150637,
+        "start": 1037354,
+        "end": 1037378,
+        "text": "ance, State Department of Social Services",
+        "chunk_id": 16282687460808687265
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1545415380392569376,
+        "start": 1037354,
+        "end": 1037378,
+        "text": "ance, State Department of Social Services",
+        "chunk_id": 16282687460808687265
+      }
+    ]
+  },
+  {
+    "candidate_id": 10432351831067207150,
+    "entity": "General Fund",
+    "type": "government fund",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7171333189581816010,
+        "start": 1037399,
+        "end": 1037415,
+        "text": "from funds not otherwise appropriated, to cover the federal share or reimbursable share, or both, of costs of a program or programs",
+        "chunk_id": 16282687460808687265
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8675448867105854695,
+        "start": 1037399,
+        "end": 1037415,
+        "text": "from funds not otherwise appropriated, to cover the federal share or reimbursable share, or both, of costs of a program or programs",
+        "chunk_id": 16282687460808687265
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15620846820203977219,
+        "start": 1037399,
+        "end": 1037415,
+        "text": "from funds not otherwise appropriated, to cover the federal share or reimbursable share, or both, of costs of a program or programs",
+        "chunk_id": 16282687460808687265
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2984605307098788631,
+        "start": 1037399,
+        "end": 1037415,
+        "text": "from funds not otherwise appropriated, to cover the federal share or reimbursable share, or both, of costs of a program or programs",
+        "chunk_id": 16282687460808687265
+      }
+    ]
+  }
+]

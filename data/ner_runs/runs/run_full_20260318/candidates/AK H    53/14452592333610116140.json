@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5282762986923763528,
+    "entity": "Department of Public Safety",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "unexpended and unobligated balance",
+    "entity_evidence": [
+      {
+        "span_id": 6056023485841771162,
+        "start": 38905,
+        "end": 38924,
+        "text": "Department of Public Safety",
+        "chunk_id": 14452592333610116140
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13189408571511711898,
+        "start": 38925,
+        "end": 38940,
+        "text": "government agency",
+        "chunk_id": 14452592333610116140
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6250957039544087133,
+        "start": 38941,
+        "end": 38958,
+        "text": "unexpended and unobligated balance",
+        "chunk_id": 14452592333610116140
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3417778612546689762,
+        "start": 38959,
+        "end": 38974,
+        "text": "unexpended and unobligated balance",
+        "chunk_id": 14452592333610116140
+      }
+    ]
+  },
+  {
+    "candidate_id": 5715650392720030598,
+    "entity": "Alaska Bureau of Highway Patrol",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "unexpended and unobligated balance",
+    "entity_evidence": [
+      {
+        "span_id": 14652656836771778045,
+        "start": 38905,
+        "end": 38929,
+        "text": "Alaska Bureau of Highway Patrol",
+        "chunk_id": 14452592333610116140
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1224903976518397517,
+        "start": 38930,
+        "end": 38948,
+        "text": "government agency",
+        "chunk_id": 14452592333610116140
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17654954944741906149,
+        "start": 38949,
+        "end": 38966,
+        "text": "unexpended and unobligated balance",
+        "chunk_id": 14452592333610116140
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18204906086433596164,
+        "start": 38967,
+        "end": 38982,
+        "text": "unexpended and unobligated balance",
+        "chunk_id": 14452592333610116140
+      }
+    ]
+  }
+]

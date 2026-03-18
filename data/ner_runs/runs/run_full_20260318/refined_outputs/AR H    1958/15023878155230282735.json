@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14331734456783438304,
+    "source_group_id": 15023878155230282735,
+    "source_candidate_ids": [
+      649866304865559597
+    ],
+    "entity": "public entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 5894389498893940253,
+        "start": 5188,
+        "end": 5197,
+        "text": "public entity",
+        "chunk_id": 6248947903776334021
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4663642564413630700,
+        "start": 5188,
+        "end": 5197,
+        "text": "public entity",
+        "chunk_id": 6248947903776334021
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1060503150003670645,
+        "start": 5197,
+        "end": 5204,
+        "text": "prohibition",
+        "chunk_id": 6248947903776334021
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9581722131795568475,
+        "start": 5197,
+        "end": 5204,
+        "text": "prohibition",
+        "chunk_id": 6248947903776334021
+      }
+    ]
+  }
+]

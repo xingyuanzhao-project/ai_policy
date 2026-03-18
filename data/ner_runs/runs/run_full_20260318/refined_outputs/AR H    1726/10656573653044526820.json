@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 14523435851377362775,
+    "source_group_id": 10656573653044526820,
+    "source_candidate_ids": [
+      13255074676089053416,
+      2530000753157692345
+    ],
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "obtain verifiable parental consent",
+    "entity_evidence": [
+      {
+        "span_id": 1416810221861464181,
+        "start": 18009,
+        "end": 18029,
+        "text": "covered platform",
+        "chunk_id": 14706555328866367729
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8270194514083016294,
+        "start": 18009,
+        "end": 18009,
+        "text": "technology",
+        "chunk_id": 14706555328866367729
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2972500330030903688,
+        "start": 18029,
+        "end": 18029,
+        "text": "restriction",
+        "chunk_id": 14706555328866367729
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6329321044240890786,
+        "start": 18029,
+        "end": 18029,
+        "text": "obtain verifiable parental consent",
+        "chunk_id": 14706555328866367729
+      }
+    ]
+  }
+]

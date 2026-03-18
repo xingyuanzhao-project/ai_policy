@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2636043040154093041,
+    "source_group_id": 16279000026317876503,
+    "source_candidate_ids": [
+      2044345334526616615
+    ],
+    "entity": "Community Care Licensing Division",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "facilities evaluation function",
+    "entity_evidence": [
+      {
+        "span_id": 18291535452498626963,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2413309901869844955,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16553935441064454792,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12920727082745398910,
+        "start": 1052600,
+        "end": 1052621,
+        "text": "Community Care Licensing Division",
+        "chunk_id": 9256356762551741423
+      }
+    ]
+  }
+]

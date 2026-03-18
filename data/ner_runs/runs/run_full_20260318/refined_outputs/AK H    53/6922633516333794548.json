@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 348897666007805306,
+    "source_group_id": 6922633516333794548,
+    "source_candidate_ids": [
+      1101389779424510569
+    ],
+    "entity": "Alaska clean water administrative income account",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16924493865277586183,
+        "start": 157889,
+        "end": 157911,
+        "text": "Alaska clean water administrative income account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1300269899425108551,
+        "start": 157889,
+        "end": 157911,
+        "text": "account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9557505302590671408,
+        "start": 157889,
+        "end": 157911,
+        "text": "account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15675221518538614409,
+        "start": 157889,
+        "end": 157911,
+        "text": "account",
+        "chunk_id": 3357432621809856032
+      }
+    ]
+  }
+]

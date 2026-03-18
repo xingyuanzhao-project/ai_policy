@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6462088470628422029,
+    "entity": "Department of Community Services and Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "5 percent",
+    "entity_evidence": [
+      {
+        "span_id": 15051047499042307843,
+        "start": 892262,
+        "end": 892282,
+        "text": "Department of Community Services and Development",
+        "chunk_id": 10165493258777487448
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 358788223278344010,
+        "start": 892262,
+        "end": 892282,
+        "text": "government agency",
+        "chunk_id": 10165493258777487448
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12411633106156137025,
+        "start": 892262,
+        "end": 892282,
+        "text": "restriction",
+        "chunk_id": 10165493258777487448
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16219198852611300125,
+        "start": 892262,
+        "end": 892282,
+        "text": "5 percent",
+        "chunk_id": 10165493258777487448
+      }
+    ]
+  },
+  {
+    "candidate_id": 8403178003939041143,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "cumulative total of $40,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 10979696234686193964,
+        "start": 892373,
+        "end": 892393,
+        "text": "Director of Finance",
+        "chunk_id": 10165493258777487448
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16740387216277916118,
+        "start": 892373,
+        "end": 892393,
+        "text": "government agency",
+        "chunk_id": 10165493258777487448
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2195474609350684543,
+        "start": 892373,
+        "end": 892393,
+        "text": "restriction",
+        "chunk_id": 10165493258777487448
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14475791924198701630,
+        "start": 892373,
+        "end": 892393,
+        "text": "cumulative total of $40,000,000",
+        "chunk_id": 10165493258777487448
+      }
+    ]
+  }
+]

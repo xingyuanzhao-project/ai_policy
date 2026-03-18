@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 312276760233952124,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 14863156652373938563,
+        "start": 732684,
+        "end": 732704,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3624101371774242592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15741066077330732663,
+        "start": 732684,
+        "end": 732704,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3624101371774242592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17651940010517128393,
+        "start": 732684,
+        "end": 732704,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3624101371774242592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7511152440118098450,
+        "start": 732684,
+        "end": 732704,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3624101371774242592
+      }
+    ]
+  },
+  {
+    "candidate_id": 6892934893102264814,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 4823754046427974399,
+        "start": 733046,
+        "end": 733070,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 3624101371774242592
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 102231926705943459,
+        "start": 733046,
+        "end": 733070,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 3624101371774242592
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18201541146732600476,
+        "start": 733046,
+        "end": 733070,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 3624101371774242592
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6175708726204353778,
+        "start": 733046,
+        "end": 733070,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 3624101371774242592
+      }
+    ]
+  }
+]

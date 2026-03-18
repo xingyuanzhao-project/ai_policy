@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7754929867760351359,
+    "entity": "Dental Hygiene Board of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12098967057195054955,
+        "start": 264237,
+        "end": 264257,
+        "text": "Dental Hygiene Board of California",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10508350463364248901,
+        "start": 264237,
+        "end": 264257,
+        "text": "government agency",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6569156701654709250,
+        "start": 264237,
+        "end": 264257,
+        "text": "restriction",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13056033631888918170,
+        "start": 264237,
+        "end": 264257,
+        "text": "extremely restrictive",
+        "chunk_id": 6554153107942889661
+      }
+    ]
+  },
+  {
+    "candidate_id": 12799568711557275823,
+    "entity": "Department of Consumer Affairs",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 9693971163413009447,
+        "start": 265234,
+        "end": 265255,
+        "text": "Department of Consumer Affairs",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7224766613123800218,
+        "start": 265234,
+        "end": 265255,
+        "text": "government agency",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1740207344190453472,
+        "start": 265234,
+        "end": 265255,
+        "text": "promotion",
+        "chunk_id": 6554153107942889661
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13705403919413543919,
+        "start": 265234,
+        "end": 265255,
+        "text": "significant",
+        "chunk_id": 6554153107942889661
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14199396120003258911,
+    "source_group_id": 8754541559160397128,
+    "source_candidate_ids": [
+      4757996747591815395
+    ],
+    "entity": "Alabama Department of Insurance",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 10130283391388728394,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16889830565017448837,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9227238185254114788,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5288342497780882092,
+        "start": 166,
+        "end": 184,
+        "text": "The Alabama Department of Insurance",
+        "chunk_id": 12655966820651651674
+      }
+    ]
+  }
+]

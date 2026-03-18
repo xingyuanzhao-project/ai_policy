@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3916085767668513852,
+    "entity": "California State University",
+    "type": "organization",
+    "attribute": "name",
+    "value": "California State University",
+    "entity_evidence": [
+      {
+        "span_id": 3758763533830798517,
+        "start": 1368609,
+        "end": 1368633,
+        "text": "California State University",
+        "chunk_id": 18180004816398726088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3567668493953979843,
+        "start": 1368609,
+        "end": 1368633,
+        "text": "organization",
+        "chunk_id": 18180004816398726088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12422442259519227525,
+        "start": 1368609,
+        "end": 1368633,
+        "text": "name",
+        "chunk_id": 18180004816398726088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11601455507373664202,
+        "start": 1368609,
+        "end": 1368633,
+        "text": "California State University",
+        "chunk_id": 18180004816398726088
+      }
+    ]
+  },
+  {
+    "candidate_id": 15388158644091583540,
+    "entity": "Chancellor's Office",
+    "type": "organization",
+    "attribute": "name",
+    "value": "Chancellor's Office",
+    "entity_evidence": [
+      {
+        "span_id": 8578423965924817412,
+        "start": 1368609,
+        "end": 1368624,
+        "text": "Chancellor's Office",
+        "chunk_id": 18180004816398726088
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10796333331070265516,
+        "start": 1368609,
+        "end": 1368624,
+        "text": "organization",
+        "chunk_id": 18180004816398726088
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9810193121191373338,
+        "start": 1368609,
+        "end": 1368624,
+        "text": "name",
+        "chunk_id": 18180004816398726088
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10312052167853531387,
+        "start": 1368609,
+        "end": 1368624,
+        "text": "Chancellor's Office",
+        "chunk_id": 18180004816398726088
+      }
+    ]
+  }
+]

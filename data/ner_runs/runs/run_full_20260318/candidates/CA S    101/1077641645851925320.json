@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7331961201292521945,
+    "entity": "Department of Industrial Relations",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "less than six months of expenditures",
+    "entity_evidence": [
+      {
+        "span_id": 11631534188167584592,
+        "start": 1415176,
+        "end": 1415196,
+        "text": "Director of Finance, in the Industrial Relations Unpaid Wage Fund as of June 30, 2026.",
+        "chunk_id": 1077641645851925320
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8729817594483687682,
+        "start": 1415176,
+        "end": 1415196,
+        "text": "Director of Finance, in the Industrial Relations Unpaid Wage Fund as of June 30, 2026.",
+        "chunk_id": 1077641645851925320
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1780372997698013249,
+        "start": 1415176,
+        "end": 1415196,
+        "text": "Director of Finance, in the Industrial Relations Unpaid Wage Fund as of June 30, 2026.",
+        "chunk_id": 1077641645851925320
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17743076430938481181,
+        "start": 1415176,
+        "end": 1415196,
+        "text": "Director of Finance, in the Industrial Relations Unpaid Wage Fund as of June 30, 2026.",
+        "chunk_id": 1077641645851925320
+      }
+    ]
+  },
+  {
+    "candidate_id": 6917688369317708650,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "approval",
+    "entity_evidence": [
+      {
+        "span_id": 8897521928579039649,
+        "start": 1415198,
+        "end": 1415208,
+        "text": "approval by the Department of Finance",
+        "chunk_id": 1077641645851925320
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14955272086906254436,
+        "start": 1415198,
+        "end": 1415208,
+        "text": "approval by the Department of Finance",
+        "chunk_id": 1077641645851925320
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3614743552203596014,
+        "start": 1415198,
+        "end": 1415208,
+        "text": "approval by the Department of Finance",
+        "chunk_id": 1077641645851925320
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2420764948928779994,
+        "start": 1415198,
+        "end": 1415208,
+        "text": "approval by the Department of Finance",
+        "chunk_id": 1077641645851925320
+      }
+    ]
+  }
+]

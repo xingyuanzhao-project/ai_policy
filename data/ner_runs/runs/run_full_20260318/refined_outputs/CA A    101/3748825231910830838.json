@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3472410462321098906,
+    "source_group_id": 3748825231910830838,
+    "source_candidate_ids": [
+      1758837333909479702
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15357328166278720514,
+        "start": 2432,
+        "end": 2446,
+        "text": "Department of Finance may authorize",
+        "chunk_id": 3112719753831218424
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 494403781126464262,
+        "start": 2432,
+        "end": 2446,
+        "text": "Department of Finance may authorize",
+        "chunk_id": 3112719753831218424
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3674538119243688442,
+        "start": 2432,
+        "end": 2446,
+        "text": "Department of Finance may authorize",
+        "chunk_id": 3112719753831218424
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 632445766849714146,
+        "start": 2432,
+        "end": 2446,
+        "text": "Department of Finance may authorize",
+        "chunk_id": 3112719753831218424
+      }
+    ]
+  }
+]

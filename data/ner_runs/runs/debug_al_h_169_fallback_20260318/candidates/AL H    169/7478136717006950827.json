@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11191730995278549018,
+    "entity": "State of Alabama",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance with provisions of Act 2024-34",
+    "entity_evidence": [
+      {
+        "span_id": 14546394093295672713,
+        "start": 127992,
+        "end": 128005,
+        "text": "State of Alabama",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5928186159388284172,
+        "start": 128006,
+        "end": 128017,
+        "text": "government agency",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11234273377395355938,
+        "start": 128018,
+        "end": 128035,
+        "text": "compliance with provisions of Act 2024-34",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8084693254846603995,
+        "start": 128036,
+        "end": 128055,
+        "text": "compliance with provisions of Act 2024-34",
+        "chunk_id": 7478136717006950827
+      }
+    ]
+  },
+  {
+    "candidate_id": 520020693425283982,
+    "entity": "Department of Examiners of Public Accounts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial defrayal of auditing services",
+    "entity_evidence": [
+      {
+        "span_id": 12736325048243575480,
+        "start": 127992,
+        "end": 128023,
+        "text": "Department of Examiners of Public Accounts",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16347553704279368600,
+        "start": 128024,
+        "end": 128035,
+        "text": "government agency",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17385361870140878233,
+        "start": 128036,
+        "end": 128055,
+        "text": "partial defrayal of auditing services",
+        "chunk_id": 7478136717006950827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5478373327156767033,
+        "start": 128056,
+        "end": 128075,
+        "text": "partial defrayal of auditing services",
+        "chunk_id": 7478136717006950827
+      }
+    ]
+  }
+]

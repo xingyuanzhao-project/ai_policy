@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 3692335252847644136,
+    "source_group_id": 9513970262961299327,
+    "source_candidate_ids": [
+      16867554677660717389,
+      15637842840725842223
+    ],
+    "entity": "motor vehicle dealer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17309769869096131596,
+        "start": 7656,
+        "end": 7676,
+        "text": "motor vehicle dealer",
+        "chunk_id": 17286930272917892176
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5517132133929299160,
+        "start": 7656,
+        "end": 7676,
+        "text": "government agency",
+        "chunk_id": 17286930272917892176
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11612873463855952129,
+        "start": 7678,
+        "end": 7688,
+        "text": "restriction",
+        "chunk_id": 17286930272917892176
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9688976447371669596,
+        "start": 7689,
+        "end": 7695,
+        "text": "extremely restrictive",
+        "chunk_id": 17286930272917892176
+      }
+    ]
+  }
+]

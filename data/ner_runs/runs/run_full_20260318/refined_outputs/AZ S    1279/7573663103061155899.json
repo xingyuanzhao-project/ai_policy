@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 13193334374984941673,
+    "source_group_id": 7573663103061155899,
+    "source_candidate_ids": [
+      15062536292803830389,
+      15405233138308008441
+    ],
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "subject to legislative appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 11547404313361128279,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16585415342932402998,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9891306684426309975,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14442009100049747895,
+        "start": 17960,
+        "end": 17978,
+        "text": "Subject to legislative appropriation",
+        "chunk_id": 8099978742380906063
+      }
+    ]
+  }
+]

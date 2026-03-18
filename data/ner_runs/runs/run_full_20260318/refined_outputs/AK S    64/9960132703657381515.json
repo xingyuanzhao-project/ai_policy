@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10580025154216506006,
+    "source_group_id": 9960132703657381515,
+    "source_candidate_ids": [
+      1005598023014586954
+    ],
+    "entity": "absentee ballot",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10440247130238760135,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7913327373806466800,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4068934805991955108,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9228871490387547942,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ]
+  }
+]

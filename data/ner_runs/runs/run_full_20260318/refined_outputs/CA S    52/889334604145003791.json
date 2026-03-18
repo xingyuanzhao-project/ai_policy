@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16952658139859718868,
+    "source_group_id": 889334604145003791,
+    "source_candidate_ids": [
+      11828920550579027689
+    ],
+    "entity": "algorithmic pricing software",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "ban",
+    "entity_evidence": [
+      {
+        "span_id": 6760741058140347785,
+        "start": 0,
+        "end": 24,
+        "text": "algorithmic pricing software",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9114439542708750957,
+        "start": 0,
+        "end": 24,
+        "text": "technology",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10615653307046704889,
+        "start": 0,
+        "end": 24,
+        "text": "restriction",
+        "chunk_id": 11393061383778766133
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13276306606405426492,
+        "start": 0,
+        "end": 24,
+        "text": "ban",
+        "chunk_id": 11393061383778766133
+      }
+    ]
+  }
+]

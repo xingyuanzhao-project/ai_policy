@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15361643514011001199,
+    "source_group_id": 4762030102136256124,
+    "source_candidate_ids": [
+      14851191204625047780
+    ],
+    "entity": "Fiscal Crisis and Management Assistance Team",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2638835235536836079,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "Fiscal Crisis and Management Assistance Team",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15757485949706247706,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "government agency",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3614629226757788855,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "restriction",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14668838164705418599,
+        "start": 1194830,
+        "end": 1194854,
+        "text": "limited",
+        "chunk_id": 4760079699272446216
+      }
+    ]
+  }
+]

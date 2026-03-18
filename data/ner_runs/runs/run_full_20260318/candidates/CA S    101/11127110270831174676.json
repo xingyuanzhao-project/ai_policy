@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8326343982149470354,
+    "entity": "Secretary of the Natural Resources Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 2910389663522468634,
+        "start": 99422,
+        "end": 99451,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3315759952373843383,
+        "start": 99422,
+        "end": 99451,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6947256176637449561,
+        "start": 99422,
+        "end": 99451,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15913420412700559683,
+        "start": 99422,
+        "end": 99451,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ]
+  },
+  {
+    "candidate_id": 5627991875103077770,
+    "entity": "Natural Resources Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 5250224354053284124,
+        "start": 99422,
+        "end": 99451,
+        "text": "Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9249782324870471913,
+        "start": 99422,
+        "end": 99451,
+        "text": "Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17611662171599647150,
+        "start": 99422,
+        "end": 99451,
+        "text": "Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14036437715226900015,
+        "start": 99422,
+        "end": 99451,
+        "text": "Natural Resources Agency",
+        "chunk_id": 11127110270831174676
+      }
+    ]
+  }
+]

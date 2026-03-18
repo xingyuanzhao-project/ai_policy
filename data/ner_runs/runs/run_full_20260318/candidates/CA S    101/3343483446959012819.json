@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 913560021957030019,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "payable from the Highway-Railroad Crossing Safety Account, Highway Safety, Traffic Reduction, Air Quality, and Port Security Fund of 2006",
+    "entity_evidence": [
+      {
+        "span_id": 8884266275064391300,
+        "start": 319793,
+        "end": 319817,
+        "text": "Department of Transportation",
+        "chunk_id": 3343483446959012819
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4316294776063219322,
+        "start": 319818,
+        "end": 319836,
+        "text": "government agency",
+        "chunk_id": 3343483446959012819
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15251720095200998459,
+        "start": 319837,
+        "end": 319857,
+        "text": "support",
+        "chunk_id": 3343483446959012819
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10605792029763912775,
+        "start": 319858,
+        "end": 320039,
+        "text": "payable from the Highway-Railroad Crossing Safety Account, Highway Safety, Traffic Reduction, Air Quality, and Port Security Fund of 2006",
+        "chunk_id": 3343483446959012819
+      }
+    ]
+  },
+  {
+    "candidate_id": 2791248202519864,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 6397871765492400717,
+        "start": 319793,
+        "end": 319807,
+        "text": "Department of Finance",
+        "chunk_id": 3343483446959012819
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12556716640149054571,
+        "start": 319808,
+        "end": 319826,
+        "text": "government agency",
+        "chunk_id": 3343483446959012819
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 327614526516998957,
+        "start": 319827,
+        "end": 319837,
+        "text": "approval",
+        "chunk_id": 3343483446959012819
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13606019371547633262,
+        "start": 319838,
+        "end": 319846,
+        "text": "prior approval",
+        "chunk_id": 3343483446959012819
+      }
+    ]
+  }
+]

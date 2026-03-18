@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12674473032377908263,
+    "entity": "California Victim Compensation Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 634573846618865118,
+        "start": 1577427,
+        "end": 1577456,
+        "text": "For support of California Victim Compensation Board",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6351671160897859419,
+        "start": 1577427,
+        "end": 1577456,
+        "text": "For support of California Victim Compensation Board",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9292254607181064936,
+        "start": 1577427,
+        "end": 1577456,
+        "text": "For support of California Victim Compensation Board",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5316843756202034711,
+        "start": 1577427,
+        "end": 1577456,
+        "text": "For support of California Victim Compensation Board",
+        "chunk_id": 15560592427414776671
+      }
+    ]
+  },
+  {
+    "candidate_id": 3805888141322102222,
+    "entity": "Restitution Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17692412272002453922,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16037179873402779770,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8879968805066101884,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10547919843483623365,
+        "start": 1577427,
+        "end": 1577444,
+        "text": "payable from the Restitution Fund",
+        "chunk_id": 15560592427414776671
+      }
+    ]
+  }
+]

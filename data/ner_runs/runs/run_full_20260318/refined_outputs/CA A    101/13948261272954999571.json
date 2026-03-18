@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11571842343676368800,
+    "source_group_id": 13948261272954999571,
+    "source_candidate_ids": [
+      1268614321192020149
+    ],
+    "entity": "Center for Data Insights and Innovation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific programs",
+    "entity_evidence": [
+      {
+        "span_id": 7787080392525352026,
+        "start": 92256,
+        "end": 92277,
+        "text": "Center for Data Insights and Innovation",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4079000214847405088,
+        "start": 92256,
+        "end": 92277,
+        "text": "Center for Data Insights and Innovation",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5601269425682531463,
+        "start": 92256,
+        "end": 92277,
+        "text": "Center for Data Insights and Innovation",
+        "chunk_id": 3623531217880844829
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10639215399530657593,
+        "start": 92256,
+        "end": 92277,
+        "text": "specific programs",
+        "chunk_id": 3623531217880844829
+      }
+    ]
+  }
+]

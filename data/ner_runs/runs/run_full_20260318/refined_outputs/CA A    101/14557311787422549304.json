@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8165269581113037175,
+    "source_group_id": 14557311787422549304,
+    "source_candidate_ids": [
+      5115084671581371251
+    ],
+    "entity": "Department of Resources Recycling and Recovery",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exceed the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 8275448092100054492,
+        "start": 761655,
+        "end": 761692,
+        "text": "Department of Resources Recycling and Recovery",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9046529503649368071,
+        "start": 761655,
+        "end": 761692,
+        "text": "government agency",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3558080386112711254,
+        "start": 761655,
+        "end": 761692,
+        "text": "restriction",
+        "chunk_id": 13156413962256335994
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4187266409154951340,
+        "start": 761655,
+        "end": 761692,
+        "text": "exceed the amount appropriated",
+        "chunk_id": 13156413962256335994
+      }
+    ]
+  }
+]

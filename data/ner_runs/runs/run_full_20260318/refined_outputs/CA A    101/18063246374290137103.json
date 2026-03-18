@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12977667735918711150,
+    "source_group_id": 18063246374290137103,
+    "source_candidate_ids": [
+      6211025443297553724
+    ],
+    "entity": "nia Breast Cancer Research Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "extensively",
+    "entity_evidence": [
+      {
+        "span_id": 7875566175156762685,
+        "start": 1342366,
+        "end": 1342390,
+        "text": "nia Breast Cancer Research Fund",
+        "chunk_id": 9829902212099740605
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18148587808890909601,
+        "start": 1342366,
+        "end": 1342390,
+        "text": "infrastructure",
+        "chunk_id": 9829902212099740605
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8333340186520272994,
+        "start": 1342366,
+        "end": 1342390,
+        "text": "support",
+        "chunk_id": 9829902212099740605
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12433500424196222131,
+        "start": 1342366,
+        "end": 1342390,
+        "text": "extensively",
+        "chunk_id": 9829902212099740605
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10884655855552565277,
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 9418179745183393874,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "until June 30, 2028",
+        "chunk_id": 18242622795369882134
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16419207668095984389,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "until June 30, 2028",
+        "chunk_id": 18242622795369882134
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6986332835717060407,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "until June 30, 2028",
+        "chunk_id": 18242622795369882134
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4456296835190042103,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "until June 30, 2028",
+        "chunk_id": 18242622795369882134
+      }
+    ]
+  },
+  {
+    "candidate_id": 13934000771974573122,
+    "entity": "California Workforce Development Board",
+    "type": "government agency",
+    "attribute": "eligibility",
+    "value": "community-based organizations and other nonprofits",
+    "entity_evidence": [
+      {
+        "span_id": 11640968951423317506,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "California Workforce Development Board",
+        "chunk_id": 18242622795369882134
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13061799040628967143,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "government agency",
+        "chunk_id": 18242622795369882134
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13948964932034368907,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "eligible for grants",
+        "chunk_id": 18242622795369882134
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15116064480051811470,
+        "start": 1395056,
+        "end": 1395076,
+        "text": "community-based organizations and other nonprofits",
+        "chunk_id": 18242622795369882134
+      }
+    ]
+  }
+]

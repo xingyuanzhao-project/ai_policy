@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11489203300789827578,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "deferred",
+    "entity_evidence": [
+      {
+        "span_id": 3209632261250381712,
+        "start": 1379179,
+        "end": 1379199,
+        "text": "The Chancellor's Office of the California Community Colleges",
+        "chunk_id": 17686634246898488180
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13800831655981652053,
+        "start": 1379179,
+        "end": 1379199,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 17686634246898488180
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13525102086790008858,
+        "start": 1379179,
+        "end": 1379199,
+        "text": "may transfer to Schedule (1) of this item appropriations from schedules within this item that provide categorical program funding and that are being deferred.",
+        "chunk_id": 17686634246898488180
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16223250938134745426,
+        "start": 1379179,
+        "end": 1379199,
+        "text": "deferred",
+        "chunk_id": 17686634246898488180
+      }
+    ]
+  },
+  {
+    "candidate_id": 16863042136017189760,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "notification",
+    "entity_evidence": [
+      {
+        "span_id": 5462813929119102389,
+        "start": 1379201,
+        "end": 1379213,
+        "text": "the Controller",
+        "chunk_id": 17686634246898488180
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6811149266449023862,
+        "start": 1379201,
+        "end": 1379213,
+        "text": "Controller",
+        "chunk_id": 17686634246898488180
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13918642960447460641,
+        "start": 1379201,
+        "end": 1379213,
+        "text": "notification to appropriate staff of the Controller",
+        "chunk_id": 17686634246898488180
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5058906252551578380,
+        "start": 1379201,
+        "end": 1379213,
+        "text": "notification",
+        "chunk_id": 17686634246898488180
+      }
+    ]
+  }
+]

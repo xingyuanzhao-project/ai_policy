@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6615736822491164405,
+    "entity": "state active duty employees",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "mandatory employee compensation increases",
+    "entity_evidence": [
+      {
+        "span_id": 6547932319421387964,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7880516813449622244,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5386484455486440505,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5310525208544908953,
+        "start": 1682667,
+        "end": 1682688,
+        "text": "mandatory employee compensation increases",
+        "chunk_id": 14011588082510796918
+      }
+    ]
+  },
+  {
+    "candidate_id": 743723369844928297,
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "cost increases for pay, basic allowances for housing and subsistence, cost-of-living, and salary driven benefit adjustments",
+    "entity_evidence": [
+      {
+        "span_id": 2160869882973643901,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12389678660596199276,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16487578858307469943,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17430803806131716952,
+        "start": 1682749,
+        "end": 1682764,
+        "text": "Military Department",
+        "chunk_id": 14011588082510796918
+      }
+    ]
+  }
+]

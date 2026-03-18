@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1371499486746971284,
+    "source_group_id": 2590446219974628201,
+    "source_candidate_ids": [
+      13210624991060932328
+    ],
+    "entity": "Greenhouse Gas Reduction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "payable",
+    "entity_evidence": [
+      {
+        "span_id": 5510177114737507525,
+        "start": 409401,
+        "end": 409421,
+        "text": "payable from the Greenhouse Gas Reduction Fund",
+        "chunk_id": 5927442697324672900
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12562412698340976220,
+        "start": 409401,
+        "end": 409421,
+        "text": "payable from the Greenhouse Gas Reduction Fund",
+        "chunk_id": 5927442697324672900
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13158479307344444405,
+        "start": 409401,
+        "end": 409421,
+        "text": "payable from the Greenhouse Gas Reduction Fund",
+        "chunk_id": 5927442697324672900
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2482360195724750082,
+        "start": 409401,
+        "end": 409421,
+        "text": "payable from the Greenhouse Gas Reduction Fund",
+        "chunk_id": 5927442697324672900
+      }
+    ]
+  }
+]

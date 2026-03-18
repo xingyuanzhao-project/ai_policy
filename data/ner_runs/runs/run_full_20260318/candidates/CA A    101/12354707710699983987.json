@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1787425796436515212,
+    "entity": "Department of Food and Agriculture",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "regulatory responsibilities",
+    "entity_evidence": [
+      {
+        "span_id": 2245967860426196460,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5625363456416933195,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "government agency",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2922063873047275771,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "regulation",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4125819773137598970,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "regulatory responsibilities",
+        "chunk_id": 12354707710699983987
+      }
+    ]
+  },
+  {
+    "candidate_id": 13143673847211016844,
+    "entity": "Pierce's Disease Management Account",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "combating Pierce's disease",
+    "entity_evidence": [
+      {
+        "span_id": 12692589490715057916,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "Pierce's Disease Management Account",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7924786134255622688,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "infrastructure",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 330720243475332515,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "regulation",
+        "chunk_id": 12354707710699983987
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7620450195657049181,
+        "start": 1621290,
+        "end": 1621310,
+        "text": "combating Pierce's disease",
+        "chunk_id": 12354707710699983987
+      }
+    ]
+  }
+]

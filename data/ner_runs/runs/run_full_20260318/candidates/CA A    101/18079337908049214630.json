@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10078813057692214356,
+    "entity": "Public Employment Relations Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 17501198917720680402,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13180491709921354396,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13312553361226638181,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10092350992199734216,
+        "start": 1502635,
+        "end": 1502657,
+        "text": "Public Employment Relations Board",
+        "chunk_id": 18079337908049214630
+      }
+    ]
+  },
+  {
+    "candidate_id": 2071232623748704488,
+    "entity": "Department of Industrial Relations",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 4940542164494349041,
+        "start": 1502638,
+        "end": 1502656,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2757894282110539936,
+        "start": 1502638,
+        "end": 1502656,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5856855045839882261,
+        "start": 1502638,
+        "end": 1502656,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 18079337908049214630
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11057518949946779135,
+        "start": 1502638,
+        "end": 1502656,
+        "text": "Department of Industrial Relations",
+        "chunk_id": 18079337908049214630
+      }
+    ]
+  }
+]

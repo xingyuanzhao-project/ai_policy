@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3049147903071382351,
+    "source_group_id": 18320818652498214145,
+    "source_candidate_ids": [
+      18008513014522819301
+    ],
+    "entity": "Trial Court Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7415916116695706396,
+        "start": 43586,
+        "end": 43610,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 17706184734818924766
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17337353416360504522,
+        "start": 43586,
+        "end": 43610,
+        "text": "infrastructure",
+        "chunk_id": 17706184734818924766
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17078495782214164159,
+        "start": 43586,
+        "end": 43610,
+        "text": "restriction",
+        "chunk_id": 17706184734818924766
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11261721441884904925,
+        "start": 43586,
+        "end": 43610,
+        "text": "limited",
+        "chunk_id": 17706184734818924766
+      }
+    ]
+  }
+]

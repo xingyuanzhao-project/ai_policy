@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16254234046989119493,
+    "entity": "Department of Pesticide Regulation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 6370585925566040647,
+        "start": 632158,
+        "end": 632184,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 11216273373115864337
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7978593467440691189,
+        "start": 632158,
+        "end": 632184,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 11216273373115864337
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18047280984082208764,
+        "start": 632158,
+        "end": 632184,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 11216273373115864337
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3771897585230633838,
+        "start": 632158,
+        "end": 632184,
+        "text": "until June 30, 2027",
+        "chunk_id": 11216273373115864337
+      }
+    ]
+  },
+  {
+    "candidate_id": 12645268829880822888,
+    "entity": "Department of Pesticide Regulation Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 1304953920862399159,
+        "start": 632788,
+        "end": 632814,
+        "text": "Department of Pesticide Regulation Fund",
+        "chunk_id": 11216273373115864337
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17700822981890946218,
+        "start": 632788,
+        "end": 632814,
+        "text": "Department of Pesticide Regulation Fund",
+        "chunk_id": 11216273373115864337
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4642943130030656207,
+        "start": 632788,
+        "end": 632814,
+        "text": "Department of Pesticide Regulation Fund",
+        "chunk_id": 11216273373115864337
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 352738293819129574,
+        "start": 632788,
+        "end": 632814,
+        "text": "until June 30, 2027",
+        "chunk_id": 11216273373115864337
+      }
+    ]
+  }
+]

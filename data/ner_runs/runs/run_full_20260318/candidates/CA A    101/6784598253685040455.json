@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17135324431854947117,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "50 percent",
+    "entity_evidence": [
+      {
+        "span_id": 1106579644991284513,
+        "start": 1251053,
+        "end": 1251076,
+        "text": "California Community Colleges",
+        "chunk_id": 6784598253685040455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4260191034239370822,
+        "start": 1251053,
+        "end": 1251076,
+        "text": "California Community Colleges",
+        "chunk_id": 6784598253685040455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13449468739383006449,
+        "start": 1251053,
+        "end": 1251076,
+        "text": "California Community Colleges",
+        "chunk_id": 6784598253685040455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14658078315278284711,
+        "start": 1251053,
+        "end": 1251076,
+        "text": "California Community Colleges",
+        "chunk_id": 6784598253685040455
+      }
+    ]
+  },
+  {
+    "candidate_id": 11859048852390813666,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "at least 6.0 full-time regional program consultants",
+    "entity_evidence": [
+      {
+        "span_id": 10837460425503556897,
+        "start": 1251087,
+        "end": 1251107,
+        "text": "State Department of Education",
+        "chunk_id": 6784598253685040455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12482539311523069961,
+        "start": 1251087,
+        "end": 1251107,
+        "text": "State Department of Education",
+        "chunk_id": 6784598253685040455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9255718433951866574,
+        "start": 1251087,
+        "end": 1251107,
+        "text": "State Department of Education",
+        "chunk_id": 6784598253685040455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3893403510012309119,
+        "start": 1251087,
+        "end": 1251107,
+        "text": "State Department of Education",
+        "chunk_id": 6784598253685040455
+      }
+    ]
+  }
+]

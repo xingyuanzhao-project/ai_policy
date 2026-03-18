@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2057843595258089667,
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 5686592414874080281,
+        "start": 327318,
+        "end": 327338,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 2731925889118843854
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18382173763606805259,
+        "start": 327318,
+        "end": 327338,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 2731925889118843854
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1687563694187102035,
+        "start": 327318,
+        "end": 327338,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 2731925889118843854
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17713914709077907676,
+        "start": 327318,
+        "end": 327338,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 2731925889118843854
+      }
+    ]
+  },
+  {
+    "candidate_id": 8009359362288348370,
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 17034312408736811141,
+        "start": 327441,
+        "end": 327461,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2027",
+        "chunk_id": 2731925889118843854
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11120873909631117138,
+        "start": 327441,
+        "end": 327461,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2027",
+        "chunk_id": 2731925889118843854
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13323221270610952097,
+        "start": 327441,
+        "end": 327461,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2027",
+        "chunk_id": 2731925889118843854
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1067059510760408160,
+        "start": 327441,
+        "end": 327461,
+        "text": "Funds appropriated in this item shall be available for allocation by the California Transportation Commission until June 30, 2027",
+        "chunk_id": 2731925889118843854
+      }
+    ]
+  }
+]

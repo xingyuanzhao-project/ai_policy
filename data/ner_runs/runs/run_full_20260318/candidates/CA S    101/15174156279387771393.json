@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2523874711136026866,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of student mental health resources",
+    "entity_evidence": [
+      {
+        "span_id": 8308208105855926576,
+        "start": 1312167,
+        "end": 1312188,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 15174156279387771393
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4018443129815193051,
+        "start": 1312167,
+        "end": 1312188,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 15174156279387771393
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15157158157045695522,
+        "start": 1312167,
+        "end": 1312188,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 15174156279387771393
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17412943268947245770,
+        "start": 1312167,
+        "end": 1312188,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 15174156279387771393
+      }
+    ]
+  },
+  {
+    "candidate_id": 17990136748945892336,
+    "entity": "community college district",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of basic needs centers",
+    "entity_evidence": [
+      {
+        "span_id": 4363894178860546309,
+        "start": 1312249,
+        "end": 1312266,
+        "text": "community college district",
+        "chunk_id": 15174156279387771393
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15208272941606688071,
+        "start": 1312249,
+        "end": 1312266,
+        "text": "community college district",
+        "chunk_id": 15174156279387771393
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13314770128755892894,
+        "start": 1312249,
+        "end": 1312266,
+        "text": "community college district",
+        "chunk_id": 15174156279387771393
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2409717716139646915,
+        "start": 1312249,
+        "end": 1312266,
+        "text": "community college district",
+        "chunk_id": 15174156279387771393
+      }
+    ]
+  }
+]

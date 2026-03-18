@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4516611071150754391,
+    "entity": "Legislative Analyst's Office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "available without regard to fiscal years",
+    "entity_evidence": [
+      {
+        "span_id": 12345796936216334147,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15468674538436666047,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11489343146768062828,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3339095441507552695,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ]
+  },
+  {
+    "candidate_id": 17838600724679881574,
+    "entity": "Assembly Operating Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "available without regard to fiscal years",
+    "entity_evidence": [
+      {
+        "span_id": 10306043388462012380,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13623383650017541470,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10508156809573774664,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12514861605765898113,
+        "start": 7494,
+        "end": 7509,
+        "text": "available without regard to fiscal years",
+        "chunk_id": 7415620956598736389
+      }
+    ]
+  }
+]

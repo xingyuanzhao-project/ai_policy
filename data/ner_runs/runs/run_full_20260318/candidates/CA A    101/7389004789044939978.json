@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4243534642993593720,
+    "entity": "Public Utilities Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 16177297018840213590,
+        "start": 1647181,
+        "end": 1647201,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4883973658891080110,
+        "start": 1647181,
+        "end": 1647201,
+        "text": "Public Utilities Commission",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10290370062134929939,
+        "start": 1647201,
+        "end": 1647211,
+        "text": "until June 30, 2028",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18361211318863326370,
+        "start": 1647201,
+        "end": 1647211,
+        "text": "until June 30, 2028",
+        "chunk_id": 7389004789044939978
+      }
+    ]
+  },
+  {
+    "candidate_id": 2638325468168437380,
+    "entity": "California Advanced Services Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 10456761537406937700,
+        "start": 1647290,
+        "end": 1647310,
+        "text": "California Advanced Services Fund",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12005042876265840878,
+        "start": 1647290,
+        "end": 1647310,
+        "text": "California Advanced Services Fund",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4010752729026240090,
+        "start": 1647310,
+        "end": 1647320,
+        "text": "until June 30, 2030",
+        "chunk_id": 7389004789044939978
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9287634681635597432,
+        "start": 1647310,
+        "end": 1647320,
+        "text": "until June 30, 2030",
+        "chunk_id": 7389004789044939978
+      }
+    ]
+  }
+]

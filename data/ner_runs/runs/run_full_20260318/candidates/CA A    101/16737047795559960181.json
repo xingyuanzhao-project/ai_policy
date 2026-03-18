@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8404811011709845892,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to grant allocation or review processes",
+    "entity_evidence": [
+      {
+        "span_id": 14985301492147323140,
+        "start": 1197391,
+        "end": 1197411,
+        "text": "State Department of Education",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8613452260716772694,
+        "start": 1197391,
+        "end": 1197411,
+        "text": "government agency",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13937571337413502782,
+        "start": 1197391,
+        "end": 1197411,
+        "text": "restriction",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5106101973820043421,
+        "start": 1197391,
+        "end": 1197411,
+        "text": "not subject to grant allocation or review processes",
+        "chunk_id": 16737047795559960181
+      }
+    ]
+  },
+  {
+    "candidate_id": 16269396252155243131,
+    "entity": "county office of education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "allocated by the Controller directly",
+    "entity_evidence": [
+      {
+        "span_id": 8141116123856257542,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "county office of education",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5907422745277105497,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "government agency",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8717471262614335204,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "restriction",
+        "chunk_id": 16737047795559960181
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14372872326730646195,
+        "start": 1197502,
+        "end": 1197523,
+        "text": "allocated by the Controller directly",
+        "chunk_id": 16737047795559960181
+      }
+    ]
+  }
+]

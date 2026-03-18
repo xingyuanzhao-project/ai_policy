@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11658548457249953958,
+    "source_group_id": 5532923642633803372,
+    "source_candidate_ids": [
+      6058711610770793984
+    ],
+    "entity": "State of Alaska general obligation bonds",
+    "type": "technology",
+    "attribute": "subsidy",
+    "value": "Qualified School Construction Bond interest subsidy payments",
+    "entity_evidence": [
+      {
+        "span_id": 4046832031464862618,
+        "start": 138622,
+        "end": 138646,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8020354677248106287,
+        "start": 138622,
+        "end": 138646,
+        "text": "technology",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9463790791575191161,
+        "start": 138622,
+        "end": 138646,
+        "text": "subsidy",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6542941964111924191,
+        "start": 138622,
+        "end": 138646,
+        "text": "Qualified School Construction Bond interest subsidy payments",
+        "chunk_id": 3130445431534950979
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17400963777218289764,
+    "entity": "Arkansas Code Title 6, Subtitle 5",
+    "type": "government agency",
+    "attribute": "governance",
+    "value": "postsecondary or higher education institution",
+    "entity_evidence": [
+      {
+        "span_id": 8408723248477378387,
+        "start": 10133,
+        "end": 10167,
+        "text": "A postsecondary or higher education institution governed by Arkansas Code Title 6, Subtitle 5;",
+        "chunk_id": 4210567234708905722
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15398026426465945660,
+        "start": 10133,
+        "end": 10167,
+        "text": "governed by",
+        "chunk_id": 4210567234708905722
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8203526284887528414,
+        "start": 10133,
+        "end": 10167,
+        "text": "governed by",
+        "chunk_id": 4210567234708905722
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3042677406521195574,
+        "start": 10133,
+        "end": 10167,
+        "text": "postsecondary or higher education institution",
+        "chunk_id": 4210567234708905722
+      }
+    ]
+  },
+  {
+    "candidate_id": 17737086778575870962,
+    "entity": "Arkansas Code Title 4, Chapter 28",
+    "type": "government agency",
+    "attribute": "governance",
+    "value": "corporation",
+    "entity_evidence": [
+      {
+        "span_id": 16990835930769841943,
+        "start": 10133,
+        "end": 10157,
+        "text": "A corporation governed by Arkansas Code Title 4, Chapter 28",
+        "chunk_id": 4210567234708905722
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9856259251589299205,
+        "start": 10133,
+        "end": 10157,
+        "text": "governed by",
+        "chunk_id": 4210567234708905722
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17515608103138293899,
+        "start": 10133,
+        "end": 10157,
+        "text": "governed by",
+        "chunk_id": 4210567234708905722
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18001048684419925486,
+        "start": 10133,
+        "end": 10157,
+        "text": "corporation",
+        "chunk_id": 4210567234708905722
+      }
+    ]
+  }
+]

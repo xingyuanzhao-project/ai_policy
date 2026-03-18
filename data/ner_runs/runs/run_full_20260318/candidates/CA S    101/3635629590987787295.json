@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5231778729946311858,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandates pursuant to Chapter 737 of the Statutes of 2004",
+    "entity_evidence": [
+      {
+        "span_id": 10880203403268404209,
+        "start": 1302225,
+        "end": 1302245,
+        "text": "mandates pursuant to Chapter 737 of the Statutes of 2004",
+        "chunk_id": 3635629590987787295
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2250194905042557479,
+        "start": 1302225,
+        "end": 1302245,
+        "text": "mandates pursuant to Chapter 737 of the Statutes of 2004",
+        "chunk_id": 3635629590987787295
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8388902633011482360,
+        "start": 1302225,
+        "end": 1302245,
+        "text": "mandates pursuant to Chapter 737 of the Statutes of 2004",
+        "chunk_id": 3635629590987787295
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1732313542779651003,
+        "start": 1302225,
+        "end": 1302245,
+        "text": "mandates pursuant to Chapter 737 of the Statutes of 2004",
+        "chunk_id": 3635629590987787295
+      }
+    ]
+  },
+  {
+    "candidate_id": 645225010534582644,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "subsidy",
+    "value": "additional textbook assistance grants",
+    "entity_evidence": [
+      {
+        "span_id": 11076925149727422665,
+        "start": 1302102,
+        "end": 1302126,
+        "text": "California Community Colleges",
+        "chunk_id": 3635629590987787295
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7293935309318615198,
+        "start": 1302102,
+        "end": 1302126,
+        "text": "California Community Colleges",
+        "chunk_id": 3635629590987787295
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6002865338041764291,
+        "start": 1302102,
+        "end": 1302126,
+        "text": "California Community Colleges",
+        "chunk_id": 3635629590987787295
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9038656132784742554,
+        "start": 1302102,
+        "end": 1302126,
+        "text": "California Community Colleges",
+        "chunk_id": 3635629590987787295
+      }
+    ]
+  }
+]

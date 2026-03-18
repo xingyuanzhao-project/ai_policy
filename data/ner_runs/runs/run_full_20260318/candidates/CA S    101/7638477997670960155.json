@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3061425876279153651,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to review and approval",
+    "entity_evidence": [
+      {
+        "span_id": 1759243486268174188,
+        "start": 970688,
+        "end": 970705,
+        "text": "subject to review and approval by, the State Department of Social Services",
+        "chunk_id": 7638477997670960155
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9943140213848173387,
+        "start": 970688,
+        "end": 970705,
+        "text": "the State Department of Social Services",
+        "chunk_id": 7638477997670960155
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8473942165263857764,
+        "start": 970688,
+        "end": 970705,
+        "text": "subject to review and approval by, the State Department of Social Services",
+        "chunk_id": 7638477997670960155
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17751828529818688439,
+        "start": 970688,
+        "end": 970705,
+        "text": "subject to review and approval by, the State Department of Social Services",
+        "chunk_id": 7638477997670960155
+      }
+    ]
+  },
+  {
+    "candidate_id": 16930539697439670609,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "through contracts with community-based providers or entities",
+    "entity_evidence": [
+      {
+        "span_id": 2070467625320245576,
+        "start": 970757,
+        "end": 970774,
+        "text": "The State Department of Social Services shall allocate funds through contracts with community-based providers or entities",
+        "chunk_id": 7638477997670960155
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13236723037299022590,
+        "start": 970757,
+        "end": 970774,
+        "text": "The State Department of Social Services shall allocate funds through contracts with community-based providers or entities",
+        "chunk_id": 7638477997670960155
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7331568658886793774,
+        "start": 970757,
+        "end": 970774,
+        "text": "The State Department of Social Services shall allocate funds through contracts with community-based providers or entities",
+        "chunk_id": 7638477997670960155
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4113873998061977956,
+        "start": 970757,
+        "end": 970774,
+        "text": "The State Department of Social Services shall allocate funds through contracts with community-based providers or entities",
+        "chunk_id": 7638477997670960155
+      }
+    ]
+  }
+]

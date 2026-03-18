@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16147196437830461427,
+    "source_group_id": 10327042398788880845,
+    "source_candidate_ids": [
+      17885576171605548813
+    ],
+    "entity": "Department of Conservation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 4984921303540775637,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8268137119098163344,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13200923363286054657,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8191112891390571341,
+        "start": 493856,
+        "end": 493876,
+        "text": "until June 30, 2027",
+        "chunk_id": 10664844072438020980
+      }
+    ]
+  }
+]

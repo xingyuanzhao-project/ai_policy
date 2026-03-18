@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17901988080067334958,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1903583564486372279,
+        "start": 40671,
+        "end": 40682,
+        "text": "The Judicial Council",
+        "chunk_id": 4307726639616643057
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4347117299491772258,
+        "start": 40671,
+        "end": 40682,
+        "text": "The Judicial Council",
+        "chunk_id": 4307726639616643057
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15502523557749636173,
+        "start": 40671,
+        "end": 40682,
+        "text": "The Judicial Council",
+        "chunk_id": 4307726639616643057
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10659791361968650513,
+        "start": 40671,
+        "end": 40682,
+        "text": "The Judicial Council",
+        "chunk_id": 4307726639616643057
+      }
+    ]
+  },
+  {
+    "candidate_id": 6699183671138772348,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1151330243505233780,
+        "start": 40783,
+        "end": 40803,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 4307726639616643057
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13036486858780730786,
+        "start": 40783,
+        "end": 40803,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 4307726639616643057
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6652979309044533173,
+        "start": 40783,
+        "end": 40803,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 4307726639616643057
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10166458257151626296,
+        "start": 40783,
+        "end": 40803,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 4307726639616643057
+      }
+    ]
+  }
+]

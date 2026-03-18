@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5751878618449533298,
+    "entity": "State Coastal Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 17356463368491377819,
+        "start": 531501,
+        "end": 531524,
+        "text": "The funds appropriated in this item are available for either local assistance or capital outlay until June 30, 2027.",
+        "chunk_id": 9777676284952735007
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10800299843902378561,
+        "start": 531501,
+        "end": 531524,
+        "text": "The funds appropriated in this item are available for either local assistance or capital outlay until June 30, 2027.",
+        "chunk_id": 9777676284952735007
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9819700301331088008,
+        "start": 531501,
+        "end": 531524,
+        "text": "The funds appropriated in this item are available for either local assistance or capital outlay until June 30, 2027.",
+        "chunk_id": 9777676284952735007
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1180065551566261104,
+        "start": 531501,
+        "end": 531524,
+        "text": "The funds appropriated in this item are available for either local assistance or capital outlay until June 30, 2027.",
+        "chunk_id": 9777676284952735007
+      }
+    ]
+  },
+  {
+    "candidate_id": 6732339267930844607,
+    "entity": "State Coastal Conservancy Fund",
+    "type": "infrastructure",
+    "attribute": "subsidy",
+    "value": "$2,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 4479674352780850010,
+        "start": 531501,
+        "end": 531527,
+        "text": "Notwithstanding any other law, one or more loans, not to exceed a cumulative total of $2,000,000, shall be made available from the General Fund to the State Coastal Conservancy Fund,",
+        "chunk_id": 9777676284952735007
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3302948992484742270,
+        "start": 531501,
+        "end": 531527,
+        "text": "Notwithstanding any other law, one or more loans, not to exceed a cumulative total of $2,000,000, shall be made available from the General Fund to the State Coastal Conservancy Fund,",
+        "chunk_id": 9777676284952735007
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1069866873114629251,
+        "start": 531501,
+        "end": 531527,
+        "text": "Notwithstanding any other law, one or more loans, not to exceed a cumulative total of $2,000,000, shall be made available from the General Fund to the State Coastal Conservancy Fund,",
+        "chunk_id": 9777676284952735007
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11500067164702362340,
+        "start": 531501,
+        "end": 531527,
+        "text": "Notwithstanding any other law, one or more loans, not to exceed a cumulative total of $2,000,000, shall be made available from the General Fund to the State Coastal Conservancy Fund,",
+        "chunk_id": 9777676284952735007
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3788433209655095130,
+    "source_group_id": 13107728929430974525,
+    "source_candidate_ids": [
+      579458819924045281
+    ],
+    "entity": "California Witness Relocation and Assistance Program (CalWRAP)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2223267787884316752,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15616480868868815017,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17371090416472823831,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2777238354571451702,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ]
+  }
+]

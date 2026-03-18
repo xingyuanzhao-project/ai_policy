@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11134208660781155637,
+    "source_group_id": 6259928707087166224,
+    "source_candidate_ids": [
+      10900145129067864711
+    ],
+    "entity": "oil and hazardous substance release response account",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14826912285446759453,
+        "start": 157299,
+        "end": 157321,
+        "text": "oil and hazardous substance release response account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8988110219791509857,
+        "start": 157299,
+        "end": 157321,
+        "text": "account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10713609431626793650,
+        "start": 157299,
+        "end": 157321,
+        "text": "account",
+        "chunk_id": 3357432621809856032
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3000549259129482134,
+        "start": 157299,
+        "end": 157321,
+        "text": "account",
+        "chunk_id": 3357432621809856032
+      }
+    ]
+  }
+]

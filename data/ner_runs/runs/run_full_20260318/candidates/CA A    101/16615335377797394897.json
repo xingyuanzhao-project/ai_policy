@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7991195950495465294,
+    "entity": "county employees",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "commensurate with or greater than",
+    "entity_evidence": [
+      {
+        "span_id": 16356300866536991104,
+        "start": 34027,
+        "end": 34040,
+        "text": "county employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4344876031356223404,
+        "start": 34027,
+        "end": 34040,
+        "text": "county employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 739343414479404718,
+        "start": 34027,
+        "end": 34040,
+        "text": "county employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 852730371442201030,
+        "start": 34027,
+        "end": 34040,
+        "text": "commensurate with or greater than",
+        "chunk_id": 16615335377797394897
+      }
+    ]
+  },
+  {
+    "candidate_id": 293468326798167995,
+    "entity": "public employees",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "similar job classifications",
+    "entity_evidence": [
+      {
+        "span_id": 6715981035292161417,
+        "start": 34027,
+        "end": 34040,
+        "text": "public employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11602833349529116751,
+        "start": 34027,
+        "end": 34040,
+        "text": "public employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17323706510263470694,
+        "start": 34027,
+        "end": 34040,
+        "text": "public employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1897767926320321052,
+        "start": 34027,
+        "end": 34040,
+        "text": "similar job classifications",
+        "chunk_id": 16615335377797394897
+      }
+    ]
+  }
+]

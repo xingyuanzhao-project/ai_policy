@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8962256699463594,
+    "source_group_id": 3086215647031439342,
+    "source_candidate_ids": [
+      7369388106769478198
+    ],
+    "entity": "Permanent Fund Corporation Gross",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 1110914671174816231,
+        "start": 70724,
+        "end": 70748,
+        "text": "Permanent Fund Corporation Gross",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16931860862456498285,
+        "start": 70724,
+        "end": 70748,
+        "text": "technology",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4111398282390472746,
+        "start": 70724,
+        "end": 70748,
+        "text": "restriction",
+        "chunk_id": 3657675846817538064
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4787328535368375599,
+        "start": 70724,
+        "end": 70748,
+        "text": "extremely restrictive",
+        "chunk_id": 3657675846817538064
+      }
+    ]
+  }
+]

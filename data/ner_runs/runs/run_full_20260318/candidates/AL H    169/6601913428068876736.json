@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5073905595829062562,
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidance",
+    "entity_evidence": [
+      {
+        "span_id": 7589426221967854081,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16259002892683954606,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6557605365794872092,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4818200433007576826,
+        "start": 31817,
+        "end": 31836,
+        "text": "State Board of Education",
+        "chunk_id": 6601913428068876736
+      }
+    ]
+  },
+  {
+    "candidate_id": 6731443919199586395,
+    "entity": "local boards of education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "flexibility",
+    "entity_evidence": [
+      {
+        "span_id": 12314018905681088465,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17772008712636379371,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16249984190656452453,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2703577199413471830,
+        "start": 31929,
+        "end": 31945,
+        "text": "local boards of education",
+        "chunk_id": 6601913428068876736
+      }
+    ]
+  }
+]

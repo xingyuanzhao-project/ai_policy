@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6164672821856298017,
+    "entity": "Homeless recovery telehealth pilot program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "statewide",
+    "entity_evidence": [
+      {
+        "span_id": 8723606127352081445,
+        "start": 0,
+        "end": 29,
+        "text": "Homeless recovery telehealth pilot program",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4014937164480921671,
+        "start": 0,
+        "end": 29,
+        "text": "program",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18176953751856564194,
+        "start": 0,
+        "end": 29,
+        "text": "establish",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16725463752050479288,
+        "start": 0,
+        "end": 29,
+        "text": "statewide",
+        "chunk_id": 193461994671174365
+      }
+    ]
+  },
+  {
+    "candidate_id": 5689027400444892799,
+    "entity": "Telehealth provider",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "competitive bidding process",
+    "entity_evidence": [
+      {
+        "span_id": 8154275220957614730,
+        "start": 29,
+        "end": 43,
+        "text": "telehealth provider",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12204299566440770537,
+        "start": 29,
+        "end": 43,
+        "text": "provider",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11590714171136759086,
+        "start": 29,
+        "end": 43,
+        "text": "select",
+        "chunk_id": 193461994671174365
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3452177042805231243,
+        "start": 29,
+        "end": 43,
+        "text": "competitive bidding process",
+        "chunk_id": 193461994671174365
+      }
+    ]
+  }
+]

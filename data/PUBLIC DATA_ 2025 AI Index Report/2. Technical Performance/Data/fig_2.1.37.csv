@@ -1,0 +1,23 @@
+year,benchmark,task,country,best_model_score,metric_name
+2024,MMLU,General language,United States,92.3,mean_accuracy_perc
+2024,MMLU,General language,China,88.4,mean_accuracy_perc
+2023,MMLU,General language,United States,86.5,mean_accuracy_perc
+2023,MMLU,General language,China,69,mean_accuracy_perc
+2022,MMLU,General language,United States,74.1,mean_accuracy_perc
+2022,MMLU,General language,China,44.8,mean_accuracy_perc
+2024,MMMU,General reasoning,United States,78.2,overall_accuracy
+2024,MMMU,General reasoning,China,70.3,overall_accuracy
+2023,MMMU,General reasoning,United States,59.4,overall_accuracy
+2023,MMMU,General reasoning,China,45.9,overall_accuracy
+2024,MATH,Mathematical reasoning,United States,89.7,accuracy
+2024,MATH,Mathematical reasoning,China,88.1,accuracy
+2023,MATH,Mathematical reasoning,United States,84.3,accuracy
+2023,MATH,Mathematical reasoning,China,60,accuracy
+2022,MATH,Mathematical reasoning,United States,64.9,accuracy
+2022,MATH,Mathematical reasoning,China,,accuracy
+2024,HumanEval,Coding,United States,98.2,pass@1
+2024,HumanEval,Coding,China,94.5,pass@1
+2023,HumanEval,Coding,United States,93.3,pass@1
+2023,HumanEval,Coding,China,61.64,pass@1
+2022,HumanEval,Coding,United States,85.1,pass@1
+2022,HumanEval,Coding,China,23.8,pass@1

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7257397052327405463,
+    "entity": "Medi-Cal",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3448170797661166600,
+        "start": 759404,
+        "end": 759410,
+        "text": "Medi-Cal",
+        "chunk_id": 4252204687725062430
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10285567986561559184,
+        "start": 759404,
+        "end": 759411,
+        "text": "technology",
+        "chunk_id": 4252204687725062430
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4851481249830203681,
+        "start": 759404,
+        "end": 759414,
+        "text": "restriction",
+        "chunk_id": 4252204687725062430
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17861076517473483405,
+        "start": 759404,
+        "end": 759419,
+        "text": "extremely restrictive",
+        "chunk_id": 4252204687725062430
+      }
+    ]
+  },
+  {
+    "candidate_id": 14303591260947681124,
+    "entity": "California Medical Assistance Program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "state's share of payments",
+    "entity_evidence": [
+      {
+        "span_id": 15001747754855224761,
+        "start": 759404,
+        "end": 759434,
+        "text": "California Medical Assistance Program",
+        "chunk_id": 4252204687725062430
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7210601385509096,
+        "start": 759404,
+        "end": 759435,
+        "text": "infrastructure",
+        "chunk_id": 4252204687725062430
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7555670948019033540,
+        "start": 759404,
+        "end": 759438,
+        "text": "promotion",
+        "chunk_id": 4252204687725062430
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4254401824370553031,
+        "start": 759404,
+        "end": 759443,
+        "text": "state's share of payments",
+        "chunk_id": 4252204687725062430
+      }
+    ]
+  }
+]

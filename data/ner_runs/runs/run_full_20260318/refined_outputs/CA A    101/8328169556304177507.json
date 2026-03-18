@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5383554447085526802,
+    "source_group_id": 8328169556304177507,
+    "source_candidate_ids": [
+      6991405199115990486
+    ],
+    "entity": "Textile Stewardship Recovery Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 9311421490658603787,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5486700136885504347,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16029902185006680505,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5899730964120302136,
+        "start": 775175,
+        "end": 775192,
+        "text": "the Textile Stewardship Recovery Fund",
+        "chunk_id": 12439249163633846087
+      }
+    ]
+  }
+]

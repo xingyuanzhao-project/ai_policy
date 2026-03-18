@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17551521820179770963,
+    "source_group_id": 8668853917657365636,
+    "source_candidate_ids": [
+      6992848950067311832
+    ],
+    "entity": "California Longitudinal Pupil Achievement Data System (CALPADS)",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3861015358648111089,
+        "start": 1162579,
+        "end": 1162609,
+        "text": "California Longitudinal Pupil Achievement Data System (CALPADS)",
+        "chunk_id": 14930703953916937306
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6060015427748734691,
+        "start": 1162579,
+        "end": 1162609,
+        "text": "California Longitudinal Pupil Achievement Data System (CALPADS)",
+        "chunk_id": 14930703953916937306
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16494765803313524618,
+        "start": 1162579,
+        "end": 1162609,
+        "text": "California Longitudinal Pupil Achievement Data System (CALPADS)",
+        "chunk_id": 14930703953916937306
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1264627784345865594,
+        "start": 1162579,
+        "end": 1162609,
+        "text": "California Longitudinal Pupil Achievement Data System (CALPADS)",
+        "chunk_id": 14930703953916937306
+      }
+    ]
+  }
+]

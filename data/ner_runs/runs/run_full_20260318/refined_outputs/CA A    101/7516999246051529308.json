@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6020216525008092852,
+    "source_group_id": 7516999246051529308,
+    "source_candidate_ids": [
+      10092856349112506126
+    ],
+    "entity": "CCCApply",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2273910568895386497,
+        "start": 1424160,
+        "end": 1424168,
+        "text": "CCCApply",
+        "chunk_id": 2550868719587661150
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2215269181901709465,
+        "start": 1424160,
+        "end": 1424168,
+        "text": "CCCApply",
+        "chunk_id": 2550868719587661150
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3362222082876434798,
+        "start": 1424160,
+        "end": 1424168,
+        "text": "CCCApply",
+        "chunk_id": 2550868719587661150
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10865439339428950584,
+        "start": 1424160,
+        "end": 1424168,
+        "text": "CCCApply",
+        "chunk_id": 2550868719587661150
+      }
+    ]
+  }
+]

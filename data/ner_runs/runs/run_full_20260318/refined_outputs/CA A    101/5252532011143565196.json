@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 641609761492615588,
+    "source_group_id": 5252532011143565196,
+    "source_candidate_ids": [
+      16075188733482103402
+    ],
+    "entity": "United States Department of Education Office for Civil Rights",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "deficiencies",
+    "entity_evidence": [
+      {
+        "span_id": 11494066007152876084,
+        "start": 1389122,
+        "end": 1389145,
+        "text": "address deficiencies identified by the United States Department of Education Office for Civil Rights",
+        "chunk_id": 11486567414696200051
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4330490107980420773,
+        "start": 1389122,
+        "end": 1389145,
+        "text": "United States Department of Education Office for Civil Rights",
+        "chunk_id": 11486567414696200051
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5942907941648316975,
+        "start": 1389122,
+        "end": 1389145,
+        "text": "address deficiencies",
+        "chunk_id": 11486567414696200051
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9608872796742490925,
+        "start": 1389122,
+        "end": 1389145,
+        "text": "deficiencies",
+        "chunk_id": 11486567414696200051
+      }
+    ]
+  }
+]

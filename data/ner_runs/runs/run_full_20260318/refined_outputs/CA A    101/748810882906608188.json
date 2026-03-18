@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7123489602749601638,
+    "source_group_id": 748810882906608188,
+    "source_candidate_ids": [
+      2243598204915298773
+    ],
+    "entity": "Systemwide Common Data Platform",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "development and implementation",
+    "entity_evidence": [
+      {
+        "span_id": 3631853446951172566,
+        "start": 1456834,
+        "end": 1456868,
+        "text": "Systemwide Common Data Platform",
+        "chunk_id": 12285009213367649075
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15707190315778981265,
+        "start": 1456834,
+        "end": 1456868,
+        "text": "technology",
+        "chunk_id": 12285009213367649075
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5129487361642473674,
+        "start": 1456834,
+        "end": 1456868,
+        "text": "promotion",
+        "chunk_id": 12285009213367649075
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 334436825146981393,
+        "start": 1456834,
+        "end": 1456868,
+        "text": "development and implementation",
+        "chunk_id": 12285009213367649075
+      }
+    ]
+  }
+]

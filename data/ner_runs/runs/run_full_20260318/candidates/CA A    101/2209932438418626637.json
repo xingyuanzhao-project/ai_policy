@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1828788118759719810,
+    "entity": "Humboldt State University",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "polytechnic university",
+    "entity_evidence": [
+      {
+        "span_id": 9075529967261629980,
+        "start": 1352988,
+        "end": 1353006,
+        "text": "Humboldt State University",
+        "chunk_id": 2209932438418626637
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11810707761840044128,
+        "start": 1352988,
+        "end": 1353006,
+        "text": "Humboldt State University",
+        "chunk_id": 2209932438418626637
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14744961808074454602,
+        "start": 1352988,
+        "end": 1353006,
+        "text": "Humboldt State University",
+        "chunk_id": 2209932438418626637
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7144181911746956440,
+        "start": 1352988,
+        "end": 1353006,
+        "text": "Humboldt State University",
+        "chunk_id": 2209932438418626637
+      }
+    ]
+  },
+  {
+    "candidate_id": 80897427251513350,
+    "entity": "Graduation Initiative 2025",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "equity gaps in graduation rates",
+    "entity_evidence": [
+      {
+        "span_id": 15013688068694131065,
+        "start": 1353067,
+        "end": 1353087,
+        "text": "Graduation Initiative 2025",
+        "chunk_id": 2209932438418626637
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15664980470597719125,
+        "start": 1353067,
+        "end": 1353087,
+        "text": "Graduation Initiative 2025",
+        "chunk_id": 2209932438418626637
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16401938340871698820,
+        "start": 1353067,
+        "end": 1353087,
+        "text": "Graduation Initiative 2025",
+        "chunk_id": 2209932438418626637
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1812741598499413984,
+        "start": 1353067,
+        "end": 1353087,
+        "text": "Graduation Initiative 2025",
+        "chunk_id": 2209932438418626637
+      }
+    ]
+  }
+]

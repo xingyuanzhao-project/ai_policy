@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14251005308415793250,
+    "source_group_id": 10167478526607375944,
+    "source_candidate_ids": [
+      7257000824922214205
+    ],
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 10569315297070794623,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16307970227543003554,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14691546344517261677,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11080736518124184262,
+        "start": 152159,
+        "end": 152183,
+        "text": "For local assistance, Office of Emergency Services",
+        "chunk_id": 4362566473318884279
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9554645427550317613,
+    "source_group_id": 3378718130801186490,
+    "source_candidate_ids": [
+      10496919026500130110
+    ],
+    "entity": "Public Employment Relations Act",
+    "type": "legislation",
+    "attribute": "promotion",
+    "value": "encouraged",
+    "entity_evidence": [
+      {
+        "span_id": 130444713192070697,
+        "start": 172340,
+        "end": 172359,
+        "text": "Public Employment Relations Act",
+        "chunk_id": 12247772207055509064
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11054600006777320243,
+        "start": 172340,
+        "end": 172359,
+        "text": "legislation",
+        "chunk_id": 12247772207055509064
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4415388959055050855,
+        "start": 172340,
+        "end": 172359,
+        "text": "promotion",
+        "chunk_id": 12247772207055509064
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13618315594934246800,
+        "start": 172340,
+        "end": 172359,
+        "text": "encouraged",
+        "chunk_id": 12247772207055509064
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14833117645844775728,
+    "entity": "social media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17606481584937356974,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15404028304381707717,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2324722658984172413,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7350927941103280590,
+        "start": 134,
+        "end": 144,
+        "text": "social media",
+        "chunk_id": 264578996200234137
+      }
+    ]
+  },
+  {
+    "candidate_id": 2305273230636514492,
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "encouragement of digital literacy",
+    "entity_evidence": [
+      {
+        "span_id": 8912121460884504460,
+        "start": 245,
+        "end": 265,
+        "text": "artificial intelligence",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13974961766039783372,
+        "start": 245,
+        "end": 265,
+        "text": "artificial intelligence",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9251282005331849316,
+        "start": 245,
+        "end": 265,
+        "text": "artificial intelligence",
+        "chunk_id": 264578996200234137
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6799550635832540460,
+        "start": 245,
+        "end": 265,
+        "text": "artificial intelligence",
+        "chunk_id": 264578996200234137
+      }
+    ]
+  }
+]

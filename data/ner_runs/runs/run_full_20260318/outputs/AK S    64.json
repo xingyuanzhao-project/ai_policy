@@ -1,0 +1,2354 @@
+[
+  {
+    "refined_id": 11369983452134204319,
+    "source_group_id": 12200191166548645010,
+    "source_candidate_ids": [
+      13744323894870297848,
+      399398821002583284
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "presumptive evidence",
+    "entity_evidence": [
+      {
+        "span_id": 13446222866576216125,
+        "start": 444,
+        "end": 454,
+        "text": "presumptive evidence",
+        "chunk_id": 13759438540733859178
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10259622081354469838,
+        "start": 444,
+        "end": 454,
+        "text": "presumptive evidence",
+        "chunk_id": 13759438540733859178
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12186848143343497507,
+        "start": 2269,
+        "end": 2280,
+        "text": "presumptive evidence",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4668060875110962720,
+        "start": 2281,
+        "end": 2291,
+        "text": "presumptive evidence",
+        "chunk_id": 3645768402558312072
+      }
+    ]
+  },
+  {
+    "refined_id": 12789042264781566339,
+    "source_group_id": 2668796921050963656,
+    "source_candidate_ids": [
+      10824478573034386250
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "negated",
+    "entity_evidence": [
+      {
+        "span_id": 4935214625399065927,
+        "start": 1045,
+        "end": 1051,
+        "text": "ONLY",
+        "chunk_id": 13759438540733859178
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10648522174235702928,
+        "start": 1045,
+        "end": 1051,
+        "text": "ONLY",
+        "chunk_id": 13759438540733859178
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2091129501627065839,
+        "start": 1045,
+        "end": 1051,
+        "text": "ONLY",
+        "chunk_id": 13759438540733859178
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17872278705695439408,
+        "start": 1045,
+        "end": 1051,
+        "text": "ONLY",
+        "chunk_id": 13759438540733859178
+      }
+    ]
+  },
+  {
+    "refined_id": 4135882913234698239,
+    "source_group_id": 4946624179276202019,
+    "source_candidate_ids": [
+      939338941004563612
+    ],
+    "entity": "driver’s license",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 18271456423882368401,
+        "start": 2392,
+        "end": 2402,
+        "text": "driver’s license",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8913416833705768959,
+        "start": 2392,
+        "end": 2402,
+        "text": "driver’s license",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12930622860120225762,
+        "start": 2403,
+        "end": 2411,
+        "text": "identification",
+        "chunk_id": 3645768402558312072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9365322463104559083,
+        "start": 2403,
+        "end": 2411,
+        "text": "identification",
+        "chunk_id": 3645768402558312072
+      }
+    ]
+  },
+  {
+    "refined_id": 14538988017318487051,
+    "source_group_id": 17693315330181370833,
+    "source_candidate_ids": [
+      4984967029788279720
+    ],
+    "entity": "voter information",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "security measures",
+    "entity_evidence": [
+      {
+        "span_id": 8364784467520549528,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15610978363387064430,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13546285749230908592,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8939705883764703252,
+        "start": 5073,
+        "end": 5080,
+        "text": "security measures",
+        "chunk_id": 13555725184130605255
+      }
+    ]
+  },
+  {
+    "refined_id": 13358355731666428014,
+    "source_group_id": 14874330047272181029,
+    "source_candidate_ids": [
+      14330689339833306648
+    ],
+    "entity": "voter registration",
+    "type": "infrastructure",
+    "attribute": "maintenance",
+    "value": "confirming residency",
+    "entity_evidence": [
+      {
+        "span_id": 9365322962964303118,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1025557901942294441,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 395138410643561261,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3134846903155899641,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ]
+  },
+  {
+    "refined_id": 6942459465795701995,
+    "source_group_id": 4188981283550461863,
+    "source_candidate_ids": [
+      6388218625984082172
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8167743856901451488,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1055629576894101937,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15072043680930653768,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6590734034351663002,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ]
+  },
+  {
+    "refined_id": 1639954396108035485,
+    "source_group_id": 9606630275484716933,
+    "source_candidate_ids": [
+      6905823437099082733
+    ],
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderately restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4943287268176600905,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14231144891592342909,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17120467568613301911,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8874762045074331839,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ]
+  },
+  {
+    "refined_id": 3566131705175908043,
+    "source_group_id": 10510941957838224634,
+    "source_candidate_ids": [
+      405640994220505888
+    ],
+    "entity": "voter registration records",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extensive review",
+    "entity_evidence": [
+      {
+        "span_id": 1060126958902827793,
+        "start": 10229,
+        "end": 10253,
+        "text": "The division shall adopt regulations to review voter registration records",
+        "chunk_id": 16735130361240810277
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15600163831779638781,
+        "start": 10229,
+        "end": 10253,
+        "text": "The division shall adopt regulations to review voter registration records",
+        "chunk_id": 16735130361240810277
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6922248284819275140,
+        "start": 10229,
+        "end": 10253,
+        "text": "The division shall adopt regulations to review voter registration records",
+        "chunk_id": 16735130361240810277
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8854746067512092695,
+        "start": 10229,
+        "end": 10253,
+        "text": "The division shall adopt regulations to review voter registration records",
+        "chunk_id": 16735130361240810277
+      }
+    ]
+  },
+  {
+    "refined_id": 11538716366665214188,
+    "source_group_id": 4085454853734389263,
+    "source_candidate_ids": [
+      7301701583836141816
+    ],
+    "entity": "master register",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extensive review",
+    "entity_evidence": [
+      {
+        "span_id": 12366810868806917909,
+        "start": 10229,
+        "end": 10241,
+        "text": "The division shall adopt regulations to review voter registration records and update the master register",
+        "chunk_id": 16735130361240810277
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18170024841082218019,
+        "start": 10229,
+        "end": 10241,
+        "text": "The division shall adopt regulations to review voter registration records and update the master register",
+        "chunk_id": 16735130361240810277
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4600454219842603704,
+        "start": 10229,
+        "end": 10241,
+        "text": "The division shall adopt regulations to review voter registration records and update the master register",
+        "chunk_id": 16735130361240810277
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3549746241798149000,
+        "start": 10229,
+        "end": 10241,
+        "text": "The division shall adopt regulations to review voter registration records and update the master register",
+        "chunk_id": 16735130361240810277
+      }
+    ]
+  },
+  {
+    "refined_id": 16441768194347624855,
+    "source_group_id": 4502579872115188086,
+    "source_candidate_ids": [
+      928577412467090864
+    ],
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 16504997683146579256,
+        "start": 12971,
+        "end": 12976,
+        "text": "director",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8043754002916607870,
+        "start": 12971,
+        "end": 12976,
+        "text": "director",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16895322913529124924,
+        "start": 12971,
+        "end": 12976,
+        "text": "director",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7703113902582789071,
+        "start": 12971,
+        "end": 12976,
+        "text": "director",
+        "chunk_id": 2595682642483700741
+      }
+    ]
+  },
+  {
+    "refined_id": 12669428339810897418,
+    "source_group_id": 13924322866535963893,
+    "source_candidate_ids": [
+      12213034538728598983
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 17450263523677565457,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7814187094942807043,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18024413016036740345,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18328686688561462513,
+        "start": 13304,
+        "end": 13309,
+        "text": "voter",
+        "chunk_id": 2595682642483700741
+      }
+    ]
+  },
+  {
+    "refined_id": 13144172322355753032,
+    "source_group_id": 18296770749264983308,
+    "source_candidate_ids": [
+      6671012800277290387
+    ],
+    "entity": "commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16253834207499013551,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9178070516151319634,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16899947916185227608,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 689248972869870060,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ]
+  },
+  {
+    "refined_id": 12974056027155993410,
+    "source_group_id": 8277817622894304786,
+    "source_candidate_ids": [
+      15667495121436101709
+    ],
+    "entity": "candidates",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 11356869160053569677,
+        "start": 15665,
+        "end": 15671,
+        "text": "candidates",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5592187770994350847,
+        "start": 15665,
+        "end": 15671,
+        "text": "candidates",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1967909867569155238,
+        "start": 15665,
+        "end": 15671,
+        "text": "candidates",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7190589978270730318,
+        "start": 15665,
+        "end": 15671,
+        "text": "candidates",
+        "chunk_id": 10779029234775850325
+      }
+    ]
+  },
+  {
+    "refined_id": 1476243536082750697,
+    "source_group_id": 269828498790179355,
+    "source_candidate_ids": [
+      13875467777461441101
+    ],
+    "entity": "polling place",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "secure",
+    "entity_evidence": [
+      {
+        "span_id": 6204587492536670783,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13639898214940088506,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9900772568049572,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15099427475636784615,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ]
+  },
+  {
+    "refined_id": 5596313476633725370,
+    "source_group_id": 12042821690198966730,
+    "source_candidate_ids": [
+      15144750571895408124
+    ],
+    "entity": "voting booth",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "secure",
+    "entity_evidence": [
+      {
+        "span_id": 2832262069986640356,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8202928592212289912,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14154165873222983847,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12391858983831348543,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ]
+  },
+  {
+    "refined_id": 8433790073652685267,
+    "source_group_id": 13285067469385559781,
+    "source_candidate_ids": [
+      17783388476048096528
+    ],
+    "entity": "voting booths",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific specifications",
+    "entity_evidence": [
+      {
+        "span_id": 11174831050280127661,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 265541094664856923,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16597932582927083046,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15920398632451878478,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ]
+  },
+  {
+    "refined_id": 11046963831997881332,
+    "source_group_id": 15625988306590365523,
+    "source_candidate_ids": [
+      16471452922875472
+    ],
+    "entity": "polling place",
+    "type": "infrastructure",
+    "attribute": "requirement",
+    "value": "language assistance",
+    "entity_evidence": [
+      {
+        "span_id": 13165944599081992276,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11356527274939750385,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10372331238885503404,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15860671440837521518,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ]
+  },
+  {
+    "refined_id": 2805590429488932633,
+    "source_group_id": 4198790383377627828,
+    "source_candidate_ids": [
+      8937801633470158049
+    ],
+    "entity": "election board",
+    "type": "government agency",
+    "attribute": "prescription",
+    "value": "manner",
+    "entity_evidence": [
+      {
+        "span_id": 16357054943387043675,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8761331880768574474,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17698954520216624770,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11106501868750857425,
+        "start": 22719,
+        "end": 22730,
+        "text": "The election board",
+        "chunk_id": 2699701713662129145
+      }
+    ]
+  },
+  {
+    "refined_id": 12587200872557991592,
+    "source_group_id": 8574577154954668104,
+    "source_candidate_ids": [
+      5671722969433409436
+    ],
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "prescription",
+    "value": "manner",
+    "entity_evidence": [
+      {
+        "span_id": 3653366707079229722,
+        "start": 22719,
+        "end": 22726,
+        "text": "The director",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8454189154736556054,
+        "start": 22719,
+        "end": 22726,
+        "text": "The director",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10857670479974638528,
+        "start": 22719,
+        "end": 22726,
+        "text": "The director",
+        "chunk_id": 2699701713662129145
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9726068232410931933,
+        "start": 22719,
+        "end": 22726,
+        "text": "The director",
+        "chunk_id": 2699701713662129145
+      }
+    ]
+  },
+  {
+    "refined_id": 1974486324035579677,
+    "source_group_id": 1652376868524684005,
+    "source_candidate_ids": [
+      4872062790020181170
+    ],
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 3935399809286548610,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3518684619284120897,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6077096759569727053,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9123541686924995607,
+        "start": 25183,
+        "end": 25188,
+        "text": "director",
+        "chunk_id": 6931355623092216222
+      }
+    ]
+  },
+  {
+    "refined_id": 12969915975356906434,
+    "source_group_id": 18022832777732646140,
+    "source_candidate_ids": [
+      11233130468808259968
+    ],
+    "entity": "election board member",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "compensation",
+    "entity_evidence": [
+      {
+        "span_id": 13382624020043082126,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7612727013358181958,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10170978277109604826,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4692130929848598417,
+        "start": 25294,
+        "end": 25303,
+        "text": "election board member",
+        "chunk_id": 6931355623092216222
+      }
+    ]
+  },
+  {
+    "refined_id": 6232444930151218004,
+    "source_group_id": 7074241547554244360,
+    "source_candidate_ids": [
+      15936186948074949422,
+      15006363390583503500
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 7084782670093380908,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3986975135316148651,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1917168031157102065,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8992780543411620600,
+        "start": 27759,
+        "end": 27764,
+        "text": "voter's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ]
+  },
+  {
+    "refined_id": 1436794916554169472,
+    "source_group_id": 11502361223219271284,
+    "source_candidate_ids": [
+      14721237894593338900
+    ],
+    "entity": "representative",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 8834143983781590810,
+        "start": 27978,
+        "end": 27985,
+        "text": "representative's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13968547795894549650,
+        "start": 27978,
+        "end": 27985,
+        "text": "representative's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2690986395707275573,
+        "start": 27978,
+        "end": 27985,
+        "text": "representative's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16622055375690866641,
+        "start": 27978,
+        "end": 27985,
+        "text": "representative's ID",
+        "chunk_id": 17040426258792293110
+      }
+    ]
+  },
+  {
+    "refined_id": 14611916189759992811,
+    "source_group_id": 5393458899503414689,
+    "source_candidate_ids": [
+      14238050909039419655
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "secret",
+    "entity_evidence": [
+      {
+        "span_id": 6937428369663347973,
+        "start": 30307,
+        "end": 30312,
+        "text": "identification number, or date of birth;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12065225286448162522,
+        "start": 30307,
+        "end": 30312,
+        "text": "identification number, or date of birth;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13359548075005509834,
+        "start": 30307,
+        "end": 30312,
+        "text": "identification number, or date of birth;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11497465145033106004,
+        "start": 30307,
+        "end": 30312,
+        "text": "identification number, or date of birth;",
+        "chunk_id": 1902461646846790907
+      }
+    ]
+  },
+  {
+    "refined_id": 7131131206372125562,
+    "source_group_id": 2067230321283814033,
+    "source_candidate_ids": [
+      14437741241271569167
+    ],
+    "entity": "representative",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "secret",
+    "entity_evidence": [
+      {
+        "span_id": 7055057767093066906,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10876173251612915364,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17290602967845493063,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3884230442705171044,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ]
+  },
+  {
+    "refined_id": 2930188766082795541,
+    "source_group_id": 9849917727205883828,
+    "source_candidate_ids": [
+      6974488795182891136
+    ],
+    "entity": "absentee ballot",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "postmark",
+    "entity_evidence": [
+      {
+        "span_id": 2897771775334379983,
+        "start": 32933,
+        "end": 32948,
+        "text": "absentee ballot",
+        "chunk_id": 9408009022320979022
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9976569465028978896,
+        "start": 32933,
+        "end": 32948,
+        "text": "absentee ballot",
+        "chunk_id": 9408009022320979022
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15085256242515643387,
+        "start": 32933,
+        "end": 32948,
+        "text": "absentee ballot",
+        "chunk_id": 9408009022320979022
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17917345192930970018,
+        "start": 32933,
+        "end": 32948,
+        "text": "absentee ballot",
+        "chunk_id": 9408009022320979022
+      }
+    ]
+  },
+  {
+    "refined_id": 10580025154216506006,
+    "source_group_id": 9960132703657381515,
+    "source_candidate_ids": [
+      1005598023014586954
+    ],
+    "entity": "absentee ballot",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10440247130238760135,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7913327373806466800,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4068934805991955108,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9228871490387547942,
+        "start": 35295,
+        "end": 35308,
+        "text": "Absentee ballot returned by mail",
+        "chunk_id": 3727722564783976119
+      }
+    ]
+  },
+  {
+    "refined_id": 9677390986486746966,
+    "source_group_id": 3892833523686067512,
+    "source_candidate_ids": [
+      3752916234134040839
+    ],
+    "entity": "election supervisor",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 17364128190285090574,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9643467891944358061,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13381259050632095414,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17094480280793805694,
+        "start": 35295,
+        "end": 35312,
+        "text": "the election supervisor",
+        "chunk_id": 3727722564783976119
+      }
+    ]
+  },
+  {
+    "refined_id": 3554387547176955129,
+    "source_group_id": 15942661685185491738,
+    "source_candidate_ids": [
+      6230619666080166765
+    ],
+    "entity": "Absentee Voting Official",
+    "type": "Government Agency",
+    "attribute": "Restriction",
+    "value": "Proper Signing and Dating",
+    "entity_evidence": [
+      {
+        "span_id": 12943931309591764866,
+        "start": 37992,
+        "end": 38016,
+        "text": "ABSENTEE VOTING OFFICIAL",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16472881409080801365,
+        "start": 37992,
+        "end": 38016,
+        "text": "ABSENTEE VOTING OFFICIAL",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9273072126888018654,
+        "start": 38017,
+        "end": 38033,
+        "text": "PROPERLY SIGN AND DATE",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 947844112763577039,
+        "start": 38017,
+        "end": 38033,
+        "text": "PROPERLY SIGN AND DATE",
+        "chunk_id": 5299757713669989084
+      }
+    ]
+  },
+  {
+    "refined_id": 14520216721730362802,
+    "source_group_id": 20756323510810943,
+    "source_candidate_ids": [
+      70685255863716233
+    ],
+    "entity": "Ballot",
+    "type": "Technology",
+    "attribute": "Restriction",
+    "value": "Postmark and Tracking Barcode",
+    "entity_evidence": [
+      {
+        "span_id": 1233428809187196456,
+        "start": 38026,
+        "end": 38032,
+        "text": "the ballot",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1817397287748538721,
+        "start": 38026,
+        "end": 38032,
+        "text": "the ballot",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13292375611565925262,
+        "start": 38033,
+        "end": 38047,
+        "text": "POSTMARKED",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9278175174991093114,
+        "start": 38033,
+        "end": 38047,
+        "text": "POSTMARKED",
+        "chunk_id": 5299757713669989084
+      }
+    ]
+  },
+  {
+    "refined_id": 7059804021039882583,
+    "source_group_id": 15050786683073759800,
+    "source_candidate_ids": [
+      3680870493311129160
+    ],
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reasonable amount of time",
+    "entity_evidence": [
+      {
+        "span_id": 7037403543488503200,
+        "start": 40671,
+        "end": 40675,
+        "text": "director",
+        "chunk_id": 10785854825327102705
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16502856972486506990,
+        "start": 40671,
+        "end": 40679,
+        "text": "director shall adopt by regulation",
+        "chunk_id": 10785854825327102705
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13105423519628826604,
+        "start": 40679,
+        "end": 40687,
+        "text": "procedure and time frame",
+        "chunk_id": 10785854825327102705
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15969233368047547666,
+        "start": 40687,
+        "end": 40699,
+        "text": "reasonable amount of time",
+        "chunk_id": 10785854825327102705
+      }
+    ]
+  },
+  {
+    "refined_id": 13782623119119954016,
+    "source_group_id": 15217876144457987450,
+    "source_candidate_ids": [
+      16769837379629151158
+    ],
+    "entity": "third party",
+    "type": "corporation",
+    "attribute": "restriction",
+    "value": "incorporated in the United States",
+    "entity_evidence": [
+      {
+        "span_id": 16620600099765106997,
+        "start": 40783,
+        "end": 40791,
+        "text": "third party",
+        "chunk_id": 10785854825327102705
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4311128999748917646,
+        "start": 40783,
+        "end": 40793,
+        "text": "third party must be a corporation",
+        "chunk_id": 10785854825327102705
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9333841815720223182,
+        "start": 40793,
+        "end": 40801,
+        "text": "incorporated in the United States",
+        "chunk_id": 10785854825327102705
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1294904661164391667,
+        "start": 40801,
+        "end": 40821,
+        "text": "incorporated in the United States",
+        "chunk_id": 10785854825327102705
+      }
+    ]
+  },
+  {
+    "refined_id": 389410740760926883,
+    "source_group_id": 9474829924951601511,
+    "source_candidate_ids": [
+      5017690434112009666
+    ],
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6541012129069312612,
+        "start": 42436,
+        "end": 42441,
+        "text": "voter",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2954794241819665096,
+        "start": 42442,
+        "end": 42445,
+        "text": "individual",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3292220713429061191,
+        "start": 42446,
+        "end": 42449,
+        "text": "restriction",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18113035348901727817,
+        "start": 42450,
+        "end": 42453,
+        "text": "limited",
+        "chunk_id": 5314762172870753862
+      }
+    ]
+  },
+  {
+    "refined_id": 17197253593434444279,
+    "source_group_id": 8736402339579859137,
+    "source_candidate_ids": [
+      5320804512471005731
+    ],
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2672362564686426299,
+        "start": 42470,
+        "end": 42477,
+        "text": "director",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14603087473228233439,
+        "start": 42478,
+        "end": 42487,
+        "text": "government agency",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8687055492081829602,
+        "start": 42488,
+        "end": 42491,
+        "text": "restriction",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13043050715830107269,
+        "start": 42492,
+        "end": 42495,
+        "text": "limited",
+        "chunk_id": 5314762172870753862
+      }
+    ]
+  },
+  {
+    "refined_id": 4594904599864506469,
+    "source_group_id": 1744316873722035164,
+    "source_candidate_ids": [
+      18427519780815667185
+    ],
+    "entity": "ballot drop boxes",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "secure",
+    "entity_evidence": [
+      {
+        "span_id": 2691294902219736583,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9021022128724667636,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12049005834738215356,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15314244660271177396,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ]
+  },
+  {
+    "refined_id": 4207604723090097078,
+    "source_group_id": 1521962922212054652,
+    "source_candidate_ids": [
+      15326526515954618112
+    ],
+    "entity": "ballots",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "secure",
+    "entity_evidence": [
+      {
+        "span_id": 7938557549855371768,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6942429299949976793,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6605065375685374918,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14503821908855472671,
+        "start": 45174,
+        "end": 45191,
+        "text": "The director shall provide secure ballot drop boxes.",
+        "chunk_id": 18286098681182660210
+      }
+    ]
+  },
+  {
+    "refined_id": 10335754674172354819,
+    "source_group_id": 10575733828674877305,
+    "source_candidate_ids": [
+      8270089804486151011
+    ],
+    "entity": "election official",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3925202376213541921,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11505758546152677681,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11764600448838715212,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7528696091569510925,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ]
+  },
+  {
+    "refined_id": 15692899639961040403,
+    "source_group_id": 6106329310651486986,
+    "source_candidate_ids": [
+      15137382902552405311
+    ],
+    "entity": "election machinery",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "complete",
+    "entity_evidence": [
+      {
+        "span_id": 10944988787196813105,
+        "start": 47459,
+        "end": 47472,
+        "text": "election machinery, including a tabulator, a program, a system, a server, or software used to verify identity, count or tabulate, or manage or control an election function",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 221277551167595342,
+        "start": 47459,
+        "end": 47472,
+        "text": "election machinery, including a tabulator, a program, a system, a server, or software used to verify identity, count or tabulate, or manage or control an election function",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14559156856760752392,
+        "start": 47459,
+        "end": 47472,
+        "text": "election machinery, including a tabulator, a program, a system, a server, or software used to verify identity, count or tabulate, or manage or control an election function",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13954116114481372952,
+        "start": 47459,
+        "end": 47472,
+        "text": "election machinery, including a tabulator, a program, a system, a server, or software used to verify identity, count or tabulate, or manage or control an election function",
+        "chunk_id": 17537156708187522956
+      }
+    ]
+  },
+  {
+    "refined_id": 11129906173982732956,
+    "source_group_id": 3983660456902300990,
+    "source_candidate_ids": [
+      15274628333328368138
+    ],
+    "entity": "election official",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "knowingly permits or makes or attempts to make a false count of election returns",
+    "entity_evidence": [
+      {
+        "span_id": 1624041256333560038,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10158427118097717059,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1409698492466196073,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18418497596275373234,
+        "start": 50214,
+        "end": 50234,
+        "text": "while an election official, the person",
+        "chunk_id": 9744200506525970875
+      }
+    ]
+  },
+  {
+    "refined_id": 11306770770503851312,
+    "source_group_id": 17398089244686222353,
+    "source_candidate_ids": [
+      1832431645558630761
+    ],
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+    "entity_evidence": [
+      {
+        "span_id": 4019065292992266019,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4453164360227738518,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18018640150161991804,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16829909789682153466,
+        "start": 50547,
+        "end": 50567,
+        "text": "A person may not knowingly use synthetic media in an electioneering communication with the intent to influence an election",
+        "chunk_id": 9744200506525970875
+      }
+    ]
+  },
+  {
+    "refined_id": 13842999030210178032,
+    "source_group_id": 5011507909003389724,
+    "source_candidate_ids": [
+      13450722603707062594
+    ],
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific criteria",
+    "entity_evidence": [
+      {
+        "span_id": 1659226558801799921,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 265462052514779385,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2388273148520071918,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17804621423850459375,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ]
+  },
+  {
+    "refined_id": 287889905179736914,
+    "source_group_id": 5354233406956122609,
+    "source_candidate_ids": [
+      14681417551766143564
+    ],
+    "entity": "electioneering communication",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific criteria",
+    "entity_evidence": [
+      {
+        "span_id": 16286569356201110219,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17895519199034056838,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15144051302554673877,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6253104970265282789,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ]
+  },
+  {
+    "refined_id": 13972084553591603413,
+    "source_group_id": 1186561352144699505,
+    "source_candidate_ids": [
+      9018597525660623914
+    ],
+    "entity": "candidate",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7311833123579825331,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4491968599439751672,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 501687592290569700,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5095586346672193705,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ]
+  },
+  {
+    "refined_id": 7418181049031264093,
+    "source_group_id": 14229836764716049153,
+    "source_candidate_ids": [
+      4989783907740116613
+    ],
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 9649118609690251118,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6448439516557958853,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12071631436307593739,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16350781312439646355,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ]
+  },
+  {
+    "refined_id": 4184400922177990812,
+    "source_group_id": 3346640529439983617,
+    "source_candidate_ids": [
+      4917349968801193692
+    ],
+    "entity": "commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "six years",
+    "entity_evidence": [
+      {
+        "span_id": 3740916211837938608,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10771622054250568738,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15128571389240991635,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5629777033796613402,
+        "start": 57921,
+        "end": 57925,
+        "text": "six years",
+        "chunk_id": 12359317555273424701
+      }
+    ]
+  },
+  {
+    "refined_id": 16169488796222104345,
+    "source_group_id": 8937175248475363368,
+    "source_candidate_ids": [
+      10548633010077400887
+    ],
+    "entity": "department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "permanent fund dividend",
+    "entity_evidence": [
+      {
+        "span_id": 7880774179571386063,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5441624110472019848,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12155014556638901258,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18154280864401978787,
+        "start": 58921,
+        "end": 58925,
+        "text": "department",
+        "chunk_id": 12359317555273424701
+      }
+    ]
+  },
+  {
+    "refined_id": 6507956974357401604,
+    "source_group_id": 5346462458537557472,
+    "source_candidate_ids": [
+      8108331707005392563
+    ],
+    "entity": "permanent fund dividend applicant",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "voter registration",
+    "entity_evidence": [
+      {
+        "span_id": 6564326589878137399,
+        "start": 60507,
+        "end": 60528,
+        "text": "permanent fund dividend applicant",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1120315319183122487,
+        "start": 60507,
+        "end": 60528,
+        "text": "permanent fund dividend applicant",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13255206425252040861,
+        "start": 60528,
+        "end": 60539,
+        "text": "does not decline to register to vote or update the applicant’s voter information",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17964703255813325249,
+        "start": 60539,
+        "end": 60556,
+        "text": "voter registration",
+        "chunk_id": 8502654333254680246
+      }
+    ]
+  },
+  {
+    "refined_id": 4592191963378297803,
+    "source_group_id": 16288933927815857448,
+    "source_candidate_ids": [
+      5873617345555027133
+    ],
+    "entity": "commissioner",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "security protocols",
+    "entity_evidence": [
+      {
+        "span_id": 6017593693845149337,
+        "start": 60592,
+        "end": 60601,
+        "text": "commissioner",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3860027017301455959,
+        "start": 60592,
+        "end": 60601,
+        "text": "commissioner",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5264242332477850401,
+        "start": 60601,
+        "end": 60612,
+        "text": "develop security protocols",
+        "chunk_id": 8502654333254680246
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8979796422168118062,
+        "start": 60612,
+        "end": 60626,
+        "text": "security protocols",
+        "chunk_id": 8502654333254680246
+      }
+    ]
+  },
+  {
+    "refined_id": 4800847303445811797,
+    "source_group_id": 5673461155820358829,
+    "source_candidate_ids": [
+      1301362953554607241
+    ],
+    "entity": "division of elections",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "requirement",
+    "entity_evidence": [
+      {
+        "span_id": 6966045233555687263,
+        "start": 63198,
+        "end": 63213,
+        "text": "The division of elections shall provide a report to the legislature",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1118052930013760478,
+        "start": 63198,
+        "end": 63213,
+        "text": "The division of elections",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6240338363210683873,
+        "start": 63198,
+        "end": 63213,
+        "text": "provide a report to the legislature",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12443279738863428737,
+        "start": 63198,
+        "end": 63213,
+        "text": "by November 1, 2026",
+        "chunk_id": 12768837382673484360
+      }
+    ]
+  },
+  {
+    "refined_id": 14460185197844895590,
+    "source_group_id": 13450822822130890657,
+    "source_candidate_ids": [
+      18354553367534259530
+    ],
+    "entity": "low-income neighborhood",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "threshold",
+    "entity_evidence": [
+      {
+        "span_id": 14501207195739165827,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13440534533853929954,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8550208649972077118,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1765753549260027686,
+        "start": 63285,
+        "end": 63303,
+        "text": "low-income neighborhood",
+        "chunk_id": 12768837382673484360
+      }
+    ]
+  }
+]

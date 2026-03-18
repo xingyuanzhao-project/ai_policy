@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12146449280167617298,
+    "source_group_id": 13138009793722688502,
+    "source_candidate_ids": [
+      5663254852359298386
+    ],
+    "entity": "Greenhouse Gas Reduction Fund",
+    "type": "infrastructure",
+    "attribute": "allocation",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 5870040826991539758,
+        "start": 1885114,
+        "end": 1885133,
+        "text": "Allocation of Greenhouse Gas Reduction Fund",
+        "chunk_id": 8823503936200757767
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14473103931094370393,
+        "start": 1885114,
+        "end": 1885133,
+        "text": "Allocation of Greenhouse Gas Reduction Fund",
+        "chunk_id": 8823503936200757767
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12307771953856979112,
+        "start": 1885114,
+        "end": 1885133,
+        "text": "Allocation of Greenhouse Gas Reduction Fund",
+        "chunk_id": 8823503936200757767
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14473495697069503685,
+        "start": 1885114,
+        "end": 1885133,
+        "text": "Allocation of Greenhouse Gas Reduction Fund",
+        "chunk_id": 8823503936200757767
+      }
+    ]
+  }
+]

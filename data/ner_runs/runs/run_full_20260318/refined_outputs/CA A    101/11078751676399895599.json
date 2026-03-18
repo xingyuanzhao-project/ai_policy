@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14032485918784319980,
+    "source_group_id": 11078751676399895599,
+    "source_candidate_ids": [
+      15943880768555855562
+    ],
+    "entity": "Zero Emission School Buses",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "administered through the Hybrid and Zero Emission Truck and Voucher Incentive Project and funded by Proposition 98 General Funds",
+    "entity_evidence": [
+      {
+        "span_id": 11637435939943229137,
+        "start": 702227,
+        "end": 702246,
+        "text": "Zero Emission School Buses",
+        "chunk_id": 1326246510374586157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4477936436257225432,
+        "start": 702227,
+        "end": 702246,
+        "text": "Zero Emission School Buses",
+        "chunk_id": 1326246510374586157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11862630122420775579,
+        "start": 702227,
+        "end": 702246,
+        "text": "Zero Emission School Buses",
+        "chunk_id": 1326246510374586157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15984583118525604330,
+        "start": 702227,
+        "end": 702246,
+        "text": "Zero Emission School Buses",
+        "chunk_id": 1326246510374586157
+      }
+    ]
+  }
+]

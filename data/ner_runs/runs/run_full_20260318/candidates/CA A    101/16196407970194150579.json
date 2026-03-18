@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16099079030678151732,
+    "entity": "Department of Industrial Relations",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 1554233671622341547,
+        "start": 1505057,
+        "end": 1505085,
+        "text": "For support of Department of Industrial Relations",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1283905121915845717,
+        "start": 1505057,
+        "end": 1505085,
+        "text": "For support of Department of Industrial Relations",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14275080465595114635,
+        "start": 1505057,
+        "end": 1505085,
+        "text": "For support of Department of Industrial Relations",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4915286635246728020,
+        "start": 1505057,
+        "end": 1505085,
+        "text": "For support of Department of Industrial Relations",
+        "chunk_id": 16196407970194150579
+      }
+    ]
+  },
+  {
+    "candidate_id": 13326483993916857704,
+    "entity": "Workers' Compensation Administration Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "credit",
+    "entity_evidence": [
+      {
+        "span_id": 4322988564604892216,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13924628050755763717,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5954813099041525553,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1659426053852847741,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ]
+  }
+]

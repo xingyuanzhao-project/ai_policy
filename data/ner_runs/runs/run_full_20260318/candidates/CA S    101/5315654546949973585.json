@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16360200822616436540,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 9344742823226350479,
+        "start": 954496,
+        "end": 954520,
+        "text": "State Department of Social Services",
+        "chunk_id": 5315654546949973585
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16858049663689855878,
+        "start": 954496,
+        "end": 954520,
+        "text": "government agency",
+        "chunk_id": 5315654546949973585
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11362326282680914729,
+        "start": 954496,
+        "end": 954520,
+        "text": "restriction",
+        "chunk_id": 5315654546949973585
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15008427614205753279,
+        "start": 954496,
+        "end": 954520,
+        "text": "limited",
+        "chunk_id": 5315654546949973585
+      }
+    ]
+  },
+  {
+    "candidate_id": 1915086467810068432,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 7016788694758118456,
+        "start": 954496,
+        "end": 954508,
+        "text": "General Fund",
+        "chunk_id": 5315654546949973585
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6867748982729846810,
+        "start": 954496,
+        "end": 954508,
+        "text": "infrastructure",
+        "chunk_id": 5315654546949973585
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6392525137587111321,
+        "start": 954496,
+        "end": 954508,
+        "text": "promotion",
+        "chunk_id": 5315654546949973585
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6142359473748322771,
+        "start": 954496,
+        "end": 954508,
+        "text": "substantial",
+        "chunk_id": 5315654546949973585
+      }
+    ]
+  }
+]

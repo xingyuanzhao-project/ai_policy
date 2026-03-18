@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12579857010221269233,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prioritize disadvantaged communities",
+    "entity_evidence": [
+      {
+        "span_id": 14836690471045973046,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5183714800869960776,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9216847159854337377,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4105500736876785897,
+        "start": 730234,
+        "end": 730254,
+        "text": "The State Water Resources Control Board shall prioritize disadvantaged communities for drinking water projects.",
+        "chunk_id": 111270949406762377
+      }
+    ]
+  },
+  {
+    "candidate_id": 12939417362871266754,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prioritize septic-to-sewer conversions",
+    "entity_evidence": [
+      {
+        "span_id": 16729422098195534583,
+        "start": 730294,
+        "end": 730314,
+        "text": "The board shall prioritize septic-to-sewer conversions with local investment for wastewater projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17464952457797574494,
+        "start": 730294,
+        "end": 730314,
+        "text": "The board shall prioritize septic-to-sewer conversions with local investment for wastewater projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2576869987336570855,
+        "start": 730294,
+        "end": 730314,
+        "text": "The board shall prioritize septic-to-sewer conversions with local investment for wastewater projects.",
+        "chunk_id": 111270949406762377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4755367927352936016,
+        "start": 730294,
+        "end": 730314,
+        "text": "The board shall prioritize septic-to-sewer conversions with local investment for wastewater projects.",
+        "chunk_id": 111270949406762377
+      }
+    ]
+  }
+]

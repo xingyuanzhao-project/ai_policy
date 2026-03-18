@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5076573002621382845,
+    "source_group_id": 8156222644853211591,
+    "source_candidate_ids": [
+      15108914708343549128
+    ],
+    "entity": "state-owned or state-leased property",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited to the amount specified for that program or project",
+    "entity_evidence": [
+      {
+        "span_id": 14645361040080685397,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "state-owned or state-leased property",
+        "chunk_id": 11725999436359161201
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15355491984633239999,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "infrastructure",
+        "chunk_id": 11725999436359161201
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13164443474733909739,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "restriction",
+        "chunk_id": 11725999436359161201
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4850397563720900743,
+        "start": 1758891,
+        "end": 1758915,
+        "text": "limited to the amount specified for that program or project",
+        "chunk_id": 11725999436359161201
+      }
+    ]
+  }
+]

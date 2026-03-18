@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7626316439199797549,
+    "entity": "California Office of Health Information Integrity (CALOHII)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 2380415527872525017,
+        "start": 97215,
+        "end": 97235,
+        "text": "Reimbursements to 0285-California Office of Health Information Integrity (CALOHII)",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15503521214581864235,
+        "start": 97215,
+        "end": 97235,
+        "text": "Reimbursements to 0285-California Office of Health Information Integrity (CALOHII)",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11678240729069105619,
+        "start": 97215,
+        "end": 97235,
+        "text": "Reimbursements to 0285-California Office of Health Information Integrity (CALOHII)",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10284182638652332250,
+        "start": 97215,
+        "end": 97235,
+        "text": "Reimbursements to 0285-California Office of Health Information Integrity (CALOHII)",
+        "chunk_id": 4668577535527786122
+      }
+    ]
+  },
+  {
+    "candidate_id": 15415389731008535566,
+    "entity": "Center for Data Insights and Innovation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 13640600814666029967,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13220168101018447117,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11011078035320255739,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17313106598200682733,
+        "start": 97326,
+        "end": 97347,
+        "text": "Reimbursements to 0296-Center for Data Insights and Innovation",
+        "chunk_id": 4668577535527786122
+      }
+    ]
+  }
+]

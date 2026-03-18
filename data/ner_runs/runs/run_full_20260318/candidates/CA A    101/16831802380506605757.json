@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15395610279764387527,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "notwithstanding any other law",
+    "entity_evidence": [
+      {
+        "span_id": 7218984425169158276,
+        "start": 1449514,
+        "end": 1449535,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 16831802380506605757
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17571501466638757960,
+        "start": 1449514,
+        "end": 1449535,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 16831802380506605757
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4044156331950494704,
+        "start": 1449514,
+        "end": 1449535,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 16831802380506605757
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12184792846493389891,
+        "start": 1449514,
+        "end": 1449535,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 16831802380506605757
+      }
+    ]
+  },
+  {
+    "candidate_id": 4667025111737242231,
+    "entity": "Student Success Completion Grant Program",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "unexpended balance",
+    "entity_evidence": [
+      {
+        "span_id": 6009537069802059894,
+        "start": 1449486,
+        "end": 1449503,
+        "text": "Student Success Completion Grant Program",
+        "chunk_id": 16831802380506605757
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7369300591295835920,
+        "start": 1449486,
+        "end": 1449503,
+        "text": "Student Success Completion Grant Program",
+        "chunk_id": 16831802380506605757
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12258327961628629974,
+        "start": 1449486,
+        "end": 1449503,
+        "text": "Student Success Completion Grant Program",
+        "chunk_id": 16831802380506605757
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4380068077784883297,
+        "start": 1449486,
+        "end": 1449503,
+        "text": "Student Success Completion Grant Program",
+        "chunk_id": 16831802380506605757
+      }
+    ]
+  }
+]

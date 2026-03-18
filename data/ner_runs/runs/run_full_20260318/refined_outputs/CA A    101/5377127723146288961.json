@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15995719344231646038,
+    "source_group_id": 5377127723146288961,
+    "source_candidate_ids": [
+      9359497143753707444
+    ],
+    "entity": "California Volunteers",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to all state privacy and use policies",
+    "entity_evidence": [
+      {
+        "span_id": 3051089227544374416,
+        "start": 126372,
+        "end": 126384,
+        "text": "The California Volunteers' database",
+        "chunk_id": 13356839328323446197
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16830968154600657132,
+        "start": 126372,
+        "end": 126384,
+        "text": "The California Volunteers' database",
+        "chunk_id": 13356839328323446197
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 404313413857353490,
+        "start": 126384,
+        "end": 126400,
+        "text": "subject to all state privacy and use policies",
+        "chunk_id": 13356839328323446197
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2711350159341188315,
+        "start": 126400,
+        "end": 126420,
+        "text": "subject to all state privacy and use policies",
+        "chunk_id": 13356839328323446197
+      }
+    ]
+  }
+]

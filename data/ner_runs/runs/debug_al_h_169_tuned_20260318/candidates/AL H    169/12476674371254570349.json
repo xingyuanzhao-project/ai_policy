@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10450108438720008095,
+    "entity": "Administrative Code Rule 520-2-2-.03",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "compliance",
+    "entity_evidence": [
+      {
+        "span_id": 10880101030077725239,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1686661790909605126,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1536335016651702662,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4614707692433994079,
+        "start": 102181,
+        "end": 102199,
+        "text": "Administrative Code Rule 520-2-2-.03",
+        "chunk_id": 12476674371254570349
+      }
+    ]
+  },
+  {
+    "candidate_id": 3718199746949888130,
+    "entity": "Board of Medical Scholarship Awards",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance",
+    "entity_evidence": [
+      {
+        "span_id": 7047389924516829933,
+        "start": 103271,
+        "end": 103289,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3605851587766019717,
+        "start": 103271,
+        "end": 103289,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5958276990109777092,
+        "start": 103271,
+        "end": 103289,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8442543198355631727,
+        "start": 103271,
+        "end": 103289,
+        "text": "Board of Medical Scholarship Awards",
+        "chunk_id": 12476674371254570349
+      }
+    ]
+  }
+]

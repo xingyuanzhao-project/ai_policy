@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 458828935161398763,
+    "entity": "California Access to Justice Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6171839740130303228,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17614648809642559636,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10332518779924571506,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5477847962511104168,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ]
+  },
+  {
+    "candidate_id": 9328749113772351267,
+    "entity": "qualified legal aid agencies",
+    "type": "organization",
+    "attribute": "promotion",
+    "value": "innovative",
+    "entity_evidence": [
+      {
+        "span_id": 17210949505560294327,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10231462028470152873,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4743252518123654440,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7397137186448870737,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ]
+  }
+]

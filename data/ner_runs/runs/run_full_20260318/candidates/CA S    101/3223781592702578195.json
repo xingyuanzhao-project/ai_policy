@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12023042395248361929,
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "repayment of loan",
+    "entity_evidence": [
+      {
+        "span_id": 268637482079668259,
+        "start": 649653,
+        "end": 649673,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3223781592702578195
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16108359629228921720,
+        "start": 649653,
+        "end": 649673,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3223781592702578195
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16586398181675107208,
+        "start": 649653,
+        "end": 649673,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3223781592702578195
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12990031186607824705,
+        "start": 649653,
+        "end": 649673,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 3223781592702578195
+      }
+    ]
+  },
+  {
+    "candidate_id": 8909184897350991037,
+    "entity": "Water Rights Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "repayment of loan",
+    "entity_evidence": [
+      {
+        "span_id": 8860239870861285310,
+        "start": 649653,
+        "end": 649673,
+        "text": "Water Rights Fund",
+        "chunk_id": 3223781592702578195
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11906566943754305463,
+        "start": 649653,
+        "end": 649673,
+        "text": "Water Rights Fund",
+        "chunk_id": 3223781592702578195
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16020551693755855048,
+        "start": 649653,
+        "end": 649673,
+        "text": "Water Rights Fund",
+        "chunk_id": 3223781592702578195
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 848587274556453009,
+        "start": 649653,
+        "end": 649673,
+        "text": "Water Rights Fund",
+        "chunk_id": 3223781592702578195
+      }
+    ]
+  }
+]

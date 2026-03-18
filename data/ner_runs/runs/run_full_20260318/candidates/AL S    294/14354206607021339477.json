@@ -1,0 +1,45 @@
+[
+  {
+    "candidate_id": 15608079161854429764,
+    "entity": "utilization review organization",
+    "type": "organization",
+    "attribute": "determinations",
+    "value": "physician",
+    "entity_evidence": [
+      {
+        "span_id": 13413335301472316889,
+        "start": 7029,
+        "end": 7048,
+        "text": "utilization review organization",
+        "chunk_id": 14354206607021339477
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2180558938849948135,
+        "start": 7049,
+        "end": 7057,
+        "text": "organization",
+        "chunk_id": 14354206607021339477
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12106149581655992741,
+        "start": 7058,
+        "end": 7060,
+        "text": "determinations",
+        "chunk_id": 14354206607021339477
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12802810541520602309,
+        "start": 7061,
+        "end": 7070,
+        "text": "physician",
+        "chunk_id": 14354206607021339477
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12307572504418736204,
+    "entity": "Governor's Office of Land Use and Climate Innovation",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 11581096358059756910,
+        "start": 1877138,
+        "end": 1877163,
+        "text": "Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 1013592325910802271
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9097198869025040920,
+        "start": 1877138,
+        "end": 1877163,
+        "text": "Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 1013592325910802271
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15370312897630485807,
+        "start": 1877138,
+        "end": 1877163,
+        "text": "Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 1013592325910802271
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3475127179554148470,
+        "start": 1877138,
+        "end": 1877163,
+        "text": "Governor's Office of Land Use and Climate Innovation",
+        "chunk_id": 1013592325910802271
+      }
+    ]
+  },
+  {
+    "candidate_id": 6139513617448678131,
+    "entity": "High-Speed Rail Authority",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 12220157039530431048,
+        "start": 1879738,
+        "end": 1879753,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 1013592325910802271
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 969427435573601069,
+        "start": 1879738,
+        "end": 1879753,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 1013592325910802271
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9600848324974043289,
+        "start": 1879738,
+        "end": 1879753,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 1013592325910802271
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2505583101717728543,
+        "start": 1879738,
+        "end": 1879753,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 1013592325910802271
+      }
+    ]
+  }
+]

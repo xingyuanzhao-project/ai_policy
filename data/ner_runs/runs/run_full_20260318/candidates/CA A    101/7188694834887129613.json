@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15182116012937368885,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 18201451899859116983,
+        "start": 850380,
+        "end": 850411,
+        "text": "Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code, the State Department of Health Care Services",
+        "chunk_id": 7188694834887129613
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16707291218075392698,
+        "start": 850380,
+        "end": 850411,
+        "text": "Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code, the State Department of Health Care Services",
+        "chunk_id": 7188694834887129613
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3953691550279020021,
+        "start": 850380,
+        "end": 850411,
+        "text": "Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code, the State Department of Health Care Services",
+        "chunk_id": 7188694834887129613
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 252906155435663842,
+        "start": 850380,
+        "end": 850411,
+        "text": "Section 11340) of Part 1 of Division 3 of Title 2 of the Government Code, the State Department of Health Care Services",
+        "chunk_id": 7188694834887129613
+      }
+    ]
+  },
+  {
+    "candidate_id": 16760477427580865122,
+    "entity": "Children and Youth Behavioral Health Initiative",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "digital supports",
+    "entity_evidence": [
+      {
+        "span_id": 8084899211690434817,
+        "start": 850503,
+        "end": 850523,
+        "text": "the development of a video series to provide parents with resources and skills to support their children's mental health and to develop next generation digital supports for remote mental health assessment and intervention as a component of the Children and Youth Behavioral Health Initiative",
+        "chunk_id": 7188694834887129613
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 220935664986802467,
+        "start": 850503,
+        "end": 850523,
+        "text": "the development of a video series to provide parents with resources and skills to support their children's mental health and to develop next generation digital supports for remote mental health assessment and intervention as a component of the Children and Youth Behavioral Health Initiative",
+        "chunk_id": 7188694834887129613
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16118561376971712216,
+        "start": 850503,
+        "end": 850523,
+        "text": "the development of a video series to provide parents with resources and skills to support their children's mental health and to develop next generation digital supports for remote mental health assessment and intervention as a component of the Children and Youth Behavioral Health Initiative",
+        "chunk_id": 7188694834887129613
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 873019938524724735,
+        "start": 850503,
+        "end": 850523,
+        "text": "the development of a video series to provide parents with resources and skills to support their children's mental health and to develop next generation digital supports for remote mental health assessment and intervention as a component of the Children and Youth Behavioral Health Initiative",
+        "chunk_id": 7188694834887129613
+      }
+    ]
+  }
+]

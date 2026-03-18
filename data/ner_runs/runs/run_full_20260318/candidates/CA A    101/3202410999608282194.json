@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17735959949467043004,
+    "entity": "Trial Court Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "sufficient",
+    "entity_evidence": [
+      {
+        "span_id": 1228869630658368736,
+        "start": 62037,
+        "end": 62055,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8389416684845125397,
+        "start": 62037,
+        "end": 62055,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9114271259799645217,
+        "start": 62037,
+        "end": 62055,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6101652027263431553,
+        "start": 62037,
+        "end": 62055,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ]
+  },
+  {
+    "candidate_id": 4621350619341034596,
+    "entity": "State Trial Court Improvement and Modernization Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "insufficient",
+    "entity_evidence": [
+      {
+        "span_id": 16838982657568115685,
+        "start": 62037,
+        "end": 62075,
+        "text": "State Trial Court Improvement and Modernization Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 888364418643587814,
+        "start": 62037,
+        "end": 62075,
+        "text": "State Trial Court Improvement and Modernization Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2730651313033936687,
+        "start": 62037,
+        "end": 62075,
+        "text": "State Trial Court Improvement and Modernization Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 826617370811156813,
+        "start": 62037,
+        "end": 62075,
+        "text": "State Trial Court Improvement and Modernization Fund",
+        "chunk_id": 3202410999608282194
+      }
+    ]
+  }
+]

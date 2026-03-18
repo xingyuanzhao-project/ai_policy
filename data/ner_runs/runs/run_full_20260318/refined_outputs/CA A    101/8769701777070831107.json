@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11795483000775743899,
+    "source_group_id": 8769701777070831107,
+    "source_candidate_ids": [
+      15309022178921948184
+    ],
+    "entity": "Los Angeles River Watershed",
+    "type": "infrastructure",
+    "attribute": "protection",
+    "value": "improve climate resiliency",
+    "entity_evidence": [
+      {
+        "span_id": 9950139639075260260,
+        "start": 622055,
+        "end": 622076,
+        "text": "protection of the Los Angeles River Watershed",
+        "chunk_id": 11222096612028893268
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15075182387152903662,
+        "start": 622055,
+        "end": 622076,
+        "text": "infrastructure",
+        "chunk_id": 11222096612028893268
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9312571545450448755,
+        "start": 622055,
+        "end": 622076,
+        "text": "protection",
+        "chunk_id": 11222096612028893268
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15199170876197276465,
+        "start": 622055,
+        "end": 622076,
+        "text": "improve climate resiliency",
+        "chunk_id": 11222096612028893268
+      }
+    ]
+  }
+]

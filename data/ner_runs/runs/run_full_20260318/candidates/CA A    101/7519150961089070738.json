@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7032873130167453193,
+    "entity": "Health Care Deposit Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8046264471068962731,
+        "start": 838498,
+        "end": 838522,
+        "text": "Health Care Deposit Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11648054872640188035,
+        "start": 838498,
+        "end": 838522,
+        "text": "Health Care Deposit Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6885531631657925111,
+        "start": 838498,
+        "end": 838522,
+        "text": "Health Care Deposit Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17004213848295507158,
+        "start": 838498,
+        "end": 838522,
+        "text": "Health Care Deposit Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ]
+  },
+  {
+    "candidate_id": 8674463468350732365,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 1134218239291377335,
+        "start": 838498,
+        "end": 838510,
+        "text": "General Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10272256698026201089,
+        "start": 838498,
+        "end": 838510,
+        "text": "General Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8668736462660701206,
+        "start": 838498,
+        "end": 838510,
+        "text": "General Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18387517789655505734,
+        "start": 838498,
+        "end": 838510,
+        "text": "General Fund",
+        "chunk_id": 7519150961089070738
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4816432728664701390,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1709228594495223215,
+        "start": 1089439,
+        "end": 1089460,
+        "text": "State Department of Education",
+        "chunk_id": 1887563799631422799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15480092218465572900,
+        "start": 1089439,
+        "end": 1089460,
+        "text": "State Department of Education",
+        "chunk_id": 1887563799631422799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8197663489954664391,
+        "start": 1089439,
+        "end": 1089460,
+        "text": "State Department of Education",
+        "chunk_id": 1887563799631422799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5192869894765558181,
+        "start": 1089439,
+        "end": 1089460,
+        "text": "State Department of Education",
+        "chunk_id": 1887563799631422799
+      }
+    ]
+  },
+  {
+    "candidate_id": 6118543370646225589,
+    "entity": "Diagnostic Centers",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 40014171298162983,
+        "start": 1090169,
+        "end": 1090184,
+        "text": "Diagnostic Centers",
+        "chunk_id": 1887563799631422799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12349438666930704071,
+        "start": 1090169,
+        "end": 1090184,
+        "text": "Diagnostic Centers",
+        "chunk_id": 1887563799631422799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 938602505457973994,
+        "start": 1090169,
+        "end": 1090184,
+        "text": "Diagnostic Centers",
+        "chunk_id": 1887563799631422799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13569313029744995830,
+        "start": 1090169,
+        "end": 1090184,
+        "text": "Diagnostic Centers",
+        "chunk_id": 1887563799631422799
+      }
+    ]
+  }
+]

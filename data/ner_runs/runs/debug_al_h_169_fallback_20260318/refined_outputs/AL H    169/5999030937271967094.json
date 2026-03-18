@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17747738042203764605,
+    "source_group_id": 5999030937271967094,
+    "source_candidate_ids": [
+      7337210707384038331
+    ],
+    "entity": "Law Enforcement Agency, State",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "Law Enforcement Program",
+    "entity_evidence": [
+      {
+        "span_id": 24902194756090732,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2344192347347448741,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4393105123400434160,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11011813397902160753,
+        "start": 99545,
+        "end": 99566,
+        "text": "Law Enforcement Agency, State",
+        "chunk_id": 9876269681712651882
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5943326880435737621,
+    "entity": "Indian Gaming Revenue Sharing Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "minimum",
+    "entity_evidence": [
+      {
+        "span_id": 16767307446504789817,
+        "start": 202774,
+        "end": 202799,
+        "text": "minimum amount necessary",
+        "chunk_id": 8887128933942086448
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1287000892798931926,
+        "start": 202774,
+        "end": 202799,
+        "text": "minimum amount necessary",
+        "chunk_id": 8887128933942086448
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3685999138368426360,
+        "start": 202774,
+        "end": 202799,
+        "text": "minimum amount necessary",
+        "chunk_id": 8887128933942086448
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2897026669909619854,
+        "start": 202774,
+        "end": 202799,
+        "text": "minimum amount necessary",
+        "chunk_id": 8887128933942086448
+      }
+    ]
+  },
+  {
+    "candidate_id": 14749669939871737041,
+    "entity": "State Board of Equalization",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent",
+    "entity_evidence": [
+      {
+        "span_id": 3134576981625261535,
+        "start": 203523,
+        "end": 203546,
+        "text": "State Board of Equalization",
+        "chunk_id": 8887128933942086448
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6671566663429912784,
+        "start": 203523,
+        "end": 203546,
+        "text": "State Board of Equalization",
+        "chunk_id": 8887128933942086448
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8924582480088780430,
+        "start": 203523,
+        "end": 203546,
+        "text": "State Board of Equalization",
+        "chunk_id": 8887128933942086448
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5096036131113492093,
+        "start": 203523,
+        "end": 203546,
+        "text": "State Board of Equalization",
+        "chunk_id": 8887128933942086448
+      }
+    ]
+  }
+]

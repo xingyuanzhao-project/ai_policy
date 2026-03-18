@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 17054197856689573809,
+    "source_group_id": 12540424336219608994,
+    "source_candidate_ids": [
+      11420865298495411310,
+      10746758021682048556
+    ],
+    "entity": "deepfake visual material",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "unlawful creation or distribution",
+    "entity_evidence": [
+      {
+        "span_id": 12271213123572660312,
+        "start": 134,
+        "end": 155,
+        "text": "Unlawful creation or distribution of deepfake visual material.",
+        "chunk_id": 10720734217142098519
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13488534658239938640,
+        "start": 134,
+        "end": 155,
+        "text": "Unlawful creation or distribution of deepfake visual material.",
+        "chunk_id": 10720734217142098519
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9514882623735594477,
+        "start": 134,
+        "end": 155,
+        "text": "Unlawful creation or distribution of deepfake visual material.",
+        "chunk_id": 10720734217142098519
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17031970686141023518,
+        "start": 134,
+        "end": 155,
+        "text": "Unlawful creation or distribution of deepfake visual material.",
+        "chunk_id": 10720734217142098519
+      }
+    ]
+  }
+]

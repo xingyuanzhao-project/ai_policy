@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8816905690482778162,
+    "source_group_id": 6554770632675649161,
+    "source_candidate_ids": [
+      13852871263519796663
+    ],
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Section 31.00",
+    "entity_evidence": [
+      {
+        "span_id": 290076741056536732,
+        "start": 1348255,
+        "end": 1348277,
+        "text": "The amount appropriated in this item shall be increased based on interest earnings on the remaining balance available for the fund.",
+        "chunk_id": 7895337314800452771
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17278058641270390667,
+        "start": 1348277,
+        "end": 1348291,
+        "text": "University of California",
+        "chunk_id": 7895337314800452771
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9049485216054101658,
+        "start": 1348695,
+        "end": 1348715,
+        "text": "This appropriation is exempt from Section 31.00.",
+        "chunk_id": 7895337314800452771
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15727568759057549856,
+        "start": 1348695,
+        "end": 1348715,
+        "text": "exempt from Section 31.00",
+        "chunk_id": 7895337314800452771
+      }
+    ]
+  }
+]

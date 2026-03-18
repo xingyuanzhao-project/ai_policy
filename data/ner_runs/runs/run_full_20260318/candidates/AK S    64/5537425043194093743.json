@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9018597525660623914,
+    "entity": "candidate",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15400116946391028796,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18379839883467513451,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3488374805873798593,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13642136664471008369,
+        "start": 55145,
+        "end": 55154,
+        "text": "candidate identified in the communication or on a candidate of a party identified in the communication",
+        "chunk_id": 5537425043194093743
+      }
+    ]
+  },
+  {
+    "candidate_id": 4989783907740116613,
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4582398674122529886,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8110469136291241614,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7714939135621572474,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12188546828405096332,
+        "start": 55268,
+        "end": 55280,
+        "text": "synthetic media",
+        "chunk_id": 5537425043194093743
+      }
+    ]
+  }
+]

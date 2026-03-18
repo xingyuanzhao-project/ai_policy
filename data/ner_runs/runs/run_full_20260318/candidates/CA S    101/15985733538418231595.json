@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3519192541438899970,
+    "entity": "federal funds",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16635664407165623796,
+        "start": 1686872,
+        "end": 1686884,
+        "text": "are hereby appropriated from federal funds",
+        "chunk_id": 15985733538418231595
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6333152636948309568,
+        "start": 1686872,
+        "end": 1686884,
+        "text": "are hereby appropriated from federal funds",
+        "chunk_id": 15985733538418231595
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8033966260798367531,
+        "start": 1686872,
+        "end": 1686884,
+        "text": "are hereby appropriated from federal funds",
+        "chunk_id": 15985733538418231595
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4775769042749445814,
+        "start": 1686872,
+        "end": 1686884,
+        "text": "are hereby appropriated from federal funds",
+        "chunk_id": 15985733538418231595
+      }
+    ]
+  },
+  {
+    "candidate_id": 15813588781528369638,
+    "entity": "Director of Finance",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 13494456997511637584,
+        "start": 1687006,
+        "end": 1687018,
+        "text": "The Director of Finance shall notify the chairpersons of the committees",
+        "chunk_id": 15985733538418231595
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3747212363852825764,
+        "start": 1687006,
+        "end": 1687018,
+        "text": "The Director of Finance shall notify the chairpersons of the committees",
+        "chunk_id": 15985733538418231595
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5099307156869131707,
+        "start": 1687006,
+        "end": 1687018,
+        "text": "The Director of Finance shall notify the chairpersons of the committees",
+        "chunk_id": 15985733538418231595
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11954451412687606598,
+        "start": 1687006,
+        "end": 1687018,
+        "text": "The Director of Finance shall notify the chairpersons of the committees",
+        "chunk_id": 15985733538418231595
+      }
+    ]
+  }
+]

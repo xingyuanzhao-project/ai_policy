@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11811554384828830619,
+    "source_group_id": 11098266510444158072,
+    "source_candidate_ids": [
+      7261017337910511833
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority may be increased by up to $200,000",
+    "entity_evidence": [
+      {
+        "span_id": 2604068511718778979,
+        "start": 136818,
+        "end": 136836,
+        "text": "Department of Finance",
+        "chunk_id": 13151718213080355533
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8137763921326319432,
+        "start": 136818,
+        "end": 136836,
+        "text": "Department of Finance",
+        "chunk_id": 13151718213080355533
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13824510635832548335,
+        "start": 136818,
+        "end": 136836,
+        "text": "Department of Finance",
+        "chunk_id": 13151718213080355533
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10106236361771909064,
+        "start": 136818,
+        "end": 136836,
+        "text": "Department of Finance",
+        "chunk_id": 13151718213080355533
+      }
+    ]
+  }
+]

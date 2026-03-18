@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10918915616636589194,
+    "entity": "California Gambling Control Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10712800548926369463,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6458152678807811301,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3068535410933299452,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15759113412617325539,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ]
+  },
+  {
+    "candidate_id": 10690596343936845601,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "written",
+    "entity_evidence": [
+      {
+        "span_id": 4264953397437894262,
+        "start": 214715,
+        "end": 214732,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13736694119386756718,
+        "start": 214715,
+        "end": 214732,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9753217637384018123,
+        "start": 214715,
+        "end": 214732,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11537833736509322708,
+        "start": 214715,
+        "end": 214732,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 10950325772688435094
+      }
+    ]
+  }
+]

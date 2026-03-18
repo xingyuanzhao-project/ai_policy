@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12534891707008777170,
+    "source_group_id": 10215387362246851898,
+    "source_candidate_ids": [
+      7982072468537819819
+    ],
+    "entity": "Alabama Commission on the Evaluation of Services",
+    "type": "government agency",
+    "attribute": "collaboration",
+    "value": "comprehensive",
+    "entity_evidence": [
+      {
+        "span_id": 16474935139277070266,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2649205843113254637,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 393970593174252776,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 489856643149657536,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ]
+  }
+]

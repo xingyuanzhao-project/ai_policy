@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18227667025828717492,
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "guidelines",
+    "entity_evidence": [
+      {
+        "span_id": 15791269753694620049,
+        "start": 34783,
+        "end": 34797,
+        "text": "The State Board of Education shall allot funds based on the rates established as follows:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15535612451907371703,
+        "start": 34783,
+        "end": 34797,
+        "text": "The State Board of Education shall allot funds based on the rates established as follows:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10101598113161123779,
+        "start": 34783,
+        "end": 34797,
+        "text": "The State Board of Education shall allot funds based on the rates established as follows:",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2333386583654237352,
+        "start": 34783,
+        "end": 34797,
+        "text": "The State Board of Education shall allot funds based on the rates established as follows:",
+        "chunk_id": 2780532192286201639
+      }
+    ]
+  },
+  {
+    "candidate_id": 7889109493541735166,
+    "entity": "local boards of education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "flexibility",
+    "entity_evidence": [
+      {
+        "span_id": 3877664887773280792,
+        "start": 34510,
+        "end": 34523,
+        "text": "local boards of education have flexibility in determining where reductions are made",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18294857126075408572,
+        "start": 34510,
+        "end": 34523,
+        "text": "local boards of education have flexibility in determining where reductions are made",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3504507315019070939,
+        "start": 34510,
+        "end": 34523,
+        "text": "local boards of education have flexibility in determining where reductions are made",
+        "chunk_id": 2780532192286201639
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12097507317382109407,
+        "start": 34510,
+        "end": 34523,
+        "text": "local boards of education have flexibility in determining where reductions are made",
+        "chunk_id": 2780532192286201639
+      }
+    ]
+  }
+]

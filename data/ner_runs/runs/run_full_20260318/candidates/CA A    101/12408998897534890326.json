@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2491655056305689489,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 18333777656705790961,
+        "start": 134145,
+        "end": 134169,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17268118801481446179,
+        "start": 134145,
+        "end": 134169,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8551659834726894569,
+        "start": 134145,
+        "end": 134169,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9490300686231694275,
+        "start": 134145,
+        "end": 134169,
+        "text": "Office of Emergency Services",
+        "chunk_id": 12408998897534890326
+      }
+    ]
+  },
+  {
+    "candidate_id": 14576439992360874159,
+    "entity": "Alfred E. Alquist Seismic Safety Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 9514261682654968500,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10454783074137657241,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15289787502491597379,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15544480128832272090,
+        "start": 134145,
+        "end": 134169,
+        "text": "Alfred E. Alquist Seismic Safety Commission",
+        "chunk_id": 12408998897534890326
+      }
+    ]
+  }
+]

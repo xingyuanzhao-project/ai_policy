@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16802304901696779148,
+    "entity": "Cemetery and Funeral Bureau",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 4081713594439046368,
+        "start": 256398,
+        "end": 256398,
+        "text": "Cemetery and Funeral Bureau",
+        "chunk_id": 10751792429833664080
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3555995498281029236,
+        "start": 256398,
+        "end": 256398,
+        "text": "government agency",
+        "chunk_id": 10751792429833664080
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13300732555006237134,
+        "start": 256398,
+        "end": 256398,
+        "text": "restriction",
+        "chunk_id": 10751792429833664080
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4789849092089796620,
+        "start": 256398,
+        "end": 256398,
+        "text": "fines and penalties",
+        "chunk_id": 10751792429833664080
+      }
+    ]
+  },
+  {
+    "candidate_id": 8681431738658091013,
+    "entity": "Bureau of Real Estate Appraisers",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fines and penalties",
+    "entity_evidence": [
+      {
+        "span_id": 16888647883933069952,
+        "start": 256728,
+        "end": 256728,
+        "text": "Bureau of Real Estate Appraisers",
+        "chunk_id": 10751792429833664080
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12853238834700087217,
+        "start": 256728,
+        "end": 256728,
+        "text": "government agency",
+        "chunk_id": 10751792429833664080
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14672179624745590786,
+        "start": 256728,
+        "end": 256728,
+        "text": "restriction",
+        "chunk_id": 10751792429833664080
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6168935854801292164,
+        "start": 256728,
+        "end": 256728,
+        "text": "fines and penalties",
+        "chunk_id": 10751792429833664080
+      }
+    ]
+  }
+]

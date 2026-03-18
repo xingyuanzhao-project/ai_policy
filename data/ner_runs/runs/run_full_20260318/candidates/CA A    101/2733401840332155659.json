@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1887691704082215379,
+    "entity": "Department of Cannabis Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13486402170037356741,
+        "start": 275896,
+        "end": 275910,
+        "text": "Department of Cannabis Control",
+        "chunk_id": 2733401840332155659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4091641366067057137,
+        "start": 275896,
+        "end": 275910,
+        "text": "Department of Cannabis Control",
+        "chunk_id": 2733401840332155659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4669646220950883779,
+        "start": 275910,
+        "end": 275916,
+        "text": "need for additional resources",
+        "chunk_id": 2733401840332155659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11654558007244364545,
+        "start": 275916,
+        "end": 275921,
+        "text": "proprietary plant and package tags",
+        "chunk_id": 2733401840332155659
+      }
+    ]
+  },
+  {
+    "candidate_id": 8438968924423683118,
+    "entity": "Department of Cannabis Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13875935689132844631,
+        "start": 275896,
+        "end": 275910,
+        "text": "Department of Cannabis Control",
+        "chunk_id": 2733401840332155659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13815141624440303486,
+        "start": 275896,
+        "end": 275910,
+        "text": "Department of Cannabis Control",
+        "chunk_id": 2733401840332155659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16560553817316396024,
+        "start": 275910,
+        "end": 275916,
+        "text": "need for additional resources",
+        "chunk_id": 2733401840332155659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9556259907952170560,
+        "start": 275916,
+        "end": 275921,
+        "text": "litigation and administrative hearings",
+        "chunk_id": 2733401840332155659
+      }
+    ]
+  }
+]

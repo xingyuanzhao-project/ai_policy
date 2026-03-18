@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16849703087075689790,
+    "entity": "families",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "disenrolled",
+    "entity_evidence": [
+      {
+        "span_id": 5988152554444954155,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13741011091598093686,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5601288459950836191,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9814123638274936837,
+        "start": 1261691,
+        "end": 1261697,
+        "text": "families",
+        "chunk_id": 13198581076442747242
+      }
+    ]
+  },
+  {
+    "candidate_id": 15828521726955353140,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "authorization",
+    "value": "cash loan",
+    "entity_evidence": [
+      {
+        "span_id": 15673849815418367181,
+        "start": 1261661,
+        "end": 1261680,
+        "text": "the Department of Finance",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12057431637194851323,
+        "start": 1261661,
+        "end": 1261680,
+        "text": "the Department of Finance",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7368059952984566005,
+        "start": 1261661,
+        "end": 1261680,
+        "text": "the Department of Finance",
+        "chunk_id": 13198581076442747242
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17775945012145773485,
+        "start": 1261661,
+        "end": 1261680,
+        "text": "the Department of Finance",
+        "chunk_id": 13198581076442747242
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11608632093169012013,
+    "source_group_id": 13012194360737955048,
+    "source_candidate_ids": [
+      15875992412331196331
+    ],
+    "entity": "Office of the Secretary of Labor and Workforce Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specified in Section 13332.18 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 4648685048745770648,
+        "start": 121049,
+        "end": 121069,
+        "text": "Office of the Secretary of Labor and Workforce Development",
+        "chunk_id": 12400297917330374968
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14047389380175619764,
+        "start": 121049,
+        "end": 121069,
+        "text": "Office of the Secretary of Labor and Workforce Development",
+        "chunk_id": 12400297917330374968
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15213379249333896933,
+        "start": 121049,
+        "end": 121069,
+        "text": "Office of the Secretary of Labor and Workforce Development",
+        "chunk_id": 12400297917330374968
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11494889048590553635,
+        "start": 121049,
+        "end": 121069,
+        "text": "Office of the Secretary of Labor and Workforce Development",
+        "chunk_id": 12400297917330374968
+      }
+    ]
+  }
+]

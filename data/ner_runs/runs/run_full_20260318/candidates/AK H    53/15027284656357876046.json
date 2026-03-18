@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12287202832154078015,
+    "entity": "Alaska Gasline Development Corporation",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11244472966231290693,
+        "start": 146335,
+        "end": 146356,
+        "text": "Alaska Gasline Development Corporation",
+        "chunk_id": 15027284656357876046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14674612728470137761,
+        "start": 146335,
+        "end": 146356,
+        "text": "Alaska Gasline Development Corporation",
+        "chunk_id": 15027284656357876046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3514740501432360293,
+        "start": 146335,
+        "end": 146356,
+        "text": "Alaska Gasline Development Corporation",
+        "chunk_id": 15027284656357876046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10340652338651141867,
+        "start": 146335,
+        "end": 146356,
+        "text": "Alaska Gasline Development Corporation",
+        "chunk_id": 15027284656357876046
+      }
+    ]
+  },
+  {
+    "candidate_id": 2663279004759912452,
+    "entity": "federal receipts",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11480751702866815556,
+        "start": 146335,
+        "end": 146356,
+        "text": "federal receipts",
+        "chunk_id": 15027284656357876046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10353678591876366433,
+        "start": 146335,
+        "end": 146356,
+        "text": "federal receipts",
+        "chunk_id": 15027284656357876046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3683322579449257995,
+        "start": 146335,
+        "end": 146356,
+        "text": "federal receipts",
+        "chunk_id": 15027284656357876046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16638757858526650489,
+        "start": 146335,
+        "end": 146356,
+        "text": "federal receipts",
+        "chunk_id": 15027284656357876046
+      }
+    ]
+  }
+]

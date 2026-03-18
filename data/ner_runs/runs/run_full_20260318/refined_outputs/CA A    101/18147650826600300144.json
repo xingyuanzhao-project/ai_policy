@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13974139571501930008,
+    "source_group_id": 18147650826600300144,
+    "source_candidate_ids": [
+      13581462206380831894
+    ],
+    "entity": "Academic Senate for California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to requirements",
+    "entity_evidence": [
+      {
+        "span_id": 14484408918951000145,
+        "start": 1393847,
+        "end": 1393881,
+        "text": "shall be subject to the requirements of subparagraph (B) of paragraph (5) of subdivision (b) of Section 70901 of the Education Code.",
+        "chunk_id": 2248006874842958746
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11293993722973166553,
+        "start": 1393847,
+        "end": 1393881,
+        "text": "shall be subject to the requirements of subparagraph (B) of paragraph (5) of subdivision (b) of Section 70901 of the Education Code.",
+        "chunk_id": 2248006874842958746
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 128696428334334743,
+        "start": 1393847,
+        "end": 1393881,
+        "text": "shall be subject to the requirements of subparagraph (B) of paragraph (5) of subdivision (b) of Section 70901 of the Education Code.",
+        "chunk_id": 2248006874842958746
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6673950337814729226,
+        "start": 1393847,
+        "end": 1393881,
+        "text": "shall be subject to the requirements of subparagraph (B) of paragraph (5) of subdivision (b) of Section 70901 of the Education Code.",
+        "chunk_id": 2248006874842958746
+      }
+    ]
+  }
+]

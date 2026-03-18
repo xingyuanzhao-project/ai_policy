@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4395210068518789608,
+    "entity": "Department of Corrections",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 10781206374122734558,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 189637403498988178,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16830231495662498801,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9963779037574081147,
+        "start": 7659,
+        "end": 7678,
+        "text": "Regulatory Commission of",
+        "chunk_id": 2969535606463787056
+      }
+    ]
+  },
+  {
+    "candidate_id": 7375660839337430458,
+    "entity": "State of Alaska",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 11775855362852022141,
+        "start": 7659,
+        "end": 7671,
+        "text": "It is the intent of the legislature the State of Alaska",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11614182556832882612,
+        "start": 7659,
+        "end": 7671,
+        "text": "It is the intent of the legislature the State of Alaska",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3808625577090346021,
+        "start": 7659,
+        "end": 7671,
+        "text": "It is the intent of the legislature the State of Alaska",
+        "chunk_id": 2969535606463787056
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9232649687691714510,
+        "start": 7659,
+        "end": 7671,
+        "text": "It is the intent of the legislature the State of Alaska",
+        "chunk_id": 2969535606463787056
+      }
+    ]
+  }
+]

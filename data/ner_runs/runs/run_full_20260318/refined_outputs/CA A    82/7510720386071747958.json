@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14642110457681734968,
+    "source_group_id": 7510720386071747958,
+    "source_candidate_ids": [
+      8774984680988911681
+    ],
+    "entity": "state or local law enforcement agency or officer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibited from arresting",
+    "entity_evidence": [
+      {
+        "span_id": 13896090031329673806,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7063058305264478893,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9107438172110041806,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18023089960641389423,
+        "start": 67375,
+        "end": 67401,
+        "text": "state or local law enforcement agency or officer",
+        "chunk_id": 8360361638811239416
+      }
+    ]
+  }
+]

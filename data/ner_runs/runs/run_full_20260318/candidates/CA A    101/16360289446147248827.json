@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12405736899665471824,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 3188359962418422666,
+        "start": 596013,
+        "end": 596033,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1036405206512696372,
+        "start": 596013,
+        "end": 596033,
+        "text": "government agency",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14556707616669538668,
+        "start": 596033,
+        "end": 596053,
+        "text": "restriction",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17752948899625741597,
+        "start": 596053,
+        "end": 596083,
+        "text": "encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 16360289446147248827
+      }
+    ]
+  },
+  {
+    "candidate_id": 15145151244597756909,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 14961647440477395248,
+        "start": 596013,
+        "end": 596033,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10115559324660832673,
+        "start": 596013,
+        "end": 596033,
+        "text": "government agency",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5371902294487574151,
+        "start": 596033,
+        "end": 596053,
+        "text": "restriction",
+        "chunk_id": 16360289446147248827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 461182237008775741,
+        "start": 596053,
+        "end": 596083,
+        "text": "encumbrance or expenditure until June 30, 2027",
+        "chunk_id": 16360289446147248827
+      }
+    ]
+  }
+]

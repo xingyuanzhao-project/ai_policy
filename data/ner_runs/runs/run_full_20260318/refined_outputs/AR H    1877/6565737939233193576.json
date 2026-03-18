@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 272494957557442316,
+    "source_group_id": 6565737939233193576,
+    "source_candidate_ids": [
+      2246002838753045300
+    ],
+    "entity": "child sexual abuse material",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 10684832753429579070,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5425401905779994259,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9744392475196631769,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5390617346771655409,
+        "start": 7362,
+        "end": 7386,
+        "text": "Possession or use of child sexual abuse material",
+        "chunk_id": 11763649884570934754
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5533764600104018381,
+    "source_group_id": 9716141611735510632,
+    "source_candidate_ids": [
+      17064436872372682470
+    ],
+    "entity": "health benefit plan",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3697881819295718649,
+        "start": 17814,
+        "end": 17829,
+        "text": "health benefit plan",
+        "chunk_id": 7983503576562640233
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15749342237583547361,
+        "start": 17814,
+        "end": 17829,
+        "text": "health benefit plan",
+        "chunk_id": 7983503576562640233
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15151340018582815100,
+        "start": 17829,
+        "end": 17834,
+        "text": "compliance",
+        "chunk_id": 7983503576562640233
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15531502983315218444,
+        "start": 17834,
+        "end": 17839,
+        "text": "not eroded",
+        "chunk_id": 7983503576562640233
+      }
+    ]
+  }
+]

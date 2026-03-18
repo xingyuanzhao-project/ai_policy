@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8205773624151753768,
+    "entity": "insurer",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6487348804162318292,
+        "start": 2100,
+        "end": 2105,
+        "text": "An insurer",
+        "chunk_id": 13444444784094525873
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14162475492234881471,
+        "start": 2100,
+        "end": 2105,
+        "text": "An insurer",
+        "chunk_id": 13444444784094525873
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1999808843739164252,
+        "start": 2105,
+        "end": 2110,
+        "text": "shall adhere to all of the following requirements",
+        "chunk_id": 13444444784094525873
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18380269949872571775,
+        "start": 2110,
+        "end": 2115,
+        "text": "when making a coverage determination",
+        "chunk_id": 13444444784094525873
+      }
+    ]
+  },
+  {
+    "candidate_id": 5869151753742378076,
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13499598308569097193,
+        "start": 2168,
+        "end": 2181,
+        "text": "artificial intelligence",
+        "chunk_id": 13444444784094525873
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16026824263972319233,
+        "start": 2168,
+        "end": 2181,
+        "text": "artificial intelligence",
+        "chunk_id": 13444444784094525873
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4198247236348286483,
+        "start": 2181,
+        "end": 2186,
+        "text": "purport to be based in whole or in part on medical necessity",
+        "chunk_id": 13444444784094525873
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11319884230329921231,
+        "start": 2186,
+        "end": 2191,
+        "text": "shall adhere to all of the following requirements",
+        "chunk_id": 13444444784094525873
+      }
+    ]
+  }
+]

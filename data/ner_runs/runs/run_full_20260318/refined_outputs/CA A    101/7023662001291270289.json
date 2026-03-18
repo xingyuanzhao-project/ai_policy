@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7433559414177124020,
+    "source_group_id": 7023662001291270289,
+    "source_candidate_ids": [
+      6010393034118133282
+    ],
+    "entity": "California Infrastructure and Economic Development Bank Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 13982141306092959066,
+        "start": 77000,
+        "end": 77021,
+        "text": "California Infrastructure and Economic Development Bank Fund",
+        "chunk_id": 9570606235683028403
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9273546009308617997,
+        "start": 77000,
+        "end": 77021,
+        "text": "infrastructure",
+        "chunk_id": 9570606235683028403
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6597952153640285196,
+        "start": 77000,
+        "end": 77021,
+        "text": "restriction",
+        "chunk_id": 9570606235683028403
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11518443384657705959,
+        "start": 77000,
+        "end": 77021,
+        "text": "moderate",
+        "chunk_id": 9570606235683028403
+      }
+    ]
+  }
+]

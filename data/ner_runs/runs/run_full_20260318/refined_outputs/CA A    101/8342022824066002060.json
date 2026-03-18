@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8883741599244494520,
+    "source_group_id": 8342022824066002060,
+    "source_candidate_ids": [
+      3884885434939377948
+    ],
+    "entity": "State Water Resources Control Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "stormwater discharge provisions",
+    "entity_evidence": [
+      {
+        "span_id": 10731657775694403221,
+        "start": 338864,
+        "end": 338885,
+        "text": "State Water Resources Control Board",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2149323329001608808,
+        "start": 338864,
+        "end": 338885,
+        "text": "government agency",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9376818331710206468,
+        "start": 338864,
+        "end": 338885,
+        "text": "restriction",
+        "chunk_id": 5358183512464689520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7723305475748922096,
+        "start": 338864,
+        "end": 338885,
+        "text": "stormwater discharge provisions",
+        "chunk_id": 5358183512464689520
+      }
+    ]
+  }
+]

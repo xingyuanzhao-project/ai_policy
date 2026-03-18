@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11688629757594388143,
+    "entity": "app store provider",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 1450094827758252102,
+        "start": 166,
+        "end": 176,
+        "text": "APP STORE PROVIDER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3567615158488691420,
+        "start": 166,
+        "end": 176,
+        "text": "APP STORE PROVIDER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1628708514009609907,
+        "start": 166,
+        "end": 176,
+        "text": "APP STORE PROVIDER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16055044289321134642,
+        "start": 166,
+        "end": 176,
+        "text": "APP STORE PROVIDER",
+        "chunk_id": 4589521747300140191
+      }
+    ]
+  },
+  {
+    "candidate_id": 7630036418510712561,
+    "entity": "developer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9020232215441397768,
+        "start": 134,
+        "end": 142,
+        "text": "DEVELOPER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6527587037349920949,
+        "start": 134,
+        "end": 142,
+        "text": "DEVELOPER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1135308853138470590,
+        "start": 134,
+        "end": 142,
+        "text": "DEVELOPER",
+        "chunk_id": 4589521747300140191
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12955243652344509182,
+        "start": 134,
+        "end": 142,
+        "text": "DEVELOPER",
+        "chunk_id": 4589521747300140191
+      }
+    ]
+  }
+]

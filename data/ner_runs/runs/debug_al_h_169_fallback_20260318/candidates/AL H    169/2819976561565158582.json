@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12513234574679591133,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "50% at discretion of State Superintendent of Education",
+    "entity_evidence": [
+      {
+        "span_id": 3482850279376215384,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1386818081626984313,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13031392401892151779,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5109409724445679990,
+        "start": 134382,
+        "end": 134400,
+        "text": "The At-Risk and High Hopes appropriations made to the State Department of Education",
+        "chunk_id": 2819976561565158582
+      }
+    ]
+  },
+  {
+    "candidate_id": 14047688618549624119,
+    "entity": "school systems/entities",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "grants for activities or programs designed to enhance outcomes for At-Risk Students",
+    "entity_evidence": [
+      {
+        "span_id": 17838947969043807050,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5688132617578410942,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14417032878150586770,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8972081260662674344,
+        "start": 134461,
+        "end": 134478,
+        "text": "school systems/entities for activities or programs designed to enhance outcomes for At-Risk Students",
+        "chunk_id": 2819976561565158582
+      }
+    ]
+  }
+]

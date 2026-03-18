@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11675704611911264916,
+    "source_group_id": 15315072826518380428,
+    "source_candidate_ids": [
+      13372696671893909507
+    ],
+    "entity": "Board of Administration of the Public Employees' Retirement System (PERS)",
+    "type": "government agency",
+    "attribute": "submission",
+    "value": "proposed budget",
+    "entity_evidence": [
+      {
+        "span_id": 9465235473040476324,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "Board of Administration of the Public Employees' Retirement System (PERS)",
+        "chunk_id": 9919606625314191765
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10748992185613929702,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "government agency",
+        "chunk_id": 9919606625314191765
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13646488217576657958,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "submission",
+        "chunk_id": 9919606625314191765
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8378795145098084223,
+        "start": 1587991,
+        "end": 1588012,
+        "text": "proposed budget",
+        "chunk_id": 9919606625314191765
+      }
+    ]
+  }
+]

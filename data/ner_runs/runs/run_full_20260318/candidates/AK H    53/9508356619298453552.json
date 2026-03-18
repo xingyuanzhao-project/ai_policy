@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2112505973485744172,
+    "entity": "Alaska Housing Finance Corporation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13168654679085508514,
+        "start": 89691,
+        "end": 89711,
+        "text": "Alaska Housing Finance Corporation",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5009174823509885059,
+        "start": 89691,
+        "end": 89711,
+        "text": "government agency",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4686946704334954596,
+        "start": 89691,
+        "end": 89711,
+        "text": "restriction",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2197735172395619683,
+        "start": 89691,
+        "end": 89711,
+        "text": "limited",
+        "chunk_id": 9508356619298453552
+      }
+    ]
+  },
+  {
+    "candidate_id": 4042233962817026412,
+    "entity": "Department of Administration",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 18308262506368680188,
+        "start": 89751,
+        "end": 89773,
+        "text": "Department of Administration",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13370711066197372101,
+        "start": 89751,
+        "end": 89773,
+        "text": "government agency",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16575566519207971348,
+        "start": 89751,
+        "end": 89773,
+        "text": "restriction",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16985883118895513466,
+        "start": 89751,
+        "end": 89773,
+        "text": "limited",
+        "chunk_id": 9508356619298453552
+      }
+    ]
+  }
+]

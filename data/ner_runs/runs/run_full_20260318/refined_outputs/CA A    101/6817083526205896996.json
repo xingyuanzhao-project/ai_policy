@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4579715507192598016,
+    "source_group_id": 6817083526205896996,
+    "source_candidate_ids": [
+      17858664745704610535
+    ],
+    "entity": "Student Success Completion Grant",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13725565718843524258,
+        "start": 1454429,
+        "end": 1454455,
+        "text": "Student Success Completion Grant",
+        "chunk_id": 2300929955467922931
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2273540564055103304,
+        "start": 1454429,
+        "end": 1454455,
+        "text": "infrastructure",
+        "chunk_id": 2300929955467922931
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15077381736611875436,
+        "start": 1454429,
+        "end": 1454455,
+        "text": "restriction",
+        "chunk_id": 2300929955467922931
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 787240368563442143,
+        "start": 1454429,
+        "end": 1454455,
+        "text": "extremely restrictive",
+        "chunk_id": 2300929955467922931
+      }
+    ]
+  }
+]

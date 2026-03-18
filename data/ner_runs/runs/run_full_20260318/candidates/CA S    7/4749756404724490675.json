@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14795707492129545162,
+    "entity": "ADS",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 988813230233382028,
+        "start": 4968,
+        "end": 4970,
+        "text": "ADS",
+        "chunk_id": 4749756404724490675
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7870394326130728897,
+        "start": 4968,
+        "end": 4970,
+        "text": "ADS",
+        "chunk_id": 4749756404724490675
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14463396285245640198,
+        "start": 4968,
+        "end": 4970,
+        "text": "ADS",
+        "chunk_id": 4749756404724490675
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8884643582577710355,
+        "start": 4968,
+        "end": 4970,
+        "text": "ADS",
+        "chunk_id": 4749756404724490675
+      }
+    ]
+  },
+  {
+    "candidate_id": 4605590287671106575,
+    "entity": "employer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 15478349741661268723,
+        "start": 5091,
+        "end": 5096,
+        "text": "employer",
+        "chunk_id": 4749756404724490675
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17527059250380661577,
+        "start": 5091,
+        "end": 5096,
+        "text": "employer",
+        "chunk_id": 4749756404724490675
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17324235340303176072,
+        "start": 5091,
+        "end": 5096,
+        "text": "employer",
+        "chunk_id": 4749756404724490675
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12025423983791946561,
+        "start": 5091,
+        "end": 5096,
+        "text": "employer",
+        "chunk_id": 4749756404724490675
+      }
+    ]
+  }
+]

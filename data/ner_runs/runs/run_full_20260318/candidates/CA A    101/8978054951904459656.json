@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8227516184043757784,
+    "entity": "community college district",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "required to spend $1 from local or other resources for every $4 received",
+    "entity_evidence": [
+      {
+        "span_id": 3599052355661885274,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "community college district",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9101048081707837616,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "government agency",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14924125101296937000,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "restriction",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9287424701317969143,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "required to spend $1 from local or other resources for every $4 received",
+        "chunk_id": 8978054951904459656
+      }
+    ]
+  },
+  {
+    "candidate_id": 246769239161269606,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "qualified pursuant to Chapter 5.6 (commencing with Section 13300) of Part 3 of Division 9 of the Welfare and Institutions Code",
+    "entity_evidence": [
+      {
+        "span_id": 3019171753270353949,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "State Department of Social Services",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3071436427335523207,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "government agency",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3818224559327495489,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "promotion",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5520235937993860747,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "qualified pursuant to Chapter 5.6 (commencing with Section 13300) of Part 3 of Division 9 of the Welfare and Institutions Code",
+        "chunk_id": 8978054951904459656
+      }
+    ]
+  }
+]

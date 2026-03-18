@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11157042395759580404,
+    "source_group_id": 10571691543039610168,
+    "source_candidate_ids": [
+      1838012306487587412
+    ],
+    "entity": "Digital eXperience Platform project",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 5875914422264680687,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18403231501370104387,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4175676426007655419,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4988705576853091862,
+        "start": 434469,
+        "end": 434469,
+        "text": "",
+        "chunk_id": 14641359166293664245
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10088408096415162881,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval required",
+    "entity_evidence": [
+      {
+        "span_id": 8157969524825041031,
+        "start": 1167324,
+        "end": 1167339,
+        "text": "Department of Finance",
+        "chunk_id": 3072280241069609189
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7591272181042783064,
+        "start": 1167340,
+        "end": 1167353,
+        "text": "government agency",
+        "chunk_id": 3072280241069609189
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9334587579160030402,
+        "start": 1167354,
+        "end": 1167365,
+        "text": "prior approval required",
+        "chunk_id": 3072280241069609189
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8807061775189830810,
+        "start": 1167366,
+        "end": 1167377,
+        "text": "prior approval required",
+        "chunk_id": 3072280241069609189
+      }
+    ]
+  },
+  {
+    "candidate_id": 17272227630244534342,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 17164393869648212965,
+        "start": 1167378,
+        "end": 1167397,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 3072280241069609189
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14085166470817299246,
+        "start": 1167398,
+        "end": 1167411,
+        "text": "government agency",
+        "chunk_id": 3072280241069609189
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5228490487054193327,
+        "start": 1167412,
+        "end": 1167423,
+        "text": "notification",
+        "chunk_id": 3072280241069609189
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12430155865037991903,
+        "start": 1167424,
+        "end": 1167432,
+        "text": "30 days",
+        "chunk_id": 3072280241069609189
+      }
+    ]
+  }
+]

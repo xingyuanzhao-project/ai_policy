@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2074014688529635090,
+    "entity": "California College of the Arts",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "one-time basis",
+    "entity_evidence": [
+      {
+        "span_id": 4890262051339581388,
+        "start": 1464673,
+        "end": 1464689,
+        "text": "California College of the Arts",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18211877798319939937,
+        "start": 1464673,
+        "end": 1464689,
+        "text": "California College of the Arts",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 763580163935349227,
+        "start": 1464673,
+        "end": 1464689,
+        "text": "California College of the Arts",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5644133655097470981,
+        "start": 1464673,
+        "end": 1464689,
+        "text": "one-time basis",
+        "chunk_id": 17985044891974313152
+      }
+    ]
+  },
+  {
+    "candidate_id": 16743085220558777803,
+    "entity": "California Indian Nations College",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "one-time basis",
+    "entity_evidence": [
+      {
+        "span_id": 10585908219853668416,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "California Indian Nations College",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3563471742523728030,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "California Indian Nations College",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9890915974573906151,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "California Indian Nations College",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14958769104438573670,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "one-time basis",
+        "chunk_id": 17985044891974313152
+      }
+    ]
+  }
+]

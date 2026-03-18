@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9027789230621465830,
+    "source_group_id": 1664722878478955499,
+    "source_candidate_ids": [
+      34316159273963552
+    ],
+    "entity": "Children and Youth Behavioral Health Initiative",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "available for funding",
+    "entity_evidence": [
+      {
+        "span_id": 3920331970118135914,
+        "start": 894226,
+        "end": 894247,
+        "text": "Children and Youth Behavioral Health Initiative",
+        "chunk_id": 4899936221969601010
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15027200551898990731,
+        "start": 894226,
+        "end": 894247,
+        "text": "infrastructure",
+        "chunk_id": 4899936221969601010
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2974253105386652620,
+        "start": 894226,
+        "end": 894247,
+        "text": "available for funding",
+        "chunk_id": 4899936221969601010
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12767618391373749707,
+        "start": 894226,
+        "end": 894247,
+        "text": "available for funding",
+        "chunk_id": 4899936221969601010
+      }
+    ]
+  }
+]

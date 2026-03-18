@@ -1,0 +1,441 @@
+{
+  "zero_shot_annotator": {
+    "prompt_template": "role: you are a zero shot annotator for AI policy legislation.\n\ntask:\n\nThis is a candidate proposal stage. You propose structured candidates only. Do not finalize, group, or resolve candidates. Downstream stages handle grouping and refinement.\n\n1. extract the entity being regulated by the AI policy legislation from the given context chunk, and the type of the entity, the attribute of the entity, and the value of the entity.\n  definitions:\n  quadruplet: a quadruplet is a tuple of four elements: entity, type, attribute, value.\n\n  - entity: the entity being regulated by the AI policy legislation. It can be the name of a company, a government agency, a technology, a infrastructure, a individual, etc. Example: deepfake, data center, etc.\n\n  - type: the type of the entity. for example, It can be company, government agency, technology, infrastructure, individual, etc.\n\n  - attribute: the way the entity is being regulated by the AI policy legislation. example: restriction, prohibition, promotion, subsidy\n\n  - value: the value of the attribute, it can be categorical or qualitative.\n\n  example: the value of the attribute \"restriction\" is \"extremely restrictive\".\n\n2. Return the smallest non-overlapping candidate set that preserves the directly supported AI-policy concepts in the chunk.\n3. Evidence offsets must be character offsets relative to the provided chunk text, not the full bill.\n\nrequirements:\n\nPrefer full phrases from the text over fragment words, and return at most 2 candidates. Use at most 1 evidence span per field.\n\nFor every field, return an evidence array containing only spans that directly support that specific field. If a field is null, return an empty evidence array for that field.\nPartial extractions are valid outputs. Fields may be null when the chunk does not support them; do not force a value.\nReturn JSON only and do not add commentary.\n\nBill id: {bill_id}\nChunk id: {chunk_id}\nChunk text:\n{text}",
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "candidates": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "entity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "attribute": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "value": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "entity_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text"
+                  ]
+                }
+              },
+              "type_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text"
+                  ]
+                }
+              },
+              "attribute_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text"
+                  ]
+                }
+              },
+              "value_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "entity",
+              "type",
+              "attribute",
+              "value",
+              "entity_evidence",
+              "type_evidence",
+              "attribute_evidence",
+              "value_evidence"
+            ]
+          }
+        }
+      },
+      "required": [
+        "candidates"
+      ]
+    }
+  },
+  "eval_assembler": {
+    "prompt_template": "role: you are an assembler for given candidate quadruplets. Input is one bill-level candidate pool produced by the Zero-shot Annotator, including the evidence spans of the candidates.\n\ntask: 1. group related candidates that refer to the same underlying entity or concept. 2. Then, score each candidate field's confidence according to the following criteria, range from 0.0 to 1.0:\n\ncriteria:\n\nentity:\n  High: the mention refers to a concrete regulatory target (a technology, application, domain) or a regulated entity (an actor, organization, role) that the bill explicitly addresses.\n  Low: the mention is too generic to be useful as a policy variable — \"AI\", \"system\", \"entity\" with no specificity.\n\ntype:\n  High: the type label correctly classifies whether this is a Regulatory Target or a Regulated Entity, and the sub-type is appropriate (e.g. \"AI application\" vs \"government agency\" vs \"developer\").\n  Low: the label misclassifies the governance dimension — putting a target in the entity slot or vice versa — or uses a type too coarse to support cross-state comparison.\n\nattribute:\n  High: the attribute names a real policy mechanism the bill actually imposes — obligation, prohibition, requirement, right, exemption — that is explicitly stated in the text and traceable to a span.\n  Low: the attribute is inferred from context rather than stated, or it describes something the bill implies but does not assert.\n\nvalue:\n  High: the value is the specific, stated content of the policy mechanism — the actual obligation text, condition, threshold, or qualifier — as written in the bill.\n  Low: the value is a paraphrase, generalization, or does not match what the attribute slot is asking for.\n\nrequirements:\n  - Each grouped candidate set must preserve candidate_ids in the exact row order used by field_score_matrix.\n  - The field order is fixed to [entity, type, attribute, value], so field_score_matrix must have exactly four columns in that order.\n  - Use only scores between 0.0 and 1.0 or null.\n  - Return the smallest grouping that preserves every candidate exactly once.\n  - Do not repeat candidate ids across groups.\n  - Do not assign relation labels between candidates. Do not determine support, overlap, conflict, duplicate, or refinement. That is handled by a downstream stage.\n  - Return JSON only and do not add commentary.\n\nCandidate pool:\n{candidates_json}",
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "candidate_ids": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              },
+              "field_score_matrix": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "required": [
+              "candidate_ids",
+              "field_score_matrix"
+            ]
+          }
+        }
+      },
+      "required": [
+        "groups"
+      ]
+    }
+  },
+  "granularity_refiner": {
+    "prompt_template": "role: you are the final judge for the given grouped candidate set and the referenced candidate quadruplets.\n\ninput: one GroupedCandidateSet plus the referenced CandidateQuadruplet objects, including their evidence spans.\n\ntask: given a group of related candidates that have already been scored, resolve them into one final quadruplet that preserves the most specific, most evidenced version of each field — without collapsing distinct policy content into a single vague label, and without splitting one real extraction into two redundant ones. Avoid two failure modes: under-splitting (merging candidates that describe distinct regulatory targets or regulated entities into one vague output) and over-splitting (fragmenting one real extraction into redundant outputs).\n\nresults:\n  - Every non-null relation label in refinement_artifact must be one of: support, overlap, conflict, duplicate, refinement.\n\nrequirements:\n  - Preserve field-linked evidence by copying valid source spans from the referenced candidates.\n  - Set source_group_id and source_candidate_ids in the refined quadruplet from the input grouped candidate set.\n  - Return exactly one refined quadruplet for this grouped candidate set.\n  - Use at most 1 evidence span per field.\n  - If you cannot provide all four square relation matrices in the exact candidate_ids order, set refinement_artifact to null rather than returning a partial object.\n  - Return JSON only and do not add commentary.\n\nGrouped candidate set:\n{grouped_candidate_set_json}\n\nReferenced candidates:\n{candidate_pool_json}",
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "refined_quadruplets": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "source_candidate_ids": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              },
+              "entity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "attribute": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "value": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "entity_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "chunk_id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text",
+                    "chunk_id"
+                  ]
+                }
+              },
+              "type_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "chunk_id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text",
+                    "chunk_id"
+                  ]
+                }
+              },
+              "attribute_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "chunk_id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text",
+                    "chunk_id"
+                  ]
+                }
+              },
+              "value_evidence": {
+                "type": "array",
+                "maxItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "start": {
+                      "type": "integer"
+                    },
+                    "end": {
+                      "type": "integer"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "chunk_id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "text",
+                    "chunk_id"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "source_candidate_ids",
+              "entity",
+              "type",
+              "attribute",
+              "value",
+              "entity_evidence",
+              "type_evidence",
+              "attribute_evidence",
+              "value_evidence"
+            ]
+          }
+        },
+        "refinement_artifact": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "candidate_ids": {
+              "type": "array",
+              "items": {
+                "type": "integer"
+              }
+            },
+            "entity_relations": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            },
+            "type_relations": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            },
+            "attribute_relations": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            },
+            "value_relations": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "required": [
+            "candidate_ids",
+            "entity_relations",
+            "type_relations",
+            "attribute_relations",
+            "value_relations"
+          ]
+        }
+      },
+      "required": [
+        "refined_quadruplets",
+        "refinement_artifact"
+      ]
+    }
+  }
+}

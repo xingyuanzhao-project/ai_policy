@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3875264855989613604,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 45715952552484598,
+        "start": 170440,
+        "end": 170460,
+        "text": "The Department of Finance",
+        "chunk_id": 12665428374903639955
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11056133448014212910,
+        "start": 170440,
+        "end": 170460,
+        "text": "The Department of Finance",
+        "chunk_id": 12665428374903639955
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17672469917017879821,
+        "start": 170440,
+        "end": 170460,
+        "text": "The Department of Finance",
+        "chunk_id": 12665428374903639955
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8389887511347725981,
+        "start": 170440,
+        "end": 170460,
+        "text": "The Department of Finance",
+        "chunk_id": 12665428374903639955
+      }
+    ]
+  },
+  {
+    "candidate_id": 12808216473516599883,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17923819542402400501,
+        "start": 170440,
+        "end": 170450,
+        "text": "Department of Justice",
+        "chunk_id": 12665428374903639955
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2381686923637226639,
+        "start": 170440,
+        "end": 170450,
+        "text": "Department of Justice",
+        "chunk_id": 12665428374903639955
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18205533682284497470,
+        "start": 170440,
+        "end": 170450,
+        "text": "Department of Justice",
+        "chunk_id": 12665428374903639955
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 338870074480650107,
+        "start": 170440,
+        "end": 170450,
+        "text": "Department of Justice",
+        "chunk_id": 12665428374903639955
+      }
+    ]
+  }
+]

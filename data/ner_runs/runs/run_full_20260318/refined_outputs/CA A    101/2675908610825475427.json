@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7046725010836130753,
+    "source_group_id": 2675908610825475427,
+    "source_candidate_ids": [
+      12744521451234031757
+    ],
+    "entity": "California Statewide Automated Welfare System",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support implementation of the foster care Tiered Rate Structure",
+    "entity_evidence": [
+      {
+        "span_id": 10937005210427866918,
+        "start": 1064540,
+        "end": 1064567,
+        "text": "California Statewide Automated Welfare System",
+        "chunk_id": 2287446638882053125
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17972248949957876755,
+        "start": 1064540,
+        "end": 1064567,
+        "text": "California Statewide Automated Welfare System",
+        "chunk_id": 2287446638882053125
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7243680396771451906,
+        "start": 1064540,
+        "end": 1064567,
+        "text": "California Statewide Automated Welfare System",
+        "chunk_id": 2287446638882053125
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7616217526229998470,
+        "start": 1064540,
+        "end": 1064567,
+        "text": "California Statewide Automated Welfare System",
+        "chunk_id": 2287446638882053125
+      }
+    ]
+  }
+]

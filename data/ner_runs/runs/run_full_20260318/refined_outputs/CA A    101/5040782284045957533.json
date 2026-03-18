@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11455632890078284545,
+    "source_group_id": 5040782284045957533,
+    "source_candidate_ids": [
+      17046287769790402861
+    ],
+    "entity": "Service Revolving Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10789000233750983634,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "Service Revolving Fund",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17857791249128889651,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "government agency",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1015321999991213657,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "restriction",
+        "chunk_id": 5833244242580164457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14992660113758314468,
+        "start": 1565293,
+        "end": 1565312,
+        "text": "limited",
+        "chunk_id": 5833244242580164457
+      }
+    ]
+  }
+]

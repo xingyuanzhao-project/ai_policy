@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13450722603707062594,
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific criteria",
+    "entity_evidence": [
+      {
+        "span_id": 5767116434121725293,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14223098534269872120,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13996825377873372478,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15694267003967743074,
+        "start": 52840,
+        "end": 52850,
+        "text": "synthetic media",
+        "chunk_id": 16698168790921608818
+      }
+    ]
+  },
+  {
+    "candidate_id": 14681417551766143564,
+    "entity": "electioneering communication",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific criteria",
+    "entity_evidence": [
+      {
+        "span_id": 7042055354116431811,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16080974784867381622,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8655896461575681469,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5648311241521114277,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ]
+  }
+]

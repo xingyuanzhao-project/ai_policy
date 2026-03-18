@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2347943780772692184,
+    "source_group_id": 5557051848593989013,
+    "source_candidate_ids": [
+      8630870233434616878
+    ],
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 10554942711260318627,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "Federal Trust Fund",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16277145535592115901,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "infrastructure",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4271690519356447403,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "restriction",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7976105663611653415,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "identification",
+        "chunk_id": 3604965941259164829
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12794055581675496986,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding guarantee",
+    "entity_evidence": [
+      {
+        "span_id": 6412617474781778806,
+        "start": 1883069,
+        "end": 1883087,
+        "text": "University of California",
+        "chunk_id": 11216151778979380687
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15797872981776958922,
+        "start": 1883069,
+        "end": 1883087,
+        "text": "government agency",
+        "chunk_id": 11216151778979380687
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5346842552647957808,
+        "start": 1883069,
+        "end": 1883087,
+        "text": "promotion",
+        "chunk_id": 11216151778979380687
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2319666774296025948,
+        "start": 1883069,
+        "end": 1883087,
+        "text": "funding guarantee",
+        "chunk_id": 11216151778979380687
+      }
+    ]
+  },
+  {
+    "candidate_id": 14834509199011458338,
+    "entity": "Department of Veterans Affairs",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "undefined",
+    "entity_evidence": [
+      {
+        "span_id": 6633373890863341773,
+        "start": 1883320,
+        "end": 1883338,
+        "text": "Veterans Affairs, Department of",
+        "chunk_id": 11216151778979380687
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5599732665915824264,
+        "start": 1883320,
+        "end": 1883338,
+        "text": "government agency",
+        "chunk_id": 11216151778979380687
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15197367681262037795,
+        "start": 1883320,
+        "end": 1883338,
+        "text": "restriction",
+        "chunk_id": 11216151778979380687
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12261685692137166216,
+        "start": 1883320,
+        "end": 1883338,
+        "text": "undefined",
+        "chunk_id": 11216151778979380687
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7402796818156272242,
+    "source_group_id": 9354003118154012289,
+    "source_candidate_ids": [
+      9035140420542131631
+    ],
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "provision of legal services hours projection",
+    "entity_evidence": [
+      {
+        "span_id": 16078699083178270797,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8131557979438264733,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9796327160287588108,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10823680192549075620,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ]
+  }
+]

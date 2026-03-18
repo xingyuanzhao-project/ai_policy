@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4436218621552609437,
+    "entity": "reproductive health care field",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6211848572941166947,
+        "start": 134,
+        "end": 155,
+        "text": "reproductive health care field",
+        "chunk_id": 6149411107757066045
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2562954650559104079,
+        "start": 134,
+        "end": 155,
+        "text": "reproductive health care field",
+        "chunk_id": 6149411107757066045
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18010636372034835462,
+        "start": 134,
+        "end": 155,
+        "text": "reproductive health care field",
+        "chunk_id": 6149411107757066045
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17373808771329813847,
+        "start": 134,
+        "end": 155,
+        "text": "reproductive health care field",
+        "chunk_id": 6149411107757066045
+      }
+    ]
+  },
+  {
+    "candidate_id": 10771145031278112571,
+    "entity": "public health officers",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 12368551404580486980,
+        "start": 434,
+        "end": 453,
+        "text": "public health officers",
+        "chunk_id": 6149411107757066045
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3811211657291736920,
+        "start": 434,
+        "end": 453,
+        "text": "public health officers",
+        "chunk_id": 6149411107757066045
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11390221072022981793,
+        "start": 434,
+        "end": 453,
+        "text": "public health officers",
+        "chunk_id": 6149411107757066045
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4116940761786439670,
+        "start": 434,
+        "end": 453,
+        "text": "public health officers",
+        "chunk_id": 6149411107757066045
+      }
+    ]
+  }
+]

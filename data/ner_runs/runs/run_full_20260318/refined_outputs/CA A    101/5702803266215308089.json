@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18424373222724962710,
+    "source_group_id": 5702803266215308089,
+    "source_candidate_ids": [
+      6441500911285828548
+    ],
+    "entity": "Santa Monica Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on encumbering state-appropriated funds for real property purchases",
+    "entity_evidence": [
+      {
+        "span_id": 10336926804706858876,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8667043676056776986,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7311579849693693573,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16429564764828474243,
+        "start": 616826,
+        "end": 616847,
+        "text": "Santa Monica Mountains Conservancy",
+        "chunk_id": 8434123603591831623
+      }
+    ]
+  }
+]

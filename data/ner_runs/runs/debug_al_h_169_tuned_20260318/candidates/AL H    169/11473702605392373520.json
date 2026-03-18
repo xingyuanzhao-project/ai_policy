@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8437232467704405931,
+    "entity": "Legislative Branch",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "program level",
+    "entity_evidence": [
+      {
+        "span_id": 17821388427775408643,
+        "start": 2506,
+        "end": 2526,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4031375855539238633,
+        "start": 2506,
+        "end": 2526,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3828562249972056705,
+        "start": 2506,
+        "end": 2526,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14438659464850122117,
+        "start": 2506,
+        "end": 2526,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ]
+  },
+  {
+    "candidate_id": 15304952963776862983,
+    "entity": "Examiners of Public Accounts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance with the laws of the State of Alabama",
+    "entity_evidence": [
+      {
+        "span_id": 2573390956828149695,
+        "start": 2627,
+        "end": 2647,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 313322441725259205,
+        "start": 2627,
+        "end": 2647,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16714596509562643100,
+        "start": 2627,
+        "end": 2647,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17456262140251416056,
+        "start": 2627,
+        "end": 2647,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ]
+  }
+]

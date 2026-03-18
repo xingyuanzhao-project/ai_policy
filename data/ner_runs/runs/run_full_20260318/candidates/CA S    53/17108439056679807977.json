@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12037576977926047841,
+    "entity": "frontier models",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited access",
+    "entity_evidence": [
+      {
+        "span_id": 9804436546130319781,
+        "start": 14910,
+        "end": 14930,
+        "text": "limit access to any reports related to internal use of frontier models",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5908206013345959610,
+        "start": 14910,
+        "end": 14930,
+        "text": "limit access to any reports related to internal use of frontier models",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11501830515485960348,
+        "start": 14910,
+        "end": 14930,
+        "text": "limit access to any reports related to internal use of frontier models",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11631086511280928787,
+        "start": 14910,
+        "end": 14930,
+        "text": "limit access to any reports related to internal use of frontier models",
+        "chunk_id": 17108439056679807977
+      }
+    ]
+  },
+  {
+    "candidate_id": 18365307094705060745,
+    "entity": "frontier developer",
+    "type": "individual/company",
+    "attribute": "requirement",
+    "value": "report within 15 days",
+    "entity_evidence": [
+      {
+        "span_id": 3854563260000278563,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1742147162254818491,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11858977745154177231,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13408368382372441825,
+        "start": 14932,
+        "end": 14950,
+        "text": "a frontier developer shall report any critical safety incident",
+        "chunk_id": 17108439056679807977
+      }
+    ]
+  }
+]

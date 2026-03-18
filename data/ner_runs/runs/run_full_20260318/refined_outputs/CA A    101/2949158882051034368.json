@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12675786504512597734,
+    "source_group_id": 2949158882051034368,
+    "source_candidate_ids": [
+      14531800426495766389
+    ],
+    "entity": "Financial Information System for California",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 3495069921300295021,
+        "start": 1659549,
+        "end": 1659584,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 7916786261995960073
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14217343854600425407,
+        "start": 1659549,
+        "end": 1659584,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 7916786261995960073
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10930065684173039995,
+        "start": 1659549,
+        "end": 1659584,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 7916786261995960073
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4957282659993208085,
+        "start": 1659549,
+        "end": 1659584,
+        "text": "For support of Financial Information System for California",
+        "chunk_id": 7916786261995960073
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14190141948355964474,
+    "entity": "State of California Governor's Budget for 2025-26",
+    "type": "document",
+    "attribute": "reference",
+    "value": "required",
+    "entity_evidence": [
+      {
+        "span_id": 10956148941871038316,
+        "start": 1656216,
+        "end": 1656247,
+        "text": "State of California Governor's Budget for 2025-26",
+        "chunk_id": 1005988472089399341
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13135545778460842957,
+        "start": 1656216,
+        "end": 1656247,
+        "text": "document",
+        "chunk_id": 1005988472089399341
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1206367363580429567,
+        "start": 1656216,
+        "end": 1656247,
+        "text": "reference",
+        "chunk_id": 1005988472089399341
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16279903960809151269,
+        "start": 1656216,
+        "end": 1656247,
+        "text": "required",
+        "chunk_id": 1005988472089399341
+      }
+    ]
+  },
+  {
+    "candidate_id": 9064878155222997683,
+    "entity": "Uniform Codes Manual",
+    "type": "document",
+    "attribute": "reference",
+    "value": "required",
+    "entity_evidence": [
+      {
+        "span_id": 8131275772210068220,
+        "start": 1656216,
+        "end": 1656233,
+        "text": "Uniform Codes Manual",
+        "chunk_id": 1005988472089399341
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11469485340091112563,
+        "start": 1656216,
+        "end": 1656233,
+        "text": "document",
+        "chunk_id": 1005988472089399341
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15828857028854697509,
+        "start": 1656216,
+        "end": 1656233,
+        "text": "reference",
+        "chunk_id": 1005988472089399341
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10084386834855429160,
+        "start": 1656216,
+        "end": 1656233,
+        "text": "required",
+        "chunk_id": 1005988472089399341
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15545511732494919819,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to the conditions of Section 28.00",
+    "entity_evidence": [
+      {
+        "span_id": 12262621625247395577,
+        "start": 147702,
+        "end": 147722,
+        "text": "subject to the conditions of Section 28.00",
+        "chunk_id": 1769011989553160569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7866960940901012176,
+        "start": 147702,
+        "end": 147722,
+        "text": "Section 28.00",
+        "chunk_id": 1769011989553160569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11538822511130695231,
+        "start": 147702,
+        "end": 147722,
+        "text": "subject to the conditions of Section 28.00",
+        "chunk_id": 1769011989553160569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1821452644155548529,
+        "start": 147702,
+        "end": 147722,
+        "text": "subject to the conditions of Section 28.00",
+        "chunk_id": 1769011989553160569
+      }
+    ]
+  },
+  {
+    "candidate_id": 12048748279936225914,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days after notification of the Legislature",
+    "entity_evidence": [
+      {
+        "span_id": 12253420574815657564,
+        "start": 147702,
+        "end": 147722,
+        "text": "Office of Emergency Services",
+        "chunk_id": 1769011989553160569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14887583901457351138,
+        "start": 147702,
+        "end": 147722,
+        "text": "Section 28.00",
+        "chunk_id": 1769011989553160569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14910040620890846406,
+        "start": 147702,
+        "end": 147722,
+        "text": "30 days after notification of the Legislature",
+        "chunk_id": 1769011989553160569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1887454259444812091,
+        "start": 147702,
+        "end": 147722,
+        "text": "30 days after notification of the Legislature",
+        "chunk_id": 1769011989553160569
+      }
+    ]
+  }
+]

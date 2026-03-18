@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12237535233535823816,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "direct expenditure in such amounts as needed to meet operational needs",
+    "entity_evidence": [
+      {
+        "span_id": 4334096737991401176,
+        "start": 590451,
+        "end": 590484,
+        "text": "The amounts appropriated in this item may be transferred to the Water Resources Revolving Fund (0691) for direct expenditure in such amounts as needed to meet operational needs.",
+        "chunk_id": 10419499524369519767
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5454128743192816883,
+        "start": 590451,
+        "end": 590484,
+        "text": "The amounts appropriated in this item may be transferred to the Water Resources Revolving Fund (0691) for direct expenditure in such amounts as needed to meet operational needs.",
+        "chunk_id": 10419499524369519767
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10283984267814464631,
+        "start": 590451,
+        "end": 590484,
+        "text": "The amounts appropriated in this item may be transferred to the Water Resources Revolving Fund (0691) for direct expenditure in such amounts as needed to meet operational needs.",
+        "chunk_id": 10419499524369519767
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12143596168439073761,
+        "start": 590451,
+        "end": 590484,
+        "text": "The amounts appropriated in this item may be transferred to the Water Resources Revolving Fund (0691) for direct expenditure in such amounts as needed to meet operational needs.",
+        "chunk_id": 10419499524369519767
+      }
+    ]
+  },
+  {
+    "candidate_id": 14532208578740223862,
+    "entity": "California Water Plan",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "continuing formulation",
+    "entity_evidence": [
+      {
+        "span_id": 10064664480001286368,
+        "start": 590388,
+        "end": 590407,
+        "text": "3230-Continuing Formulation of the California Water Plan",
+        "chunk_id": 10419499524369519767
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12224719101701997332,
+        "start": 590388,
+        "end": 590407,
+        "text": "3230-Continuing Formulation of the California Water Plan",
+        "chunk_id": 10419499524369519767
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16014664888542965151,
+        "start": 590388,
+        "end": 590407,
+        "text": "3230-Continuing Formulation of the California Water Plan",
+        "chunk_id": 10419499524369519767
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12820551768301788515,
+        "start": 590388,
+        "end": 590407,
+        "text": "3230-Continuing Formulation of the California Water Plan",
+        "chunk_id": 10419499524369519767
+      }
+    ]
+  }
+]

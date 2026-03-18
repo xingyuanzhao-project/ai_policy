@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17305633845827530484,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "case-by-case basis",
+    "entity_evidence": [
+      {
+        "span_id": 15320590903262251430,
+        "start": 1601265,
+        "end": 1601285,
+        "text": "Department of Finance",
+        "chunk_id": 2230085776710253643
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7045958040801628666,
+        "start": 1601265,
+        "end": 1601285,
+        "text": "Department of Finance",
+        "chunk_id": 2230085776710253643
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16257981286607180236,
+        "start": 1601265,
+        "end": 1601285,
+        "text": "Department of Finance",
+        "chunk_id": 2230085776710253643
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14589972529237511767,
+        "start": 1601265,
+        "end": 1601285,
+        "text": "Department of Finance",
+        "chunk_id": 2230085776710253643
+      }
+    ]
+  },
+  {
+    "candidate_id": 1381208334794262222,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 14304493336823892125,
+        "start": 1601376,
+        "end": 1601397,
+        "text": "Controller",
+        "chunk_id": 2230085776710253643
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17454499960156379943,
+        "start": 1601376,
+        "end": 1601397,
+        "text": "Controller",
+        "chunk_id": 2230085776710253643
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7353625274031729129,
+        "start": 1601376,
+        "end": 1601397,
+        "text": "Controller",
+        "chunk_id": 2230085776710253643
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14594464039253879934,
+        "start": 1601376,
+        "end": 1601397,
+        "text": "Controller",
+        "chunk_id": 2230085776710253643
+      }
+    ]
+  }
+]

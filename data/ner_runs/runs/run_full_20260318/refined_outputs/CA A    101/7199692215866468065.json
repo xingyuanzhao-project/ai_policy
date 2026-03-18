@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3380790235357653500,
+    "source_group_id": 7199692215866468065,
+    "source_candidate_ids": [
+      1411626394099681912
+    ],
+    "entity": "Elder Abuse, Law Enforcement Training",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "moderately supportive",
+    "entity_evidence": [
+      {
+        "span_id": 1522722761274562773,
+        "start": 1667479,
+        "end": 1667499,
+        "text": "Elder Abuse, Law Enforcement Training",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15807332000157937449,
+        "start": 1667500,
+        "end": 1667518,
+        "text": "Ch. 444, Stats. 1997",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4296783290124231141,
+        "start": 1667519,
+        "end": 1667526,
+        "text": "o",
+        "chunk_id": 1183430067795661472
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14764268539941650885,
+        "start": 1667527,
+        "end": 1667528,
+        "text": "o",
+        "chunk_id": 1183430067795661472
+      }
+    ]
+  }
+]

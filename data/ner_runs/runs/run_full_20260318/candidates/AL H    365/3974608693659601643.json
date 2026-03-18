@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7982072468537819819,
+    "entity": "Alabama Commission on the Evaluation of Services",
+    "type": "government agency",
+    "attribute": "collaboration",
+    "value": "comprehensive",
+    "entity_evidence": [
+      {
+        "span_id": 16262330854178414595,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11262294390352783112,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1005958673684609269,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5644801039207053708,
+        "start": 6962,
+        "end": 6986,
+        "text": "In collaboration with the Alabama Commission on the Evaluation of Services",
+        "chunk_id": 3974608693659601643
+      }
+    ]
+  },
+  {
+    "candidate_id": 13318103832890450281,
+    "entity": "Alabama Math, Science, and Technology Initiative",
+    "type": "initiative",
+    "attribute": "evaluation",
+    "value": "comprehensive",
+    "entity_evidence": [
+      {
+        "span_id": 13596875241402475357,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5784199313561274780,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17927666661368587404,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17031364410798045043,
+        "start": 6962,
+        "end": 6993,
+        "text": "Alabama Math, Science, and Technology Initiative",
+        "chunk_id": 3974608693659601643
+      }
+    ]
+  }
+]

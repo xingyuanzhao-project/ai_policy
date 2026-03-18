@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11355423367414863413,
+    "source_group_id": 4816418120250601592,
+    "source_candidate_ids": [
+      1049746237752227223
+    ],
+    "entity": "Department for Child Care and After School Care Programs",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "expenditure of federal stimulus funds",
+    "entity_evidence": [
+      {
+        "span_id": 14768172919020841722,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10593498625318759010,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7130661257519021166,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15224531995966660244,
+        "start": 98635,
+        "end": 98656,
+        "text": "Department for Child Care and After School Care Programs",
+        "chunk_id": 9876269681712651882
+      }
+    ]
+  }
+]

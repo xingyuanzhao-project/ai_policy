@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12371695767060035923,
+    "entity": "special education pupils",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "equal per-pupil rate",
+    "entity_evidence": [
+      {
+        "span_id": 5687313758439328548,
+        "start": 1142601,
+        "end": 1142621,
+        "text": "pupils with low-incidence disabilities pursuant to their individualized education program",
+        "chunk_id": 18186578198171196554
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9582711845764062950,
+        "start": 1142601,
+        "end": 1142621,
+        "text": "pupils with low-incidence disabilities pursuant to their individualized education program",
+        "chunk_id": 18186578198171196554
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15234734546351108810,
+        "start": 1142601,
+        "end": 1142621,
+        "text": "pupils with low-incidence disabilities pursuant to their individualized education program",
+        "chunk_id": 18186578198171196554
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7564766826867442106,
+        "start": 1142601,
+        "end": 1142621,
+        "text": "pupils with low-incidence disabilities pursuant to their individualized education program",
+        "chunk_id": 18186578198171196554
+      }
+    ]
+  },
+  {
+    "candidate_id": 5413923892896200225,
+    "entity": "local educational agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "maintained at or above the level provided in the 1984-85 fiscal year",
+    "entity_evidence": [
+      {
+        "span_id": 13400769852972342252,
+        "start": 1142724,
+        "end": 1142740,
+        "text": "each local educational agency",
+        "chunk_id": 18186578198171196554
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5882941570509985064,
+        "start": 1142724,
+        "end": 1142740,
+        "text": "each local educational agency",
+        "chunk_id": 18186578198171196554
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17921634707820012597,
+        "start": 1142724,
+        "end": 1142740,
+        "text": "each local educational agency",
+        "chunk_id": 18186578198171196554
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3542699372051969540,
+        "start": 1142724,
+        "end": 1142740,
+        "text": "each local educational agency",
+        "chunk_id": 18186578198171196554
+      }
+    ]
+  }
+]

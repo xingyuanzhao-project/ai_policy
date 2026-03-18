@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3328761051012980505,
+    "source_group_id": 11930908870248041303,
+    "source_candidate_ids": [
+      11803517653414216576
+    ],
+    "entity": "State Teachers' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 1067393101630219217,
+        "start": 1598010,
+        "end": 1598034,
+        "text": "State Teachers' Retirement System",
+        "chunk_id": 8906703682482993571
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6916533611756507890,
+        "start": 1598010,
+        "end": 1598034,
+        "text": "State Teachers' Retirement System",
+        "chunk_id": 8906703682482993571
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6787750971801981783,
+        "start": 1598010,
+        "end": 1598034,
+        "text": "State Teachers' Retirement System",
+        "chunk_id": 8906703682482993571
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10311921071973454701,
+        "start": 1598010,
+        "end": 1598034,
+        "text": "State Teachers' Retirement System",
+        "chunk_id": 8906703682482993571
+      }
+    ]
+  }
+]

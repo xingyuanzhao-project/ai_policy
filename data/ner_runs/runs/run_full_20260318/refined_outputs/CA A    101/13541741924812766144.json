@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6358922197009586732,
+    "source_group_id": 13541741924812766144,
+    "source_candidate_ids": [
+      6833707626754491665
+    ],
+    "entity": "California Environmental License Plate Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 17213958979659566575,
+        "start": 626535,
+        "end": 626554,
+        "text": "California Environmental License Plate Fund",
+        "chunk_id": 3738940663389069717
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6750242912844659270,
+        "start": 626535,
+        "end": 626554,
+        "text": "infrastructure",
+        "chunk_id": 3738940663389069717
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16223886195211573738,
+        "start": 626535,
+        "end": 626554,
+        "text": "promotion",
+        "chunk_id": 3738940663389069717
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2878956581500533910,
+        "start": 626535,
+        "end": 626554,
+        "text": "significant",
+        "chunk_id": 3738940663389069717
+      }
+    ]
+  }
+]

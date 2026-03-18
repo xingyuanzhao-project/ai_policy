@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11378409494725217014,
+    "entity": "Alabama Community College System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "restricted to provision of services to individuals receiving benefits under the Adult Education and Family Literacy Act",
+    "entity_evidence": [
+      {
+        "span_id": 10645906754336752675,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12663359725537159205,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13964388291504525618,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7611914534873451047,
+        "start": 10513,
+        "end": 10533,
+        "text": "restricted to the provision of services to individuals who are receiving benefits under the Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ]
+  },
+  {
+    "candidate_id": 8947370769702533890,
+    "entity": "Adult Education and Family Literacy Act",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "restricted to provision of services to individuals receiving benefits",
+    "entity_evidence": [
+      {
+        "span_id": 4434835656622841718,
+        "start": 10513,
+        "end": 10533,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15638577492516920291,
+        "start": 10513,
+        "end": 10533,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2861878021940388718,
+        "start": 10513,
+        "end": 10533,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 641158883445609473,
+        "start": 10513,
+        "end": 10533,
+        "text": "Adult Education and Family Literacy Act",
+        "chunk_id": 12547002987138896263
+      }
+    ]
+  }
+]

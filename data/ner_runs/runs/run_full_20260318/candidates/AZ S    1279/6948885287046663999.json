@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9980399670729026266,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 17392066147309259512,
+        "start": 25749,
+        "end": 25769,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 6948885287046663999
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17782555041099041099,
+        "start": 25749,
+        "end": 25769,
+        "text": "government agency",
+        "chunk_id": 6948885287046663999
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4665489180901706924,
+        "start": 25749,
+        "end": 25769,
+        "text": "regulation",
+        "chunk_id": 6948885287046663999
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14566421532580812506,
+        "start": 25749,
+        "end": 25769,
+        "text": "exemption",
+        "chunk_id": 6948885287046663999
+      }
+    ]
+  },
+  {
+    "candidate_id": 9911763891563440994,
+    "entity": "law enforcement crime victim notification fund",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "exemption",
+    "entity_evidence": [
+      {
+        "span_id": 1510419943940495356,
+        "start": 25860,
+        "end": 25881,
+        "text": "law enforcement crime victim notification fund",
+        "chunk_id": 6948885287046663999
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3947022715706971310,
+        "start": 25860,
+        "end": 25881,
+        "text": "technology",
+        "chunk_id": 6948885287046663999
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15674249178965919026,
+        "start": 25860,
+        "end": 25881,
+        "text": "regulation",
+        "chunk_id": 6948885287046663999
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9905156992061843909,
+        "start": 25860,
+        "end": 25881,
+        "text": "exemption",
+        "chunk_id": 6948885287046663999
+      }
+    ]
+  }
+]

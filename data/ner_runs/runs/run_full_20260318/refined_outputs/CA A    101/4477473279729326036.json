@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12728487777041671630,
+    "source_group_id": 4477473279729326036,
+    "source_candidate_ids": [
+      15480028427051636985
+    ],
+    "entity": "state's contribution",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 178131652224138835,
+        "start": 1763660,
+        "end": 1763673,
+        "text": "state's contribution",
+        "chunk_id": 4226969198267830049
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4934690323799961199,
+        "start": 1763660,
+        "end": 1763673,
+        "text": "infrastructure",
+        "chunk_id": 4226969198267830049
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14049822751240571498,
+        "start": 1763660,
+        "end": 1763668,
+        "text": "promotion",
+        "chunk_id": 4226969198267830049
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6049636679153009045,
+        "start": 1763660,
+        "end": 1763666,
+        "text": "subsidy",
+        "chunk_id": 4226969198267830049
+      }
+    ]
+  }
+]

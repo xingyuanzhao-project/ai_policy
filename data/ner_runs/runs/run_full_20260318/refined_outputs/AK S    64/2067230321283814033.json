@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7131131206372125562,
+    "source_group_id": 2067230321283814033,
+    "source_candidate_ids": [
+      14437741241271569167
+    ],
+    "entity": "representative",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "secret",
+    "entity_evidence": [
+      {
+        "span_id": 7055057767093066906,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10876173251612915364,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17290602967845493063,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3884230442705171044,
+        "start": 30307,
+        "end": 30319,
+        "text": "the name of the voter on whose behalf the representative is requesting a ballot and voting materials;",
+        "chunk_id": 1902461646846790907
+      }
+    ]
+  }
+]

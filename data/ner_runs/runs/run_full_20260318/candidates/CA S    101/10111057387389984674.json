@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16176939824874969633,
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 1664975555665771095,
+        "start": 874853,
+        "end": 874873,
+        "text": "State Department of State Hospitals",
+        "chunk_id": 10111057387389984674
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 803099687170369788,
+        "start": 874853,
+        "end": 874873,
+        "text": "government agency",
+        "chunk_id": 10111057387389984674
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5812690343934377201,
+        "start": 874853,
+        "end": 874873,
+        "text": "restriction",
+        "chunk_id": 10111057387389984674
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7305863840511647207,
+        "start": 874853,
+        "end": 874873,
+        "text": "specific",
+        "chunk_id": 10111057387389984674
+      }
+    ]
+  },
+  {
+    "candidate_id": 9975558858883875826,
+    "entity": "patient-generated collections",
+    "type": "revenue",
+    "attribute": "promotion",
+    "value": "direct",
+    "entity_evidence": [
+      {
+        "span_id": 250946369315290974,
+        "start": 874964,
+        "end": 874985,
+        "text": "patient-generated collections",
+        "chunk_id": 10111057387389984674
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10122007357165749729,
+        "start": 874964,
+        "end": 874985,
+        "text": "revenue",
+        "chunk_id": 10111057387389984674
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6112359697787565368,
+        "start": 874964,
+        "end": 874985,
+        "text": "promotion",
+        "chunk_id": 10111057387389984674
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1739245907053672167,
+        "start": 874964,
+        "end": 874985,
+        "text": "direct",
+        "chunk_id": 10111057387389984674
+      }
+    ]
+  }
+]

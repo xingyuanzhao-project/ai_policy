@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2647741401746362601,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 18410632156681192864,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "State Department of Social Services",
+        "chunk_id": 10202326232581245624
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9020172314431883367,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "government agency",
+        "chunk_id": 10202326232581245624
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1415235444923979038,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "restriction",
+        "chunk_id": 10202326232581245624
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13645204449666184125,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "limited",
+        "chunk_id": 10202326232581245624
+      }
+    ]
+  },
+  {
+    "candidate_id": 6711528240376720340,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7246481191116522148,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "State Department of Education",
+        "chunk_id": 10202326232581245624
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16072006797990996787,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "government agency",
+        "chunk_id": 10202326232581245624
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10933233384358764923,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "restriction",
+        "chunk_id": 10202326232581245624
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6411340746828257860,
+        "start": 1006255,
+        "end": 1006275,
+        "text": "limited",
+        "chunk_id": 10202326232581245624
+      }
+    ]
+  }
+]

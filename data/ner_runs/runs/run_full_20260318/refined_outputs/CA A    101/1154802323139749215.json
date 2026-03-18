@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4593998541256447676,
+    "source_group_id": 1154802323139749215,
+    "source_candidate_ids": [
+      15007644940154340188
+    ],
+    "entity": "California Regional Initiative for Social Enterprises Program",
+    "type": "program",
+    "attribute": "availability",
+    "value": "for costs to administer the program",
+    "entity_evidence": [
+      {
+        "span_id": 2933367886612434716,
+        "start": 82194,
+        "end": 82214,
+        "text": "California Regional Initiative for Social Enterprises Program",
+        "chunk_id": 13399401723864749692
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1206466902512104347,
+        "start": 82194,
+        "end": 82214,
+        "text": "program",
+        "chunk_id": 13399401723864749692
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17157329765167253580,
+        "start": 82194,
+        "end": 82214,
+        "text": "availability",
+        "chunk_id": 13399401723864749692
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 500720163356161023,
+        "start": 82194,
+        "end": 82214,
+        "text": "for costs to administer the program",
+        "chunk_id": 13399401723864749692
+      }
+    ]
+  }
+]

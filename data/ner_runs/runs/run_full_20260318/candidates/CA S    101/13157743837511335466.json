@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2018215402989328860,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not required to competitively bid for health services contracts",
+    "entity_evidence": [
+      {
+        "span_id": 14226719415399159141,
+        "start": 996470,
+        "end": 996491,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 13157743837511335466
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15039574972486270183,
+        "start": 996470,
+        "end": 996491,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 13157743837511335466
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12756264834024050719,
+        "start": 996470,
+        "end": 996491,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 13157743837511335466
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10960284436452461742,
+        "start": 996470,
+        "end": 996491,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 13157743837511335466
+      }
+    ]
+  },
+  {
+    "candidate_id": 2619637568555857280,
+    "entity": "Receiver",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "appointed by the court",
+    "entity_evidence": [
+      {
+        "span_id": 8768183016316603229,
+        "start": 996432,
+        "end": 996441,
+        "text": "Receiver appointed by the court",
+        "chunk_id": 13157743837511335466
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17192083917348583526,
+        "start": 996432,
+        "end": 996441,
+        "text": "Receiver appointed by the court",
+        "chunk_id": 13157743837511335466
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1472057001870481290,
+        "start": 996432,
+        "end": 996441,
+        "text": "Receiver appointed by the court",
+        "chunk_id": 13157743837511335466
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16900262756887848016,
+        "start": 996432,
+        "end": 996441,
+        "text": "Receiver appointed by the court",
+        "chunk_id": 13157743837511335466
+      }
+    ]
+  }
+]

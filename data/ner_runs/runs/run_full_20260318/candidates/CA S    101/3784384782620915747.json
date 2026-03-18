@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13593504775076967751,
+    "entity": "State Court Facilities Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "insufficient",
+    "entity_evidence": [
+      {
+        "span_id": 11255757518466800463,
+        "start": 21650,
+        "end": 21673,
+        "text": "State Court Facilities Construction Fund",
+        "chunk_id": 3784384782620915747
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3941823749157969101,
+        "start": 21650,
+        "end": 21673,
+        "text": "State Court Facilities Construction Fund",
+        "chunk_id": 3784384782620915747
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 139179539106100198,
+        "start": 21674,
+        "end": 21682,
+        "text": "are insufficient",
+        "chunk_id": 3784384782620915747
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10377221957791524368,
+        "start": 21674,
+        "end": 21682,
+        "text": "are insufficient",
+        "chunk_id": 3784384782620915747
+      }
+    ]
+  },
+  {
+    "candidate_id": 14231461894253795857,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "insufficient",
+    "entity_evidence": [
+      {
+        "span_id": 3558256860138678671,
+        "start": 21725,
+        "end": 21742,
+        "text": "Department of Finance",
+        "chunk_id": 3784384782620915747
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16381832227235898396,
+        "start": 21725,
+        "end": 21742,
+        "text": "Department of Finance",
+        "chunk_id": 3784384782620915747
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8040440574318677379,
+        "start": 21743,
+        "end": 21751,
+        "text": "may increase",
+        "chunk_id": 3784384782620915747
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12877131312167688462,
+        "start": 21743,
+        "end": 21751,
+        "text": "may increase",
+        "chunk_id": 3784384782620915747
+      }
+    ]
+  }
+]

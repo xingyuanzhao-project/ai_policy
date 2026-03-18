@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4353726290040132709,
+    "entity": "Utilization review agents",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "time period",
+    "entity_evidence": [
+      {
+        "span_id": 13492006445274028590,
+        "start": 12324,
+        "end": 12343,
+        "text": "Utilization review agents",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14387129922361367740,
+        "start": 12324,
+        "end": 12343,
+        "text": "Utilization review agents",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 470912779560057977,
+        "start": 12324,
+        "end": 12343,
+        "text": "Utilization review agents",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1584317273618535164,
+        "start": 12324,
+        "end": 12343,
+        "text": "Utilization review agents",
+        "chunk_id": 7817466265736594398
+      }
+    ]
+  },
+  {
+    "candidate_id": 9680595084359243636,
+    "entity": "Physicians, chiropractors, or psychologists and other health care professionals",
+    "type": "individual",
+    "attribute": "requirement",
+    "value": "current licenses",
+    "entity_evidence": [
+      {
+        "span_id": 5382672042783229502,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7995876252106572521,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17562577835746071318,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13896579556539494815,
+        "start": 12324,
+        "end": 12367,
+        "text": "Physicians, chiropractors, or psychologists and other health care professionals",
+        "chunk_id": 7817466265736594398
+      }
+    ]
+  }
+]

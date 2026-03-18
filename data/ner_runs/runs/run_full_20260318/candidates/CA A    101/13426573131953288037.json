@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7270136095581890612,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 4957176491362420157,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For support of Department of General Services",
+        "chunk_id": 13426573131953288037
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4469560910327782117,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For support of Department of General Services",
+        "chunk_id": 13426573131953288037
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14130414020405870626,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For support of Department of General Services",
+        "chunk_id": 13426573131953288037
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18115146352101041162,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For support of Department of General Services",
+        "chunk_id": 13426573131953288037
+      }
+    ]
+  },
+  {
+    "candidate_id": 17690248477826442052,
+    "entity": "Service Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 7567744715084248000,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For transfer by the Controller from the General Fund to the Service Revolving Fund",
+        "chunk_id": 13426573131953288037
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7233453366291567982,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For transfer by the Controller from the General Fund to the Service Revolving Fund",
+        "chunk_id": 13426573131953288037
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11469959407974573772,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For transfer by the Controller from the General Fund to the Service Revolving Fund",
+        "chunk_id": 13426573131953288037
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12743450139456204679,
+        "start": 1572087,
+        "end": 1572111,
+        "text": "For transfer by the Controller from the General Fund to the Service Revolving Fund",
+        "chunk_id": 13426573131953288037
+      }
+    ]
+  }
+]

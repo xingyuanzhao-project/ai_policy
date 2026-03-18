@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12888790165465968474,
+    "source_group_id": 947912387165599402,
+    "source_candidate_ids": [
+      18224457455960266145
+    ],
+    "entity": "Individuals with Disabilities Education Act",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "federal",
+    "entity_evidence": [
+      {
+        "span_id": 1195078576299964586,
+        "start": 1170412,
+        "end": 1170441,
+        "text": "ederal Individuals with Disabilities Education Act",
+        "chunk_id": 16036321271464356543
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15210317031519428695,
+        "start": 1170441,
+        "end": 1170457,
+        "text": "Individuals with Disabilities Education Act",
+        "chunk_id": 16036321271464356543
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10392180508175359224,
+        "start": 1170457,
+        "end": 1170466,
+        "text": "funds shall be made available",
+        "chunk_id": 16036321271464356543
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7581197974404433640,
+        "start": 1170466,
+        "end": 1170471,
+        "text": "federal",
+        "chunk_id": 16036321271464356543
+      }
+    ]
+  }
+]

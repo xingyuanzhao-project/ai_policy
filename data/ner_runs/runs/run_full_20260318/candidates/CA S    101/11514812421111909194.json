@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 862129968474235063,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "defined",
+    "entity_evidence": [
+      {
+        "span_id": 11012604636764413532,
+        "start": 1013674,
+        "end": 1013695,
+        "text": "The Department of Corrections and Rehabilitation shall provide a list of special population locations, which shall include women's prisons.",
+        "chunk_id": 11514812421111909194
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3757287117610899702,
+        "start": 1013674,
+        "end": 1013695,
+        "text": "The Department of Corrections and Rehabilitation shall provide a list of special population locations, which shall include women's prisons.",
+        "chunk_id": 11514812421111909194
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13671669681613715215,
+        "start": 1013674,
+        "end": 1013695,
+        "text": "The Department of Corrections and Rehabilitation shall provide a list of special population locations, which shall include women's prisons.",
+        "chunk_id": 11514812421111909194
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4744882723382932510,
+        "start": 1013674,
+        "end": 1013695,
+        "text": "The Department of Corrections and Rehabilitation shall provide a list of special population locations, which shall include women's prisons.",
+        "chunk_id": 11514812421111909194
+      }
+    ]
+  },
+  {
+    "candidate_id": 17755183941578133789,
+    "entity": "women's institutions",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "priority",
+    "entity_evidence": [
+      {
+        "span_id": 1213443802017331075,
+        "start": 1013633,
+        "end": 1013645,
+        "text": "Priority shall be given to programs in underserved institutions, including women's institutions,",
+        "chunk_id": 11514812421111909194
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1105976127614644949,
+        "start": 1013633,
+        "end": 1013645,
+        "text": "Priority shall be given to programs in underserved institutions, including women's institutions,",
+        "chunk_id": 11514812421111909194
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12047605126574853994,
+        "start": 1013633,
+        "end": 1013645,
+        "text": "Priority shall be given to programs in underserved institutions, including women's institutions,",
+        "chunk_id": 11514812421111909194
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9117422949037927095,
+        "start": 1013633,
+        "end": 1013645,
+        "text": "Priority shall be given to programs in underserved institutions, including women's institutions,",
+        "chunk_id": 11514812421111909194
+      }
+    ]
+  }
+]

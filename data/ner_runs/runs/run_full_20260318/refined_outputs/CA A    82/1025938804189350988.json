@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5074623185963368727,
+    "source_group_id": 1025938804189350988,
+    "source_candidate_ids": [
+      16804681069811588981
+    ],
+    "entity": "police, court, or other governmental agency records or files",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3042657234447473051,
+        "start": 12604,
+        "end": 12624,
+        "text": "Any police, court, or other governmental agency records or files",
+        "chunk_id": 15907778281589930157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15448374270118959782,
+        "start": 12604,
+        "end": 12624,
+        "text": "Any police, court, or other governmental agency records or files",
+        "chunk_id": 15907778281589930157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12303829783618375731,
+        "start": 12604,
+        "end": 12624,
+        "text": "Any police, court, or other governmental agency records or files",
+        "chunk_id": 15907778281589930157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5693910199208818570,
+        "start": 12604,
+        "end": 12624,
+        "text": "Any police, court, or other governmental agency records or files",
+        "chunk_id": 15907778281589930157
+      }
+    ]
+  }
+]

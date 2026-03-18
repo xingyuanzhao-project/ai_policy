@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11998397643823881337,
+    "source_group_id": 4709574175715760426,
+    "source_candidate_ids": [
+      790224593641554606
+    ],
+    "entity": "community colleges",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exclusive agreements",
+    "entity_evidence": [
+      {
+        "span_id": 11590174099341022402,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12430570886016444447,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12581645380789164212,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6207259134100763491,
+        "start": 15917,
+        "end": 15937,
+        "text": "community colleges",
+        "chunk_id": 10538744805641532920
+      }
+    ]
+  }
+]

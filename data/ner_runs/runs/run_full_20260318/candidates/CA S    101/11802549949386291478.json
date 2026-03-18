@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14018438135042373936,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5153600353294045025,
+        "start": 826372,
+        "end": 826392,
+        "text": "State Department of Public Health",
+        "chunk_id": 11802549949386291478
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17394314004122691024,
+        "start": 826372,
+        "end": 826392,
+        "text": "government agency",
+        "chunk_id": 11802549949386291478
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7392969024013443016,
+        "start": 825946,
+        "end": 825946,
+        "text": "",
+        "chunk_id": 11802549949386291478
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10422186385414273315,
+        "start": 825946,
+        "end": 825946,
+        "text": "",
+        "chunk_id": 11802549949386291478
+      }
+    ]
+  },
+  {
+    "candidate_id": 2663954196785139400,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13880002574911874391,
+        "start": 825946,
+        "end": 825946,
+        "text": "",
+        "chunk_id": 11802549949386291478
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14351125309086595096,
+        "start": 825946,
+        "end": 825946,
+        "text": "",
+        "chunk_id": 11802549949386291478
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17134340588882749890,
+        "start": 825946,
+        "end": 825946,
+        "text": "",
+        "chunk_id": 11802549949386291478
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13309498839332909572,
+        "start": 825946,
+        "end": 825946,
+        "text": "",
+        "chunk_id": 11802549949386291478
+      }
+    ]
+  }
+]

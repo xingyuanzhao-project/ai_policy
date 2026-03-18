@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11119877490128111740,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "full",
+    "entity_evidence": [
+      {
+        "span_id": 15399043208201812966,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "State Department of Education",
+        "chunk_id": 5807882800285583488
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8024641925157514822,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "government agency",
+        "chunk_id": 5807882800285583488
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16973158975760879667,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "support",
+        "chunk_id": 5807882800285583488
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14844697703813915155,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "full",
+        "chunk_id": 5807882800285583488
+      }
+    ]
+  },
+  {
+    "candidate_id": 6235885531049101546,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "full",
+    "entity_evidence": [
+      {
+        "span_id": 12633732042673319259,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "State Public Works Board",
+        "chunk_id": 5807882800285583488
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10805078875888349539,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "government agency",
+        "chunk_id": 5807882800285583488
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5178792853590984908,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "support",
+        "chunk_id": 5807882800285583488
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9172109078021001410,
+        "start": 1182788,
+        "end": 1182808,
+        "text": "full",
+        "chunk_id": 5807882800285583488
+      }
+    ]
+  }
+]

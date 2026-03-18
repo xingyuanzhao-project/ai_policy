@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17619624878090255096,
+    "entity": "ACHE",
+    "type": "government agency",
+    "attribute": "regulator",
+    "value": "administrator",
+    "entity_evidence": [
+      {
+        "span_id": 8670610309147646881,
+        "start": 87999,
+        "end": 88003,
+        "text": "ACHE",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14286875220955094216,
+        "start": 87999,
+        "end": 88003,
+        "text": "ACHE",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11132574014205100919,
+        "start": 88004,
+        "end": 88009,
+        "text": "shall establish rules for the implementation of the grant program",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13166246723671418437,
+        "start": 88010,
+        "end": 88015,
+        "text": "administrator",
+        "chunk_id": 6435206301984922264
+      }
+    ]
+  },
+  {
+    "candidate_id": 8323484541024277000,
+    "entity": "Alabama Department of Workforce",
+    "type": "government agency",
+    "attribute": "regulator",
+    "value": "manager",
+    "entity_evidence": [
+      {
+        "span_id": 14821444641477514276,
+        "start": 88295,
+        "end": 88311,
+        "text": "Alabama Department of Workforce",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4249945907585559837,
+        "start": 88295,
+        "end": 88311,
+        "text": "Alabama Department of Workforce",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6294538230839550304,
+        "start": 88312,
+        "end": 88317,
+        "text": "managed by the",
+        "chunk_id": 6435206301984922264
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3588688050462216665,
+        "start": 88318,
+        "end": 88323,
+        "text": "manager",
+        "chunk_id": 6435206301984922264
+      }
+    ]
+  }
+]

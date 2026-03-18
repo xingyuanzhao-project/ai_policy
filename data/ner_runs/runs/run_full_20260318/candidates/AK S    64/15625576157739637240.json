@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6388218625984082172,
+    "entity": "voter",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12956805773946842676,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15658544241195759273,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10528974237945614124,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7170358551310944373,
+        "start": 7720,
+        "end": 7724,
+        "text": "voter",
+        "chunk_id": 15625576157739637240
+      }
+    ]
+  },
+  {
+    "candidate_id": 6905823437099082733,
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderately restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2442979460227569335,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1579448144760735291,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4145202154075583869,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1263935872666219911,
+        "start": 7831,
+        "end": 7837,
+        "text": "director",
+        "chunk_id": 15625576157739637240
+      }
+    ]
+  }
+]

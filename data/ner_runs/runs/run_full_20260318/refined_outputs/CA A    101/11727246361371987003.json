@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9530265614228550925,
+    "source_group_id": 11727246361371987003,
+    "source_candidate_ids": [
+      13693544634431815744
+    ],
+    "entity": "Children and Adult Services and Licensing",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "616,000",
+    "entity_evidence": [
+      {
+        "span_id": 8681982874816678348,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "Children and Adult Services and Licensing",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4073278621656625653,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "government agency",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12717990746832671798,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "allocation",
+        "chunk_id": 8478401141052219909
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4333560048774700545,
+        "start": 1059796,
+        "end": 1059816,
+        "text": "616,000",
+        "chunk_id": 8478401141052219909
+      }
+    ]
+  }
+]

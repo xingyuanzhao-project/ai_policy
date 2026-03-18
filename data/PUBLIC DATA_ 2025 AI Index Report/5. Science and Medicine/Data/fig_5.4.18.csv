@@ -1,0 +1,31 @@
+Vendor,Model developer,% of hospitals
+Epic,In-house EHR developer,95.2%
+Cerner,In-house EHR developer,83.6%
+Meditech,In-house EHR developer,30.2%
+CPSI/Evident,In-house EHR developer,75.0%
+Altera,In-house EHR developer,7.7%
+Other,In-house EHR developer,41.1%
+Epic,A third-party developer,53.2%
+Cerner,A third-party developer,46.3%
+Meditech,A third-party developer,71.1%
+CPSI/Evident,A third-party developer,41.7%
+Altera,A third-party developer,46.2%
+Other,A third-party developer,67.9%
+Epic,Self-developed,52.4%
+Cerner,Self-developed,32.9%
+Meditech,Self-developed,81.4%
+CPSI/Evident,Self-developed,33.3%
+Altera,Self-developed,53.8%
+Other,Self-developed,23.2%
+Epic,Public domain,4.7%
+Cerner,Public domain,4.4%
+Meditech,Public domain,1.7%
+CPSI/Evident,Public domain,16.7%
+Altera,Public domain,0.0%
+Other,Public domain,8.9%
+Epic,Do not know (machine learning development),0.3%
+Cerner,Do not know (machine learning development),1.5%
+Meditech,Do not know (machine learning development),1.2%
+CPSI/Evident,Do not know (machine learning development),8.3%
+Altera,Do not know (machine learning development),0.0%
+Other,Do not know (machine learning development),7.1%

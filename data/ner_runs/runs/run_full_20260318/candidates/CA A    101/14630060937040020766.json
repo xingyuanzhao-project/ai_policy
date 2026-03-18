@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7694542730722281542,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "annual adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 7795121969482142160,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "University of California",
+        "chunk_id": 14630060937040020766
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 77092971413072220,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "University of California",
+        "chunk_id": 14630060937040020766
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1663755524275612855,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "University of California",
+        "chunk_id": 14630060937040020766
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9421432290082540964,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "University of California",
+        "chunk_id": 14630060937040020766
+      }
+    ]
+  },
+  {
+    "candidate_id": 2971917756686054607,
+    "entity": "Department of Food and Agriculture",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2682845481787254299,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 14630060937040020766
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14136454603925500845,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 14630060937040020766
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5600603667421133538,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 14630060937040020766
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5086050505503969349,
+        "start": 1616063,
+        "end": 1616083,
+        "text": "Department of Food and Agriculture",
+        "chunk_id": 14630060937040020766
+      }
+    ]
+  }
+]

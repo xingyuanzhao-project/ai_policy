@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15343863376531305840,
+    "entity": "California Conservation Corps",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 1739990170766002802,
+        "start": 435625,
+        "end": 435646,
+        "text": "California Conservation Corps",
+        "chunk_id": 14384511405665418291
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6240126684796093159,
+        "start": 435625,
+        "end": 435646,
+        "text": "California Conservation Corps",
+        "chunk_id": 14384511405665418291
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3829438432578416896,
+        "start": 435625,
+        "end": 435646,
+        "text": "California Conservation Corps",
+        "chunk_id": 14384511405665418291
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5394235355729197152,
+        "start": 435625,
+        "end": 435646,
+        "text": "California Conservation Corps",
+        "chunk_id": 14384511405665418291
+      }
+    ]
+  },
+  {
+    "candidate_id": 12116932020503934571,
+    "entity": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 14990977454033515347,
+        "start": 435725,
+        "end": 435757,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 14384511405665418291
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 406461947646972120,
+        "start": 435725,
+        "end": 435757,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 14384511405665418291
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16148268347382180395,
+        "start": 435725,
+        "end": 435757,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 14384511405665418291
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 50490272475320813,
+        "start": 435725,
+        "end": 435757,
+        "text": "California Drought, Water, Parks, Climate, Coastal Protection, and Outdoor Access For All Fund",
+        "chunk_id": 14384511405665418291
+      }
+    ]
+  }
+]

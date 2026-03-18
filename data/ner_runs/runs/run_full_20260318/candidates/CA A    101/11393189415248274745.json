@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6163971532059916256,
+    "entity": "Pine Grove Youth Conservation Camp",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "rehabilitation and life skills",
+    "entity_evidence": [
+      {
+        "span_id": 12291941630763451415,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12172000756454920027,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12322633247774653646,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16244844872158939047,
+        "start": 1091403,
+        "end": 1091422,
+        "text": "transform and expand the Pine Grove Youth Conservation Camp",
+        "chunk_id": 11393189415248274745
+      }
+    ]
+  },
+  {
+    "candidate_id": 2252356390704247611,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual report",
+    "entity_evidence": [
+      {
+        "span_id": 8742468610801989351,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4513730336727094332,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6933290369322139623,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1890424825422884815,
+        "start": 1092024,
+        "end": 1092044,
+        "text": "The Department of Corrections and Rehabilitation",
+        "chunk_id": 11393189415248274745
+      }
+    ]
+  }
+]

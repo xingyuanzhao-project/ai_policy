@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10221495451228913932,
+    "source_group_id": 15747858903008413543,
+    "source_candidate_ids": [
+      3062181288414264509
+    ],
+    "entity": "Historic State Capitol Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 14702081035264114618,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13519165665244164434,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 717549262374387084,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15315977155542225246,
+        "start": 1613462,
+        "end": 1613483,
+        "text": "Historic State Capitol Commission",
+        "chunk_id": 1158404996288327539
+      }
+    ]
+  }
+]

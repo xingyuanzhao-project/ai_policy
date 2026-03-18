@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8019252246583088718,
+    "source_group_id": 7940039155451238542,
+    "source_candidate_ids": [
+      16855221313234294913
+    ],
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "reimbursement",
+    "value": "in accordance with provisions of Section 6 of Article XIIIB of the California Constitution or Section 17561 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 18147766528080681031,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 676380731576066124,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3569028176905673826,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "for reimbursement",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11533618092486414268,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "in accordance with provisions of Section 6 of Article XIIIB of the California Constitution or Section 17561 of the Government Code",
+        "chunk_id": 10813898101096284046
+      }
+    ]
+  }
+]

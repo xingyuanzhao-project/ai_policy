@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17062540857776619275,
+    "source_group_id": 2800737813546002785,
+    "source_candidate_ids": [
+      1884679500534150990
+    ],
+    "entity": "Asian American, Native Hawaiian, and Pacific Islander Student Achievement Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "ongoing support",
+    "entity_evidence": [
+      {
+        "span_id": 2342059975445337404,
+        "start": 1362501,
+        "end": 1362529,
+        "text": "Asian American, Native Hawaiian, and Pacific Islander Student Achievement Program",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7168721950816278991,
+        "start": 1362501,
+        "end": 1362529,
+        "text": "Asian American, Native Hawaiian, and Pacific Islander Student Achievement Program",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16542451577864316810,
+        "start": 1362531,
+        "end": 1362541,
+        "text": "on an ongoing basis",
+        "chunk_id": 6589264734715255249
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12440650184359587932,
+        "start": 1362531,
+        "end": 1362541,
+        "text": "on an ongoing basis",
+        "chunk_id": 6589264734715255249
+      }
+    ]
+  }
+]

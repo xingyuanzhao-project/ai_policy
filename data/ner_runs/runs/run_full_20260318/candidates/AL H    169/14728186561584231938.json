@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7312079330237562316,
+    "entity": "State Employees' Insurance Board (SEIB)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fixed rate",
+    "entity_evidence": [
+      {
+        "span_id": 4002145296949604438,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10324100910890565317,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14181806190786091464,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10063926497706737660,
+        "start": 133194,
+        "end": 133214,
+        "text": "The State Employees' Insurance Board (SEIB)",
+        "chunk_id": 14728186561584231938
+      }
+    ]
+  },
+  {
+    "candidate_id": 11410629094749501104,
+    "entity": "Child Nutrition Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "one-month fund balance",
+    "entity_evidence": [
+      {
+        "span_id": 12462374196542790404,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2827076064364138704,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9384266525116441604,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3593640788463574848,
+        "start": 133289,
+        "end": 133305,
+        "text": "Child Nutrition Program",
+        "chunk_id": 14728186561584231938
+      }
+    ]
+  }
+]

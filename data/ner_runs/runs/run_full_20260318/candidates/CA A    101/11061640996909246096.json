@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1813658512108282703,
+    "entity": "Department of Water Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 16591170045901589186,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14299489743810985767,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8204072672729554732,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11467151772699432520,
+        "start": 665733,
+        "end": 665762,
+        "text": "Department of Water Resources",
+        "chunk_id": 11061640996909246096
+      }
+    ]
+  },
+  {
+    "candidate_id": 3493158284943034423,
+    "entity": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 9538153035710301901,
+        "start": 665763,
+        "end": 665822,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3993699969731255032,
+        "start": 665763,
+        "end": 665822,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3222620285840869,
+        "start": 665763,
+        "end": 665822,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 11061640996909246096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12560187374311876532,
+        "start": 665763,
+        "end": 665822,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 11061640996909246096
+      }
+    ]
+  }
+]

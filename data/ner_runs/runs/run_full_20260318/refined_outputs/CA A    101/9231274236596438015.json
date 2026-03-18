@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18022798505323328971,
+    "source_group_id": 9231274236596438015,
+    "source_candidate_ids": [
+      8342620652506149629
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent with the statewide system of support",
+    "entity_evidence": [
+      {
+        "span_id": 14754595710327873692,
+        "start": 1265598,
+        "end": 1265622,
+        "text": "pursuant to Title II of the federal Every Student Succeeds Act (20 U.S.C. Sec. 6601 et seq.)",
+        "chunk_id": 17813228148255277159
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7876073972659966889,
+        "start": 1265598,
+        "end": 1265622,
+        "text": "pursuant to Title II of the federal Every Student Succeeds Act (20 U.S.C. Sec. 6601 et seq.)",
+        "chunk_id": 17813228148255277159
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1359181387112348495,
+        "start": 1265598,
+        "end": 1265622,
+        "text": "pursuant to Title II of the federal Every Student Succeeds Act (20 U.S.C. Sec. 6601 et seq.)",
+        "chunk_id": 17813228148255277159
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5022833390425778305,
+        "start": 1265598,
+        "end": 1265622,
+        "text": "pursuant to Title II of the federal Every Student Succeeds Act (20 U.S.C. Sec. 6601 et seq.)",
+        "chunk_id": 17813228148255277159
+      }
+    ]
+  }
+]

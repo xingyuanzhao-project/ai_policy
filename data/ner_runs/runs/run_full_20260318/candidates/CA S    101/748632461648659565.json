@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14965951428377446480,
+    "entity": "state officers",
+    "type": "individual",
+    "attribute": "salaries",
+    "value": "specified by statute",
+    "entity_evidence": [
+      {
+        "span_id": 17201158576384892609,
+        "start": 1654060,
+        "end": 1654068,
+        "text": "state officers",
+        "chunk_id": 748632461648659565
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3234653910862173511,
+        "start": 1654060,
+        "end": 1654068,
+        "text": "state officers",
+        "chunk_id": 748632461648659565
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1452885936401716213,
+        "start": 1654060,
+        "end": 1654068,
+        "text": "state officers",
+        "chunk_id": 748632461648659565
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13797788473244148076,
+        "start": 1654060,
+        "end": 1654068,
+        "text": "state officers",
+        "chunk_id": 748632461648659565
+      }
+    ]
+  },
+  {
+    "candidate_id": 10676505919020173056,
+    "entity": "land or other real property",
+    "type": "technology",
+    "attribute": "acquisition",
+    "value": "in fee simple or any lesser right or interest",
+    "entity_evidence": [
+      {
+        "span_id": 12894646669443901587,
+        "start": 1654234,
+        "end": 1654248,
+        "text": "land or other real property",
+        "chunk_id": 748632461648659565
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5645752746969201941,
+        "start": 1654234,
+        "end": 1654248,
+        "text": "land or other real property",
+        "chunk_id": 748632461648659565
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7909691311047507101,
+        "start": 1654234,
+        "end": 1654248,
+        "text": "land or other real property",
+        "chunk_id": 748632461648659565
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13158086368547684867,
+        "start": 1654234,
+        "end": 1654248,
+        "text": "land or other real property",
+        "chunk_id": 748632461648659565
+      }
+    ]
+  }
+]

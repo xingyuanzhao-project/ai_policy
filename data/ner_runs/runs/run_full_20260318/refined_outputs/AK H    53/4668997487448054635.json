@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6935866528557085270,
+    "source_group_id": 4668997487448054635,
+    "source_candidate_ids": [
+      789292395143103837
+    ],
+    "entity": "Alaska Aerospace Corporation",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 1456987003898545913,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13996521696390163974,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15159293640201910016,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4440218192503886211,
+        "start": 104539,
+        "end": 104560,
+        "text": "ALASKA AEROSPACE CORPORATION",
+        "chunk_id": 6496370508759294841
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 466056847614351287,
+    "entity": "Department of the California Highway Patrol",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of activities",
+    "entity_evidence": [
+      {
+        "span_id": 10657804123984791228,
+        "start": 405121,
+        "end": 405152,
+        "text": "For Department of the California Highway Patrol",
+        "chunk_id": 11403471827756143566
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12416092498375446047,
+        "start": 405121,
+        "end": 405152,
+        "text": "For Department of the California Highway Patrol",
+        "chunk_id": 11403471827756143566
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2598039126183978691,
+        "start": 405121,
+        "end": 405152,
+        "text": "For Department of the California Highway Patrol",
+        "chunk_id": 11403471827756143566
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8799763884631148579,
+        "start": 405121,
+        "end": 405152,
+        "text": "For Department of the California Highway Patrol",
+        "chunk_id": 11403471827756143566
+      }
+    ]
+  },
+  {
+    "candidate_id": 15565876667637438852,
+    "entity": "California Internet Crimes Against Children task forces",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of activities",
+    "entity_evidence": [
+      {
+        "span_id": 5249873738746577658,
+        "start": 405121,
+        "end": 405155,
+        "text": "California Internet Crimes Against Children task forces",
+        "chunk_id": 11403471827756143566
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7456687029059649280,
+        "start": 405121,
+        "end": 405155,
+        "text": "California Internet Crimes Against Children task forces",
+        "chunk_id": 11403471827756143566
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15971414542749997666,
+        "start": 405121,
+        "end": 405155,
+        "text": "California Internet Crimes Against Children task forces",
+        "chunk_id": 11403471827756143566
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12641405469307623320,
+        "start": 405121,
+        "end": 405155,
+        "text": "California Internet Crimes Against Children task forces",
+        "chunk_id": 11403471827756143566
+      }
+    ]
+  }
+]

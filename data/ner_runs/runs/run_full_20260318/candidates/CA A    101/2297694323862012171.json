@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1835823692767707991,
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 7122732228193579907,
+        "start": 970171,
+        "end": 970193,
+        "text": "State Department of State Hospitals",
+        "chunk_id": 2297694323862012171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11206237127984485763,
+        "start": 970171,
+        "end": 970193,
+        "text": "government agency",
+        "chunk_id": 2297694323862012171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1001693925777185975,
+        "start": 970171,
+        "end": 970193,
+        "text": "restriction",
+        "chunk_id": 2297694323862012171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14745670840355121527,
+        "start": 970171,
+        "end": 970193,
+        "text": "until June 30, 2026",
+        "chunk_id": 2297694323862012171
+      }
+    ]
+  },
+  {
+    "candidate_id": 7383183730058392458,
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "reversion",
+    "value": "as of June 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 17789404017168275879,
+        "start": 970171,
+        "end": 970193,
+        "text": "State Department of State Hospitals",
+        "chunk_id": 2297694323862012171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17185232773889613097,
+        "start": 970171,
+        "end": 970193,
+        "text": "government agency",
+        "chunk_id": 2297694323862012171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9276334167281200880,
+        "start": 970171,
+        "end": 970193,
+        "text": "reversion",
+        "chunk_id": 2297694323862012171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5782951514871928979,
+        "start": 970171,
+        "end": 970193,
+        "text": "as of June 30, 2025",
+        "chunk_id": 2297694323862012171
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4434021384131704092,
+    "source_group_id": 6929451163018132458,
+    "source_candidate_ids": [
+      8324320890745951817
+    ],
+    "entity": "state agencies",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13326863186563149879,
+        "start": 2400,
+        "end": 2409,
+        "text": "state agencies",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17931269611509695092,
+        "start": 2400,
+        "end": 2409,
+        "text": "state agencies",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5328011447467600540,
+        "start": 2409,
+        "end": 2417,
+        "text": "to carry out this chapter",
+        "chunk_id": 17103426324161184349
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5539482346069374931,
+        "start": 2417,
+        "end": 2430,
+        "text": "extremely restrictive",
+        "chunk_id": 17103426324161184349
+      }
+    ]
+  }
+]

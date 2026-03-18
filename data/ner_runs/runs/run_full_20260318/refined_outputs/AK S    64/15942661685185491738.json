@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3554387547176955129,
+    "source_group_id": 15942661685185491738,
+    "source_candidate_ids": [
+      6230619666080166765
+    ],
+    "entity": "Absentee Voting Official",
+    "type": "Government Agency",
+    "attribute": "Restriction",
+    "value": "Proper Signing and Dating",
+    "entity_evidence": [
+      {
+        "span_id": 12943931309591764866,
+        "start": 37992,
+        "end": 38016,
+        "text": "ABSENTEE VOTING OFFICIAL",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16472881409080801365,
+        "start": 37992,
+        "end": 38016,
+        "text": "ABSENTEE VOTING OFFICIAL",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9273072126888018654,
+        "start": 38017,
+        "end": 38033,
+        "text": "PROPERLY SIGN AND DATE",
+        "chunk_id": 5299757713669989084
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 947844112763577039,
+        "start": 38017,
+        "end": 38033,
+        "text": "PROPERLY SIGN AND DATE",
+        "chunk_id": 5299757713669989084
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 4972814210153457201,
+    "source_group_id": 12143128138667859994,
+    "source_candidate_ids": [
+      2885232743180220739,
+      2093594120023920044
+    ],
+    "entity": "political subdivision of the state",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "all provisions",
+    "entity_evidence": [
+      {
+        "span_id": 15568535161158664360,
+        "start": 9857,
+        "end": 9881,
+        "text": "Notwithstanding any other provisions of this act, this act shall not apply to any of the following:",
+        "chunk_id": 14405129601979130464
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2394043692436513541,
+        "start": 9882,
+        "end": 9891,
+        "text": "political subdivision",
+        "chunk_id": 14405129601979130464
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3022587419492911428,
+        "start": 9892,
+        "end": 9900,
+        "text": "apply to any of the following",
+        "chunk_id": 14405129601979130464
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9166758298766197200,
+        "start": 9901,
+        "end": 9908,
+        "text": "all provisions",
+        "chunk_id": 14405129601979130464
+      }
+    ]
+  }
+]

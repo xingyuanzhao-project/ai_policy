@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12670377427213838506,
+    "entity": "Alabama State Department of Education",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "report submission",
+    "entity_evidence": [
+      {
+        "span_id": 13750047573901733567,
+        "start": 136708,
+        "end": 136732,
+        "text": "Alabama State Department of Education",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18030994145352117938,
+        "start": 136708,
+        "end": 136732,
+        "text": "government agency",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4947925761344656911,
+        "start": 136708,
+        "end": 136732,
+        "text": "requirement",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10077189442649046558,
+        "start": 136708,
+        "end": 136732,
+        "text": "report submission",
+        "chunk_id": 17741377780859232423
+      }
+    ]
+  },
+  {
+    "candidate_id": 13403819139479615318,
+    "entity": "nongovernmental entities",
+    "type": "category",
+    "attribute": "requirement",
+    "value": "report submission",
+    "entity_evidence": [
+      {
+        "span_id": 6208538939873224818,
+        "start": 136842,
+        "end": 136854,
+        "text": "nongovernmental entities",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8450345303652334770,
+        "start": 136842,
+        "end": 136854,
+        "text": "category",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16630849701361019397,
+        "start": 136842,
+        "end": 136854,
+        "text": "requirement",
+        "chunk_id": 17741377780859232423
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7701526953321281206,
+        "start": 136842,
+        "end": 136854,
+        "text": "report submission",
+        "chunk_id": 17741377780859232423
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5857154701428853416,
+    "source_group_id": 2062514616877648545,
+    "source_candidate_ids": [
+      13326483993916857704
+    ],
+    "entity": "Workers' Compensation Administration Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "credit",
+    "entity_evidence": [
+      {
+        "span_id": 9900580667912749454,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17321112335425002625,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10296248647296050254,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5934670771223158291,
+        "start": 1505553,
+        "end": 1505573,
+        "text": "Workers' Compensation Administration Revolving Fund",
+        "chunk_id": 16196407970194150579
+      }
+    ]
+  }
+]

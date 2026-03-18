@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5401115137332324164,
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "careful legislative oversight",
+    "entity_evidence": [
+      {
+        "span_id": 788916062807874887,
+        "start": 134,
+        "end": 155,
+        "text": "artificial intelligence",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13884828538205112202,
+        "start": 134,
+        "end": 155,
+        "text": "artificial intelligence",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18005792470189649337,
+        "start": 134,
+        "end": 155,
+        "text": "artificial intelligence",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4773147333765043670,
+        "start": 134,
+        "end": 155,
+        "text": "careful legislative oversight",
+        "chunk_id": 14648090621036948504
+      }
+    ]
+  },
+  {
+    "candidate_id": 10231581212013799797,
+    "entity": "data centers",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "stimulate economic growth",
+    "entity_evidence": [
+      {
+        "span_id": 7030109600762676310,
+        "start": 246,
+        "end": 255,
+        "text": "data centers",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8105865181893835290,
+        "start": 246,
+        "end": 255,
+        "text": "data centers",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12835018994445774929,
+        "start": 246,
+        "end": 255,
+        "text": "data centers",
+        "chunk_id": 14648090621036948504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16979351459150197555,
+        "start": 246,
+        "end": 255,
+        "text": "stimulate economic growth",
+        "chunk_id": 14648090621036948504
+      }
+    ]
+  }
+]

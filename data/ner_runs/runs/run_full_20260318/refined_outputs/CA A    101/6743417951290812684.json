@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11703324082546425522,
+    "source_group_id": 6743417951290812684,
+    "source_candidate_ids": [
+      6006069237065428058
+    ],
+    "entity": "California State University",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exempt from Sections 6.00 and 31.00",
+    "entity_evidence": [
+      {
+        "span_id": 453451954411153053,
+        "start": 1350239,
+        "end": 1350261,
+        "text": "California State University",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10527621867543256203,
+        "start": 1350239,
+        "end": 1350261,
+        "text": "infrastructure",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13707827103153847543,
+        "start": 1350273,
+        "end": 1350295,
+        "text": "exempt from",
+        "chunk_id": 5715450653550147995
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11170868339747021000,
+        "start": 1350273,
+        "end": 1350295,
+        "text": "exempt from Sections 6.00 and 31.00",
+        "chunk_id": 5715450653550147995
+      }
+    ]
+  }
+]

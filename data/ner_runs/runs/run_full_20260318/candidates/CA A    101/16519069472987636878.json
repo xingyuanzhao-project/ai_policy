@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2437714432514092333,
+    "entity": "Secretary of the Natural Resources Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 17433133873704811007,
+        "start": 105135,
+        "end": 105155,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3557327968498275360,
+        "start": 105135,
+        "end": 105155,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2574510902099496865,
+        "start": 105135,
+        "end": 105155,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7623333214917290313,
+        "start": 105135,
+        "end": 105155,
+        "text": "until June 30, 2028",
+        "chunk_id": 16519069472987636878
+      }
+    ]
+  },
+  {
+    "candidate_id": 16564878816269454245,
+    "entity": "Marine Mammal Center",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "up to 5 percent",
+    "entity_evidence": [
+      {
+        "span_id": 12318046930199039920,
+        "start": 105135,
+        "end": 105145,
+        "text": "Marine Mammal Center",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12504392188685546145,
+        "start": 105135,
+        "end": 105145,
+        "text": "Marine Mammal Center",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6498079980403218344,
+        "start": 105135,
+        "end": 105145,
+        "text": "Marine Mammal Center",
+        "chunk_id": 16519069472987636878
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14075919056504983069,
+        "start": 105135,
+        "end": 105145,
+        "text": "up to 5 percent",
+        "chunk_id": 16519069472987636878
+      }
+    ]
+  }
+]

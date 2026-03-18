@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16738793934262068409,
+    "source_group_id": 4720895161044258720,
+    "source_candidate_ids": [
+      15881045524488748849
+    ],
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 7290287413575634705,
+        "start": 957442,
+        "end": 957476,
+        "text": "4440-011-0001--For support of State Department of State Hospitals",
+        "chunk_id": 9374594915982012696
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1611081795142332197,
+        "start": 957442,
+        "end": 957476,
+        "text": "4440-011-0001--For support of State Department of State Hospitals",
+        "chunk_id": 9374594915982012696
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 612427634126643507,
+        "start": 957442,
+        "end": 957476,
+        "text": "4440-011-0001--For support of State Department of State Hospitals",
+        "chunk_id": 9374594915982012696
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13473553574448988719,
+        "start": 957442,
+        "end": 957476,
+        "text": "4440-011-0001--For support of State Department of State Hospitals",
+        "chunk_id": 9374594915982012696
+      }
+    ]
+  }
+]

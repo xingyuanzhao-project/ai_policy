@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9812732838727387536,
+    "source_group_id": 1882873476105963677,
+    "source_candidate_ids": [
+      11482928468626927573
+    ],
+    "entity": "University of Alaska",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "major maintenance and upgrades",
+    "entity_evidence": [
+      {
+        "span_id": 12850872736100703225,
+        "start": 136203,
+        "end": 136222,
+        "text": "University of Alaska",
+        "chunk_id": 15205132919859645208
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5967086475237609973,
+        "start": 136203,
+        "end": 136222,
+        "text": "University of Alaska",
+        "chunk_id": 15205132919859645208
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9228098910066478358,
+        "start": 136203,
+        "end": 136222,
+        "text": "University of Alaska",
+        "chunk_id": 15205132919859645208
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3858838261494324807,
+        "start": 136203,
+        "end": 136222,
+        "text": "University of Alaska",
+        "chunk_id": 15205132919859645208
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7269588964398673957,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "unrestricted growth funding",
+    "entity_evidence": [
+      {
+        "span_id": 15238381592557525061,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 801347216092631847,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7420480662433179140,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6333580411257018144,
+        "start": 1381872,
+        "end": 1381893,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 4791784561853360782
+      }
+    ]
+  },
+  {
+    "candidate_id": 12657258152027125835,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "consultation",
+    "value": "regular consultation",
+    "entity_evidence": [
+      {
+        "span_id": 6516324906011499721,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13407719770319885868,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7552883920826745431,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10811176736604757732,
+        "start": 1381984,
+        "end": 1382000,
+        "text": "Department of Finance",
+        "chunk_id": 4791784561853360782
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16402425784163649855,
+    "entity": "Regulatory Commission of Alaska",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "0",
+    "entity_evidence": [
+      {
+        "span_id": 2677903860638425306,
+        "start": 77240,
+        "end": 77240,
+        "text": "Regulatory Commission of Alaska",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12877783308921654324,
+        "start": 77240,
+        "end": 77240,
+        "text": "government agency",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17981908734901193812,
+        "start": 77240,
+        "end": 77240,
+        "text": "restriction",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16738372326574099143,
+        "start": 77240,
+        "end": 77240,
+        "text": "0",
+        "chunk_id": 12673454789676537105
+      }
+    ]
+  },
+  {
+    "candidate_id": 12195454369251462373,
+    "entity": "Alaska Oil & Gas Conservation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "0",
+    "entity_evidence": [
+      {
+        "span_id": 2369232202128842901,
+        "start": 77261,
+        "end": 77261,
+        "text": "Alaska Oil & Gas Conservation Commission",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15386770477370139878,
+        "start": 77261,
+        "end": 77261,
+        "text": "government agency",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10663245270273510105,
+        "start": 77261,
+        "end": 77261,
+        "text": "restriction",
+        "chunk_id": 12673454789676537105
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13674440763438934092,
+        "start": 77261,
+        "end": 77261,
+        "text": "0",
+        "chunk_id": 12673454789676537105
+      }
+    ]
+  }
+]

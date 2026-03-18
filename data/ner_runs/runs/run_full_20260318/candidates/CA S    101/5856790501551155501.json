@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16804606407620095451,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3353995721067386834,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "Department of General Services",
+        "chunk_id": 5856790501551155501
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8452431240941962238,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "government agency",
+        "chunk_id": 5856790501551155501
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8472846608923349266,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "restriction",
+        "chunk_id": 5856790501551155501
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14297708678842863989,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "extremely restrictive",
+        "chunk_id": 5856790501551155501
+      }
+    ]
+  },
+  {
+    "candidate_id": 1434461964372503809,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3772668422875772118,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "Director of Finance",
+        "chunk_id": 5856790501551155501
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5915926783830166084,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "government agency",
+        "chunk_id": 5856790501551155501
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14789408241143655126,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "restriction",
+        "chunk_id": 5856790501551155501
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17681287773908924396,
+        "start": 1460711,
+        "end": 1460731,
+        "text": "extremely restrictive",
+        "chunk_id": 5856790501551155501
+      }
+    ]
+  }
+]

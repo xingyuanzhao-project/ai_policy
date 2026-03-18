@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13753292720023949414,
+    "source_group_id": 13201390103348611227,
+    "source_candidate_ids": [
+      5162413834826506039
+    ],
+    "entity": "designated health care services facility",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "protection",
+    "entity_evidence": [
+      {
+        "span_id": 4133156899581244407,
+        "start": 9874,
+        "end": 9904,
+        "text": "designated health care services facility",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16287546545294144363,
+        "start": 9874,
+        "end": 9904,
+        "text": "infrastructure",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8439532889171141973,
+        "start": 9874,
+        "end": 9904,
+        "text": "restriction",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13320097786507621498,
+        "start": 9874,
+        "end": 9904,
+        "text": "protection",
+        "chunk_id": 3836289008531860938
+      }
+    ]
+  }
+]

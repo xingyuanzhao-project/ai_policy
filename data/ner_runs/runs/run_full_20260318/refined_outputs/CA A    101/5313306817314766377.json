@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3991344926022713566,
+    "source_group_id": 5313306817314766377,
+    "source_candidate_ids": [
+      4414144607074801405
+    ],
+    "entity": "Specialized License Plate Fund",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 17500079943773144092,
+        "start": 1627664,
+        "end": 1627683,
+        "text": "Specialized License Plate Fund",
+        "chunk_id": 14186556894100905848
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8121673174920676665,
+        "start": 1627664,
+        "end": 1627683,
+        "text": "Specialized License Plate Fund",
+        "chunk_id": 14186556894100905848
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12720383321902619606,
+        "start": 1626430,
+        "end": 1626430,
+        "text": "",
+        "chunk_id": 14186556894100905848
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15874660899064392399,
+        "start": 1626430,
+        "end": 1626430,
+        "text": "",
+        "chunk_id": 14186556894100905848
+      }
+    ]
+  }
+]

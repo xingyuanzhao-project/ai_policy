@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9541238495440876051,
+    "source_group_id": 4877264778887896954,
+    "source_candidate_ids": [
+      17327283489520187615
+    ],
+    "entity": "Arkansas Digital Responsibility, Safety, and Trust Act",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "some",
+    "entity_evidence": [
+      {
+        "span_id": 16679858646540323399,
+        "start": 123,
+        "end": 155,
+        "text": "ARKANSAS DIGITAL RESPONSIBILITY, SAFETY, AND TRUST ACT",
+        "chunk_id": 742443231948410699
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 299436830639820026,
+        "start": 123,
+        "end": 155,
+        "text": "ARKANSAS DIGITAL RESPONSIBILITY, SAFETY, AND TRUST ACT",
+        "chunk_id": 742443231948410699
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9349957517213490241,
+        "start": 123,
+        "end": 155,
+        "text": "ARKANSAS DIGITAL RESPONSIBILITY, SAFETY, AND TRUST ACT",
+        "chunk_id": 742443231948410699
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9959471450907701675,
+        "start": 123,
+        "end": 155,
+        "text": "ARKANSAS DIGITAL RESPONSIBILITY, SAFETY, AND TRUST ACT",
+        "chunk_id": 742443231948410699
+      }
+    ]
+  }
+]

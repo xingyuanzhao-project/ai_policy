@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 89653334626683122,
+    "source_group_id": 9676621486954366769,
+    "source_candidate_ids": [
+      12996770733053117059
+    ],
+    "entity": "council",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "comply with the Open Meetings Act",
+    "entity_evidence": [
+      {
+        "span_id": 3774552221897710659,
+        "start": 5169,
+        "end": 5174,
+        "text": "council",
+        "chunk_id": 7087368927442637589
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14124192718010601819,
+        "start": 5169,
+        "end": 5174,
+        "text": "council",
+        "chunk_id": 7087368927442637589
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11472896573676286510,
+        "start": 5169,
+        "end": 5174,
+        "text": "council",
+        "chunk_id": 7087368927442637589
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4574706304640764003,
+        "start": 5169,
+        "end": 5174,
+        "text": "council",
+        "chunk_id": 7087368927442637589
+      }
+    ]
+  }
+]

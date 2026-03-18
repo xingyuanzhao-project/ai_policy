@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8417381006506303076,
+    "entity": "Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "percentage of pensionable compensation",
+    "entity_evidence": [
+      {
+        "span_id": 12033194241413065855,
+        "start": 1668159,
+        "end": 1668189,
+        "text": "Public Employees' Retirement System",
+        "chunk_id": 4454899808045929563
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11775203708012124352,
+        "start": 1668159,
+        "end": 1668189,
+        "text": "government agency",
+        "chunk_id": 4454899808045929563
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11643901138137070040,
+        "start": 1668159,
+        "end": 1668189,
+        "text": "restriction",
+        "chunk_id": 4454899808045929563
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12474438853309495791,
+        "start": 1668159,
+        "end": 1668189,
+        "text": "percentage of pensionable compensation",
+        "chunk_id": 4454899808045929563
+      }
+    ]
+  },
+  {
+    "candidate_id": 1518911941390487166,
+    "entity": "Judges' Retirement System",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "percentage of pensionable compensation",
+    "entity_evidence": [
+      {
+        "span_id": 11964693878653837870,
+        "start": 1668190,
+        "end": 1668210,
+        "text": "Judges' Retirement System",
+        "chunk_id": 4454899808045929563
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15050738383003901564,
+        "start": 1668190,
+        "end": 1668210,
+        "text": "government agency",
+        "chunk_id": 4454899808045929563
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8642864944653448816,
+        "start": 1668190,
+        "end": 1668210,
+        "text": "restriction",
+        "chunk_id": 4454899808045929563
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6647948708215116514,
+        "start": 1668190,
+        "end": 1668210,
+        "text": "percentage of pensionable compensation",
+        "chunk_id": 4454899808045929563
+      }
+    ]
+  }
+]

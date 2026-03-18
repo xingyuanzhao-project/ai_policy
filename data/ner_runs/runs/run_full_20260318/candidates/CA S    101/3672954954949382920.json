@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9757952913552802640,
+    "entity": "Board of Administration of the Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "submit",
+    "entity_evidence": [
+      {
+        "span_id": 3651603383692406983,
+        "start": 1490642,
+        "end": 1490685,
+        "text": "Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 3672954954949382920
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16599714492557796174,
+        "start": 1490642,
+        "end": 1490685,
+        "text": "government agency",
+        "chunk_id": 3672954954949382920
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8976487430031446101,
+        "start": 1490642,
+        "end": 1490685,
+        "text": "requirement",
+        "chunk_id": 3672954954949382920
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12572743947833574837,
+        "start": 1490642,
+        "end": 1490685,
+        "text": "submit",
+        "chunk_id": 3672954954949382920
+      }
+    ]
+  },
+  {
+    "candidate_id": 7935378375135188733,
+    "entity": "PERS",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "submit",
+    "entity_evidence": [
+      {
+        "span_id": 4279201105504689301,
+        "start": 1490642,
+        "end": 1490646,
+        "text": "PERS",
+        "chunk_id": 3672954954949382920
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9743074233725343104,
+        "start": 1490642,
+        "end": 1490646,
+        "text": "government agency",
+        "chunk_id": 3672954954949382920
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8376207454076742154,
+        "start": 1490642,
+        "end": 1490646,
+        "text": "requirement",
+        "chunk_id": 3672954954949382920
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16992687804923242084,
+        "start": 1490642,
+        "end": 1490646,
+        "text": "submit",
+        "chunk_id": 3672954954949382920
+      }
+    ]
+  }
+]

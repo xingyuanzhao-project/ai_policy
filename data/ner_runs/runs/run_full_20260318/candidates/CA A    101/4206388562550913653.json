@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9360871603424862502,
+    "entity": "Murphy Conservatee",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "defined in subparagraph (B) of paragraph (1) of subdivision (h) of Section 5008 of the Welfare and Institutions Code",
+    "entity_evidence": [
+      {
+        "span_id": 12207351171264499237,
+        "start": 959860,
+        "end": 959879,
+        "text": "Murphy Conservatee",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2007752676246091243,
+        "start": 959880,
+        "end": 959885,
+        "text": "infrastructure",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4365050148587213473,
+        "start": 959886,
+        "end": 959894,
+        "text": "restriction",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15119925129119378467,
+        "start": 959895,
+        "end": 959994,
+        "text": "defined in subparagraph (B) of paragraph (1) of subdivision (h) of Section 5008 of the Welfare and Institutions Code",
+        "chunk_id": 4206388562550913653
+      }
+    ]
+  },
+  {
+    "candidate_id": 14904340118604321131,
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "revenue",
+    "entity_evidence": [
+      {
+        "span_id": 7567109978079460887,
+        "start": 960015,
+        "end": 960026,
+        "text": "General Fund",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13171367003554345075,
+        "start": 960027,
+        "end": 960032,
+        "text": "infrastructure",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 260368299321505540,
+        "start": 960033,
+        "end": 960039,
+        "text": "promotion",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2125534808535304788,
+        "start": 960040,
+        "end": 960044,
+        "text": "revenue",
+        "chunk_id": 4206388562550913653
+      }
+    ]
+  }
+]

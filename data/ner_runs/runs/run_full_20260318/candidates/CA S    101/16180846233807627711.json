@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6223477105476476415,
+    "entity": "California Gambling Control Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "written approval",
+    "entity_evidence": [
+      {
+        "span_id": 12369232406445561403,
+        "start": 197961,
+        "end": 197990,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 16180846233807627711
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15661268487616216249,
+        "start": 197961,
+        "end": 197990,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 16180846233807627711
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3233490686549596194,
+        "start": 197999,
+        "end": 198006,
+        "text": "written approval",
+        "chunk_id": 16180846233807627711
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13867436153395691355,
+        "start": 197999,
+        "end": 198006,
+        "text": "written approval",
+        "chunk_id": 16180846233807627711
+      }
+    ]
+  },
+  {
+    "candidate_id": 4621114375962302385,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "written approval",
+    "entity_evidence": [
+      {
+        "span_id": 15212858581671864684,
+        "start": 197999,
+        "end": 198019,
+        "text": "Department of Finance",
+        "chunk_id": 16180846233807627711
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6795617908281548679,
+        "start": 197999,
+        "end": 198019,
+        "text": "Department of Finance",
+        "chunk_id": 16180846233807627711
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9029527188538635667,
+        "start": 197999,
+        "end": 198006,
+        "text": "written approval",
+        "chunk_id": 16180846233807627711
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15917525469729125282,
+        "start": 197999,
+        "end": 198006,
+        "text": "written approval",
+        "chunk_id": 16180846233807627711
+      }
+    ]
+  }
+]

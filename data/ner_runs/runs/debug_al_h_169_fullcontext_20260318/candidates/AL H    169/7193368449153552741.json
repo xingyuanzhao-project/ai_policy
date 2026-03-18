@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12179631878142094072,
+    "entity": "National Board for Professional Teaching Standards",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "certification",
+    "entity_evidence": [
+      {
+        "span_id": 7633337988462076387,
+        "start": 70402,
+        "end": 70422,
+        "text": "National Board for Professional Teaching Standards",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13152157854164620913,
+        "start": 70402,
+        "end": 70406,
+        "text": "Board for Professional Teaching Standards",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11359147665726186590,
+        "start": 70402,
+        "end": 70402,
+        "text": "for",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4091633219280868884,
+        "start": 70402,
+        "end": 70402,
+        "text": "for",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  },
+  {
+    "candidate_id": 3515011502330160525,
+    "entity": "State Superintendent of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "certification",
+    "entity_evidence": [
+      {
+        "span_id": 3787457961268906099,
+        "start": 70516,
+        "end": 70532,
+        "text": "State Superintendent of Education",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11340723910997033003,
+        "start": 70516,
+        "end": 70520,
+        "text": "Superintendent of Education",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2884889862886773078,
+        "start": 70516,
+        "end": 70516,
+        "text": "of",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4154932973496640130,
+        "start": 70516,
+        "end": 70516,
+        "text": "of",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  }
+]

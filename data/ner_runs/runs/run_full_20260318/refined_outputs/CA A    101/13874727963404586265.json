@@ -1,0 +1,61 @@
+[
+  {
+    "refined_id": 10044187556687000578,
+    "source_group_id": 13874727963404586265,
+    "source_candidate_ids": [
+      10587796578730711130,
+      5972967326175676798,
+      12084910549919888467,
+      17815107561956469585,
+      3711296997465569541,
+      1746331200848229202,
+      7034218068411215249,
+      9556406058284274927,
+      736530085658781867,
+      6614722083460448280,
+      6922562840338263748,
+      10426704435282125231,
+      18381268157016841729
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 18319080026058814481,
+        "start": 217315,
+        "end": 217328,
+        "text": "prior approval of the Director of Finance",
+        "chunk_id": 14850669717155232891
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8491457076266387178,
+        "start": 217315,
+        "end": 217328,
+        "text": "prior approval of the Director of Finance",
+        "chunk_id": 14850669717155232891
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7957960071980521570,
+        "start": 217315,
+        "end": 217328,
+        "text": "prior approval of the Director of Finance",
+        "chunk_id": 14850669717155232891
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1924059081514686661,
+        "start": 217315,
+        "end": 217328,
+        "text": "prior approval of the Director of Finance",
+        "chunk_id": 14850669717155232891
+      }
+    ]
+  }
+]

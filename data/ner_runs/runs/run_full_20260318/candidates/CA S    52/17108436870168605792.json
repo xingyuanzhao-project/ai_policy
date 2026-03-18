@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10482685937245589723,
+    "entity": "Rental pricing algorithm",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "nonpublic competitor data",
+    "entity_evidence": [
+      {
+        "span_id": 17325947313853533032,
+        "start": 5118,
+        "end": 5137,
+        "text": "Rental pricing algorithm",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4487561738173650183,
+        "start": 5118,
+        "end": 5137,
+        "text": "Rental pricing algorithm",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8778832464907694488,
+        "start": 5118,
+        "end": 5137,
+        "text": "Rental pricing algorithm",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 42280445496837323,
+        "start": 5118,
+        "end": 5137,
+        "text": "Rental pricing algorithm",
+        "chunk_id": 17108436870168605792
+      }
+    ]
+  },
+  {
+    "candidate_id": 6992191843787149565,
+    "entity": "Multiple listing service",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "nonpublic competitor data",
+    "entity_evidence": [
+      {
+        "span_id": 2976861013128997107,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11750194269504986509,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13449332397898671628,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15418725746714597386,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9593742427117791377,
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "biannual reports",
+    "entity_evidence": [
+      {
+        "span_id": 9741610204505465380,
+        "start": 1212861,
+        "end": 1212885,
+        "text": "The Commission on Teacher Credentialing",
+        "chunk_id": 10733320191683243804
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14475285923780103781,
+        "start": 1212861,
+        "end": 1212885,
+        "text": "The Commission on Teacher Credentialing",
+        "chunk_id": 10733320191683243804
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14588979064479465854,
+        "start": 1212886,
+        "end": 1212895,
+        "text": "shall submit biannual reports",
+        "chunk_id": 10733320191683243804
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2008179273106798912,
+        "start": 1212896,
+        "end": 1212904,
+        "text": "biannual reports",
+        "chunk_id": 10733320191683243804
+      }
+    ]
+  },
+  {
+    "candidate_id": 12647263513762627486,
+    "entity": "Attorney General",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "biannual reports",
+    "entity_evidence": [
+      {
+        "span_id": 5863987126605479222,
+        "start": 1212861,
+        "end": 1212874,
+        "text": "The Attorney General",
+        "chunk_id": 10733320191683243804
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16097598561283347235,
+        "start": 1212861,
+        "end": 1212874,
+        "text": "The Attorney General",
+        "chunk_id": 10733320191683243804
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8494107259002479538,
+        "start": 1212875,
+        "end": 1212884,
+        "text": "shall submit a biannual report",
+        "chunk_id": 10733320191683243804
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3097188549724608985,
+        "start": 1212885,
+        "end": 1212894,
+        "text": "biannual report",
+        "chunk_id": 10733320191683243804
+      }
+    ]
+  }
+]

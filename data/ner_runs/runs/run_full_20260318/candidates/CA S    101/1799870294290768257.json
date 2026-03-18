@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9336303361019416916,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12687928294424372936,
+        "start": 473310,
+        "end": 473330,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 1799870294290768257
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 965593531147667320,
+        "start": 473310,
+        "end": 473330,
+        "text": "government agency",
+        "chunk_id": 1799870294290768257
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10367077773584654806,
+        "start": 473310,
+        "end": 473330,
+        "text": "restriction",
+        "chunk_id": 1799870294290768257
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11947506531270983075,
+        "start": 473310,
+        "end": 473330,
+        "text": "limited",
+        "chunk_id": 1799870294290768257
+      }
+    ]
+  },
+  {
+    "candidate_id": 12134063450448952113,
+    "entity": "State Fire Marshal",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5102587389744597953,
+        "start": 473310,
+        "end": 473330,
+        "text": "State Fire Marshal",
+        "chunk_id": 1799870294290768257
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1079655257978001160,
+        "start": 473310,
+        "end": 473330,
+        "text": "government agency",
+        "chunk_id": 1799870294290768257
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9570764338297889333,
+        "start": 473310,
+        "end": 473330,
+        "text": "restriction",
+        "chunk_id": 1799870294290768257
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13422893996442326273,
+        "start": 473310,
+        "end": 473330,
+        "text": "limited",
+        "chunk_id": 1799870294290768257
+      }
+    ]
+  }
+]

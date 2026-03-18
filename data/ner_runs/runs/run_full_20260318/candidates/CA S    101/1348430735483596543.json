@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12966592532264459696,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16264879001437069598,
+        "start": 712532,
+        "end": 712552,
+        "text": "Department of Finance",
+        "chunk_id": 1348430735483596543
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10279593437830025089,
+        "start": 712532,
+        "end": 712552,
+        "text": "government agency",
+        "chunk_id": 1348430735483596543
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6940277609059687401,
+        "start": 712532,
+        "end": 712552,
+        "text": "restriction",
+        "chunk_id": 1348430735483596543
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13011461660925028046,
+        "start": 712532,
+        "end": 712552,
+        "text": "extremely restrictive",
+        "chunk_id": 1348430735483596543
+      }
+    ]
+  },
+  {
+    "candidate_id": 11470256719008143733,
+    "entity": "Department of Health Care Access and Information",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 9722886169881650076,
+        "start": 712532,
+        "end": 712552,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 1348430735483596543
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6758746429453872576,
+        "start": 712532,
+        "end": 712552,
+        "text": "government agency",
+        "chunk_id": 1348430735483596543
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10540759235985713101,
+        "start": 712532,
+        "end": 712552,
+        "text": "promotion",
+        "chunk_id": 1348430735483596543
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13389880543811193846,
+        "start": 712532,
+        "end": 712552,
+        "text": "substantial",
+        "chunk_id": 1348430735483596543
+      }
+    ]
+  }
+]

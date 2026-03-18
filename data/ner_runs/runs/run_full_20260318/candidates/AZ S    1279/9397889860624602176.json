@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14476264783168320004,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 1805275515981357801,
+        "start": 20436,
+        "end": 20459,
+        "text": "The Arizona SHERIFFS' criminal justice commission is designated as the central collection point for criminal justice data collection.",
+        "chunk_id": 9397889860624602176
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8761479913746905717,
+        "start": 20436,
+        "end": 20459,
+        "text": "The Arizona SHERIFFS' criminal justice commission is designated as the central collection point for criminal justice data collection.",
+        "chunk_id": 9397889860624602176
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17631630988385767498,
+        "start": 20436,
+        "end": 20459,
+        "text": "The Arizona SHERIFFS' criminal justice commission is designated as the central collection point for criminal justice data collection.",
+        "chunk_id": 9397889860624602176
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16446695047831957992,
+        "start": 20436,
+        "end": 20459,
+        "text": "The Arizona SHERIFFS' criminal justice commission is designated as the central collection point for criminal justice data collection.",
+        "chunk_id": 9397889860624602176
+      }
+    ]
+  },
+  {
+    "candidate_id": 9864339341069710995,
+    "entity": "licensed health care provider",
+    "type": "individual/institution",
+    "attribute": "restriction",
+    "value": "prohibited",
+    "entity_evidence": [
+      {
+        "span_id": 6010715670690144560,
+        "start": 20436,
+        "end": 20459,
+        "text": "For the purposes of this section, 'licensed health care provider' means a person or institution that is licensed or certified by this state to provide health care services, medical services, nursing services, emergency medical services and ambulance services that are regulated pursuant to title 36, chapter 21.1, article 2 or other health-related services.",
+        "chunk_id": 9397889860624602176
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10374856468870707182,
+        "start": 20436,
+        "end": 20459,
+        "text": "For the purposes of this section, 'licensed health care provider' means a person or institution that is licensed or certified by this state to provide health care services, medical services, nursing services, emergency medical services and ambulance services that are regulated pursuant to title 36, chapter 21.1, article 2 or other health-related services.",
+        "chunk_id": 9397889860624602176
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18229400576746938537,
+        "start": 20436,
+        "end": 20459,
+        "text": "For the purposes of this section, 'licensed health care provider' means a person or institution that is licensed or certified by this state to provide health care services, medical services, nursing services, emergency medical services and ambulance services that are regulated pursuant to title 36, chapter 21.1, article 2 or other health-related services.",
+        "chunk_id": 9397889860624602176
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16991442791586460910,
+        "start": 20436,
+        "end": 20459,
+        "text": "For the purposes of this section, 'licensed health care provider' means a person or institution that is licensed or certified by this state to provide health care services, medical services, nursing services, emergency medical services and ambulance services that are regulated pursuant to title 36, chapter 21.1, article 2 or other health-related services.",
+        "chunk_id": 9397889860624602176
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16222111164848798727,
+    "entity": "Department",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "nondiscriminatory",
+    "entity_evidence": [
+      {
+        "span_id": 3250665362196637328,
+        "start": 139200,
+        "end": 139206,
+        "text": "Department",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14778780413367503686,
+        "start": 139200,
+        "end": 139206,
+        "text": "Department",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3217760009497553540,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 425823512191802984,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ]
+  },
+  {
+    "candidate_id": 18341359052070920589,
+    "entity": "Governor",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "nondiscriminatory",
+    "entity_evidence": [
+      {
+        "span_id": 3098775381752966850,
+        "start": 139159,
+        "end": 139167,
+        "text": "Governor",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3849735007686706093,
+        "start": 139159,
+        "end": 139167,
+        "text": "Governor",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7187192486929980794,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18107569037952819172,
+        "start": 139161,
+        "end": 139171,
+        "text": "nondiscriminatory basis",
+        "chunk_id": 2753450344688263532
+      }
+    ]
+  }
+]

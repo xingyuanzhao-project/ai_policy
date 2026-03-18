@@ -1,0 +1,80 @@
+[
+  {
+    "candidate_id": 17267394162468360929,
+    "entity": "Covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "primary purpose of attracting or engaging individuals who are sixteen (16) years of age or younger",
+    "entity_evidence": [
+      {
+        "span_id": 12715889638814246670,
+        "start": 0,
+        "end": 13,
+        "text": "Covered platform",
+        "chunk_id": 7276694642090302753
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9910395448007762836,
+        "start": 14,
+        "end": 23,
+        "text": "entity that operates an online platform, messaging application, or video streaming service",
+        "chunk_id": 7276694642090302753
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7052618008102512328,
+        "start": 24,
+        "end": 31,
+        "text": "intentionally designs, markets, or promotes features, content, or services",
+        "chunk_id": 7276694642090302753
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5973370035095893645,
+        "start": 32,
+        "end": 64,
+        "text": "primary purpose of attracting or engaging individuals who are sixteen (16) years of age or younger",
+        "chunk_id": 7276694642090302753
+      }
+    ]
+  },
+  {
+    "candidate_id": 1438818723000840798,
+    "entity": "Child",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "twelve (12) years of age or less",
+    "entity_evidence": [
+      {
+        "span_id": 12691244214554466061,
+        "start": 0,
+        "end": 5,
+        "text": "Child",
+        "chunk_id": 7276694642090302753
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18373739873863092878,
+        "start": 6,
+        "end": 11,
+        "text": "individual who is twelve (12) years of age or less",
+        "chunk_id": 7276694642090302753
+      }
+    ],
+    "attribute_evidence": [],
+    "value_evidence": [
+      {
+        "span_id": 14908857853991174663,
+        "start": 12,
+        "end": 29,
+        "text": "twelve (12) years of age or less",
+        "chunk_id": 7276694642090302753
+      }
+    ]
+  }
+]

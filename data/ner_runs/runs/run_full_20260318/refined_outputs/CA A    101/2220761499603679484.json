@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18358108430311386654,
+    "source_group_id": 2220761499603679484,
+    "source_candidate_ids": [
+      2408500457791816678
+    ],
+    "entity": "Adults in Correctional Facilities Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 5119853297470419541,
+        "start": 1232437,
+        "end": 1232472,
+        "text": "Adults in Correctional Facilities Program",
+        "chunk_id": 5402164131540285406
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11706002846808021119,
+        "start": 1232437,
+        "end": 1232472,
+        "text": "infrastructure",
+        "chunk_id": 5402164131540285406
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13015119146822605435,
+        "start": 1232437,
+        "end": 1232472,
+        "text": "restriction",
+        "chunk_id": 5402164131540285406
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11609966606788731071,
+        "start": 1232437,
+        "end": 1232472,
+        "text": "limited",
+        "chunk_id": 5402164131540285406
+      }
+    ]
+  }
+]

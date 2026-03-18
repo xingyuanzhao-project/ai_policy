@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18072334354354338742,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "creation of a workgroup",
+    "entity_evidence": [
+      {
+        "span_id": 4832448195531425450,
+        "start": 134,
+        "end": 153,
+        "text": "the President of the University of California",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17644547932585489113,
+        "start": 134,
+        "end": 153,
+        "text": "the President of the University of California",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13382543453506170482,
+        "start": 134,
+        "end": 153,
+        "text": "create a workgroup",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9801608364813432423,
+        "start": 134,
+        "end": 153,
+        "text": "create a workgroup",
+        "chunk_id": 6324370340476638405
+      }
+    ]
+  },
+  {
+    "candidate_id": 4802405613151354615,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "encouragement",
+    "value": "creation of a workgroup",
+    "entity_evidence": [
+      {
+        "span_id": 9817214458191973369,
+        "start": 161,
+        "end": 179,
+        "text": "the Chancellor of the California State University",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17607807442289593015,
+        "start": 161,
+        "end": 179,
+        "text": "the Chancellor of the California State University",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10604326531912091791,
+        "start": 161,
+        "end": 179,
+        "text": "create a workgroup",
+        "chunk_id": 6324370340476638405
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9467825465485982295,
+        "start": 161,
+        "end": 179,
+        "text": "create a workgroup",
+        "chunk_id": 6324370340476638405
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2147931704487015279,
+    "source_group_id": 8557868954318837702,
+    "source_candidate_ids": [
+      3804830081830491676
+    ],
+    "entity": "Teacher Residencies",
+    "type": "grant program",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 17042691723485741842,
+        "start": 1301702,
+        "end": 1301715,
+        "text": "Teacher Residencies",
+        "chunk_id": 9947789021940405134
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11124197995903974196,
+        "start": 1301702,
+        "end": 1301715,
+        "text": "grant program",
+        "chunk_id": 9947789021940405134
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11773903453275178583,
+        "start": 1301702,
+        "end": 1301715,
+        "text": "grant program",
+        "chunk_id": 9947789021940405134
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3823027661940693421,
+        "start": 1301702,
+        "end": 1301715,
+        "text": "grant program",
+        "chunk_id": 9947789021940405134
+      }
+    ]
+  }
+]

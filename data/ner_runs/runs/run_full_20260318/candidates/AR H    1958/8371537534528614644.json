@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17996085989782224987,
+    "entity": "public entity",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 14596327905559725012,
+        "start": 2365,
+        "end": 2377,
+        "text": "public entity",
+        "chunk_id": 8371537534528614644
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3311093429285041462,
+        "start": 2378,
+        "end": 2388,
+        "text": "government agency",
+        "chunk_id": 8371537534528614644
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7226963941057605145,
+        "start": 2389,
+        "end": 2397,
+        "text": "restriction",
+        "chunk_id": 8371537534528614644
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17191849333563632203,
+        "start": 2398,
+        "end": 2408,
+        "text": "extremely restrictive",
+        "chunk_id": 8371537534528614644
+      }
+    ]
+  },
+  {
+    "candidate_id": 8027632116256837360,
+    "entity": "artificial intelligence and automated decision tool",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 18200057765043931747,
+        "start": 2609,
+        "end": 2638,
+        "text": "artificial intelligence and automated decision tool",
+        "chunk_id": 8371537534528614644
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15351619914095744657,
+        "start": 2639,
+        "end": 2651,
+        "text": "technology",
+        "chunk_id": 8371537534528614644
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10674394086559027139,
+        "start": 2652,
+        "end": 2664,
+        "text": "restriction",
+        "chunk_id": 8371537534528614644
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6441865709879100225,
+        "start": 2665,
+        "end": 2677,
+        "text": "extremely restrictive",
+        "chunk_id": 8371537534528614644
+      }
+    ]
+  }
+]

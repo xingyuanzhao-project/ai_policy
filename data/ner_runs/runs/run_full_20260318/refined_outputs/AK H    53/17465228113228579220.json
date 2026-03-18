@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 14608887786019454536,
+    "source_group_id": 17465228113228579220,
+    "source_candidate_ids": [
+      14022955101194877168,
+      12195454369251462373
+    ],
+    "entity": "Alaska Oil & Gas Conservation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "0",
+    "entity_evidence": [
+      {
+        "span_id": 11660145492242741265,
+        "start": 62641,
+        "end": 62664,
+        "text": "Alaska Oil & Gas Conservation",
+        "chunk_id": 12839575175865286385
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17381564502288883620,
+        "start": 62665,
+        "end": 62676,
+        "text": "Commission",
+        "chunk_id": 12839575175865286385
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17131975607174074461,
+        "start": 62677,
+        "end": 62681,
+        "text": "Receipts",
+        "chunk_id": 12839575175865286385
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 28574939990579116,
+        "start": 62682,
+        "end": 62683,
+        "text": "0",
+        "chunk_id": 12839575175865286385
+      }
+    ]
+  }
+]

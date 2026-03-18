@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5976691061657511486,
+    "source_group_id": 17208286920118561663,
+    "source_candidate_ids": [
+      4892431238671560575
+    ],
+    "entity": "Alabama Community College System Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent with the recommendations",
+    "entity_evidence": [
+      {
+        "span_id": 9771723870635773212,
+        "start": 7776,
+        "end": 7802,
+        "text": "Community College System Board of Trustees, Alabama",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15371363289510053875,
+        "start": 7776,
+        "end": 7802,
+        "text": "Community College System Board of Trustees, Alabama",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10861784975450192644,
+        "start": 7802,
+        "end": 7814,
+        "text": "consistent with the recommendations",
+        "chunk_id": 12482578238436452239
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12178522189253451352,
+        "start": 7814,
+        "end": 7831,
+        "text": "consistent with the recommendations",
+        "chunk_id": 12482578238436452239
+      }
+    ]
+  }
+]

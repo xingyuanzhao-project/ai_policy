@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2051030290225230411,
+    "source_group_id": 18429896227754482214,
+    "source_candidate_ids": [
+      15788718289176716082
+    ],
+    "entity": "Infill Infrastructure Grant Catalytic Program",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "reversion of appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 12107413466358758319,
+        "start": 310511,
+        "end": 310551,
+        "text": "Infill Infrastructure Grant Catalytic Program",
+        "chunk_id": 8845053044769761862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8934436395796212638,
+        "start": 310511,
+        "end": 310551,
+        "text": "Infill Infrastructure Grant Catalytic Program",
+        "chunk_id": 8845053044769761862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1441936255463028037,
+        "start": 310551,
+        "end": 310559,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 8845053044769761862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11146721047168214328,
+        "start": 310559,
+        "end": 310567,
+        "text": "as of June 30, 2025",
+        "chunk_id": 8845053044769761862
+      }
+    ]
+  }
+]

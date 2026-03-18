@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14209839096198140390,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "mandated programs block grant",
+    "entity_evidence": [
+      {
+        "span_id": 7399289458058109397,
+        "start": 1344290,
+        "end": 1344337,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 13162815397018229521
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15424978189926381822,
+        "start": 1344290,
+        "end": 1344337,
+        "text": "government agency",
+        "chunk_id": 13162815397018229521
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17421294821023981862,
+        "start": 1344290,
+        "end": 1344337,
+        "text": "promotion",
+        "chunk_id": 13162815397018229521
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7475816852760134617,
+        "start": 1344290,
+        "end": 1344337,
+        "text": "mandated programs block grant",
+        "chunk_id": 13162815397018229521
+      }
+    ]
+  },
+  {
+    "candidate_id": 1212730532580390655,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandated costs",
+    "entity_evidence": [
+      {
+        "span_id": 18139033316626536897,
+        "start": 1344648,
+        "end": 1344665,
+        "text": "Controller",
+        "chunk_id": 13162815397018229521
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6458069119112467109,
+        "start": 1344648,
+        "end": 1344665,
+        "text": "government agency",
+        "chunk_id": 13162815397018229521
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7682955375469038500,
+        "start": 1344648,
+        "end": 1344665,
+        "text": "restriction",
+        "chunk_id": 13162815397018229521
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17696025796217078170,
+        "start": 1344648,
+        "end": 1344665,
+        "text": "mandated costs",
+        "chunk_id": 13162815397018229521
+      }
+    ]
+  }
+]

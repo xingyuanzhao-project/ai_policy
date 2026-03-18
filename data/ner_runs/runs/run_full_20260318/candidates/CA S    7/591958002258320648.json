@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4702556641817741342,
+    "entity": "algorithmic management",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 11005330933393825394,
+        "start": 12215,
+        "end": 12235,
+        "text": "algorithmic management",
+        "chunk_id": 591958002258320648
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8695623671473610702,
+        "start": 12215,
+        "end": 12235,
+        "text": "algorithmic management",
+        "chunk_id": 591958002258320648
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4246621477184416920,
+        "start": 12215,
+        "end": 12235,
+        "text": "algorithmic management",
+        "chunk_id": 591958002258320648
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4451367040427492789,
+        "start": 12215,
+        "end": 12235,
+        "text": "algorithmic management",
+        "chunk_id": 591958002258320648
+      }
+    ]
+  },
+  {
+    "candidate_id": 13486094689392941906,
+    "entity": "federal government",
+    "type": "government agency",
+    "attribute": "prohibition",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 10571207067031604077,
+        "start": 12292,
+        "end": 12306,
+        "text": "federal government",
+        "chunk_id": 591958002258320648
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3450840344184692097,
+        "start": 12292,
+        "end": 12306,
+        "text": "federal government",
+        "chunk_id": 591958002258320648
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8415065054261744568,
+        "start": 12292,
+        "end": 12306,
+        "text": "federal government",
+        "chunk_id": 591958002258320648
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13485314623735033666,
+        "start": 12292,
+        "end": 12306,
+        "text": "federal government",
+        "chunk_id": 591958002258320648
+      }
+    ]
+  }
+]

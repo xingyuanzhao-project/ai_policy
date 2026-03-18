@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4753468775758408256,
+    "entity": "Alabama Incentives Financing Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+    "entity_evidence": [
+      {
+        "span_id": 10467978720932341150,
+        "start": 21151,
+        "end": 21171,
+        "text": "Alabama Incentives Financing Authority bonds are issued, debt service on these newly issued bonds may be paid from the appropriations made above from the Education Trust Fund contingent upon the recommendation of the Director of Finance and the approval of the Governor.",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12909408042788593571,
+        "start": 21151,
+        "end": 21171,
+        "text": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8964538205689219588,
+        "start": 21151,
+        "end": 21171,
+        "text": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7016280340166760561,
+        "start": 21151,
+        "end": 21171,
+        "text": "contingent upon the recommendation of the Director of Finance and the approval of the Governor",
+        "chunk_id": 5107687190945313617
+      }
+    ]
+  },
+  {
+    "candidate_id": 16787376025675405168,
+    "entity": "Alabama Department of Economic and Community Affairs",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "eligible for an administrative fee not to exceed two and one-half percent (2.5%) of the sum appropriated herein",
+    "entity_evidence": [
+      {
+        "span_id": 14680782080716624986,
+        "start": 21151,
+        "end": 21171,
+        "text": "The Department shall be eligible for an administrative fee not to exceed two and one-half percent (2.5%) of the sum appropriated herein.",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12579185516336532838,
+        "start": 21151,
+        "end": 21171,
+        "text": "The Department shall be eligible for an administrative fee not to exceed two and one-half percent (2.5%) of the sum appropriated herein.",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10326160529404930526,
+        "start": 21151,
+        "end": 21171,
+        "text": "The Department shall be eligible for an administrative fee not to exceed two and one-half percent (2.5%) of the sum appropriated herein.",
+        "chunk_id": 5107687190945313617
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9619380674809824063,
+        "start": 21151,
+        "end": 21171,
+        "text": "The Department shall be eligible for an administrative fee not to exceed two and one-half percent (2.5%) of the sum appropriated herein.",
+        "chunk_id": 5107687190945313617
+      }
+    ]
+  }
+]

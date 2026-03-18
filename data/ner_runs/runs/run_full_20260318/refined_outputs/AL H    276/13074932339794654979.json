@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15369498295648807989,
+    "source_group_id": 13074932339794654979,
+    "source_candidate_ids": [
+      6457535397382967769
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "permanent deletion",
+    "entity_evidence": [
+      {
+        "span_id": 16931314303855514405,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5668736091777911678,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16733494906712749706,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1433556276357611555,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ]
+  }
+]

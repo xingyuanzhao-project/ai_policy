@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13358355731666428014,
+    "source_group_id": 14874330047272181029,
+    "source_candidate_ids": [
+      14330689339833306648
+    ],
+    "entity": "voter registration",
+    "type": "infrastructure",
+    "attribute": "maintenance",
+    "value": "confirming residency",
+    "entity_evidence": [
+      {
+        "span_id": 9365322962964303118,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1025557901942294441,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 395138410643561261,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3134846903155899641,
+        "start": 5062,
+        "end": 5071,
+        "text": "voter roll maintenance",
+        "chunk_id": 13555725184130605255
+      }
+    ]
+  }
+]

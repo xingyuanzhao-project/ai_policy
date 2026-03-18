@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8963423430175545308,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16282039580674840599,
+        "start": 991102,
+        "end": 991134,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 16447256130021907571
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 397249156124533754,
+        "start": 991102,
+        "end": 991134,
+        "text": "government agency",
+        "chunk_id": 16447256130021907571
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12939663014124499789,
+        "start": 991102,
+        "end": 991134,
+        "text": "restriction",
+        "chunk_id": 16447256130021907571
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12080559032266818109,
+        "start": 991102,
+        "end": 991134,
+        "text": "extremely restrictive",
+        "chunk_id": 16447256130021907571
+      }
+    ]
+  },
+  {
+    "candidate_id": 6527955288177888400,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 6908900856722841240,
+        "start": 991213,
+        "end": 991232,
+        "text": "Department of Finance",
+        "chunk_id": 16447256130021907571
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5888533057093182487,
+        "start": 991213,
+        "end": 991232,
+        "text": "government agency",
+        "chunk_id": 16447256130021907571
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1436266636585693444,
+        "start": 991213,
+        "end": 991232,
+        "text": "promotion",
+        "chunk_id": 16447256130021907571
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15184257451564731984,
+        "start": 991213,
+        "end": 991232,
+        "text": "substantial",
+        "chunk_id": 16447256130021907571
+      }
+    ]
+  }
+]

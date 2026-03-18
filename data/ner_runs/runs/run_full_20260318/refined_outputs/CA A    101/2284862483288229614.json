@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4198078947493238182,
+    "source_group_id": 2284862483288229614,
+    "source_candidate_ids": [
+      8036016678943792512
+    ],
+    "entity": "County Probation Departments",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "least restrictive interventions",
+    "entity_evidence": [
+      {
+        "span_id": 17981566779514844514,
+        "start": 31565,
+        "end": 31581,
+        "text": "county probation departments",
+        "chunk_id": 15982590275292486543
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17408007497763109827,
+        "start": 31565,
+        "end": 31581,
+        "text": "county probation departments",
+        "chunk_id": 15982590275292486543
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9319818029855945248,
+        "start": 31680,
+        "end": 31700,
+        "text": "least restrictive interventions",
+        "chunk_id": 15982590275292486543
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4402156912798945286,
+        "start": 31680,
+        "end": 31700,
+        "text": "least restrictive interventions",
+        "chunk_id": 15982590275292486543
+      }
+    ]
+  }
+]

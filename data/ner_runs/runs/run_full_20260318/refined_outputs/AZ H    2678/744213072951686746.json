@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5870378626822266263,
+    "source_group_id": 744213072951686746,
+    "source_candidate_ids": [
+      2309346120992084494
+    ],
+    "entity": "Child sex trafficking",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "complete",
+    "entity_evidence": [
+      {
+        "span_id": 8361886139515000443,
+        "start": 12533,
+        "end": 12553,
+        "text": "Child sex trafficking",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4707160729861536504,
+        "start": 12533,
+        "end": 12553,
+        "text": "technology",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2847063513521542404,
+        "start": 12533,
+        "end": 12553,
+        "text": "prohibition",
+        "chunk_id": 4231032712934685707
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5439616435468506428,
+        "start": 12533,
+        "end": 12553,
+        "text": "complete",
+        "chunk_id": 4231032712934685707
+      }
+    ]
+  }
+]

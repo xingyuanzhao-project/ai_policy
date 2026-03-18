@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16669445958417635090,
+    "entity": "Secretary of State",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 14734023835232892336,
+        "start": 223827,
+        "end": 223844,
+        "text": "Secretary of State",
+        "chunk_id": 8542126252177618681
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13355206379673018739,
+        "start": 223827,
+        "end": 223844,
+        "text": "Secretary of State",
+        "chunk_id": 8542126252177618681
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13493156411178404623,
+        "start": 223827,
+        "end": 223844,
+        "text": "Secretary of State",
+        "chunk_id": 8542126252177618681
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4097091041089259165,
+        "start": 223827,
+        "end": 223844,
+        "text": "Secretary of State",
+        "chunk_id": 8542126252177618681
+      }
+    ]
+  },
+  {
+    "candidate_id": 5819217350174155783,
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8537600122767786979,
+        "start": 223861,
+        "end": 223880,
+        "text": "Federal Trust Fund",
+        "chunk_id": 8542126252177618681
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11149111832478636502,
+        "start": 223861,
+        "end": 223880,
+        "text": "Federal Trust Fund",
+        "chunk_id": 8542126252177618681
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2297130665185356374,
+        "start": 223861,
+        "end": 223880,
+        "text": "Federal Trust Fund",
+        "chunk_id": 8542126252177618681
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10522633578298784340,
+        "start": 223861,
+        "end": 223880,
+        "text": "Federal Trust Fund",
+        "chunk_id": 8542126252177618681
+      }
+    ]
+  }
+]

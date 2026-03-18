@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16891353159438931970,
+    "source_group_id": 12957123376103398062,
+    "source_candidate_ids": [
+      4769844664492005141
+    ],
+    "entity": "Public Transportation Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "state",
+    "entity_evidence": [
+      {
+        "span_id": 7637487210663926871,
+        "start": 393353,
+        "end": 393377,
+        "text": "Public Transportation Account, State Transportation Fund",
+        "chunk_id": 13746901479165423621
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7739890819286936591,
+        "start": 393353,
+        "end": 393377,
+        "text": "Public Transportation Account, State Transportation Fund",
+        "chunk_id": 13746901479165423621
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9920491757419119436,
+        "start": 393353,
+        "end": 393377,
+        "text": "Public Transportation Account, State Transportation Fund",
+        "chunk_id": 13746901479165423621
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8073922054577649636,
+        "start": 393353,
+        "end": 393377,
+        "text": "Public Transportation Account, State Transportation Fund",
+        "chunk_id": 13746901479165423621
+      }
+    ]
+  }
+]

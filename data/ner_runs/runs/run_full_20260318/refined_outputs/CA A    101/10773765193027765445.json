@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6337345132803688561,
+    "source_group_id": 10773765193027765445,
+    "source_candidate_ids": [
+      8227516184043757784
+    ],
+    "entity": "community college district",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "required to spend $1 from local or other resources for every $4 received",
+    "entity_evidence": [
+      {
+        "span_id": 5081565290148001205,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "community college district",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3363087241609024036,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "government agency",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16475054504148604965,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "restriction",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4978528073160837953,
+        "start": 1391344,
+        "end": 1391364,
+        "text": "required to spend $1 from local or other resources for every $4 received",
+        "chunk_id": 8978054951904459656
+      }
+    ]
+  }
+]

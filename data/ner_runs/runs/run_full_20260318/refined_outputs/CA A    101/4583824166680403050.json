@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5609081758141408408,
+    "source_group_id": 4583824166680403050,
+    "source_candidate_ids": [
+      11479880586736905600
+    ],
+    "entity": "General Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "cumulative total of $30,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 12546942344039882064,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2910313405390855574,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4331773007678993002,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3986894723835403211,
+        "start": 944844,
+        "end": 944855,
+        "text": "The General Fund",
+        "chunk_id": 3812502027367559568
+      }
+    ]
+  }
+]

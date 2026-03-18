@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6371881044076365805,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 11701324240398045394,
+        "start": 458186,
+        "end": 458207,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 13308902041841878215
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1982688162488400495,
+        "start": 458186,
+        "end": 458207,
+        "text": "government agency",
+        "chunk_id": 13308902041841878215
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14530925819466896274,
+        "start": 458186,
+        "end": 458207,
+        "text": "restriction",
+        "chunk_id": 13308902041841878215
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1330632399858117413,
+        "start": 458186,
+        "end": 458207,
+        "text": "reversion",
+        "chunk_id": 13308902041841878215
+      }
+    ]
+  },
+  {
+    "candidate_id": 10859517214316180397,
+    "entity": "Department of Conservation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "9,057,000",
+    "entity_evidence": [
+      {
+        "span_id": 1718142555665745386,
+        "start": 458894,
+        "end": 458915,
+        "text": "Department of Conservation",
+        "chunk_id": 13308902041841878215
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1871802182147509630,
+        "start": 458894,
+        "end": 458915,
+        "text": "government agency",
+        "chunk_id": 13308902041841878215
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4124523528456386333,
+        "start": 458894,
+        "end": 458915,
+        "text": "support",
+        "chunk_id": 13308902041841878215
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13558768522048640357,
+        "start": 458894,
+        "end": 458915,
+        "text": "9,057,000",
+        "chunk_id": 13308902041841878215
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15120587502962038510,
+    "source_group_id": 3022555827810465925,
+    "source_candidate_ids": [
+      458828935161398763
+    ],
+    "entity": "California Access to Justice Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8420627517388371800,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1111179027886811883,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8278003878210134264,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 982105792563092097,
+        "start": 29370,
+        "end": 29390,
+        "text": "The California Access to Justice Commission",
+        "chunk_id": 17816923877069845187
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9532699742771596726,
+    "entity": "covered platform",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 9002278206965852589,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14882833370827279574,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10125850972057696293,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9898281047960757189,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ]
+  },
+  {
+    "candidate_id": 5953327223089452889,
+    "entity": "minor",
+    "type": "individual",
+    "attribute": "protection",
+    "value": "safeguards",
+    "entity_evidence": [
+      {
+        "span_id": 5982105150677378325,
+        "start": 7628,
+        "end": 7632,
+        "text": "minor",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4195835992228667932,
+        "start": 7628,
+        "end": 7632,
+        "text": "minor",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3350587734952858644,
+        "start": 7628,
+        "end": 7632,
+        "text": "minor",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2193667058350961263,
+        "start": 7628,
+        "end": 7632,
+        "text": "minor",
+        "chunk_id": 14064762059671815260
+      }
+    ]
+  }
+]

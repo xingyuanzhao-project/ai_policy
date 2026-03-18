@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9501943965255757931,
+    "source_group_id": 6862224322943111021,
+    "source_candidate_ids": [
+      11342735859749696133
+    ],
+    "entity": "CalRx Biosimilar Insulin Initiative",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 9175277317053317097,
+        "start": 792441,
+        "end": 792460,
+        "text": "Of the funds appropriated in Schedule (1), $700,000 is available to implement the CalRx Biosimilar Insulin Initiative.",
+        "chunk_id": 3957009607181024230
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3029873245658013420,
+        "start": 792441,
+        "end": 792460,
+        "text": "Of the funds appropriated in Schedule (1), $700,000 is available to implement the CalRx Biosimilar Insulin Initiative.",
+        "chunk_id": 3957009607181024230
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18270639916898549508,
+        "start": 792441,
+        "end": 792460,
+        "text": "Of the funds appropriated in Schedule (1), $700,000 is available to implement the CalRx Biosimilar Insulin Initiative.",
+        "chunk_id": 3957009607181024230
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13748934002330565730,
+        "start": 792441,
+        "end": 792460,
+        "text": "Of the funds appropriated in Schedule (1), $700,000 is available to implement the CalRx Biosimilar Insulin Initiative.",
+        "chunk_id": 3957009607181024230
+      }
+    ]
+  }
+]

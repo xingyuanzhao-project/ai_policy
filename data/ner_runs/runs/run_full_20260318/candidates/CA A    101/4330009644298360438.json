@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12162530625969386496,
+    "entity": "Judicial Branch Workers' Compensation Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "adequate resources",
+    "entity_evidence": [
+      {
+        "span_id": 15849932702291852865,
+        "start": 64402,
+        "end": 64420,
+        "text": "Judicial Branch Workers' Compensation Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3331188832190453327,
+        "start": 64402,
+        "end": 64420,
+        "text": "Judicial Branch Workers' Compensation Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4401054748021958196,
+        "start": 64402,
+        "end": 64420,
+        "text": "Judicial Branch Workers' Compensation Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 360942491202094410,
+        "start": 64402,
+        "end": 64420,
+        "text": "adequate resources",
+        "chunk_id": 4330009644298360438
+      }
+    ]
+  },
+  {
+    "candidate_id": 16202087017805146093,
+    "entity": "Trial Court Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "sufficient to address the revenue shortfall",
+    "entity_evidence": [
+      {
+        "span_id": 2037120019026330590,
+        "start": 64322,
+        "end": 64340,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11733032668581205150,
+        "start": 64322,
+        "end": 64340,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18167088236378382666,
+        "start": 64322,
+        "end": 64340,
+        "text": "Trial Court Trust Fund",
+        "chunk_id": 4330009644298360438
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4308707282345491463,
+        "start": 64322,
+        "end": 64340,
+        "text": "sufficient to address the revenue shortfall",
+        "chunk_id": 4330009644298360438
+      }
+    ]
+  }
+]

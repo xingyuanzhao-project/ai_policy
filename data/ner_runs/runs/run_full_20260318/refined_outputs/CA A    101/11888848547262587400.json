@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9991450503273588629,
+    "source_group_id": 11888848547262587400,
+    "source_candidate_ids": [
+      292895296380637141
+    ],
+    "entity": "OTSI",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 7629368018357078930,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18196930042970800465,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15503649674066457205,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14021854238522422941,
+        "start": 94842,
+        "end": 94850,
+        "text": "OTSI",
+        "chunk_id": 418117405724883883
+      }
+    ]
+  }
+]

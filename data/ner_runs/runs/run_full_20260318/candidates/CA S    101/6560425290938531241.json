@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2426860304861679165,
+    "entity": "Whole Child Equity Framework",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 16992422413473106831,
+        "start": 1061217,
+        "end": 1061237,
+        "text": "Whole Child Equity Framework",
+        "chunk_id": 6560425290938531241
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 230494538353309562,
+        "start": 1061217,
+        "end": 1061237,
+        "text": "Framework",
+        "chunk_id": 6560425290938531241
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15298466444473436976,
+        "start": 1061217,
+        "end": 1061237,
+        "text": "support",
+        "chunk_id": 6560425290938531241
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3259353541641237312,
+        "start": 1061217,
+        "end": 1061237,
+        "text": "support",
+        "chunk_id": 6560425290938531241
+      }
+    ]
+  },
+  {
+    "candidate_id": 13655210722984115448,
+    "entity": "California Longitudinal Pupil Achievement Data System",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 11527940156516524352,
+        "start": 1061337,
+        "end": 1061367,
+        "text": "California Longitudinal Pupil Achievement Data System",
+        "chunk_id": 6560425290938531241
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11039095814189419164,
+        "start": 1061337,
+        "end": 1061367,
+        "text": "System",
+        "chunk_id": 6560425290938531241
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18126647680437464425,
+        "start": 1061337,
+        "end": 1061367,
+        "text": "support",
+        "chunk_id": 6560425290938531241
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5329666864840959430,
+        "start": 1061337,
+        "end": 1061367,
+        "text": "support",
+        "chunk_id": 6560425290938531241
+      }
+    ]
+  }
+]

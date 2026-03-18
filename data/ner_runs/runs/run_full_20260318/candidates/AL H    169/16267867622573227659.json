@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6640289520416373395,
+    "entity": "Alabama Agricultural and Mechanical University, Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "Pursuant to Knight v. Alabama Final Settlement Agreement.",
+    "entity_evidence": [
+      {
+        "span_id": 12825694863506750020,
+        "start": 117380,
+        "end": 117401,
+        "text": "Pursuant to Knight v. Alabama Final Settlement Agreement.",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12128873685108239652,
+        "start": 117246,
+        "end": 117289,
+        "text": "Alabama Agricultural and Mechanical University, Board of Trustees",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12111492823759913069,
+        "start": 117246,
+        "end": 117289,
+        "text": "Alabama Agricultural and Mechanical University, Board of Trustees",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9819784455932600185,
+        "start": 117246,
+        "end": 117289,
+        "text": "Pursuant to Knight v. Alabama Final Settlement Agreement.",
+        "chunk_id": 16267867622573227659
+      }
+    ]
+  },
+  {
+    "candidate_id": 8599629529850212871,
+    "entity": "Alabama State University, Board of Trustees",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "Pursuant to the Knight v. Alabama Final Settlement Agreement.",
+    "entity_evidence": [
+      {
+        "span_id": 9833739875540109806,
+        "start": 117680,
+        "end": 117701,
+        "text": "Pursuant to the Knight v. Alabama Final Settlement Agreement.",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17743967773203867313,
+        "start": 117680,
+        "end": 117703,
+        "text": "Alabama State University, Board of Trustees",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4659440836256576811,
+        "start": 117680,
+        "end": 117703,
+        "text": "Alabama State University, Board of Trustees",
+        "chunk_id": 16267867622573227659
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17799809726214000484,
+        "start": 117680,
+        "end": 117703,
+        "text": "Pursuant to the Knight v. Alabama Final Settlement Agreement.",
+        "chunk_id": 16267867622573227659
+      }
+    ]
+  }
+]

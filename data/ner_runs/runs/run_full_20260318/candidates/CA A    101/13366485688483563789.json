@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13771749597469537353,
+    "entity": "Office of Environmental Health Hazard Assessment",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to provisions of subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 9045199018716725838,
+        "start": 784804,
+        "end": 784825,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 13366485688483563789
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8939262994833117666,
+        "start": 784804,
+        "end": 784825,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 13366485688483563789
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4122841648343306845,
+        "start": 784804,
+        "end": 784825,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 13366485688483563789
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 276303088605059352,
+        "start": 784804,
+        "end": 784825,
+        "text": "The funds appropriated in this item shall not be subject to the provisions of subdivision (b) of Section 15.14.",
+        "chunk_id": 13366485688483563789
+      }
+    ]
+  },
+  {
+    "candidate_id": 10143709373767230919,
+    "entity": "State Council on Developmental Disabilities",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 16090329669209046086,
+        "start": 785640,
+        "end": 785661,
+        "text": "State Council on Developmental Disabilities",
+        "chunk_id": 13366485688483563789
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12444028092872175637,
+        "start": 785640,
+        "end": 785661,
+        "text": "State Council on Developmental Disabilities",
+        "chunk_id": 13366485688483563789
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8024472467809541935,
+        "start": 785640,
+        "end": 785661,
+        "text": "State Council on Developmental Disabilities",
+        "chunk_id": 13366485688483563789
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14036219503549486896,
+        "start": 785640,
+        "end": 785661,
+        "text": "State Council on Developmental Disabilities",
+        "chunk_id": 13366485688483563789
+      }
+    ]
+  }
+]

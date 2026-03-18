@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13237083417760803133,
+    "source_group_id": 8987992072397830875,
+    "source_candidate_ids": [
+      11794035969034088888
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "exemption",
+    "value": "liability",
+    "entity_evidence": [
+      {
+        "span_id": 5111125058837930409,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7118967763637876990,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12620867415065428046,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2169283469574381785,
+        "start": 5187,
+        "end": 5206,
+        "text": "social media platform",
+        "chunk_id": 17631870715298779581
+      }
+    ]
+  }
+]

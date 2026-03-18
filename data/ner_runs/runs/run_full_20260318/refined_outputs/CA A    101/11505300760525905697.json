@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3988231138014163562,
+    "source_group_id": 11505300760525905697,
+    "source_candidate_ids": [
+      17131246055420939747
+    ],
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "market reference zone",
+    "entity_evidence": [
+      {
+        "span_id": 3127884705508602620,
+        "start": 1316225,
+        "end": 1316242,
+        "text": "ployees designated to be in the Senior Management Group pursuant to existing Regents Policy.",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7053109640927674820,
+        "start": 1316249,
+        "end": 1316259,
+        "text": "Regents",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8020606026916706225,
+        "start": 1316279,
+        "end": 1316289,
+        "text": "use a market reference zone",
+        "chunk_id": 6966646936281618843
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5040151374667110864,
+        "start": 1316279,
+        "end": 1316289,
+        "text": "market reference zone",
+        "chunk_id": 6966646936281618843
+      }
+    ]
+  }
+]

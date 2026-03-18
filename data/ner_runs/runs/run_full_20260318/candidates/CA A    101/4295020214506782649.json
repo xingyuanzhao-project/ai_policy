@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11507343715136955968,
+    "entity": "California State Preschool Program",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "increased workload",
+    "entity_evidence": [
+      {
+        "span_id": 9009515295334295729,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "California State Preschool Program",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15204498748188510496,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "government agency",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7144086284016679026,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "restriction",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7691752525351450055,
+        "start": 1142603,
+        "end": 1142623,
+        "text": "increased workload",
+        "chunk_id": 4295020214506782649
+      }
+    ]
+  },
+  {
+    "candidate_id": 2586897799224727756,
+    "entity": "Universal Transitional Kindergarten",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 14389661822777385935,
+        "start": 1142714,
+        "end": 1142735,
+        "text": "Universal Transitional Kindergarten",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14199936801725366862,
+        "start": 1142714,
+        "end": 1142735,
+        "text": "government program",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10594609264687334116,
+        "start": 1142714,
+        "end": 1142735,
+        "text": "promotion",
+        "chunk_id": 4295020214506782649
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3960786731413813572,
+        "start": 1142714,
+        "end": 1142735,
+        "text": "support",
+        "chunk_id": 4295020214506782649
+      }
+    ]
+  }
+]

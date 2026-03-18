@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1282085511801372714,
+    "entity": "California Regional Water Quality Control Board, Santa Ana Region",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandated costs",
+    "entity_evidence": [
+      {
+        "span_id": 17994274561989688410,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "California Regional Water Quality Control Board, Santa Ana Region",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17307684094658800084,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "government agency",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13695025931713864796,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "restriction",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11632914412643193195,
+        "start": 1672837,
+        "end": 1672857,
+        "text": "mandated costs",
+        "chunk_id": 3749246097714498931
+      }
+    ]
+  },
+  {
+    "candidate_id": 13332227758776624441,
+    "entity": "Department of Motor Vehicles",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 14830676708086691338,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "Department of Motor Vehicles",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 254486017311523241,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "government agency",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11870442438999378815,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "restriction",
+        "chunk_id": 3749246097714498931
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4793065558620705521,
+        "start": 1672948,
+        "end": 1672967,
+        "text": "reimbursement",
+        "chunk_id": 3749246097714498931
+      }
+    ]
+  }
+]

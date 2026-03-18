@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1615532701963099127,
+    "source_group_id": 4592721915465879435,
+    "source_candidate_ids": [
+      6004762609643321059
+    ],
+    "entity": "Whole Child Community Equity Screening Tool",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 3808788548963705368,
+        "start": 1150170,
+        "end": 1150208,
+        "text": "Whole Child Community Equity Screening Tool",
+        "chunk_id": 16314430300357411013
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4280897147147402192,
+        "start": 1150170,
+        "end": 1150208,
+        "text": "technology",
+        "chunk_id": 16314430300357411013
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3105867327917115862,
+        "start": 1150170,
+        "end": 1150208,
+        "text": "promotion",
+        "chunk_id": 16314430300357411013
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12476357521567568129,
+        "start": 1150170,
+        "end": 1150208,
+        "text": "support",
+        "chunk_id": 16314430300357411013
+      }
+    ]
+  }
+]

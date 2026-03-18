@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3824908594650601913,
+    "entity": "Secretary of the Natural Resources Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extension",
+    "entity_evidence": [
+      {
+        "span_id": 6173391828150295680,
+        "start": 104750,
+        "end": 104780,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 15503005301455278409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17635466189963637822,
+        "start": 104750,
+        "end": 104780,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 15503005301455278409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11245378852729381740,
+        "start": 104750,
+        "end": 104780,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 15503005301455278409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18192170001922405536,
+        "start": 104750,
+        "end": 104780,
+        "text": "Secretary of the Natural Resources Agency",
+        "chunk_id": 15503005301455278409
+      }
+    ]
+  },
+  {
+    "candidate_id": 3213617802002633023,
+    "entity": "Office of the Inspector General",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 16813139379596295013,
+        "start": 104861,
+        "end": 104881,
+        "text": "Office of the Inspector General",
+        "chunk_id": 15503005301455278409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4065588299121456422,
+        "start": 104861,
+        "end": 104881,
+        "text": "Office of the Inspector General",
+        "chunk_id": 15503005301455278409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2254401392493823799,
+        "start": 104861,
+        "end": 104881,
+        "text": "Office of the Inspector General",
+        "chunk_id": 15503005301455278409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5054128617834157071,
+        "start": 104861,
+        "end": 104881,
+        "text": "Office of the Inspector General",
+        "chunk_id": 15503005301455278409
+      }
+    ]
+  }
+]

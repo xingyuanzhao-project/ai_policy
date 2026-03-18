@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7799938541906062502,
+    "entity": "Legislative Analyst's Office",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "no regard to fiscal years",
+    "entity_evidence": [
+      {
+        "span_id": 13907793096238421379,
+        "start": 7396,
+        "end": 7420,
+        "text": "Legislative Analyst's Office",
+        "chunk_id": 8857040460068489449
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3421043771495525137,
+        "start": 7396,
+        "end": 7420,
+        "text": "Legislative Analyst's Office",
+        "chunk_id": 8857040460068489449
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16723337864327664888,
+        "start": 7430,
+        "end": 7445,
+        "text": "without regard to fiscal years",
+        "chunk_id": 8857040460068489449
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15706980143096498154,
+        "start": 7430,
+        "end": 7445,
+        "text": "without regard to fiscal years",
+        "chunk_id": 8857040460068489449
+      }
+    ]
+  },
+  {
+    "candidate_id": 16975530744728265787,
+    "entity": "Legislative Counsel Bureau",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "extensive support",
+    "entity_evidence": [
+      {
+        "span_id": 6597506784085737371,
+        "start": 7396,
+        "end": 7420,
+        "text": "Legislative Counsel Bureau",
+        "chunk_id": 8857040460068489449
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13908444862664974745,
+        "start": 7396,
+        "end": 7420,
+        "text": "Legislative Counsel Bureau",
+        "chunk_id": 8857040460068489449
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16584843485654441303,
+        "start": 7396,
+        "end": 7420,
+        "text": "Support",
+        "chunk_id": 8857040460068489449
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18086661666536584046,
+        "start": 7396,
+        "end": 7420,
+        "text": "Support",
+        "chunk_id": 8857040460068489449
+      }
+    ]
+  }
+]

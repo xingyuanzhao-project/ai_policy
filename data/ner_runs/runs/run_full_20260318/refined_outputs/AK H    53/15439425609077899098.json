@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15319602990800384799,
+    "source_group_id": 15439425609077899098,
+    "source_candidate_ids": [
+      10499506609576083578
+    ],
+    "entity": "Alaska Housing Finance Corporation",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "between the Alaska housing finance revolving fund and senior housing revolving fund",
+    "entity_evidence": [
+      {
+        "span_id": 7659424210032886500,
+        "start": 106962,
+        "end": 106980,
+        "text": "Alaska Housing Finance Corporation",
+        "chunk_id": 13616429384678521676
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 184709141875226470,
+        "start": 106962,
+        "end": 106980,
+        "text": "Alaska Housing Finance Corporation",
+        "chunk_id": 13616429384678521676
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11508873101537440073,
+        "start": 106962,
+        "end": 106980,
+        "text": "Alaska Housing Finance Corporation",
+        "chunk_id": 13616429384678521676
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10965593622305987745,
+        "start": 106962,
+        "end": 106980,
+        "text": "Alaska Housing Finance Corporation",
+        "chunk_id": 13616429384678521676
+      }
+    ]
+  }
+]

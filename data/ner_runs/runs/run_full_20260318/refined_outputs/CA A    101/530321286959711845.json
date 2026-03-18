@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16893029675543721801,
+    "source_group_id": 530321286959711845,
+    "source_candidate_ids": [
+      1543146231219752208
+    ],
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "increased based on interest earnings",
+    "entity_evidence": [
+      {
+        "span_id": 10096370368076264235,
+        "start": 1344987,
+        "end": 1345007,
+        "text": "University of California",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4660783675198575711,
+        "start": 1344987,
+        "end": 1345007,
+        "text": "University of California",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9448180857250236073,
+        "start": 1345066,
+        "end": 1345086,
+        "text": "increased based on interest earnings",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9054101304075287213,
+        "start": 1345066,
+        "end": 1345086,
+        "text": "increased based on interest earnings",
+        "chunk_id": 12063120577769491799
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10452380484579840996,
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "available for allocation by the California Transportation Commission",
+    "entity_evidence": [
+      {
+        "span_id": 3221095925884290599,
+        "start": 343853,
+        "end": 343872,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 11719509305103996539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16779054908870560584,
+        "start": 343853,
+        "end": 343872,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 11719509305103996539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17066281743574040303,
+        "start": 343853,
+        "end": 343872,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 11719509305103996539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10647981155900377990,
+        "start": 343853,
+        "end": 343872,
+        "text": "(STIP), payable from the Federal Trust Fund",
+        "chunk_id": 11719509305103996539
+      }
+    ]
+  },
+  {
+    "candidate_id": 235687521178950179,
+    "entity": "State Highway Account, State Transportation Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "expenditures from this item shall be deemed to be expenditures from the State Highway Account, State Transportation Fund",
+    "entity_evidence": [
+      {
+        "span_id": 2187623149114194481,
+        "start": 343853,
+        "end": 343896,
+        "text": "For purposes of the Streets and Highways Code, all expenditures from this item shall be deemed to be expenditures from the State Highway Account, State Transportation Fund.",
+        "chunk_id": 11719509305103996539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8617598183023129852,
+        "start": 343853,
+        "end": 343896,
+        "text": "For purposes of the Streets and Highways Code, all expenditures from this item shall be deemed to be expenditures from the State Highway Account, State Transportation Fund.",
+        "chunk_id": 11719509305103996539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16311805398650629304,
+        "start": 343853,
+        "end": 343896,
+        "text": "For purposes of the Streets and Highways Code, all expenditures from this item shall be deemed to be expenditures from the State Highway Account, State Transportation Fund.",
+        "chunk_id": 11719509305103996539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9061455951113747788,
+        "start": 343853,
+        "end": 343896,
+        "text": "For purposes of the Streets and Highways Code, all expenditures from this item shall be deemed to be expenditures from the State Highway Account, State Transportation Fund.",
+        "chunk_id": 11719509305103996539
+      }
+    ]
+  }
+]

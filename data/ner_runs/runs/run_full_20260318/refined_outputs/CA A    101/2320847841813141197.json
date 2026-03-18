@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8370516957787826137,
+    "source_group_id": 2320847841813141197,
+    "source_candidate_ids": [
+      168575913865078102
+    ],
+    "entity": "Rising Scholars Network",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 15162263218170204625,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14367449280182345153,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4034249468840190542,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11867157780680218141,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ]
+  }
+]

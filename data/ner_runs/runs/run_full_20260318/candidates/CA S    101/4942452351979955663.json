@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5932278818095150345,
+    "entity": "Franchise Tax Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "consistent with authorized budget",
+    "entity_evidence": [
+      {
+        "span_id": 6929791572900066315,
+        "start": 1448382,
+        "end": 1448403,
+        "text": "Franchise Tax Board",
+        "chunk_id": 4942452351979955663
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7749935323676543253,
+        "start": 1448382,
+        "end": 1448403,
+        "text": "Franchise Tax Board",
+        "chunk_id": 4942452351979955663
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7569404666979396238,
+        "start": 1448664,
+        "end": 1448680,
+        "text": "consistent with the board's authorized budget",
+        "chunk_id": 4942452351979955663
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15157915345123440823,
+        "start": 1448664,
+        "end": 1448680,
+        "text": "consistent with the board's authorized budget",
+        "chunk_id": 4942452351979955663
+      }
+    ]
+  },
+  {
+    "candidate_id": 13503191266174752623,
+    "entity": "Franchise Tax Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "without prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 15618929892150022057,
+        "start": 1448382,
+        "end": 1448403,
+        "text": "Franchise Tax Board",
+        "chunk_id": 4942452351979955663
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10106574142555020291,
+        "start": 1448382,
+        "end": 1448403,
+        "text": "Franchise Tax Board",
+        "chunk_id": 4942452351979955663
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 969088133186127211,
+        "start": 1448691,
+        "end": 1448707,
+        "text": "without prior approval",
+        "chunk_id": 4942452351979955663
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10094591223251806622,
+        "start": 1448691,
+        "end": 1448707,
+        "text": "without prior approval",
+        "chunk_id": 4942452351979955663
+      }
+    ]
+  }
+]

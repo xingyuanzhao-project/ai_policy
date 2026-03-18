@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12263996210644490413,
+    "source_group_id": 4283962496639652400,
+    "source_candidate_ids": [
+      16743085220558777803
+    ],
+    "entity": "California Indian Nations College",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "one-time basis",
+    "entity_evidence": [
+      {
+        "span_id": 10158395999181003696,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "California Indian Nations College",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6535606651225197416,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "California Indian Nations College",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8409478831013373133,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "California Indian Nations College",
+        "chunk_id": 17985044891974313152
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4362238902310607902,
+        "start": 1464768,
+        "end": 1464785,
+        "text": "one-time basis",
+        "chunk_id": 17985044891974313152
+      }
+    ]
+  }
+]

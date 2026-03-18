@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3463053563112731672,
+    "source_group_id": 11719044827011518076,
+    "source_candidate_ids": [
+      2208506339865245240
+    ],
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "planning, monitoring, and administration",
+    "entity_evidence": [
+      {
+        "span_id": 14399538706664345173,
+        "start": 567444,
+        "end": 567465,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 13871610595183994636
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11123787375215375812,
+        "start": 567444,
+        "end": 567465,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 13871610595183994636
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9073617254817506416,
+        "start": 567466,
+        "end": 567483,
+        "text": "planning, monitoring, and administration",
+        "chunk_id": 13871610595183994636
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 553192553370483283,
+        "start": 567466,
+        "end": 567483,
+        "text": "planning, monitoring, and administration",
+        "chunk_id": 13871610595183994636
+      }
+    ]
+  }
+]

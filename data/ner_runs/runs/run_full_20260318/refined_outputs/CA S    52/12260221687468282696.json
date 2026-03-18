@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11688456580726533332,
+    "source_group_id": 12260221687468282696,
+    "source_candidate_ids": [
+      6992191843787149565
+    ],
+    "entity": "Multiple listing service",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "nonpublic competitor data",
+    "entity_evidence": [
+      {
+        "span_id": 1087018667733035160,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1619232181322558407,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14799800448767047180,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1640089683911568358,
+        "start": 5458,
+        "end": 5477,
+        "text": "Multiple listing service",
+        "chunk_id": 17108436870168605792
+      }
+    ]
+  }
+]

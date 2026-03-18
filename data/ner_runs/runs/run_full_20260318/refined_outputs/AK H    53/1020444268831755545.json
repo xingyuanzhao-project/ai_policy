@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8461452429982596466,
+    "source_group_id": 1020444268831755545,
+    "source_candidate_ids": [
+      16331565514821140306
+    ],
+    "entity": "Alaska permanent fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "according to AS 37.05.530(g)(1) and (2)",
+    "entity_evidence": [
+      {
+        "span_id": 12519868084672339810,
+        "start": 155576,
+        "end": 155594,
+        "text": "Alaska permanent fund",
+        "chunk_id": 7070533938991492392
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14551860217411116204,
+        "start": 155576,
+        "end": 155594,
+        "text": "Alaska permanent fund",
+        "chunk_id": 7070533938991492392
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6052782169846025494,
+        "start": 155601,
+        "end": 155619,
+        "text": "according to AS 37.05.530(g)(1) and (2)",
+        "chunk_id": 7070533938991492392
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 428419290160654510,
+        "start": 155601,
+        "end": 155619,
+        "text": "according to AS 37.05.530(g)(1) and (2)",
+        "chunk_id": 7070533938991492392
+      }
+    ]
+  }
+]

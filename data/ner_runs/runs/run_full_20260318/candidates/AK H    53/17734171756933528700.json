@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2422656626306181580,
+    "entity": "AlaskaCare employee health plan",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "full actuarial rate",
+    "entity_evidence": [
+      {
+        "span_id": 1601378041697474517,
+        "start": 116499,
+        "end": 116515,
+        "text": "the rate for the employer contribution to the AlaskaCare employee health plan",
+        "chunk_id": 17734171756933528700
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1707682075496800306,
+        "start": 116499,
+        "end": 116515,
+        "text": "the rate for the employer contribution to the AlaskaCare employee health plan",
+        "chunk_id": 17734171756933528700
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7328980777352435542,
+        "start": 116499,
+        "end": 116515,
+        "text": "the rate for the employer contribution to the AlaskaCare employee health plan",
+        "chunk_id": 17734171756933528700
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14171418231534096955,
+        "start": 116499,
+        "end": 116515,
+        "text": "the rate for the employer contribution to the AlaskaCare employee health plan",
+        "chunk_id": 17734171756933528700
+      }
+    ]
+  },
+  {
+    "candidate_id": 11293477478448814111,
+    "entity": "state insurance catastrophe reserve account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "$50,000,000",
+    "entity_evidence": [
+      {
+        "span_id": 9038668625240302801,
+        "start": 116594,
+        "end": 116610,
+        "text": "the state insurance catastrophe reserve account",
+        "chunk_id": 17734171756933528700
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13653394033367363708,
+        "start": 116594,
+        "end": 116610,
+        "text": "the state insurance catastrophe reserve account",
+        "chunk_id": 17734171756933528700
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5242170345457414694,
+        "start": 116594,
+        "end": 116610,
+        "text": "the state insurance catastrophe reserve account",
+        "chunk_id": 17734171756933528700
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5342728591496557600,
+        "start": 116594,
+        "end": 116610,
+        "text": "the state insurance catastrophe reserve account",
+        "chunk_id": 17734171756933528700
+      }
+    ]
+  }
+]

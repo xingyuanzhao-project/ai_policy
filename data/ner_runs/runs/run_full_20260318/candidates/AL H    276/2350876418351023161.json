@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6457535397382967769,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "permanent deletion",
+    "entity_evidence": [
+      {
+        "span_id": 17506460030822613051,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1024972054726779618,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6751229385463393425,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1967073825994559507,
+        "start": 2453,
+        "end": 2463,
+        "text": "Permanently delete all personal information",
+        "chunk_id": 2350876418351023161
+      }
+    ]
+  },
+  {
+    "candidate_id": 1673060032278453658,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "all",
+    "entity_evidence": [
+      {
+        "span_id": 23233284471822836,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14857677247853947469,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3696097350817710678,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15017322582419202627,
+        "start": 2753,
+        "end": 2763,
+        "text": "A social media platform shall prohibit",
+        "chunk_id": 2350876418351023161
+      }
+    ]
+  }
+]

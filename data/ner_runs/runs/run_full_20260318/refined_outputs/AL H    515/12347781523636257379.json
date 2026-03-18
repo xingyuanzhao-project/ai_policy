@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11835579028284745672,
+    "source_group_id": 12347781523636257379,
+    "source_candidate_ids": [
+      9902683314453712852
+    ],
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "consistent with HIPAA",
+    "entity_evidence": [
+      {
+        "span_id": 2431883903956421881,
+        "start": 4609,
+        "end": 4626,
+        "text": "artificial intelligence",
+        "chunk_id": 10827207015562593398
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8308436148273041902,
+        "start": 4609,
+        "end": 4626,
+        "text": "artificial intelligence",
+        "chunk_id": 10827207015562593398
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5291964383022386246,
+        "start": 4609,
+        "end": 4626,
+        "text": "artificial intelligence",
+        "chunk_id": 10827207015562593398
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7629597000156324039,
+        "start": 4609,
+        "end": 4626,
+        "text": "artificial intelligence",
+        "chunk_id": 10827207015562593398
+      }
+    ]
+  }
+]

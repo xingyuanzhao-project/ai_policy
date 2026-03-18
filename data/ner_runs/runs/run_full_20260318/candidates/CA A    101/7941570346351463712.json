@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6954716626605628020,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conform the appropriation to revised revenue estimates",
+    "entity_evidence": [
+      {
+        "span_id": 16003351209587068605,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6983137589491959019,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15241028285336487843,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8316745190521295423,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ]
+  },
+  {
+    "candidate_id": 9307136823896611661,
+    "entity": "California Healthcare, Research and Prevention Tobacco Tax Act of 2016 (Proposition 56)",
+    "type": "legislation",
+    "attribute": "promotion",
+    "value": "implementation of Proposition 56 payments",
+    "entity_evidence": [
+      {
+        "span_id": 6251169351678995512,
+        "start": 833300,
+        "end": 833320,
+        "text": "California Healthcare, Research and Prevention Tobacco Tax Act of 2016 (Proposition 56)",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1468603232283894259,
+        "start": 833300,
+        "end": 833320,
+        "text": "California Healthcare, Research and Prevention Tobacco Tax Act of 2016 (Proposition 56)",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7017818337033946668,
+        "start": 833300,
+        "end": 833320,
+        "text": "California Healthcare, Research and Prevention Tobacco Tax Act of 2016 (Proposition 56)",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15201865094950175276,
+        "start": 833300,
+        "end": 833320,
+        "text": "California Healthcare, Research and Prevention Tobacco Tax Act of 2016 (Proposition 56)",
+        "chunk_id": 7941570346351463712
+      }
+    ]
+  }
+]

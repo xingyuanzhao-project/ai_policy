@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1702001970109249424,
+    "source_group_id": 6326784652195829974,
+    "source_candidate_ids": [
+      7349338398136107505
+    ],
+    "entity": "Secretary of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 11003209623259458222,
+        "start": 87328,
+        "end": 87349,
+        "text": "Secretary of Transportation",
+        "chunk_id": 8219789907196113708
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12774246187222306412,
+        "start": 87328,
+        "end": 87349,
+        "text": "government agency",
+        "chunk_id": 8219789907196113708
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15107007324054382206,
+        "start": 87349,
+        "end": 87360,
+        "text": "restriction",
+        "chunk_id": 8219789907196113708
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6877440471849736222,
+        "start": 87360,
+        "end": 87368,
+        "text": "prior approval",
+        "chunk_id": 8219789907196113708
+      }
+    ]
+  }
+]

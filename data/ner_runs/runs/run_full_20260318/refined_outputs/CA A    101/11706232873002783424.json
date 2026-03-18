@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11629266633418361266,
+    "source_group_id": 11706232873002783424,
+    "source_candidate_ids": [
+      13713146841594787424
+    ],
+    "entity": "Office of the President of the University of California",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "regularly",
+    "entity_evidence": [
+      {
+        "span_id": 3882367150707055408,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 646240314598502551,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1403696537351456195,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13109958988844137742,
+        "start": 1327247,
+        "end": 1327284,
+        "text": "Office of the President of the University of California",
+        "chunk_id": 2527957246855076458
+      }
+    ]
+  }
+]

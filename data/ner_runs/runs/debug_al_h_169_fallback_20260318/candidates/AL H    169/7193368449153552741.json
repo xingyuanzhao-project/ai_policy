@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12179631878142094072,
+    "entity": "National Board for Professional Teaching Standards",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "certification",
+    "entity_evidence": [
+      {
+        "span_id": 10725031665594837,
+        "start": 70402,
+        "end": 70422,
+        "text": "National Board for Professional",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9266220985903762497,
+        "start": 70402,
+        "end": 70406,
+        "text": "Board",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11416328895447765113,
+        "start": 70407,
+        "end": 70411,
+        "text": "for",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4222239752012619487,
+        "start": 70412,
+        "end": 70418,
+        "text": "Professional",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  },
+  {
+    "candidate_id": 3515011502330160525,
+    "entity": "Teacher Education Preparation Program",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "eligibility",
+    "entity_evidence": [
+      {
+        "span_id": 5961802139887002993,
+        "start": 70516,
+        "end": 70536,
+        "text": "Teacher Education Preparation Program",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14725108405081222373,
+        "start": 70516,
+        "end": 70526,
+        "text": "Education",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2789605811601947622,
+        "start": 70527,
+        "end": 70531,
+        "text": "Preparation",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15391869375065345416,
+        "start": 70532,
+        "end": 70538,
+        "text": "Program",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13338179646517631662,
+    "source_group_id": 7913583188470347447,
+    "source_candidate_ids": [
+      11091424436164105096
+    ],
+    "entity": "healthcare provider",
+    "type": "government regulation",
+    "attribute": "restriction",
+    "value": "limited disclosure",
+    "entity_evidence": [
+      {
+        "span_id": 12753982224204412687,
+        "start": 2648,
+        "end": 2661,
+        "text": "healthcare provider",
+        "chunk_id": 3709959092857330457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2130454641388601702,
+        "start": 2648,
+        "end": 2661,
+        "text": "healthcare provider",
+        "chunk_id": 3709959092857330457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12918952386129867280,
+        "start": 2648,
+        "end": 2661,
+        "text": "healthcare provider",
+        "chunk_id": 3709959092857330457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8798096668752911380,
+        "start": 2648,
+        "end": 2661,
+        "text": "healthcare provider",
+        "chunk_id": 3709959092857330457
+      }
+    ]
+  }
+]

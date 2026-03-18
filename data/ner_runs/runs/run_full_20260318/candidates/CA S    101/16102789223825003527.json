@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16997756918727230800,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "extension",
+    "value": "until June 30, 2031",
+    "entity_evidence": [
+      {
+        "span_id": 10019114115253668163,
+        "start": 455673,
+        "end": 455710,
+        "text": "State Energy Resources Conservation and Development Commission",
+        "chunk_id": 16102789223825003527
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17174008479849712581,
+        "start": 455673,
+        "end": 455710,
+        "text": "government agency",
+        "chunk_id": 16102789223825003527
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17997111103608783131,
+        "start": 455673,
+        "end": 455710,
+        "text": "extension",
+        "chunk_id": 16102789223825003527
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2500419187107058628,
+        "start": 455673,
+        "end": 455710,
+        "text": "until June 30, 2031",
+        "chunk_id": 16102789223825003527
+      }
+    ]
+  },
+  {
+    "candidate_id": 17265570559648244755,
+    "entity": "Alternative and Renewable Fuel and Vehicle Technology Fund",
+    "type": "infrastructure",
+    "attribute": "extension",
+    "value": "until June 30, 2031",
+    "entity_evidence": [
+      {
+        "span_id": 9945563617317441125,
+        "start": 455337,
+        "end": 455380,
+        "text": "Alternative and Renewable Fuel and Vehicle Technology Fund",
+        "chunk_id": 16102789223825003527
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11470150557163573236,
+        "start": 455337,
+        "end": 455380,
+        "text": "infrastructure",
+        "chunk_id": 16102789223825003527
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6565623990583162614,
+        "start": 455337,
+        "end": 455380,
+        "text": "extension",
+        "chunk_id": 16102789223825003527
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15656439720723480376,
+        "start": 455337,
+        "end": 455380,
+        "text": "until June 30, 2031",
+        "chunk_id": 16102789223825003527
+      }
+    ]
+  }
+]

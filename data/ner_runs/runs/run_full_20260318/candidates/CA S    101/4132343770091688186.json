@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10682109186381853527,
+    "entity": "community college district",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "spend at least $1 from local or other resources for every $2 received",
+    "entity_evidence": [
+      {
+        "span_id": 1296682443510915832,
+        "start": 1321232,
+        "end": 1321253,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 4132343770091688186
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9918019575477177099,
+        "start": 1321232,
+        "end": 1321253,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 4132343770091688186
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2388953412121303206,
+        "start": 1321232,
+        "end": 1321253,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 4132343770091688186
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 820482710172999829,
+        "start": 1321232,
+        "end": 1321253,
+        "text": "the district is required to spend at least $1 from local or other resources for every $2 received",
+        "chunk_id": 4132343770091688186
+      }
+    ]
+  },
+  {
+    "candidate_id": 1513862651383755647,
+    "entity": "chancellor",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "provide regional and online workshops and trainings to community college personnel",
+    "entity_evidence": [
+      {
+        "span_id": 12238424174832326525,
+        "start": 1321120,
+        "end": 1321127,
+        "text": "the chancellor may be used by the chancellor to provide regional and online workshops and trainings",
+        "chunk_id": 4132343770091688186
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14472405192854357558,
+        "start": 1321120,
+        "end": 1321127,
+        "text": "the chancellor may be used by the chancellor to provide regional and online workshops and trainings",
+        "chunk_id": 4132343770091688186
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9829350087984770811,
+        "start": 1321120,
+        "end": 1321127,
+        "text": "the chancellor may be used by the chancellor to provide regional and online workshops and trainings",
+        "chunk_id": 4132343770091688186
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16810480380304980911,
+        "start": 1321120,
+        "end": 1321127,
+        "text": "the chancellor may be used by the chancellor to provide regional and online workshops and trainings",
+        "chunk_id": 4132343770091688186
+      }
+    ]
+  }
+]

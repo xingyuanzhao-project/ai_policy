@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15205939879466174302,
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from review or approval of any division of the Department of General Services",
+    "entity_evidence": [
+      {
+        "span_id": 11636310576492164988,
+        "start": 830678,
+        "end": 830697,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6672954407270747411,
+        "start": 830678,
+        "end": 830697,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8641602581587803971,
+        "start": 830678,
+        "end": 830697,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14017677691406272545,
+        "start": 830678,
+        "end": 830697,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 15815535340517228807
+      }
+    ]
+  },
+  {
+    "candidate_id": 1622001366031860485,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from review or approval",
+    "entity_evidence": [
+      {
+        "span_id": 181194490155766678,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17470720266690519907,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13118933484303924134,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16423019867403386779,
+        "start": 830678,
+        "end": 830697,
+        "text": "Department of General Services",
+        "chunk_id": 15815535340517228807
+      }
+    ]
+  }
+]

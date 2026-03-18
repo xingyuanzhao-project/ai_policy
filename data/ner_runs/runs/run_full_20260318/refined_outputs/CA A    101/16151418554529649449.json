@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17968164442320359089,
+    "source_group_id": 16151418554529649449,
+    "source_candidate_ids": [
+      5345468607249410586
+    ],
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "transfer",
+    "entity_evidence": [
+      {
+        "span_id": 6014619876342629809,
+        "start": 926762,
+        "end": 926796,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 6371560791795929446
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4430224639326962199,
+        "start": 926762,
+        "end": 926796,
+        "text": "infrastructure",
+        "chunk_id": 6371560791795929446
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3890789283106384940,
+        "start": 926762,
+        "end": 926796,
+        "text": "regulation",
+        "chunk_id": 6371560791795929446
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6018223924029800145,
+        "start": 926762,
+        "end": 926796,
+        "text": "transfer",
+        "chunk_id": 6371560791795929446
+      }
+    ]
+  }
+]

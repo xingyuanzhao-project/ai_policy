@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11699377872709644240,
+    "entity": "Alternative and Renewable Fuel and Vehicle Technology Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 15549032607528600677,
+        "start": 481618,
+        "end": 481648,
+        "text": "Alternative and Renewable Fuel and Vehicle Technology Fund",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9462158003562843790,
+        "start": 481618,
+        "end": 481648,
+        "text": "infrastructure",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3728258639236084758,
+        "start": 481618,
+        "end": 481648,
+        "text": "promotion",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11153103657272600035,
+        "start": 481618,
+        "end": 481648,
+        "text": "extended",
+        "chunk_id": 10765443375870463480
+      }
+    ]
+  },
+  {
+    "candidate_id": 5917290059858224706,
+    "entity": "Electric Program Investment Charge Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 6066681401545026273,
+        "start": 481628,
+        "end": 481658,
+        "text": "Electric Program Investment Charge Fund",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10169571743403851376,
+        "start": 481628,
+        "end": 481658,
+        "text": "infrastructure",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4508677491751708516,
+        "start": 481628,
+        "end": 481658,
+        "text": "promotion",
+        "chunk_id": 10765443375870463480
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4021635973268055956,
+        "start": 481628,
+        "end": 481658,
+        "text": "extended",
+        "chunk_id": 10765443375870463480
+      }
+    ]
+  }
+]

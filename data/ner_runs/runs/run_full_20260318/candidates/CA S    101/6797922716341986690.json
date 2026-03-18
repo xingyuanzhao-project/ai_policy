@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4211058726201645139,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual reporting",
+    "entity_evidence": [
+      {
+        "span_id": 1498951457076649862,
+        "start": 1260781,
+        "end": 1260797,
+        "text": "The report shall include, but not be limited to, the following:",
+        "chunk_id": 6797922716341986690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1388298011352655722,
+        "start": 1260781,
+        "end": 1260797,
+        "text": "The report shall include, but not be limited to, the following:",
+        "chunk_id": 6797922716341986690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17887564988150622476,
+        "start": 1260781,
+        "end": 1260797,
+        "text": "The report shall include, but not be limited to, the following:",
+        "chunk_id": 6797922716341986690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14603795620831836181,
+        "start": 1260781,
+        "end": 1260797,
+        "text": "The report shall include, but not be limited to, the following:",
+        "chunk_id": 6797922716341986690
+      }
+    ]
+  },
+  {
+    "candidate_id": 3380765453750138215,
+    "entity": "Project Rebound",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "annual reporting",
+    "entity_evidence": [
+      {
+        "span_id": 6577340989640897125,
+        "start": 1260877,
+        "end": 1260889,
+        "text": "A description of educational and support services each Project Rebound campus provides to students and potential students.",
+        "chunk_id": 6797922716341986690
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11460608258158511433,
+        "start": 1260877,
+        "end": 1260889,
+        "text": "A description of educational and support services each Project Rebound campus provides to students and potential students.",
+        "chunk_id": 6797922716341986690
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17434483958011245562,
+        "start": 1260877,
+        "end": 1260889,
+        "text": "A description of educational and support services each Project Rebound campus provides to students and potential students.",
+        "chunk_id": 6797922716341986690
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13525811812190257727,
+        "start": 1260877,
+        "end": 1260889,
+        "text": "A description of educational and support services each Project Rebound campus provides to students and potential students.",
+        "chunk_id": 6797922716341986690
+      }
+    ]
+  }
+]

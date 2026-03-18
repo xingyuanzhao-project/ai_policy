@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8381636366080292565,
+    "entity": "State Parks and Recreation Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 16068303033006791299,
+        "start": 560016,
+        "end": 560036,
+        "text": "0392--State Parks and Recreation Fund",
+        "chunk_id": 5483564465708532074
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7522081337042694802,
+        "start": 560016,
+        "end": 560036,
+        "text": "infrastructure",
+        "chunk_id": 5483564465708532074
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7146294279673652561,
+        "start": 560016,
+        "end": 560036,
+        "text": "restriction",
+        "chunk_id": 5483564465708532074
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3417428934798987854,
+        "start": 560016,
+        "end": 560036,
+        "text": "until June 30, 2028",
+        "chunk_id": 5483564465708532074
+      }
+    ]
+  },
+  {
+    "candidate_id": 7129839687568635696,
+    "entity": "Budget Act of 2021",
+    "type": "legislation",
+    "attribute": "prohibition",
+    "value": "as reappropriated by Item 3790-491, Budget Act of 2022",
+    "entity_evidence": [
+      {
+        "span_id": 8565649019088833927,
+        "start": 560038,
+        "end": 560058,
+        "text": "Item 3790-301-0263, Budget Act of 2021",
+        "chunk_id": 5483564465708532074
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2506477726808653996,
+        "start": 560038,
+        "end": 560058,
+        "text": "legislation",
+        "chunk_id": 5483564465708532074
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14612308056930997086,
+        "start": 560038,
+        "end": 560058,
+        "text": "prohibition",
+        "chunk_id": 5483564465708532074
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16308725371230361682,
+        "start": 560038,
+        "end": 560058,
+        "text": "as reappropriated by Item 3790-491, Budget Act of 2022",
+        "chunk_id": 5483564465708532074
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6823661982735337110,
+    "source_group_id": 18337095905327234085,
+    "source_candidate_ids": [
+      2693447159622773296
+    ],
+    "entity": "Board of Administration of the Public Employees' Retirement System",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "submission of budget",
+    "entity_evidence": [
+      {
+        "span_id": 17689866824262582757,
+        "start": 1585395,
+        "end": 1585425,
+        "text": "Board of Administration of the Public Employees' Retirement System",
+        "chunk_id": 8912191892984748185
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7179890186990105638,
+        "start": 1585395,
+        "end": 1585425,
+        "text": "government agency",
+        "chunk_id": 8912191892984748185
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3652224174529817525,
+        "start": 1585395,
+        "end": 1585425,
+        "text": "regulation",
+        "chunk_id": 8912191892984748185
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15399676847398621354,
+        "start": 1585395,
+        "end": 1585425,
+        "text": "submission of budget",
+        "chunk_id": 8912191892984748185
+      }
+    ]
+  }
+]

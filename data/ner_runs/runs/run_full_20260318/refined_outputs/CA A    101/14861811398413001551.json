@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17103742923335231299,
+    "source_group_id": 14861811398413001551,
+    "source_candidate_ids": [
+      357115502529684633
+    ],
+    "entity": "Alternative and Renewable Fuel and Vehicle Technology Fund",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 11312751121340991506,
+        "start": 486264,
+        "end": 486294,
+        "text": "Alternative and Renewable Fuel and Vehicle Technology Fund",
+        "chunk_id": 15984887411787214470
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18444926083978077483,
+        "start": 486264,
+        "end": 486294,
+        "text": "technology",
+        "chunk_id": 15984887411787214470
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4289772628585249769,
+        "start": 486264,
+        "end": 486294,
+        "text": "restriction",
+        "chunk_id": 15984887411787214470
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2633737970796272741,
+        "start": 486264,
+        "end": 486294,
+        "text": "extended",
+        "chunk_id": 15984887411787214470
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18050861810498302390,
+    "source_group_id": 8370510879072329163,
+    "source_candidate_ids": [
+      14520389748403201027
+    ],
+    "entity": "California Community College system",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "expansion",
+    "entity_evidence": [
+      {
+        "span_id": 2973720272144637403,
+        "start": 1456834,
+        "end": 1456865,
+        "text": "California Community College system",
+        "chunk_id": 12285009213367649075
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16075973521101550705,
+        "start": 1456834,
+        "end": 1456865,
+        "text": "infrastructure",
+        "chunk_id": 12285009213367649075
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15456088434941468688,
+        "start": 1456834,
+        "end": 1456865,
+        "text": "promotion",
+        "chunk_id": 12285009213367649075
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10290768209844033665,
+        "start": 1456834,
+        "end": 1456865,
+        "text": "expansion",
+        "chunk_id": 12285009213367649075
+      }
+    ]
+  }
+]

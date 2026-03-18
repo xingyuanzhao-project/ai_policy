@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 15643893119192500545,
+    "source_group_id": 7123497178713707293,
+    "source_candidate_ids": [
+      10139821233424791368,
+      1175426131613844089
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "encouragement",
+    "entity_evidence": [
+      {
+        "span_id": 5193925901510336198,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "State Department of Education",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6747782472773438759,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "government agency",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15082652090029916972,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "promotion",
+        "chunk_id": 4760079699272446216
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15907708423176974844,
+        "start": 1194830,
+        "end": 1194852,
+        "text": "encouragement",
+        "chunk_id": 4760079699272446216
+      }
+    ]
+  }
+]

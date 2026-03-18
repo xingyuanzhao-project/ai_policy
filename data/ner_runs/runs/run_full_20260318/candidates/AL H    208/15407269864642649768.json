@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5803984805278809525,
+    "entity": "Alabama Supercomputer Authority",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "coordination",
+    "entity_evidence": [
+      {
+        "span_id": 14871972614228222126,
+        "start": 166,
+        "end": 184,
+        "text": "the Boards of Directors of the Alabama Supercomputer Authority",
+        "chunk_id": 15407269864642649768
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14034642430683355299,
+        "start": 166,
+        "end": 184,
+        "text": "the Boards of Directors of the Alabama Supercomputer Authority",
+        "chunk_id": 15407269864642649768
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5256357737175154255,
+        "start": 166,
+        "end": 184,
+        "text": "the Boards of Directors of the Alabama Supercomputer Authority",
+        "chunk_id": 15407269864642649768
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12493937235001051714,
+        "start": 166,
+        "end": 184,
+        "text": "the Boards of Directors of the Alabama Supercomputer Authority",
+        "chunk_id": 15407269864642649768
+      }
+    ]
+  },
+  {
+    "candidate_id": 3868236317002414536,
+    "entity": "state agencies",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "avoiding duplication",
+    "entity_evidence": [
+      {
+        "span_id": 8269906474151062694,
+        "start": 245,
+        "end": 253,
+        "text": "state agencies",
+        "chunk_id": 15407269864642649768
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10894179447008354091,
+        "start": 245,
+        "end": 253,
+        "text": "state agencies",
+        "chunk_id": 15407269864642649768
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8024174653790403851,
+        "start": 245,
+        "end": 253,
+        "text": "state agencies",
+        "chunk_id": 15407269864642649768
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15524818133971931843,
+        "start": 245,
+        "end": 253,
+        "text": "state agencies",
+        "chunk_id": 15407269864642649768
+      }
+    ]
+  }
+]

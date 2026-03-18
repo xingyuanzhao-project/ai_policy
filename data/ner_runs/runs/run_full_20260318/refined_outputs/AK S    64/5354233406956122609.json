@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 287889905179736914,
+    "source_group_id": 5354233406956122609,
+    "source_candidate_ids": [
+      14681417551766143564
+    ],
+    "entity": "electioneering communication",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "specific criteria",
+    "entity_evidence": [
+      {
+        "span_id": 16286569356201110219,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17895519199034056838,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15144051302554673877,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6253104970265282789,
+        "start": 53751,
+        "end": 53771,
+        "text": "electioneering communication",
+        "chunk_id": 16698168790921608818
+      }
+    ]
+  }
+]

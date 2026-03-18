@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8369410143569381232,
+    "source_group_id": 9950341827822048123,
+    "source_candidate_ids": [
+      14771865483665654877
+    ],
+    "entity": "utilization review agent",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "time period",
+    "entity_evidence": [
+      {
+        "span_id": 5577429546804510171,
+        "start": 10354,
+        "end": 10373,
+        "text": "s received by the utilization review agent",
+        "chunk_id": 16760838643750585653
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18045922583812739990,
+        "start": 10374,
+        "end": 10385,
+        "text": "utilization review agent",
+        "chunk_id": 16760838643750585653
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7754567918172760150,
+        "start": 10386,
+        "end": 10397,
+        "text": "required for a nonurgent care request under subdivision (1)",
+        "chunk_id": 16760838643750585653
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16298308343677508474,
+        "start": 10398,
+        "end": 10405,
+        "text": "applicable time period",
+        "chunk_id": 16760838643750585653
+      }
+    ]
+  }
+]

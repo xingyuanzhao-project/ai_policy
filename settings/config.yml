@@ -1,6 +1,8 @@
 # AI Definition Extraction Pipeline Configuration
 
 # Data paths (relative to project root)
+# NER runtime reads `input_path` so it can use the real JSONL corpus directly.
+input_path: data/ncsl/us_ai_legislation_ncsl_text.jsonl
 input_csv: data/ncsl/us_ai_legislation_ncsl_text.csv
 output_csv: data/ncsl/ai_definitions_extracted.csv
 

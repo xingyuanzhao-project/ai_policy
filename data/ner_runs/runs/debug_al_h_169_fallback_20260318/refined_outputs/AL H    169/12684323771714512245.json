@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7153596206882357946,
+    "source_group_id": 12684323771714512245,
+    "source_candidate_ids": [
+      12179631878142094072
+    ],
+    "entity": "National Board for Professional Teaching Standards",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "certification",
+    "entity_evidence": [
+      {
+        "span_id": 18445463001473472535,
+        "start": 70402,
+        "end": 70422,
+        "text": "National Board for Professional",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5545018684430022748,
+        "start": 70402,
+        "end": 70406,
+        "text": "Board",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1322880750009317582,
+        "start": 70407,
+        "end": 70411,
+        "text": "for",
+        "chunk_id": 7193368449153552741
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5635962582060722647,
+        "start": 70412,
+        "end": 70418,
+        "text": "Professional",
+        "chunk_id": 7193368449153552741
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15192136905506345315,
+    "source_group_id": 2562522244262577150,
+    "source_candidate_ids": [
+      14273545419477011602
+    ],
+    "entity": "Exide Technologies",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 15253687201292877766,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4023894668392235083,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10194582244001746979,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9171289938467452801,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ]
+  }
+]

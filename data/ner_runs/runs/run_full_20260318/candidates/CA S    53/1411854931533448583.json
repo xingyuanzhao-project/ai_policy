@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13563081161103539565,
+    "entity": "Frontier AI framework",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "clearly and conspicuously published",
+    "entity_evidence": [
+      {
+        "span_id": 10466011563230659637,
+        "start": 7261,
+        "end": 7280,
+        "text": "Frontier AI framework",
+        "chunk_id": 1411854931533448583
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6806518859562077393,
+        "start": 7261,
+        "end": 7280,
+        "text": "Frontier AI framework",
+        "chunk_id": 1411854931533448583
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8994100592636520973,
+        "start": 7280,
+        "end": 7300,
+        "text": "write, implement, comply with, and clearly and conspicuously publish",
+        "chunk_id": 1411854931533448583
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4933633237859456402,
+        "start": 7280,
+        "end": 7300,
+        "text": "clearly and conspicuously publish",
+        "chunk_id": 1411854931533448583
+      }
+    ]
+  },
+  {
+    "candidate_id": 9299689644062427384,
+    "entity": "Frontier developer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "annual gross revenues in excess of five hundred million dollars",
+    "entity_evidence": [
+      {
+        "span_id": 14417031029463696152,
+        "start": 7286,
+        "end": 7300,
+        "text": "Frontier developer",
+        "chunk_id": 1411854931533448583
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4448060158806111067,
+        "start": 7286,
+        "end": 7300,
+        "text": "Frontier developer",
+        "chunk_id": 1411854931533448583
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3151075677360492090,
+        "start": 7300,
+        "end": 7321,
+        "text": "annual gross revenues in excess of five hundred million dollars",
+        "chunk_id": 1411854931533448583
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4173619947292294262,
+        "start": 7300,
+        "end": 7321,
+        "text": "annual gross revenues in excess of five hundred million dollars",
+        "chunk_id": 1411854931533448583
+      }
+    ]
+  }
+]

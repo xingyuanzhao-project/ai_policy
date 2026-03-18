@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4187230964696515807,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "modest expansion",
+    "entity_evidence": [
+      {
+        "span_id": 1927820880902683008,
+        "start": 59541,
+        "end": 59559,
+        "text": "The State Department will recommend a pathway for schools in Cohort 1 to exit this program, and the Department will recommend new schools to replace those exiting the program in subsequent years.",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13968972313157532266,
+        "start": 59541,
+        "end": 59559,
+        "text": "The State Department will recommend a pathway for schools in Cohort 1 to exit this program, and the Department will recommend new schools to replace those exiting the program in subsequent years.",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1022773781260408958,
+        "start": 59541,
+        "end": 59559,
+        "text": "The State Department will recommend a pathway for schools in Cohort 1 to exit this program, and the Department will recommend new schools to replace those exiting the program in subsequent years.",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11061065220000864640,
+        "start": 59541,
+        "end": 59559,
+        "text": "The State Department will recommend a pathway for schools in Cohort 1 to exit this program, and the Department will recommend new schools to replace those exiting the program in subsequent years.",
+        "chunk_id": 16171204849904079816
+      }
+    ]
+  },
+  {
+    "candidate_id": 3361259301483113180,
+    "entity": "Alabama Accountability Act",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8705205175352220032,
+        "start": 59730,
+        "end": 59749,
+        "text": "the provisions of the Alabama Accountability Act, the State Report Card System, and other criteria as determined by the State Superintendent.",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6433763904930051834,
+        "start": 59730,
+        "end": 59749,
+        "text": "the provisions of the Alabama Accountability Act, the State Report Card System, and other criteria as determined by the State Superintendent.",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11392607068603230856,
+        "start": 59730,
+        "end": 59749,
+        "text": "the provisions of the Alabama Accountability Act, the State Report Card System, and other criteria as determined by the State Superintendent.",
+        "chunk_id": 16171204849904079816
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6455419123413430169,
+        "start": 59730,
+        "end": 59749,
+        "text": "the provisions of the Alabama Accountability Act, the State Report Card System, and other criteria as determined by the State Superintendent.",
+        "chunk_id": 16171204849904079816
+      }
+    ]
+  }
+]

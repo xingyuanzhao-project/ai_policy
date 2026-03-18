@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13583933037370017906,
+    "entity": "Superintendent of Public Instruction",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12255547665888908288,
+        "start": 1140001,
+        "end": 1140032,
+        "text": "the only funds available for allocation by the Superintendent of Public Instruction",
+        "chunk_id": 214399711146501669
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9901220913622214695,
+        "start": 1140001,
+        "end": 1140032,
+        "text": "the only funds available for allocation by the Superintendent of Public Instruction",
+        "chunk_id": 214399711146501669
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14983059889329137854,
+        "start": 1140001,
+        "end": 1140032,
+        "text": "the only funds available for allocation by the Superintendent of Public Instruction",
+        "chunk_id": 214399711146501669
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7707336345857640770,
+        "start": 1140001,
+        "end": 1140032,
+        "text": "the only funds available for allocation by the Superintendent of Public Instruction",
+        "chunk_id": 214399711146501669
+      }
+    ]
+  },
+  {
+    "candidate_id": 13434756992951510803,
+    "entity": "LEA",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2718636931845429818,
+        "start": 1140001,
+        "end": 1140004,
+        "text": "Funding distributed to each LEA",
+        "chunk_id": 214399711146501669
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4717430291538446795,
+        "start": 1140001,
+        "end": 1140004,
+        "text": "Funding distributed to each LEA",
+        "chunk_id": 214399711146501669
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9065489631312649454,
+        "start": 1140001,
+        "end": 1140004,
+        "text": "Funding distributed to each LEA",
+        "chunk_id": 214399711146501669
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6639823731059185639,
+        "start": 1140001,
+        "end": 1140004,
+        "text": "Funding distributed to each LEA",
+        "chunk_id": 214399711146501669
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7732675283180396141,
+    "source_group_id": 7370885494172968264,
+    "source_candidate_ids": [
+      8396962001329956687
+    ],
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "favorable terms",
+    "entity_evidence": [
+      {
+        "span_id": 18027285272657884557,
+        "start": 842840,
+        "end": 842865,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14302304465318262005,
+        "start": 842866,
+        "end": 842881,
+        "text": "agency",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9192257808144863967,
+        "start": 842882,
+        "end": 842890,
+        "text": "promotion",
+        "chunk_id": 5827690985346064495
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11031994527540830374,
+        "start": 842891,
+        "end": 842902,
+        "text": "favorable terms",
+        "chunk_id": 5827690985346064495
+      }
+    ]
+  }
+]

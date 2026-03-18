@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12643131163977491445,
+    "source_group_id": 1472791091894621725,
+    "source_candidate_ids": [
+      7991195950495465294
+    ],
+    "entity": "county employees",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "commensurate with or greater than",
+    "entity_evidence": [
+      {
+        "span_id": 17276719378891063077,
+        "start": 34027,
+        "end": 34040,
+        "text": "county employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3941435252576595992,
+        "start": 34027,
+        "end": 34040,
+        "text": "county employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 161725972481539599,
+        "start": 34027,
+        "end": 34040,
+        "text": "county employees",
+        "chunk_id": 16615335377797394897
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18007928947516513072,
+        "start": 34027,
+        "end": 34040,
+        "text": "commensurate with or greater than",
+        "chunk_id": 16615335377797394897
+      }
+    ]
+  }
+]

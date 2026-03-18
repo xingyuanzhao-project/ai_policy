@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11347640601802465282,
+    "source_group_id": 10025003010961149215,
+    "source_candidate_ids": [
+      14346687459293750732
+    ],
+    "entity": "consumer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "reasonable",
+    "entity_evidence": [
+      {
+        "span_id": 5376519265855928663,
+        "start": 33373,
+        "end": 33379,
+        "text": "consumer",
+        "chunk_id": 6929143388314078337
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 193389512256872377,
+        "start": 33373,
+        "end": 33379,
+        "text": "consumer",
+        "chunk_id": 6929143388314078337
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15523414837734246377,
+        "start": 33373,
+        "end": 33379,
+        "text": "consumer",
+        "chunk_id": 6929143388314078337
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 827005546842875964,
+        "start": 33373,
+        "end": 33379,
+        "text": "consumer",
+        "chunk_id": 6929143388314078337
+      }
+    ]
+  }
+]

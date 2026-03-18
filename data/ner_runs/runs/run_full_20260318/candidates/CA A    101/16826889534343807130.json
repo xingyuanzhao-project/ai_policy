@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9329065660135233497,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "minimize duplication of effort",
+    "entity_evidence": [
+      {
+        "span_id": 9140450503946370487,
+        "start": 1212053,
+        "end": 1212074,
+        "text": "State Department of Education",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13035620153315791740,
+        "start": 1212053,
+        "end": 1212074,
+        "text": "State Department of Education",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15753195811316644626,
+        "start": 1212053,
+        "end": 1212074,
+        "text": "State Department of Education",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14127367673930855784,
+        "start": 1212053,
+        "end": 1212074,
+        "text": "State Department of Education",
+        "chunk_id": 16826889534343807130
+      }
+    ]
+  },
+  {
+    "candidate_id": 3352638086989710148,
+    "entity": "local educational agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reduce mandate reimbursement claims",
+    "entity_evidence": [
+      {
+        "span_id": 15420313393944741804,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6767764103464101401,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15290073559272234504,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17163383518679805394,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ]
+  }
+]

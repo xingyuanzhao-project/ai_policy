@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15609445650654190084,
+    "source_group_id": 4504729613632325486,
+    "source_candidate_ids": [
+      11029223885638885368
+    ],
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 4128589277915680453,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8163601376816700965,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6778128891361481890,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12641555686957488821,
+        "start": 398920,
+        "end": 398948,
+        "text": "Reappropriation, Department of Transportation",
+        "chunk_id": 3650483764383738455
+      }
+    ]
+  }
+]

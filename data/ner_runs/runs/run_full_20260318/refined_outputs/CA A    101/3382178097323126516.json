@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6171125603680592581,
+    "source_group_id": 3382178097323126516,
+    "source_candidate_ids": [
+      2835838580422361176
+    ],
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "in lieu of the amounts that otherwise would have been appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 10759583738414284971,
+        "start": 1487099,
+        "end": 1487119,
+        "text": "Employment Development Department",
+        "chunk_id": 5427992481214345262
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9298911957720781024,
+        "start": 1487099,
+        "end": 1487119,
+        "text": "Employment Development Department",
+        "chunk_id": 5427992481214345262
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15522343452809163690,
+        "start": 1487099,
+        "end": 1487119,
+        "text": "Employment Development Department",
+        "chunk_id": 5427992481214345262
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5735291075622549542,
+        "start": 1487099,
+        "end": 1487119,
+        "text": "Employment Development Department",
+        "chunk_id": 5427992481214345262
+      }
+    ]
+  }
+]

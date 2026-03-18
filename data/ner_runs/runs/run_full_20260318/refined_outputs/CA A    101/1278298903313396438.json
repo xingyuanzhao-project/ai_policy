@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6331531403000097892,
+    "source_group_id": 1278298903313396438,
+    "source_candidate_ids": [
+      13939944591980533102
+    ],
+    "entity": "CARE Act Accountability Fund",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 2011378589600754914,
+        "start": 865171,
+        "end": 865171,
+        "text": "CARE Act Accountability Fund",
+        "chunk_id": 7010684363203182500
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13210094581225915491,
+        "start": 865171,
+        "end": 865171,
+        "text": "technology",
+        "chunk_id": 7010684363203182500
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2875728466372056664,
+        "start": 865171,
+        "end": 865171,
+        "text": "promotion",
+        "chunk_id": 7010684363203182500
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10884669832366051488,
+        "start": 865171,
+        "end": 865171,
+        "text": "significant",
+        "chunk_id": 7010684363203182500
+      }
+    ]
+  }
+]

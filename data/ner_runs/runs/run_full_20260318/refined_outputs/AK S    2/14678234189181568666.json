@@ -1,0 +1,51 @@
+[
+  {
+    "refined_id": 6956842986592105743,
+    "source_group_id": 14678234189181568666,
+    "source_candidate_ids": [
+      8504460523678313959,
+      6860275470948439378,
+      13805572193729513411
+    ],
+    "entity": "State Agency",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2028798983233675272,
+        "start": 2320,
+        "end": 2332,
+        "text": "State Agency",
+        "chunk_id": 13762414639010596283
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9114786757607587665,
+        "start": 2333,
+        "end": 2344,
+        "text": "Government Agency",
+        "chunk_id": 13762414639010596283
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1434436370356696694,
+        "start": 2345,
+        "end": 2352,
+        "text": "restriction",
+        "chunk_id": 13762414639010596283
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12857462349562273261,
+        "start": 2353,
+        "end": 2363,
+        "text": "extremely restrictive",
+        "chunk_id": 13762414639010596283
+      }
+    ]
+  }
+]

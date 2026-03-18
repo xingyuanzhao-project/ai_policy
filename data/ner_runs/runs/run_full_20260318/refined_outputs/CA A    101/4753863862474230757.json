@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11348960878218399126,
+    "source_group_id": 4753863862474230757,
+    "source_candidate_ids": [
+      6618433637560688575
+    ],
+    "entity": "California Senior Legislature",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 6883550906789430917,
+        "start": 822171,
+        "end": 822205,
+        "text": "California Senior Legislature",
+        "chunk_id": 9852373264135392328
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1196840351133893537,
+        "start": 822171,
+        "end": 822205,
+        "text": "California Senior Legislature",
+        "chunk_id": 9852373264135392328
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12948215397930586359,
+        "start": 821240,
+        "end": 821246,
+        "text": "expenditures from the California Senior Citizen Advocacy Voluntary Tax Contribution Fund for the California Senior Legislature in excess of the amount appropriated not sooner than 30 days",
+        "chunk_id": 9852373264135392328
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4033960867467522921,
+        "start": 821240,
+        "end": 821246,
+        "text": "30 days",
+        "chunk_id": 9852373264135392328
+      }
+    ]
+  }
+]

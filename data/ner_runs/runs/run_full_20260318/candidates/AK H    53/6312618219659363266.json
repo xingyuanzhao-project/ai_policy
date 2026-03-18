@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11256530717000633530,
+    "entity": "Exxon Valdez Oil Spill Trust--",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "0",
+    "entity_evidence": [
+      {
+        "span_id": 13335353580410919093,
+        "start": 79810,
+        "end": 79820,
+        "text": "Exxon Valdez Oil Spill Trust--",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2820811831582303998,
+        "start": 79810,
+        "end": 79820,
+        "text": "Exxon Valdez Oil Spill Trust--",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12386753638325914519,
+        "start": 79810,
+        "end": 79820,
+        "text": "Exxon Valdez Oil Spill Trust--",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8314877134571101393,
+        "start": 79810,
+        "end": 79820,
+        "text": "Exxon Valdez Oil Spill Trust--",
+        "chunk_id": 6312618219659363266
+      }
+    ]
+  },
+  {
+    "candidate_id": 3458017281512849757,
+    "entity": "Public Employees Retirement",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "0",
+    "entity_evidence": [
+      {
+        "span_id": 3567110398963636335,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14131784702710264634,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2143657904055069270,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 632665466677798024,
+        "start": 79821,
+        "end": 79831,
+        "text": "Public Employees Retirement",
+        "chunk_id": 6312618219659363266
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+model,arena_elo_rating,95_CI_upper,95_CI_lower
+Pixtral-Large-2411,1159,1169,1148
+Claude 3.5 Sonnet (20241022),1183,1189,1176
+Claude 3.5 Sonnet (20240620),1189,1194,1185
+Gemini-1.5-Flash-002,1205,1212,1199
+GPT-4o-2024-05-13,1206,1212,1202
+Gemini-1.5-Pro-002,1221,1227,1215
+ChatGPT-4o-latest (2024-11-20),1227,1234,1220
+Gemini-Exp-1206,1239,1250,1226
+Gemini-2.0-Flash-Exp,1257,1268,1246
+Gemini-2.0-Flash-Thinking-Exp-1219,1271,1285,1254

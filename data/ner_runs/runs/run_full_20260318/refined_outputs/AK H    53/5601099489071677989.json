@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3884418617211649414,
+    "source_group_id": 5601099489071677989,
+    "source_candidate_ids": [
+      4042233962817026412
+    ],
+    "entity": "Department of Administration",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7354108539713876200,
+        "start": 89751,
+        "end": 89773,
+        "text": "Department of Administration",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16263063772551751950,
+        "start": 89751,
+        "end": 89773,
+        "text": "government agency",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11095748598983078515,
+        "start": 89751,
+        "end": 89773,
+        "text": "restriction",
+        "chunk_id": 9508356619298453552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14136338983498435596,
+        "start": 89751,
+        "end": 89773,
+        "text": "limited",
+        "chunk_id": 9508356619298453552
+      }
+    ]
+  }
+]

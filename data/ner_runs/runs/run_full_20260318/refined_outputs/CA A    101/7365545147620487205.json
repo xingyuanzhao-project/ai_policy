@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7218130496458299911,
+    "source_group_id": 7365545147620487205,
+    "source_candidate_ids": [
+      4830589151005029334
+    ],
+    "entity": "State-Local Partnership Program Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 6958379347677625968,
+        "start": 406687,
+        "end": 406718,
+        "text": "State-Local Partnership Program Account",
+        "chunk_id": 13025535042466113465
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6750729909197718171,
+        "start": 406687,
+        "end": 406718,
+        "text": "infrastructure",
+        "chunk_id": 13025535042466113465
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10429963904810503400,
+        "start": 406687,
+        "end": 406718,
+        "text": "promotion",
+        "chunk_id": 13025535042466113465
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2380806042034046291,
+        "start": 406687,
+        "end": 406718,
+        "text": "moderate",
+        "chunk_id": 13025535042466113465
+      }
+    ]
+  }
+]

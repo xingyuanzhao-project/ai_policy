@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6884268971298861496,
+    "source_group_id": 5354270585390945649,
+    "source_candidate_ids": [
+      10932335762031871530
+    ],
+    "entity": "California State University Annuitants",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 13037850030200767942,
+        "start": 1373900,
+        "end": 1373920,
+        "text": "Health Benefits for California State University Annuitants",
+        "chunk_id": 10664360252032148047
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9623089392511750651,
+        "start": 1373900,
+        "end": 1373920,
+        "text": "Health Benefits for California State University Annuitants",
+        "chunk_id": 10664360252032148047
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15547651455180025297,
+        "start": 1373900,
+        "end": 1373920,
+        "text": "Health Benefits for California State University Annuitants",
+        "chunk_id": 10664360252032148047
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5485539175107116752,
+        "start": 1373900,
+        "end": 1373920,
+        "text": "Health Benefits for California State University Annuitants",
+        "chunk_id": 10664360252032148047
+      }
+    ]
+  }
+]

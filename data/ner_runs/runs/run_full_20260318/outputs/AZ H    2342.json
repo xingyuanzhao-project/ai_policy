@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 6621769873601686331,
+    "source_group_id": 11705557666629340556,
+    "source_candidate_ids": [
+      8844981957974053784,
+      870758893880763525
+    ],
+    "entity": "blockchain technology",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "state preemption",
+    "entity_evidence": [
+      {
+        "span_id": 12056723723364106089,
+        "start": 134,
+        "end": 155,
+        "text": "running a node on blockchain technology",
+        "chunk_id": 9894427971481533669
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1032242922895130050,
+        "start": 134,
+        "end": 155,
+        "text": "running a node on blockchain technology",
+        "chunk_id": 9894427971481533669
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11527657146756553546,
+        "start": 134,
+        "end": 155,
+        "text": "running a node on blockchain technology",
+        "chunk_id": 9894427971481533669
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1999612365030822713,
+        "start": 134,
+        "end": 155,
+        "text": "running a node on blockchain technology",
+        "chunk_id": 9894427971481533669
+      }
+    ]
+  }
+]

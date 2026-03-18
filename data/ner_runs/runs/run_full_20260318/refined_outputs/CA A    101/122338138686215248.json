@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10104509617451386519,
+    "source_group_id": 122338138686215248,
+    "source_candidate_ids": [
+      16838065285298014431
+    ],
+    "entity": "Mandated Cost Reimbursement Program",
+    "type": "program",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 17780481298852617520,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7374934638390154506,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9538193037353837196,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4764185553196271588,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ]
+  }
+]

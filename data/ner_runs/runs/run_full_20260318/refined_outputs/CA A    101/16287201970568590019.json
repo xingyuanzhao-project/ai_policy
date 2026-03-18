@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5107557643133387211,
+    "source_group_id": 16287201970568590019,
+    "source_candidate_ids": [
+      9360871603424862502
+    ],
+    "entity": "Murphy Conservatee",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "defined in subparagraph (B) of paragraph (1) of subdivision (h) of Section 5008 of the Welfare and Institutions Code",
+    "entity_evidence": [
+      {
+        "span_id": 7912356506733069300,
+        "start": 959860,
+        "end": 959879,
+        "text": "Murphy Conservatee",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12291346142075482004,
+        "start": 959880,
+        "end": 959885,
+        "text": "infrastructure",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4172175406131606064,
+        "start": 959886,
+        "end": 959894,
+        "text": "restriction",
+        "chunk_id": 4206388562550913653
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17469722936371163275,
+        "start": 959895,
+        "end": 959994,
+        "text": "defined in subparagraph (B) of paragraph (1) of subdivision (h) of Section 5008 of the Welfare and Institutions Code",
+        "chunk_id": 4206388562550913653
+      }
+    ]
+  }
+]

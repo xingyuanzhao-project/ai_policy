@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18062574114779432575,
+    "source_group_id": 14818902979069050028,
+    "source_candidate_ids": [
+      6260702234011093928
+    ],
+    "entity": "Medi-Cal",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "maximum",
+    "entity_evidence": [
+      {
+        "span_id": 4820572967878454815,
+        "start": 1093250,
+        "end": 1093250,
+        "text": "Medi-Cal",
+        "chunk_id": 1895968787453435892
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1195622671414689450,
+        "start": 1093250,
+        "end": 1093250,
+        "text": "Medi-Cal",
+        "chunk_id": 1895968787453435892
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6391971371028085307,
+        "start": 1093250,
+        "end": 1093250,
+        "text": "Medi-Cal",
+        "chunk_id": 1895968787453435892
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15496637612235980503,
+        "start": 1093250,
+        "end": 1093250,
+        "text": "Medi-Cal",
+        "chunk_id": 1895968787453435892
+      }
+    ]
+  }
+]

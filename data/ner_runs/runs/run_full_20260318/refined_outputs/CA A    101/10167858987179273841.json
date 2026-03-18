@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7949007114650250769,
+    "source_group_id": 10167858987179273841,
+    "source_candidate_ids": [
+      1076490548262796517
+    ],
+    "entity": "Office of Environmental Health Hazard Assessment",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 17880653255445105777,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9983731839239588330,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8586666523351776042,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7299870930263166891,
+        "start": 782151,
+        "end": 782187,
+        "text": "Office of Environmental Health Hazard Assessment",
+        "chunk_id": 3068863983861219634
+      }
+    ]
+  }
+]

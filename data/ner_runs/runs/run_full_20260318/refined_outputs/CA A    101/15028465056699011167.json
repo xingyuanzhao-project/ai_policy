@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14611119937403541512,
+    "source_group_id": 15028465056699011167,
+    "source_candidate_ids": [
+      7742814382532635662
+    ],
+    "entity": "Quality Rating and Improvement System grants",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "Quality Rating and Improvement System grants",
+    "entity_evidence": [
+      {
+        "span_id": 9944327592587503479,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "Quality Rating and Improvement System grants",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16735498638899951849,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "Quality Rating and Improvement System grants",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9084359362514517707,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "provided to",
+        "chunk_id": 6160085505821080626
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16956979326810814597,
+        "start": 1268142,
+        "end": 1268163,
+        "text": "Quality Rating and Improvement System grants",
+        "chunk_id": 6160085505821080626
+      }
+    ]
+  }
+]

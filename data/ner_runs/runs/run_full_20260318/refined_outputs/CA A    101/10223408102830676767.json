@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8509750608602362052,
+    "source_group_id": 10223408102830676767,
+    "source_candidate_ids": [
+      5165760064294846796
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on allocation of funds",
+    "entity_evidence": [
+      {
+        "span_id": 11128486337159323423,
+        "start": 1722817,
+        "end": 1722837,
+        "text": "Director of Finance",
+        "chunk_id": 8887610952512842162
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13440749159829240033,
+        "start": 1722817,
+        "end": 1722837,
+        "text": "Director of Finance",
+        "chunk_id": 8887610952512842162
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9616078472370754451,
+        "start": 1722817,
+        "end": 1722837,
+        "text": "Director of Finance",
+        "chunk_id": 8887610952512842162
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4967465281772085212,
+        "start": 1722817,
+        "end": 1722837,
+        "text": "Director of Finance",
+        "chunk_id": 8887610952512842162
+      }
+    ]
+  }
+]

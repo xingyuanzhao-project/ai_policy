@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3780430148559741852,
+    "entity": "Student Aid Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "issuance of new warrants",
+    "entity_evidence": [
+      {
+        "span_id": 2702912886510596954,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13297101925253114803,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6335516960842814683,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11618907892715822854,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ]
+  },
+  {
+    "candidate_id": 17926018183502399147,
+    "entity": "Cal Grant A award recipients",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "maximum access award of $6,000",
+    "entity_evidence": [
+      {
+        "span_id": 18357868552557274732,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7055145783785120690,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5471992350168504505,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12175727864446231843,
+        "start": 1467177,
+        "end": 1467197,
+        "text": "All Cal Grant A award recipients",
+        "chunk_id": 6218749445805185272
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9743995100034855729,
+    "source_group_id": 17152386709440945771,
+    "source_candidate_ids": [
+      13983265123963512093
+    ],
+    "entity": "Platform Holly oil platform",
+    "type": "infrastructure",
+    "attribute": "prohibition",
+    "value": "decommissioning",
+    "entity_evidence": [
+      {
+        "span_id": 11683888066517828915,
+        "start": 547377,
+        "end": 547396,
+        "text": "Platform Holly oil platform",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1988708646136631530,
+        "start": 547377,
+        "end": 547396,
+        "text": "Platform Holly oil platform",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16903026409401126079,
+        "start": 547398,
+        "end": 547416,
+        "text": "for the decommissioning",
+        "chunk_id": 10346105644153598921
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9433592667903929000,
+        "start": 547398,
+        "end": 547416,
+        "text": "for the decommissioning",
+        "chunk_id": 10346105644153598921
+      }
+    ]
+  }
+]

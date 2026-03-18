@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15591689440257853305,
+    "source_group_id": 5312476781060119244,
+    "source_candidate_ids": [
+      13044556851425255451
+    ],
+    "entity": "state departments",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "negative expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 17180073328183862135,
+        "start": 1790992,
+        "end": 1791000,
+        "text": "offset expenditures paid or to be paid from other funding sources",
+        "chunk_id": 5442039864553018100
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13506514993201848141,
+        "start": 1790992,
+        "end": 1791000,
+        "text": "state departments",
+        "chunk_id": 5442039864553018100
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12685360782694697021,
+        "start": 1790992,
+        "end": 1791000,
+        "text": "may be used to offset expenditures paid or to be paid from other funding sources",
+        "chunk_id": 5442039864553018100
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4399532370012462784,
+        "start": 1790992,
+        "end": 1791000,
+        "text": "negative expenditure",
+        "chunk_id": 5442039864553018100
+      }
+    ]
+  }
+]

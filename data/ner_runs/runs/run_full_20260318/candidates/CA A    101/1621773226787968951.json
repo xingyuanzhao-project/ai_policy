@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5373632374761245979,
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportional to need",
+    "entity_evidence": [
+      {
+        "span_id": 18082498838207870736,
+        "start": 1019420,
+        "end": 1019441,
+        "text": "State Department of Social Services",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6669790678616493122,
+        "start": 1019420,
+        "end": 1019441,
+        "text": "State Department of Social Services",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17764837954320837349,
+        "start": 1019420,
+        "end": 1019441,
+        "text": "State Department of Social Services",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5105820492077175182,
+        "start": 1019420,
+        "end": 1019441,
+        "text": "State Department of Social Services",
+        "chunk_id": 1621773226787968951
+      }
+    ]
+  },
+  {
+    "candidate_id": 5940557253848479439,
+    "entity": "General Child Care program (CCTR) funds",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "delay in the receipt of reimbursements",
+    "entity_evidence": [
+      {
+        "span_id": 7172858218559502788,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 953820620920229907,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15531685026411956213,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5153346904275265071,
+        "start": 1019594,
+        "end": 1019619,
+        "text": "General Child Care program (CCTR) funds",
+        "chunk_id": 1621773226787968951
+      }
+    ]
+  }
+]

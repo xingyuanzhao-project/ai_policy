@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14854221829878304583,
+    "source_group_id": 9234034620908920354,
+    "source_candidate_ids": [
+      14085312136192796059
+    ],
+    "entity": "PERS",
+    "type": "government agency",
+    "attribute": "submission",
+    "value": "quarterly reports",
+    "entity_evidence": [
+      {
+        "span_id": 6367011823499992413,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2556716985997382480,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7792880239993551264,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4518599661520197351,
+        "start": 1590347,
+        "end": 1590353,
+        "text": "PERS",
+        "chunk_id": 6026895266240647745
+      }
+    ]
+  }
+]

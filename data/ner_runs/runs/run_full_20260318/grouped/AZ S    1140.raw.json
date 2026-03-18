@@ -1,0 +1,3 @@
+{
+  "raw_response": "{ \n  \"groups\": [\n    {\n      \"candidate_ids\": [6164672821856298017, 5689027400444892799],\n      \"field_score_matrix\": [\n        [0.8, 0.9, 0.7, 0.6],\n        [0.4, 0.3, 0.2, 0.1]\n      ]\n    },\n    {\n      \"candidate_ids\": [3567076051989196047],\n      \"field_score_matrix\": [\n        [0.9, 0.8, 0.7, 0.6]\n      ]\n    }\n  ]\n}"
+}

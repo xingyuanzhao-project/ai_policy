@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1684027826134681685,
+    "source_group_id": 2587286445107232847,
+    "source_candidate_ids": [
+      648058571236247641
+    ],
+    "entity": "Public Contracts",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 503347331819245411,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10165961404853553656,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8942204596589620051,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2733947881942079073,
+        "start": 1281071,
+        "end": 1281083,
+        "text": "Public Contracts",
+        "chunk_id": 5577258445808670338
+      }
+    ]
+  }
+]

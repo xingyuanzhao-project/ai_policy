@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10955439251140186827,
+    "entity": "classified workers",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "adequate notice",
+    "entity_evidence": [
+      {
+        "span_id": 6452491378917985615,
+        "start": 4594,
+        "end": 4607,
+        "text": "classified workers",
+        "chunk_id": 5150877336264912144
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13828024144051067867,
+        "start": 4594,
+        "end": 4607,
+        "text": "individual",
+        "chunk_id": 5150877336264912144
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9769398661045361155,
+        "start": 4594,
+        "end": 4607,
+        "text": "restriction",
+        "chunk_id": 5150877336264912144
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11263741195681325938,
+        "start": 4594,
+        "end": 4607,
+        "text": "adequate notice",
+        "chunk_id": 5150877336264912144
+      }
+    ]
+  },
+  {
+    "candidate_id": 13295639590602636221,
+    "entity": "classified workers",
+    "type": "individual",
+    "attribute": "protection",
+    "value": "from retaliation",
+    "entity_evidence": [
+      {
+        "span_id": 1147119338675152439,
+        "start": 4594,
+        "end": 4607,
+        "text": "classified workers",
+        "chunk_id": 5150877336264912144
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11685787856638882507,
+        "start": 4594,
+        "end": 4607,
+        "text": "individual",
+        "chunk_id": 5150877336264912144
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14205881718027149227,
+        "start": 4594,
+        "end": 4607,
+        "text": "protection",
+        "chunk_id": 5150877336264912144
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3310040594678129754,
+        "start": 4594,
+        "end": 4607,
+        "text": "from retaliation",
+        "chunk_id": 5150877336264912144
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9520453781203191162,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "establishment",
+    "value": "monies collected pursuant to section 12-116.01 and monies available from any other source",
+    "entity_evidence": [
+      {
+        "span_id": 10776335510409603101,
+        "start": 0,
+        "end": 34,
+        "text": "The SHERIFFS' criminal justice enhancement fund is established",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4173399150402209850,
+        "start": 34,
+        "end": 41,
+        "text": "SHERIFFS",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 756172212215136500,
+        "start": 0,
+        "end": 34,
+        "text": "established",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7200607581863412130,
+        "start": 35,
+        "end": 69,
+        "text": "monies collected pursuant to section 12-116.01 and monies available from any other source",
+        "chunk_id": 12368809445786842746
+      }
+    ]
+  },
+  {
+    "candidate_id": 4202922050946262289,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "reporting",
+    "value": "in a form prescribed by the Arizona SHERIFFS' criminal justice commission",
+    "entity_evidence": [
+      {
+        "span_id": 15512405778013154620,
+        "start": 0,
+        "end": 34,
+        "text": "The report shall be in a form prescribed by the Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16830315147011322938,
+        "start": 0,
+        "end": 34,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15036018043508402778,
+        "start": 0,
+        "end": 34,
+        "text": "prescribed by",
+        "chunk_id": 12368809445786842746
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4498384118127981335,
+        "start": 35,
+        "end": 69,
+        "text": "in a form prescribed by the Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 12368809445786842746
+      }
+    ]
+  }
+]

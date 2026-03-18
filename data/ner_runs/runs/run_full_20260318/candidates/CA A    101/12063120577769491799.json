@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1543146231219752208,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "increased based on interest earnings",
+    "entity_evidence": [
+      {
+        "span_id": 14977356912784173778,
+        "start": 1344987,
+        "end": 1345007,
+        "text": "University of California",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2730351412158905437,
+        "start": 1344987,
+        "end": 1345007,
+        "text": "University of California",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3559449340797569802,
+        "start": 1345066,
+        "end": 1345086,
+        "text": "increased based on interest earnings",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4709668562441369888,
+        "start": 1345066,
+        "end": 1345086,
+        "text": "increased based on interest earnings",
+        "chunk_id": 12063120577769491799
+      }
+    ]
+  },
+  {
+    "candidate_id": 16463128670067951696,
+    "entity": "Public Building Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "payable from",
+    "entity_evidence": [
+      {
+        "span_id": 17419707801345711509,
+        "start": 1345038,
+        "end": 1345058,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18085018295166070988,
+        "start": 1345038,
+        "end": 1345058,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4176254629607443813,
+        "start": 1345064,
+        "end": 1345084,
+        "text": "payable from",
+        "chunk_id": 12063120577769491799
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11054336819646933625,
+        "start": 1345064,
+        "end": 1345084,
+        "text": "payable from",
+        "chunk_id": 12063120577769491799
+      }
+    ]
+  }
+]

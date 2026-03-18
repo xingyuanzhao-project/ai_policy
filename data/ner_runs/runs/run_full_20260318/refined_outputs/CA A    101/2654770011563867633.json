@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15535426251656563758,
+    "source_group_id": 2654770011563867633,
+    "source_candidate_ids": [
+      12610429258387732269
+    ],
+    "entity": "Public Employees' Retirement System (PERS)",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "sufficient detail",
+    "entity_evidence": [
+      {
+        "span_id": 9704378122740408298,
+        "start": 1592869,
+        "end": 1592898,
+        "text": "Public Employees' Retirement System (PERS)",
+        "chunk_id": 16948636868942894776
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14455806619295646696,
+        "start": 1592869,
+        "end": 1592898,
+        "text": "government agency",
+        "chunk_id": 16948636868942894776
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12321818567608279058,
+        "start": 1592869,
+        "end": 1592898,
+        "text": "restriction",
+        "chunk_id": 16948636868942894776
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15313599771986965457,
+        "start": 1592869,
+        "end": 1592898,
+        "text": "sufficient detail",
+        "chunk_id": 16948636868942894776
+      }
+    ]
+  }
+]

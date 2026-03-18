@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17559841980175834857,
+    "entity": "California Department of Managed Health Care",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 2749268435226005269,
+        "start": 725530,
+        "end": 725550,
+        "text": "Reappropriation, Department of Managed Health Care",
+        "chunk_id": 17460343702161005786
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13567925512668036291,
+        "start": 725530,
+        "end": 725550,
+        "text": "Reappropriation, Department of Managed Health Care",
+        "chunk_id": 17460343702161005786
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8802356462822470420,
+        "start": 725530,
+        "end": 725550,
+        "text": "Reappropriation, Department of Managed Health Care",
+        "chunk_id": 17460343702161005786
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17870905584036685372,
+        "start": 725530,
+        "end": 725550,
+        "text": "Reappropriation, Department of Managed Health Care",
+        "chunk_id": 17460343702161005786
+      }
+    ]
+  },
+  {
+    "candidate_id": 13486706160702620013,
+    "entity": "California Department of Aging",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "increase",
+    "entity_evidence": [
+      {
+        "span_id": 6882158606828620655,
+        "start": 725532,
+        "end": 725554,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 17460343702161005786
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8949881809590238094,
+        "start": 725532,
+        "end": 725554,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 17460343702161005786
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15650748641426487456,
+        "start": 725532,
+        "end": 725554,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 17460343702161005786
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8257156217904323308,
+        "start": 725532,
+        "end": 725554,
+        "text": "For support of California Department of Aging",
+        "chunk_id": 17460343702161005786
+      }
+    ]
+  }
+]

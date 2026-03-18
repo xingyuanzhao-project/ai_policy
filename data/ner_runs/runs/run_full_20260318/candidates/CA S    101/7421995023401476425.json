@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3311010610212997036,
+    "entity": "Electric Program Investment Charge Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extended to June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 4376675315049319224,
+        "start": 453242,
+        "end": 453276,
+        "text": "Electric Program Investment Charge Fund",
+        "chunk_id": 7421995023401476425
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5664366361366222912,
+        "start": 453242,
+        "end": 453276,
+        "text": "Electric Program Investment Charge Fund",
+        "chunk_id": 7421995023401476425
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5640430113514024649,
+        "start": 453277,
+        "end": 453288,
+        "text": "extended to June 30, 2026",
+        "chunk_id": 7421995023401476425
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13526974193329713218,
+        "start": 453277,
+        "end": 453288,
+        "text": "extended to June 30, 2026",
+        "chunk_id": 7421995023401476425
+      }
+    ]
+  },
+  {
+    "candidate_id": 13748482619037517382,
+    "entity": "Budget Act of 2016",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "reappropriated by Item 3360-492, Budget Act of 2023",
+    "entity_evidence": [
+      {
+        "span_id": 4329395958501326248,
+        "start": 453277,
+        "end": 453293,
+        "text": "Budget Act of 2016",
+        "chunk_id": 7421995023401476425
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6640865307486998646,
+        "start": 453277,
+        "end": 453293,
+        "text": "Budget Act of 2016",
+        "chunk_id": 7421995023401476425
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16688114124545233772,
+        "start": 453294,
+        "end": 453309,
+        "text": "reappropriated by Item 3360-492, Budget Act of 2023",
+        "chunk_id": 7421995023401476425
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8391538956781298135,
+        "start": 453294,
+        "end": 453309,
+        "text": "reappropriated by Item 3360-492, Budget Act of 2023",
+        "chunk_id": 7421995023401476425
+      }
+    ]
+  }
+]

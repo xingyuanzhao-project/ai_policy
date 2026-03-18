@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 6659885906426921876,
+    "source_group_id": 4400385758940624117,
+    "source_candidate_ids": [
+      3392976113473256142,
+      6154649818950164145
+    ],
+    "entity": "California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 13505188719421348521,
+        "start": 0,
+        "end": 9,
+        "text": "The people of the State of California",
+        "chunk_id": 11548140457000055278
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14135510357648792268,
+        "start": 10,
+        "end": 21,
+        "text": "government agency",
+        "chunk_id": 11548140457000055278
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6936311234646785706,
+        "start": 22,
+        "end": 29,
+        "text": "restriction",
+        "chunk_id": 11548140457000055278
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10117759557476631637,
+        "start": 30,
+        "end": 37,
+        "text": "moderate",
+        "chunk_id": 11548140457000055278
+      }
+    ]
+  }
+]

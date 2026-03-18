@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5277667323446163950,
+    "entity": "Digital forgery",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 7724207860798028301,
+        "start": 0,
+        "end": 15,
+        "text": "Digital forgery",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15926623924559822456,
+        "start": 0,
+        "end": 15,
+        "text": "technology",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18077680979552634820,
+        "start": 0,
+        "end": 15,
+        "text": "restriction",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1372182624366240593,
+        "start": 0,
+        "end": 15,
+        "text": "extremely restrictive",
+        "chunk_id": 7137513107217400135
+      }
+    ]
+  },
+  {
+    "candidate_id": 3142565661111478956,
+    "entity": "Intimate visual depiction",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 677652297896835178,
+        "start": 0,
+        "end": 20,
+        "text": "Intimate visual depiction",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9772506250601855394,
+        "start": 0,
+        "end": 20,
+        "text": "technology",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9286030820393852595,
+        "start": 0,
+        "end": 20,
+        "text": "restriction",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12521633161682052893,
+        "start": 0,
+        "end": 20,
+        "text": "extremely restrictive",
+        "chunk_id": 7137513107217400135
+      }
+    ]
+  }
+]

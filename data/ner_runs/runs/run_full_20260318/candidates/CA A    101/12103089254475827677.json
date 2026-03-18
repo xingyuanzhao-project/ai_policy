@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6002451537402380657,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to approval of the Department of Finance in its discretion",
+    "entity_evidence": [
+      {
+        "span_id": 7268282093419669085,
+        "start": 1718067,
+        "end": 1718086,
+        "text": "expenditure by the Department of Justice",
+        "chunk_id": 12103089254475827677
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6142442873503682969,
+        "start": 1718067,
+        "end": 1718086,
+        "text": "expenditure by the Department of Justice",
+        "chunk_id": 12103089254475827677
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5976280112320937286,
+        "start": 1718067,
+        "end": 1718086,
+        "text": "expenditure by the Department of Justice",
+        "chunk_id": 12103089254475827677
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7588110358912230116,
+        "start": 1718067,
+        "end": 1718086,
+        "text": "expenditure by the Department of Justice",
+        "chunk_id": 12103089254475827677
+      }
+    ]
+  },
+  {
+    "candidate_id": 3128988644345117778,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "in its discretion",
+    "entity_evidence": [
+      {
+        "span_id": 6326493303913223675,
+        "start": 1718067,
+        "end": 1718082,
+        "text": "approval of the Department of Finance",
+        "chunk_id": 12103089254475827677
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12093438023998778006,
+        "start": 1718067,
+        "end": 1718082,
+        "text": "approval of the Department of Finance",
+        "chunk_id": 12103089254475827677
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15990744578754724401,
+        "start": 1718067,
+        "end": 1718082,
+        "text": "approval of the Department of Finance",
+        "chunk_id": 12103089254475827677
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3974712556288713992,
+        "start": 1718067,
+        "end": 1718082,
+        "text": "approval of the Department of Finance",
+        "chunk_id": 12103089254475827677
+      }
+    ]
+  }
+]

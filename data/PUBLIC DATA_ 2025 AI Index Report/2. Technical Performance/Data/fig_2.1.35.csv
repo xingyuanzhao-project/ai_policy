@@ -1,0 +1,23 @@
+year,benchmark,task,best_model_type,best_model_score,metric_name
+2024,MMLU,General language,open,88.6,mean_accuracy_perc
+2024,MMLU,General language,closed,92.3,mean_accuracy_perc
+2023,MMLU,General language,open,70.6,mean_accuracy_perc
+2023,MMLU,General language,closed,86.5,mean_accuracy_perc
+2022,MMLU,General language,open,55.7,mean_accuracy_perc
+2022,MMLU,General language,closed,74.1,mean_accuracy_perc
+2024,MMMU,General reasoning,open,70.3,overall_accuracy
+2024,MMMU,General reasoning,closed,78.2,overall_accuracy
+2023,MMMU,General reasoning,open,45.9,overall_accuracy
+2023,MMMU,General reasoning,closed,59.4,overall_accuracy
+2024,MATH,Mathematical reasoning,open,88.1,accuracy
+2024,MATH,Mathematical reasoning,closed,89.7,accuracy
+2023,MATH,Mathematical reasoning,open,60,accuracy
+2023,MATH,Mathematical reasoning,closed,84.3,accuracy
+2022,MATH,Mathematical reasoning,open,20.4,accuracy
+2022,MATH,Mathematical reasoning,closed,64.9,accuracy
+2024,HumanEval,Coding,open,94.5,pass@1
+2024,HumanEval,Coding,closed,98.2,pass@1
+2023,HumanEval,Coding,open,75.31,pass@1
+2023,HumanEval,Coding,closed,93.3,pass@1
+2022,HumanEval,Coding,open,40,pass@1
+2022,HumanEval,Coding,closed,85.1,pass@1

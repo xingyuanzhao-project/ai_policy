@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8322865078366758869,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "capital outlay",
+    "entity_evidence": [
+      {
+        "span_id": 6048595022283845720,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "6100-301-0001--For capital outlay, State Department of Education",
+        "chunk_id": 17145281153098533278
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16190614770387495010,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "State Department of Education",
+        "chunk_id": 17145281153098533278
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4528841464040807941,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "capital outlay",
+        "chunk_id": 17145281153098533278
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7707696518383361632,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "capital outlay",
+        "chunk_id": 17145281153098533278
+      }
+    ]
+  },
+  {
+    "candidate_id": 16940985250466150797,
+    "entity": "Proposition 98",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 3096903921141125475,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "Proposition 98",
+        "chunk_id": 17145281153098533278
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12748899340770012773,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "infrastructure",
+        "chunk_id": 17145281153098533278
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8925753531319198873,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "reappropriation",
+        "chunk_id": 17145281153098533278
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11872713637093142548,
+        "start": 1193523,
+        "end": 1193547,
+        "text": "reappropriation",
+        "chunk_id": 17145281153098533278
+      }
+    ]
+  }
+]

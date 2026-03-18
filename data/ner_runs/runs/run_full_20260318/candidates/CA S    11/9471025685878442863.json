@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8088599061458456475,
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "screening",
+    "entity_evidence": [
+      {
+        "span_id": 7963393481091816151,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11401593853410476118,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4305274476018505029,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14596572792912350868,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ]
+  },
+  {
+    "candidate_id": 14908205725453714436,
+    "entity": "digital replica",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "false impersonation",
+    "entity_evidence": [
+      {
+        "span_id": 6379072589865445745,
+        "start": 11136,
+        "end": 11152,
+        "text": "digital replica",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 493156034182561226,
+        "start": 11136,
+        "end": 11152,
+        "text": "digital replica",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7309792944489588606,
+        "start": 11136,
+        "end": 11152,
+        "text": "digital replica",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16111417584636202865,
+        "start": 11136,
+        "end": 11152,
+        "text": "digital replica",
+        "chunk_id": 9471025685878442863
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4513452667128894537,
+    "source_group_id": 17576033844866094669,
+    "source_candidate_ids": [
+      2947206755193016358
+    ],
+    "entity": "General Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "50 percent",
+    "entity_evidence": [
+      {
+        "span_id": 12425877815357545713,
+        "start": 1581028,
+        "end": 1581038,
+        "text": "General Fund",
+        "chunk_id": 7414481117111096341
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17112391869577694304,
+        "start": 1581028,
+        "end": 1581038,
+        "text": "infrastructure",
+        "chunk_id": 7414481117111096341
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9932127911187867952,
+        "start": 1581021,
+        "end": 1581031,
+        "text": "50 percent",
+        "chunk_id": 7414481117111096341
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4331806610658859193,
+        "start": 1581021,
+        "end": 1581031,
+        "text": "50 percent",
+        "chunk_id": 7414481117111096341
+      }
+    ]
+  }
+]

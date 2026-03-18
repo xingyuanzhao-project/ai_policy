@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7391591322858372967,
+    "entity": "Federal Emergency Management Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Section 28.00",
+    "entity_evidence": [
+      {
+        "span_id": 4204782515396382467,
+        "start": 157147,
+        "end": 157168,
+        "text": "Federal Emergency Management Agency",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1122308787056033303,
+        "start": 157147,
+        "end": 157168,
+        "text": "government agency",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14887890042468616232,
+        "start": 157147,
+        "end": 157168,
+        "text": "restriction",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13190123999234250283,
+        "start": 157147,
+        "end": 157168,
+        "text": "exempt from Section 28.00",
+        "chunk_id": 10442482922506650757
+      }
+    ]
+  },
+  {
+    "candidate_id": 1349190707065630575,
+    "entity": "Office of Emergency Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Section 28.00",
+    "entity_evidence": [
+      {
+        "span_id": 5958919551556121624,
+        "start": 157147,
+        "end": 157168,
+        "text": "Office of Emergency Services",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4610785482215317270,
+        "start": 157147,
+        "end": 157168,
+        "text": "government agency",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2100062148412365035,
+        "start": 157147,
+        "end": 157168,
+        "text": "restriction",
+        "chunk_id": 10442482922506650757
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6831539802874830408,
+        "start": 157147,
+        "end": 157168,
+        "text": "exempt from Section 28.00",
+        "chunk_id": 10442482922506650757
+      }
+    ]
+  }
+]

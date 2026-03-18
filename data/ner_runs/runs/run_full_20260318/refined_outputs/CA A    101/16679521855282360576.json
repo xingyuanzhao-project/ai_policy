@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10702674365428546543,
+    "source_group_id": 16679521855282360576,
+    "source_candidate_ids": [
+      16362148583568123926
+    ],
+    "entity": "chancellor",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "statewide priorities",
+    "entity_evidence": [
+      {
+        "span_id": 3957309441955000325,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7596638602277829766,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6382884392274352077,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1304334401681233448,
+        "start": 1418881,
+        "end": 1418887,
+        "text": "the chancellor may be provided at no cost to the community college district",
+        "chunk_id": 158047203151142357
+      }
+    ]
+  }
+]

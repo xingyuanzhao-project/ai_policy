@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17197253593434444279,
+    "source_group_id": 8736402339579859137,
+    "source_candidate_ids": [
+      5320804512471005731
+    ],
+    "entity": "director",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2672362564686426299,
+        "start": 42470,
+        "end": 42477,
+        "text": "director",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14603087473228233439,
+        "start": 42478,
+        "end": 42487,
+        "text": "government agency",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8687055492081829602,
+        "start": 42488,
+        "end": 42491,
+        "text": "restriction",
+        "chunk_id": 5314762172870753862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13043050715830107269,
+        "start": 42492,
+        "end": 42495,
+        "text": "limited",
+        "chunk_id": 5314762172870753862
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6097919266297765050,
+    "source_group_id": 13714759342626648800,
+    "source_candidate_ids": [
+      9337999740044624096
+    ],
+    "entity": "California Association of Student Councils",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "indirect costs",
+    "entity_evidence": [
+      {
+        "span_id": 2485837344103203531,
+        "start": 1275942,
+        "end": 1275962,
+        "text": "California Association of Student Councils",
+        "chunk_id": 7427194533489567504
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6872260706662166463,
+        "start": 1275942,
+        "end": 1275962,
+        "text": "government agency",
+        "chunk_id": 7427194533489567504
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18439253508990882536,
+        "start": 1275942,
+        "end": 1275962,
+        "text": "restriction",
+        "chunk_id": 7427194533489567504
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2517371349909952064,
+        "start": 1275942,
+        "end": 1275962,
+        "text": "indirect costs",
+        "chunk_id": 7427194533489567504
+      }
+    ]
+  }
+]

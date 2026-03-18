@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12806556076440888230,
+    "source_group_id": 3123304351122515718,
+    "source_candidate_ids": [
+      9328749113772351267
+    ],
+    "entity": "qualified legal aid agencies",
+    "type": "organization",
+    "attribute": "promotion",
+    "value": "innovative",
+    "entity_evidence": [
+      {
+        "span_id": 13299322732012998755,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13064057430764805515,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 584572324975147739,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6431956307837583769,
+        "start": 29481,
+        "end": 29500,
+        "text": "qualified legal aid agencies",
+        "chunk_id": 17816923877069845187
+      }
+    ]
+  }
+]

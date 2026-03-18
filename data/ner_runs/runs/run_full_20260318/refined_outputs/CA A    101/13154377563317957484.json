@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14252913744998184958,
+    "source_group_id": 13154377563317957484,
+    "source_candidate_ids": [
+      246769239161269606
+    ],
+    "entity": "State Department of Social Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "qualified pursuant to Chapter 5.6 (commencing with Section 13300) of Part 3 of Division 9 of the Welfare and Institutions Code",
+    "entity_evidence": [
+      {
+        "span_id": 7210779251941964627,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "State Department of Social Services",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7336601563359994150,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "government agency",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7985335458355781657,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "promotion",
+        "chunk_id": 8978054951904459656
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 904347861739819473,
+        "start": 1391455,
+        "end": 1391476,
+        "text": "qualified pursuant to Chapter 5.6 (commencing with Section 13300) of Part 3 of Division 9 of the Welfare and Institutions Code",
+        "chunk_id": 8978054951904459656
+      }
+    ]
+  }
+]

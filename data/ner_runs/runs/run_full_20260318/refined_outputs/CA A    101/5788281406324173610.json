@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10854923766640652664,
+    "source_group_id": 5788281406324173610,
+    "source_candidate_ids": [
+      1059563725911574891
+    ],
+    "entity": "Extreme Heat and Community Resilience Program",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 2234670358399295899,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5539590337388714446,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16603643536403065732,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2373802208765297815,
+        "start": 123665,
+        "end": 123685,
+        "text": "Extreme Heat and Community Resilience Program",
+        "chunk_id": 16339945152676970473
+      }
+    ]
+  }
+]

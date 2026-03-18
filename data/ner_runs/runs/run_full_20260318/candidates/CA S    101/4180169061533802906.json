@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15118481433796187616,
+    "entity": "California Architects Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fines and penalties imposed as specified in Section 13332.18 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 11715158260286548488,
+        "start": 242190,
+        "end": 242209,
+        "text": "California Architects Board",
+        "chunk_id": 4180169061533802906
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6016779940231168581,
+        "start": 242210,
+        "end": 242225,
+        "text": "government agency",
+        "chunk_id": 4180169061533802906
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6114718031371480574,
+        "start": 242226,
+        "end": 242243,
+        "text": "restriction",
+        "chunk_id": 4180169061533802906
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4503665756814394134,
+        "start": 242244,
+        "end": 242324,
+        "text": "fines and penalties imposed as specified in Section 13332.18 of the Government Code",
+        "chunk_id": 4180169061533802906
+      }
+    ]
+  },
+  {
+    "candidate_id": 1758631047289311066,
+    "entity": "Medical Board of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fines and penalties imposed as specified in Section 13332.18 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 3355460332167813766,
+        "start": 242190,
+        "end": 242208,
+        "text": "Medical Board of California",
+        "chunk_id": 4180169061533802906
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12532061086867531600,
+        "start": 242209,
+        "end": 242224,
+        "text": "government agency",
+        "chunk_id": 4180169061533802906
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14391514663417553856,
+        "start": 242225,
+        "end": 242242,
+        "text": "restriction",
+        "chunk_id": 4180169061533802906
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8323157046736068382,
+        "start": 242243,
+        "end": 242324,
+        "text": "fines and penalties imposed as specified in Section 13332.18 of the Government Code",
+        "chunk_id": 4180169061533802906
+      }
+    ]
+  }
+]

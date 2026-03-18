@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10268847880134153073,
+    "entity": "interactive computer service",
+    "type": "technology",
+    "attribute": "exemption",
+    "value": "liability",
+    "entity_evidence": [
+      {
+        "span_id": 17730200009804040746,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15746880672204599468,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2780800549028358838,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12523282916245989589,
+        "start": 2333,
+        "end": 2357,
+        "text": "An interactive computer service",
+        "chunk_id": 15504374668658749872
+      }
+    ]
+  },
+  {
+    "candidate_id": 9490691419021618376,
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "definition",
+    "value": "machine-based system",
+    "entity_evidence": [
+      {
+        "span_id": 8393180852590439659,
+        "start": 2333,
+        "end": 2351,
+        "text": "artificial intelligence",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3204913001653752629,
+        "start": 2333,
+        "end": 2351,
+        "text": "artificial intelligence",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 616094171785417655,
+        "start": 2333,
+        "end": 2351,
+        "text": "artificial intelligence",
+        "chunk_id": 15504374668658749872
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9697066532183667124,
+        "start": 2333,
+        "end": 2351,
+        "text": "artificial intelligence",
+        "chunk_id": 15504374668658749872
+      }
+    ]
+  }
+]

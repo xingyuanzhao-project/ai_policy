@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2415486120145171462,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 16660286141625819981,
+        "start": 1033898,
+        "end": 1033918,
+        "text": "State Department of Education",
+        "chunk_id": 17238252910994431977
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5929029150256543879,
+        "start": 1033898,
+        "end": 1033918,
+        "text": "State Department of Education",
+        "chunk_id": 17238252910994431977
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14839173788336406066,
+        "start": 1033898,
+        "end": 1033918,
+        "text": "State Department of Education",
+        "chunk_id": 17238252910994431977
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16395371013816697392,
+        "start": 1033898,
+        "end": 1033918,
+        "text": "State Department of Education",
+        "chunk_id": 17238252910994431977
+      }
+    ]
+  },
+  {
+    "candidate_id": 7928234754992122906,
+    "entity": "private schools",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "prohibition on compilation of information",
+    "entity_evidence": [
+      {
+        "span_id": 14697735228285951932,
+        "start": 1034020,
+        "end": 1034030,
+        "text": "private schools",
+        "chunk_id": 17238252910994431977
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6773475299325146384,
+        "start": 1034020,
+        "end": 1034030,
+        "text": "private schools",
+        "chunk_id": 17238252910994431977
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6132325367818105828,
+        "start": 1034020,
+        "end": 1034030,
+        "text": "private schools",
+        "chunk_id": 17238252910994431977
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13515795029793249129,
+        "start": 1034020,
+        "end": 1034030,
+        "text": "private schools",
+        "chunk_id": 17238252910994431977
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5596313476633725370,
+    "source_group_id": 12042821690198966730,
+    "source_candidate_ids": [
+      15144750571895408124
+    ],
+    "entity": "voting booth",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "secure",
+    "entity_evidence": [
+      {
+        "span_id": 2832262069986640356,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8202928592212289912,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14154165873222983847,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12391858983831348543,
+        "start": 18259,
+        "end": 18266,
+        "text": "AT EVERY POLLING PLACE, AT LEAST ONE-HALF OF THE VOTING BOOTHS USED SHALL BE NOT LESS THAN SIX FEET IN HEIGHT",
+        "chunk_id": 11911211345487516491
+      }
+    ]
+  }
+]

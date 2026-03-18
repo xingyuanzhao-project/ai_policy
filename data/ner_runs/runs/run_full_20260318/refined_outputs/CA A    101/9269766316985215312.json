@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9143958989754179021,
+    "source_group_id": 9269766316985215312,
+    "source_candidate_ids": [
+      8766839892131725904
+    ],
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "loans and grants",
+    "entity_evidence": [
+      {
+        "span_id": 2516199117163669186,
+        "start": 740902,
+        "end": 740930,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 15141164863480381348
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17771381911332589662,
+        "start": 740902,
+        "end": 740930,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 15141164863480381348
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17730028787334352617,
+        "start": 740930,
+        "end": 740941,
+        "text": "loans and grants",
+        "chunk_id": 15141164863480381348
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7468014927302184122,
+        "start": 740930,
+        "end": 740941,
+        "text": "loans and grants",
+        "chunk_id": 15141164863480381348
+      }
+    ]
+  }
+]

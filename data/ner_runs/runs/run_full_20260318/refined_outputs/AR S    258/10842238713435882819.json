@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14838700414324967772,
+    "source_group_id": 10842238713435882819,
+    "source_candidate_ids": [
+      14401750786670662647
+    ],
+    "entity": "person",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "only to a person that conducts business in this state or produces a product or service consumed by residents of this state",
+    "entity_evidence": [
+      {
+        "span_id": 5774991477748123026,
+        "start": 17994,
+        "end": 18000,
+        "text": "person",
+        "chunk_id": 2260200912907559418
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10125189808728524095,
+        "start": 17994,
+        "end": 18000,
+        "text": "person",
+        "chunk_id": 2260200912907559418
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11658670215713016982,
+        "start": 17994,
+        "end": 18000,
+        "text": "person",
+        "chunk_id": 2260200912907559418
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14749261603143080259,
+        "start": 17994,
+        "end": 18000,
+        "text": "person",
+        "chunk_id": 2260200912907559418
+      }
+    ]
+  }
+]

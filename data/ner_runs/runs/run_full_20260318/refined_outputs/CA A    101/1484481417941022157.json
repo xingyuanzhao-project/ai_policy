@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1983246322613626684,
+    "source_group_id": 1484481417941022157,
+    "source_candidate_ids": [
+      2010898899236786919
+    ],
+    "entity": "San Luis Obispo County",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 1968725496827669133,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8023211732403827381,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3791604102439293888,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17961839683595545955,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ]
+  }
+]

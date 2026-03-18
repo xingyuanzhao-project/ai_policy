@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8051634490982189623,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "consultation",
+    "value": "with the State Department of Education",
+    "entity_evidence": [
+      {
+        "span_id": 2999084940218338391,
+        "start": 1439389,
+        "end": 1439413,
+        "text": "of the California Community Colleges",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6606749589173781619,
+        "start": 1439389,
+        "end": 1439413,
+        "text": "of the California Community Colleges",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3112207265527695694,
+        "start": 1439389,
+        "end": 1439413,
+        "text": "shall consult with the State Department of Education",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2291895276037334751,
+        "start": 1439389,
+        "end": 1439413,
+        "text": "in implementing this program component",
+        "chunk_id": 10813898101096284046
+      }
+    ]
+  },
+  {
+    "candidate_id": 16855221313234294913,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "reimbursement",
+    "value": "in accordance with provisions of Section 6 of Article XIIIB of the California Constitution or Section 17561 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 7817386661405304266,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4174186726844779233,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "Board of Governors of the California Community Colleges",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13410012148957328571,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "for reimbursement",
+        "chunk_id": 10813898101096284046
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12188249698362840463,
+        "start": 1439476,
+        "end": 1439512,
+        "text": "in accordance with provisions of Section 6 of Article XIIIB of the California Constitution or Section 17561 of the Government Code",
+        "chunk_id": 10813898101096284046
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8918046784532652788,
+    "source_group_id": 12591286904998756808,
+    "source_candidate_ids": [
+      1738982716808873187
+    ],
+    "entity": "California Debt and Investment Advisory Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "excess of the amount appropriated",
+    "entity_evidence": [
+      {
+        "span_id": 2620775730898523169,
+        "start": 235833,
+        "end": 235861,
+        "text": "California Debt and Investment Advisory Commission",
+        "chunk_id": 12277709146583531180
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16949139791386259286,
+        "start": 235833,
+        "end": 235861,
+        "text": "California Debt and Investment Advisory Commission",
+        "chunk_id": 12277709146583531180
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9442277426642485754,
+        "start": 235861,
+        "end": 235879,
+        "text": "expenditures for the California Debt and Investment Advisory Commission",
+        "chunk_id": 12277709146583531180
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11382604240432836679,
+        "start": 235861,
+        "end": 235879,
+        "text": "expenditures for the California Debt and Investment Advisory Commission",
+        "chunk_id": 12277709146583531180
+      }
+    ]
+  }
+]

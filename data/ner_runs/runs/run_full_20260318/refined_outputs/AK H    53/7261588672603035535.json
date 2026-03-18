@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4629960366392487430,
+    "source_group_id": 7261588672603035535,
+    "source_candidate_ids": [
+      13583024692687288500
+    ],
+    "entity": "Arctic Winter Games Team Alaska",
+    "type": "individual",
+    "attribute": "subsidy",
+    "value": "$150,000",
+    "entity_evidence": [
+      {
+        "span_id": 11117715663562963223,
+        "start": 93090,
+        "end": 93109,
+        "text": "Arctic Winter Games Team Alaska",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10688568265436449491,
+        "start": 93090,
+        "end": 93109,
+        "text": "individual",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11685493695119766009,
+        "start": 93090,
+        "end": 93109,
+        "text": "subsidy",
+        "chunk_id": 5103797806484953680
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 934070492853185658,
+        "start": 93090,
+        "end": 93109,
+        "text": "$150,000",
+        "chunk_id": 5103797806484953680
+      }
+    ]
+  }
+]

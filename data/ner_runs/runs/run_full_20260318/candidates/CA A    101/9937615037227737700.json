@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5284072051403374699,
+    "entity": "University of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "deferred payment",
+    "entity_evidence": [
+      {
+        "span_id": 6813900075932058771,
+        "start": 1334591,
+        "end": 1334611,
+        "text": "University of California",
+        "chunk_id": 9937615037227737700
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15821943135791107236,
+        "start": 1334591,
+        "end": 1334611,
+        "text": "University of California",
+        "chunk_id": 9937615037227737700
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16265305624082559060,
+        "start": 1334591,
+        "end": 1334611,
+        "text": "University of California",
+        "chunk_id": 9937615037227737700
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15667268839279644703,
+        "start": 1334591,
+        "end": 1334611,
+        "text": "deferred payment",
+        "chunk_id": 9937615037227737700
+      }
+    ]
+  },
+  {
+    "candidate_id": 7145192375712122597,
+    "entity": "General Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "deferred payment",
+    "entity_evidence": [
+      {
+        "span_id": 6191366664577958924,
+        "start": 1334713,
+        "end": 1334723,
+        "text": "General Fund",
+        "chunk_id": 9937615037227737700
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15628072307467287671,
+        "start": 1334713,
+        "end": 1334723,
+        "text": "General Fund",
+        "chunk_id": 9937615037227737700
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13511599086960359040,
+        "start": 1334713,
+        "end": 1334723,
+        "text": "General Fund",
+        "chunk_id": 9937615037227737700
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9260474319766493932,
+        "start": 1334713,
+        "end": 1334723,
+        "text": "deferred payment",
+        "chunk_id": 9937615037227737700
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9420362457844218905,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 11534973522395763023,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13006117254019641920,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7210407347815288434,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17926799514349113013,
+        "start": 51319,
+        "end": 51331,
+        "text": "The Judicial Council shall set statewide or regional rates and policies for payment of court interpreters",
+        "chunk_id": 17927902583418269247
+      }
+    ]
+  },
+  {
+    "candidate_id": 13401772562649806837,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 854524259082081517,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11700875329546164781,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16054977968495008936,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10578100091737579932,
+        "start": 51113,
+        "end": 51127,
+        "text": "he Department of Finance, the amount available for expenditure in Schedule (10) may be increased by the amount of any additional resources collected",
+        "chunk_id": 17927902583418269247
+      }
+    ]
+  }
+]

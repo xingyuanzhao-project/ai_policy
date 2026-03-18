@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5091489056912342022,
+    "source_group_id": 9638603017531177342,
+    "source_candidate_ids": [
+      3047068854984079297
+    ],
+    "entity": "Centers for Medicare and Medicaid Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "rescinded or repealed",
+    "entity_evidence": [
+      {
+        "span_id": 6581129372516826888,
+        "start": 809449,
+        "end": 809469,
+        "text": "Centers for Medicare and Medicaid Services",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13832267765424365641,
+        "start": 809449,
+        "end": 809469,
+        "text": "government agency",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2262416890533735317,
+        "start": 809449,
+        "end": 809469,
+        "text": "rescinded or repealed",
+        "chunk_id": 12740478171046821242
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3104526750068112859,
+        "start": 809449,
+        "end": 809469,
+        "text": "rescinded or repealed",
+        "chunk_id": 12740478171046821242
+      }
+    ]
+  }
+]

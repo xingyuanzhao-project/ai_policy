@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3265061822816312191,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "10-day notification",
+    "entity_evidence": [
+      {
+        "span_id": 8025505957347333308,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5773697718622195478,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 656204708275878592,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5495714958685960409,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ]
+  },
+  {
+    "candidate_id": 12419833550534116077,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "10-day notification",
+    "entity_evidence": [
+      {
+        "span_id": 13572160818667922355,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9845747529181585057,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14951990460072897539,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9347080731226721801,
+        "start": 790190,
+        "end": 790200,
+        "text": "within 10 days",
+        "chunk_id": 1443277140593189552
+      }
+    ]
+  }
+]

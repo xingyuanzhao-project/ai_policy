@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8413404325487676069,
+    "entity": "Sacramento-San Joaquin Delta Conservancy",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "conservancy",
+    "entity_evidence": [
+      {
+        "span_id": 7610898375205673811,
+        "start": 605855,
+        "end": 605875,
+        "text": "Sacramento-San Joaquin Delta Conservancy",
+        "chunk_id": 10404499245926446853
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12058954745153387813,
+        "start": 605855,
+        "end": 605875,
+        "text": "government agency",
+        "chunk_id": 10404499245926446853
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4787700766520603831,
+        "start": 605855,
+        "end": 605875,
+        "text": "support",
+        "chunk_id": 10404499245926446853
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 572202166613404735,
+        "start": 605855,
+        "end": 605875,
+        "text": "conservancy",
+        "chunk_id": 10404499245926446853
+      }
+    ]
+  },
+  {
+    "candidate_id": 18247059743133771058,
+    "entity": "California Environmental License Plate Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "payable",
+    "entity_evidence": [
+      {
+        "span_id": 14036647126338544902,
+        "start": 605966,
+        "end": 605987,
+        "text": "California Environmental License Plate Fund",
+        "chunk_id": 10404499245926446853
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9996913677235017283,
+        "start": 605966,
+        "end": 605987,
+        "text": "infrastructure",
+        "chunk_id": 10404499245926446853
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2021183231448981282,
+        "start": 605966,
+        "end": 605987,
+        "text": "support",
+        "chunk_id": 10404499245926446853
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16918273427967181544,
+        "start": 605966,
+        "end": 605987,
+        "text": "payable",
+        "chunk_id": 10404499245926446853
+      }
+    ]
+  }
+]

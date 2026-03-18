@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2642784494289364434,
+    "source_group_id": 8129097429961132304,
+    "source_candidate_ids": [
+      2138472963365492201
+    ],
+    "entity": "Genetic or biometric data",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3552680681125419599,
+        "start": 15185,
+        "end": 15209,
+        "text": "Genetic or biometric data",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17360455408670080377,
+        "start": 15185,
+        "end": 15209,
+        "text": "technology",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15652058717746757673,
+        "start": 15185,
+        "end": 15209,
+        "text": "restriction",
+        "chunk_id": 928532910975373241
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12165613238126575611,
+        "start": 15185,
+        "end": 15209,
+        "text": "extremely restrictive",
+        "chunk_id": 928532910975373241
+      }
+    ]
+  }
+]

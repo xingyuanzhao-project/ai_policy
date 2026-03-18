@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 2408013551503289788,
+    "source_group_id": 2018639367602321557,
+    "source_candidate_ids": [
+      12102797900545964848,
+      6047437368841871647
+    ],
+    "entity": "generative artificial intelligence tool",
+    "type": "technology",
+    "attribute": "ownership",
+    "value": "person who provides input or directive",
+    "entity_evidence": [
+      {
+        "span_id": 17344272981417573342,
+        "start": 134,
+        "end": 155,
+        "text": "generative artificial intelligence tool",
+        "chunk_id": 306819108725786182
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2593571160887277634,
+        "start": 134,
+        "end": 155,
+        "text": "generative artificial intelligence tool",
+        "chunk_id": 306819108725786182
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9565820763679895792,
+        "start": 134,
+        "end": 155,
+        "text": "generative artificial intelligence tool",
+        "chunk_id": 306819108725786182
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 493770562758408251,
+        "start": 134,
+        "end": 155,
+        "text": "generative artificial intelligence tool",
+        "chunk_id": 306819108725786182
+      }
+    ]
+  }
+]

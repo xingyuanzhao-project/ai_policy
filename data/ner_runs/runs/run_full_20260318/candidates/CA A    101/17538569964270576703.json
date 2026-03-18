@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17519353928936029527,
+    "entity": "Department of Toxic Substances Control",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 11550700562906483156,
+        "start": 738334,
+        "end": 738354,
+        "text": "support of Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2266403740967105911,
+        "start": 738334,
+        "end": 738354,
+        "text": "Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1207777001622882453,
+        "start": 738334,
+        "end": 738354,
+        "text": "support of Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5203739958520571139,
+        "start": 738334,
+        "end": 738354,
+        "text": "support of Department of Toxic Substances Control",
+        "chunk_id": 17538569964270576703
+      }
+    ]
+  },
+  {
+    "candidate_id": 6800460577116703163,
+    "entity": "Exide Technologies",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 11242067252933103389,
+        "start": 739282,
+        "end": 739292,
+        "text": "Exide Technologies Facility Contamination Cleanup",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5320493933229398749,
+        "start": 739282,
+        "end": 739292,
+        "text": "Exide Technologies Facility Contamination Cleanup",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 771150870845915579,
+        "start": 739282,
+        "end": 739292,
+        "text": "Exide Technologies Facility Contamination Cleanup",
+        "chunk_id": 17538569964270576703
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3976431672357770862,
+        "start": 739282,
+        "end": 739292,
+        "text": "Exide Technologies Facility Contamination Cleanup",
+        "chunk_id": 17538569964270576703
+      }
+    ]
+  }
+]

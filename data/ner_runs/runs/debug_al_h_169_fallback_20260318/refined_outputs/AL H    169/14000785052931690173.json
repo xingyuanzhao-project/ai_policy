@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6207619872863203087,
+    "source_group_id": 14000785052931690173,
+    "source_candidate_ids": [
+      5880677359361683554
+    ],
+    "entity": "Alabama Summer and Afterschool Program (ASAP)",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "quality and access to evidence-based summer and afterschool academic and enrichment programming",
+    "entity_evidence": [
+      {
+        "span_id": 1264643763765582338,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4535113347649645902,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6655727426481213379,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18003952156395882034,
+        "start": 45541,
+        "end": 45564,
+        "text": "Alabama Summer and Afterschool Program (ASAP)",
+        "chunk_id": 8307566331999899841
+      }
+    ]
+  }
+]

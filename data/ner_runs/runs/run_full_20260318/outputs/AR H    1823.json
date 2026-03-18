@@ -1,0 +1,378 @@
+[
+  {
+    "refined_id": 6758997847543126824,
+    "source_group_id": 18065430739006191569,
+    "source_candidate_ids": [
+      5277667323446163950
+    ],
+    "entity": "Digital forgery",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4304705611259024955,
+        "start": 0,
+        "end": 15,
+        "text": "Digital forgery",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 381018203072268586,
+        "start": 0,
+        "end": 15,
+        "text": "technology",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17955374315809048191,
+        "start": 0,
+        "end": 15,
+        "text": "restriction",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14842532293850744743,
+        "start": 0,
+        "end": 15,
+        "text": "extremely restrictive",
+        "chunk_id": 7137513107217400135
+      }
+    ]
+  },
+  {
+    "refined_id": 7118996847837790912,
+    "source_group_id": 16793600895859126792,
+    "source_candidate_ids": [
+      3142565661111478956
+    ],
+    "entity": "Intimate visual depiction",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16513981253199768690,
+        "start": 0,
+        "end": 20,
+        "text": "Intimate visual depiction",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10413078029845783566,
+        "start": 0,
+        "end": 20,
+        "text": "technology",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1640283901599008534,
+        "start": 0,
+        "end": 20,
+        "text": "restriction",
+        "chunk_id": 7137513107217400135
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11457747567346309489,
+        "start": 0,
+        "end": 20,
+        "text": "extremely restrictive",
+        "chunk_id": 7137513107217400135
+      }
+    ]
+  },
+  {
+    "refined_id": 15641256982248125540,
+    "source_group_id": 9202926616395756833,
+    "source_candidate_ids": [
+      3332337091307765090
+    ],
+    "entity": "Identifiable Individual",
+    "type": "Individual",
+    "attribute": "Protection",
+    "value": "Consent",
+    "entity_evidence": [
+      {
+        "span_id": 4244815395764893552,
+        "start": 2340,
+        "end": 2359,
+        "text": "an identifiable individual",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2068926152894914864,
+        "start": 2340,
+        "end": 2359,
+        "text": "an identifiable individual",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15710598818974111476,
+        "start": 2340,
+        "end": 2359,
+        "text": "an identifiable individual",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9588395528318599800,
+        "start": 2340,
+        "end": 2359,
+        "text": "an identifiable individual",
+        "chunk_id": 11687068714053977330
+      }
+    ]
+  },
+  {
+    "refined_id": 3593656240096495043,
+    "source_group_id": 12980378734678220989,
+    "source_candidate_ids": [
+      10300484456106747755
+    ],
+    "entity": "Digital Forgery",
+    "type": "Technology",
+    "attribute": "Regulation",
+    "value": "Prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 18232561580553344570,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5603735541685523748,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2672910783772863328,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8922405836658312984,
+        "start": 2340,
+        "end": 2352,
+        "text": "Who is the subject of a digital forgery",
+        "chunk_id": 11687068714053977330
+      }
+    ]
+  },
+  {
+    "refined_id": 3197268026562830674,
+    "source_group_id": 15975413236075517774,
+    "source_candidate_ids": [
+      6255252103766969104
+    ],
+    "entity": "Identifiable Individual",
+    "type": "Individual",
+    "attribute": "Protection",
+    "value": "Preservation of Privacy",
+    "entity_evidence": [
+      {
+        "span_id": 1028904076251635116,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6980533060856781554,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3054765476973870722,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9337654463510624696,
+        "start": 5032,
+        "end": 5051,
+        "text": "ve may assume the identifiable individual's rights under this chapter.",
+        "chunk_id": 8173574395354216129
+      }
+    ]
+  },
+  {
+    "refined_id": 8185466647277362065,
+    "source_group_id": 2600717864811792197,
+    "source_candidate_ids": [
+      7799302768728511274
+    ],
+    "entity": "Intimate Visual Depiction or Digital Forgery",
+    "type": "Technology",
+    "attribute": "Regulation",
+    "value": "Restriction",
+    "entity_evidence": [
+      {
+        "span_id": 15293959406680532649,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17823535049738622128,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10362146508683428855,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16769918477663147704,
+        "start": 5032,
+        "end": 5051,
+        "text": "For purposes of a civil action under § 4-120-103(a), the fact that the identifiable individual:",
+        "chunk_id": 8173574395354216129
+      }
+    ]
+  },
+  {
+    "refined_id": 7746404378988908114,
+    "source_group_id": 17926706939697299219,
+    "source_candidate_ids": [
+      9874654840502943440
+    ],
+    "entity": "identifiable individual",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "18 years of age",
+    "entity_evidence": [
+      {
+        "span_id": 4382727020439643803,
+        "start": 7776,
+        "end": 7793,
+        "text": "The date on which the identifiable individual reasonably discovers the violation that forms the basis for the claim;",
+        "chunk_id": 9878512394654938608
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1275365371202000849,
+        "start": 7776,
+        "end": 7793,
+        "text": "The date on which the identifiable individual reasonably discovers the violation that forms the basis for the claim;",
+        "chunk_id": 9878512394654938608
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1378604141219380263,
+        "start": 7776,
+        "end": 7793,
+        "text": "The date on which the identifiable individual reasonably discovers the violation that forms the basis for the claim;",
+        "chunk_id": 9878512394654938608
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1909103484798748648,
+        "start": 7776,
+        "end": 7793,
+        "text": "The date on which the identifiable individual reasonably discovers the violation that forms the basis for the claim;",
+        "chunk_id": 9878512394654938608
+      }
+    ]
+  },
+  {
+    "refined_id": 3228215147656156524,
+    "source_group_id": 5607584983035796082,
+    "source_candidate_ids": [
+      6148656668367653342
+    ],
+    "entity": "intimate visual depiction or digital forgery",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "same conduct involving the same identifiable individual and the same intimate visual depiction or digital forgery",
+    "entity_evidence": [
+      {
+        "span_id": 1150170215210737516,
+        "start": 7855,
+        "end": 7876,
+        "text": "the same conduct involving the same identifiable individual and the same intimate visual depiction or digital forgery",
+        "chunk_id": 9878512394654938608
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9198719980221231232,
+        "start": 7855,
+        "end": 7876,
+        "text": "the same conduct involving the same identifiable individual and the same intimate visual depiction or digital forgery",
+        "chunk_id": 9878512394654938608
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18067066560537414262,
+        "start": 7855,
+        "end": 7876,
+        "text": "the same conduct involving the same identifiable individual and the same intimate visual depiction or digital forgery",
+        "chunk_id": 9878512394654938608
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14217708877853022276,
+        "start": 7855,
+        "end": 7876,
+        "text": "the same conduct involving the same identifiable individual and the same intimate visual depiction or digital forgery",
+        "chunk_id": 9878512394654938608
+      }
+    ]
+  }
+]

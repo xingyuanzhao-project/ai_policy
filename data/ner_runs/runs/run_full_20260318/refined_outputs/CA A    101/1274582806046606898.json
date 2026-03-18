@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11972478049484698754,
+    "source_group_id": 1274582806046606898,
+    "source_candidate_ids": [
+      12277285290404069008
+    ],
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 528793841177473992,
+        "start": 164457,
+        "end": 164477,
+        "text": "0820-001-0001--For support of Department of Justice",
+        "chunk_id": 3314596804723480313
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10188430324043433428,
+        "start": 164457,
+        "end": 164477,
+        "text": "Department of Justice",
+        "chunk_id": 3314596804723480313
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16049616177679380984,
+        "start": 164457,
+        "end": 164477,
+        "text": "Reimbursements to",
+        "chunk_id": 3314596804723480313
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14004133807237779150,
+        "start": 164457,
+        "end": 164477,
+        "text": "reimbursement",
+        "chunk_id": 3314596804723480313
+      }
+    ]
+  }
+]

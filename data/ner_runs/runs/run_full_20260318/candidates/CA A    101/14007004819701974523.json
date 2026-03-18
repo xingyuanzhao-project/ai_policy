@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16563478506193896547,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "grants",
+    "entity_evidence": [
+      {
+        "span_id": 16135174872430462033,
+        "start": 560161,
+        "end": 560181,
+        "text": "Department of Fish and Wildlife",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1056366823768341673,
+        "start": 560161,
+        "end": 560181,
+        "text": "government agency",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17096157941892338516,
+        "start": 560161,
+        "end": 560181,
+        "text": "support",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8481643315369785366,
+        "start": 560161,
+        "end": 560181,
+        "text": "grants",
+        "chunk_id": 14007004819701974523
+      }
+    ]
+  },
+  {
+    "candidate_id": 9784890880038253763,
+    "entity": "Fish and Game Preservation Fund",
+    "type": "infrastructure",
+    "attribute": "support",
+    "value": "grants",
+    "entity_evidence": [
+      {
+        "span_id": 7447918924785345667,
+        "start": 560161,
+        "end": 560181,
+        "text": "Fish and Game Preservation Fund",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8422076906877345869,
+        "start": 560161,
+        "end": 560181,
+        "text": "infrastructure",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6387230231170841953,
+        "start": 560161,
+        "end": 560181,
+        "text": "support",
+        "chunk_id": 14007004819701974523
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4671494266713202489,
+        "start": 560161,
+        "end": 560181,
+        "text": "grants",
+        "chunk_id": 14007004819701974523
+      }
+    ]
+  }
+]

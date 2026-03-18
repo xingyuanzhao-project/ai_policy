@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17105375316944023913,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial restriction",
+    "entity_evidence": [
+      {
+        "span_id": 17384847770972956474,
+        "start": 174933,
+        "end": 174965,
+        "text": "Department of Justice",
+        "chunk_id": 12310569545846768918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4921633461465124264,
+        "start": 174933,
+        "end": 174965,
+        "text": "Department of Justice",
+        "chunk_id": 12310569545846768918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8223409032271128758,
+        "start": 174933,
+        "end": 174965,
+        "text": "Department of Justice",
+        "chunk_id": 12310569545846768918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8232777857196512584,
+        "start": 174933,
+        "end": 174965,
+        "text": "Department of Justice",
+        "chunk_id": 12310569545846768918
+      }
+    ]
+  },
+  {
+    "candidate_id": 14529258844851779019,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial restriction",
+    "entity_evidence": [
+      {
+        "span_id": 4112796942176339690,
+        "start": 174974,
+        "end": 174995,
+        "text": "State Public Works Board",
+        "chunk_id": 12310569545846768918
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12624367156389066788,
+        "start": 174974,
+        "end": 174995,
+        "text": "State Public Works Board",
+        "chunk_id": 12310569545846768918
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18169655156680294644,
+        "start": 174974,
+        "end": 174995,
+        "text": "State Public Works Board",
+        "chunk_id": 12310569545846768918
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10279192591023473128,
+        "start": 174974,
+        "end": 174995,
+        "text": "State Public Works Board",
+        "chunk_id": 12310569545846768918
+      }
+    ]
+  }
+]

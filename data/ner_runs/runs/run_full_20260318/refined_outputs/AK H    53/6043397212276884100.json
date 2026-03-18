@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6201476593684919085,
+    "source_group_id": 6043397212276884100,
+    "source_candidate_ids": [
+      8001643228348972136
+    ],
+    "entity": "Department of Transportation and Public Facilities",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "operating expenditures",
+    "entity_evidence": [
+      {
+        "span_id": 4684590673782920116,
+        "start": 82523,
+        "end": 82541,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 18222420177801189484
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15135574387688957402,
+        "start": 82523,
+        "end": 82541,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 18222420177801189484
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11799954019377487747,
+        "start": 82523,
+        "end": 82541,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 18222420177801189484
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16698859982042976395,
+        "start": 82523,
+        "end": 82541,
+        "text": "Department of Transportation and Public Facilities",
+        "chunk_id": 18222420177801189484
+      }
+    ]
+  }
+]

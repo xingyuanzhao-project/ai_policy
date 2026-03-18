@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14403775010863545587,
+    "entity": "State Public Defender",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 11552901502723915725,
+        "start": 1608915,
+        "end": 1608936,
+        "text": "State Public Defender",
+        "chunk_id": 14351105191990355570
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11504067355416721602,
+        "start": 1608915,
+        "end": 1608936,
+        "text": "State Public Defender",
+        "chunk_id": 14351105191990355570
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2265176316309757630,
+        "start": 1608101,
+        "end": 1608101,
+        "text": "",
+        "chunk_id": 14351105191990355570
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8215604344512722341,
+        "start": 1608101,
+        "end": 1608101,
+        "text": "",
+        "chunk_id": 14351105191990355570
+      }
+    ]
+  },
+  {
+    "candidate_id": 16905055183309754981,
+    "entity": "indigent defense providers",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 6106093607318486191,
+        "start": 1608101,
+        "end": 1608101,
+        "text": "",
+        "chunk_id": 14351105191990355570
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10339701452978648331,
+        "start": 1608101,
+        "end": 1608101,
+        "text": "",
+        "chunk_id": 14351105191990355570
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2223269738331941833,
+        "start": 1608101,
+        "end": 1608101,
+        "text": "",
+        "chunk_id": 14351105191990355570
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10405392862233775719,
+        "start": 1608101,
+        "end": 1608101,
+        "text": "",
+        "chunk_id": 14351105191990355570
+      }
+    ]
+  }
+]

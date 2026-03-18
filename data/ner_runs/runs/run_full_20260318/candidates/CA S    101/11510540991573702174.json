@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12161611454798555628,
+    "entity": "Peace Officers' Procedural Bill of Rights Act",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "mandate claims",
+    "entity_evidence": [
+      {
+        "span_id": 3621414470897340831,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "Peace Officers' Procedural Bill of Rights Act",
+        "chunk_id": 11510540991573702174
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11123575684514916621,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "technology",
+        "chunk_id": 11510540991573702174
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8689110809839603592,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "restriction",
+        "chunk_id": 11510540991573702174
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11863302968503110108,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "mandate claims",
+        "chunk_id": 11510540991573702174
+      }
+    ]
+  },
+  {
+    "candidate_id": 13204376854895313382,
+    "entity": "Public Safety Officers Procedural Bill of Rights II",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "mandate claims",
+    "entity_evidence": [
+      {
+        "span_id": 13756430196994276976,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "Public Safety Officers Procedural Bill of Rights II",
+        "chunk_id": 11510540991573702174
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7764228133530858365,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "technology",
+        "chunk_id": 11510540991573702174
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9555474950479843147,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "restriction",
+        "chunk_id": 11510540991573702174
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18254923465994440468,
+        "start": 1561349,
+        "end": 1561349,
+        "text": "mandate claims",
+        "chunk_id": 11510540991573702174
+      }
+    ]
+  }
+]

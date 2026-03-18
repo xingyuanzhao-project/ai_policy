@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8777223209005459362,
+    "source_group_id": 12861257447694521044,
+    "source_candidate_ids": [
+      7132054832824513575
+    ],
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditures up to $996,000",
+    "entity_evidence": [
+      {
+        "span_id": 11026188037461145435,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10372369398675657767,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8777639696483412674,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2465756043731131081,
+        "start": 1011175,
+        "end": 1011189,
+        "text": "For transfer by the Controller from the Federal Trust Fund to the Foster Family Home and Small Family Home Insurance Fund",
+        "chunk_id": 10183039178152684684
+      }
+    ]
+  }
+]

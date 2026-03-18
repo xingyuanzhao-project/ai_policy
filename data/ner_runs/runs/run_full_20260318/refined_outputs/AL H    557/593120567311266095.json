@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1751365910913787252,
+    "source_group_id": 593120567311266095,
+    "source_candidate_ids": [
+      5218163114067834097
+    ],
+    "entity": "utilization review agent",
+    "type": "private company",
+    "attribute": "restriction",
+    "value": "moderately restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8161214044988725379,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14113607483327558055,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7642450405729422970,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11923590979774718100,
+        "start": 5149,
+        "end": 5168,
+        "text": "UTILIZATION REVIEW AGENT",
+        "chunk_id": 9666128920766988670
+      }
+    ]
+  }
+]

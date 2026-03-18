@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5266108041514964912,
+    "entity": "Department of Motor Vehicles",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8971071581089771842,
+        "start": 413319,
+        "end": 413339,
+        "text": "Department of Motor Vehicles",
+        "chunk_id": 2852538552063272496
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4883887283070891580,
+        "start": 413319,
+        "end": 413339,
+        "text": "government agency",
+        "chunk_id": 2852538552063272496
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8511288690737366771,
+        "start": 413319,
+        "end": 413339,
+        "text": "restriction",
+        "chunk_id": 2852538552063272496
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2961194402489508914,
+        "start": 413319,
+        "end": 413339,
+        "text": "limited",
+        "chunk_id": 2852538552063272496
+      }
+    ]
+  },
+  {
+    "candidate_id": 8615469334948071600,
+    "entity": "REAL ID",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "increased",
+    "entity_evidence": [
+      {
+        "span_id": 8593079519424289192,
+        "start": 413149,
+        "end": 413157,
+        "text": "REAL ID",
+        "chunk_id": 2852538552063272496
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16989164510971016508,
+        "start": 413149,
+        "end": 413157,
+        "text": "technology",
+        "chunk_id": 2852538552063272496
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4561694571244469263,
+        "start": 413149,
+        "end": 413157,
+        "text": "promotion",
+        "chunk_id": 2852538552063272496
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3384491781534978354,
+        "start": 413149,
+        "end": 413157,
+        "text": "increased",
+        "chunk_id": 2852538552063272496
+      }
+    ]
+  }
+]

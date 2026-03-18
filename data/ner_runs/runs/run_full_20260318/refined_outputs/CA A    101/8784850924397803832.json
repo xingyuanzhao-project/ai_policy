@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 292603553652349777,
+    "source_group_id": 8784850924397803832,
+    "source_candidate_ids": [
+      6954716626605628020
+    ],
+    "entity": "State Department of Health Care Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conform the appropriation to revised revenue estimates",
+    "entity_evidence": [
+      {
+        "span_id": 1463809648064950229,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14106123350159319824,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7124578181429809449,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5730716366565491606,
+        "start": 833300,
+        "end": 833320,
+        "text": "State Department of Health Care Services",
+        "chunk_id": 7941570346351463712
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9035140420542131631,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "provision of legal services hours projection",
+    "entity_evidence": [
+      {
+        "span_id": 14410259891644048636,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13307583335411985898,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1128178573127708312,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16456538516150488342,
+        "start": 186992,
+        "end": 187012,
+        "text": "The Department of Justice",
+        "chunk_id": 7861507466131217895
+      }
+    ]
+  },
+  {
+    "candidate_id": 659639348687156953,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "transfer of funds",
+    "entity_evidence": [
+      {
+        "span_id": 16240580065478079142,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5862491899246532967,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7813943374041155814,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1494925768754328310,
+        "start": 186992,
+        "end": 187002,
+        "text": "The Controller",
+        "chunk_id": 7861507466131217895
+      }
+    ]
+  }
+]

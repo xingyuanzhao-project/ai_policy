@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18175974061427834761,
+    "source_group_id": 10404909245647408421,
+    "source_candidate_ids": [
+      15619532990245619215
+    ],
+    "entity": "California Horse Racing Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "proportionate share",
+    "entity_evidence": [
+      {
+        "span_id": 13355063587515396296,
+        "start": 286740,
+        "end": 286759,
+        "text": "For support of California Horse Racing Board",
+        "chunk_id": 15750306834382852595
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9069112131388434497,
+        "start": 286740,
+        "end": 286759,
+        "text": "For support of California Horse Racing Board",
+        "chunk_id": 15750306834382852595
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13784220237918561815,
+        "start": 286740,
+        "end": 286759,
+        "text": "For support of California Horse Racing Board",
+        "chunk_id": 15750306834382852595
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10494249362305387650,
+        "start": 286740,
+        "end": 286759,
+        "text": "For support of California Horse Racing Board",
+        "chunk_id": 15750306834382852595
+      }
+    ]
+  }
+]

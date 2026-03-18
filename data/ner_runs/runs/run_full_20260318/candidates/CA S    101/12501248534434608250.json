@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14928968848550000905,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "competitive bidding",
+    "entity_evidence": [
+      {
+        "span_id": 3170957210878847797,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding",
+        "chunk_id": 12501248534434608250
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3529655868804366448,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding",
+        "chunk_id": 12501248534434608250
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7476625735312099419,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding",
+        "chunk_id": 12501248534434608250
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2433867623978591670,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding",
+        "chunk_id": 12501248534434608250
+      }
+    ]
+  },
+  {
+    "candidate_id": 12377277200404301521,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "exclusive use aviation aircraft",
+    "entity_evidence": [
+      {
+        "span_id": 3768631956477599558,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding or the supervision or approval of another department or agency of state government for the procurement of or contracting with vendors for exclusive use aviation aircraft",
+        "chunk_id": 12501248534434608250
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16376978946107952696,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding or the supervision or approval of another department or agency of state government for the procurement of or contracting with vendors for exclusive use aviation aircraft",
+        "chunk_id": 12501248534434608250
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15931933413328370444,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding or the supervision or approval of another department or agency of state government for the procurement of or contracting with vendors for exclusive use aviation aircraft",
+        "chunk_id": 12501248534434608250
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10767090389676925623,
+        "start": 484703,
+        "end": 484723,
+        "text": "The Department of Forestry and Fire Protection is exempted from any applicable law requiring competitive bidding or the supervision or approval of another department or agency of state government for the procurement of or contracting with vendors for exclusive use aviation aircraft",
+        "chunk_id": 12501248534434608250
+      }
+    ]
+  }
+]

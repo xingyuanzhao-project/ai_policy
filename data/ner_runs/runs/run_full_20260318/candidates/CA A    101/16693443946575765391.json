@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11715204824258988159,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17462310834882452535,
+        "start": 1081724,
+        "end": 1081754,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 16693443946575765391
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18293993395403432894,
+        "start": 1081724,
+        "end": 1081754,
+        "text": "government agency",
+        "chunk_id": 16693443946575765391
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 654355384429489536,
+        "start": 1081724,
+        "end": 1081754,
+        "text": "restriction",
+        "chunk_id": 16693443946575765391
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9051181056162834905,
+        "start": 1081724,
+        "end": 1081754,
+        "text": "limited",
+        "chunk_id": 16693443946575765391
+      }
+    ]
+  },
+  {
+    "candidate_id": 7184475646979400503,
+    "entity": "Receiver",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 10069045007622687068,
+        "start": 1081824,
+        "end": 1081832,
+        "text": "Receiver",
+        "chunk_id": 16693443946575765391
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3409847190711186154,
+        "start": 1081824,
+        "end": 1081832,
+        "text": "individual",
+        "chunk_id": 16693443946575765391
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17524515122779591771,
+        "start": 1081824,
+        "end": 1081832,
+        "text": "promotion",
+        "chunk_id": 16693443946575765391
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2629623486207006688,
+        "start": 1081824,
+        "end": 1081832,
+        "text": "significant",
+        "chunk_id": 16693443946575765391
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14221420459423006926,
+    "source_group_id": 4141601649538457076,
+    "source_candidate_ids": [
+      6557342653135068889
+    ],
+    "entity": "Land Resource Protection",
+    "type": "program",
+    "attribute": "protection",
+    "value": "extensive",
+    "entity_evidence": [
+      {
+        "span_id": 12133497536724889633,
+        "start": 496504,
+        "end": 496524,
+        "text": "Land Resource Protection",
+        "chunk_id": 11764994846849861724
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8143112872895195369,
+        "start": 496504,
+        "end": 496524,
+        "text": "program",
+        "chunk_id": 11764994846849861724
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17573939935004335608,
+        "start": 496504,
+        "end": 496524,
+        "text": "protection",
+        "chunk_id": 11764994846849861724
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6493552986919611055,
+        "start": 496504,
+        "end": 496524,
+        "text": "extensive",
+        "chunk_id": 11764994846849861724
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1446931028854597868,
+    "source_group_id": 7413282043614421664,
+    "source_candidate_ids": [
+      2690039789386876422
+    ],
+    "entity": "Department of the California Highway Patrol",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of rental payments on lease-revenue bonds",
+    "entity_evidence": [
+      {
+        "span_id": 13564604790128857480,
+        "start": 422221,
+        "end": 422252,
+        "text": "For Department of the California Highway Patrol",
+        "chunk_id": 10048090651841374457
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12781873235412696005,
+        "start": 422253,
+        "end": 422272,
+        "text": "Department of the California Highway Patrol",
+        "chunk_id": 10048090651841374457
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2614802481947971306,
+        "start": 422273,
+        "end": 422284,
+        "text": "for rental payments on lease-revenue bonds",
+        "chunk_id": 10048090651841374457
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8807548409011221105,
+        "start": 422285,
+        "end": 422304,
+        "text": "rental payments on lease-revenue bonds",
+        "chunk_id": 10048090651841374457
+      }
+    ]
+  }
+]

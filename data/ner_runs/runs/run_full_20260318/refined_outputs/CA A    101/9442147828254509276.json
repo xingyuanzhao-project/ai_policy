@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2042473706192087351,
+    "source_group_id": 9442147828254509276,
+    "source_candidate_ids": [
+      7152406832740442174
+    ],
+    "entity": "community college districts",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 5490889165323078521,
+        "start": 1383946,
+        "end": 1383965,
+        "text": "increase their percentage of full-time faculty toward meeting the 75 percent full-time faculty target",
+        "chunk_id": 6898966006510856311
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8109936301730802321,
+        "start": 1383946,
+        "end": 1383965,
+        "text": "increase their percentage of full-time faculty toward meeting the 75 percent full-time faculty target",
+        "chunk_id": 6898966006510856311
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16111191519402662643,
+        "start": 1383946,
+        "end": 1383965,
+        "text": "increase their percentage of full-time faculty toward meeting the 75 percent full-time faculty target",
+        "chunk_id": 6898966006510856311
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10203009117166242411,
+        "start": 1383946,
+        "end": 1383965,
+        "text": "increase their percentage of full-time faculty toward meeting the 75 percent full-time faculty target",
+        "chunk_id": 6898966006510856311
+      }
+    ]
+  }
+]

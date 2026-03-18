@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8570782325420088810,
+    "entity": "Department of Veterans Affairs",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4032963377093678192,
+        "start": 1695389,
+        "end": 1695411,
+        "text": "Department of Veterans Affairs",
+        "chunk_id": 2360856903429066860
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2666276809834777259,
+        "start": 1695389,
+        "end": 1695411,
+        "text": "government agency",
+        "chunk_id": 2360856903429066860
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17010153511093819872,
+        "start": 1694494,
+        "end": 1694494,
+        "text": "",
+        "chunk_id": 2360856903429066860
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14255670499510976352,
+        "start": 1694494,
+        "end": 1694494,
+        "text": "",
+        "chunk_id": 2360856903429066860
+      }
+    ]
+  },
+  {
+    "candidate_id": 2400431074181423745,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "full",
+    "entity_evidence": [
+      {
+        "span_id": 6250273146624476134,
+        "start": 1694494,
+        "end": 1694494,
+        "text": "",
+        "chunk_id": 2360856903429066860
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1017435296891568302,
+        "start": 1694494,
+        "end": 1694494,
+        "text": "",
+        "chunk_id": 2360856903429066860
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16747682432795943503,
+        "start": 1694494,
+        "end": 1694494,
+        "text": "",
+        "chunk_id": 2360856903429066860
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15312942104397926566,
+        "start": 1694494,
+        "end": 1694494,
+        "text": "",
+        "chunk_id": 2360856903429066860
+      }
+    ]
+  }
+]

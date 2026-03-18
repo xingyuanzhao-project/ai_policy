@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11827474717682057534,
+    "entity": "Los Angeles Community College District",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9628782860866628061,
+        "start": 1346399,
+        "end": 1346419,
+        "text": "Los Angeles Community College District",
+        "chunk_id": 14699136179182852163
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10522285970868282521,
+        "start": 1346399,
+        "end": 1346419,
+        "text": "government agency",
+        "chunk_id": 14699136179182852163
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2911992124707044575,
+        "start": 1346399,
+        "end": 1346419,
+        "text": "restriction",
+        "chunk_id": 14699136179182852163
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14328912274710843448,
+        "start": 1346399,
+        "end": 1346419,
+        "text": "extremely restrictive",
+        "chunk_id": 14699136179182852163
+      }
+    ]
+  },
+  {
+    "candidate_id": 1287460926407093447,
+    "entity": "Camino College",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "moderately supportive",
+    "entity_evidence": [
+      {
+        "span_id": 5344142890807068106,
+        "start": 1346276,
+        "end": 1346286,
+        "text": "Camino College",
+        "chunk_id": 14699136179182852163
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15114690446162341558,
+        "start": 1346276,
+        "end": 1346286,
+        "text": "government agency",
+        "chunk_id": 14699136179182852163
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12517617338570285988,
+        "start": 1346276,
+        "end": 1346286,
+        "text": "promotion",
+        "chunk_id": 14699136179182852163
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1763840148510360957,
+        "start": 1346276,
+        "end": 1346286,
+        "text": "moderately supportive",
+        "chunk_id": 14699136179182852163
+      }
+    ]
+  }
+]

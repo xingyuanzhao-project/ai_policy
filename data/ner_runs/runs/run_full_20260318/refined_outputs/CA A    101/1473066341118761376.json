@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11634922374318576144,
+    "source_group_id": 1473066341118761376,
+    "source_candidate_ids": [
+      5076744440069000539
+    ],
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "issuing bonds",
+    "entity_evidence": [
+      {
+        "span_id": 17725272404465638722,
+        "start": 427405,
+        "end": 427421,
+        "text": "The State Public Works Board",
+        "chunk_id": 3641176922192914070
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3491927605770073027,
+        "start": 427405,
+        "end": 427421,
+        "text": "The State Public Works Board",
+        "chunk_id": 3641176922192914070
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1979638803695238689,
+        "start": 427421,
+        "end": 427441,
+        "text": "issuing bonds",
+        "chunk_id": 3641176922192914070
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13114523622186179016,
+        "start": 427421,
+        "end": 427441,
+        "text": "issuing bonds",
+        "chunk_id": 3641176922192914070
+      }
+    ]
+  }
+]

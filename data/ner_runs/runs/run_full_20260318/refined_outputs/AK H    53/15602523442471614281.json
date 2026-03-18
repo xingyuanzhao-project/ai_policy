@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8129648049073811129,
+    "source_group_id": 15602523442471614281,
+    "source_candidate_ids": [
+      4812271913074343047
+    ],
+    "entity": "Department of Labor and Workforce Development",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "expenditures incurred by the Department of Labor and Workforce Development",
+    "entity_evidence": [
+      {
+        "span_id": 776786487025821074,
+        "start": 33543,
+        "end": 33577,
+        "text": "expenditures incurred by the Department of Labor and Workforce Development",
+        "chunk_id": 13555122263021451610
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13313150429743875655,
+        "start": 33543,
+        "end": 33577,
+        "text": "expenditures incurred by the Department of Labor and Workforce Development",
+        "chunk_id": 13555122263021451610
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8701840538322716296,
+        "start": 33543,
+        "end": 33577,
+        "text": "expenditures incurred by the Department of Labor and Workforce Development",
+        "chunk_id": 13555122263021451610
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9197427888072196475,
+        "start": 33543,
+        "end": 33577,
+        "text": "expenditures incurred by the Department of Labor and Workforce Development",
+        "chunk_id": 13555122263021451610
+      }
+    ]
+  }
+]

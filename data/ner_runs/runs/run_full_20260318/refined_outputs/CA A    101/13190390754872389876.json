@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16366485051625144081,
+    "source_group_id": 13190390754872389876,
+    "source_candidate_ids": [
+      16722611641119385165
+    ],
+    "entity": "Non-LEA entities",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "six months",
+    "entity_evidence": [
+      {
+        "span_id": 17167746404377237156,
+        "start": 1228525,
+        "end": 1228533,
+        "text": "Non-LEA entities receiving funds pursuant to this item",
+        "chunk_id": 13014541345898189522
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8580360415827531836,
+        "start": 1228525,
+        "end": 1228533,
+        "text": "Non-LEA entities receiving funds pursuant to this item",
+        "chunk_id": 13014541345898189522
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17490640894267641264,
+        "start": 1228525,
+        "end": 1228533,
+        "text": "Non-LEA entities receiving funds pursuant to this item",
+        "chunk_id": 13014541345898189522
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7628336171700880836,
+        "start": 1228525,
+        "end": 1228533,
+        "text": "Non-LEA entities receiving funds pursuant to this item",
+        "chunk_id": 13014541345898189522
+      }
+    ]
+  }
+]

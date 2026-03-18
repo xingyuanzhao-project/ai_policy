@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9874750524038291485,
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "prompt posting",
+    "entity_evidence": [
+      {
+        "span_id": 1363955221098595024,
+        "start": 1621856,
+        "end": 1621880,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17473455874371205156
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1016444590950127773,
+        "start": 1621856,
+        "end": 1621880,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17473455874371205156
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7420401484306103975,
+        "start": 1621856,
+        "end": 1621880,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17473455874371205156
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1632946097655131424,
+        "start": 1621856,
+        "end": 1621880,
+        "text": "The Department of Human Resources",
+        "chunk_id": 17473455874371205156
+      }
+    ]
+  },
+  {
+    "candidate_id": 1105129294983163908,
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "notification",
+    "entity_evidence": [
+      {
+        "span_id": 6542545431037697470,
+        "start": 1621979,
+        "end": 1621999,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 17473455874371205156
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10360549707549376109,
+        "start": 1621979,
+        "end": 1621999,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 17473455874371205156
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 153514469292845623,
+        "start": 1621979,
+        "end": 1621999,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 17473455874371205156
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16565967593325652203,
+        "start": 1621979,
+        "end": 1621999,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 17473455874371205156
+      }
+    ]
+  }
+]

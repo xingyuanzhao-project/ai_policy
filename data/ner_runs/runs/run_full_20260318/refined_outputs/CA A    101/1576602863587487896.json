@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14684282434249108378,
+    "source_group_id": 1576602863587487896,
+    "source_candidate_ids": [
+      4326697190040618276
+    ],
+    "entity": "Coachella Valley Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 16548374032372895223,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11385552686879602905,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10009686833567692702,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14227322013391809772,
+        "start": 643198,
+        "end": 643222,
+        "text": "Coachella Valley Mountains Conservancy",
+        "chunk_id": 13050674073040132035
+      }
+    ]
+  }
+]

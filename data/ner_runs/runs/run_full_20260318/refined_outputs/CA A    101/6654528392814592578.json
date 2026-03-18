@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10593639624668636774,
+    "source_group_id": 6654528392814592578,
+    "source_candidate_ids": [
+      3352638086989710148
+    ],
+    "entity": "local educational agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reduce mandate reimbursement claims",
+    "entity_evidence": [
+      {
+        "span_id": 3733038905212368401,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9917027758394965237,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4241981390075920733,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7884105660973153045,
+        "start": 1212165,
+        "end": 1212184,
+        "text": "local educational agencies",
+        "chunk_id": 16826889534343807130
+      }
+    ]
+  }
+]

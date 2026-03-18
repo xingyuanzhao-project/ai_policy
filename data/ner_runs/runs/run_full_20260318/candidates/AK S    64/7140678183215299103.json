@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17783388476048096528,
+    "entity": "voting booths",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "specific specifications",
+    "entity_evidence": [
+      {
+        "span_id": 12550825000136734906,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14629388770803615278,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12597353932342942386,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6157687552746708049,
+        "start": 20693,
+        "end": 20701,
+        "text": "SUBJECT TO THE SPECIFICATIONS OF (a) OF THIS SECTION,",
+        "chunk_id": 7140678183215299103
+      }
+    ]
+  },
+  {
+    "candidate_id": 16471452922875472,
+    "entity": "polling place",
+    "type": "infrastructure",
+    "attribute": "requirement",
+    "value": "language assistance",
+    "entity_evidence": [
+      {
+        "span_id": 15506385802914471938,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12433691167757078497,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10559330554604160835,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14072945589800099050,
+        "start": 20804,
+        "end": 20812,
+        "text": "To the extent practicable, the division shall provide language assistance required under 52 U.S.C. 10503, as amended, at each polling place.",
+        "chunk_id": 7140678183215299103
+      }
+    ]
+  }
+]

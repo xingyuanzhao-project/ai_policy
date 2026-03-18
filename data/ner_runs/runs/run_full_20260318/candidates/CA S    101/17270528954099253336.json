@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8988540608561882271,
+    "entity": "Department of Health Care Access and Information",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 986622333039795642,
+        "start": 722586,
+        "end": 722615,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 17270528954099253336
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13038303388530976677,
+        "start": 722586,
+        "end": 722615,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 17270528954099253336
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2817643121039609954,
+        "start": 722586,
+        "end": 722615,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 17270528954099253336
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11065261830347587985,
+        "start": 722586,
+        "end": 722615,
+        "text": "Department of Health Care Access and Information",
+        "chunk_id": 17270528954099253336
+      }
+    ]
+  },
+  {
+    "candidate_id": 7728922726196339366,
+    "entity": "Licensed Mental Health Service Provider Education Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "increasing",
+    "entity_evidence": [
+      {
+        "span_id": 17515131840047515843,
+        "start": 722916,
+        "end": 722948,
+        "text": "Licensed Mental Health Service Provider Education Program",
+        "chunk_id": 17270528954099253336
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5863737566071655591,
+        "start": 722916,
+        "end": 722948,
+        "text": "Licensed Mental Health Service Provider Education Program",
+        "chunk_id": 17270528954099253336
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12322433782485937312,
+        "start": 722916,
+        "end": 722948,
+        "text": "Licensed Mental Health Service Provider Education Program",
+        "chunk_id": 17270528954099253336
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1996474021496104758,
+        "start": 722916,
+        "end": 722948,
+        "text": "Licensed Mental Health Service Provider Education Program",
+        "chunk_id": 17270528954099253336
+      }
+    ]
+  }
+]

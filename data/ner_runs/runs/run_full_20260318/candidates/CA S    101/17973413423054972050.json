@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11403931952187817399,
+    "entity": "Franchise Tax Board",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 7552745359015933754,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "For support of Franchise Tax Board",
+        "chunk_id": 17973413423054972050
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2893625977830583715,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "For support of Franchise Tax Board",
+        "chunk_id": 17973413423054972050
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17190505815438186980,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "For support of Franchise Tax Board",
+        "chunk_id": 17973413423054972050
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14049871314484396786,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "For support of Franchise Tax Board",
+        "chunk_id": 17973413423054972050
+      }
+    ]
+  },
+  {
+    "candidate_id": 8399185238713889773,
+    "entity": "Motor Vehicle Account",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 5892294498688405225,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 17973413423054972050
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5613310748124571932,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 17973413423054972050
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10299910269963583143,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 17973413423054972050
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7019700276111418737,
+        "start": 1453452,
+        "end": 1453472,
+        "text": "payable from the Motor Vehicle Account",
+        "chunk_id": 17973413423054972050
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16591869232590241592,
+    "entity": "local entities",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandated reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 10434896035153837045,
+        "start": 1674942,
+        "end": 1674952,
+        "text": "local entities",
+        "chunk_id": 10375143553597860419
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1387588003636211187,
+        "start": 1674942,
+        "end": 1674952,
+        "text": "local entities",
+        "chunk_id": 10375143553597860419
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14323003102593245825,
+        "start": 1674942,
+        "end": 1674952,
+        "text": "local entities",
+        "chunk_id": 10375143553597860419
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14096631085711920537,
+        "start": 1674942,
+        "end": 1674952,
+        "text": "local entities",
+        "chunk_id": 10375143553597860419
+      }
+    ]
+  },
+  {
+    "candidate_id": 11279227283514748540,
+    "entity": "Department of Pesticide Regulation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "mandated reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 6595508558796277236,
+        "start": 1674912,
+        "end": 1674942,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 10375143553597860419
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9779540137069403081,
+        "start": 1674912,
+        "end": 1674942,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 10375143553597860419
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3857847399803697508,
+        "start": 1674912,
+        "end": 1674942,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 10375143553597860419
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7399650329578860252,
+        "start": 1674912,
+        "end": 1674942,
+        "text": "Department of Pesticide Regulation",
+        "chunk_id": 10375143553597860419
+      }
+    ]
+  }
+]

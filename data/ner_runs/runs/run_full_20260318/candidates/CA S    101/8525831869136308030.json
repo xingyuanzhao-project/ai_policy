@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 236814596727392178,
+    "entity": "Department of Corrections and Rehabilitation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 11507391531039738596,
+        "start": 1002006,
+        "end": 1002028,
+        "text": "Department of Corrections and Rehabilitation",
+        "chunk_id": 8525831869136308030
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4709186949844309500,
+        "start": 1002006,
+        "end": 1002028,
+        "text": "government agency",
+        "chunk_id": 8525831869136308030
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8589742044910400109,
+        "start": 1002006,
+        "end": 1002028,
+        "text": "restriction",
+        "chunk_id": 8525831869136308030
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8989397493711228090,
+        "start": 1002006,
+        "end": 1002028,
+        "text": "specific",
+        "chunk_id": 8525831869136308030
+      }
+    ]
+  },
+  {
+    "candidate_id": 14111887221433133221,
+    "entity": "California Reentry and Enrichment Grant Program",
+    "type": "program",
+    "attribute": "promotion",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 14643166224469415166,
+        "start": 1002709,
+        "end": 1002735,
+        "text": "California Reentry and Enrichment Grant Program",
+        "chunk_id": 8525831869136308030
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 917607525518473934,
+        "start": 1002709,
+        "end": 1002735,
+        "text": "program",
+        "chunk_id": 8525831869136308030
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8292140680627290461,
+        "start": 1002709,
+        "end": 1002735,
+        "text": "promotion",
+        "chunk_id": 8525831869136308030
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13806332144177829462,
+        "start": 1002709,
+        "end": 1002735,
+        "text": "specific",
+        "chunk_id": 8525831869136308030
+      }
+    ]
+  }
+]

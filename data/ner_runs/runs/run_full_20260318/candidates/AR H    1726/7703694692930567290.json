@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15454759224257646449,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "require notice to users",
+    "entity_evidence": [
+      {
+        "span_id": 922560376292001992,
+        "start": 25714,
+        "end": 25726,
+        "text": "covered platform",
+        "chunk_id": 7703694692930567290
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 429899954560817167,
+        "start": 25714,
+        "end": 25726,
+        "text": "covered platform",
+        "chunk_id": 7703694692930567290
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16314306343774050890,
+        "start": 25714,
+        "end": 25726,
+        "text": "covered platform",
+        "chunk_id": 7703694692930567290
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14907999283630056012,
+        "start": 25714,
+        "end": 25726,
+        "text": "covered platform",
+        "chunk_id": 7703694692930567290
+      }
+    ]
+  },
+  {
+    "candidate_id": 5374525546249545475,
+    "entity": "upstream provider",
+    "type": "company",
+    "attribute": "restriction",
+    "value": "comply with the requirements of subdivision (b)(3) of this section",
+    "entity_evidence": [
+      {
+        "span_id": 3521862020594008067,
+        "start": 25714,
+        "end": 25727,
+        "text": "upstream provider",
+        "chunk_id": 7703694692930567290
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17940695037550035856,
+        "start": 25714,
+        "end": 25727,
+        "text": "upstream provider",
+        "chunk_id": 7703694692930567290
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10359988889173120478,
+        "start": 25714,
+        "end": 25727,
+        "text": "upstream provider",
+        "chunk_id": 7703694692930567290
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14960183506809284806,
+        "start": 25714,
+        "end": 25727,
+        "text": "upstream provider",
+        "chunk_id": 7703694692930567290
+      }
+    ]
+  }
+]

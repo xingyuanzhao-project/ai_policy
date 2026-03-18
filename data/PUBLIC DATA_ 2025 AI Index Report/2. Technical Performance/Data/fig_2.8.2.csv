@@ -1,0 +1,16 @@
+model,success_rate
+gemini-1.0-pro |58,6.3
+LLaVA-1.5,7.7
+CogVLM,8.4
+(Fine-tuning) CogAgent,8.9
+ LMMs CogVLM2,10.3
+LLaVA-NeXT,10.5
+GLM-4V,12.0
+InternVL-2,16.0
+gemini-1.5-pro |48,19.8
+(Prompting) gpt-4o-mini-2024-07-18,20.5
+claude-3-opus,21.9
+claude-3.5-sonnet,26.9
+gpt-4-turbo-0409,29.9
+gpt-4-vision-preview,31.7
+gpt-40-2024-05-13,36.2

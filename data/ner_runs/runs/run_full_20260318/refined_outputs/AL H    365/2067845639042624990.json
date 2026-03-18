@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 14857306192504084338,
+    "source_group_id": 2067845639042624990,
+    "source_candidate_ids": [
+      13319557139772967968,
+      14147544444500195384
+    ],
+    "entity": "STEM Council",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "four-year renewable term",
+    "entity_evidence": [
+      {
+        "span_id": 523317617053075947,
+        "start": 2390,
+        "end": 2400,
+        "text": "STEM Council",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14149679541931957197,
+        "start": 2390,
+        "end": 2400,
+        "text": "government agency",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5973085391135976676,
+        "start": 2390,
+        "end": 2400,
+        "text": "restriction",
+        "chunk_id": 4011835984818780199
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6170340866934800144,
+        "start": 2390,
+        "end": 2400,
+        "text": "four-year renewable term",
+        "chunk_id": 4011835984818780199
+      }
+    ]
+  }
+]

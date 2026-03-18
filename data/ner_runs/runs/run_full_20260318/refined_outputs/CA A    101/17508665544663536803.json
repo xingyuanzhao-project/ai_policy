@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14635217710007624759,
+    "source_group_id": 17508665544663536803,
+    "source_candidate_ids": [
+      11921278598741705538
+    ],
+    "entity": "Judicial Branch",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 9956593995309847717,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11330915291512769367,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5196784177523601717,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1790865051705390021,
+        "start": 24429,
+        "end": 24447,
+        "text": "For support of Judicial Branch",
+        "chunk_id": 7096829454165821156
+      }
+    ]
+  }
+]

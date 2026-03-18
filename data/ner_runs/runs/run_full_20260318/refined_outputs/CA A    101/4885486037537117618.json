@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6390370980523741784,
+    "source_group_id": 4885486037537117618,
+    "source_candidate_ids": [
+      11435725697953573957
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 8390154531351469552,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "State Department of Education",
+        "chunk_id": 2829810771200454719
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 96588185971099601,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "State Department of Education",
+        "chunk_id": 2829810771200454719
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12949869210090193442,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "State Department of Education",
+        "chunk_id": 2829810771200454719
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15841052808463960894,
+        "start": 1284225,
+        "end": 1284249,
+        "text": "State Department of Education",
+        "chunk_id": 2829810771200454719
+      }
+    ]
+  }
+]

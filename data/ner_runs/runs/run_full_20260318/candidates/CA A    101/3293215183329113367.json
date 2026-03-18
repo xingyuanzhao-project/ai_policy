@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1758044440302882051,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "contingent upon submittal of contract",
+    "entity_evidence": [
+      {
+        "span_id": 6322932431182750443,
+        "start": 1201957,
+        "end": 1201981,
+        "text": "State Department of Education",
+        "chunk_id": 3293215183329113367
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16780116479625134087,
+        "start": 1201957,
+        "end": 1201981,
+        "text": "government agency",
+        "chunk_id": 3293215183329113367
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5490528000819576730,
+        "start": 1201957,
+        "end": 1201981,
+        "text": "contingent upon submittal of contract",
+        "chunk_id": 3293215183329113367
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4636070473445199349,
+        "start": 1201957,
+        "end": 1201981,
+        "text": "contingent upon submittal of contract",
+        "chunk_id": 3293215183329113367
+      }
+    ]
+  },
+  {
+    "candidate_id": 6915018746777688527,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "adjustment",
+    "value": "reflect changes in actual reimbursements",
+    "entity_evidence": [
+      {
+        "span_id": 4857484461069864245,
+        "start": 1201957,
+        "end": 1201971,
+        "text": "Department of Finance",
+        "chunk_id": 3293215183329113367
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5580516917392273897,
+        "start": 1201957,
+        "end": 1201971,
+        "text": "government agency",
+        "chunk_id": 3293215183329113367
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16547559931009783810,
+        "start": 1201957,
+        "end": 1201971,
+        "text": "adjust adjustment",
+        "chunk_id": 3293215183329113367
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15002225104757241622,
+        "start": 1201957,
+        "end": 1201971,
+        "text": "reflect changes in actual reimbursements",
+        "chunk_id": 3293215183329113367
+      }
+    ]
+  }
+]

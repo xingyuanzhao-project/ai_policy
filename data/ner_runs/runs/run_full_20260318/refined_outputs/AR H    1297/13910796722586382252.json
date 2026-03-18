@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7662906549521390430,
+    "source_group_id": 13910796722586382252,
+    "source_candidate_ids": [
+      11138408027854796053
+    ],
+    "entity": "artificial intelligence-based algorithm",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17277088571135574860,
+        "start": 5206,
+        "end": 5221,
+        "text": "artificial intelligence-based algorithm recommendations",
+        "chunk_id": 11371255412416786267
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3025695270049911151,
+        "start": 5206,
+        "end": 5221,
+        "text": "artificial intelligence-based algorithm recommendations",
+        "chunk_id": 11371255412416786267
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5622132776724217380,
+        "start": 5206,
+        "end": 5221,
+        "text": "artificial intelligence-based algorithm recommendations",
+        "chunk_id": 11371255412416786267
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9910888696586890622,
+        "start": 5206,
+        "end": 5221,
+        "text": "artificial intelligence-based algorithm recommendations",
+        "chunk_id": 11371255412416786267
+      }
+    ]
+  }
+]

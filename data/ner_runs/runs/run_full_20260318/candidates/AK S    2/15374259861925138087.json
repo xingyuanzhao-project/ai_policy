@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13805572193729513411,
+    "entity": "state agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 12226446045488591735,
+        "start": 7417,
+        "end": 7429,
+        "text": "A state agency",
+        "chunk_id": 15374259861925138087
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15580528062687790851,
+        "start": 7417,
+        "end": 7429,
+        "text": "A state agency",
+        "chunk_id": 15374259861925138087
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12907249698622789678,
+        "start": 7417,
+        "end": 7429,
+        "text": "A state agency",
+        "chunk_id": 15374259861925138087
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16327975223436135512,
+        "start": 7417,
+        "end": 7429,
+        "text": "A state agency",
+        "chunk_id": 15374259861925138087
+      }
+    ]
+  },
+  {
+    "candidate_id": 2487206639149018916,
+    "entity": "generative artificial intelligence",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2925264275056273024,
+        "start": 7417,
+        "end": 7441,
+        "text": "generative artificial intelligence",
+        "chunk_id": 15374259861925138087
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8841445381809051183,
+        "start": 7417,
+        "end": 7441,
+        "text": "generative artificial intelligence",
+        "chunk_id": 15374259861925138087
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7190118106384168071,
+        "start": 7417,
+        "end": 7441,
+        "text": "generative artificial intelligence",
+        "chunk_id": 15374259861925138087
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7898347185056709565,
+        "start": 7417,
+        "end": 7441,
+        "text": "generative artificial intelligence",
+        "chunk_id": 15374259861925138087
+      }
+    ]
+  }
+]

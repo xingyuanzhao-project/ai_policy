@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8831163606861786891,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "temporary or permanent redirection of funds",
+    "entity_evidence": [
+      {
+        "span_id": 2970825199185812882,
+        "start": 468090,
+        "end": 468105,
+        "text": "Director of Finance",
+        "chunk_id": 2346667759433610736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9016562744737732046,
+        "start": 468106,
+        "end": 468121,
+        "text": "government agency",
+        "chunk_id": 2346667759433610736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 89562709334482673,
+        "start": 468122,
+        "end": 468137,
+        "text": "restriction",
+        "chunk_id": 2346667759433610736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15641900127131651734,
+        "start": 468138,
+        "end": 468155,
+        "text": "temporary or permanent redirection of funds",
+        "chunk_id": 2346667759433610736
+      }
+    ]
+  },
+  {
+    "candidate_id": 2296624786640078870,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "contractual services",
+    "entity_evidence": [
+      {
+        "span_id": 5180072036002173579,
+        "start": 468156,
+        "end": 468175,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 2346667759433610736
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16069682317365167049,
+        "start": 468176,
+        "end": 468191,
+        "text": "government agency",
+        "chunk_id": 2346667759433610736
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2171889243548936532,
+        "start": 468192,
+        "end": 468207,
+        "text": "promotion",
+        "chunk_id": 2346667759433610736
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18169162298040287007,
+        "start": 468208,
+        "end": 468218,
+        "text": "contractual services",
+        "chunk_id": 2346667759433610736
+      }
+    ]
+  }
+]

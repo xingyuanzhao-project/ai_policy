@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 87787155862445733,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exclusive allocation",
+    "entity_evidence": [
+      {
+        "span_id": 15014821839677234037,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "State Department of Education",
+        "chunk_id": 5492364947809575188
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12726123050807767579,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "State Department of Education",
+        "chunk_id": 5492364947809575188
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5126646489006559137,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "State Department of Education",
+        "chunk_id": 5492364947809575188
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16788176251694577446,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "State Department of Education",
+        "chunk_id": 5492364947809575188
+      }
+    ]
+  },
+  {
+    "candidate_id": 11853524421942942329,
+    "entity": "Adults in Correctional Facilities Program",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exclusive allocation",
+    "entity_evidence": [
+      {
+        "span_id": 13574640997242585527,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "Adults in Correctional Facilities Program",
+        "chunk_id": 5492364947809575188
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16174031297777478418,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "Adults in Correctional Facilities Program",
+        "chunk_id": 5492364947809575188
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2239606145495964844,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "Adults in Correctional Facilities Program",
+        "chunk_id": 5492364947809575188
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5452419211774008404,
+        "start": 1230480,
+        "end": 1230500,
+        "text": "Adults in Correctional Facilities Program",
+        "chunk_id": 5492364947809575188
+      }
+    ]
+  }
+]

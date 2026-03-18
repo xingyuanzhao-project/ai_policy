@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13249500288290119602,
+    "source_group_id": 8030438694002861489,
+    "source_candidate_ids": [
+      6208591664863826559
+    ],
+    "entity": "Behavioral Health Services Oversight and Accountability Commission",
+    "type": "government agency",
+    "attribute": "extension",
+    "value": "until June 30, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 13088910779341906276,
+        "start": 975118,
+        "end": 975166,
+        "text": "Behavioral Health Services Oversight and Accountability Commission",
+        "chunk_id": 9563769442250115059
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11752808965532178340,
+        "start": 975118,
+        "end": 975166,
+        "text": "government agency",
+        "chunk_id": 9563769442250115059
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 441070335032481379,
+        "start": 975118,
+        "end": 975166,
+        "text": "extension",
+        "chunk_id": 9563769442250115059
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9626589439062471858,
+        "start": 975118,
+        "end": 975166,
+        "text": "until June 30, 2026",
+        "chunk_id": 9563769442250115059
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6263097091177115615,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7186951214043401870,
+        "start": 1470763,
+        "end": 1470806,
+        "text": "7760-001-0956--For support of Department of General Services, payable from the State School Site Utilization Fund",
+        "chunk_id": 10258524483076340572
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1583803427754619315,
+        "start": 1470763,
+        "end": 1470806,
+        "text": "Department of General Services",
+        "chunk_id": 10258524483076340572
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2501994517449123198,
+        "start": 1470763,
+        "end": 1470806,
+        "text": "support of Department of General Services",
+        "chunk_id": 10258524483076340572
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12836136971819589825,
+        "start": 1470763,
+        "end": 1470806,
+        "text": "limited",
+        "chunk_id": 10258524483076340572
+      }
+    ]
+  },
+  {
+    "candidate_id": 9202992698931681091,
+    "entity": "Director of Finance",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "prior written consent",
+    "entity_evidence": [
+      {
+        "span_id": 13271542903134810476,
+        "start": 1470110,
+        "end": 1470130,
+        "text": "Any transfer made in accordance with this provision shall not result in an increase in any rate charged to other departments for services or the purchase of goods without prior written consent from the Director of Finance.",
+        "chunk_id": 10258524483076340572
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12550258400763813136,
+        "start": 1470110,
+        "end": 1470130,
+        "text": "Director of Finance",
+        "chunk_id": 10258524483076340572
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14339119177628922666,
+        "start": 1470110,
+        "end": 1470130,
+        "text": "prior written consent",
+        "chunk_id": 10258524483076340572
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11116941662658075073,
+        "start": 1470110,
+        "end": 1470130,
+        "text": "prior written consent",
+        "chunk_id": 10258524483076340572
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5620792656918152428,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "substantial effect of subverting or impairing user autonomy, decision-making, or choice",
+    "entity_evidence": [
+      {
+        "span_id": 13362342712113898470,
+        "start": 15454,
+        "end": 15467,
+        "text": "any covered platform",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2023524002825200515,
+        "start": 15468,
+        "end": 15477,
+        "text": "covered platform",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9888766579933122254,
+        "start": 15478,
+        "end": 15498,
+        "text": "with the purpose or substantial effect of subverting or impairing user autonomy, decision-making, or choice",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2428505667926580727,
+        "start": 15478,
+        "end": 15498,
+        "text": "with the purpose or substantial effect of subverting or impairing user autonomy, decision-making, or choice",
+        "chunk_id": 5220291259738137314
+      }
+    ]
+  },
+  {
+    "candidate_id": 10046085245756867548,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "weaken existing privacy and security protections",
+    "entity_evidence": [
+      {
+        "span_id": 15596250734836249449,
+        "start": 15454,
+        "end": 15467,
+        "text": "any covered platform",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5116533243297502238,
+        "start": 15468,
+        "end": 15477,
+        "text": "covered platform",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14485250741373737124,
+        "start": 15478,
+        "end": 15500,
+        "text": "prevent implementation of new privacy and security protections of a platform or service, including without limitation privacy-enhancing technologies",
+        "chunk_id": 5220291259738137314
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1134395192530672047,
+        "start": 15478,
+        "end": 15500,
+        "text": "prevent implementation of new privacy and security protections of a platform or service, including without limitation privacy-enhancing technologies",
+        "chunk_id": 5220291259738137314
+      }
+    ]
+  }
+]

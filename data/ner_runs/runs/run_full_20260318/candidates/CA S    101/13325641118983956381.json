@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 18089287855248695991,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16099772627234250039,
+        "start": 815359,
+        "end": 815383,
+        "text": "Schedule: (1) 4045-Public and Environmental Health .......... 17,673,000",
+        "chunk_id": 13325641118983956381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16041883857364874044,
+        "start": 815359,
+        "end": 815383,
+        "text": "Schedule: (1) 4045-Public and Environmental Health .......... 17,673,000",
+        "chunk_id": 13325641118983956381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15301056103397987584,
+        "start": 815359,
+        "end": 815383,
+        "text": "Schedule: (1) 4045-Public and Environmental Health .......... 17,673,000",
+        "chunk_id": 13325641118983956381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7513091391527857819,
+        "start": 815359,
+        "end": 815383,
+        "text": "Schedule: (1) 4045-Public and Environmental Health .......... 17,673,000",
+        "chunk_id": 13325641118983956381
+      }
+    ]
+  },
+  {
+    "candidate_id": 135880678604991909,
+    "entity": "Surveillance, Health, Intervention, and Environmental Lead Database project",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8985325219948607054,
+        "start": 815359,
+        "end": 815403,
+        "text": "The expenditure is authorized no sooner than 30 calendar days after written notification to the Chairperson of the Joint Legislative Budget Committee, or whatever lesser time the Chairperson of the Joint Legislative Budget Committee, or the chairperson's designee, may determine.",
+        "chunk_id": 13325641118983956381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3406914320812633053,
+        "start": 815359,
+        "end": 815403,
+        "text": "The expenditure is authorized no sooner than 30 calendar days after written notification to the Chairperson of the Joint Legislative Budget Committee, or whatever lesser time the Chairperson of the Joint Legislative Budget Committee, or the chairperson's designee, may determine.",
+        "chunk_id": 13325641118983956381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9839512093215529717,
+        "start": 815359,
+        "end": 815403,
+        "text": "The expenditure is authorized no sooner than 30 calendar days after written notification to the Chairperson of the Joint Legislative Budget Committee, or whatever lesser time the Chairperson of the Joint Legislative Budget Committee, or the chairperson's designee, may determine.",
+        "chunk_id": 13325641118983956381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8669963737822772864,
+        "start": 815359,
+        "end": 815403,
+        "text": "The expenditure is authorized no sooner than 30 calendar days after written notification to the Chairperson of the Joint Legislative Budget Committee, or whatever lesser time the Chairperson of the Joint Legislative Budget Committee, or the chairperson's designee, may determine.",
+        "chunk_id": 13325641118983956381
+      }
+    ]
+  }
+]

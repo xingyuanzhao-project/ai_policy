@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13986974296853668004,
+    "entity": "California Community Colleges",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 18001025169698776406,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13803614415731955376,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15185800043874232918,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14492315675882515441,
+        "start": 1411230,
+        "end": 1411250,
+        "text": "Chancellor's Office of the California Community Colleges",
+        "chunk_id": 6113526330382929566
+      }
+    ]
+  },
+  {
+    "candidate_id": 168575913865078102,
+    "entity": "Rising Scholars Network",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 11110176377688899664,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15462135006252902954,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9789793536809414830,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4973705975830538710,
+        "start": 1411341,
+        "end": 1411362,
+        "text": "Rising Scholars Network pursuant to Article 6",
+        "chunk_id": 6113526330382929566
+      }
+    ]
+  }
+]

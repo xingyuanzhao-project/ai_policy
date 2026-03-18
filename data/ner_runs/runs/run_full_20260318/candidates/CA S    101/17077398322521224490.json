@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15997226406548632571,
+    "entity": "Secretary of California Health and Human Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific programs",
+    "entity_evidence": [
+      {
+        "span_id": 2948282389228758040,
+        "start": 86624,
+        "end": 86654,
+        "text": "Secretary of California Health and Human Services",
+        "chunk_id": 17077398322521224490
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18380318374085099847,
+        "start": 86624,
+        "end": 86654,
+        "text": "Secretary of California Health and Human Services",
+        "chunk_id": 17077398322521224490
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18328768068910773620,
+        "start": 86624,
+        "end": 86654,
+        "text": "Secretary of California Health and Human Services",
+        "chunk_id": 17077398322521224490
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16065923722645229948,
+        "start": 86624,
+        "end": 86654,
+        "text": "Secretary of California Health and Human Services",
+        "chunk_id": 17077398322521224490
+      }
+    ]
+  },
+  {
+    "candidate_id": 16144363868844008504,
+    "entity": "Office of Youth and Community Restoration",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific programs",
+    "entity_evidence": [
+      {
+        "span_id": 5927254514355042523,
+        "start": 86624,
+        "end": 86654,
+        "text": "Office of Youth and Community Restoration",
+        "chunk_id": 17077398322521224490
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15725755647097643935,
+        "start": 86624,
+        "end": 86654,
+        "text": "Office of Youth and Community Restoration",
+        "chunk_id": 17077398322521224490
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8802612314811417718,
+        "start": 86624,
+        "end": 86654,
+        "text": "Office of Youth and Community Restoration",
+        "chunk_id": 17077398322521224490
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4748217174552958987,
+        "start": 86624,
+        "end": 86654,
+        "text": "Office of Youth and Community Restoration",
+        "chunk_id": 17077398322521224490
+      }
+    ]
+  }
+]

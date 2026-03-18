@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1265817752642459897,
+    "source_group_id": 11470718576093813953,
+    "source_candidate_ids": [
+      15974739550882385126
+    ],
+    "entity": "Public Building Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 14657082500853352917,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 242362683217365936,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2718405380150957673,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7354999731650451862,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ]
+  }
+]

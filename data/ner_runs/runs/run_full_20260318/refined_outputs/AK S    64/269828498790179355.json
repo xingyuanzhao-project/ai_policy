@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1476243536082750697,
+    "source_group_id": 269828498790179355,
+    "source_candidate_ids": [
+      13875467777461441101
+    ],
+    "entity": "polling place",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "secure",
+    "entity_evidence": [
+      {
+        "span_id": 6204587492536670783,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13639898214940088506,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9900772568049572,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15099427475636784615,
+        "start": 18229,
+        "end": 18236,
+        "text": "suitable ballot boxes that will ensure ASSURE security",
+        "chunk_id": 11911211345487516491
+      }
+    ]
+  }
+]

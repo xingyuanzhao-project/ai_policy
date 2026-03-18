@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2396002617432825517,
+    "source_group_id": 12409777489757570735,
+    "source_candidate_ids": [
+      224109581042332595
+    ],
+    "entity": "Department of Community Services and Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14479730391050712044,
+        "start": 975146,
+        "end": 975177,
+        "text": "Department of Community Services and Development",
+        "chunk_id": 9563769442250115059
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 831396367412062293,
+        "start": 975146,
+        "end": 975177,
+        "text": "government agency",
+        "chunk_id": 9563769442250115059
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9978332008185331860,
+        "start": 975146,
+        "end": 975177,
+        "text": "restriction",
+        "chunk_id": 9563769442250115059
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13999126326679834967,
+        "start": 975146,
+        "end": 975177,
+        "text": "limited",
+        "chunk_id": 9563769442250115059
+      }
+    ]
+  }
+]

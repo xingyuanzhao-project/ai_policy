@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14273545419477011602,
+    "entity": "Exide Technologies",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "prohibition",
+    "entity_evidence": [
+      {
+        "span_id": 6663548245016293200,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13586156272135197895,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18267389385478572087,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5936355832193874806,
+        "start": 745991,
+        "end": 746003,
+        "text": "Exide Technologies",
+        "chunk_id": 15221685203972836571
+      }
+    ]
+  },
+  {
+    "candidate_id": 1353521230354969213,
+    "entity": "Toxic Substances Control Account",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 14748443571733492357,
+        "start": 745991,
+        "end": 746003,
+        "text": "Toxic Substances Control Account",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 325739053267930341,
+        "start": 745991,
+        "end": 746003,
+        "text": "Toxic Substances Control Account",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11179500080128270094,
+        "start": 745991,
+        "end": 746003,
+        "text": "Toxic Substances Control Account",
+        "chunk_id": 15221685203972836571
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10426883775196429303,
+        "start": 745991,
+        "end": 746003,
+        "text": "Toxic Substances Control Account",
+        "chunk_id": 15221685203972836571
+      }
+    ]
+  }
+]

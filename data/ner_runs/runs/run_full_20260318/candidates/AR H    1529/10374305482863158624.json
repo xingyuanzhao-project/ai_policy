@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12778746651457400120,
+    "entity": "deepfake visual material",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "reasonable safeguards",
+    "entity_evidence": [
+      {
+        "span_id": 12239437260759213510,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5925078262227998535,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5462154881156439492,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16114537656729994901,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ]
+  },
+  {
+    "candidate_id": 4142042959437441026,
+    "entity": "image generation technology",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "reasonable safeguards",
+    "entity_evidence": [
+      {
+        "span_id": 14571557650519954099,
+        "start": 2447,
+        "end": 2467,
+        "text": "image generation technology",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13948198209813174308,
+        "start": 2447,
+        "end": 2467,
+        "text": "image generation technology",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3492665765430563035,
+        "start": 2447,
+        "end": 2467,
+        "text": "image generation technology",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17438722555150067333,
+        "start": 2447,
+        "end": 2467,
+        "text": "image generation technology",
+        "chunk_id": 10374305482863158624
+      }
+    ]
+  }
+]

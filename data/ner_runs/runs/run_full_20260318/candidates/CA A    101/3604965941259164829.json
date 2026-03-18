@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8630870233434616878,
+    "entity": "Federal Trust Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 12507940395815182416,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "Federal Trust Fund",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16490367654231200711,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "infrastructure",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14632108295981485598,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "restriction",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11906729641986451222,
+        "start": 1793646,
+        "end": 1793666,
+        "text": "identification",
+        "chunk_id": 3604965941259164829
+      }
+    ]
+  },
+  {
+    "candidate_id": 13812057137261842546,
+    "entity": "state agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "identification",
+    "entity_evidence": [
+      {
+        "span_id": 7365622873579973955,
+        "start": 1793646,
+        "end": 1793656,
+        "text": "state agency",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4153015811886753056,
+        "start": 1793646,
+        "end": 1793656,
+        "text": "government agency",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9299011520204661525,
+        "start": 1793646,
+        "end": 1793656,
+        "text": "restriction",
+        "chunk_id": 3604965941259164829
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12393569094052875132,
+        "start": 1793646,
+        "end": 1793656,
+        "text": "identification",
+        "chunk_id": 3604965941259164829
+      }
+    ]
+  }
+]

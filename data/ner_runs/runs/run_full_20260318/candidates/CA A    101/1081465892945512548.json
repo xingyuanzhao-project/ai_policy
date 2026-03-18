@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10947793287354892466,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 7188457214687867390,
+        "start": 38973,
+        "end": 38986,
+        "text": "The Judicial Council",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18219100476193201702,
+        "start": 38973,
+        "end": 38986,
+        "text": "The Judicial Council",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15382303892657298113,
+        "start": 38973,
+        "end": 38986,
+        "text": "The Judicial Council",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12003111147854376320,
+        "start": 38973,
+        "end": 38986,
+        "text": "The Judicial Council",
+        "chunk_id": 1081465892945512548
+      }
+    ]
+  },
+  {
+    "candidate_id": 9780232397929615810,
+    "entity": "State Public Defender",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "allocation",
+    "entity_evidence": [
+      {
+        "span_id": 1037156672133202406,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8847964560843575232,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2514209606291647775,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10362712607824109230,
+        "start": 39251,
+        "end": 39264,
+        "text": "State Public Defender",
+        "chunk_id": 1081465892945512548
+      }
+    ]
+  }
+]

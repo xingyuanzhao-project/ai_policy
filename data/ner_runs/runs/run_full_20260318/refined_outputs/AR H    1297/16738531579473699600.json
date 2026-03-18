@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13455828799852172164,
+    "source_group_id": 16738531579473699600,
+    "source_candidate_ids": [
+      2019253182032192197
+    ],
+    "entity": "artificial intelligence-based algorithm",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "independent change or creation",
+    "entity_evidence": [
+      {
+        "span_id": 2918247630516253638,
+        "start": 10279,
+        "end": 10293,
+        "text": "Independently change or create coverage criteria.",
+        "chunk_id": 3488618318353517502
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1145583104301786861,
+        "start": 10279,
+        "end": 10293,
+        "text": "Independently change or create coverage criteria.",
+        "chunk_id": 3488618318353517502
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4227189232138812732,
+        "start": 10279,
+        "end": 10293,
+        "text": "Independently change or create coverage criteria.",
+        "chunk_id": 3488618318353517502
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9422082189747968978,
+        "start": 10279,
+        "end": 10293,
+        "text": "Independently change or create coverage criteria.",
+        "chunk_id": 3488618318353517502
+      }
+    ]
+  }
+]

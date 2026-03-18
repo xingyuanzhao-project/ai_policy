@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 38935999894437008,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "clear and conspicuous warnings",
+    "entity_evidence": [
+      {
+        "span_id": 16724312360576860234,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5373886496147468659,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 406388446356895233,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17104630765638455076,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ]
+  },
+  {
+    "candidate_id": 3819703715601519754,
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "knowing or reckless violation",
+    "entity_evidence": [
+      {
+        "span_id": 8779123812672717802,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6439007764235452913,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8568939253935650323,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3717436730384784971,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ]
+  }
+]

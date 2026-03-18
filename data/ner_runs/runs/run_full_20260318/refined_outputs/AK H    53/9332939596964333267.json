@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9747184234431929780,
+    "source_group_id": 9332939596964333267,
+    "source_candidate_ids": [
+      12614864670076501579
+    ],
+    "entity": "Office of Management and Budget",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "zero-based budgeting principles",
+    "entity_evidence": [
+      {
+        "span_id": 2029050036391448306,
+        "start": 23568,
+        "end": 23592,
+        "text": "Office of Management and Budget",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17773832654868075028,
+        "start": 23593,
+        "end": 23609,
+        "text": "government agency",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16323583736849597405,
+        "start": 23610,
+        "end": 23621,
+        "text": "restriction",
+        "chunk_id": 18038833626742459822
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10993836355282280707,
+        "start": 23622,
+        "end": 23637,
+        "text": "zero-based budgeting principles",
+        "chunk_id": 18038833626742459822
+      }
+    ]
+  }
+]

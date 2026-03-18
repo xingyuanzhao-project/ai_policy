@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18258027425995144847,
+    "source_group_id": 7946860478101946377,
+    "source_candidate_ids": [
+      3746667663524466783
+    ],
+    "entity": "California Energy Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "grants awarded",
+    "entity_evidence": [
+      {
+        "span_id": 3527153326476193513,
+        "start": 349449,
+        "end": 349467,
+        "text": "California Energy Commission",
+        "chunk_id": 6635682350340753982
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7182797250582780036,
+        "start": 349449,
+        "end": 349467,
+        "text": "California Energy Commission",
+        "chunk_id": 6635682350340753982
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 539039089199949277,
+        "start": 349467,
+        "end": 349475,
+        "text": "in accordance with",
+        "chunk_id": 6635682350340753982
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8523596431533585579,
+        "start": 349475,
+        "end": 349484,
+        "text": "grants awarded",
+        "chunk_id": 6635682350340753982
+      }
+    ]
+  }
+]

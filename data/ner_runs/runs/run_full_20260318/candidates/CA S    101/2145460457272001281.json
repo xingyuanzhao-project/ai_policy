@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12417859270790966279,
+    "entity": "K-12 High-Speed Network",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exclusion from indirect costs",
+    "entity_evidence": [
+      {
+        "span_id": 6873143269894390851,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "All major subcontracts of the K-12 High-Speed Network program shall be excluded",
+        "chunk_id": 2145460457272001281
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15973496772648686755,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "All major subcontracts of the K-12 High-Speed Network program",
+        "chunk_id": 2145460457272001281
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3529893500795413456,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "excluded from both the eligible program costs",
+        "chunk_id": 2145460457272001281
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12314288796551844205,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "excluded from both the eligible program costs",
+        "chunk_id": 2145460457272001281
+      }
+    ]
+  },
+  {
+    "candidate_id": 1699378700969935043,
+    "entity": "K-12 High-Speed Network",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exclusion from indirect cost rate calculation",
+    "entity_evidence": [
+      {
+        "span_id": 2524133044287200290,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "All major subcontracts of the K-12 High-Speed Network program shall be excluded",
+        "chunk_id": 2145460457272001281
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2321817878727708747,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "All major subcontracts of the K-12 High-Speed Network program",
+        "chunk_id": 2145460457272001281
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12126952108223593903,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "from the calculation of the indirect cost rate",
+        "chunk_id": 2145460457272001281
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17791768109423441802,
+        "start": 1165056,
+        "end": 1165077,
+        "text": "from the calculation of the indirect cost rate",
+        "chunk_id": 2145460457272001281
+      }
+    ]
+  }
+]

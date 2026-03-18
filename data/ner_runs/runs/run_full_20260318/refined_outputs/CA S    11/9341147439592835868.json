@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 7212820693574722759,
+    "source_group_id": 9341147439592835868,
+    "source_candidate_ids": [
+      8088599061458456475,
+      14908205725453714436
+    ],
+    "entity": "artificial intelligence",
+    "type": "technology",
+    "attribute": "regulation",
+    "value": "screening",
+    "entity_evidence": [
+      {
+        "span_id": 13483012981241910756,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3210635329400804700,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11201564911116127656,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3141443457530478301,
+        "start": 11024,
+        "end": 11043,
+        "text": "Screening of Writings for Synthetic Content",
+        "chunk_id": 9471025685878442863
+      }
+    ]
+  }
+]

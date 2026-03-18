@@ -1,0 +1,242 @@
+[
+  {
+    "refined_id": 10603166732404712726,
+    "source_group_id": 15012125282810482020,
+    "source_candidate_ids": [
+      13005543108934222934,
+      7822875483319991736
+    ],
+    "entity": "state agencies",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 9644211691385243535,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2745704910393034597,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11202220030763634913,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1867051698613391022,
+        "start": 166,
+        "end": 174,
+        "text": "restrictions on state agencies",
+        "chunk_id": 7095920490113711135
+      }
+    ]
+  },
+  {
+    "refined_id": 16122643728137611097,
+    "source_group_id": 1666152319846877874,
+    "source_candidate_ids": [
+      15592424757796312,
+      2557766460093934306
+    ],
+    "entity": "Attorney General",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 12731397450055995610,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9590793791087569904,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11952956990464693769,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1766638646144290140,
+        "start": 1332,
+        "end": 1346,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 5141959581575278976
+      }
+    ]
+  },
+  {
+    "refined_id": 17856915018641903678,
+    "source_group_id": 10131841734720024238,
+    "source_candidate_ids": [
+      4340738448571544934,
+      8513928697118193655
+    ],
+    "entity": "Attorney General",
+    "type": "Government Agency",
+    "attribute": "Restriction",
+    "value": "Limited to those assigned by law",
+    "entity_evidence": [
+      {
+        "span_id": 1777455560901526977,
+        "start": 3989,
+        "end": 4002,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 10086946875441227400
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8042380450167737533,
+        "start": 4003,
+        "end": 4010,
+        "text": "THE ATTORNEY GENERAL",
+        "chunk_id": 10086946875441227400
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7223821921200169153,
+        "start": 4011,
+        "end": 4023,
+        "text": "limited to those assigned by law",
+        "chunk_id": 10086946875441227400
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15528733081703136411,
+        "start": 4024,
+        "end": 4043,
+        "text": "limited to those assigned by law",
+        "chunk_id": 10086946875441227400
+      }
+    ]
+  },
+  {
+    "refined_id": 16769373164698008802,
+    "source_group_id": 15801703447771391081,
+    "source_candidate_ids": [
+      1471729495145566342,
+      14912760189591307265
+    ],
+    "entity": "Attorney General",
+    "type": "Government Agency",
+    "attribute": "Restriction",
+    "value": "Disqualified",
+    "entity_evidence": [
+      {
+        "span_id": 14561635042877234451,
+        "start": 6546,
+        "end": 6559,
+        "text": "that the attorney general",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14320918981420086220,
+        "start": 6560,
+        "end": 6569,
+        "text": "the attorney general",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1637904583157790869,
+        "start": 6570,
+        "end": 6577,
+        "text": "from providing judicial or quasi-judicial legal representation",
+        "chunk_id": 10673180540216419368
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10069623846834248277,
+        "start": 6578,
+        "end": 6585,
+        "text": "in relation to any particular matter",
+        "chunk_id": 10673180540216419368
+      }
+    ]
+  },
+  {
+    "refined_id": 12638828602410576909,
+    "source_group_id": 8726836942816475738,
+    "source_candidate_ids": [
+      12839113486490340323,
+      1730867038094466649
+    ],
+    "entity": "attorney general agency services fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "exempt",
+    "entity_evidence": [
+      {
+        "span_id": 14998578377004821959,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16689867692167568117,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8701451089651356207,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6977417729680059653,
+        "start": 8598,
+        "end": 8619,
+        "text": "attorney general agency services fund",
+        "chunk_id": 15718661648334919165
+      }
+    ]
+  }
+]

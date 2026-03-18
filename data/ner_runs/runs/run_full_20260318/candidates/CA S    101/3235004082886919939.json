@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9260383158859260278,
+    "entity": "California Transportation Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 861613556891245708,
+        "start": 342237,
+        "end": 342263,
+        "text": "California Transportation Commission",
+        "chunk_id": 3235004082886919939
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4939254494164289046,
+        "start": 342237,
+        "end": 342263,
+        "text": "government agency",
+        "chunk_id": 3235004082886919939
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1490914863473726842,
+        "start": 342237,
+        "end": 342263,
+        "text": "restriction",
+        "chunk_id": 3235004082886919939
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8475993052295384017,
+        "start": 342237,
+        "end": 342263,
+        "text": "until June 30, 2027",
+        "chunk_id": 3235004082886919939
+      }
+    ]
+  },
+  {
+    "candidate_id": 16172607021491188440,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "approval",
+    "value": "prior approval",
+    "entity_evidence": [
+      {
+        "span_id": 13578605751508797283,
+        "start": 342237,
+        "end": 342251,
+        "text": "Department of Finance",
+        "chunk_id": 3235004082886919939
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17230772275422785089,
+        "start": 342237,
+        "end": 342251,
+        "text": "government agency",
+        "chunk_id": 3235004082886919939
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14273224972965161626,
+        "start": 342237,
+        "end": 342251,
+        "text": "approval",
+        "chunk_id": 3235004082886919939
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11439275601964968910,
+        "start": 342237,
+        "end": 342251,
+        "text": "prior approval",
+        "chunk_id": 3235004082886919939
+      }
+    ]
+  }
+]

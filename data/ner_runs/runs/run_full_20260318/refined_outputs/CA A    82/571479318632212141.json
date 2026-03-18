@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 13301576719430273312,
+    "source_group_id": 571479318632212141,
+    "source_candidate_ids": [
+      16340259443127104718,
+      11670773717108762511
+    ],
+    "entity": "CURES database",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3220417027652597836,
+        "start": 39202,
+        "end": 39211,
+        "text": "CURES database",
+        "chunk_id": 4015611474376119986
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7819984085150891423,
+        "start": 39202,
+        "end": 39211,
+        "text": "CURES database",
+        "chunk_id": 4015611474376119986
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8011247294190714341,
+        "start": 39202,
+        "end": 39211,
+        "text": "CURES database",
+        "chunk_id": 4015611474376119986
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7395566903383500982,
+        "start": 39202,
+        "end": 39211,
+        "text": "CURES database",
+        "chunk_id": 4015611474376119986
+      }
+    ]
+  }
+]

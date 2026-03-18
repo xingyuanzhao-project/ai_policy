@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15367595018903206163,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 5670528512854849083,
+        "start": 1278320,
+        "end": 1278328,
+        "text": "ve order, for disbursement by the Controller",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16274576411188189988,
+        "start": 1278320,
+        "end": 1278328,
+        "text": "ve order, for disbursement by the Controller",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15495674048663795562,
+        "start": 1278320,
+        "end": 1278328,
+        "text": "ve order, for disbursement by the Controller",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16751699899162579566,
+        "start": 1278320,
+        "end": 1278328,
+        "text": "ve order, for disbursement by the Controller",
+        "chunk_id": 9894014964738203412
+      }
+    ]
+  },
+  {
+    "candidate_id": 16838065285298014431,
+    "entity": "Mandated Cost Reimbursement Program",
+    "type": "program",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 4249864709696307823,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10203411977331969102,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14747751996893498512,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14661225555591365060,
+        "start": 1278344,
+        "end": 1278371,
+        "text": "Mandated Cost Reimbursement Program",
+        "chunk_id": 9894014964738203412
+      }
+    ]
+  }
+]

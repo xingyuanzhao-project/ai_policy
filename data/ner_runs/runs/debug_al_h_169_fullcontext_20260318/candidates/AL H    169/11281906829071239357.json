@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7580861178612510945,
+    "entity": "University of Alabama at Birmingham",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 11466690007962551790,
+        "start": 93262,
+        "end": 93282,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3647367169708360614,
+        "start": 93262,
+        "end": 93282,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11432479415283644075,
+        "start": 93262,
+        "end": 93282,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7161533891159430242,
+        "start": 93262,
+        "end": 93282,
+        "text": "University of Alabama at Birmingham",
+        "chunk_id": 11281906829071239357
+      }
+    ]
+  },
+  {
+    "candidate_id": 4044739263559594722,
+    "entity": "Alabama A&M University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "none",
+    "entity_evidence": [
+      {
+        "span_id": 6465243715732951458,
+        "start": 93362,
+        "end": 93382,
+        "text": "Alabama A&M University",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4971302269393947796,
+        "start": 93362,
+        "end": 93382,
+        "text": "Alabama A&M University",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5270179696075636955,
+        "start": 93362,
+        "end": 93382,
+        "text": "Alabama A&M University",
+        "chunk_id": 11281906829071239357
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1834409375273447433,
+        "start": 93362,
+        "end": 93382,
+        "text": "Alabama A&M University",
+        "chunk_id": 11281906829071239357
+      }
+    ]
+  }
+]

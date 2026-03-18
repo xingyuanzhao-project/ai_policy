@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13670892478554261026,
+    "entity": "Department of Resources Recycling and Recovery",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "local assistance",
+    "entity_evidence": [
+      {
+        "span_id": 4074823291569912815,
+        "start": 776923,
+        "end": 776945,
+        "text": "For local assistance, Department of Resources Recycling and Recovery",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9552930117691536259,
+        "start": 776923,
+        "end": 776945,
+        "text": "For local assistance, Department of Resources Recycling and Recovery",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10070061461937171427,
+        "start": 776923,
+        "end": 776945,
+        "text": "For local assistance, Department of Resources Recycling and Recovery",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6278622526241152929,
+        "start": 776923,
+        "end": 776945,
+        "text": "For local assistance, Department of Resources Recycling and Recovery",
+        "chunk_id": 16408021156963085141
+      }
+    ]
+  },
+  {
+    "candidate_id": 3463035894034255146,
+    "entity": "California Beverage Container Recycling Fund",
+    "type": "government agency",
+    "attribute": "reappropriation",
+    "value": "California Beverage Container Recycling Fund",
+    "entity_evidence": [
+      {
+        "span_id": 18335227162017850965,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 447888590833006293,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10615924171537102723,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 431977212699346409,
+        "start": 777871,
+        "end": 777893,
+        "text": "California Beverage Container Recycling Fund",
+        "chunk_id": 16408021156963085141
+      }
+    ]
+  }
+]

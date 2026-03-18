@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6829459903980417209,
+    "source_group_id": 11529321678486871197,
+    "source_candidate_ids": [
+      15506728460550397735
+    ],
+    "entity": "California Arts Council",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "funding",
+    "entity_evidence": [
+      {
+        "span_id": 11830320370416792702,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7411914250933264889,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14769432476290756038,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7327245339677612531,
+        "start": 1613362,
+        "end": 1613380,
+        "text": "California Arts Council",
+        "chunk_id": 1158404996288327539
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15347301197845619651,
+    "entity": "Arizona criminal justice commission",
+    "type": "government agency",
+    "attribute": "transfer",
+    "value": "all administrative matters, contracts and judicial and quasi-judicial actions",
+    "entity_evidence": [
+      {
+        "span_id": 7178428807674148185,
+        "start": 40896,
+        "end": 40920,
+        "text": "e valid obligations of the Arizona criminal justice commission",
+        "chunk_id": 7773976688822839057
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10302484851570004018,
+        "start": 40920,
+        "end": 40939,
+        "text": "the Arizona criminal justice commission",
+        "chunk_id": 7773976688822839057
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11337679845287365206,
+        "start": 40939,
+        "end": 40947,
+        "text": "continue in effect until superseded by administrative action",
+        "chunk_id": 7773976688822839057
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11304420732750550906,
+        "start": 40947,
+        "end": 40970,
+        "text": "all administrative matters, contracts and judicial and quasi-judicial actions",
+        "chunk_id": 7773976688822839057
+      }
+    ]
+  },
+  {
+    "candidate_id": 15212944090438860437,
+    "entity": "sheriffs' criminal justice commission",
+    "type": "government agency",
+    "attribute": "recipient",
+    "value": "all administrative matters, contracts and judicial and quasi-judicial actions",
+    "entity_evidence": [
+      {
+        "span_id": 2220706475357773508,
+        "start": 40939,
+        "end": 40959,
+        "text": "the sheriffs' criminal justice commission",
+        "chunk_id": 7773976688822839057
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16828220672512480273,
+        "start": 40959,
+        "end": 40978,
+        "text": "the sheriffs' criminal justice commission",
+        "chunk_id": 7773976688822839057
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12200981416730332243,
+        "start": 40978,
+        "end": 40986,
+        "text": "retain the same status as",
+        "chunk_id": 7773976688822839057
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3625311740208180567,
+        "start": 40986,
+        "end": 41009,
+        "text": "all administrative matters, contracts and judicial and quasi-judicial actions",
+        "chunk_id": 7773976688822839057
+      }
+    ]
+  }
+]

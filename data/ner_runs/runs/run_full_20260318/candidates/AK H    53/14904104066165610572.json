@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16562529102658843227,
+    "entity": "Alaska Industrial Development and Export Authority",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "between funds",
+    "entity_evidence": [
+      {
+        "span_id": 12948207103399411812,
+        "start": 108866,
+        "end": 108896,
+        "text": "Alaska Industrial Development and Export Authority",
+        "chunk_id": 14904104066165610572
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12143811320723336733,
+        "start": 108866,
+        "end": 108896,
+        "text": "authority",
+        "chunk_id": 14904104066165610572
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2065809917741988229,
+        "start": 108866,
+        "end": 108896,
+        "text": "allocate",
+        "chunk_id": 14904104066165610572
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10799524234035753243,
+        "start": 108866,
+        "end": 108896,
+        "text": "between funds",
+        "chunk_id": 14904104066165610572
+      }
+    ]
+  },
+  {
+    "candidate_id": 3660948781115117508,
+    "entity": "Alaska Permanent Fund Corporation",
+    "type": "government agency",
+    "attribute": "costs",
+    "value": "investment management",
+    "entity_evidence": [
+      {
+        "span_id": 8538569744191496822,
+        "start": 109287,
+        "end": 109308,
+        "text": "Alaska Permanent Fund Corporation",
+        "chunk_id": 14904104066165610572
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17379609760315732903,
+        "start": 109287,
+        "end": 109308,
+        "text": "corporation",
+        "chunk_id": 14904104066165610572
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5364773979447232253,
+        "start": 109287,
+        "end": 109308,
+        "text": "paid",
+        "chunk_id": 14904104066165610572
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12892610942389766569,
+        "start": 109287,
+        "end": 109308,
+        "text": "investment management",
+        "chunk_id": 14904104066165610572
+      }
+    ]
+  }
+]

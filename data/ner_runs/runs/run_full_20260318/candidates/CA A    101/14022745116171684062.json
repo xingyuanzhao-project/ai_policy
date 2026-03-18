@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3397568897312633509,
+    "entity": "State Department of State Hospitals",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited availability of funds",
+    "entity_evidence": [
+      {
+        "span_id": 643625997562925545,
+        "start": 962562,
+        "end": 962583,
+        "text": "Upon approval of the State Department of State Hospitals,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11471543985590024093,
+        "start": 962562,
+        "end": 962583,
+        "text": "Upon approval of the State Department of State Hospitals,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1410567336925513240,
+        "start": 962562,
+        "end": 962583,
+        "text": "Upon approval of the State Department of State Hospitals,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 539731296040150320,
+        "start": 962562,
+        "end": 962583,
+        "text": "Upon approval of the State Department of State Hospitals,",
+        "chunk_id": 14022745116171684062
+      }
+    ]
+  },
+  {
+    "candidate_id": 13251138544390387897,
+    "entity": "Director of State Hospitals",
+    "type": "government agency",
+    "attribute": "reporting requirement",
+    "value": "yearend summary and operating budget",
+    "entity_evidence": [
+      {
+        "span_id": 4424370445093072607,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2414246233644005371,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11563100351524870929,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8807222566943819683,
+        "start": 962694,
+        "end": 962709,
+        "text": "The Director of State Hospitals shall submit,",
+        "chunk_id": 14022745116171684062
+      }
+    ]
+  }
+]

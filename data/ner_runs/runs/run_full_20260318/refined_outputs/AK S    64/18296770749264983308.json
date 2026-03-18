@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13144172322355753032,
+    "source_group_id": 18296770749264983308,
+    "source_candidate_ids": [
+      6671012800277290387
+    ],
+    "entity": "commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 16253834207499013551,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9178070516151319634,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16899947916185227608,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 689248972869870060,
+        "start": 15580,
+        "end": 15584,
+        "text": "The commission",
+        "chunk_id": 10779029234775850325
+      }
+    ]
+  }
+]

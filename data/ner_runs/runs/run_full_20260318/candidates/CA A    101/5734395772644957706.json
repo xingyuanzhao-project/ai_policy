@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13623008623083036950,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 8241935058959437877,
+        "start": 189556,
+        "end": 189578,
+        "text": "Department of Justice",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10540982413936882454,
+        "start": 189556,
+        "end": 189578,
+        "text": "Department of Justice",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15732756132264026583,
+        "start": 189556,
+        "end": 189578,
+        "text": "Department of Justice",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8115495471056423304,
+        "start": 189556,
+        "end": 189578,
+        "text": "Department of Justice",
+        "chunk_id": 5734395772644957706
+      }
+    ]
+  },
+  {
+    "candidate_id": 579458819924045281,
+    "entity": "California Witness Relocation and Assistance Program (CalWRAP)",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 7729775557860626679,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1606567010738707822,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6362103307208507282,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11605754785735694190,
+        "start": 189716,
+        "end": 189740,
+        "text": "California Witness Relocation and Assistance Program (CalWRAP)",
+        "chunk_id": 5734395772644957706
+      }
+    ]
+  }
+]

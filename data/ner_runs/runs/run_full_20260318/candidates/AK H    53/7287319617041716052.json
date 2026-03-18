@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13382529747600005414,
+    "entity": "Office of the Governor",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 6761079958188883079,
+        "start": 133642,
+        "end": 133662,
+        "text": "OFFICE OF THE GOVERNOR",
+        "chunk_id": 7287319617041716052
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6346517515744839021,
+        "start": 133642,
+        "end": 133662,
+        "text": "OFFICE OF THE GOVERNOR",
+        "chunk_id": 7287319617041716052
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5616009337489411205,
+        "start": 133642,
+        "end": 133662,
+        "text": "OFFICE OF THE GOVERNOR",
+        "chunk_id": 7287319617041716052
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3422590628897868776,
+        "start": 133642,
+        "end": 133662,
+        "text": "OFFICE OF THE GOVERNOR",
+        "chunk_id": 7287319617041716052
+      }
+    ]
+  },
+  {
+    "candidate_id": 17445386396343384827,
+    "entity": "bankcard service fees",
+    "type": "technology",
+    "attribute": "promotion",
+    "value": "compensation",
+    "entity_evidence": [
+      {
+        "span_id": 14922125933248389380,
+        "start": 133751,
+        "end": 133771,
+        "text": "BANKCARD SERVICE FEES",
+        "chunk_id": 7287319617041716052
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1172931818723208964,
+        "start": 133751,
+        "end": 133771,
+        "text": "BANKCARD SERVICE FEES",
+        "chunk_id": 7287319617041716052
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16614441724499776187,
+        "start": 133751,
+        "end": 133771,
+        "text": "BANKCARD SERVICE FEES",
+        "chunk_id": 7287319617041716052
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9948785280664085896,
+        "start": 133751,
+        "end": 133771,
+        "text": "BANKCARD SERVICE FEES",
+        "chunk_id": 7287319617041716052
+      }
+    ]
+  }
+]

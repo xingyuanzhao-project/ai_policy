@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16132227290460933096,
+    "source_group_id": 12799347436905907166,
+    "source_candidate_ids": [
+      16400444974768276678
+    ],
+    "entity": "International Airports Revenue Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2036400140461259123,
+        "start": 141707,
+        "end": 141726,
+        "text": "International Airports Revenue Fund",
+        "chunk_id": 9999357696065993266
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14423440653907098273,
+        "start": 141707,
+        "end": 141726,
+        "text": "Fund",
+        "chunk_id": 9999357696065993266
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14484803018634132526,
+        "start": 141707,
+        "end": 141726,
+        "text": "Revenue",
+        "chunk_id": 9999357696065993266
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1726721000656739472,
+        "start": 141707,
+        "end": 141726,
+        "text": "Revenue",
+        "chunk_id": 9999357696065993266
+      }
+    ]
+  }
+]

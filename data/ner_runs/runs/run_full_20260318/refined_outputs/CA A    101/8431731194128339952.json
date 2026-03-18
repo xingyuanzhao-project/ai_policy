@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7162961014906939748,
+    "source_group_id": 8431731194128339952,
+    "source_candidate_ids": [
+      5357048491953782219
+    ],
+    "entity": "Department of Conservation",
+    "type": "government agency",
+    "attribute": "support",
+    "value": "full support",
+    "entity_evidence": [
+      {
+        "span_id": 3325791540253603727,
+        "start": 489269,
+        "end": 489286,
+        "text": "For support of Department of Conservation",
+        "chunk_id": 15811297612824356757
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5973808055928553673,
+        "start": 489269,
+        "end": 489286,
+        "text": "For support of Department of Conservation",
+        "chunk_id": 15811297612824356757
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10110453704823261575,
+        "start": 489269,
+        "end": 489286,
+        "text": "For support of Department of Conservation",
+        "chunk_id": 15811297612824356757
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12099127267577458956,
+        "start": 489269,
+        "end": 489286,
+        "text": "For support of Department of Conservation",
+        "chunk_id": 15811297612824356757
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2903308698735283777,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 13242062524819888049,
+        "start": 1786026,
+        "end": 1786033,
+        "text": "Within 30 days",
+        "chunk_id": 14266915087863503080
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13101444608219188895,
+        "start": 1786026,
+        "end": 1786033,
+        "text": "Within 30 days",
+        "chunk_id": 14266915087863503080
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 105185159524608954,
+        "start": 1786026,
+        "end": 1786033,
+        "text": "Within 30 days",
+        "chunk_id": 14266915087863503080
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 769950958137129935,
+        "start": 1786026,
+        "end": 1786033,
+        "text": "Within 30 days",
+        "chunk_id": 14266915087863503080
+      }
+    ]
+  },
+  {
+    "candidate_id": 7607636215159662701,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "reimbursement",
+    "entity_evidence": [
+      {
+        "span_id": 16737594391811186032,
+        "start": 1786137,
+        "end": 1786154,
+        "text": "the Department of General Services",
+        "chunk_id": 14266915087863503080
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 913639097856785003,
+        "start": 1786137,
+        "end": 1786154,
+        "text": "the Department of General Services",
+        "chunk_id": 14266915087863503080
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7158986103017080143,
+        "start": 1786137,
+        "end": 1786154,
+        "text": "the Department of General Services",
+        "chunk_id": 14266915087863503080
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1479059173250942139,
+        "start": 1786137,
+        "end": 1786154,
+        "text": "the Department of General Services",
+        "chunk_id": 14266915087863503080
+      }
+    ]
+  }
+]

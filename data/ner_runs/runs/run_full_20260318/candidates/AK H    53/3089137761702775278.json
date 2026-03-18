@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11038408329923998498,
+    "entity": "State of Alaska general obligation bonds, series 2010A",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 17392568847398688089,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18251442995154767918,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 238011702621421268,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7687768458847889654,
+        "start": 97898,
+        "end": 97916,
+        "text": "State of Alaska general obligation bonds, series 2010A",
+        "chunk_id": 3089137761702775278
+      }
+    ]
+  },
+  {
+    "candidate_id": 17730497314851311660,
+    "entity": "State of Alaska general obligation bonds, series 2010B",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 4840674522308279025,
+        "start": 97939,
+        "end": 97957,
+        "text": "State of Alaska general obligation bonds, series 2010B",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5405069136595275819,
+        "start": 97939,
+        "end": 97957,
+        "text": "State of Alaska general obligation bonds, series 2010B",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1708314363651966482,
+        "start": 97939,
+        "end": 97957,
+        "text": "State of Alaska general obligation bonds, series 2010B",
+        "chunk_id": 3089137761702775278
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11819354784006831679,
+        "start": 97939,
+        "end": 97957,
+        "text": "State of Alaska general obligation bonds, series 2010B",
+        "chunk_id": 3089137761702775278
+      }
+    ]
+  }
+]

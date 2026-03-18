@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14254228854709460298,
+    "entity": "CURES database",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "compliance with subdivision (d) of Section 11165.1",
+    "entity_evidence": [
+      {
+        "span_id": 5168524313220741903,
+        "start": 49058,
+        "end": 49066,
+        "text": "CURES patient activity report",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1065013822361931236,
+        "start": 49067,
+        "end": 49074,
+        "text": "CURES database",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17173249660971198658,
+        "start": 49075,
+        "end": 49082,
+        "text": "compliance with subdivision (d) of Section 11165.1",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15806390454454723696,
+        "start": 49083,
+        "end": 49092,
+        "text": "compliance with subdivision (d) of Section 11165.1",
+        "chunk_id": 17271270719256804500
+      }
+    ]
+  },
+  {
+    "candidate_id": 15401802258071840457,
+    "entity": "prescriber or dispenser invitee",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "licensed by one of the boards or committees identified in subdivision (d) of Section 208 of the Business and Professions Code",
+    "entity_evidence": [
+      {
+        "span_id": 6898662474154229870,
+        "start": 49058,
+        "end": 49080,
+        "text": "prescriber or dispenser invitee",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17795004835515616294,
+        "start": 49081,
+        "end": 49089,
+        "text": "individual",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8566933317672392967,
+        "start": 49090,
+        "end": 49107,
+        "text": "licensed by one of the boards or committees identified in subdivision (d) of Section 208 of the Business and Professions Code",
+        "chunk_id": 17271270719256804500
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10432967637313881332,
+        "start": 49108,
+        "end": 49127,
+        "text": "licensed by one of the boards or committees identified in subdivision (d) of Section 208 of the Business and Professions Code",
+        "chunk_id": 17271270719256804500
+      }
+    ]
+  }
+]

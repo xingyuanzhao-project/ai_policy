@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13583580463650952109,
+    "entity": "High-Speed Rail Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 10596895739662835518,
+        "start": 304513,
+        "end": 304533,
+        "text": "High-Speed Rail Authority",
+        "chunk_id": 7905915834973912436
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16670577517812309496,
+        "start": 304513,
+        "end": 304533,
+        "text": "government agency",
+        "chunk_id": 7905915834973912436
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2773575108769224517,
+        "start": 304513,
+        "end": 304533,
+        "text": "restriction",
+        "chunk_id": 7905915834973912436
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17773292814836767582,
+        "start": 304513,
+        "end": 304533,
+        "text": "partial",
+        "chunk_id": 7905915834973912436
+      }
+    ]
+  },
+  {
+    "candidate_id": 18436004699197089464,
+    "entity": "Department of Transportation",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 9008102071309009747,
+        "start": 304513,
+        "end": 304533,
+        "text": "Department of Transportation",
+        "chunk_id": 7905915834973912436
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3330530430836307557,
+        "start": 304513,
+        "end": 304533,
+        "text": "government agency",
+        "chunk_id": 7905915834973912436
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4906590853970899103,
+        "start": 304513,
+        "end": 304533,
+        "text": "exemption",
+        "chunk_id": 7905915834973912436
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9069730220781383464,
+        "start": 304513,
+        "end": 304533,
+        "text": "partial",
+        "chunk_id": 7905915834973912436
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5337121085557389548,
+    "entity": "Department of Child Support Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "30 days",
+    "entity_evidence": [
+      {
+        "span_id": 18361795636492715432,
+        "start": 989952,
+        "end": 989972,
+        "text": "Department of Child Support Services",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10183830325638833957,
+        "start": 989952,
+        "end": 989972,
+        "text": "government agency",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 430861599612600111,
+        "start": 989952,
+        "end": 989972,
+        "text": "restriction",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 176778314320665527,
+        "start": 989952,
+        "end": 989972,
+        "text": "30 days",
+        "chunk_id": 2170910090497308376
+      }
+    ]
+  },
+  {
+    "candidate_id": 3618292130940940487,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "subsidy",
+    "value": "increased costs",
+    "entity_evidence": [
+      {
+        "span_id": 12523044269249265460,
+        "start": 990063,
+        "end": 990082,
+        "text": "Judicial Council",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13116116885939315473,
+        "start": 990063,
+        "end": 990082,
+        "text": "government agency",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5922871717097813709,
+        "start": 990063,
+        "end": 990082,
+        "text": "subsidy",
+        "chunk_id": 2170910090497308376
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11173229803765331456,
+        "start": 990063,
+        "end": 990082,
+        "text": "increased costs",
+        "chunk_id": 2170910090497308376
+      }
+    ]
+  }
+]

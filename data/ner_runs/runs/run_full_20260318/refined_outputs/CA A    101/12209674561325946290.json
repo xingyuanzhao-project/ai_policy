@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10172386133599425193,
+    "source_group_id": 12209674561325946290,
+    "source_candidate_ids": [
+      8148712340797368574
+    ],
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority of no greater than $10,440,000",
+    "entity_evidence": [
+      {
+        "span_id": 10128496936710001577,
+        "start": 1256497,
+        "end": 1256517,
+        "text": "State Department of Education",
+        "chunk_id": 12407066606366588628
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3357130484901032896,
+        "start": 1256497,
+        "end": 1256517,
+        "text": "government agency",
+        "chunk_id": 12407066606366588628
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3819912338158764372,
+        "start": 1256519,
+        "end": 1256529,
+        "text": "restriction",
+        "chunk_id": 12407066606366588628
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6737477709655342159,
+        "start": 1256530,
+        "end": 1256557,
+        "text": "expenditure authority of no greater than $10,440,000",
+        "chunk_id": 12407066606366588628
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7431267246515056303,
+    "entity": "covered platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "clear, conspicuous, and easy-to-understand",
+    "entity_evidence": [
+      {
+        "span_id": 17709787144448228697,
+        "start": 18027,
+        "end": 18039,
+        "text": "covered platform",
+        "chunk_id": 12231169585380813619
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9449538793151969685,
+        "start": 18027,
+        "end": 18039,
+        "text": "covered platform",
+        "chunk_id": 12231169585380813619
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9117672515187244916,
+        "start": 18027,
+        "end": 18039,
+        "text": "covered platform",
+        "chunk_id": 12231169585380813619
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14056249462124346636,
+        "start": 18027,
+        "end": 18039,
+        "text": "covered platform",
+        "chunk_id": 12231169585380813619
+      }
+    ]
+  },
+  {
+    "candidate_id": 15264993321393841133,
+    "entity": "Attorney General",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "solely by action of the Attorney General",
+    "entity_evidence": [
+      {
+        "span_id": 352759420107897302,
+        "start": 18027,
+        "end": 18041,
+        "text": "Attorney General",
+        "chunk_id": 12231169585380813619
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9800895784263136230,
+        "start": 18027,
+        "end": 18041,
+        "text": "Attorney General",
+        "chunk_id": 12231169585380813619
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15403093856240065143,
+        "start": 18027,
+        "end": 18041,
+        "text": "Attorney General",
+        "chunk_id": 12231169585380813619
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8929235788793485835,
+        "start": 18027,
+        "end": 18041,
+        "text": "Attorney General",
+        "chunk_id": 12231169585380813619
+      }
+    ]
+  }
+]

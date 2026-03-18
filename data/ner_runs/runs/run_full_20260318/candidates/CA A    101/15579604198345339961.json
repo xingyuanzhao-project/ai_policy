@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3181699866246173918,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 8307626955300962389,
+        "start": 48683,
+        "end": 48693,
+        "text": "Judicial Council",
+        "chunk_id": 15579604198345339961
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11370135259044635129,
+        "start": 48683,
+        "end": 48693,
+        "text": "Judicial Council",
+        "chunk_id": 15579604198345339961
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6851236530115954150,
+        "start": 48683,
+        "end": 48693,
+        "text": "Judicial Council",
+        "chunk_id": 15579604198345339961
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11792082352044058774,
+        "start": 48683,
+        "end": 48693,
+        "text": "Judicial Council",
+        "chunk_id": 15579604198345339961
+      }
+    ]
+  },
+  {
+    "candidate_id": 5898932483535086727,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 13677657939589380570,
+        "start": 48762,
+        "end": 48775,
+        "text": "Department of Finance",
+        "chunk_id": 15579604198345339961
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7203880896492987470,
+        "start": 48762,
+        "end": 48775,
+        "text": "Department of Finance",
+        "chunk_id": 15579604198345339961
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9606793455139311100,
+        "start": 48762,
+        "end": 48775,
+        "text": "Department of Finance",
+        "chunk_id": 15579604198345339961
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 662134511671871656,
+        "start": 48762,
+        "end": 48775,
+        "text": "Department of Finance",
+        "chunk_id": 15579604198345339961
+      }
+    ]
+  }
+]

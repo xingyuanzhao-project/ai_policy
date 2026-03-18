@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7532650019770742013,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "in writing",
+    "entity_evidence": [
+      {
+        "span_id": 7187474638446169041,
+        "start": 1562493,
+        "end": 1562512,
+        "text": "item, the Department of Finance",
+        "chunk_id": 14410115780713926996
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5222513311665637265,
+        "start": 1562513,
+        "end": 1562527,
+        "text": "the Department of Finance",
+        "chunk_id": 14410115780713926996
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3577270212209907523,
+        "start": 1562528,
+        "end": 1562536,
+        "text": "shall provide notification",
+        "chunk_id": 14410115780713926996
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4434146004826243925,
+        "start": 1562537,
+        "end": 1562544,
+        "text": "in writing",
+        "chunk_id": 14410115780713926996
+      }
+    ]
+  },
+  {
+    "candidate_id": 16493541320852346491,
+    "entity": "Division of the State Architect (DSA)",
+    "type": "government agency",
+    "attribute": "services",
+    "value": "statutorily required",
+    "entity_evidence": [
+      {
+        "span_id": 11968681286001688866,
+        "start": 1562493,
+        "end": 1562517,
+        "text": "Division of the State Architect",
+        "chunk_id": 14410115780713926996
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9119461507837196909,
+        "start": 1562518,
+        "end": 1562533,
+        "text": "Division of the State Architect",
+        "chunk_id": 14410115780713926996
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11307771940521773869,
+        "start": 1562534,
+        "end": 1562544,
+        "text": "statutorily required services",
+        "chunk_id": 14410115780713926996
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11745092878649583478,
+        "start": 1562545,
+        "end": 1562556,
+        "text": "statutorily required",
+        "chunk_id": 14410115780713926996
+      }
+    ]
+  }
+]

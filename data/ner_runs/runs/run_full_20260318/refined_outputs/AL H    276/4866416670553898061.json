@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9181218048015321504,
+    "source_group_id": 4866416670553898061,
+    "source_candidate_ids": [
+      38935999894437008
+    ],
+    "entity": "social media platform",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "clear and conspicuous warnings",
+    "entity_evidence": [
+      {
+        "span_id": 10702965277304198004,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13471311917570425748,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6115961000459714901,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12812854012880969922,
+        "start": 10437,
+        "end": 10447,
+        "text": "clear and conspicuous warnings",
+        "chunk_id": 6039929577092130590
+      }
+    ]
+  }
+]

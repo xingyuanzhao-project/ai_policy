@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3087710308284010906,
+    "entity": "State of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "1 percent",
+    "entity_evidence": [
+      {
+        "span_id": 946574883543668904,
+        "start": 1689110,
+        "end": 1689131,
+        "text": "State of California",
+        "chunk_id": 12453372790493915340
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2661209208469040779,
+        "start": 1689110,
+        "end": 1689131,
+        "text": "State of California",
+        "chunk_id": 12453372790493915340
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8131622687296357069,
+        "start": 1689222,
+        "end": 1689229,
+        "text": "not to exceed 1 percent",
+        "chunk_id": 12453372790493915340
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12178489716339239835,
+        "start": 1689222,
+        "end": 1689229,
+        "text": "not to exceed 1 percent",
+        "chunk_id": 12453372790493915340
+      }
+    ]
+  },
+  {
+    "candidate_id": 15936846527112243893,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "1 percent",
+    "entity_evidence": [
+      {
+        "span_id": 12427543888830119909,
+        "start": 1689142,
+        "end": 1689159,
+        "text": "Department of Finance",
+        "chunk_id": 12453372790493915340
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13667529296660148812,
+        "start": 1689142,
+        "end": 1689159,
+        "text": "Department of Finance",
+        "chunk_id": 12453372790493915340
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8855859058629325789,
+        "start": 1689222,
+        "end": 1689229,
+        "text": "not to exceed 1 percent",
+        "chunk_id": 12453372790493915340
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17938500793525667241,
+        "start": 1689222,
+        "end": 1689229,
+        "text": "not to exceed 1 percent",
+        "chunk_id": 12453372790493915340
+      }
+    ]
+  }
+]

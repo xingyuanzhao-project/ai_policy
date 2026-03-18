@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 959621307822265247,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of rental payments",
+    "entity_evidence": [
+      {
+        "span_id": 8954540330856491537,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "Department of General Services",
+        "chunk_id": 12396170788420323916
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14025519434913352611,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "government agency",
+        "chunk_id": 12396170788420323916
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18183778521913715694,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "restriction",
+        "chunk_id": 12396170788420323916
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8208954828464436427,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "regulation of rental payments",
+        "chunk_id": 12396170788420323916
+      }
+    ]
+  },
+  {
+    "candidate_id": 8373550889296879079,
+    "entity": "California Environmental Protection Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation of rental payments",
+    "entity_evidence": [
+      {
+        "span_id": 5574672819090093317,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "California Environmental Protection Agency",
+        "chunk_id": 12396170788420323916
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 593572091231791653,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "government agency",
+        "chunk_id": 12396170788420323916
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17898795412777279838,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "restriction",
+        "chunk_id": 12396170788420323916
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13521180129063619969,
+        "start": 1475461,
+        "end": 1475481,
+        "text": "regulation of rental payments",
+        "chunk_id": 12396170788420323916
+      }
+    ]
+  }
+]

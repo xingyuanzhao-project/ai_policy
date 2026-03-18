@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14171501337363987395,
+    "source_group_id": 8705215663059056658,
+    "source_candidate_ids": [
+      3780430148559741852
+    ],
+    "entity": "Student Aid Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "issuance of new warrants",
+    "entity_evidence": [
+      {
+        "span_id": 10133987673346221932,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12946826345086402553,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11004069354329142719,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7500111935717864482,
+        "start": 1467752,
+        "end": 1467770,
+        "text": "The Student Aid Commission",
+        "chunk_id": 6218749445805185272
+      }
+    ]
+  }
+]

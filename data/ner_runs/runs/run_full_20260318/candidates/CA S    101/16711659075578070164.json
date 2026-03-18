@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8802085017147539001,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "from competitive bidding and supervision or approval of another department or agency of state government",
+    "entity_evidence": [
+      {
+        "span_id": 12842853762033081021,
+        "start": 497386,
+        "end": 497406,
+        "text": "Department of General Services",
+        "chunk_id": 16711659075578070164
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15574773429829884837,
+        "start": 497386,
+        "end": 497406,
+        "text": "government agency",
+        "chunk_id": 16711659075578070164
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16494440195920769909,
+        "start": 497386,
+        "end": 497406,
+        "text": "exemption",
+        "chunk_id": 16711659075578070164
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1445396565623196079,
+        "start": 497386,
+        "end": 497406,
+        "text": "from competitive bidding and supervision or approval of another department or agency of state government",
+        "chunk_id": 16711659075578070164
+      }
+    ]
+  },
+  {
+    "candidate_id": 2160042065469440004,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "availability",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 2046211131662601346,
+        "start": 498184,
+        "end": 498206,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 16711659075578070164
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15978898702807087263,
+        "start": 498184,
+        "end": 498206,
+        "text": "government agency",
+        "chunk_id": 16711659075578070164
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14724661011880864722,
+        "start": 498184,
+        "end": 498206,
+        "text": "availability",
+        "chunk_id": 16711659075578070164
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4117398470041646498,
+        "start": 498184,
+        "end": 498206,
+        "text": "until June 30, 2027",
+        "chunk_id": 16711659075578070164
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6857931913989900653,
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "biannual reports",
+    "entity_evidence": [
+      {
+        "span_id": 7116665808294121492,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 710227980303174528,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2039819246144026678,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4555962710328177050,
+        "start": 1306452,
+        "end": 1306473,
+        "text": "The Commission on Teacher Credentialing shall submit biannual reports",
+        "chunk_id": 174739985800617383
+      }
+    ]
+  },
+  {
+    "candidate_id": 10127248830723520889,
+    "entity": "Attorney General",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "biannual reports",
+    "entity_evidence": [
+      {
+        "span_id": 16451657074600278574,
+        "start": 1306659,
+        "end": 1306675,
+        "text": "The Attorney General shall submit a biannual report",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10760642921154119898,
+        "start": 1306659,
+        "end": 1306675,
+        "text": "The Attorney General shall submit a biannual report",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2768899534343560211,
+        "start": 1306659,
+        "end": 1306675,
+        "text": "The Attorney General shall submit a biannual report",
+        "chunk_id": 174739985800617383
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12528477092962567762,
+        "start": 1306659,
+        "end": 1306675,
+        "text": "The Attorney General shall submit a biannual report",
+        "chunk_id": 174739985800617383
+      }
+    ]
+  }
+]

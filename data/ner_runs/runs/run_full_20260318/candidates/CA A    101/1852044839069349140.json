@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17923542944770602228,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 9290170537323509848,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1983033902328249557,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12437552153389187509,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10436001250580352953,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ]
+  },
+  {
+    "candidate_id": 14753351969566752627,
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2029",
+    "entity_evidence": [
+      {
+        "span_id": 772309195934172773,
+        "start": 469442,
+        "end": 469480,
+        "text": "until June 30, 2029",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3191391464376910772,
+        "start": 469442,
+        "end": 469480,
+        "text": "until June 30, 2029",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12549063496261892596,
+        "start": 469442,
+        "end": 469480,
+        "text": "until June 30, 2029",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 103515176699226090,
+        "start": 469442,
+        "end": 469480,
+        "text": "until June 30, 2029",
+        "chunk_id": 1852044839069349140
+      }
+    ]
+  }
+]

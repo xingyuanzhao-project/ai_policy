@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4104348117988522774,
+    "entity": "Franchise Tax Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 878502868679303538,
+        "start": 1549640,
+        "end": 1549657,
+        "text": "the Franchise Tax Board",
+        "chunk_id": 16071187763048297314
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 626098827289612368,
+        "start": 1549640,
+        "end": 1549657,
+        "text": "the Franchise Tax Board",
+        "chunk_id": 16071187763048297314
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10373734454026779171,
+        "start": 1549640,
+        "end": 1549657,
+        "text": "the Franchise Tax Board",
+        "chunk_id": 16071187763048297314
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6563895673098732812,
+        "start": 1549640,
+        "end": 1549657,
+        "text": "the Franchise Tax Board",
+        "chunk_id": 16071187763048297314
+      }
+    ]
+  },
+  {
+    "candidate_id": 16719251694119593364,
+    "entity": "Social Security Administration",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 14339728745685472617,
+        "start": 1549668,
+        "end": 1549686,
+        "text": "the Social Security Administration",
+        "chunk_id": 16071187763048297314
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10376776684788126406,
+        "start": 1549668,
+        "end": 1549686,
+        "text": "the Social Security Administration",
+        "chunk_id": 16071187763048297314
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1706344177897270528,
+        "start": 1549668,
+        "end": 1549686,
+        "text": "the Social Security Administration",
+        "chunk_id": 16071187763048297314
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1049972571653302727,
+        "start": 1549668,
+        "end": 1549686,
+        "text": "the Social Security Administration",
+        "chunk_id": 16071187763048297314
+      }
+    ]
+  }
+]

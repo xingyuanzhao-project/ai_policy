@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2837197372346068399,
+    "source_group_id": 16186146782409402341,
+    "source_candidate_ids": [
+      1719696730273885108
+    ],
+    "entity": "state active duty employees",
+    "type": "individual",
+    "attribute": "promotion",
+    "value": "cost-of-living adjustments",
+    "entity_evidence": [
+      {
+        "span_id": 18395300330673481808,
+        "start": 1686088,
+        "end": 1686107,
+        "text": "basic allowance for housing and cost-of-living adjustments for state active duty employees",
+        "chunk_id": 5814922534109519827
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11757167809336788243,
+        "start": 1686088,
+        "end": 1686107,
+        "text": "basic allowance for housing and cost-of-living adjustments for state active duty employees",
+        "chunk_id": 5814922534109519827
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10058369748747589636,
+        "start": 1686088,
+        "end": 1686107,
+        "text": "basic allowance for housing and cost-of-living adjustments for state active duty employees",
+        "chunk_id": 5814922534109519827
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13329920742807983814,
+        "start": 1686088,
+        "end": 1686107,
+        "text": "basic allowance for housing and cost-of-living adjustments for state active duty employees",
+        "chunk_id": 5814922534109519827
+      }
+    ]
+  }
+]

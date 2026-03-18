@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 14762891366646569961,
+    "source_group_id": 3915719498382381258,
+    "source_candidate_ids": [
+      2953635291470657138
+    ],
+    "entity": "Legal Services Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "augmentation",
+    "value": "15 percent",
+    "entity_evidence": [
+      {
+        "span_id": 12783345149432037773,
+        "start": 183060,
+        "end": 183090,
+        "text": "Legal Services Revolving Fund",
+        "chunk_id": 6799294712717089664
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4963094756330994092,
+        "start": 183060,
+        "end": 183090,
+        "text": "Legal Services Revolving Fund",
+        "chunk_id": 6799294712717089664
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7297910471579534456,
+        "start": 183060,
+        "end": 183090,
+        "text": "Legal Services Revolving Fund",
+        "chunk_id": 6799294712717089664
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13780568569532383480,
+        "start": 183060,
+        "end": 183090,
+        "text": "Legal Services Revolving Fund",
+        "chunk_id": 6799294712717089664
+      }
+    ]
+  }
+]

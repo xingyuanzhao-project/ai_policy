@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2875367907222957241,
+    "source_group_id": 7855859984200594448,
+    "source_candidate_ids": [
+      5366493310686161853
+    ],
+    "entity": "Osteopathic Medical Board of California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "imposed as specified in Section 13332.18 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 8570544700820234035,
+        "start": 248791,
+        "end": 248823,
+        "text": "For support of Osteopathic Medical Board of California",
+        "chunk_id": 3360896968380471315
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16283084433266039362,
+        "start": 248791,
+        "end": 248823,
+        "text": "For support of Osteopathic Medical Board of California",
+        "chunk_id": 3360896968380471315
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18126258601249983723,
+        "start": 248791,
+        "end": 248823,
+        "text": "For support of Osteopathic Medical Board of California",
+        "chunk_id": 3360896968380471315
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13819442688733727736,
+        "start": 248791,
+        "end": 248823,
+        "text": "For support of Osteopathic Medical Board of California",
+        "chunk_id": 3360896968380471315
+      }
+    ]
+  }
+]

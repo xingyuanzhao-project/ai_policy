@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5142017412316943167,
+    "entity": "California State Payroll System Project",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "quarterly briefings",
+    "entity_evidence": [
+      {
+        "span_id": 8098508631733259697,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14243773760100970992,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6168544575568120663,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14963520410548022456,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ]
+  },
+  {
+    "candidate_id": 10562682475272201757,
+    "entity": "California State Payroll System Project",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "quarterly briefings",
+    "entity_evidence": [
+      {
+        "span_id": 10013655724945882806,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17475445677654177590,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8040040799422925965,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10180914299006720818,
+        "start": 185159,
+        "end": 185193,
+        "text": "e Department of Human Resources, and the Department of Technology, shall provide the Legislature and the Legislative Analyst's Office with briefings on the progress of the California State Payroll System Project",
+        "chunk_id": 12001021831699421447
+      }
+    ]
+  }
+]

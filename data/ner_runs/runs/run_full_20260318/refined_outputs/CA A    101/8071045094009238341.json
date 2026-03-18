@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16611447040558305815,
+    "source_group_id": 8071045094009238341,
+    "source_candidate_ids": [
+      11505101184762729424
+    ],
+    "entity": "Wildlife Conservation Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 2722755165249371288,
+        "start": 572660,
+        "end": 572680,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 13191070215691123849
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1614102256841935285,
+        "start": 572660,
+        "end": 572680,
+        "text": "Wildlife Conservation Board",
+        "chunk_id": 13191070215691123849
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1376504128344374914,
+        "start": 572680,
+        "end": 572691,
+        "text": "available for encumbrance or expenditure",
+        "chunk_id": 13191070215691123849
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5914384754935762572,
+        "start": 572691,
+        "end": 572702,
+        "text": "until June 30, 2028",
+        "chunk_id": 13191070215691123849
+      }
+    ]
+  }
+]

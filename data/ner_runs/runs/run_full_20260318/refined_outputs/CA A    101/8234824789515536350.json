@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12655290822386374778,
+    "source_group_id": 8234824789515536350,
+    "source_candidate_ids": [
+      653989482017168989
+    ],
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "389,000",
+    "entity_evidence": [
+      {
+        "span_id": 10859783352772108417,
+        "start": 709670,
+        "end": 709690,
+        "text": "Department of Justice",
+        "chunk_id": 16339787598936943856
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2595529966780927896,
+        "start": 709670,
+        "end": 709690,
+        "text": "government agency",
+        "chunk_id": 16339787598936943856
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4260690151873249551,
+        "start": 709670,
+        "end": 709690,
+        "text": "restriction",
+        "chunk_id": 16339787598936943856
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10718000662804374025,
+        "start": 709670,
+        "end": 709690,
+        "text": "389,000",
+        "chunk_id": 16339787598936943856
+      }
+    ]
+  }
+]

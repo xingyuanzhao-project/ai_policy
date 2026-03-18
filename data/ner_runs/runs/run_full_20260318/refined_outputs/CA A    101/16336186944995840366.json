@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 11341089604526152817,
+    "source_group_id": 16336186944995840366,
+    "source_candidate_ids": [
+      10766679123830039675
+    ],
+    "entity": "California",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "regulation",
+    "entity_evidence": [
+      {
+        "span_id": 4019549414270585964,
+        "start": 1871702,
+        "end": 1871711,
+        "text": "California",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6946577260594216456,
+        "start": 1871702,
+        "end": 1871715,
+        "text": "government agency",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 393864613743680211,
+        "start": 1871702,
+        "end": 1871711,
+        "text": "restriction",
+        "chunk_id": 15196003565319559393
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16361954098926836080,
+        "start": 1871702,
+        "end": 1871710,
+        "text": "regulation",
+        "chunk_id": 15196003565319559393
+      }
+    ]
+  }
+]

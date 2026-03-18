@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6058711610770793984,
+    "entity": "State of Alaska general obligation bonds",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 1338084598659729373,
+        "start": 138622,
+        "end": 138653,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15286350852783864819,
+        "start": 138622,
+        "end": 138653,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5802010375275765725,
+        "start": 138622,
+        "end": 138653,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3046936768945765709,
+        "start": 138622,
+        "end": 138653,
+        "text": "State of Alaska general obligation bonds",
+        "chunk_id": 3130445431534950979
+      }
+    ]
+  },
+  {
+    "candidate_id": 10899078567855569666,
+    "entity": "United States Treasury",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subsidy",
+    "entity_evidence": [
+      {
+        "span_id": 6477970553748918015,
+        "start": 138622,
+        "end": 138641,
+        "text": "United States Treasury",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1179325164220472501,
+        "start": 138622,
+        "end": 138641,
+        "text": "United States Treasury",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9811917920792080393,
+        "start": 138622,
+        "end": 138641,
+        "text": "United States Treasury",
+        "chunk_id": 3130445431534950979
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2592640315293343922,
+        "start": 138622,
+        "end": 138641,
+        "text": "United States Treasury",
+        "chunk_id": 3130445431534950979
+      }
+    ]
+  }
+]

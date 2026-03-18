@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17138249460742043701,
+    "entity": "Santa Monica Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "periodic reporting",
+    "entity_evidence": [
+      {
+        "span_id": 2189052864707934490,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4889577107803121883,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7638454535153804675,
+        "start": 619498,
+        "end": 619512,
+        "text": "periodically to the Legislature",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 573026194402773046,
+        "start": 619498,
+        "end": 619512,
+        "text": "periodically to the Legislature",
+        "chunk_id": 7568175199512060104
+      }
+    ]
+  },
+  {
+    "candidate_id": 8297006917896888111,
+    "entity": "Santa Monica Mountains Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure",
+    "entity_evidence": [
+      {
+        "span_id": 2403795567807588831,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12425023673737362113,
+        "start": 619476,
+        "end": 619497,
+        "text": "The Santa Monica Mountains Conservancy",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8175331809168845683,
+        "start": 619513,
+        "end": 619527,
+        "text": "encumbrance or expenditure",
+        "chunk_id": 7568175199512060104
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12090961981383095594,
+        "start": 619513,
+        "end": 619527,
+        "text": "encumbrance or expenditure",
+        "chunk_id": 7568175199512060104
+      }
+    ]
+  }
+]

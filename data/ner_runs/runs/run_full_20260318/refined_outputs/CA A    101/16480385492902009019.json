@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 372000718073224355,
+    "source_group_id": 16480385492902009019,
+    "source_candidate_ids": [
+      5897940631570236936
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "satisfactory assurance of repayment in full",
+    "entity_evidence": [
+      {
+        "span_id": 9700575002353373428,
+        "start": 1820538,
+        "end": 1820548,
+        "text": "The Director of Finance",
+        "chunk_id": 15804821425570515591
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9714462216730708487,
+        "start": 1820538,
+        "end": 1820548,
+        "text": "The Director of Finance",
+        "chunk_id": 15804821425570515591
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7901546374714151252,
+        "start": 1820548,
+        "end": 1820558,
+        "text": "satisfactory assurance of repayment in full",
+        "chunk_id": 15804821425570515591
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4698947051580562632,
+        "start": 1820548,
+        "end": 1820558,
+        "text": "satisfactory assurance of repayment in full",
+        "chunk_id": 15804821425570515591
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6852600639269625791,
+    "source_group_id": 12930451001573241508,
+    "source_candidate_ids": [
+      17810958323962438624
+    ],
+    "entity": "Superintendent of Public Instruction",
+    "type": "government agency",
+    "attribute": "allocation",
+    "value": "technical assistance",
+    "entity_evidence": [
+      {
+        "span_id": 1118370241613617547,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2675077848635946521,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11941127675671990797,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2747932205086764526,
+        "start": 1241505,
+        "end": 1241527,
+        "text": "Superintendent of Public Instruction",
+        "chunk_id": 17913612101745500460
+      }
+    ]
+  }
+]

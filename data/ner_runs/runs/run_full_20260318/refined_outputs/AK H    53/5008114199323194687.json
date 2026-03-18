@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 8659363948148845068,
+    "source_group_id": 5008114199323194687,
+    "source_candidate_ids": [
+      5142546581826552879
+    ],
+    "entity": "Department of Law",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific",
+    "entity_evidence": [
+      {
+        "span_id": 70339585689998989,
+        "start": 94671,
+        "end": 94682,
+        "text": "Department of Law",
+        "chunk_id": 18295875352481721774
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13642165472982698605,
+        "start": 94683,
+        "end": 94692,
+        "text": "civil division",
+        "chunk_id": 18295875352481721774
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17047809280991450366,
+        "start": 94693,
+        "end": 94702,
+        "text": "special litigation and appeals",
+        "chunk_id": 18295875352481721774
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7608433793382283411,
+        "start": 94703,
+        "end": 94714,
+        "text": "for the fiscal years ending June 30, 2025, June 30, 2026, and June 30, 2027",
+        "chunk_id": 18295875352481721774
+      }
+    ]
+  }
+]

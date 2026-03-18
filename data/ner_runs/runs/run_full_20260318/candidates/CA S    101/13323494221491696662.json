@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1460756309178120781,
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "subject to available resources",
+    "entity_evidence": [
+      {
+        "span_id": 17275490304485027486,
+        "start": 1581406,
+        "end": 1581426,
+        "text": "Upon order of the Department of Finance and subject to available resources,",
+        "chunk_id": 13323494221491696662
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11023405136994393388,
+        "start": 1581406,
+        "end": 1581426,
+        "text": "Upon order of the Department of Finance and subject to available resources,",
+        "chunk_id": 13323494221491696662
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8977289189807102599,
+        "start": 1581406,
+        "end": 1581426,
+        "text": "Upon order of the Department of Finance and subject to available resources,",
+        "chunk_id": 13323494221491696662
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1445731719562900619,
+        "start": 1581406,
+        "end": 1581426,
+        "text": "Upon order of the Department of Finance and subject to available resources,",
+        "chunk_id": 13323494221491696662
+      }
+    ]
+  },
+  {
+    "candidate_id": 12976177531712660983,
+    "entity": "state active duty employees",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "following passage of a federal active duty compensation increase in the federal budget",
+    "entity_evidence": [
+      {
+        "span_id": 9766386510280539710,
+        "start": 1581558,
+        "end": 1581576,
+        "text": "following passage of a federal active duty compensation increase in the federal budget",
+        "chunk_id": 13323494221491696662
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13218487013331047268,
+        "start": 1581558,
+        "end": 1581576,
+        "text": "following passage of a federal active duty compensation increase in the federal budget",
+        "chunk_id": 13323494221491696662
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13304322329088828303,
+        "start": 1581558,
+        "end": 1581576,
+        "text": "following passage of a federal active duty compensation increase in the federal budget",
+        "chunk_id": 13323494221491696662
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13601789544173409947,
+        "start": 1581558,
+        "end": 1581576,
+        "text": "following passage of a federal active duty compensation increase in the federal budget",
+        "chunk_id": 13323494221491696662
+      }
+    ]
+  }
+]

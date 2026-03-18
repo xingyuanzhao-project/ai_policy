@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10410037925930963239,
+    "entity": "covered employee",
+    "type": "individual",
+    "attribute": "rights",
+    "value": "under this section",
+    "entity_evidence": [
+      {
+        "span_id": 9749116904744463830,
+        "start": 32028,
+        "end": 32041,
+        "text": "red employee who works remotely periodically receives an equivalent notice.",
+        "chunk_id": 12517552160456717695
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9825388972752558696,
+        "start": 32028,
+        "end": 32041,
+        "text": "red employee who works remotely periodically receives an equivalent notice.",
+        "chunk_id": 12517552160456717695
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14508803250375268219,
+        "start": 32028,
+        "end": 32041,
+        "text": "red employee who works remotely periodically receives an equivalent notice.",
+        "chunk_id": 12517552160456717695
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13997156904794573321,
+        "start": 32028,
+        "end": 32041,
+        "text": "red employee who works remotely periodically receives an equivalent notice.",
+        "chunk_id": 12517552160456717695
+      }
+    ]
+  },
+  {
+    "candidate_id": 3667137832351267241,
+    "entity": "large frontier developer",
+    "type": "company",
+    "attribute": "process",
+    "value": "reasonable internal process",
+    "entity_evidence": [
+      {
+        "span_id": 6142474758629200356,
+        "start": 32028,
+        "end": 32051,
+        "text": "A large frontier developer shall provide a reasonable internal process through which a covered employee may anonymously disclose information to the large frontier developer",
+        "chunk_id": 12517552160456717695
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16071909630247580043,
+        "start": 32028,
+        "end": 32051,
+        "text": "A large frontier developer shall provide a reasonable internal process through which a covered employee may anonymously disclose information to the large frontier developer",
+        "chunk_id": 12517552160456717695
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4421958583839838591,
+        "start": 32028,
+        "end": 32051,
+        "text": "A large frontier developer shall provide a reasonable internal process through which a covered employee may anonymously disclose information to the large frontier developer",
+        "chunk_id": 12517552160456717695
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15448671108835159224,
+        "start": 32028,
+        "end": 32051,
+        "text": "A large frontier developer shall provide a reasonable internal process through which a covered employee may anonymously disclose information to the large frontier developer",
+        "chunk_id": 12517552160456717695
+      }
+    ]
+  }
+]

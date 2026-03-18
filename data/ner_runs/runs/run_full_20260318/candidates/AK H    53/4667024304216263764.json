@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12994334180558177908,
+    "entity": "Department of Law",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "unrestricted",
+    "entity_evidence": [
+      {
+        "span_id": 3479774678742681654,
+        "start": 68033,
+        "end": 68047,
+        "text": "Department of Law",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5421760961711292788,
+        "start": 68048,
+        "end": 68057,
+        "text": "government agency",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3739883206424402621,
+        "start": 68058,
+        "end": 68065,
+        "text": "regulation",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18247504744753990670,
+        "start": 68066,
+        "end": 68073,
+        "text": "unrestricted",
+        "chunk_id": 4667024304216263764
+      }
+    ]
+  },
+  {
+    "candidate_id": 493685098948523278,
+    "entity": "Department of Military and Veterans’ Affairs",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "unrestricted",
+    "entity_evidence": [
+      {
+        "span_id": 18102140399461307554,
+        "start": 68033,
+        "end": 68067,
+        "text": "Department of Military and Veterans’ Affairs",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15125533439484224309,
+        "start": 68068,
+        "end": 68087,
+        "text": "government agency",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9799381256871181970,
+        "start": 68088,
+        "end": 68095,
+        "text": "regulation",
+        "chunk_id": 4667024304216263764
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15450604301524692372,
+        "start": 68096,
+        "end": 68103,
+        "text": "unrestricted",
+        "chunk_id": 4667024304216263764
+      }
+    ]
+  }
+]

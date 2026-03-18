@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15994745535198319450,
+    "source_group_id": 2677374511285390236,
+    "source_candidate_ids": [
+      8555241162161562482
+    ],
+    "entity": "sexually explicit digital material",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 113267681460328336,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3232158208098971671,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10789997008052684543,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7415230802819388164,
+        "start": 7362,
+        "end": 7390,
+        "text": "Sexually explicit digital material",
+        "chunk_id": 11763649884570934754
+      }
+    ]
+  }
+]

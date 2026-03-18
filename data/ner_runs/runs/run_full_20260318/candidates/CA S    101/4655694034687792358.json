@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1592550802035861839,
+    "entity": "Employment Development Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 2940160378601439598,
+        "start": 1384669,
+        "end": 1384693,
+        "text": "Employment Development Department",
+        "chunk_id": 4655694034687792358
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13613321210979186901,
+        "start": 1384669,
+        "end": 1384693,
+        "text": "Employment Development Department",
+        "chunk_id": 4655694034687792358
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2261239878003380873,
+        "start": 1384669,
+        "end": 1384693,
+        "text": "Employment Development Department",
+        "chunk_id": 4655694034687792358
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14825641323057713221,
+        "start": 1384669,
+        "end": 1384693,
+        "text": "Employment Development Department",
+        "chunk_id": 4655694034687792358
+      }
+    ]
+  },
+  {
+    "candidate_id": 16788323483032183160,
+    "entity": "Controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 10735253102383005430,
+        "start": 1384669,
+        "end": 1384678,
+        "text": "Controller",
+        "chunk_id": 4655694034687792358
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17301660765596528882,
+        "start": 1384669,
+        "end": 1384678,
+        "text": "Controller",
+        "chunk_id": 4655694034687792358
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6595635375058488143,
+        "start": 1384669,
+        "end": 1384678,
+        "text": "Controller",
+        "chunk_id": 4655694034687792358
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13495264755418543433,
+        "start": 1384669,
+        "end": 1384678,
+        "text": "Controller",
+        "chunk_id": 4655694034687792358
+      }
+    ]
+  }
+]

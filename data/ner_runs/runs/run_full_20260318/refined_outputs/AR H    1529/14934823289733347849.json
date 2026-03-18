@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 10572203586720842987,
+    "source_group_id": 14934823289733347849,
+    "source_candidate_ids": [
+      12778746651457400120,
+      4142042959437441026
+    ],
+    "entity": "deepfake visual material",
+    "type": "technology",
+    "attribute": "protection",
+    "value": "reasonable safeguards",
+    "entity_evidence": [
+      {
+        "span_id": 16195697869339626635,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9951149814644406434,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17657723277890138867,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15469861930831258436,
+        "start": 2498,
+        "end": 2516,
+        "text": "reasonable safeguards",
+        "chunk_id": 10374305482863158624
+      }
+    ]
+  }
+]

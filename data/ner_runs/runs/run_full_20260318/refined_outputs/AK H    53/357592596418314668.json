@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4265086366125740951,
+    "source_group_id": 357592596418314668,
+    "source_candidate_ids": [
+      15672663686556503462
+    ],
+    "entity": "Office of the Governor",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 18390474615827236133,
+        "start": 174719,
+        "end": 174737,
+        "text": "Office of the Governor",
+        "chunk_id": 1255129072034361350
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 88659360514205603,
+        "start": 174719,
+        "end": 174737,
+        "text": "Office of the Governor",
+        "chunk_id": 1255129072034361350
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15827366394108628968,
+        "start": 174719,
+        "end": 174737,
+        "text": "Office of the Governor",
+        "chunk_id": 1255129072034361350
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4614195567775726031,
+        "start": 174719,
+        "end": 174737,
+        "text": "Office of the Governor",
+        "chunk_id": 1255129072034361350
+      }
+    ]
+  }
+]

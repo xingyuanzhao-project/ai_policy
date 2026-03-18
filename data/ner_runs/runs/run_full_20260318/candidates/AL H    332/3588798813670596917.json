@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15700830508259691857,
+    "entity": "State Board of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 17958841059841456159,
+        "start": 123,
+        "end": 143,
+        "text": "BOARD. The State Board of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5893879357872080024,
+        "start": 123,
+        "end": 143,
+        "text": "BOARD. The State Board of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4486961625080268959,
+        "start": 123,
+        "end": 143,
+        "text": "BOARD. The State Board of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10326369794570620556,
+        "start": 123,
+        "end": 143,
+        "text": "BOARD. The State Board of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ]
+  },
+  {
+    "candidate_id": 6066832613206508070,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 6306466724055249835,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13115073500218096168,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12320335655340200460,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16846285394886342238,
+        "start": 164,
+        "end": 184,
+        "text": "DEPARTMENT. The State Department of Education.",
+        "chunk_id": 3588798813670596917
+      }
+    ]
+  }
+]

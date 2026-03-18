@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9574520135407873004,
+    "entity": "Department of Corrections",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 2445670984477221740,
+        "start": 10497,
+        "end": 10518,
+        "text": "Department of Corrections",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 176427091705386936,
+        "start": 10497,
+        "end": 10518,
+        "text": "Department of Corrections",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4793787300987619831,
+        "start": 10497,
+        "end": 10518,
+        "text": "Department of Corrections",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15003552783320986453,
+        "start": 10497,
+        "end": 10518,
+        "text": "Department of Corrections",
+        "chunk_id": 12440107684494277779
+      }
+    ]
+  },
+  {
+    "candidate_id": 10025871518202346201,
+    "entity": "Regional and Community Jails program",
+    "type": "government program",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 865258499121511721,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13215056312234402926,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17943804714080434585,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9136087918058216720,
+        "start": 10909,
+        "end": 10930,
+        "text": "Regional and Community Jails program",
+        "chunk_id": 12440107684494277779
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 13985544992747912307,
+    "source_group_id": 9131811869171126063,
+    "source_candidate_ids": [
+      18331106858004528959
+    ],
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "written authorization",
+    "entity_evidence": [
+      {
+        "span_id": 14091188074694135284,
+        "start": 1751912,
+        "end": 1751924,
+        "text": "The Director of Finance may withhold authorization",
+        "chunk_id": 17055827580433813778
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12220895288358031509,
+        "start": 1751912,
+        "end": 1751924,
+        "text": "The Director of Finance may withhold authorization",
+        "chunk_id": 17055827580433813778
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6216778271362626166,
+        "start": 1751912,
+        "end": 1751924,
+        "text": "The Director of Finance may withhold authorization",
+        "chunk_id": 17055827580433813778
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12149027477589348553,
+        "start": 1751912,
+        "end": 1751924,
+        "text": "The Director of Finance may withhold authorization",
+        "chunk_id": 17055827580433813778
+      }
+    ]
+  }
+]

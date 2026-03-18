@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 15221646107672731567,
+    "source_group_id": 932977832132097009,
+    "source_candidate_ids": [
+      9532699742771596726,
+      5953327223089452889
+    ],
+    "entity": "covered platform",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 12244484690844945863,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15078464596709628892,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8502219048822009977,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4354325091541917006,
+        "start": 7494,
+        "end": 7507,
+        "text": "covered platform",
+        "chunk_id": 14064762059671815260
+      }
+    ]
+  }
+]

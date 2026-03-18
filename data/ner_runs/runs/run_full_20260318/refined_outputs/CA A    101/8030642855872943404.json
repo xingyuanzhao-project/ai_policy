@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16501625445061409054,
+    "source_group_id": 8030642855872943404,
+    "source_candidate_ids": [
+      6772526074103149497
+    ],
+    "entity": "Department of Technology",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "incremental",
+    "entity_evidence": [
+      {
+        "span_id": 15564464734951209839,
+        "start": 1529363,
+        "end": 1529383,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 5460538048940343982
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16195071629390612458,
+        "start": 1529363,
+        "end": 1529383,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 5460538048940343982
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2477072750140347247,
+        "start": 1529363,
+        "end": 1529383,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 5460538048940343982
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12019387345732291585,
+        "start": 1529363,
+        "end": 1529383,
+        "text": "Resident information required for authentication will be program specific and obtained incrementally on an as-needed basis.",
+        "chunk_id": 5460538048940343982
+      }
+    ]
+  }
+]

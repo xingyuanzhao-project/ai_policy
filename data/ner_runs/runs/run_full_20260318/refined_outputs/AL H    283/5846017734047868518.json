@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 9625824853846194832,
+    "source_group_id": 5846017734047868518,
+    "source_candidate_ids": [
+      11195915513943708884,
+      11373968834230037238
+    ],
+    "entity": "processor",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3140656295661533114,
+        "start": 27829,
+        "end": 27835,
+        "text": "processor",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3169386926114388277,
+        "start": 27829,
+        "end": 27837,
+        "text": "processor",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4327039928835575405,
+        "start": 27837,
+        "end": 27847,
+        "text": "adhere to the instructions",
+        "chunk_id": 7322324940008856737
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15636581898282962659,
+        "start": 27847,
+        "end": 27859,
+        "text": "as much as reasonably practicable",
+        "chunk_id": 7322324940008856737
+      }
+    ]
+  }
+]

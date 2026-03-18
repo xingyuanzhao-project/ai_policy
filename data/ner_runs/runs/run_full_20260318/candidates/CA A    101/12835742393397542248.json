@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7721414545695160628,
+    "entity": "Department of General Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2775775156678846909,
+        "start": 1560110,
+        "end": 1560130,
+        "text": "Department of General Services",
+        "chunk_id": 12835742393397542248
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9276614034276659598,
+        "start": 1560110,
+        "end": 1560130,
+        "text": "Department of General Services",
+        "chunk_id": 12835742393397542248
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14185365448126680453,
+        "start": 1560110,
+        "end": 1560130,
+        "text": "Department of General Services",
+        "chunk_id": 12835742393397542248
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9046375975836569198,
+        "start": 1560110,
+        "end": 1560130,
+        "text": "Department of General Services",
+        "chunk_id": 12835742393397542248
+      }
+    ]
+  },
+  {
+    "candidate_id": 17273767517534890415,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 1196585053895806155,
+        "start": 1560221,
+        "end": 1560241,
+        "text": "Director of Finance",
+        "chunk_id": 12835742393397542248
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10765049943628374915,
+        "start": 1560221,
+        "end": 1560241,
+        "text": "Director of Finance",
+        "chunk_id": 12835742393397542248
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13504857370780539527,
+        "start": 1560221,
+        "end": 1560241,
+        "text": "Director of Finance",
+        "chunk_id": 12835742393397542248
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10996077704335347569,
+        "start": 1560221,
+        "end": 1560241,
+        "text": "Director of Finance",
+        "chunk_id": 12835742393397542248
+      }
+    ]
+  }
+]

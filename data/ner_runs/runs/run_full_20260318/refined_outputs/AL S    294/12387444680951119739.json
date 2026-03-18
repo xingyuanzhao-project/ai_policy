@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7361793814993915947,
+    "source_group_id": 12387444680951119739,
+    "source_candidate_ids": [
+      2881069550661748261
+    ],
+    "entity": "health insurer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "strictest confidence",
+    "entity_evidence": [
+      {
+        "span_id": 18352348101040557441,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6656703802344372374,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15117145433857752291,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10891565641880264415,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ]
+  }
+]

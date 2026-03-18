@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12226461627057961909,
+    "source_group_id": 3985369780653220638,
+    "source_candidate_ids": [
+      10834381540119528637
+    ],
+    "entity": "Alabama Innovation Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "specific purpose",
+    "entity_evidence": [
+      {
+        "span_id": 2701661200508838421,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11203499063542557013,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3867976297745581500,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3550044312547807253,
+        "start": 125444,
+        "end": 125465,
+        "text": "The above appropriation shall be used for economic development and research purposes recommended by the Secretary of the Alabama Department of Commerce and approved by the Governor.",
+        "chunk_id": 18439227341000035544
+      }
+    ]
+  }
+]

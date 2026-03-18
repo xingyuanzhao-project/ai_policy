@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 308238021102741046,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reversion",
+    "entity_evidence": [
+      {
+        "span_id": 8600341309952501307,
+        "start": 539314,
+        "end": 539334,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18215433616296432109,
+        "start": 539314,
+        "end": 539334,
+        "text": "government agency",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6481833989624045078,
+        "start": 539314,
+        "end": 539334,
+        "text": "restriction",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17577555839435101282,
+        "start": 539314,
+        "end": 539334,
+        "text": "reversion",
+        "chunk_id": 2784438367216813883
+      }
+    ]
+  },
+  {
+    "candidate_id": 14666504654831678273,
+    "entity": "General Fund",
+    "type": "fund",
+    "attribute": "liquidation",
+    "value": "until June 30, 2027",
+    "entity_evidence": [
+      {
+        "span_id": 12236790546795799963,
+        "start": 539191,
+        "end": 539202,
+        "text": "General Fund",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17658013309303485487,
+        "start": 539191,
+        "end": 539202,
+        "text": "fund",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16744348935078566218,
+        "start": 539191,
+        "end": 539202,
+        "text": "liquidation",
+        "chunk_id": 2784438367216813883
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6978152866675539972,
+        "start": 539191,
+        "end": 539202,
+        "text": "until June 30, 2027",
+        "chunk_id": 2784438367216813883
+      }
+    ]
+  }
+]

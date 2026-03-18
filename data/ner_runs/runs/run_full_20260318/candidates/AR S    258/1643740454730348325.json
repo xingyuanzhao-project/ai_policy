@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8362831492573042363,
+    "entity": "company",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 2586346103311624958,
+        "start": 7526,
+        "end": 7533,
+        "text": "cent (50%) of the outstanding shares of any class of voting security of a company;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7205652677548490669,
+        "start": 7526,
+        "end": 7533,
+        "text": "cent (50%) of the outstanding shares of any class of voting security of a company;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2510656358608356665,
+        "start": 7526,
+        "end": 7533,
+        "text": "cent (50%) of the outstanding shares of any class of voting security of a company;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9257388500545003584,
+        "start": 7526,
+        "end": 7533,
+        "text": "cent (50%) of the outstanding shares of any class of voting security of a company;",
+        "chunk_id": 1643740454730348325
+      }
+    ]
+  },
+  {
+    "candidate_id": 6623572570644621468,
+    "entity": "controller",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 9830282290905112136,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4392166508109781006,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8721316618973129100,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10338561189653966974,
+        "start": 7536,
+        "end": 7547,
+        "text": "Controller means an individual or other person that, alone or jointly with others, determines the purpose and means of processing personal data;",
+        "chunk_id": 1643740454730348325
+      }
+    ]
+  }
+]

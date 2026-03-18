@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6493248228022991827,
+    "entity": "community college system",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 18243748151027053477,
+        "start": 1326083,
+        "end": 1326102,
+        "text": "technology investments of the community college system",
+        "chunk_id": 18306271398221947156
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3604700697015482584,
+        "start": 1326083,
+        "end": 1326102,
+        "text": "technology investments of the community college system",
+        "chunk_id": 18306271398221947156
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2627174761984645238,
+        "start": 1326083,
+        "end": 1326102,
+        "text": "technology investments of the community college system",
+        "chunk_id": 18306271398221947156
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2923067394007508211,
+        "start": 1326083,
+        "end": 1326102,
+        "text": "technology investments of the community college system",
+        "chunk_id": 18306271398221947156
+      }
+    ]
+  },
+  {
+    "candidate_id": 18248630086324653932,
+    "entity": "CCCApply",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 13894670792662512249,
+        "start": 1326383,
+        "end": 1326391,
+        "text": "CCCApply",
+        "chunk_id": 18306271398221947156
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1478150479847886694,
+        "start": 1326383,
+        "end": 1326391,
+        "text": "CCCApply",
+        "chunk_id": 18306271398221947156
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11456975115392753537,
+        "start": 1326383,
+        "end": 1326391,
+        "text": "CCCApply",
+        "chunk_id": 18306271398221947156
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3021040872226532378,
+        "start": 1326383,
+        "end": 1326391,
+        "text": "CCCApply",
+        "chunk_id": 18306271398221947156
+      }
+    ]
+  }
+]

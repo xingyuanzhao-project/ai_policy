@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4944107303208894303,
+    "source_group_id": 16446177914813595112,
+    "source_candidate_ids": [
+      14452983086395089707
+    ],
+    "entity": "California Career Technical Education Incentive Grant Program",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 8173229294037028327,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "California Career Technical Education Incentive Grant Program",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9855747730094936847,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "Program",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1651155154927856325,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "Program",
+        "chunk_id": 16634765793229556096
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11147476950820718091,
+        "start": 1291547,
+        "end": 1291575,
+        "text": "Program",
+        "chunk_id": 16634765793229556096
+      }
+    ]
+  }
+]

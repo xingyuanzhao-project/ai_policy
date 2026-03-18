@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5845478723442796246,
+    "source_group_id": 14664099846105590817,
+    "source_candidate_ids": [
+      17812641440080041909
+    ],
+    "entity": "County Department",
+    "type": "Government Agency",
+    "attribute": "restriction",
+    "value": "primary responsibility",
+    "entity_evidence": [
+      {
+        "span_id": 7522400688853602295,
+        "start": 31565,
+        "end": 31581,
+        "text": "county probation departments",
+        "chunk_id": 15982590275292486543
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11407038064461285515,
+        "start": 31565,
+        "end": 31581,
+        "text": "county probation departments",
+        "chunk_id": 15982590275292486543
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5644625902526513796,
+        "start": 31565,
+        "end": 31581,
+        "text": "county probation departments",
+        "chunk_id": 15982590275292486543
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5401611871048442508,
+        "start": 31565,
+        "end": 31581,
+        "text": "county probation departments",
+        "chunk_id": 15982590275292486543
+      }
+    ]
+  }
+]

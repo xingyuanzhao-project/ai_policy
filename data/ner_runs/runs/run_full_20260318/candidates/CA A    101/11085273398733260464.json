@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2010898899236786919,
+    "entity": "San Luis Obispo County",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extended",
+    "entity_evidence": [
+      {
+        "span_id": 7613771294689717169,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12128360341291538093,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1572389129118821454,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4014434848268095171,
+        "start": 69273,
+        "end": 69293,
+        "text": "San Luis Obispo County",
+        "chunk_id": 11085273398733260464
+      }
+    ]
+  },
+  {
+    "candidate_id": 11975316548239817315,
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 8702701636584904051,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8644774154693626815,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11862437926739506986,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 508930826559211994,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11696717431949219014,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "sustained enrollment declines",
+    "entity_evidence": [
+      {
+        "span_id": 11682943366832615888,
+        "start": 1272017,
+        "end": 1272038,
+        "text": "California State University campus",
+        "chunk_id": 4086743385809609083
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3677649097066133966,
+        "start": 1272017,
+        "end": 1272038,
+        "text": "California State University campus",
+        "chunk_id": 4086743385809609083
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14966965577312386891,
+        "start": 1272038,
+        "end": 1272049,
+        "text": "has experienced sustained enrollment declines",
+        "chunk_id": 4086743385809609083
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18264079823669843290,
+        "start": 1272038,
+        "end": 1272049,
+        "text": "sustained enrollment declines",
+        "chunk_id": 4086743385809609083
+      }
+    ]
+  },
+  {
+    "candidate_id": 3135496261003149899,
+    "entity": "California State University Chancellor's Office",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "turnaround plan",
+    "entity_evidence": [
+      {
+        "span_id": 3313573505676126254,
+        "start": 1272099,
+        "end": 1272121,
+        "text": "California State University Chancellor's Office",
+        "chunk_id": 4086743385809609083
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2298951543512605348,
+        "start": 1272099,
+        "end": 1272121,
+        "text": "California State University Chancellor's Office",
+        "chunk_id": 4086743385809609083
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4154282730076147000,
+        "start": 1272121,
+        "end": 1272132,
+        "text": "submit a turnaround plan",
+        "chunk_id": 4086743385809609083
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10559302051956748208,
+        "start": 1272121,
+        "end": 1272132,
+        "text": "turnaround plan",
+        "chunk_id": 4086743385809609083
+      }
+    ]
+  }
+]

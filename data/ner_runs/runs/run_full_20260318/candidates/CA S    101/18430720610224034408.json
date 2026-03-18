@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14036451393722814811,
+    "entity": "Department of the California Highway Patrol",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 7322630140962069372,
+        "start": 410620,
+        "end": 410642,
+        "text": "Department of the California Highway Patrol",
+        "chunk_id": 18430720610224034408
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9240127279641002043,
+        "start": 410620,
+        "end": 410642,
+        "text": "Department of the California Highway Patrol",
+        "chunk_id": 18430720610224034408
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4047765658637559037,
+        "start": 410620,
+        "end": 410642,
+        "text": "Department of the California Highway Patrol",
+        "chunk_id": 18430720610224034408
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7423513209146078696,
+        "start": 410620,
+        "end": 410642,
+        "text": "Department of the California Highway Patrol",
+        "chunk_id": 18430720610224034408
+      }
+    ]
+  },
+  {
+    "candidate_id": 15579205405203254941,
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "interim loan",
+    "entity_evidence": [
+      {
+        "span_id": 10944567832813008362,
+        "start": 410348,
+        "end": 410372,
+        "text": "awings, construction, performance criteria, and design-build phases, as may be applicable to the scheduled project. The State Public Works Board",
+        "chunk_id": 18430720610224034408
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18226830114509424431,
+        "start": 410348,
+        "end": 410372,
+        "text": "awings, construction, performance criteria, and design-build phases, as may be applicable to the scheduled project. The State Public Works Board",
+        "chunk_id": 18430720610224034408
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17297285122413812452,
+        "start": 410348,
+        "end": 410372,
+        "text": "awings, construction, performance criteria, and design-build phases, as may be applicable to the scheduled project. The State Public Works Board",
+        "chunk_id": 18430720610224034408
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12609391462682113790,
+        "start": 410348,
+        "end": 410372,
+        "text": "awings, construction, performance criteria, and design-build phases, as may be applicable to the scheduled project. The State Public Works Board",
+        "chunk_id": 18430720610224034408
+      }
+    ]
+  }
+]

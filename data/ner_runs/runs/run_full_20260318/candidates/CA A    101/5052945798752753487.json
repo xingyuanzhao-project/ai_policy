@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 15850460333247107484,
+    "entity": "California Conservation Corps",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "not subject to provisions of subdivision (b) of Section 15.14",
+    "entity_evidence": [
+      {
+        "span_id": 16521514872693567253,
+        "start": 452893,
+        "end": 452913,
+        "text": "California Conservation Corps",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3316859877807040068,
+        "start": 452893,
+        "end": 452913,
+        "text": "government agency",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16288462472332511291,
+        "start": 453793,
+        "end": 453813,
+        "text": "shall not be subject to the provisions of subdivision (b) of Section 15.14",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17242327638099123203,
+        "start": 453793,
+        "end": 453813,
+        "text": "not subject to provisions of subdivision (b) of Section 15.14",
+        "chunk_id": 5052945798752753487
+      }
+    ]
+  },
+  {
+    "candidate_id": 9191421567247950183,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 11667762887264062959,
+        "start": 452682,
+        "end": 452702,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11781298548755590413,
+        "start": 452682,
+        "end": 452702,
+        "text": "government agency",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17635949116648138343,
+        "start": 453015,
+        "end": 453035,
+        "text": "until June 30, 2028",
+        "chunk_id": 5052945798752753487
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9725548358841542087,
+        "start": 453015,
+        "end": 453035,
+        "text": "until June 30, 2028",
+        "chunk_id": 5052945798752753487
+      }
+    ]
+  }
+]

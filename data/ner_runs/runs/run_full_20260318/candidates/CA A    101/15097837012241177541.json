@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11683801787221163799,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 2590051488862549910,
+        "start": 555095,
+        "end": 555119,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 15097837012241177541
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4807347137703778451,
+        "start": 555095,
+        "end": 555119,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 15097837012241177541
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17381241936020003666,
+        "start": 555095,
+        "end": 555119,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 15097837012241177541
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10830808720740796627,
+        "start": 555095,
+        "end": 555119,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 15097837012241177541
+      }
+    ]
+  },
+  {
+    "candidate_id": 10237191602579660519,
+    "entity": "Salton Sea Management Program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 10707771466783165114,
+        "start": 555966,
+        "end": 555982,
+        "text": "The amount appropriated in this item shall be available for support of the Salton Sea Management Program.",
+        "chunk_id": 15097837012241177541
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 426832553289143810,
+        "start": 555966,
+        "end": 555982,
+        "text": "The amount appropriated in this item shall be available for support of the Salton Sea Management Program.",
+        "chunk_id": 15097837012241177541
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1372573784871182420,
+        "start": 555966,
+        "end": 555982,
+        "text": "The amount appropriated in this item shall be available for support of the Salton Sea Management Program.",
+        "chunk_id": 15097837012241177541
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18068435508766616213,
+        "start": 555966,
+        "end": 555982,
+        "text": "The amount appropriated in this item shall be available for support of the Salton Sea Management Program.",
+        "chunk_id": 15097837012241177541
+      }
+    ]
+  }
+]

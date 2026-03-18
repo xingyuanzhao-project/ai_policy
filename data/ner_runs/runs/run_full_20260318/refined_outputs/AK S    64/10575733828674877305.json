@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10335754674172354819,
+    "source_group_id": 10575733828674877305,
+    "source_candidate_ids": [
+      8270089804486151011
+    ],
+    "entity": "election official",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3925202376213541921,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11505758546152677681,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11764600448838715212,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7528696091569510925,
+        "start": 47459,
+        "end": 47472,
+        "text": "A person commits the crime of unlawful interference with an election if the person",
+        "chunk_id": 17537156708187522956
+      }
+    ]
+  }
+]

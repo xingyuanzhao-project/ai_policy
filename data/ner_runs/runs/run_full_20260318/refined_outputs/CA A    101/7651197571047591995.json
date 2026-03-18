@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5373897777129388476,
+    "source_group_id": 7651197571047591995,
+    "source_candidate_ids": [
+      9475972460409265187
+    ],
+    "entity": "California Conservation Corps",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17674168140283113010,
+        "start": 450072,
+        "end": 450092,
+        "text": "California Conservation Corps",
+        "chunk_id": 7729001530609828208
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 549746348267848059,
+        "start": 450072,
+        "end": 450092,
+        "text": "government agency",
+        "chunk_id": 7729001530609828208
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 265881178886730223,
+        "start": 450072,
+        "end": 450092,
+        "text": "restriction",
+        "chunk_id": 7729001530609828208
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16218714399559610961,
+        "start": 450072,
+        "end": 450092,
+        "text": "limited",
+        "chunk_id": 7729001530609828208
+      }
+    ]
+  }
+]

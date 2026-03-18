@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2105855500584816415,
+    "source_group_id": 13747772799737486861,
+    "source_candidate_ids": [
+      11975316548239817315
+    ],
+    "entity": "Judicial Council",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "reappropriation",
+    "entity_evidence": [
+      {
+        "span_id": 11304232717678031357,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14046318481094592274,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6720486816575283579,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2756628756967912633,
+        "start": 69294,
+        "end": 69310,
+        "text": "Judicial Council",
+        "chunk_id": 11085273398733260464
+      }
+    ]
+  }
+]

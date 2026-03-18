@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 6196432605351207803,
+    "entity": "CAL FIRE Training Center",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "acquisition",
+    "entity_evidence": [
+      {
+        "span_id": 3612485188319178575,
+        "start": 542001,
+        "end": 542021,
+        "text": "Additional CAL FIRE Training Center",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1401113611732315150,
+        "start": 542001,
+        "end": 542021,
+        "text": "Additional CAL FIRE Training Center",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5359719624919252687,
+        "start": 542001,
+        "end": 542021,
+        "text": "Additional CAL FIRE Training Center",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7833635930676298504,
+        "start": 542001,
+        "end": 542021,
+        "text": "Additional CAL FIRE Training Center",
+        "chunk_id": 16157226958887121513
+      }
+    ]
+  },
+  {
+    "candidate_id": 15974739550882385126,
+    "entity": "Public Building Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 10335467591692770977,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14273502937869440726,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3429062488768079072,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7267872396200736138,
+        "start": 542124,
+        "end": 542142,
+        "text": "Public Building Construction Fund",
+        "chunk_id": 16157226958887121513
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 12042647436820910290,
+    "entity": "Board of Governors of the California Community Colleges",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "substantial",
+    "entity_evidence": [
+      {
+        "span_id": 9049593702803894534,
+        "start": 1280285,
+        "end": 1280332,
+        "text": "For support of Board of Governors of the California Community Colleges",
+        "chunk_id": 17431516561394525555
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4648436917188252857,
+        "start": 1280285,
+        "end": 1280332,
+        "text": "For support of Board of Governors of the California Community Colleges",
+        "chunk_id": 17431516561394525555
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5928822157994883744,
+        "start": 1280285,
+        "end": 1280332,
+        "text": "For support of Board of Governors of the California Community Colleges",
+        "chunk_id": 17431516561394525555
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11710361432239140396,
+        "start": 1280285,
+        "end": 1280332,
+        "text": "For support of Board of Governors of the California Community Colleges",
+        "chunk_id": 17431516561394525555
+      }
+    ]
+  },
+  {
+    "candidate_id": 9485682701479842629,
+    "entity": "Department of Human Resources",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 9338551649428096953,
+        "start": 1280943,
+        "end": 1280960,
+        "text": "Department of Human Resources",
+        "chunk_id": 17431516561394525555
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15770697261078482772,
+        "start": 1280943,
+        "end": 1280960,
+        "text": "Department of Human Resources",
+        "chunk_id": 17431516561394525555
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8897286019987804466,
+        "start": 1280943,
+        "end": 1280960,
+        "text": "Department of Human Resources",
+        "chunk_id": 17431516561394525555
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5001408396161043551,
+        "start": 1280943,
+        "end": 1280960,
+        "text": "Department of Human Resources",
+        "chunk_id": 17431516561394525555
+      }
+    ]
+  }
+]

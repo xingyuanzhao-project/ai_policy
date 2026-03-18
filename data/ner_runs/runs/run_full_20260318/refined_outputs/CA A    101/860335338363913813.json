@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 16220056919803440625,
+    "source_group_id": 860335338363913813,
+    "source_candidate_ids": [
+      4748906584188110698
+    ],
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "extension of liquidation period",
+    "entity_evidence": [
+      {
+        "span_id": 112496879310846173,
+        "start": 310631,
+        "end": 310673,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 8845053044769761862
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7870525386400145278,
+        "start": 310631,
+        "end": 310673,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 8845053044769761862
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7319652397431713610,
+        "start": 310673,
+        "end": 310681,
+        "text": "Notwithstanding any other law",
+        "chunk_id": 8845053044769761862
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5993859894152002085,
+        "start": 310681,
+        "end": 310689,
+        "text": "to June 30, 2029",
+        "chunk_id": 8845053044769761862
+      }
+    ]
+  }
+]

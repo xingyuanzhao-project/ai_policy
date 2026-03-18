@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 9040660969157865525,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 3685370001590841939,
+        "start": 601045,
+        "end": 601065,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 13409497083660032381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17512632991536376078,
+        "start": 601045,
+        "end": 601065,
+        "text": "government agency",
+        "chunk_id": 13409497083660032381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12415681824371102237,
+        "start": 601065,
+        "end": 601075,
+        "text": "restriction",
+        "chunk_id": 13409497083660032381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5062839186511454637,
+        "start": 601075,
+        "end": 601095,
+        "text": "until June 30, 2028",
+        "chunk_id": 13409497083660032381
+      }
+    ]
+  },
+  {
+    "candidate_id": 1944634500999350868,
+    "entity": "Statewide Park Development and Community Revitalization Act of 2008",
+    "type": "legislation",
+    "attribute": "promotion",
+    "value": "competitive grant program",
+    "entity_evidence": [
+      {
+        "span_id": 8346500264410565126,
+        "start": 601141,
+        "end": 601165,
+        "text": "Statewide Park Development and Community Revitalization Act of 2008",
+        "chunk_id": 13409497083660032381
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5358989366670612371,
+        "start": 601141,
+        "end": 601165,
+        "text": "legislation",
+        "chunk_id": 13409497083660032381
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4609522265365705378,
+        "start": 601165,
+        "end": 601175,
+        "text": "promotion",
+        "chunk_id": 13409497083660032381
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10553330352866046687,
+        "start": 601175,
+        "end": 601195,
+        "text": "competitive grant program",
+        "chunk_id": 13409497083660032381
+      }
+    ]
+  }
+]

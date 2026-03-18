@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12611700785462276133,
+    "source_group_id": 4058149969730184970,
+    "source_candidate_ids": [
+      4014113475191939049
+    ],
+    "entity": "Legislature",
+    "type": "government agency",
+    "attribute": "funding",
+    "value": "89,928,400",
+    "entity_evidence": [
+      {
+        "span_id": 16127483327594146635,
+        "start": 74405,
+        "end": 74405,
+        "text": "Legislature",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16929142739257012436,
+        "start": 74405,
+        "end": 74405,
+        "text": "Legislature",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1504563430910011953,
+        "start": 74405,
+        "end": 74405,
+        "text": "Unrestricted General Fund",
+        "chunk_id": 682721320098783553
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14208979924274272756,
+        "start": 74405,
+        "end": 74405,
+        "text": "89,928,400",
+        "chunk_id": 682721320098783553
+      }
+    ]
+  }
+]

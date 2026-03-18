@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 34955270541284343,
+    "source_group_id": 4773641831210756608,
+    "source_candidate_ids": [
+      3735792090166646938
+    ],
+    "entity": "Commission on Teacher Credentialing",
+    "type": "government agency",
+    "attribute": "requirement",
+    "value": "annual report",
+    "entity_evidence": [
+      {
+        "span_id": 1225498441193170938,
+        "start": 1311041,
+        "end": 1311065,
+        "text": "The Commission on Teacher Credentialing shall submit an annual report",
+        "chunk_id": 7046831326615076772
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8978971385611846663,
+        "start": 1311041,
+        "end": 1311065,
+        "text": "The Commission on Teacher Credentialing shall submit an annual report",
+        "chunk_id": 7046831326615076772
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 833752231612950166,
+        "start": 1311041,
+        "end": 1311065,
+        "text": "The Commission on Teacher Credentialing shall submit an annual report",
+        "chunk_id": 7046831326615076772
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5940993909009873295,
+        "start": 1311041,
+        "end": 1311065,
+        "text": "The Commission on Teacher Credentialing shall submit an annual report",
+        "chunk_id": 7046831326615076772
+      }
+    ]
+  }
+]

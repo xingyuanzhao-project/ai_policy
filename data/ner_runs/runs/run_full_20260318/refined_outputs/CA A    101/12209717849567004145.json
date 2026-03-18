@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 12466857722061938643,
+    "source_group_id": 12209717849567004145,
+    "source_candidate_ids": [
+      18189419573157179020
+    ],
+    "entity": "Arts in Corrections program",
+    "type": "government program",
+    "attribute": "prohibition",
+    "value": "ineligibility to receive funding",
+    "entity_evidence": [
+      {
+        "span_id": 10756513333733794003,
+        "start": 1610797,
+        "end": 1610812,
+        "text": "Arts in Corrections program",
+        "chunk_id": 9455692422563635418
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8908282278000663002,
+        "start": 1610797,
+        "end": 1610812,
+        "text": "government program",
+        "chunk_id": 9455692422563635418
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11334580970988662026,
+        "start": 1610797,
+        "end": 1610812,
+        "text": "prohibition",
+        "chunk_id": 9455692422563635418
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16274756134370087861,
+        "start": 1610797,
+        "end": 1610812,
+        "text": "ineligibility to receive funding",
+        "chunk_id": 9455692422563635418
+      }
+    ]
+  }
+]

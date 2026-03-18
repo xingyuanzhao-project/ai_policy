@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4510984075117934702,
+    "entity": "Department of Fish and Wildlife",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7750753827856488323,
+        "start": 513204,
+        "end": 513228,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 1505355241900807626
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16992736953553894500,
+        "start": 513204,
+        "end": 513228,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 1505355241900807626
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 999612398082972071,
+        "start": 513204,
+        "end": 513228,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 1505355241900807626
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2367114740902839861,
+        "start": 513204,
+        "end": 513228,
+        "text": "For support of Department of Fish and Wildlife",
+        "chunk_id": 1505355241900807626
+      }
+    ]
+  },
+  {
+    "candidate_id": 17514137062564881574,
+    "entity": "Fish and Game Preservation Fund",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 102899359084533208,
+        "start": 513264,
+        "end": 513288,
+        "text": "payable from the Fish and Game Preservation Fund",
+        "chunk_id": 1505355241900807626
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2573136953861033901,
+        "start": 513264,
+        "end": 513288,
+        "text": "payable from the Fish and Game Preservation Fund",
+        "chunk_id": 1505355241900807626
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2795381115633655170,
+        "start": 513264,
+        "end": 513288,
+        "text": "payable from the Fish and Game Preservation Fund",
+        "chunk_id": 1505355241900807626
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1899365122372465915,
+        "start": 513264,
+        "end": 513288,
+        "text": "payable from the Fish and Game Preservation Fund",
+        "chunk_id": 1505355241900807626
+      }
+    ]
+  }
+]

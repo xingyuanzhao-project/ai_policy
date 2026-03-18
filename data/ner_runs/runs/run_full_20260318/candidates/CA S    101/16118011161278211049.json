@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7819772156377173675,
+    "entity": "Service Revolving Fund",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17488500292770451276,
+        "start": 1465874,
+        "end": 1465893,
+        "text": "Service Revolving Fund",
+        "chunk_id": 16118011161278211049
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8248977702367522738,
+        "start": 1465874,
+        "end": 1465893,
+        "text": "government agency",
+        "chunk_id": 16118011161278211049
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5958071813653874719,
+        "start": 1465874,
+        "end": 1465893,
+        "text": "restriction",
+        "chunk_id": 16118011161278211049
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14096538465439682322,
+        "start": 1465874,
+        "end": 1465893,
+        "text": "limited",
+        "chunk_id": 16118011161278211049
+      }
+    ]
+  },
+  {
+    "candidate_id": 9711739018642368548,
+    "entity": "Natural Gas Services Program Fund",
+    "type": "government agency",
+    "attribute": "exemption",
+    "value": "one-time $2,500,000",
+    "entity_evidence": [
+      {
+        "span_id": 3338734700820635111,
+        "start": 1465986,
+        "end": 1466013,
+        "text": "Natural Gas Services Program Fund",
+        "chunk_id": 16118011161278211049
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 679930684780523150,
+        "start": 1465986,
+        "end": 1466013,
+        "text": "government agency",
+        "chunk_id": 16118011161278211049
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5580077620071509567,
+        "start": 1465986,
+        "end": 1466013,
+        "text": "exemption",
+        "chunk_id": 16118011161278211049
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4366392607155583448,
+        "start": 1465986,
+        "end": 1466013,
+        "text": "one-time $2,500,000",
+        "chunk_id": 16118011161278211049
+      }
+    ]
+  }
+]

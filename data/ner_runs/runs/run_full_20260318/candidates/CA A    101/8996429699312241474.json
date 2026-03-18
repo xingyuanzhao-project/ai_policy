@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 17251030790398559677,
+    "entity": "State Department of Developmental Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expenditure authority",
+    "entity_evidence": [
+      {
+        "span_id": 1346262720128350839,
+        "start": 955269,
+        "end": 955302,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 8996429699312241474
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11188012630705102625,
+        "start": 955269,
+        "end": 955302,
+        "text": "State Department of Developmental Services",
+        "chunk_id": 8996429699312241474
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11434586142012522699,
+        "start": 954944,
+        "end": 954954,
+        "text": "authorize a transfer of up to $5,000,000",
+        "chunk_id": 8996429699312241474
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8781233524167983203,
+        "start": 954944,
+        "end": 954954,
+        "text": "up to $5,000,000",
+        "chunk_id": 8996429699312241474
+      }
+    ]
+  },
+  {
+    "candidate_id": 18343357079616866348,
+    "entity": "Early Intervention Program",
+    "type": "program",
+    "attribute": "restriction",
+    "value": "expenditure authority",
+    "entity_evidence": [
+      {
+        "span_id": 16568832177242540944,
+        "start": 954944,
+        "end": 954962,
+        "text": "Early Intervention Program",
+        "chunk_id": 8996429699312241474
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9620125329362429220,
+        "start": 954944,
+        "end": 954962,
+        "text": "Early Intervention Program",
+        "chunk_id": 8996429699312241474
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13741985778880118131,
+        "start": 954944,
+        "end": 954954,
+        "text": "authorize a transfer of up to $5,000,000",
+        "chunk_id": 8996429699312241474
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10050783452859394413,
+        "start": 954944,
+        "end": 954954,
+        "text": "up to $5,000,000",
+        "chunk_id": 8996429699312241474
+      }
+    ]
+  }
+]

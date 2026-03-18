@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 14805037742272238311,
+    "entity": "Military Department",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 9063526362620369200,
+        "start": 1579953,
+        "end": 1579970,
+        "text": "For support of Military Department",
+        "chunk_id": 2901169834194077911
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9910233277242386904,
+        "start": 1579953,
+        "end": 1579970,
+        "text": "For support of Military Department",
+        "chunk_id": 2901169834194077911
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15064720026439390929,
+        "start": 1579970,
+        "end": 1579983,
+        "text": "payable from the Armory Discretionary Improvement Account",
+        "chunk_id": 2901169834194077911
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13248988225443148453,
+        "start": 1579970,
+        "end": 1579983,
+        "text": "payable from the Armory Discretionary Improvement Account",
+        "chunk_id": 2901169834194077911
+      }
+    ]
+  },
+  {
+    "candidate_id": 9623251304327693872,
+    "entity": "state active duty employees",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 13793910777923621543,
+        "start": 1580170,
+        "end": 1580186,
+        "text": "state active duty employees",
+        "chunk_id": 2901169834194077911
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7953094295458562672,
+        "start": 1580170,
+        "end": 1580186,
+        "text": "state active duty employees",
+        "chunk_id": 2901169834194077911
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10502885867502739706,
+        "start": 1580186,
+        "end": 1580200,
+        "text": "and shall only be available for expenditure upon passage of a federal active duty compensation increase in the federal budget",
+        "chunk_id": 2901169834194077911
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10056734834860168289,
+        "start": 1580186,
+        "end": 1580200,
+        "text": "and shall only be available for expenditure upon passage of a federal active duty compensation increase in the federal budget",
+        "chunk_id": 2901169834194077911
+      }
+    ]
+  }
+]

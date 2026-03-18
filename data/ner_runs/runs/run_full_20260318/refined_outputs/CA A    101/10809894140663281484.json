@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 2575647592706214393,
+    "source_group_id": 10809894140663281484,
+    "source_candidate_ids": [
+      1871031744935801914
+    ],
+    "entity": "Joint Legislative Budget Committee",
+    "type": "government agency",
+    "attribute": "notification",
+    "value": "at least 10 days prior",
+    "entity_evidence": [
+      {
+        "span_id": 15328709202037041907,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "Joint Legislative Budget Committee",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12780519288246491276,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "government agency",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13863368364603069611,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "notification",
+        "chunk_id": 16964919092828667285
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11827137045184146440,
+        "start": 1826106,
+        "end": 1826128,
+        "text": "at least 10 days prior",
+        "chunk_id": 16964919092828667285
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8577542257043283604,
+    "entity": "Department of Conservation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 3388351047572644599,
+        "start": 499098,
+        "end": 499115,
+        "text": "Department of Conservation",
+        "chunk_id": 4344804038490836801
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9081068739893482850,
+        "start": 499098,
+        "end": 499115,
+        "text": "government agency",
+        "chunk_id": 4344804038490836801
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1161847206628327819,
+        "start": 498750,
+        "end": 498750,
+        "text": "restriction",
+        "chunk_id": 4344804038490836801
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12286499769126941224,
+        "start": 498750,
+        "end": 498750,
+        "text": "encumbrance or expenditure until June 30, 2028",
+        "chunk_id": 4344804038490836801
+      }
+    ]
+  },
+  {
+    "candidate_id": 6956013347914048078,
+    "entity": "Department of Forestry and Fire Protection",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "encumbrance or expenditure until June 30",
+    "entity_evidence": [
+      {
+        "span_id": 10479766818209378569,
+        "start": 499104,
+        "end": 499123,
+        "text": "Department of Forestry and Fire Protection",
+        "chunk_id": 4344804038490836801
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 11609265925847638173,
+        "start": 499104,
+        "end": 499123,
+        "text": "government agency",
+        "chunk_id": 4344804038490836801
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2656846014240517090,
+        "start": 498750,
+        "end": 498750,
+        "text": "restriction",
+        "chunk_id": 4344804038490836801
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8163972463282897154,
+        "start": 498750,
+        "end": 498750,
+        "text": "encumbrance or expenditure until June 30",
+        "chunk_id": 4344804038490836801
+      }
+    ]
+  }
+]

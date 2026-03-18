@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 348206248200311279,
+    "source_group_id": 7444642039066704210,
+    "source_candidate_ids": [
+      14799050571637160133
+    ],
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "prohibition on entering into interest payments or terms in excess of those allowed by the State Public Works Board",
+    "entity_evidence": [
+      {
+        "span_id": 3966158876009301094,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17876431521702558668,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7503805456482758307,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10825175419363361382,
+        "start": 616908,
+        "end": 616926,
+        "text": "State Public Works Board",
+        "chunk_id": 8434123603591831623
+      }
+    ]
+  }
+]

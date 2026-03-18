@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2556545822613121226,
+    "entity": "Department of Justice",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 7632409207473572097,
+        "start": 169356,
+        "end": 169375,
+        "text": "contingent upon the Department of Justice submitting",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3316344445973937763,
+        "start": 169356,
+        "end": 169375,
+        "text": "contingent upon the Department of Justice submitting",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3633582663395363993,
+        "start": 169356,
+        "end": 169375,
+        "text": "contingent upon the Department of Justice submitting",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18215617649368477901,
+        "start": 169356,
+        "end": 169375,
+        "text": "contingent upon the Department of Justice submitting",
+        "chunk_id": 11049075796520177157
+      }
+    ]
+  },
+  {
+    "candidate_id": 8904920216979388182,
+    "entity": "Department of Motor Vehicles",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 4952977997551127616,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15110455060979621912,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13676989115159431244,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10453150810285714682,
+        "start": 169468,
+        "end": 169487,
+        "text": "The Department of Motor Vehicles shall fully cooperate",
+        "chunk_id": 11049075796520177157
+      }
+    ]
+  }
+]

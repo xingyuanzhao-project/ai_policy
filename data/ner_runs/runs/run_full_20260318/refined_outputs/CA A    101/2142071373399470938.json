@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 5092067988850177414,
+    "source_group_id": 2142071373399470938,
+    "source_candidate_ids": [
+      4609548736852313247
+    ],
+    "entity": "Special Education Program for Individuals with Exceptional Needs",
+    "type": "technology",
+    "attribute": "reappropriation",
+    "value": "unexpended balance",
+    "entity_evidence": [
+      {
+        "span_id": 6111228860652739412,
+        "start": 1289200,
+        "end": 1289232,
+        "text": "Special Education Program for Individuals with Exceptional Needs",
+        "chunk_id": 448486558576438815
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5569159208114519866,
+        "start": 1289200,
+        "end": 1289232,
+        "text": "Special Education Program for Individuals with Exceptional Needs",
+        "chunk_id": 448486558576438815
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11163552926156565428,
+        "start": 1289235,
+        "end": 1289245,
+        "text": "reappropriation",
+        "chunk_id": 448486558576438815
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12633638407730312142,
+        "start": 1289235,
+        "end": 1289245,
+        "text": "reappropriation",
+        "chunk_id": 448486558576438815
+      }
+    ]
+  }
+]

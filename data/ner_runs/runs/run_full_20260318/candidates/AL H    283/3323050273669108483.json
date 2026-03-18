@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3842540272055186490,
+    "entity": "controller",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "reasonable measures",
+    "entity_evidence": [
+      {
+        "span_id": 7457930016530007625,
+        "start": 30363,
+        "end": 30368,
+        "text": "controller",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6314016934118058995,
+        "start": 30363,
+        "end": 30372,
+        "text": "controller or processor",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1899434214032317684,
+        "start": 30372,
+        "end": 30380,
+        "text": "liabilities imposed",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14492865005888763319,
+        "start": 30380,
+        "end": 30391,
+        "text": "reasonable measures",
+        "chunk_id": 3323050273669108483
+      }
+    ]
+  },
+  {
+    "candidate_id": 10890222263901356677,
+    "entity": "processor",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "comply with all provisions",
+    "entity_evidence": [
+      {
+        "span_id": 16102126554745282069,
+        "start": 30404,
+        "end": 30411,
+        "text": "processor",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6790085933483340706,
+        "start": 30404,
+        "end": 30414,
+        "text": "processor or controller",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9754295943905394976,
+        "start": 30414,
+        "end": 30424,
+        "text": "comply with all provisions",
+        "chunk_id": 3323050273669108483
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6761579469098006939,
+        "start": 30424,
+        "end": 30436,
+        "text": "comply with all provisions",
+        "chunk_id": 3323050273669108483
+      }
+    ]
+  }
+]

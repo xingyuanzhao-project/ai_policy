@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1003486912058420465,
+    "entity": "Department of Housing and Community Development",
+    "type": "government agency",
+    "attribute": "reversion",
+    "value": "June 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 12670822827668552550,
+        "start": 294376,
+        "end": 294419,
+        "text": "Reversion, Department of Housing and Community Development",
+        "chunk_id": 11838799029678780441
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9625528698391965515,
+        "start": 294420,
+        "end": 294440,
+        "text": "Department of Housing and Community Development",
+        "chunk_id": 11838799029678780441
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15147031002099441158,
+        "start": 294376,
+        "end": 294390,
+        "text": "Reversion",
+        "chunk_id": 11838799029678780441
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14564478945975907439,
+        "start": 294410,
+        "end": 294419,
+        "text": "June 30, 2025",
+        "chunk_id": 11838799029678780441
+      }
+    ]
+  },
+  {
+    "candidate_id": 11416412121767095195,
+    "entity": "Infill Infrastructure Grant Catalytic Program",
+    "type": "technology",
+    "attribute": "reversion",
+    "value": "June 30, 2025",
+    "entity_evidence": [
+      {
+        "span_id": 3514213216883753494,
+        "start": 294376,
+        "end": 294410,
+        "text": "Infill Infrastructure Grant Catalytic Program",
+        "chunk_id": 11838799029678780441
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8287217933697106232,
+        "start": 294376,
+        "end": 294410,
+        "text": "Infill Infrastructure Grant Catalytic Program",
+        "chunk_id": 11838799029678780441
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8376569876017343102,
+        "start": 294376,
+        "end": 294390,
+        "text": "reversion",
+        "chunk_id": 11838799029678780441
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1497625073611232330,
+        "start": 294410,
+        "end": 294419,
+        "text": "June 30, 2025",
+        "chunk_id": 11838799029678780441
+      }
+    ]
+  }
+]

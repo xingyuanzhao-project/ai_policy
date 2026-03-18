@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18260858426301817911,
+    "source_group_id": 5859680415993039366,
+    "source_candidate_ids": [
+      7309715502167189591
+    ],
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual adjustment",
+    "entity_evidence": [
+      {
+        "span_id": 10071640067386827099,
+        "start": 771714,
+        "end": 771734,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 7439021709333937805
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3141657592909017009,
+        "start": 771714,
+        "end": 771734,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 7439021709333937805
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6509257314771126914,
+        "start": 771714,
+        "end": 771734,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 7439021709333937805
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14162250715076304237,
+        "start": 771714,
+        "end": 771734,
+        "text": "The Department of Finance may adjust the amount of the loan in this item annually, as necessary, for negotiated employee compensation and benefit adjustments.",
+        "chunk_id": 7439021709333937805
+      }
+    ]
+  }
+]

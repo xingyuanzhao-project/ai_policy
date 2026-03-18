@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 7655029592787304357,
+    "source_group_id": 7200890132140075484,
+    "source_candidate_ids": [
+      15761392362462763384
+    ],
+    "entity": "volunteer",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "protection",
+    "entity_evidence": [
+      {
+        "span_id": 3526384058174578531,
+        "start": 9874,
+        "end": 9883,
+        "text": "volunteer",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12435293353263539988,
+        "start": 9874,
+        "end": 9883,
+        "text": "individual",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1442022948727906656,
+        "start": 9874,
+        "end": 9883,
+        "text": "restriction",
+        "chunk_id": 3836289008531860938
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10883570537251302821,
+        "start": 9874,
+        "end": 9883,
+        "text": "protection",
+        "chunk_id": 3836289008531860938
+      }
+    ]
+  }
+]

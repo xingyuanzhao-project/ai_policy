@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 1053611718687464149,
+    "entity": "mandates",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 6810156468536057583,
+        "start": 1354017,
+        "end": 1354025,
+        "text": "mandates",
+        "chunk_id": 10971049910714680152
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15631079252228993158,
+        "start": 1354017,
+        "end": 1354025,
+        "text": "technology",
+        "chunk_id": 10971049910714680152
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18437188719110754246,
+        "start": 1354017,
+        "end": 1354025,
+        "text": "restriction",
+        "chunk_id": 10971049910714680152
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13683376914719315283,
+        "start": 1354017,
+        "end": 1354025,
+        "text": "extremely restrictive",
+        "chunk_id": 10971049910714680152
+      }
+    ]
+  },
+  {
+    "candidate_id": 4207813127915042759,
+    "entity": "California Healthy School Food Pathways program",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "moderate",
+    "entity_evidence": [
+      {
+        "span_id": 743137125063220500,
+        "start": 1354017,
+        "end": 1354037,
+        "text": "California Healthy School Food Pathways program",
+        "chunk_id": 10971049910714680152
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1607091258017169510,
+        "start": 1354017,
+        "end": 1354037,
+        "text": "infrastructure",
+        "chunk_id": 10971049910714680152
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5124037362978606233,
+        "start": 1354017,
+        "end": 1354037,
+        "text": "promotion",
+        "chunk_id": 10971049910714680152
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6332272888461677492,
+        "start": 1354017,
+        "end": 1354037,
+        "text": "moderate",
+        "chunk_id": 10971049910714680152
+      }
+    ]
+  }
+]

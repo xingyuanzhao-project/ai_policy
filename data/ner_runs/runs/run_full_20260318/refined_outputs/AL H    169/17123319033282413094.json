@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17585887086611899749,
+    "source_group_id": 17123319033282413094,
+    "source_candidate_ids": [
+      8741465630321890507
+    ],
+    "entity": "Alabama Legislature",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "annual appropriation",
+    "entity_evidence": [
+      {
+        "span_id": 11844581310614990576,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4309200327700425657,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3203772596196002885,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 14547623935936983800,
+        "start": 72116,
+        "end": 72132,
+        "text": "Alabama Legislature",
+        "chunk_id": 989003407666285821
+      }
+    ]
+  }
+]

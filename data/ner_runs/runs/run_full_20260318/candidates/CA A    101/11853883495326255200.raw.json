@@ -1,0 +1,3 @@
+{
+  "raw_response": "{\"candidates\": [{\"entity\": \"Legal Services Trust Fund Commission\", \"type\": \"organization\", \"attribute\": \"Legal Services Trust Fund Commission\", \"value\": \"Legal Services Trust Fund Commission\", \"entity_evidence\": [{\"start\": 0, \"end\": 29, \"text\": \"Legal Services Trust Fund Commission\"}], \"type_evidence\": [{\"start\": 0, \"end\": 29, \"text\": \"organization\"}], \"attribute_evidence\": [{\"start\": 0, \"end\": 29, \"text\": \"Legal Services Trust Fund Commission\"}], \"value_evidence\": [{\"start\": 0, \"end\": 29, \"text\": \"Legal Services Trust Fund Commission\"}]}]}"
+}

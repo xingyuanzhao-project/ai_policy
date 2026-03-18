@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6332187671728529057,
+    "source_group_id": 4542036687666179228,
+    "source_candidate_ids": [
+      9256149830751308938
+    ],
+    "entity": "Alabama Reading Initiative",
+    "type": "Program",
+    "attribute": "purpose",
+    "value": "improve K-3 literacy",
+    "entity_evidence": [
+      {
+        "span_id": 14865544084352822570,
+        "start": 42408,
+        "end": 45407,
+        "text": "improve K-3 literacy",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13962983200070415286,
+        "start": 42408,
+        "end": 45407,
+        "text": "Program",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11769291636206502071,
+        "start": 42408,
+        "end": 45407,
+        "text": "purpose",
+        "chunk_id": 16885859766107699409
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5222383619460841839,
+        "start": 42408,
+        "end": 45407,
+        "text": "improve K-3 literacy",
+        "chunk_id": 16885859766107699409
+      }
+    ]
+  }
+]

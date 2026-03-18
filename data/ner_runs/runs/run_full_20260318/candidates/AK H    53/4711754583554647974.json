@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 4736170504182319111,
+    "entity": "Public Safety Employees Association",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "salary and benefit adjustments",
+    "entity_evidence": [
+      {
+        "span_id": 6324742283696052527,
+        "start": 162124,
+        "end": 162144,
+        "text": "Public Safety Employees Association",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10141760597515627466,
+        "start": 162124,
+        "end": 162144,
+        "text": "Public Safety Employees Association",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6501726735773071770,
+        "start": 162146,
+        "end": 162156,
+        "text": "salary and benefit adjustments",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4474816089575669894,
+        "start": 162146,
+        "end": 162156,
+        "text": "salary and benefit adjustments",
+        "chunk_id": 4711754583554647974
+      }
+    ]
+  },
+  {
+    "candidate_id": 1771259618960768380,
+    "entity": "University of Alaska",
+    "type": "infrastructure",
+    "attribute": "promotion",
+    "value": "salary and benefit adjustments",
+    "entity_evidence": [
+      {
+        "span_id": 15359227785898207610,
+        "start": 162247,
+        "end": 162263,
+        "text": "University of Alaska",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13220022420449515404,
+        "start": 162247,
+        "end": 162263,
+        "text": "University of Alaska",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11205938638873063236,
+        "start": 162265,
+        "end": 162275,
+        "text": "salary and benefit adjustments",
+        "chunk_id": 4711754583554647974
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4598762925668974113,
+        "start": 162265,
+        "end": 162275,
+        "text": "salary and benefit adjustments",
+        "chunk_id": 4711754583554647974
+      }
+    ]
+  }
+]

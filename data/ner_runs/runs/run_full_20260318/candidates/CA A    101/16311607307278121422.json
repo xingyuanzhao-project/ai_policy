@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16443202943629825864,
+    "entity": "Department of Parks and Recreation",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "structural balance",
+    "entity_evidence": [
+      {
+        "span_id": 16540037296692389260,
+        "start": 588049,
+        "end": 588069,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 16311607307278121422
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13601358234498730287,
+        "start": 588049,
+        "end": 588069,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 16311607307278121422
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5605735476494007802,
+        "start": 588049,
+        "end": 588069,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 16311607307278121422
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 5210439802759156186,
+        "start": 588049,
+        "end": 588069,
+        "text": "Department of Parks and Recreation",
+        "chunk_id": 16311607307278121422
+      }
+    ]
+  },
+  {
+    "candidate_id": 18375860431899673730,
+    "entity": "Harbors and Watercraft Revolving Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "structural balance",
+    "entity_evidence": [
+      {
+        "span_id": 5301394910160451893,
+        "start": 588049,
+        "end": 588069,
+        "text": "Harbors and Watercraft Revolving Fund",
+        "chunk_id": 16311607307278121422
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5164323079239956979,
+        "start": 588049,
+        "end": 588069,
+        "text": "Harbors and Watercraft Revolving Fund",
+        "chunk_id": 16311607307278121422
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9795038731295896744,
+        "start": 588049,
+        "end": 588069,
+        "text": "Harbors and Watercraft Revolving Fund",
+        "chunk_id": 16311607307278121422
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9415204879847328711,
+        "start": 588049,
+        "end": 588069,
+        "text": "Harbors and Watercraft Revolving Fund",
+        "chunk_id": 16311607307278121422
+      }
+    ]
+  }
+]

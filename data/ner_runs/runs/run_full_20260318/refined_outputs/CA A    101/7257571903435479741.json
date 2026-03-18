@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 15373816319427639309,
+    "source_group_id": 7257571903435479741,
+    "source_candidate_ids": [
+      17451870384183633493
+    ],
+    "entity": "Public Resources Code",
+    "type": "legislation",
+    "attribute": "restriction",
+    "value": "exceed limits",
+    "entity_evidence": [
+      {
+        "span_id": 15283983805592336382,
+        "start": 758843,
+        "end": 758863,
+        "text": "Public Resources Code",
+        "chunk_id": 7877029373132232589
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4860954007263244180,
+        "start": 758843,
+        "end": 758863,
+        "text": "legislation",
+        "chunk_id": 7877029373132232589
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14973245351475202663,
+        "start": 758843,
+        "end": 758863,
+        "text": "restriction",
+        "chunk_id": 7877029373132232589
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1119481175593741608,
+        "start": 758843,
+        "end": 758863,
+        "text": "exceed limits",
+        "chunk_id": 7877029373132232589
+      }
+    ]
+  }
+]

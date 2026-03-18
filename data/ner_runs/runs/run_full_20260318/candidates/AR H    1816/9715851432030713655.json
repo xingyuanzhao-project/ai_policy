@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10900146549733707081,
+    "entity": "Artificial intelligence",
+    "type": "technology",
+    "attribute": "prohibition",
+    "value": "healthcare",
+    "entity_evidence": [
+      {
+        "span_id": 17529411840348124614,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial intelligence",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7238878664735232707,
+        "start": 0,
+        "end": 18,
+        "text": "Artificial intelligence",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7049956038054553972,
+        "start": 19,
+        "end": 25,
+        "text": "prohibition",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15092547346120621733,
+        "start": 26,
+        "end": 32,
+        "text": "healthcare",
+        "chunk_id": 9715851432030713655
+      }
+    ]
+  },
+  {
+    "candidate_id": 10107028776216131870,
+    "entity": "Healthcare insurer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "insurance laws",
+    "entity_evidence": [
+      {
+        "span_id": 2129333201964852441,
+        "start": 0,
+        "end": 15,
+        "text": "Healthcare insurer",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3809745205606286432,
+        "start": 0,
+        "end": 15,
+        "text": "Healthcare insurer",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3450642051269259101,
+        "start": 16,
+        "end": 22,
+        "text": "restriction",
+        "chunk_id": 9715851432030713655
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9648480150800000297,
+        "start": 23,
+        "end": 31,
+        "text": "insurance laws",
+        "chunk_id": 9715851432030713655
+      }
+    ]
+  }
+]

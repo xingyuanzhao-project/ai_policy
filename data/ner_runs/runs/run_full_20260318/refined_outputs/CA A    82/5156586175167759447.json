@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 17004288869057120051,
+    "source_group_id": 5156586175167759447,
+    "source_candidate_ids": [
+      4485779095747630614
+    ],
+    "entity": "court",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "prescription of procedure",
+    "entity_evidence": [
+      {
+        "span_id": 11668144568521129030,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10154717607412802731,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 10020761038896656816,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17524054449841623266,
+        "start": 64624,
+        "end": 64628,
+        "text": "A court",
+        "chunk_id": 9617967310055075573
+      }
+    ]
+  }
+]

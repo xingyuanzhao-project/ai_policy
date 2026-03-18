@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16657609150304024739,
+    "entity": "Healthcare provider",
+    "type": "government definition",
+    "attribute": "restriction",
+    "value": "approved by the United States Food and Drug Administration and verified by a quality assurance laboratory",
+    "entity_evidence": [
+      {
+        "span_id": 18216536855400502449,
+        "start": 2355,
+        "end": 2372,
+        "text": "Healthcare provider",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13478290522024058606,
+        "start": 2355,
+        "end": 2372,
+        "text": "government definition",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15095652964690563669,
+        "start": 2373,
+        "end": 2395,
+        "text": "restriction",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 8847100864519354356,
+        "start": 2396,
+        "end": 2435,
+        "text": "approved by the United States Food and Drug Administration and verified by a quality assurance laboratory",
+        "chunk_id": 17739911860786833787
+      }
+    ]
+  },
+  {
+    "candidate_id": 5807697472765255455,
+    "entity": "Healthcare insurer",
+    "type": "government definition",
+    "attribute": "restriction",
+    "value": "approved by the United States Food and Drug Administration and verified by a quality assurance laboratory",
+    "entity_evidence": [
+      {
+        "span_id": 11915369680568968759,
+        "start": 2311,
+        "end": 2326,
+        "text": "Healthcare insurer",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13456031195498221513,
+        "start": 2311,
+        "end": 2326,
+        "text": "government definition",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14221913260090930392,
+        "start": 2327,
+        "end": 2349,
+        "text": "restriction",
+        "chunk_id": 17739911860786833787
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9704643983928244240,
+        "start": 2350,
+        "end": 2395,
+        "text": "approved by the United States Food and Drug Administration and verified by a quality assurance laboratory",
+        "chunk_id": 17739911860786833787
+      }
+    ]
+  }
+]

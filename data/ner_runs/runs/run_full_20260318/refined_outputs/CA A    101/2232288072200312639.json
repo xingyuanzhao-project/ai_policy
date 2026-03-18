@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 6322045141498402472,
+    "source_group_id": 2232288072200312639,
+    "source_candidate_ids": [
+      11917970299786708295
+    ],
+    "entity": "State Public Works Board",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "approval",
+    "entity_evidence": [
+      {
+        "span_id": 3627712495755066816,
+        "start": 544546,
+        "end": 544570,
+        "text": "by the State Public Works Board",
+        "chunk_id": 7696064061766183024
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15536231873965655908,
+        "start": 544546,
+        "end": 544570,
+        "text": "by the State Public Works Board",
+        "chunk_id": 7696064061766183024
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11167100061145429322,
+        "start": 544546,
+        "end": 544570,
+        "text": "by the State Public Works Board",
+        "chunk_id": 7696064061766183024
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6230268587602831914,
+        "start": 544546,
+        "end": 544570,
+        "text": "by the State Public Works Board",
+        "chunk_id": 7696064061766183024
+      }
+    ]
+  }
+]

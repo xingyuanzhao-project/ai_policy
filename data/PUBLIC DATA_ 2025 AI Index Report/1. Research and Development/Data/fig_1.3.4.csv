@@ -1,0 +1,199 @@
+Year,Number of notable AI models,Label
+2003,5.0,Academia
+2004,2.0,Academia
+2005,6.0,Academia
+2006,11.0,Academia
+2007,6.0,Academia
+2008,7.0,Academia
+2009,4.0,Academia
+2010,9.0,Academia
+2011,9.0,Academia
+2012,10.0,Academia
+2013,16.0,Academia
+2014,18.0,Academia
+2015,6.0,Academia
+2016,19.0,Academia
+2017,19.0,Academia
+2018,10.0,Academia
+2019,13.0,Academia
+2020,9.0,Academia
+2021,9.0,Academia
+2022,15.0,Academia
+2023,16.0,Academia
+2024,0.0,Academia
+2003,0.0,Academia–government collaboration
+2004,0.0,Academia–government collaboration
+2005,0.0,Academia–government collaboration
+2006,0.0,Academia–government collaboration
+2007,0.0,Academia–government collaboration
+2008,0.0,Academia–government collaboration
+2009,0.0,Academia–government collaboration
+2010,0.0,Academia–government collaboration
+2011,0.0,Academia–government collaboration
+2012,0.0,Academia–government collaboration
+2013,0.0,Academia–government collaboration
+2014,1.0,Academia–government collaboration
+2015,0.0,Academia–government collaboration
+2016,0.0,Academia–government collaboration
+2017,0.0,Academia–government collaboration
+2018,1.0,Academia–government collaboration
+2019,0.0,Academia–government collaboration
+2020,0.0,Academia–government collaboration
+2021,1.0,Academia–government collaboration
+2022,0.0,Academia–government collaboration
+2023,0.0,Academia–government collaboration
+2024,0.0,Academia–government collaboration
+2003,0.0,Academia–research collective collaboration
+2004,0.0,Academia–research collective collaboration
+2005,0.0,Academia–research collective collaboration
+2006,0.0,Academia–research collective collaboration
+2007,0.0,Academia–research collective collaboration
+2008,0.0,Academia–research collective collaboration
+2009,0.0,Academia–research collective collaboration
+2010,0.0,Academia–research collective collaboration
+2011,0.0,Academia–research collective collaboration
+2012,0.0,Academia–research collective collaboration
+2013,0.0,Academia–research collective collaboration
+2014,0.0,Academia–research collective collaboration
+2015,0.0,Academia–research collective collaboration
+2016,2.0,Academia–research collective collaboration
+2017,2.0,Academia–research collective collaboration
+2018,1.0,Academia–research collective collaboration
+2019,2.0,Academia–research collective collaboration
+2020,3.0,Academia–research collective collaboration
+2021,0.0,Academia–research collective collaboration
+2022,0.0,Academia–research collective collaboration
+2023,0.0,Academia–research collective collaboration
+2024,0.0,Academia–research collective collaboration
+2003,0.0,Research collective
+2004,0.0,Research collective
+2005,0.0,Research collective
+2006,0.0,Research collective
+2007,0.0,Research collective
+2008,0.0,Research collective
+2009,0.0,Research collective
+2010,0.0,Research collective
+2011,0.0,Research collective
+2012,0.0,Research collective
+2013,0.0,Research collective
+2014,0.0,Research collective
+2015,0.0,Research collective
+2016,0.0,Research collective
+2017,0.0,Research collective
+2018,0.0,Research collective
+2019,2.0,Research collective
+2020,0.0,Research collective
+2021,0.0,Research collective
+2022,1.0,Research collective
+2023,0.0,Research collective
+2024,0.0,Research collective
+2003,0.0,Industry–research collective collaboration
+2004,0.0,Industry–research collective collaboration
+2005,0.0,Industry–research collective collaboration
+2006,0.0,Industry–research collective collaboration
+2007,0.0,Industry–research collective collaboration
+2008,0.0,Industry–research collective collaboration
+2009,0.0,Industry–research collective collaboration
+2010,0.0,Industry–research collective collaboration
+2011,0.0,Industry–research collective collaboration
+2012,0.0,Industry–research collective collaboration
+2013,0.0,Industry–research collective collaboration
+2014,0.0,Industry–research collective collaboration
+2015,0.0,Industry–research collective collaboration
+2016,0.0,Industry–research collective collaboration
+2017,0.0,Industry–research collective collaboration
+2018,0.0,Industry–research collective collaboration
+2019,1.0,Industry–research collective collaboration
+2020,0.0,Industry–research collective collaboration
+2021,0.0,Industry–research collective collaboration
+2022,2.0,Industry–research collective collaboration
+2023,0.0,Industry–research collective collaboration
+2024,0.0,Industry–research collective collaboration
+2003,0.0,Government
+2004,0.0,Government
+2005,0.0,Government
+2006,0.0,Government
+2007,0.0,Government
+2008,0.0,Government
+2009,0.0,Government
+2010,0.0,Government
+2011,0.0,Government
+2012,0.0,Government
+2013,0.0,Government
+2014,0.0,Government
+2015,0.0,Government
+2016,0.0,Government
+2017,0.0,Government
+2018,0.0,Government
+2019,0.0,Government
+2020,0.0,Government
+2021,0.0,Government
+2022,0.0,Government
+2023,2.0,Government
+2024,0.0,Government
+2003,0.0,Industry–government collaboration
+2004,0.0,Industry–government collaboration
+2005,0.0,Industry–government collaboration
+2006,0.0,Industry–government collaboration
+2007,0.0,Industry–government collaboration
+2008,0.0,Industry–government collaboration
+2009,0.0,Industry–government collaboration
+2010,0.0,Industry–government collaboration
+2011,0.0,Industry–government collaboration
+2012,0.0,Industry–government collaboration
+2013,0.0,Industry–government collaboration
+2014,0.0,Industry–government collaboration
+2015,0.0,Industry–government collaboration
+2016,0.0,Industry–government collaboration
+2017,0.0,Industry–government collaboration
+2018,0.0,Industry–government collaboration
+2019,0.0,Industry–government collaboration
+2020,2.0,Industry–government collaboration
+2021,0.0,Industry–government collaboration
+2022,0.0,Industry–government collaboration
+2023,0.0,Industry–government collaboration
+2024,1.0,Industry–government collaboration
+2003,0.0,Industry–academia collaboration
+2004,0.0,Industry–academia collaboration
+2005,0.0,Industry–academia collaboration
+2006,1.0,Industry–academia collaboration
+2007,0.0,Industry–academia collaboration
+2008,1.0,Industry–academia collaboration
+2009,1.0,Industry–academia collaboration
+2010,1.0,Industry–academia collaboration
+2011,3.0,Industry–academia collaboration
+2012,2.0,Industry–academia collaboration
+2013,3.0,Industry–academia collaboration
+2014,8.0,Industry–academia collaboration
+2015,8.0,Industry–academia collaboration
+2016,8.0,Industry–academia collaboration
+2017,14.0,Industry–academia collaboration
+2018,16.0,Industry–academia collaboration
+2019,20.0,Industry–academia collaboration
+2020,13.0,Industry–academia collaboration
+2021,21.0,Industry–academia collaboration
+2022,19.0,Industry–academia collaboration
+2023,26.0,Industry–academia collaboration
+2024,5.0,Industry–academia collaboration
+2003,1.0,Industry
+2004,0.0,Industry
+2005,1.0,Industry
+2006,0.0,Industry
+2007,4.0,Industry
+2008,2.0,Industry
+2009,6.0,Industry
+2010,2.0,Industry
+2011,0.0,Industry
+2012,3.0,Industry
+2013,8.0,Industry
+2014,5.0,Industry
+2015,13.0,Industry
+2016,21.0,Industry
+2017,23.0,Industry
+2018,23.0,Industry
+2019,34.0,Industry
+2020,27.0,Industry
+2021,44.0,Industry
+2022,49.0,Industry
+2023,61.0,Industry
+2024,55.0,Industry

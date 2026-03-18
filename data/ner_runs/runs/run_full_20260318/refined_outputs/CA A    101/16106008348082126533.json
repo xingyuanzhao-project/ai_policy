@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 3264535486757824070,
+    "source_group_id": 16106008348082126533,
+    "source_candidate_ids": [
+      14610428581440565187
+    ],
+    "entity": "California Coastal Commission",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "short-term cash loan",
+    "entity_evidence": [
+      {
+        "span_id": 11689665895243080790,
+        "start": 575020,
+        "end": 575040,
+        "text": "California Coastal Commission",
+        "chunk_id": 11814997946093715871
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13158575482636726122,
+        "start": 575020,
+        "end": 575040,
+        "text": "government agency",
+        "chunk_id": 11814997946093715871
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17772609580520185954,
+        "start": 575042,
+        "end": 575062,
+        "text": "promotion",
+        "chunk_id": 11814997946093715871
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16866621344191335337,
+        "start": 575063,
+        "end": 575073,
+        "text": "short-term cash loan",
+        "chunk_id": 11814997946093715871
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 13073106568122297958,
+    "entity": "Tahoe Regional Planning Agency",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "enforce motorized watercraft regulations",
+    "entity_evidence": [
+      {
+        "span_id": 3221495480824836069,
+        "start": 420650,
+        "end": 420670,
+        "text": "Tahoe Regional Planning Agency",
+        "chunk_id": 5672483379417609072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15949330873343748322,
+        "start": 420650,
+        "end": 420670,
+        "text": "government agency",
+        "chunk_id": 5672483379417609072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 9989989895827748405,
+        "start": 420670,
+        "end": 420690,
+        "text": "restriction",
+        "chunk_id": 5672483379417609072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 11676875293784432021,
+        "start": 420690,
+        "end": 420710,
+        "text": "enforce motorized watercraft regulations",
+        "chunk_id": 5672483379417609072
+      }
+    ]
+  },
+  {
+    "candidate_id": 8956535845025249818,
+    "entity": "California Tahoe Conservancy",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "project management, construction management, inspection, and overhead costs",
+    "entity_evidence": [
+      {
+        "span_id": 7367286788292613177,
+        "start": 420761,
+        "end": 420781,
+        "text": "California Tahoe Conservancy",
+        "chunk_id": 5672483379417609072
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 6473943390449675648,
+        "start": 420761,
+        "end": 420781,
+        "text": "government agency",
+        "chunk_id": 5672483379417609072
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2907876618604268052,
+        "start": 420781,
+        "end": 420801,
+        "text": "restriction",
+        "chunk_id": 5672483379417609072
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9811882776678127247,
+        "start": 420801,
+        "end": 420821,
+        "text": "project management, construction management, inspection, and overhead costs",
+        "chunk_id": 5672483379417609072
+      }
+    ]
+  }
+]

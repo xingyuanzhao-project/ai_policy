@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 18146756598573023144,
+    "source_group_id": 8929051572872498867,
+    "source_candidate_ids": [
+      7754697906196702149
+    ],
+    "entity": "sentence",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "consecutive",
+    "entity_evidence": [
+      {
+        "span_id": 16772185778114483748,
+        "start": 9788,
+        "end": 9795,
+        "text": "sentence",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 14372080751436734749,
+        "start": 9796,
+        "end": 9806,
+        "text": "infrastructure",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 15562301759412727005,
+        "start": 9807,
+        "end": 9817,
+        "text": "restriction",
+        "chunk_id": 2601800573593067569
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17785972609467214108,
+        "start": 9818,
+        "end": 9824,
+        "text": "consecutive",
+        "chunk_id": 2601800573593067569
+      }
+    ]
+  }
+]

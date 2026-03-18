@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16117238126712098845,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 1732992017031753971,
+        "start": 12557,
+        "end": 12581,
+        "text": "Arizona SHERIFFS' criminal justice commission",
+        "chunk_id": 17155734027090826171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8990139034954363473,
+        "start": 12557,
+        "end": 12581,
+        "text": "government agency",
+        "chunk_id": 17155734027090826171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8874756715193518647,
+        "start": 12557,
+        "end": 12581,
+        "text": "regulation",
+        "chunk_id": 17155734027090826171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 4061818693067086492,
+        "start": 12557,
+        "end": 12581,
+        "text": "oversight",
+        "chunk_id": 17155734027090826171
+      }
+    ]
+  },
+  {
+    "candidate_id": 14493466906234906783,
+    "entity": "Arizona statistical analysis center",
+    "type": "infrastructure",
+    "attribute": "regulation",
+    "value": "oversight",
+    "entity_evidence": [
+      {
+        "span_id": 484405649352728183,
+        "start": 12557,
+        "end": 12581,
+        "text": "Arizona statistical analysis center",
+        "chunk_id": 17155734027090826171
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16441924225693040464,
+        "start": 12557,
+        "end": 12581,
+        "text": "infrastructure",
+        "chunk_id": 17155734027090826171
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 882257434552175824,
+        "start": 12557,
+        "end": 12581,
+        "text": "regulation",
+        "chunk_id": 17155734027090826171
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2310300777723461226,
+        "start": 12557,
+        "end": 12581,
+        "text": "oversight",
+        "chunk_id": 17155734027090826171
+      }
+    ]
+  }
+]

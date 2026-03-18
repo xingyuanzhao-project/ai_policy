@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 10021280546414176252,
+    "entity": "Alaska Industrial Development and Export Authority",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4268572314889802966,
+        "start": 169573,
+        "end": 169593,
+        "text": "the unexpended and unobligated balance of the reserves of the Alaska Industrial Development and Export Authority",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5496891597991370221,
+        "start": 169573,
+        "end": 169593,
+        "text": "the unexpended and unobligated balance of the reserves of the Alaska Industrial Development and Export Authority",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1384009152626640372,
+        "start": 169573,
+        "end": 169593,
+        "text": "the unexpended and unobligated balance of the reserves of the Alaska Industrial Development and Export Authority",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18360561738529489953,
+        "start": 169573,
+        "end": 169593,
+        "text": "the unexpended and unobligated balance of the reserves of the Alaska Industrial Development and Export Authority",
+        "chunk_id": 2771145208088878420
+      }
+    ]
+  },
+  {
+    "candidate_id": 4065842800341000812,
+    "entity": "Thirty-Third Alaska State Legislature",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 4611173655263721504,
+        "start": 169669,
+        "end": 169689,
+        "text": "the Thirty-Third Alaska State Legislature in the Second Regular Session",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10109088136734986356,
+        "start": 169669,
+        "end": 169689,
+        "text": "the Thirty-Third Alaska State Legislature in the Second Regular Session",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3324133317254779063,
+        "start": 169669,
+        "end": 169689,
+        "text": "the Thirty-Third Alaska State Legislature in the Second Regular Session",
+        "chunk_id": 2771145208088878420
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12345747838879031241,
+        "start": 169669,
+        "end": 169689,
+        "text": "the Thirty-Third Alaska State Legislature in the Second Regular Session",
+        "chunk_id": 2771145208088878420
+      }
+    ]
+  }
+]

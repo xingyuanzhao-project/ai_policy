@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 2881069550661748261,
+    "entity": "health insurer",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "strictest confidence",
+    "entity_evidence": [
+      {
+        "span_id": 1398946898124188751,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17583673543218629100,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2080714867371653261,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 357776176956228904,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ]
+  },
+  {
+    "candidate_id": 16406577250760331230,
+    "entity": "health care professional",
+    "type": "individual",
+    "attribute": "restriction",
+    "value": "strictest confidence",
+    "entity_evidence": [
+      {
+        "span_id": 10463198715069685281,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10417043779900857519,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12625218475872099110,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13147378265351261397,
+        "start": 14835,
+        "end": 14843,
+        "text": "held in the strictest confidence",
+        "chunk_id": 17081621825031028377
+      }
+    ]
+  }
+]

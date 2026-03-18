@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 3406185161554331607,
+    "entity": "synthetic media",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 16929291351606112386,
+        "start": 0,
+        "end": 14,
+        "text": "synthetic media",
+        "chunk_id": 9933960523655909595
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4987918482162045533,
+        "start": 0,
+        "end": 14,
+        "text": "synthetic media",
+        "chunk_id": 9933960523655909595
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1261124898754213694,
+        "start": 0,
+        "end": 14,
+        "text": "synthetic media",
+        "chunk_id": 9933960523655909595
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10871409294204922957,
+        "start": 0,
+        "end": 14,
+        "text": "synthetic media",
+        "chunk_id": 9933960523655909595
+      }
+    ]
+  },
+  {
+    "candidate_id": 6741463254242337849,
+    "entity": "electioneering communication",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "moderately restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3843872040607575280,
+        "start": 0,
+        "end": 24,
+        "text": "electioneering communication",
+        "chunk_id": 9933960523655909595
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13826468180679927061,
+        "start": 0,
+        "end": 24,
+        "text": "electioneering communication",
+        "chunk_id": 9933960523655909595
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2078780757475594879,
+        "start": 0,
+        "end": 24,
+        "text": "electioneering communication",
+        "chunk_id": 9933960523655909595
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 9237808461749672572,
+        "start": 0,
+        "end": 24,
+        "text": "electioneering communication",
+        "chunk_id": 9933960523655909595
+      }
+    ]
+  }
+]

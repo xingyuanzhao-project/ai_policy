@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4871428118363019662,
+    "source_group_id": 594472184633140880,
+    "source_candidate_ids": [
+      3509364078983653478
+    ],
+    "entity": "State Highway Account",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "ongoing administrative costs",
+    "entity_evidence": [
+      {
+        "span_id": 3302289882110483425,
+        "start": 331330,
+        "end": 331330,
+        "text": "State Highway Account",
+        "chunk_id": 10175714748155971101
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9105546151081547531,
+        "start": 331330,
+        "end": 331330,
+        "text": "infrastructure",
+        "chunk_id": 10175714748155971101
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 11657589028651102616,
+        "start": 331330,
+        "end": 331330,
+        "text": "restriction",
+        "chunk_id": 10175714748155971101
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1037046726397804137,
+        "start": 331330,
+        "end": 331330,
+        "text": "ongoing administrative costs",
+        "chunk_id": 10175714748155971101
+      }
+    ]
+  }
+]

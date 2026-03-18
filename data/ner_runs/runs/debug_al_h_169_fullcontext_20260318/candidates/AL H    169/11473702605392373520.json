@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8437232467704405931,
+    "entity": "Legislative Branch",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "program level",
+    "entity_evidence": [
+      {
+        "span_id": 14755153904250475495,
+        "start": 2392,
+        "end": 2406,
+        "text": "A. Legislative Branch:",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2349092241789336634,
+        "start": 2407,
+        "end": 2418,
+        "text": "Legislative Branch",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1712533339466152235,
+        "start": 2419,
+        "end": 2426,
+        "text": "All appropriations made in Section 3 shall be at the program level.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 10136741265198705035,
+        "start": 2427,
+        "end": 2435,
+        "text": "program level",
+        "chunk_id": 11473702605392373520
+      }
+    ]
+  },
+  {
+    "candidate_id": 15304952963776862983,
+    "entity": "Examiners of Public Accounts",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "compliance with the laws of the State of Alabama",
+    "entity_evidence": [
+      {
+        "span_id": 18266280304401144347,
+        "start": 2392,
+        "end": 2412,
+        "text": "The Department of Examiners of Public Accounts is hereby authorized to examine as deemed necessary all appropriations herein made for compliance with the laws of the State of Alabama.",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 1070765794381908553,
+        "start": 2413,
+        "end": 2429,
+        "text": "Examiners of Public Accounts",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14792117724885633158,
+        "start": 2430,
+        "end": 2455,
+        "text": "compliance with the laws of the State of Alabama",
+        "chunk_id": 11473702605392373520
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12044076557691437440,
+        "start": 2456,
+        "end": 2466,
+        "text": "compliance with the laws of the State of Alabama",
+        "chunk_id": 11473702605392373520
+      }
+    ]
+  }
+]

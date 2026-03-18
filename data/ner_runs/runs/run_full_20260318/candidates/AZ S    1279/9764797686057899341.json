@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8494836669239825729,
+    "entity": "Arizona SHERIFFS' criminal justice commission",
+    "type": "government agency",
+    "attribute": "regulator",
+    "value": "sole regulator",
+    "entity_evidence": [
+      {
+        "span_id": 13855617521373284924,
+        "start": 5090,
+        "end": 5111,
+        "text": "The Arizona SHERIFFS' criminal justice commission shall administer the fund.",
+        "chunk_id": 9764797686057899341
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13962687077956625515,
+        "start": 5090,
+        "end": 5111,
+        "text": "The Arizona SHERIFFS' criminal justice commission shall administer the fund.",
+        "chunk_id": 9764797686057899341
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 14610885728673815207,
+        "start": 5090,
+        "end": 5111,
+        "text": "The Arizona SHERIFFS' criminal justice commission shall administer the fund.",
+        "chunk_id": 9764797686057899341
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12930757787009255265,
+        "start": 5090,
+        "end": 5111,
+        "text": "The Arizona SHERIFFS' criminal justice commission shall administer the fund.",
+        "chunk_id": 9764797686057899341
+      }
+    ]
+  },
+  {
+    "candidate_id": 12621312550389012844,
+    "entity": "drug and gang enforcement fund",
+    "type": "infrastructure",
+    "attribute": "regulated entity",
+    "value": "solely for the purpose of enhancing efforts to deter, investigate, prosecute, adjudicate and punish drug and gang and related criminal offenders",
+    "entity_evidence": [
+      {
+        "span_id": 4408032038731645129,
+        "start": 5172,
+        "end": 5190,
+        "text": "All the monies allocated from the drug and gang enforcement fund shall be dedicated solely to the purpose of enhancing efforts to deter, investigate, prosecute, adjudicate and punish drug and gang and related criminal offenders",
+        "chunk_id": 9764797686057899341
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 18430399940688370294,
+        "start": 5172,
+        "end": 5190,
+        "text": "All the monies allocated from the drug and gang enforcement fund shall be dedicated solely to the purpose of enhancing efforts to deter, investigate, prosecute, adjudicate and punish drug and gang and related criminal offenders",
+        "chunk_id": 9764797686057899341
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13727958234236275044,
+        "start": 5172,
+        "end": 5190,
+        "text": "All the monies allocated from the drug and gang enforcement fund shall be dedicated solely to the purpose of enhancing efforts to deter, investigate, prosecute, adjudicate and punish drug and gang and related criminal offenders",
+        "chunk_id": 9764797686057899341
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1678812681617420905,
+        "start": 5172,
+        "end": 5190,
+        "text": "All the monies allocated from the drug and gang enforcement fund shall be dedicated solely to the purpose of enhancing efforts to deter, investigate, prosecute, adjudicate and punish drug and gang and related criminal offenders",
+        "chunk_id": 9764797686057899341
+      }
+    ]
+  }
+]

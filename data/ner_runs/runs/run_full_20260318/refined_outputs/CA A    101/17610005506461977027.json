@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 5235361944655316710,
+    "source_group_id": 17610005506461977027,
+    "source_candidate_ids": [
+      17923542944770602228,
+      2520608836172923630
+    ],
+    "entity": "State Energy Resources Conservation and Development Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "until June 30, 2030",
+    "entity_evidence": [
+      {
+        "span_id": 3135762999062840324,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2890960906337891297,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 2015142080830552117,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1064374897690794106,
+        "start": 468722,
+        "end": 468760,
+        "text": "until June 30, 2030",
+        "chunk_id": 1852044839069349140
+      }
+    ]
+  }
+]

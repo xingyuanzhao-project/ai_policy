@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11098902232904333725,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 17898184146991616507,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 13157856069158635173,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 17482599176491096265,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16288909627176739379,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ]
+  },
+  {
+    "candidate_id": 13647811987728639532,
+    "entity": "State Department of Education",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 8245414959020392859,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 12042527573957951044,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6277205737275615051,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15353727115022734849,
+        "start": 1086140,
+        "end": 1086164,
+        "text": "For support of State Department of Education",
+        "chunk_id": 15569564144864544269
+      }
+    ]
+  }
+]

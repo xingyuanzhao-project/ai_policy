@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10767814019241149204,
+    "source_group_id": 5926340772210984558,
+    "source_candidate_ids": [
+      5220108996736401308
+    ],
+    "entity": "Geologic Hazards and Mineral Resources Conservation",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "support",
+    "entity_evidence": [
+      {
+        "span_id": 1867325100817080274,
+        "start": 492744,
+        "end": 492764,
+        "text": "Geologic Hazards and Mineral Resources Conservation",
+        "chunk_id": 6577470342028553824
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8685994541162392791,
+        "start": 492744,
+        "end": 492764,
+        "text": "Geologic Hazards and Mineral Resources Conservation",
+        "chunk_id": 6577470342028553824
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4297833782671381782,
+        "start": 491871,
+        "end": 491888,
+        "text": "support",
+        "chunk_id": 6577470342028553824
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17774461026009055652,
+        "start": 491871,
+        "end": 491888,
+        "text": "support",
+        "chunk_id": 6577470342028553824
+      }
+    ]
+  }
+]

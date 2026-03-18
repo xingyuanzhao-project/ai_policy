@@ -1,0 +1,10 @@
+geo,type,percent_difference_to_benchmark
+Phoenix and San Francisco,Airbag deployment,-0.81
+Phoenix,Airbag deployment,-0.77
+San Francisco,Airbag deployment,-0.87
+Phoenix and San Francisco,Any-injury-reported,-0.78
+Phoenix,Any-injury-reported,-0.59
+San Francisco,Any-injury-reported,-0.88
+Phoenix and San Francisco,Police-reported,-0.62
+Phoenix,Police-reported,-0.51
+San Francisco,Police-reported,-0.76

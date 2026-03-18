@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 5914970800448722872,
+    "source_group_id": 11897261614512458108,
+    "source_candidate_ids": [
+      11173007710525492220,
+      3201115538400254969
+    ],
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "fines and penalties imposed",
+    "entity_evidence": [
+      {
+        "span_id": 11236829042360465339,
+        "start": 896659,
+        "end": 896683,
+        "text": "The amount appropriated in this item includes revenues derived from the assessment of fines and penalties imposed as specified in Section 13332.18 of the Government Code.",
+        "chunk_id": 8683508518738703369
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 9044277974252441361,
+        "start": 896659,
+        "end": 896683,
+        "text": "The amount appropriated in this item includes revenues derived from the assessment of fines and penalties imposed as specified in Section 13332.18 of the Government Code.",
+        "chunk_id": 8683508518738703369
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3755809522899623790,
+        "start": 896659,
+        "end": 896683,
+        "text": "The amount appropriated in this item includes revenues derived from the assessment of fines and penalties imposed as specified in Section 13332.18 of the Government Code.",
+        "chunk_id": 8683508518738703369
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 17597693754709002346,
+        "start": 896659,
+        "end": 896683,
+        "text": "The amount appropriated in this item includes revenues derived from the assessment of fines and penalties imposed as specified in Section 13332.18 of the Government Code.",
+        "chunk_id": 8683508518738703369
+      }
+    ]
+  }
+]

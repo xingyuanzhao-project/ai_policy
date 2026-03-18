@@ -1,0 +1,50 @@
+[
+  {
+    "refined_id": 12212704485423431898,
+    "source_group_id": 16478559042474400534,
+    "source_candidate_ids": [
+      10613063087639925941,
+      3493158284943034423
+    ],
+    "entity": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "until June 30, 2028",
+    "entity_evidence": [
+      {
+        "span_id": 4187215652369518584,
+        "start": 629309,
+        "end": 629330,
+        "text": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Fund",
+        "chunk_id": 5688149482994193633
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15440413220835048990,
+        "start": 629309,
+        "end": 629330,
+        "text": "infrastructure",
+        "chunk_id": 5688149482994193633
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4710869173436618359,
+        "start": 629309,
+        "end": 629330,
+        "text": "restriction",
+        "chunk_id": 5688149482994193633
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 951443085502088598,
+        "start": 629309,
+        "end": 629330,
+        "text": "until June 30, 2028",
+        "chunk_id": 5688149482994193633
+      }
+    ]
+  }
+]

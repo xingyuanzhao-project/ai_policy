@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 16480389005009575983,
+    "entity": "Public Buildings Construction Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "partial",
+    "entity_evidence": [
+      {
+        "span_id": 18260830671799979954,
+        "start": 831376,
+        "end": 831396,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 9523771806674411734
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 16679555352141908355,
+        "start": 831376,
+        "end": 831396,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 9523771806674411734
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1193080594219549964,
+        "start": 831376,
+        "end": 831396,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 9523771806674411734
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 934875512535461688,
+        "start": 831376,
+        "end": 831396,
+        "text": "Public Buildings Construction Fund",
+        "chunk_id": 9523771806674411734
+      }
+    ]
+  },
+  {
+    "candidate_id": 6907708833752177531,
+    "entity": "State Department of Public Health",
+    "type": "government agency",
+    "attribute": "promotion",
+    "value": "significant",
+    "entity_evidence": [
+      {
+        "span_id": 1446006263110052311,
+        "start": 831398,
+        "end": 831419,
+        "text": "State Department of Public Health",
+        "chunk_id": 9523771806674411734
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 4691309721249841440,
+        "start": 831398,
+        "end": 831419,
+        "text": "State Department of Public Health",
+        "chunk_id": 9523771806674411734
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 4354840297341537178,
+        "start": 831398,
+        "end": 831419,
+        "text": "State Department of Public Health",
+        "chunk_id": 9523771806674411734
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 13333660818449735078,
+        "start": 831398,
+        "end": 831419,
+        "text": "State Department of Public Health",
+        "chunk_id": 9523771806674411734
+      }
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 9973426736898288944,
+    "source_group_id": 1252872393375929920,
+    "source_candidate_ids": [
+      9336673988637871745
+    ],
+    "entity": "task force",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "expiring on February 2, 2026",
+    "entity_evidence": [
+      {
+        "span_id": 2129252238436822959,
+        "start": 2625,
+        "end": 2632,
+        "text": "task force",
+        "chunk_id": 2416239928510975095
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 10568756226325396756,
+        "start": 2625,
+        "end": 2632,
+        "text": "task force",
+        "chunk_id": 2416239928510975095
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 3503062374261039097,
+        "start": 2645,
+        "end": 2665,
+        "text": "expiring on February 2, 2026",
+        "chunk_id": 2416239928510975095
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3359304743128450514,
+        "start": 2645,
+        "end": 2665,
+        "text": "expiring on February 2, 2026",
+        "chunk_id": 2416239928510975095
+      }
+    ]
+  }
+]

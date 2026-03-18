@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 8686312658902203533,
+    "entity": "University of California College of the Law, San Francisco",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Section 31.00",
+    "entity_evidence": [
+      {
+        "span_id": 14251851142108843911,
+        "start": 1253678,
+        "end": 1253712,
+        "text": "This appropriation is exempt from Section 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 5299826137820155352,
+        "start": 1253678,
+        "end": 1253712,
+        "text": "This appropriation is exempt from Section 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 5559872027279285656,
+        "start": 1253678,
+        "end": 1253712,
+        "text": "This appropriation is exempt from Section 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1685091393022697206,
+        "start": 1253678,
+        "end": 1253712,
+        "text": "This appropriation is exempt from Section 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ]
+  },
+  {
+    "candidate_id": 13423292128127128134,
+    "entity": "California State University",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "exempt from Sections 6.00 and 31.00",
+    "entity_evidence": [
+      {
+        "span_id": 5953253125176756002,
+        "start": 1253679,
+        "end": 1253723,
+        "text": "This appropriation is exempt from Sections 6.00 and 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 15777519869048045939,
+        "start": 1253679,
+        "end": 1253723,
+        "text": "This appropriation is exempt from Sections 6.00 and 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12183295303865230272,
+        "start": 1253679,
+        "end": 1253723,
+        "text": "This appropriation is exempt from Sections 6.00 and 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 12818000583413727453,
+        "start": 1253679,
+        "end": 1253723,
+        "text": "This appropriation is exempt from Sections 6.00 and 31.00.",
+        "chunk_id": 14307709865093193718
+      }
+    ]
+  }
+]

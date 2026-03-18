@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 1605506273265238845,
+    "source_group_id": 6742248515769727311,
+    "source_candidate_ids": [
+      16742902401811724208
+    ],
+    "entity": "Federal government",
+    "type": "government agency",
+    "attribute": "definition",
+    "value": "same as Section 52008 of the Government Code",
+    "entity_evidence": [
+      {
+        "span_id": 16046933508850548678,
+        "start": 0,
+        "end": 13,
+        "text": "Federal government",
+        "chunk_id": 933315053697556878
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 3638172553902652621,
+        "start": 0,
+        "end": 13,
+        "text": "government agency",
+        "chunk_id": 933315053697556878
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 16315285531760495052,
+        "start": 0,
+        "end": 13,
+        "text": "definition",
+        "chunk_id": 933315053697556878
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 16518046055080021709,
+        "start": 0,
+        "end": 13,
+        "text": "same as Section 52008 of the Government Code",
+        "chunk_id": 933315053697556878
+      }
+    ]
+  }
+]

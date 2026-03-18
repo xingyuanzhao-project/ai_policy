@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 11357299127038868910,
+    "entity": "Department of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 8523699134278349121,
+        "start": 792208,
+        "end": 792228,
+        "text": "The Department of Finance",
+        "chunk_id": 11702302311529236555
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 606242715753169200,
+        "start": 792208,
+        "end": 792228,
+        "text": "The Department of Finance",
+        "chunk_id": 11702302311529236555
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 18045619127758963106,
+        "start": 792208,
+        "end": 792228,
+        "text": "The Department of Finance",
+        "chunk_id": 11702302311529236555
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1320921254064403395,
+        "start": 792208,
+        "end": 792228,
+        "text": "The Department of Finance",
+        "chunk_id": 11702302311529236555
+      }
+    ]
+  },
+  {
+    "candidate_id": 14966388674039518995,
+    "entity": "Healthcare Treatment Fund",
+    "type": "infrastructure",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 7881889871617288340,
+        "start": 792230,
+        "end": 792249,
+        "text": "Healthcare Treatment Fund",
+        "chunk_id": 11702302311529236555
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7592998077224713932,
+        "start": 792230,
+        "end": 792249,
+        "text": "Healthcare Treatment Fund",
+        "chunk_id": 11702302311529236555
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 1805760022812902983,
+        "start": 792230,
+        "end": 792249,
+        "text": "Healthcare Treatment Fund",
+        "chunk_id": 11702302311529236555
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 2744060068356264020,
+        "start": 792230,
+        "end": 792249,
+        "text": "Healthcare Treatment Fund",
+        "chunk_id": 11702302311529236555
+      }
+    ]
+  }
+]

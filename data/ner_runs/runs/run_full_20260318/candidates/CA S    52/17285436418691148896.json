@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 5896838059808161933,
+    "entity": "rental pricing algorithm",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 3918444646511606224,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17259274369557794903,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 12054839721109487086,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 6368883298508432195,
+        "start": 2519,
+        "end": 2538,
+        "text": "rental pricing algorithm",
+        "chunk_id": 17285436418691148896
+      }
+    ]
+  },
+  {
+    "candidate_id": 16926581551217426374,
+    "entity": "nonpublic competitor data",
+    "type": "technology",
+    "attribute": "restriction",
+    "value": "extremely restrictive",
+    "entity_evidence": [
+      {
+        "span_id": 11346661104978606224,
+        "start": 2819,
+        "end": 2842,
+        "text": "nonpublic competitor data",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 17926018418039246805,
+        "start": 2819,
+        "end": 2842,
+        "text": "nonpublic competitor data",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 13341902432745185039,
+        "start": 2819,
+        "end": 2842,
+        "text": "nonpublic competitor data",
+        "chunk_id": 17285436418691148896
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 15414129135625700686,
+        "start": 2819,
+        "end": 2842,
+        "text": "nonpublic competitor data",
+        "chunk_id": 17285436418691148896
+      }
+    ]
+  }
+]

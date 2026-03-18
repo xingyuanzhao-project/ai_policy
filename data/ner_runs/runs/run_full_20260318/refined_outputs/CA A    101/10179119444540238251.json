@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 4701424497841386251,
+    "source_group_id": 10179119444540238251,
+    "source_candidate_ids": [
+      8192258852865884757
+    ],
+    "entity": "Diagnostic Centers",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 15284357402877595811,
+        "start": 1182819,
+        "end": 1182833,
+        "text": "Diagnostic Centers",
+        "chunk_id": 3475267038181073013
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2369348715707116168,
+        "start": 1182819,
+        "end": 1182833,
+        "text": "Diagnostic Centers",
+        "chunk_id": 3475267038181073013
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 6333275303804353376,
+        "start": 1181519,
+        "end": 1181533,
+        "text": "meet the policy priorities",
+        "chunk_id": 3475267038181073013
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 18253675034442540612,
+        "start": 1181519,
+        "end": 1181533,
+        "text": "meet the policy priorities",
+        "chunk_id": 3475267038181073013
+      }
+    ]
+  }
+]

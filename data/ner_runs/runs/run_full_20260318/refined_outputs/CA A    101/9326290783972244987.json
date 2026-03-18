@@ -1,0 +1,49 @@
+[
+  {
+    "refined_id": 10252791917797078435,
+    "source_group_id": 9326290783972244987,
+    "source_candidate_ids": [
+      10918915616636589194
+    ],
+    "entity": "California Gambling Control Commission",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "limited",
+    "entity_evidence": [
+      {
+        "span_id": 7400279968127279243,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 7432537875304266456,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7437232411744856313,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 3103110015510433464,
+        "start": 213992,
+        "end": 214015,
+        "text": "California Gambling Control Commission",
+        "chunk_id": 10950325772688435094
+      }
+    ]
+  }
+]

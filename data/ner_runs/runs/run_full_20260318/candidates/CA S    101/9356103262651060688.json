@@ -1,0 +1,88 @@
+[
+  {
+    "candidate_id": 7393724393090557568,
+    "entity": "Department of Child Support Services",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 6722063030894492654,
+        "start": 909722,
+        "end": 909742,
+        "text": "Department of Child Support Services",
+        "chunk_id": 9356103262651060688
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 8538343501176448047,
+        "start": 909722,
+        "end": 909742,
+        "text": "government agency",
+        "chunk_id": 9356103262651060688
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 8273201338413387118,
+        "start": 909722,
+        "end": 909742,
+        "text": "restriction",
+        "chunk_id": 9356103262651060688
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 1550927590704815671,
+        "start": 909722,
+        "end": 909742,
+        "text": "conditional",
+        "chunk_id": 9356103262651060688
+      }
+    ]
+  },
+  {
+    "candidate_id": 17766162369756558410,
+    "entity": "Director of Finance",
+    "type": "government agency",
+    "attribute": "restriction",
+    "value": "conditional",
+    "entity_evidence": [
+      {
+        "span_id": 13274229133633358193,
+        "start": 909722,
+        "end": 909732,
+        "text": "Director of Finance",
+        "chunk_id": 9356103262651060688
+      }
+    ],
+    "type_evidence": [
+      {
+        "span_id": 2127809125899092971,
+        "start": 909722,
+        "end": 909732,
+        "text": "government agency",
+        "chunk_id": 9356103262651060688
+      }
+    ],
+    "attribute_evidence": [
+      {
+        "span_id": 7357620623563293114,
+        "start": 909722,
+        "end": 909732,
+        "text": "restriction",
+        "chunk_id": 9356103262651060688
+      }
+    ],
+    "value_evidence": [
+      {
+        "span_id": 7237907524457271368,
+        "start": 909722,
+        "end": 909732,
+        "text": "conditional",
+        "chunk_id": 9356103262651060688
+      }
+    ]
+  }
+]
