@@ -12,10 +12,8 @@
 !docs/**
 !plot/
 !plot/**
-data/**
 !data/ncsl/**
-data/ncsl/bills/**
-data/ncsl/ner_runs/**
+
 
 # Git config files (mandatory)
 !.gitignore
