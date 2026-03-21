@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ai-policy-qa
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements-render.txt
+    startCommand: gunicorn --bind 0.0.0.0:$PORT src.qa.render_app:app
+    healthCheckPath: /
+    disk:
+      name: qa-data
+      mountPath: /var/data
+      sizeGB: 10
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: QA_CORPUS_PATH
+        value: /var/data/us_ai_legislation_ncsl_text.jsonl
+      - key: QA_CACHE_DIR
+        value: /var/data/qa_cache

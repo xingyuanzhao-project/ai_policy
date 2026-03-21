@@ -1,0 +1,28 @@
+corpus:
+  path: data/ncsl/us_ai_legislation_ncsl_text.jsonl
+
+chunking:
+  chunk_size: 1200
+  overlap: 150
+
+index:
+  cache_dir: data/qa_cache
+  batch_size: 100
+  retrieval_top_k: 5
+
+provider:
+  api_base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+  api_key_env_var: GEMINI_API_KEY
+  keyring_service: ai_policy.qa
+  keyring_username: gemini
+
+models:
+  embedding_model: gemini-embedding-001
+  answer_model: gemini-2.5-flash
+  available_answer_models:
+    - gemini-2.5-flash
+    - gemini-2.5-pro
+
+app:
+  host: 127.0.0.1
+  port: 5050

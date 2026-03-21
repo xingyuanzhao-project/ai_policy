@@ -1,0 +1,164 @@
+"""Offline tests for shared QA runtime construction."""
+
+from __future__ import annotations
+
+import unittest
+from pathlib import Path
+from unittest.mock import MagicMock, patch
+
+import numpy as np
+
+from src.qa.artifacts import INDEX_STATUS_READY, IndexManifest, IndexedChunk
+from src.qa.config import (
+    ModelConfig,
+    ProviderConfig,
+    QAAppConfig,
+    QAChunkingConfig,
+    QAConfig,
+    QAIndexConfig,
+)
+from src.qa.indexer import IndexStateError, LoadedIndex
+from src.qa.local_answer_support import LocalAnswerSupport
+from src.qa.runtime import build_qa_browser_runtime
+
+
+class QARuntimeTests(unittest.TestCase):
+    """Verify the shared runtime preserves the intended startup behavior."""
+
+    def test_build_runtime_prefers_ready_vector_index(self) -> None:
+        """Verify a ready cache yields vector retrieval instead of lexical fallback."""
+
+        provider_client = MagicMock()
+        with (
+            patch("src.qa.runtime.load_qa_config", return_value=_make_config()),
+            patch("src.qa.runtime.load_provider_api_key", return_value="secret"),
+            patch(
+                "src.qa.runtime.OpenAICompatibleClient",
+                return_value=provider_client,
+            ),
+            patch(
+                "src.qa.runtime.LocalAnswerSupport.from_project_root",
+                return_value=LocalAnswerSupport(),
+            ),
+            patch(
+                "src.qa.runtime.QAIndexer.load_ready_index",
+                return_value=LoadedIndex(
+                    manifest=_make_manifest(total_chunks=1),
+                    chunks=[_make_chunk()],
+                    embeddings=np.array([[1.0, 0.0, 0.0]], dtype=np.float32),
+                ),
+            ),
+            patch("src.qa.runtime.build_indexed_chunks") as mock_build_indexed_chunks,
+        ):
+            runtime = build_qa_browser_runtime(Path("C:/project"))
+
+        self.assertEqual(runtime.retrieval_backend, "vector")
+        self.assertEqual(runtime.chunk_count, 1)
+        mock_build_indexed_chunks.assert_not_called()
+        runtime.close()
+        provider_client.close.assert_called_once()
+
+    def test_build_runtime_falls_back_to_lexical_retrieval(self) -> None:
+        """Verify startup degrades to lexical retrieval when no ready cache exists."""
+
+        provider_client = MagicMock()
+        chunk = _make_chunk()
+        with (
+            patch("src.qa.runtime.load_qa_config", return_value=_make_config()),
+            patch("src.qa.runtime.load_provider_api_key", return_value="secret"),
+            patch(
+                "src.qa.runtime.OpenAICompatibleClient",
+                return_value=provider_client,
+            ),
+            patch(
+                "src.qa.runtime.LocalAnswerSupport.from_project_root",
+                return_value=LocalAnswerSupport(),
+            ),
+            patch(
+                "src.qa.runtime.QAIndexer.load_ready_index",
+                side_effect=IndexStateError("missing cache"),
+            ),
+            patch(
+                "src.qa.runtime.build_indexed_chunks",
+                return_value=[chunk],
+            ) as mock_build_indexed_chunks,
+        ):
+            runtime = build_qa_browser_runtime(
+                Path("C:/project"),
+                corpus_path="custom-corpus.jsonl",
+                cache_dir="custom-cache",
+                max_bills=3,
+            )
+
+        self.assertEqual(runtime.retrieval_backend, "lexical")
+        self.assertEqual(runtime.chunk_count, 1)
+        mock_build_indexed_chunks.assert_called_once()
+        self.assertIsNone(runtime.qa_service._retriever)
+        self.assertIsNotNone(runtime.qa_service._lexical_retriever)
+        runtime.close()
+        provider_client.close.assert_called_once()
+
+
+def _make_chunk() -> IndexedChunk:
+    """Build one representative indexed chunk fixture."""
+
+    return IndexedChunk(
+        chunk_id=1,
+        bill_id="BILL-001",
+        text="Impact assessments are required for covered systems.",
+        start_offset=0,
+        end_offset=52,
+        state="CA",
+        title="AI Accountability Act",
+        status="Introduced",
+    )
+
+
+def _make_config() -> QAConfig:
+    """Build a minimal in-memory QA config for runtime tests."""
+
+    return QAConfig(
+        corpus_path="data/ncsl/us_ai_legislation_ncsl_text.jsonl",
+        chunking=QAChunkingConfig(chunk_size=64, overlap=12),
+        index=QAIndexConfig(
+            cache_dir="data/qa_cache",
+            batch_size=2,
+            retrieval_top_k=3,
+        ),
+        provider=ProviderConfig(
+            api_base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+            api_key_env_var="GEMINI_API_KEY",
+            keyring_service="ai_policy.qa",
+            keyring_username="gemini",
+        ),
+        models=ModelConfig(
+            embedding_model="fake-embedding-model",
+            answer_model="fake-answer-model",
+            available_answer_models=("fake-answer-model",),
+        ),
+        app=QAAppConfig(host="127.0.0.1", port=5050),
+    )
+
+
+def _make_manifest(total_chunks: int) -> IndexManifest:
+    """Build a ready manifest fixture for runtime tests."""
+
+    return IndexManifest(
+        index_format_version=2,
+        status=INDEX_STATUS_READY,
+        corpus_path="C:/tmp/us_ai_legislation_ncsl_text.jsonl",
+        corpus_fingerprint="abc123",
+        chunk_size=64,
+        overlap=12,
+        provider_api_base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
+        embedding_model="fake-embedding-model",
+        batch_size=2,
+        total_chunks=total_chunks,
+        completed_batch_count=1,
+        built_at_utc="2026-03-21T00:00:00+00:00",
+        bill_limit=None,
+    )
+
+
+if __name__ == "__main__":
+    unittest.main()
