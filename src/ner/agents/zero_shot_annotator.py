@@ -7,6 +7,7 @@
 
 from __future__ import annotations
 
+from copy import deepcopy
 from typing import Any
 
 from .base import AgentResult, BaseAgent
@@ -166,7 +167,7 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
         )
         return self._prompt_executor.execute(
             prompt=prompt,
-            output_schema=self._output_schema,
+            output_schema=self._build_chunk_bounded_output_schema(len(input_data.text)),
             execution_config=self._execution_config,
         )
 
@@ -196,9 +197,54 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
         )
         return self._prompt_executor.execute(
             prompt=prompt,
-            output_schema=self._output_schema,
+            output_schema=self._build_chunk_bounded_output_schema(len(input_data.text)),
             execution_config=fallback_execution_config,
         )
+
+    def _build_chunk_bounded_output_schema(self, chunk_length: int) -> dict[str, Any]:
+        """Return a copy of the output schema bounded to the current chunk length."""
+
+        bounded_schema = deepcopy(self._output_schema)
+        self._clamp_offset_maxima(bounded_schema, chunk_length)
+        return bounded_schema
+
+    def _clamp_offset_maxima(
+        self,
+        schema_node: Any,
+        chunk_length: int,
+        property_name: str | None = None,
+    ) -> None:
+        """Clamp start/end maxima in a nested JSON schema tree."""
+
+        if isinstance(schema_node, dict):
+            if (
+                property_name in {"start", "end"}
+                and schema_node.get("type") == "integer"
+                and (
+                    "maximum" not in schema_node
+                    or not isinstance(schema_node["maximum"], int)
+                    or schema_node["maximum"] > chunk_length
+                )
+            ):
+                schema_node["maximum"] = chunk_length
+
+            properties = schema_node.get("properties")
+            if isinstance(properties, dict):
+                for child_name, child_schema in properties.items():
+                    self._clamp_offset_maxima(child_schema, chunk_length, child_name)
+
+            items = schema_node.get("items")
+            if items is not None:
+                self._clamp_offset_maxima(items, chunk_length, property_name)
+
+            for branch_name in ("allOf", "anyOf", "oneOf"):
+                branches = schema_node.get(branch_name)
+                if isinstance(branches, list):
+                    for branch_schema in branches:
+                        self._clamp_offset_maxima(branch_schema, chunk_length, property_name)
+        elif isinstance(schema_node, list):
+            for child_schema in schema_node:
+                self._clamp_offset_maxima(child_schema, chunk_length, property_name)
 
     def _parse_candidates(
         self,
@@ -318,7 +364,9 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
 
         Returns:
             list[SpanRef]: Parsed list of ``SpanRef`` objects aligned to source
-                offsets.
+                offsets. Structurally valid spans with malformed offsets are
+                deterministically repaired when possible; otherwise they are
+                dropped.
 
         Raises:
             SchemaValidationError: If the raw evidence payload is not a valid
@@ -330,49 +378,121 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
 
         parsed_spans: list[SpanRef] = []
         for span_index, raw_span in enumerate(raw_spans):
-            if not isinstance(raw_span, dict):
-                raise SchemaValidationError(f"{field_name}_evidence entries must be objects")
-            if "start" not in raw_span or "end" not in raw_span or "text" not in raw_span:
-                raise SchemaValidationError(
-                    f"{field_name}_evidence entries must include start, end, and text"
-                )
-
-            relative_start = raw_span["start"]
-            relative_end = raw_span["end"]
-            span_text = raw_span["text"]
-            if not isinstance(relative_start, int) or relative_start < 0:
-                raise SchemaValidationError(f"{field_name}_evidence.start must be >= 0")
-            if not isinstance(relative_end, int) or relative_end < relative_start:
-                raise SchemaValidationError(
-                    f"{field_name}_evidence.end must be >= {field_name}_evidence.start"
-                )
-            if relative_end > len(chunk.text):
-                raise SchemaValidationError(
-                    f"{field_name}_evidence.end exceeds the chunk length"
-                )
-            if not isinstance(span_text, str):
-                raise SchemaValidationError(f"{field_name}_evidence.text must be a string")
-
-            source_start = chunk.start_offset + relative_start
-            source_end = chunk.start_offset + relative_end
-            parsed_spans.append(
-                SpanRef(
-                    span_id=stable_int_id(
-                        "span",
-                        candidate_id,
-                        field_name,
-                        span_index,
-                        source_start,
-                        source_end,
-                        span_text,
-                    ),
-                    start=source_start,
-                    end=source_end,
-                    text=span_text,
-                    chunk_id=chunk.chunk_id,
-                )
+            parsed_span = self._build_span(
+                chunk=chunk,
+                candidate_id=candidate_id,
+                field_name=field_name,
+                span_index=span_index,
+                raw_span=raw_span,
             )
+            if parsed_span is not None:
+                parsed_spans.append(parsed_span)
         return parsed_spans
+
+    def _build_span(
+        self,
+        chunk: ContextChunk,
+        candidate_id: int,
+        field_name: str,
+        span_index: int,
+        raw_span: Any,
+    ) -> SpanRef | None:
+        """Build one evidence span, repairing malformed offsets when possible."""
+
+        if not isinstance(raw_span, dict):
+            raise SchemaValidationError(f"{field_name}_evidence entries must be objects")
+        if "start" not in raw_span or "end" not in raw_span or "text" not in raw_span:
+            raise SchemaValidationError(
+                f"{field_name}_evidence entries must include start, end, and text"
+            )
+
+        relative_start = raw_span["start"]
+        relative_end = raw_span["end"]
+        span_text = raw_span["text"]
+        if not isinstance(relative_start, int):
+            raise SchemaValidationError(f"{field_name}_evidence.start must be an integer")
+        if not isinstance(relative_end, int):
+            raise SchemaValidationError(f"{field_name}_evidence.end must be an integer")
+        if not isinstance(span_text, str):
+            raise SchemaValidationError(f"{field_name}_evidence.text must be a string")
+
+        resolved_span = self._resolve_relative_span(
+            chunk_text=chunk.text,
+            relative_start=relative_start,
+            relative_end=relative_end,
+            span_text=span_text,
+        )
+        if resolved_span is None:
+            return None
+
+        repaired_start, repaired_end, repaired_text = resolved_span
+        source_start = chunk.start_offset + repaired_start
+        source_end = chunk.start_offset + repaired_end
+        return SpanRef(
+            span_id=stable_int_id(
+                "span",
+                candidate_id,
+                field_name,
+                span_index,
+                source_start,
+                source_end,
+                repaired_text,
+            ),
+            start=source_start,
+            end=source_end,
+            text=repaired_text,
+            chunk_id=chunk.chunk_id,
+        )
+
+    def _resolve_relative_span(
+        self,
+        chunk_text: str,
+        relative_start: int,
+        relative_end: int,
+        span_text: str,
+    ) -> tuple[int, int, str] | None:
+        """Resolve one span against the chunk text using offsets and exact text."""
+
+        if (
+            0 <= relative_start <= relative_end <= len(chunk_text)
+            and chunk_text[relative_start:relative_end] == span_text
+        ):
+            return relative_start, relative_end, chunk_text[relative_start:relative_end]
+
+        matches = self._find_exact_text_matches(chunk_text, span_text)
+        if not matches:
+            return None
+
+        anchor_start = relative_start if relative_start >= 0 else 0
+        anchor_end = relative_end if relative_end >= relative_start else anchor_start + len(span_text)
+        best_start, best_end = min(
+            matches,
+            key=lambda match: (
+                abs(match[0] - anchor_start),
+                abs(match[1] - anchor_end),
+                match[0],
+            ),
+        )
+        return best_start, best_end, chunk_text[best_start:best_end]
+
+    def _find_exact_text_matches(
+        self,
+        chunk_text: str,
+        span_text: str,
+    ) -> list[tuple[int, int]]:
+        """Return all exact occurrences of span text inside the chunk."""
+
+        if not span_text:
+            return []
+
+        matches: list[tuple[int, int]] = []
+        search_start = 0
+        while True:
+            match_start = chunk_text.find(span_text, search_start)
+            if match_start == -1:
+                return matches
+            matches.append((match_start, match_start + len(span_text)))
+            search_start = match_start + 1
 
 
 def _normalize_optional_text(value: Any) -> str | None:

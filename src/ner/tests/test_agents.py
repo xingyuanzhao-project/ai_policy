@@ -92,6 +92,108 @@ class AgentContractTests(unittest.TestCase):
         self.assertEqual(result.parsed_response[0].entity, "artificial intelligence system")
         self.assertEqual(prompt_executor.execute.call_count, 2)
 
+    def test_zero_shot_annotator_repairs_out_of_bounds_span_using_exact_text(self) -> None:
+        """Verify exact span text repairs malformed relative offsets."""
+
+        prompt_executor = Mock()
+        prompt_executor.execute.return_value = (
+            '{"candidates":[{"entity":"artificial intelligence system",'
+            '"type":"technology","attribute":"definition",'
+            '"value":"machine-based system","entity_evidence":[{"start":999,'
+            '"end":1200,"text":"artificial intelligence system"}],'
+            '"type_evidence":[],"attribute_evidence":[],"value_evidence":[]}]}'
+        )
+        annotator = ZeroShotAnnotator(
+            prompt_template="{bill_id}\n{chunk_id}\n{text}",
+            output_schema={
+                "type": "object",
+                "properties": {
+                    "candidates": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "entity_evidence": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "start": {"type": "integer", "maximum": 3000},
+                                            "end": {"type": "integer", "maximum": 3000},
+                                            "text": {"type": "string"},
+                                        },
+                                    },
+                                }
+                            },
+                        },
+                    }
+                },
+            },
+            execution_config=AgentExecutionConfig(temperature=0.0, max_tokens=768),
+            prompt_executor=prompt_executor,
+        )
+        chunk = ContextChunk(
+            chunk_id=11,
+            bill_id="TEST-BILL",
+            text=(
+                "For purposes of this Act, an artificial intelligence system means "
+                "a machine-based system."
+            ),
+            start_offset=100,
+            end_offset=191,
+        )
+
+        result = annotator.run(chunk)
+
+        expected_relative_start = chunk.text.index("artificial intelligence system")
+        expected_relative_end = expected_relative_start + len("artificial intelligence system")
+        evidence = result.parsed_response[0].entity_evidence
+        self.assertEqual(len(evidence), 1)
+        self.assertEqual(evidence[0].start, chunk.start_offset + expected_relative_start)
+        self.assertEqual(evidence[0].end, chunk.start_offset + expected_relative_end)
+        self.assertEqual(evidence[0].text, "artificial intelligence system")
+        guided_schema = prompt_executor.execute.call_args.kwargs["output_schema"]
+        evidence_schema = guided_schema["properties"]["candidates"]["items"]["properties"][
+            "entity_evidence"
+        ]["items"]["properties"]
+        self.assertEqual(evidence_schema["start"]["maximum"], len(chunk.text))
+        self.assertEqual(evidence_schema["end"]["maximum"], len(chunk.text))
+        self.assertEqual(prompt_executor.execute.call_count, 1)
+
+    def test_zero_shot_annotator_drops_unresolvable_malformed_span(self) -> None:
+        """Verify malformed evidence is dropped when it cannot be aligned."""
+
+        prompt_executor = Mock()
+        prompt_executor.execute.return_value = (
+            '{"candidates":[{"entity":"artificial intelligence system",'
+            '"type":"technology","attribute":"definition",'
+            '"value":"machine-based system","entity_evidence":[{"start":999,'
+            '"end":1200,"text":"not present in the chunk"}],'
+            '"type_evidence":[],"attribute_evidence":[],"value_evidence":[]}]}'
+        )
+        annotator = ZeroShotAnnotator(
+            prompt_template="{bill_id}\n{chunk_id}\n{text}",
+            output_schema={"type": "object"},
+            execution_config=AgentExecutionConfig(temperature=0.0, max_tokens=768),
+            prompt_executor=prompt_executor,
+        )
+        chunk = ContextChunk(
+            chunk_id=11,
+            bill_id="TEST-BILL",
+            text=(
+                "For purposes of this Act, an artificial intelligence system means "
+                "a machine-based system."
+            ),
+            start_offset=0,
+            end_offset=91,
+        )
+
+        result = annotator.run(chunk)
+
+        self.assertEqual(len(result.parsed_response), 1)
+        self.assertEqual(result.parsed_response[0].entity_evidence, [])
+        self.assertEqual(prompt_executor.execute.call_count, 1)
+
     def test_grouped_set_validation_enforces_matrix_shape_and_field_order(self) -> None:
         """Verify grouped-set validation enforces matrix and field-order rules."""
 
