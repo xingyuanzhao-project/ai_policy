@@ -20,6 +20,7 @@ from src.qa.config import (
     QAConfig,
     QAIndexConfig,
 )
+from src.qa.embedding_store import EmbeddingStore
 from src.qa.indexer import IndexStateError, QAIndexer
 
 _PROVIDER_API_BASE_URL = "https://openrouter.ai/api/v1"
@@ -188,6 +189,11 @@ class QAIndexerTests(unittest.TestCase):
             self.assertEqual(
                 len(loaded_index.chunks),
                 loaded_index.embeddings.shape[0],
+            )
+            self.assertIsInstance(loaded_index.embeddings, EmbeddingStore)
+            self.assertEqual(
+                sum(batch.shape[0] for batch in loaded_index.embeddings.iter_batches()),
+                len(loaded_index.chunks),
             )
 
     def test_build_or_resume_skips_finished_batches_after_interruption(self) -> None:

@@ -32,6 +32,7 @@ from .artifacts import (
     validate_indexed_chunk,
 )
 from .config import QAConfig
+from .embedding_store import EmbeddingBatchSpec, EmbeddingStore
 from .provider_client import OpenAICompatibleClient
 
 _INDEX_FORMAT_VERSION = 2
@@ -92,7 +93,7 @@ class LoadedIndex:
 
     manifest: IndexManifest
     chunks: list[IndexedChunk]
-    embeddings: np.ndarray
+    embeddings: np.ndarray | EmbeddingStore
 
 
 class QAIndexer:
@@ -206,7 +207,7 @@ class QAIndexer:
             )
 
         chunks = self._load_chunks()
-        embeddings = self._load_embeddings_matrix(manifest.total_chunks)
+        embeddings = self._load_embeddings_store(manifest.total_chunks)
         if len(chunks) != embeddings.shape[0]:
             raise IndexStateError(
                 "Persisted QA chunks did not align with the stored embedding matrix"
@@ -260,10 +261,12 @@ class QAIndexer:
             raise IndexStateError("QA chunks file must contain a list of chunk payloads")
         return [IndexedChunk.from_dict(chunk_payload) for chunk_payload in payload]
 
-    def _load_embeddings_matrix(self, expected_total_chunks: int) -> np.ndarray:
-        """Load the persisted embedding matrix by concatenating batch files."""
+    def _load_embeddings_store(self, expected_total_chunks: int) -> EmbeddingStore:
+        """Load a streamable embedding store from the persisted batch files."""
 
-        matrices: list[np.ndarray] = []
+        batch_specs: list[EmbeddingBatchSpec] = []
+        embedding_dimension: int | None = None
+        loaded_row_count = 0
         for batch_index, batch_row_count in enumerate(
             self._iter_batch_sizes(expected_total_chunks)
         ):
@@ -272,21 +275,36 @@ class QAIndexer:
                 raise IndexStateError(
                     f"Embedding batch '{batch_path.name}' is missing; rebuild or resume the index"
                 )
-            matrix = np.load(batch_path)
+            matrix = np.load(batch_path, mmap_mode="r")
             if matrix.ndim != 2 or matrix.shape[0] != batch_row_count:
                 raise IndexStateError(
                     f"Embedding batch '{batch_path.name}' has an unexpected shape {matrix.shape}"
                 )
-            matrices.append(matrix.astype(np.float32, copy=False))
+            if matrix.dtype != np.float32:
+                raise IndexStateError(
+                    f"Embedding batch '{batch_path.name}' must use float32 values, got {matrix.dtype}"
+                )
+            if embedding_dimension is None:
+                embedding_dimension = int(matrix.shape[1])
+            elif int(matrix.shape[1]) != embedding_dimension:
+                raise IndexStateError(
+                    "Persisted QA embedding batches do not share one embedding dimension"
+                )
+            batch_specs.append(EmbeddingBatchSpec(path=batch_path))
+            loaded_row_count += int(matrix.shape[0])
 
-        if not matrices:
+        if not batch_specs:
             raise IndexStateError("No embedding batches were found in the QA cache")
-        embeddings = np.vstack(matrices)
-        if embeddings.shape[0] != expected_total_chunks:
+        if loaded_row_count != expected_total_chunks:
             raise IndexStateError(
                 "Loaded embedding rows did not match the manifest total chunk count"
             )
-        return embeddings
+        assert embedding_dimension is not None
+        return EmbeddingStore(
+            batch_specs=tuple(batch_specs),
+            total_rows=expected_total_chunks,
+            embedding_dimension=embedding_dimension,
+        )
 
     def _prepare_cache_dir(self) -> None:
         """Create the QA cache directory structure if it does not yet exist."""

@@ -2,11 +2,14 @@
 
 from __future__ import annotations
 
+import tempfile
 import unittest
+from pathlib import Path
 
 import numpy as np
 
 from src.qa.artifacts import AnswerResult, IndexedChunk
+from src.qa.embedding_store import EmbeddingBatchSpec, EmbeddingStore
 from src.qa.lexical_retriever import LexicalRetriever
 from src.qa.local_answer_support import (
     AnswerModelOption,
@@ -100,6 +103,47 @@ class QAServiceTests(unittest.TestCase):
             query_embedding=np.array([0.0, 1.0, 0.0], dtype=np.float32),
             top_k=2,
         )
+
+        self.assertEqual(results[0].bill_id, "BILL-002")
+        self.assertGreaterEqual(results[0].score, results[1].score)
+
+    def test_retriever_supports_streamed_embedding_batches(self) -> None:
+        """Verify retrieval can rank results from persisted embedding batches."""
+
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            temporary_root = Path(temporary_directory)
+            first_batch_path = temporary_root / "batch_00000.npy"
+            second_batch_path = temporary_root / "batch_00001.npy"
+            np.save(
+                first_batch_path,
+                np.array(
+                    [
+                        [1.0, 0.0, 0.0],
+                        [0.0, 1.0, 0.0],
+                    ],
+                    dtype=np.float32,
+                ),
+            )
+            np.save(
+                second_batch_path,
+                np.array([[0.0, 0.0, 1.0]], dtype=np.float32),
+            )
+            retriever = Retriever(
+                chunks=_make_chunks(),
+                embeddings=EmbeddingStore(
+                    batch_specs=(
+                        EmbeddingBatchSpec(path=first_batch_path),
+                        EmbeddingBatchSpec(path=second_batch_path),
+                    ),
+                    total_rows=3,
+                    embedding_dimension=3,
+                ),
+            )
+
+            results = retriever.retrieve(
+                query_embedding=np.array([0.0, 1.0, 0.0], dtype=np.float32),
+                top_k=2,
+            )
 
         self.assertEqual(results[0].bill_id, "BILL-002")
         self.assertGreaterEqual(results[0].score, results[1].score)
