@@ -32,7 +32,7 @@ from .artifacts import (
     validate_indexed_chunk,
 )
 from .config import QAConfig
-from .gemini_client import OpenAICompatibleClient
+from .provider_client import OpenAICompatibleClient
 
 _INDEX_FORMAT_VERSION = 2
 _MANIFEST_FILENAME = "manifest.json"
@@ -44,7 +44,7 @@ _DEFAULT_RETRY_DELAY_SECONDS = 20.0
 
 
 class IndexStateError(RuntimeError):
-    """Raised when the persisted QA index is missing, stale, or internally inconsistent."""
+    """Raised when the persisted QA index is missing, stale, or inconsistent."""
 
 
 def build_indexed_chunks(
@@ -115,15 +115,7 @@ class QAIndexer:
         force_rebuild: bool = False,
         max_bills: int | None = None,
     ) -> LoadedIndex:
-        """Build or resume the local QA index.
-
-        Args:
-            force_rebuild: Whether to discard an incompatible cache and rebuild it.
-            max_bills: Optional cap on the number of bills used to build the index.
-
-        Returns:
-            Fully loaded QA index after the build completes.
-        """
+        """Build or resume the local QA index."""
 
         if self._provider_client is None:
             raise IndexStateError("Provider client is required to build the QA index")
@@ -150,7 +142,6 @@ class QAIndexer:
             try:
                 return self.load_ready_index(bill_limit=max_bills)
             except IndexStateError:
-                # Fall through and repair the incomplete or corrupt cache by rebuilding.
                 existing_manifest = None
 
         indexed_chunks = self._build_indexed_chunks(corpus_path, max_bills=max_bills)
@@ -365,14 +356,7 @@ class QAIndexer:
         corpus_fingerprint: str,
         bill_limit: int | None,
     ) -> bool:
-        """Return whether the persisted manifest matches the current runtime inputs.
-
-        The manifest retains the original absolute corpus path for operator
-        visibility, but portability is determined by the corpus fingerprint plus
-        the other retrieval-shaping inputs. This lets one ready cache move from
-        a local machine to Render without being rejected solely because the
-        mounted corpus path changed.
-        """
+        """Return whether the persisted manifest matches the current runtime inputs."""
 
         return (
             manifest.corpus_fingerprint == corpus_fingerprint
@@ -405,7 +389,7 @@ class QAIndexer:
         return matrix.ndim == 2 and matrix.shape[0] == expected_row_count
 
     def _embed_documents_with_retry(self, texts: list[str]) -> list[np.ndarray]:
-        """Embed one batch of chunk texts with retry handling for transient quota errors."""
+        """Embed one batch of chunk texts with retry handling for transient errors."""
 
         if self._provider_client is None:
             raise IndexStateError("Provider client is required to build embeddings")
@@ -513,7 +497,7 @@ class QAIndexer:
         }
 
     def _extract_retry_delay_seconds(self, error: Exception) -> float:
-        """Extract a retry delay from a Gemini API error, falling back to a safe default."""
+        """Extract a retry delay from an OpenAI-compatible error."""
 
         for details_payload in (
             getattr(error, "details", None),
@@ -565,4 +549,4 @@ def _extract_retry_delay_from_payload(
     return None
 
 
-__all__ = ["IndexStateError", "LoadedIndex", "QAIndexer"]
+__all__ = ["IndexStateError", "LoadedIndex", "QAIndexer", "build_indexed_chunks"]

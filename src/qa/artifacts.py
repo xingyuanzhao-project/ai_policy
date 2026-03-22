@@ -1,4 +1,4 @@
-"""Typed artifacts for the Gemini-powered QA pipeline.
+"""Typed artifacts for the OpenRouter-first QA pipeline.
 
 - Defines persisted index metadata, indexed chunks, retrieved chunks, and answer
   payloads used by the local RAG app.

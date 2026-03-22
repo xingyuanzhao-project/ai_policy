@@ -11,17 +11,19 @@ index:
   retrieval_top_k: 5
 
 provider:
-  api_base_url: https://generativelanguage.googleapis.com/v1beta/openai/
-  api_key_env_var: GEMINI_API_KEY
+  api_base_url: https://openrouter.ai/api/v1
+  api_key_env_var: OPENROUTER_API_KEY
   keyring_service: ai_policy.qa
-  keyring_username: gemini
+  keyring_username: openrouter
 
 models:
-  embedding_model: gemini-embedding-001
-  answer_model: gemini-2.5-flash
+  embedding_model: openai/text-embedding-3-small
+  answer_model: google/gemini-2.5-flash
   available_answer_models:
-    - gemini-2.5-flash
-    - gemini-2.5-pro
+    - google/gemini-2.5-flash
+    - google/gemini-2.5-pro
+    - anthropic/claude-haiku-4.5
+    - anthropic/claude-sonnet-4.5
 
 app:
   host: 127.0.0.1

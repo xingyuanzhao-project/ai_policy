@@ -8,25 +8,28 @@ from src.qa.artifacts import AnswerResult, RetrievedChunk
 from src.qa.local_answer_support import AnswerModelOption
 from src.qa.web_app import create_app
 
+_DEFAULT_ANSWER_MODEL = "google/gemini-2.5-flash"
+_ALTERNATE_ANSWER_MODEL = "anthropic/claude-haiku-4.5"
+
 
 class FakeQAService:
     """Simple fake service used to test the Flask routes."""
 
     def __init__(self) -> None:
-        self.default_answer_model = "gemini-2.5-flash"
+        self.default_answer_model = _DEFAULT_ANSWER_MODEL
         self.available_answer_models = (
-            "gemini-2.5-flash",
-            "gemini-2.5-pro",
+            _DEFAULT_ANSWER_MODEL,
+            _ALTERNATE_ANSWER_MODEL,
             "local::hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
         )
         self.answer_model_options = (
             AnswerModelOption(
-                option_id="gemini-2.5-flash",
-                label="gemini-2.5-flash",
+                option_id=_DEFAULT_ANSWER_MODEL,
+                label=_DEFAULT_ANSWER_MODEL,
             ),
             AnswerModelOption(
-                option_id="gemini-2.5-pro",
-                label="gemini-2.5-pro",
+                option_id=_ALTERNATE_ANSWER_MODEL,
+                label=_ALTERNATE_ANSWER_MODEL,
             ),
             AnswerModelOption(
                 option_id="local::hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
@@ -88,7 +91,7 @@ class FlaskRouteTests(unittest.TestCase):
         assert payload is not None
         self.assertEqual(payload["question"], "What disclosure does the bill require?")
         self.assertEqual(payload["citations"][0]["bill_id"], "BILL-001")
-        self.assertEqual(payload["answer_model"], "gemini-2.5-flash")
+        self.assertEqual(payload["answer_model"], _DEFAULT_ANSWER_MODEL)
 
     def test_form_route_renders_answer_and_citations(self) -> None:
         """Verify the browser route renders answer text and citation metadata."""
@@ -101,7 +104,7 @@ class FlaskRouteTests(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b"The bill requires impact disclosures.", response.data)
         self.assertIn(b"BILL-001", response.data)
-        self.assertIn(b"gemini-2.5-flash", response.data)
+        self.assertIn(_DEFAULT_ANSWER_MODEL.encode("utf-8"), response.data)
 
     def test_form_route_renders_model_dropdown(self) -> None:
         """Verify the browser page exposes the configured answer-model options."""
@@ -110,7 +113,7 @@ class FlaskRouteTests(unittest.TestCase):
 
         self.assertEqual(response.status_code, 200)
         self.assertIn(b"<select id=\"answer_model\"", response.data)
-        self.assertIn(b"gemini-2.5-pro", response.data)
+        self.assertIn(_ALTERNATE_ANSWER_MODEL.encode("utf-8"), response.data)
         self.assertIn(
             b"Local / hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
             response.data,
@@ -123,7 +126,7 @@ class FlaskRouteTests(unittest.TestCase):
             "/api/ask",
             json={
                 "question": "What disclosure does the bill require?",
-                "answer_model": "gemini-2.5-pro",
+                "answer_model": _ALTERNATE_ANSWER_MODEL,
             },
         )
 
@@ -132,11 +135,11 @@ class FlaskRouteTests(unittest.TestCase):
         assert payload is not None
         self.assertEqual(
             payload["answer_model"],
-            "gemini-2.5-pro",
+            _ALTERNATE_ANSWER_MODEL,
         )
         self.assertEqual(
             self._qa_service.last_answer_model,
-            "gemini-2.5-pro",
+            _ALTERNATE_ANSWER_MODEL,
         )
 
     def test_api_route_rejects_empty_questions(self) -> None:

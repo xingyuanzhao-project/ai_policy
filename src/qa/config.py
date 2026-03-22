@@ -174,17 +174,7 @@ def load_qa_config(
     base_config_path: Path | None = None,
     ner_config_path: Path | None = None,
 ) -> QAConfig:
-    """Load the QA app configuration from YAML files.
-
-    Args:
-        project_root: Project root used for default config locations.
-        qa_config_path: Optional override for the QA config file.
-        base_config_path: Optional override for the project base config.
-        ner_config_path: Optional override for the NER config.
-
-    Returns:
-        Fully resolved and validated QA configuration.
-    """
+    """Load the QA app configuration from YAML files."""
 
     settings_dir = project_root / "settings"
     qa_payload = _load_yaml(qa_config_path or settings_dir / "qa_config.yml")
@@ -220,9 +210,9 @@ def load_qa_config(
         ),
         provider=ProviderConfig(
             api_base_url=str(qa_provider.get("api_base_url", "")).strip(),
-            api_key_env_var=str(qa_provider.get("api_key_env_var", "QA_API_KEY")).strip(),
+            api_key_env_var=str(qa_provider.get("api_key_env_var", "OPENROUTER_API_KEY")).strip(),
             keyring_service=str(qa_provider.get("keyring_service", "ai_policy.qa")).strip(),
-            keyring_username=str(qa_provider.get("keyring_username", "default")).strip(),
+            keyring_username=str(qa_provider.get("keyring_username", "openrouter")).strip(),
         ),
         models=ModelConfig(
             embedding_model=str(qa_models.get("embedding_model", "")).strip(),

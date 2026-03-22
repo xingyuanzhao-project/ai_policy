@@ -1,1 +1,1 @@
-"""Test package for the local Gemini QA app."""
+"""Tests for the canonical OpenRouter-first QA package."""

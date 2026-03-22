@@ -2,13 +2,15 @@
 
 Usage:
     python -m scripts.run_qa_app
-    python -m scripts.run_qa_app --host 127.0.0.1 --port 5050
+    python -m scripts.run_qa_app --host 127.0.0.1 --port 5050 (pick a new one if already in use)
 """
 
 from __future__ import annotations
 
 import argparse
 import atexit
+import socket
+import subprocess
 import sys
 from pathlib import Path
 
@@ -16,6 +18,29 @@ _PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(_PROJECT_ROOT))
 
 from src.qa import build_qa_browser_runtime, load_qa_config
+
+
+def kill_process_on_port(port: int) -> None:
+    """Kill any process already bound to *port* so this run can claim it cleanly."""
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as probe:
+        port_free = probe.connect_ex(("127.0.0.1", port)) != 0
+    if port_free:
+        return
+
+    result = subprocess.run(
+        ["netstat", "-ano"],
+        capture_output=True,
+        text=True,
+    )
+    for line in result.stdout.splitlines():
+        # Match lines like "  TCP  127.0.0.1:5050  ...  LISTENING  <PID>"
+        if f":{port} " in line and "LISTENING" in line:
+            pid = line.strip().split()[-1]
+            subprocess.run(["taskkill", "/F", "/PID", pid], capture_output=True)
+            print(f"Stopped stale process (PID {pid}) that was holding port {port}.")
+            return
+
+    print(f"Port {port} appears in use but no LISTENING process found; proceeding anyway.")
 
 
 def parse_args() -> argparse.Namespace:
@@ -63,9 +88,12 @@ def main() -> None:
             "Loaded lexical QA retriever over "
             f"{runtime.chunk_count} chunks because no ready vector index was available."
         )
+    target_port = args.port or config.app.port
+    target_host = args.host or config.app.host
+    kill_process_on_port(target_port)
     runtime.app.run(
-        host=args.host or config.app.host,
-        port=args.port or config.app.port,
+        host=target_host,
+        port=target_port,
         debug=False,
     )
 

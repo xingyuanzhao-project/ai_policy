@@ -11,7 +11,7 @@ services:
       mountPath: /var/data
       sizeGB: 10
     envVars:
-      - key: GEMINI_API_KEY
+      - key: OPENROUTER_API_KEY
         sync: false
       - key: QA_CORPUS_PATH
         value: /var/data/us_ai_legislation_ncsl_text.jsonl

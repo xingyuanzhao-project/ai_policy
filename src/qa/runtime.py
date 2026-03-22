@@ -16,11 +16,11 @@ from pathlib import Path
 
 from flask import Flask
 
-from .config import QAConfig, load_provider_api_key, load_qa_config
-from .gemini_client import OpenAICompatibleClient
+from .config import load_provider_api_key, load_qa_config
 from .indexer import IndexStateError, QAIndexer, build_indexed_chunks
 from .lexical_retriever import LexicalRetriever
 from .local_answer_support import AnswerModelOption, LocalAnswerSupport
+from .provider_client import OpenAICompatibleClient
 from .retriever import Retriever
 from .service import QAService
 from .web_app import create_app
@@ -70,7 +70,7 @@ def build_qa_browser_runtime(
         answer_model=config.models.answer_model,
     )
     local_answer_support = LocalAnswerSupport.from_project_root(project_root)
-    answer_model_options = _build_answer_model_options(config, local_answer_support)
+    answer_model_options = _build_answer_model_options(config.models.available_answer_models, local_answer_support)
     available_answer_models = tuple(
         answer_model_option.option_id for answer_model_option in answer_model_options
     )
@@ -127,14 +127,14 @@ def build_qa_browser_runtime(
 
 
 def _build_answer_model_options(
-    config: QAConfig,
+    available_answer_models: tuple[str, ...],
     local_answer_support: LocalAnswerSupport,
 ) -> tuple[AnswerModelOption, ...]:
     """Build the full answer-model option list for the QA runtime."""
 
     return tuple(
         AnswerModelOption(option_id=model_name, label=model_name)
-        for model_name in config.models.available_answer_models
+        for model_name in available_answer_models
     ) + local_answer_support.answer_model_options
 
 

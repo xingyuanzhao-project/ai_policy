@@ -1,7 +1,7 @@
 """OpenAI-compatible client wrapper for QA embeddings and answer generation.
 
-- Owns one OpenAI-compatible client surface that can talk to Gemini's OpenAI
-  endpoint now and OpenRouter later by configuration change.
+- Owns one OpenAI-compatible client surface that can talk to OpenRouter or
+  another compatible provider endpoint by configuration change.
 - Keeps retrieval embeddings fixed while allowing answer generation to override
   the model per request.
 - Normalizes embeddings so cosine retrieval can use a simple dot product.
@@ -56,14 +56,7 @@ class OpenAICompatibleClient:
         return self._api_base_url
 
     def embed_documents(self, texts: Sequence[str]) -> list[np.ndarray]:
-        """Embed document chunks for retrieval.
-
-        Args:
-            texts: Ordered chunk texts that should align to persisted chunk rows.
-
-        Returns:
-            Normalized embedding vectors aligned to the supplied texts.
-        """
+        """Embed document chunks for retrieval."""
 
         if not texts:
             return []
@@ -175,6 +168,6 @@ class OpenAICompatibleClient:
         return vector / norm
 
 
-GeminiClient = OpenAICompatibleClient
+ProviderClient = OpenAICompatibleClient
 
-__all__ = ["GeminiClient", "OpenAICompatibleClient"]
+__all__ = ["OpenAICompatibleClient", "ProviderClient"]

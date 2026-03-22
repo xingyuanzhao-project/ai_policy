@@ -22,8 +22,12 @@ from src.qa.config import (
 )
 from src.qa.indexer import IndexStateError, QAIndexer
 
+_PROVIDER_API_BASE_URL = "https://openrouter.ai/api/v1"
+_EMBEDDING_MODEL = "openai/text-embedding-3-small"
+_DEFAULT_ANSWER_MODEL = "google/gemini-2.5-flash"
 
-class FakeGeminiIndexerClient:
+
+class FakeIndexerProviderClient:
     """Deterministic fake embedding client used by offline QA index tests."""
 
     def __init__(
@@ -51,7 +55,7 @@ class FakeGeminiIndexerClient:
             self.retryable_parse_failures -= 1
             raise TypeError("'NoneType' object is not iterable")
         if self.fail_on_call is not None and self.document_calls == self.fail_on_call:
-            raise RuntimeError("simulated Gemini interruption")
+            raise RuntimeError("simulated provider interruption")
         return [self._vector_for_text(text) for text in texts]
 
     def _vector_for_text(self, text: str) -> np.ndarray:
@@ -101,7 +105,7 @@ class QAIndexerTests(unittest.TestCase):
             loaded_index = QAIndexer(
                 project_root=project_root,
                 config=config,
-                provider_client=FakeGeminiIndexerClient(),
+                provider_client=FakeIndexerProviderClient(),
             ).build_or_resume()
 
             self.assertEqual(loaded_index.manifest.status, INDEX_STATUS_READY)
@@ -124,7 +128,7 @@ class QAIndexerTests(unittest.TestCase):
             indexer = QAIndexer(
                 project_root=project_root,
                 config=config,
-                provider_client=FakeGeminiIndexerClient(),
+                provider_client=FakeIndexerProviderClient(),
             )
             indexer.build_or_resume()
 
@@ -167,7 +171,7 @@ class QAIndexerTests(unittest.TestCase):
             QAIndexer(
                 project_root=source_root,
                 config=config,
-                provider_client=FakeGeminiIndexerClient(),
+                provider_client=FakeIndexerProviderClient(),
             ).build_or_resume()
 
             shutil.copytree(source_root / "data", destination_root / "data")
@@ -205,7 +209,7 @@ class QAIndexerTests(unittest.TestCase):
                 ],
             )
             config = _make_config(batch_size=1, chunk_size=48, overlap=8)
-            interrupted_client = FakeGeminiIndexerClient(fail_on_call=2)
+            interrupted_client = FakeIndexerProviderClient(fail_on_call=2)
             interrupted_indexer = QAIndexer(
                 project_root=project_root,
                 config=config,
@@ -219,7 +223,7 @@ class QAIndexerTests(unittest.TestCase):
             manifest = IndexManifest.from_dict(json.loads(manifest_path.read_text(encoding="utf-8")))
             self.assertEqual(manifest.completed_batch_count, 1)
 
-            resumed_client = FakeGeminiIndexerClient()
+            resumed_client = FakeIndexerProviderClient()
             resumed_index = QAIndexer(
                 project_root=project_root,
                 config=config,
@@ -230,7 +234,7 @@ class QAIndexerTests(unittest.TestCase):
             self.assertEqual(resumed_client.document_calls, expected_remaining_batches)
 
     def test_build_retries_retryable_quota_errors(self) -> None:
-        """Verify transient Gemini quota errors are retried during index builds."""
+        """Verify transient provider quota errors are retried during index builds."""
 
         with tempfile.TemporaryDirectory() as temporary_directory:
             project_root = Path(temporary_directory)
@@ -245,7 +249,7 @@ class QAIndexerTests(unittest.TestCase):
                     )
                 ],
             )
-            retrying_client = FakeGeminiIndexerClient(retryable_failures=1)
+            retrying_client = FakeIndexerProviderClient(retryable_failures=1)
 
             loaded_index = QAIndexer(
                 project_root=project_root,
@@ -272,7 +276,7 @@ class QAIndexerTests(unittest.TestCase):
                     )
                 ],
             )
-            retrying_client = FakeGeminiIndexerClient(retryable_parse_failures=1)
+            retrying_client = FakeIndexerProviderClient(retryable_parse_failures=1)
 
             loaded_index = QAIndexer(
                 project_root=project_root,
@@ -299,7 +303,7 @@ class QAIndexerTests(unittest.TestCase):
                     )
                 ],
             )
-            retrying_client = FakeGeminiIndexerClient(retryable_body_failures=1)
+            retrying_client = FakeIndexerProviderClient(retryable_body_failures=1)
             with unittest.mock.patch("src.qa.indexer.time.sleep") as sleep_mock:
                 loaded_index = QAIndexer(
                     project_root=project_root,
@@ -346,15 +350,15 @@ def _make_config(
             retrieval_top_k=3,
         ),
         provider=ProviderConfig(
-            api_base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-            api_key_env_var="GEMINI_API_KEY",
+            api_base_url=_PROVIDER_API_BASE_URL,
+            api_key_env_var="OPENROUTER_API_KEY",
             keyring_service="ai_policy.qa",
-            keyring_username="gemini",
+            keyring_username="openrouter",
         ),
         models=ModelConfig(
-            embedding_model="fake-embedding-model",
-            answer_model="fake-answer-model",
-            available_answer_models=("fake-answer-model",),
+            embedding_model=_EMBEDDING_MODEL,
+            answer_model=_DEFAULT_ANSWER_MODEL,
+            available_answer_models=(_DEFAULT_ANSWER_MODEL,),
         ),
         app=QAAppConfig(host="127.0.0.1", port=5050),
     )
@@ -373,7 +377,7 @@ def _write_bill_jsonl(project_root: Path, bills: list[BillRecord]) -> Path:
 
 
 class RetryableQuotaError(Exception):
-    """Small fake Gemini error that exercises retry behavior."""
+    """Small fake quota error that exercises retry behavior."""
 
     code = 429
     status = "RESOURCE_EXHAUSTED"

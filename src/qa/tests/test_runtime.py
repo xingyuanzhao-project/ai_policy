@@ -21,6 +21,11 @@ from src.qa.indexer import IndexStateError, LoadedIndex
 from src.qa.local_answer_support import LocalAnswerSupport
 from src.qa.runtime import build_qa_browser_runtime
 
+_PROVIDER_API_BASE_URL = "https://openrouter.ai/api/v1"
+_EMBEDDING_MODEL = "openai/text-embedding-3-small"
+_DEFAULT_ANSWER_MODEL = "google/gemini-2.5-flash"
+_ALTERNATE_ANSWER_MODEL = "anthropic/claude-haiku-4.5"
+
 
 class QARuntimeTests(unittest.TestCase):
     """Verify the shared runtime preserves the intended startup behavior."""
@@ -126,15 +131,15 @@ def _make_config() -> QAConfig:
             retrieval_top_k=3,
         ),
         provider=ProviderConfig(
-            api_base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-            api_key_env_var="GEMINI_API_KEY",
+            api_base_url=_PROVIDER_API_BASE_URL,
+            api_key_env_var="OPENROUTER_API_KEY",
             keyring_service="ai_policy.qa",
-            keyring_username="gemini",
+            keyring_username="openrouter",
         ),
         models=ModelConfig(
-            embedding_model="fake-embedding-model",
-            answer_model="fake-answer-model",
-            available_answer_models=("fake-answer-model",),
+            embedding_model=_EMBEDDING_MODEL,
+            answer_model=_DEFAULT_ANSWER_MODEL,
+            available_answer_models=(_DEFAULT_ANSWER_MODEL, _ALTERNATE_ANSWER_MODEL),
         ),
         app=QAAppConfig(host="127.0.0.1", port=5050),
     )
@@ -150,8 +155,8 @@ def _make_manifest(total_chunks: int) -> IndexManifest:
         corpus_fingerprint="abc123",
         chunk_size=64,
         overlap=12,
-        provider_api_base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-        embedding_model="fake-embedding-model",
+        provider_api_base_url=_PROVIDER_API_BASE_URL,
+        embedding_model=_EMBEDDING_MODEL,
         batch_size=2,
         total_chunks=total_chunks,
         completed_batch_count=1,

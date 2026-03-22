@@ -24,10 +24,10 @@ from .config import (
     load_provider_api_key,
     load_qa_config,
 )
-from .gemini_client import GeminiClient, OpenAICompatibleClient
 from .indexer import IndexStateError, LoadedIndex, QAIndexer, build_indexed_chunks
 from .lexical_retriever import LexicalRetriever
 from .local_answer_support import AnswerModelOption, LocalAnswerSupport, LocalAnswerTarget
+from .provider_client import OpenAICompatibleClient, ProviderClient
 from .retriever import Retriever
 from .runtime import QABrowserRuntime, build_qa_browser_runtime
 from .secrets import SecretStoreError, load_secret, save_secret
@@ -37,18 +37,18 @@ from .web_app import create_app
 __all__ = [
     "AnswerResult",
     "AnswerModelOption",
-    "GeminiClient",
     "INDEX_STATUS_BUILDING",
     "INDEX_STATUS_READY",
     "IndexManifest",
     "IndexStateError",
     "IndexedChunk",
     "LexicalRetriever",
-    "LocalAnswerSupport",
-    "LocalAnswerTarget",
     "LoadedIndex",
     "ModelConfig",
     "OpenAICompatibleClient",
+    "LocalAnswerSupport",
+    "LocalAnswerTarget",
+    "ProviderClient",
     "ProviderConfig",
     "QAAppConfig",
     "QAArtifactValidationError",
@@ -62,8 +62,8 @@ __all__ = [
     "RetrievedChunk",
     "Retriever",
     "SecretStoreError",
-    "build_qa_browser_runtime",
     "build_indexed_chunks",
+    "build_qa_browser_runtime",
     "create_app",
     "load_provider_api_key",
     "load_qa_config",

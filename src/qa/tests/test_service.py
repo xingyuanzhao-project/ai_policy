@@ -16,9 +16,12 @@ from src.qa.local_answer_support import (
 from src.qa.retriever import Retriever
 from src.qa.service import QAService
 
+_DEFAULT_ANSWER_MODEL = "google/gemini-2.5-flash"
+_ALTERNATE_ANSWER_MODEL = "anthropic/claude-haiku-4.5"
 
-class FakeGeminiServiceClient:
-    """Deterministic fake Gemini client used by QA service tests."""
+
+class FakeProviderClient:
+    """Deterministic fake provider client used by QA service tests."""
 
     def __init__(self) -> None:
         self.embed_query_call_count = 0
@@ -116,12 +119,12 @@ class QAServiceTests(unittest.TestCase):
                     dtype=np.float32,
                 ),
             ),
-            provider_client=FakeGeminiServiceClient(),
+            provider_client=FakeProviderClient(),
             retrieval_top_k=2,
-            default_answer_model="gemini-2.5-flash",
+            default_answer_model=_DEFAULT_ANSWER_MODEL,
             available_answer_models=(
-                "gemini-2.5-flash",
-                "gemini-2.5-pro",
+                _DEFAULT_ANSWER_MODEL,
+                _ALTERNATE_ANSWER_MODEL,
             ),
         )
 
@@ -129,7 +132,7 @@ class QAServiceTests(unittest.TestCase):
 
         self.assertIsInstance(result, AnswerResult)
         self.assertEqual(result.question, "What risk documentation is required?")
-        self.assertEqual(result.answer_model, "gemini-2.5-flash")
+        self.assertEqual(result.answer_model, _DEFAULT_ANSWER_MODEL)
         self.assertEqual(len(result.citations), 2)
         self.assertEqual(result.citations[0].bill_id, "BILL-001")
         self.assertIn("[1]", result.answer)
@@ -152,12 +155,12 @@ class QAServiceTests(unittest.TestCase):
                     dtype=np.float32,
                 ),
             ),
-            provider_client=FakeGeminiServiceClient(),
+            provider_client=FakeProviderClient(),
             retrieval_top_k=2,
-            default_answer_model="gemini-2.5-flash",
+            default_answer_model=_DEFAULT_ANSWER_MODEL,
             available_answer_models=(
-                "gemini-2.5-flash",
-                "gemini-2.5-pro",
+                _DEFAULT_ANSWER_MODEL,
+                _ALTERNATE_ANSWER_MODEL,
             ),
         )
 
@@ -173,31 +176,33 @@ class QAServiceTests(unittest.TestCase):
         service = QAService(
             retriever=None,
             lexical_retriever=LexicalRetriever(_make_chunks()),
-            provider_client=FakeGeminiServiceClient(),
+            provider_client=FakeProviderClient(),
             retrieval_top_k=2,
-            default_answer_model="gemini-2.5-flash",
+            default_answer_model=_DEFAULT_ANSWER_MODEL,
             available_answer_models=(
-                "gemini-2.5-flash",
-                "gemini-2.5-pro",
+                _DEFAULT_ANSWER_MODEL,
+                _ALTERNATE_ANSWER_MODEL,
             ),
         )
 
         result = service.answer_question("Which bill creates an innovation sandbox?")
 
-        self.assertEqual(result.answer_model, "gemini-2.5-flash")
+        self.assertEqual(result.answer_model, _DEFAULT_ANSWER_MODEL)
         self.assertEqual(result.citations[0].bill_id, "BILL-002")
 
     def test_service_routes_selected_local_answer_model_through_local_support(self) -> None:
         """Verify local answer-model ids are routed through the local helper only."""
 
-        remote_client = FakeGeminiServiceClient()
+        remote_client = FakeProviderClient()
         local_client = FakeLocalAnswerClient()
+        local_option_id = "local::hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
+        local_label = "Local / hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
         local_answer_support = LocalAnswerSupport(
             [
                 LocalAnswerTarget(
                     option=AnswerModelOption(
-                        option_id="local::hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
-                        label="Local / hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+                        option_id=local_option_id,
+                        label=local_label,
                     ),
                     raw_model_name="hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
                     client=local_client,
@@ -218,19 +223,19 @@ class QAServiceTests(unittest.TestCase):
             ),
             provider_client=remote_client,
             retrieval_top_k=2,
-            default_answer_model="gemini-2.5-flash",
+            default_answer_model=_DEFAULT_ANSWER_MODEL,
             available_answer_models=(
-                "gemini-2.5-flash",
-                "local::hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+                _DEFAULT_ANSWER_MODEL,
+                local_option_id,
             ),
             answer_model_options=(
                 AnswerModelOption(
-                    option_id="gemini-2.5-flash",
-                    label="gemini-2.5-flash",
+                    option_id=_DEFAULT_ANSWER_MODEL,
+                    label=_DEFAULT_ANSWER_MODEL,
                 ),
                 AnswerModelOption(
-                    option_id="local::hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
-                    label="Local / hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+                    option_id=local_option_id,
+                    label=local_label,
                 ),
             ),
             local_answer_support=local_answer_support,
@@ -238,7 +243,7 @@ class QAServiceTests(unittest.TestCase):
 
         result = service.answer_question(
             "What risk documentation is required?",
-            answer_model="local::hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+            answer_model=local_option_id,
         )
 
         self.assertEqual(remote_client.embed_query_call_count, 1)
@@ -248,10 +253,7 @@ class QAServiceTests(unittest.TestCase):
             local_client.last_answer_model,
             "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
         )
-        self.assertEqual(
-            result.answer_model,
-            "Local / hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
-        )
+        self.assertEqual(result.answer_model, local_label)
 
 
 def _make_chunks() -> list[IndexedChunk]:

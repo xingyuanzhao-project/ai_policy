@@ -13,9 +13,9 @@
 from __future__ import annotations
 
 from .artifacts import AnswerResult, validate_answer_result
-from .gemini_client import OpenAICompatibleClient
 from .lexical_retriever import LexicalRetriever
 from .local_answer_support import AnswerModelOption, LocalAnswerSupport
+from .provider_client import OpenAICompatibleClient
 from .retriever import Retriever
 
 

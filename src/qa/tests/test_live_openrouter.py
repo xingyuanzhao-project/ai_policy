@@ -1,4 +1,4 @@
-"""Opt-in live provider smoke test for the local QA app."""
+"""Opt-in live OpenRouter smoke test for the local QA app."""
 
 from __future__ import annotations
 
@@ -8,14 +8,14 @@ from pathlib import Path
 
 from src.qa import OpenAICompatibleClient, RetrievedChunk, load_provider_api_key, load_qa_config
 
-LIVE_TESTS_ENABLED = os.environ.get("GEMINI_RUN_LIVE_TESTS") == "1"
+LIVE_TESTS_ENABLED = os.environ.get("OPENROUTER_RUN_LIVE_TESTS") == "1"
 
 
 @unittest.skipUnless(
     LIVE_TESTS_ENABLED,
-    "Set GEMINI_RUN_LIVE_TESTS=1 to run the live Gemini smoke test",
+    "Set OPENROUTER_RUN_LIVE_TESTS=1 to run the live OpenRouter smoke test",
 )
-class GeminiLiveSmokeTests(unittest.TestCase):
+class OpenRouterLiveSmokeTests(unittest.TestCase):
     """Verify the configured provider client can embed and answer a grounded prompt."""
 
     def test_provider_client_embeds_and_answers(self) -> None:

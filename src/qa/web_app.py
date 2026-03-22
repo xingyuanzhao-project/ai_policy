@@ -24,6 +24,7 @@ _PAGE_TEMPLATE = """
     <style>
       body { font-family: Arial, sans-serif; margin: 2rem auto; max-width: 900px; line-height: 1.5; }
       textarea { width: 100%; min-height: 120px; padding: 0.75rem; }
+      select { padding: 0.5rem; min-width: 320px; }
       button { padding: 0.6rem 1rem; margin-top: 0.75rem; }
       .panel { border: 1px solid #ccc; border-radius: 8px; padding: 1rem; margin-top: 1rem; }
       .error { color: #b00020; }
@@ -133,7 +134,7 @@ def create_app(qa_service: QAService) -> Flask:
                 error=None,
                 selected_answer_model=result.answer_model,
             )
-        except Exception as error:  # pragma: no cover - exercised by route tests
+        except Exception as error:
             return render_page(
                 question=question,
                 result=None,
@@ -153,7 +154,7 @@ def create_app(qa_service: QAService) -> Flask:
             return jsonify(result.to_dict())
         except ValueError as error:
             return jsonify({"error": str(error)}), 400
-        except Exception as error:  # pragma: no cover - exercised by live provider failures
+        except Exception as error:
             return jsonify({"error": str(error)}), 502
 
     return app

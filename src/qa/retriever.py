@@ -2,7 +2,7 @@
 
 - Converts normalized query embeddings into ranked chunk results.
 - Preserves a typed retrieval contract for the QA service and UI.
-- Does not call Gemini or mutate persisted index files.
+- Does not call provider APIs or mutate persisted index files.
 """
 
 from __future__ import annotations

@@ -18,7 +18,7 @@ import yaml
 
 from src.ner.runtime.llm_client import LLMClient, LLMConfig
 
-from .gemini_client import OpenAICompatibleClient
+from .provider_client import OpenAICompatibleClient
 
 _LOCAL_OPTION_PREFIX = "local::"
 _LOCAL_OPTION_LABEL_PREFIX = "Local / "
@@ -58,7 +58,7 @@ class LocalAnswerSupport:
             raise ValueError("Local answer option ids must be unique")
 
     @classmethod
-    def from_project_root(cls, project_root: Path) -> LocalAnswerSupport:
+    def from_project_root(cls, project_root: Path) -> "LocalAnswerSupport":
         """Build local-answer support from the configured local runtime."""
 
         config_path = project_root / _LOCAL_SETTINGS_DIRNAME / _LOCAL_CONFIG_FILENAME
@@ -107,14 +107,6 @@ class LocalAnswerSupport:
         """Return the local target for one dropdown option id."""
 
         return self._targets_by_option_id.get(option_id)
-
-    def label_for(self, option_id: str) -> str | None:
-        """Return the display label for one local option id."""
-
-        target = self.resolve_answer_model(option_id)
-        if target is None:
-            return None
-        return target.option.label
 
     def close(self) -> None:
         """Close any local answer clients owned by the support wrapper."""
