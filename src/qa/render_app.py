@@ -19,11 +19,17 @@ _PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if os.environ.get("QA_BOOTSTRAP_MODE", "").strip() == "1":
     from .bootstrap_app import create_bootstrap_app
 
+    print("Render QA bootstrap mode enabled.")
     app = create_bootstrap_app()
 else:
     from .runtime import build_qa_browser_runtime
 
     _RUNTIME = build_qa_browser_runtime(_PROJECT_ROOT)
+    print(
+        "Render QA runtime ready: "
+        f"backend={_RUNTIME.retrieval_backend} "
+        f"chunk_count={_RUNTIME.chunk_count}"
+    )
     atexit.register(_RUNTIME.close)
     app = _RUNTIME.app
 
