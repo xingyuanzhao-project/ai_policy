@@ -12,6 +12,7 @@ from __future__ import annotations
 import hashlib
 import json
 import math
+import os
 import shutil
 import time
 from dataclasses import dataclass
@@ -43,6 +44,7 @@ _MANIFEST_FILENAME = "manifest.json"
 _CHUNKS_FILENAME = "chunks.json"
 _CHUNKS_JSONL_FILENAME = "chunks.jsonl"
 _CHUNK_OFFSETS_FILENAME = "chunk_offsets.npy"
+_EMBEDDINGS_FILENAME = "embeddings.npy"
 _EMBEDDINGS_DIRNAME = "embeddings"
 _FINGERPRINT_CHUNK_BYTES = 1024 * 1024
 _MAX_EMBED_RETRY_ATTEMPTS = 12
@@ -188,6 +190,7 @@ class QAIndexer:
         manifest.status = INDEX_STATUS_READY
         manifest.completed_batch_count = self._expected_batch_count(len(indexed_chunks))
         manifest.built_at_utc = self._utcnow()
+        self._write_embeddings_matrix(len(indexed_chunks))
         self._write_manifest(manifest)
         return self.load_ready_index(bill_limit=max_bills)
 
@@ -300,8 +303,12 @@ class QAIndexer:
             chunk_offsets=chunk_offsets,
         )
 
-    def _load_embeddings_store(self, expected_total_chunks: int) -> EmbeddingStore:
-        """Load a streamable embedding store from the persisted batch files."""
+    def _load_embeddings_store(self, expected_total_chunks: int) -> np.ndarray | EmbeddingStore:
+        """Load embeddings from the consolidated matrix or persisted batch files."""
+
+        embeddings_matrix_path = self._embeddings_matrix_path()
+        if embeddings_matrix_path.exists():
+            return self._load_embeddings_matrix(expected_total_chunks)
 
         batch_specs: list[EmbeddingBatchSpec] = []
         embedding_dimension: int | None = None
@@ -345,6 +352,25 @@ class QAIndexer:
             embedding_dimension=embedding_dimension,
         )
 
+    def _load_embeddings_matrix(self, expected_total_chunks: int) -> np.ndarray:
+        """Load the consolidated embedding matrix as a read-only memory map."""
+
+        embeddings_path = self._embeddings_matrix_path()
+        embeddings = (
+            np.load(embeddings_path)
+            if os.name == "nt"
+            else np.load(embeddings_path, mmap_mode="r")
+        )
+        if embeddings.ndim != 2 or embeddings.shape[0] != expected_total_chunks:
+            raise IndexStateError(
+                f"Embedding matrix '{embeddings_path.name}' has an unexpected shape {embeddings.shape}"
+            )
+        if embeddings.dtype != np.float32:
+            raise IndexStateError(
+                f"Embedding matrix '{embeddings_path.name}' must use float32 values, got {embeddings.dtype}"
+            )
+        return embeddings
+
     def _prepare_cache_dir(self) -> None:
         """Create the QA cache directory structure if it does not yet exist."""
 
@@ -387,6 +413,66 @@ class QAIndexer:
                 handle.write(line)
                 current_offset += len(line)
         np.save(self._chunk_offsets_path(), np.asarray(chunk_offsets, dtype=np.int64))
+
+    def _write_embeddings_matrix(self, total_chunks: int) -> None:
+        """Persist one consolidated embedding matrix for faster mmap-backed retrieval."""
+
+        embeddings_path = self._embeddings_matrix_path()
+        if embeddings_path.exists():
+            try:
+                self._load_embeddings_matrix(total_chunks)
+                return
+            except IndexStateError:
+                embeddings_path.unlink()
+
+        matrix_writer: np.memmap | None = None
+        row_offset = 0
+        embedding_dimension: int | None = None
+        try:
+            for batch_index, batch_row_count in enumerate(self._iter_batch_sizes(total_chunks)):
+                batch_path = self._embedding_batch_path(batch_index)
+                if not batch_path.exists():
+                    raise IndexStateError(
+                        f"Embedding batch '{batch_path.name}' is missing; rebuild or resume the index"
+                    )
+                batch = np.load(batch_path, mmap_mode="r")
+                if batch.ndim != 2 or batch.shape[0] != batch_row_count:
+                    raise IndexStateError(
+                        f"Embedding batch '{batch_path.name}' has an unexpected shape {batch.shape}"
+                    )
+                if batch.dtype != np.float32:
+                    raise IndexStateError(
+                        f"Embedding batch '{batch_path.name}' must use float32 values, got {batch.dtype}"
+                    )
+                if embedding_dimension is None:
+                    embedding_dimension = int(batch.shape[1])
+                    matrix_writer = np.lib.format.open_memmap(
+                        embeddings_path,
+                        mode="w+",
+                        dtype=np.float32,
+                        shape=(total_chunks, embedding_dimension),
+                    )
+                elif int(batch.shape[1]) != embedding_dimension:
+                    raise IndexStateError(
+                        "Persisted QA embedding batches do not share one embedding dimension"
+                    )
+                assert matrix_writer is not None
+                next_row_offset = row_offset + int(batch.shape[0])
+                matrix_writer[row_offset:next_row_offset] = batch
+                row_offset = next_row_offset
+
+            if row_offset != total_chunks or matrix_writer is None:
+                raise IndexStateError(
+                    "Loaded embedding rows did not match the manifest total chunk count"
+                )
+            matrix_writer.flush()
+            del matrix_writer
+        except Exception:
+            if matrix_writer is not None:
+                del matrix_writer
+            if embeddings_path.exists():
+                embeddings_path.unlink()
+            raise
 
     def _write_manifest(self, manifest: IndexManifest) -> None:
         """Persist the QA manifest to disk."""
@@ -553,6 +639,11 @@ class QAIndexer:
         """Return the persisted chunk offset index path."""
 
         return self._cache_dir() / _CHUNK_OFFSETS_FILENAME
+
+    def _embeddings_matrix_path(self) -> Path:
+        """Return the consolidated embedding matrix path."""
+
+        return self._cache_dir() / _EMBEDDINGS_FILENAME
 
     def _embedding_batches_dir(self) -> Path:
         """Return the directory holding embedding batch files."""

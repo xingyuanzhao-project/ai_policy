@@ -6,6 +6,7 @@ import json
 import shutil
 import tempfile
 import unittest
+import unittest.mock
 from pathlib import Path
 
 import numpy as np
@@ -120,6 +121,8 @@ class QAIndexerTests(unittest.TestCase):
             self.assertTrue((project_root / "data" / "qa_cache" / "chunks.json").exists())
             self.assertTrue((project_root / "data" / "qa_cache" / "chunks.jsonl").exists())
             self.assertTrue((project_root / "data" / "qa_cache" / "chunk_offsets.npy").exists())
+            self.assertTrue((project_root / "data" / "qa_cache" / "embeddings.npy").exists())
+            self.assertIsInstance(loaded_index.embeddings, np.ndarray)
 
     def test_load_ready_index_detects_stale_manifest_when_corpus_changes(self) -> None:
         """Verify manifest validation rejects a stale index after corpus drift."""
@@ -197,6 +200,37 @@ class QAIndexerTests(unittest.TestCase):
             )
             self.assertIsInstance(loaded_index.chunks, ChunkStore)
             self.assertEqual(loaded_index.chunks[0].bill_id, "BILL-001")
+            self.assertIsInstance(loaded_index.embeddings, np.ndarray)
+
+    def test_load_ready_index_falls_back_to_batch_store_when_matrix_is_missing(self) -> None:
+        """Verify legacy caches still load when the consolidated matrix is absent."""
+
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            project_root = Path(temporary_directory)
+            _write_bill_jsonl(
+                project_root,
+                [
+                    _make_bill(
+                        text=(
+                            "Impact assessments are required for covered AI systems "
+                            "and public disclosures must be retained."
+                        )
+                    )
+                ],
+            )
+            config = _make_config()
+            QAIndexer(
+                project_root=project_root,
+                config=config,
+                provider_client=FakeIndexerProviderClient(),
+            ).build_or_resume()
+
+            (project_root / "data" / "qa_cache" / "embeddings.npy").unlink()
+            loaded_index = QAIndexer(
+                project_root=project_root,
+                config=config,
+            ).load_ready_index()
+
             self.assertIsInstance(loaded_index.embeddings, EmbeddingStore)
             self.assertEqual(
                 sum(batch.shape[0] for batch in loaded_index.embeddings.iter_batches()),
