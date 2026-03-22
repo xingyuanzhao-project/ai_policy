@@ -32,6 +32,7 @@ from .artifacts import (
     validate_indexed_chunk,
 )
 from .config import QAConfig
+from .diagnostics import emit_runtime_diagnostic
 from .embedding_store import EmbeddingBatchSpec, EmbeddingStore
 from .provider_client import OpenAICompatibleClient
 
@@ -206,8 +207,20 @@ class QAIndexer:
                 "or embedding model no longer match the manifest"
             )
 
+        emit_runtime_diagnostic(
+            "QA index manifest validated "
+            f"total_chunks={manifest.total_chunks} "
+            f"batch_count={manifest.completed_batch_count}"
+        )
         chunks = self._load_chunks()
+        emit_runtime_diagnostic(
+            f"QA chunks loaded chunk_count={len(chunks)}"
+        )
         embeddings = self._load_embeddings_store(manifest.total_chunks)
+        emit_runtime_diagnostic(
+            "QA embedding store ready "
+            f"shape={embeddings.shape[0]}x{embeddings.shape[1]}"
+        )
         if len(chunks) != embeddings.shape[0]:
             raise IndexStateError(
                 "Persisted QA chunks did not align with the stored embedding matrix"

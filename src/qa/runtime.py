@@ -17,6 +17,7 @@ from pathlib import Path
 from flask import Flask
 
 from .config import load_provider_api_key, load_qa_config
+from .diagnostics import emit_runtime_diagnostic
 from .indexer import IndexStateError, QAIndexer, build_indexed_chunks
 from .lexical_retriever import LexicalRetriever
 from .local_answer_support import AnswerModelOption, LocalAnswerSupport
@@ -57,6 +58,7 @@ def build_qa_browser_runtime(
     """Build the QA browser runtime for the current project root."""
 
     config = load_qa_config(project_root)
+    emit_runtime_diagnostic("QA runtime config loaded")
     if corpus_path:
         config.corpus_path = corpus_path
     if cache_dir:
@@ -69,7 +71,9 @@ def build_qa_browser_runtime(
         embedding_model=config.models.embedding_model,
         answer_model=config.models.answer_model,
     )
+    emit_runtime_diagnostic("QA provider client ready")
     local_answer_support = LocalAnswerSupport.from_project_root(project_root)
+    emit_runtime_diagnostic("QA local answer support ready")
     answer_model_options = _build_answer_model_options(config.models.available_answer_models, local_answer_support)
     available_answer_models = tuple(
         answer_model_option.option_id for answer_model_option in answer_model_options
@@ -100,6 +104,7 @@ def build_qa_browser_runtime(
             chunk_count=loaded_index.manifest.total_chunks,
         )
     except IndexStateError:
+        emit_runtime_diagnostic("QA vector cache unavailable; falling back to lexical retrieval")
         chunks = build_indexed_chunks(
             config.resolve_corpus_path(project_root),
             chunk_size=config.chunking.chunk_size,
