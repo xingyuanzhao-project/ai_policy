@@ -32,7 +32,7 @@ class Retriever:
             raise ValueError("Retriever embeddings must be a 2D matrix")
         if len(chunks) != embeddings.shape[0]:
             raise ValueError("Retriever chunk count must match embedding row count")
-        self._chunks = list(chunks)
+        self._chunks = chunks
         self._embedding_store = embeddings if isinstance(embeddings, EmbeddingStore) else None
         self._embeddings = (
             None

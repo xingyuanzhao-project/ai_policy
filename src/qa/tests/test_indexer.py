@@ -12,6 +12,7 @@ import numpy as np
 
 from src.ner.schemas.artifacts import BillRecord
 from src.qa.artifacts import INDEX_STATUS_READY, IndexManifest
+from src.qa.chunk_store import ChunkStore
 from src.qa.config import (
     ModelConfig,
     ProviderConfig,
@@ -113,8 +114,12 @@ class QAIndexerTests(unittest.TestCase):
             self.assertEqual(Path(loaded_index.manifest.corpus_path), corpus_path.resolve())
             self.assertGreater(loaded_index.manifest.total_chunks, 0)
             self.assertEqual(len(loaded_index.chunks), loaded_index.embeddings.shape[0])
+            self.assertIsInstance(loaded_index.chunks, ChunkStore)
+            self.assertEqual(loaded_index.chunks[0].bill_id, "BILL-001")
             self.assertTrue((project_root / "data" / "qa_cache" / "manifest.json").exists())
             self.assertTrue((project_root / "data" / "qa_cache" / "chunks.json").exists())
+            self.assertTrue((project_root / "data" / "qa_cache" / "chunks.jsonl").exists())
+            self.assertTrue((project_root / "data" / "qa_cache" / "chunk_offsets.npy").exists())
 
     def test_load_ready_index_detects_stale_manifest_when_corpus_changes(self) -> None:
         """Verify manifest validation rejects a stale index after corpus drift."""
@@ -190,6 +195,8 @@ class QAIndexerTests(unittest.TestCase):
                 len(loaded_index.chunks),
                 loaded_index.embeddings.shape[0],
             )
+            self.assertIsInstance(loaded_index.chunks, ChunkStore)
+            self.assertEqual(loaded_index.chunks[0].bill_id, "BILL-001")
             self.assertIsInstance(loaded_index.embeddings, EmbeddingStore)
             self.assertEqual(
                 sum(batch.shape[0] for batch in loaded_index.embeddings.iter_batches()),

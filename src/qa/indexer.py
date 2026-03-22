@@ -17,6 +17,7 @@ import time
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Sequence
 
 import numpy as np
 
@@ -31,6 +32,7 @@ from .artifacts import (
     validate_index_manifest,
     validate_indexed_chunk,
 )
+from .chunk_store import ChunkStore
 from .config import QAConfig
 from .diagnostics import emit_runtime_diagnostic
 from .embedding_store import EmbeddingBatchSpec, EmbeddingStore
@@ -39,6 +41,8 @@ from .provider_client import OpenAICompatibleClient
 _INDEX_FORMAT_VERSION = 2
 _MANIFEST_FILENAME = "manifest.json"
 _CHUNKS_FILENAME = "chunks.json"
+_CHUNKS_JSONL_FILENAME = "chunks.jsonl"
+_CHUNK_OFFSETS_FILENAME = "chunk_offsets.npy"
 _EMBEDDINGS_DIRNAME = "embeddings"
 _FINGERPRINT_CHUNK_BYTES = 1024 * 1024
 _MAX_EMBED_RETRY_ATTEMPTS = 12
@@ -93,7 +97,7 @@ class LoadedIndex:
     """Fully loaded local QA index ready for retrieval."""
 
     manifest: IndexManifest
-    chunks: list[IndexedChunk]
+    chunks: Sequence[IndexedChunk]
     embeddings: np.ndarray | EmbeddingStore
 
 
@@ -262,8 +266,13 @@ class QAIndexer:
         with open(manifest_path, encoding="utf-8") as handle:
             return IndexManifest.from_dict(json.load(handle))
 
-    def _load_chunks(self) -> list[IndexedChunk]:
+    def _load_chunks(self) -> Sequence[IndexedChunk]:
         """Load persisted indexed chunks from disk."""
+
+        chunks_jsonl_path = self._chunks_jsonl_path()
+        chunk_offsets_path = self._chunk_offsets_path()
+        if chunks_jsonl_path.exists() and chunk_offsets_path.exists():
+            return self._load_chunk_store()
 
         chunks_path = self._chunks_path()
         if not chunks_path.exists():
@@ -273,6 +282,23 @@ class QAIndexer:
         if not isinstance(payload, list):
             raise IndexStateError("QA chunks file must contain a list of chunk payloads")
         return [IndexedChunk.from_dict(chunk_payload) for chunk_payload in payload]
+
+    def _load_chunk_store(self) -> ChunkStore:
+        """Load the persisted lazy chunk store and its byte offsets."""
+
+        chunks_jsonl_path = self._chunks_jsonl_path()
+        chunk_offsets_path = self._chunk_offsets_path()
+        chunk_offsets = np.load(chunk_offsets_path)
+        if chunk_offsets.ndim != 1:
+            raise IndexStateError("QA chunk offsets file must contain a 1D offset array")
+        if chunk_offsets.dtype != np.int64:
+            raise IndexStateError(
+                f"QA chunk offsets file must use int64 offsets, got {chunk_offsets.dtype}"
+            )
+        return ChunkStore(
+            chunks_jsonl_path=chunks_jsonl_path,
+            chunk_offsets=chunk_offsets,
+        )
 
     def _load_embeddings_store(self, expected_total_chunks: int) -> EmbeddingStore:
         """Load a streamable embedding store from the persisted batch files."""
@@ -335,13 +361,32 @@ class QAIndexer:
         """Persist indexed chunk metadata aligned to the embedding rows."""
 
         self._prepare_cache_dir()
+        self._write_chunks_json(indexed_chunks)
+        self._write_chunks_jsonl(indexed_chunks)
+
+    def _write_chunks_json(self, indexed_chunks: list[IndexedChunk]) -> None:
+        """Persist the legacy QA chunk array for offline compatibility."""
+
         with open(self._chunks_path(), "w", encoding="utf-8") as handle:
-            json.dump(
-                [chunk.to_dict() for chunk in indexed_chunks],
-                handle,
-                indent=2,
-                ensure_ascii=False,
-            )
+            handle.write("[\n")
+            for chunk_index, chunk in enumerate(indexed_chunks):
+                if chunk_index > 0:
+                    handle.write(",\n")
+                json.dump(chunk.to_dict(), handle, ensure_ascii=False)
+            handle.write("\n]")
+
+    def _write_chunks_jsonl(self, indexed_chunks: list[IndexedChunk]) -> None:
+        """Persist newline-delimited chunks plus byte offsets for lazy loading."""
+
+        chunk_offsets: list[int] = []
+        current_offset = 0
+        with open(self._chunks_jsonl_path(), "wb") as handle:
+            for chunk in indexed_chunks:
+                chunk_offsets.append(current_offset)
+                line = json.dumps(chunk.to_dict(), ensure_ascii=False).encode("utf-8") + b"\n"
+                handle.write(line)
+                current_offset += len(line)
+        np.save(self._chunk_offsets_path(), np.asarray(chunk_offsets, dtype=np.int64))
 
     def _write_manifest(self, manifest: IndexManifest) -> None:
         """Persist the QA manifest to disk."""
@@ -498,6 +543,16 @@ class QAIndexer:
         """Return the persisted chunk metadata path."""
 
         return self._cache_dir() / _CHUNKS_FILENAME
+
+    def _chunks_jsonl_path(self) -> Path:
+        """Return the newline-delimited chunk payload path."""
+
+        return self._cache_dir() / _CHUNKS_JSONL_FILENAME
+
+    def _chunk_offsets_path(self) -> Path:
+        """Return the persisted chunk offset index path."""
+
+        return self._cache_dir() / _CHUNK_OFFSETS_FILENAME
 
     def _embedding_batches_dir(self) -> Path:
         """Return the directory holding embedding batch files."""
