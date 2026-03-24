@@ -21,6 +21,7 @@ class InferenceLoop:
         self,
         inference_unit_builder: InferenceUnitBuilder,
         orchestrator: Orchestrator,
+        max_bill_text_chars: int | None = None,
     ) -> None:
         """Initialize the inference loop.
 
@@ -29,10 +30,13 @@ class InferenceLoop:
                 chunks from raw bills.
             orchestrator (Orchestrator): Stage orchestrator for the NER
                 pipeline.
+            max_bill_text_chars (int | None): Optional bill-text length ceiling
+                beyond which bills are skipped before chunking.
         """
 
         self._inference_unit_builder = inference_unit_builder
         self._orchestrator = orchestrator
+        self._max_bill_text_chars = max_bill_text_chars
 
     async def run_bill(self, bill: BillRecord, resume: bool = True) -> list[RefinedQuadruplet]:
         """Run one bill through chunking, staged inference, and bill-level assembly.
@@ -44,6 +48,12 @@ class InferenceLoop:
         Returns:
             list[RefinedQuadruplet]: Final refined quadruplets for the bill.
         """
+
+        if (
+            self._max_bill_text_chars is not None
+            and len(bill.text) > self._max_bill_text_chars
+        ):
+            return []
 
         chunks = self._inference_unit_builder.build(bill)
         return await self._orchestrator.run_bill(

@@ -42,6 +42,8 @@ class PipelineContext:
         llm_client (LLMClient): Connected shared LLM client.
         inference_unit_builder (InferenceUnitBuilder): Chunk builder used to
             derive context chunks.
+        max_bill_text_chars (int | None): Optional bill-text length ceiling
+            beyond which whole bills are skipped before chunking.
         orchestrator (Orchestrator): Stage orchestrator for annotation,
             grouping, and refinement.
     """
@@ -54,6 +56,7 @@ class PipelineContext:
     final_output_store: FinalOutputStore
     llm_client: LLMClient
     inference_unit_builder: InferenceUnitBuilder
+    max_bill_text_chars: int | None
     orchestrator: Orchestrator
 
 
@@ -97,6 +100,10 @@ def bootstrap(
     final_output_store = FinalOutputStore(storage_dir)
     run_dir = artifact_store.run_dir(run_id)
     config_store.snapshot(run_dir)
+    raw_max_bill_text_chars = config_store.runtime_config.get("max_bill_text_chars")
+    max_bill_text_chars = (
+        None if raw_max_bill_text_chars is None else int(raw_max_bill_text_chars)
+    )
 
     llm_client = LLMClient(
         LLMConfig(
@@ -191,6 +198,7 @@ def bootstrap(
         final_output_store=final_output_store,
         llm_client=llm_client,
         inference_unit_builder=inference_unit_builder,
+        max_bill_text_chars=max_bill_text_chars,
         orchestrator=orchestrator,
     )
 

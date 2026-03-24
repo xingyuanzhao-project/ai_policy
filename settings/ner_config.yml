@@ -9,8 +9,9 @@ storage:
 
 runtime:
   request_timeout_seconds: 600
-  max_retries: 0
-  concurrency: 4
+  max_retries: 3
+  concurrency: 10
+  max_bill_text_chars: 100000
 
 agents:
   zero_shot_annotator:

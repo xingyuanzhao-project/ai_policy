@@ -133,6 +133,19 @@ class ConfigStore:
                     f"Prompt block '{agent_name}' is missing output_schema"
                 )
 
+        runtime_config = self._ner_config.get("runtime", {})
+        if "max_bill_text_chars" in runtime_config:
+            try:
+                max_bill_text_chars = int(runtime_config["max_bill_text_chars"])
+            except (TypeError, ValueError) as exc:
+                raise ConfigValidationError(
+                    "runtime.max_bill_text_chars must be an integer > 0"
+                ) from exc
+            if max_bill_text_chars <= 0:
+                raise ConfigValidationError(
+                    "runtime.max_bill_text_chars must be an integer > 0"
+                )
+
     @property
     def base_config(self) -> dict[str, Any]:
         """Return the loaded project-level config.

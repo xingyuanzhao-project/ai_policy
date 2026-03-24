@@ -234,6 +234,7 @@ def _build_runtime(
     inference_loop = InferenceLoop(
         inference_unit_builder=context.inference_unit_builder,
         orchestrator=context.orchestrator,
+        max_bill_text_chars=context.max_bill_text_chars,
     )
     return context, inference_loop
 
