@@ -4,7 +4,7 @@ services:
     runtime: python
     plan: starter
     buildCommand: pip install -r requirements-render.txt
-    startCommand: gunicorn --bind 0.0.0.0:$PORT src.qa.render_app:app
+    startCommand: gunicorn --bind 0.0.0.0:$PORT --preload --workers 1 --timeout 120 src.qa.render_app:app
     healthCheckPath: /
     disk:
       name: qa-data
