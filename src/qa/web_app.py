@@ -36,14 +36,14 @@ _PAGE_TEMPLATE = """
     <h1>AI Bills QA</h1>
     <p>Ask a question about the indexed state AI bills.</p>
     <form method="post" action="/">
-      <label for="answer_model">Answer model</label>
+      <label for="question">Question:</label>
+      <textarea id="question" name="question">{{ question }}</textarea>
+      <label for="answer_model">Model Selection</label>
       <select id="answer_model" name="answer_model">
         {% for answer_model_option in answer_model_options %}
           <option value="{{ answer_model_option.option_id }}" {% if answer_model_option.option_id == selected_answer_model %}selected{% endif %}>{{ answer_model_option.label }}</option>
         {% endfor %}
       </select>
-      <label for="question">Question</label>
-      <textarea id="question" name="question">{{ question }}</textarea>
       <div>
         <button type="submit">Ask</button>
       </div>
