@@ -1,0 +1,883 @@
+{
+  "ground_truth_file": "C:/Users/meier/OneDrive/Documents/ai_policy/src/qa/eval/ground_truth.json",
+  "answer_model": "google/gemini-2.5-flash",
+  "retrieval_backend": "vector",
+  "chunk_count": 123787,
+  "summary": {
+    "n_questions": 20,
+    "overall_pass_rate": 0.75,
+    "by_difficulty": {
+      "easy": {
+        "count": 5,
+        "pass_rate": 0.8,
+        "mean_keyword_score": 0.8,
+        "mean_citation_f1": 0.2306,
+        "mean_count_score": 0.0,
+        "mean_latency": 3.3406
+      },
+      "hard": {
+        "count": 6,
+        "pass_rate": 0.8333,
+        "mean_keyword_score": 1.0,
+        "mean_citation_f1": 0.6534,
+        "mean_count_score": 0.6424,
+        "mean_latency": 3.7643
+      },
+      "medium": {
+        "count": 5,
+        "pass_rate": 0.6,
+        "mean_keyword_score": 0.6,
+        "mean_citation_f1": 0.1167,
+        "mean_count_score": 0.0,
+        "mean_latency": 5.882
+      },
+      "very_hard": {
+        "count": 4,
+        "pass_rate": 0.75,
+        "mean_keyword_score": 0.75,
+        "mean_citation_f1": 0.2111,
+        "mean_count_score": 1.0,
+        "mean_latency": 13.4083
+      }
+    }
+  },
+  "scores": [
+    {
+      "question_id": "E01",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.25,
+      "citation_recall": 1.0,
+      "citation_f1": 0.4,
+      "count_score": null,
+      "citation_count": 8,
+      "expected_min_citations": 1,
+      "latency_seconds": 3.056,
+      "notes": []
+    },
+    {
+      "question_id": "E02",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.1667,
+      "citation_recall": 1.0,
+      "citation_f1": 0.2857,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 3.212,
+      "notes": []
+    },
+    {
+      "question_id": "E03",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.1667,
+      "citation_recall": 1.0,
+      "citation_f1": 0.2857,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 3.053,
+      "notes": []
+    },
+    {
+      "question_id": "E04",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.1,
+      "citation_recall": 1.0,
+      "citation_f1": 0.1818,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 4.617,
+      "notes": []
+    },
+    {
+      "question_id": "E05",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "passed": false,
+      "keyword_score": 0.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "citation_f1": 0.0,
+      "count_score": null,
+      "citation_count": 0,
+      "expected_min_citations": 1,
+      "latency_seconds": 2.765,
+      "notes": [
+        "citations 0 < min 1",
+        "low citation recall (0.0)"
+      ]
+    },
+    {
+      "question_id": "M01",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "citation_f1": 0.0,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 4.887,
+      "notes": [
+        "low citation recall (0.0)"
+      ]
+    },
+    {
+      "question_id": "M02",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "passed": false,
+      "keyword_score": 0.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "citation_f1": 0.0,
+      "count_score": null,
+      "citation_count": 6,
+      "expected_min_citations": 1,
+      "latency_seconds": 4.103,
+      "notes": [
+        "low citation recall (0.0)"
+      ]
+    },
+    {
+      "question_id": "M03",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.2,
+      "citation_recall": 1.0,
+      "citation_f1": 0.3333,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 6.588,
+      "notes": []
+    },
+    {
+      "question_id": "M04",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "passed": false,
+      "keyword_score": 0.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "citation_f1": 0.0,
+      "count_score": null,
+      "citation_count": 0,
+      "expected_min_citations": 1,
+      "latency_seconds": 2.904,
+      "notes": [
+        "citations 0 < min 1",
+        "low citation recall (0.0)"
+      ]
+    },
+    {
+      "question_id": "M05",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.1429,
+      "citation_recall": 1.0,
+      "citation_f1": 0.25,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 10.928,
+      "notes": []
+    },
+    {
+      "question_id": "H01",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_f1": 1.0,
+      "count_score": 1.0,
+      "citation_count": 4,
+      "expected_min_citations": 2,
+      "latency_seconds": 3.429,
+      "notes": []
+    },
+    {
+      "question_id": "H02",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_f1": 1.0,
+      "count_score": 0.6667,
+      "citation_count": 10,
+      "expected_min_citations": 3,
+      "latency_seconds": 3.289,
+      "notes": []
+    },
+    {
+      "question_id": "H03",
+      "difficulty": "hard",
+      "pattern": "count",
+      "passed": false,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": null,
+      "citation_recall": null,
+      "citation_f1": null,
+      "count_score": 0.2604,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 2.937,
+      "notes": []
+    },
+    {
+      "question_id": "H04",
+      "difficulty": "hard",
+      "pattern": "aggregate",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": null,
+      "citation_recall": null,
+      "citation_f1": null,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 2.885,
+      "notes": []
+    },
+    {
+      "question_id": "H05",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.6667,
+      "citation_recall": 0.25,
+      "citation_f1": 0.3636,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 3,
+      "latency_seconds": 3.659,
+      "notes": []
+    },
+    {
+      "question_id": "H06",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.1429,
+      "citation_recall": 1.0,
+      "citation_f1": 0.25,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 1,
+      "latency_seconds": 6.387,
+      "notes": []
+    },
+    {
+      "question_id": "VH01",
+      "difficulty": "very_hard",
+      "pattern": "list_and_compare",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.8333,
+      "citation_recall": 0.2632,
+      "citation_f1": 0.4,
+      "count_score": 1.0,
+      "citation_count": 10,
+      "expected_min_citations": 5,
+      "latency_seconds": 17.232,
+      "notes": []
+    },
+    {
+      "question_id": "VH02",
+      "difficulty": "very_hard",
+      "pattern": "compare",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.1429,
+      "citation_recall": 0.5,
+      "citation_f1": 0.2222,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 2,
+      "latency_seconds": 9.941,
+      "notes": []
+    },
+    {
+      "question_id": "VH03",
+      "difficulty": "very_hard",
+      "pattern": "compare",
+      "passed": false,
+      "keyword_score": 0.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "citation_f1": 0.0,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 3,
+      "latency_seconds": 6.209,
+      "notes": [
+        "low citation recall (0.0)"
+      ]
+    },
+    {
+      "question_id": "VH04",
+      "difficulty": "very_hard",
+      "pattern": "filter_list_compare",
+      "passed": true,
+      "keyword_score": 1.0,
+      "forbidden_hit": false,
+      "citation_precision": 0.1429,
+      "citation_recall": 0.5,
+      "citation_f1": 0.2222,
+      "count_score": null,
+      "citation_count": 10,
+      "expected_min_citations": 2,
+      "latency_seconds": 20.251,
+      "notes": []
+    }
+  ],
+  "raw_results": [
+    {
+      "id": "E01",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "What is the title of Delaware House Bill 16 from 2025?",
+      "answer": "The title of Delaware House Bill 16 from 2025 is \"Artificial Intelligence Commission\".",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "state": "Delaware",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__DE H    105",
+        "2025__DE H    233",
+        "2025__DE H    233",
+        "2025__DE H    16",
+        "2025__DE SCR  18",
+        "2025__DE H    105",
+        "2025__DE SCR  18",
+        "2025__DE H    16"
+      ],
+      "latency_seconds": 3.056
+    },
+    {
+      "id": "E02",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "What is the status of Kentucky Senate Bill 4 from 2025?",
+      "answer": "Kentucky Senate Bill 4 (2025__KY S 4) from 2025 has been Enacted as Act No. 66.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "state": "Kentucky",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__KY H    498",
+        "2025__KY H    20",
+        "2025__KY S    4",
+        "2025__KY H    672",
+        "2025__KY H    20",
+        "2025__KY H    672",
+        "2025__KY H    498",
+        "2025__KY H    21",
+        "2025__KY SCR  142",
+        "2025__KY SCR  142"
+      ],
+      "latency_seconds": 3.212
+    },
+    {
+      "id": "E03",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "In what year was Texas House Bill 149 (Regulation of the Use of Artificial Intelligence) enacted?",
+      "answer": "Texas House Bill 149 (Regulation of the Use of Artificial Intelligence) was enacted in 2025.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "Texas",
+        "status_bucket": "Enacted",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__TX S    1964",
+        "2025__TX S    1964",
+        "2025__TX H    149",
+        "2025__TX H    149",
+        "2023__TX H   2060",
+        "2025__TX S    1188",
+        "2025__TX H    2818",
+        "2023__TX H   2060",
+        "2025__TX H    2818",
+        "2025__TX H    3512"
+      ],
+      "latency_seconds": 3.053
+    },
+    {
+      "id": "E04",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "What topics does California Senate Bill 53 (Artificial Intelligence Models: Large Developers) address?",
+      "answer": "California Senate Bill 53 (2025__CA S 53) addresses several topics related to artificial intelligence models and large developers. These include:\n\n*   **Cybersecurity**: The bill touches upon the security aspects of AI models.\n*   **Government Use**: It considers the use of AI by governmental entities.\n*   **Impact Assessment**: The legislation focuses on evaluating the potential effects and risks of AI.\n*   **Private Sector Use**: It specifically addresses the application of AI within the private sector.\n*   **Studies**: The bill also involves the undertaking of studies related to AI.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "California",
+        "topics": [
+          "Oversight/Governance",
+          "Impact Assessment",
+          "Private Sector Use"
+        ],
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2024__CA A   2013",
+        "2024__CA S   1047",
+        "2025__CA S    833",
+        "2025__CA S    503",
+        "2025__CA S    53",
+        "2023__CA S    313",
+        "2024__CA S    313",
+        "2025__CA S    468",
+        "2025__CA S    420",
+        "2025__CA S    11"
+      ],
+      "latency_seconds": 4.617
+    },
+    {
+      "id": "E05",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "Which California bill passed in 2025 is known as the California AI Transparency Act?",
+      "answer": "There are no California bills enacted in 2025 known as the California AI Transparency Act.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "state": "California",
+        "status_bucket": "Enacted",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [],
+      "latency_seconds": 2.765
+    },
+    {
+      "id": "M01",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "Under Arizona Senate Bill 1295, what class of felony is criminal impersonation using computer-generated voice or video?",
+      "answer": "Arizona Senate Bill 1295 was not found. However, Arizona Senate Bill 1078 (2024) addresses criminal impersonation using computer-generated voice or video. Under this bill, criminal impersonation using a computer-generated voice recording, image, or video with intent to defraud or harass is a Class 5 felony. Other forms of criminal impersonation are a Class 1 misdemeanor.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "Arizona",
+        "topics": [
+          "Criminal Use"
+        ],
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2024__AZ S   1078",
+        "2024__AZ S   1078",
+        "2024__AZ H   2727",
+        "2024__AZ S   1599",
+        "2024__AZ S   1599",
+        "2024__AZ H   2307",
+        "2024__AZ H   2307",
+        "2025__AZ H    2678",
+        "2025__AZ H    2678",
+        "2025__AZ H    2712"
+      ],
+      "latency_seconds": 4.887
+    },
+    {
+      "id": "M02",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "What does Mississippi Senate Bill 2426 establish, and what is its charge?",
+      "answer": "Mississippi Senate Bill 2426 was not found. There are no bills matching \"Senate Bill 2426\" in Mississippi for the year 2024.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "Mississippi",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2024__MS S   2062",
+        "2024__MS S   2423",
+        "2024__MS S   2423",
+        "2024__MS S   2062",
+        "2024__MS H   1267",
+        "2024__MS H   1267"
+      ],
+      "latency_seconds": 4.103
+    },
+    {
+      "id": "M03",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "What change does Delaware House Bill 16 make to the AI Commission's membership?",
+      "answer": "Delaware House Bill 16 (2025__DE H 16) establishes the Delaware AI Commission with 23 voting members. The membership includes 12 state government officials, 4 members appointed by the President Pro Tempore of the Senate (including AI specialists and Senate members), 4 members appointed by the Speaker of the House (including AI specialists and House members), and 3 members appointed by the Governor (including an AI specialist, a lawyer, and a private sector AI expert). Additionally, there will be an annual non-voting student member appointed by the Chair. Appointed members serve up to 3-year terms and can be reappointed.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "Delaware",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__DE H    16",
+        "2024__DE H    333",
+        "2024__DE H    333",
+        "2025__DE H    16",
+        "2025__DE SCR  18",
+        "2025__DE SCR  18",
+        "2025__DE H    105",
+        "2025__DE H    105",
+        "2025__DE H    233",
+        "2025__DE H    233"
+      ],
+      "latency_seconds": 6.588
+    },
+    {
+      "id": "M04",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "Under New York Senate Bill 822, what must state agencies do regarding automated employment decision making tools?",
+      "answer": "I couldn't find any bills matching \"New York Senate Bill 822\" with the specified filters. Therefore, I cannot answer what state agencies must do regarding automated employment decision-making tools under that bill.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "New York",
+        "topics": [
+          "Effect on Labor/Employment Government Use"
+        ],
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [],
+      "latency_seconds": 2.904
+    },
+    {
+      "id": "M05",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "What does Montana Senate Bill 25 regulate?",
+      "answer": "Montana Senate Bill 25 (2025__MT S 25) regulates the use of deepfakes in election communications. Its purpose is to prevent misleading voters and harming candidates' reputations through AI-generated deepfakes. The bill applies to election and electioneering communications involving deepfakes of candidates or political parties, covering any person, corporation, committee, or political party involved in an official election capacity.\n\nKey obligations include prohibiting the distribution or sponsorship of deepfakes of candidates or political parties within 60 days of an election's voting initiation. This prohibition does not apply if the communication includes a clear disclosure stating it has been \"significantly edited by artificial intelligence and depicts speech or conduct that falsely appears to be authentic or truthful.\" The bill specifies format requirements for disclosures across various media. Exceptions are made for bona fide newscasts, news interviews, news documentaries, or on-the-spot news coverage, provided they acknowledge the AI-generated content. The bill is enacted as Act No. 541.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "Montana",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__MT HJR  4",
+        "2025__MT HJR  4",
+        "2025__MT H    82",
+        "2025__MT H    514",
+        "2025__MT H    82",
+        "2025__MT S    212",
+        "2025__MT S    25",
+        "2025__MT S    25",
+        "2025__MT S    413",
+        "2025__MT H    10"
+      ],
+      "latency_seconds": 10.928
+    },
+    {
+      "id": "H01",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "List the AI-related bills that Delaware enacted in 2025.",
+      "answer": "Delaware enacted 2 AI-related bills in 2025:\n\n*   **DE H 16**: \"Artificial Intelligence Commission\" (topics: Education Use, Studies)\n*   **DE H 105**: \"Employment Practices\" (topics: none listed)",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "state": "Delaware",
+        "status_bucket": "Enacted",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__DE H    16",
+        "2025__DE H    16",
+        "2025__DE H    105",
+        "2025__DE H    105"
+      ],
+      "latency_seconds": 3.429
+    },
+    {
+      "id": "H02",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "Which US states enacted AI-related bills that specifically address elections in 2025?",
+      "answer": "Kentucky, Montana, North Dakota, South Dakota, Nevada, and Rhode Island have enacted AI-related bills that specifically address elections in 2025.\n\nThe bills are:\n*   **Kentucky:** KY S 4, \"Protection of Information\"\n*   **Montana:** MT S 25, \"Use Of Deepfakes In Election Communications\"\n*   **North Dakota:** ND H 1167, \"Artificial Intelligence Disclosure Statements\"\n*   **South Dakota:** SD S 164, \"Deepfake to Influence an Election\"\n*   **Nevada:** NV A 73, \"Campaign Practices\"\n*   **Rhode Island:** RI S 816, \"Deceptive and Fraudulent Synthetic Media in Elections\" and RI H 5872, \"Regulate the Use of Synthetic Media in Elections\"",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "status_bucket": "Enacted",
+        "topics": [
+          "Elections"
+        ],
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__KY S    4",
+        "2025__MT S    25",
+        "2025__KY S    4",
+        "2025__MT S    25",
+        "2025__ND H    1167",
+        "2025__SD S    164",
+        "2025__NV A    73",
+        "2025__RI S    816",
+        "2025__RI H    5872",
+        "2025__SD S    164"
+      ],
+      "latency_seconds": 3.289
+    },
+    {
+      "id": "H03",
+      "difficulty": "hard",
+      "pattern": "count",
+      "question": "Approximately how many AI-related bills were enacted across US states and territories in 2025?",
+      "answer": "In 2025, 50 AI-related bills were enacted across US states and territories.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "status_bucket": "Enacted",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__KY S    4",
+        "2025__MS S    2426",
+        "2025__TN H    1409",
+        "2025__MD H    956",
+        "2025__KY S    4",
+        "2025__TX H    149",
+        "2025__CA S    53",
+        "2025__TX H    149",
+        "2025__UT S    180",
+        "2025__NY S    822"
+      ],
+      "latency_seconds": 2.937
+    },
+    {
+      "id": "H04",
+      "difficulty": "hard",
+      "pattern": "aggregate",
+      "question": "Which US state had the most AI-related bills enacted in 2025?",
+      "answer": "California had the most AI-related bills enacted in 2025, with 8 bills. Texas followed with 6 enacted bills.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "status_bucket": "Enacted",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__KY S    4",
+        "2025__MS S    2426",
+        "2025__TN H    1409",
+        "2025__MD H    956",
+        "2025__KY S    4",
+        "2025__TX H    149",
+        "2025__CA S    53",
+        "2025__TX H    149",
+        "2025__UT S    180",
+        "2025__NY S    822"
+      ],
+      "latency_seconds": 2.885
+    },
+    {
+      "id": "H05",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "Name several 2025 enacted US state bills that specifically target deepfakes or synthetic media.",
+      "answer": "Several 2025 enacted US state bills specifically target deepfakes or synthetic media:\n\n*   **Montana:**\n    *   MT S 25: \"Use Of Deepfakes In Election Communications\"\n    *   MT S 413: \"Crime of Disclosing Explicit Synthetic Media\"\n    *   MT H 513: \"Name, Voice, and Likeness Property Rights\"\n*   **South Dakota:**\n    *   SD S 164: \"Deepfake to Influence an Election\"\n*   **Texas:**\n    *   TX S 441: \"Artificial Intimate Visual Material\"\n*   **Tennessee:**\n    *   TN S 1346: \"Preventing Deepfake Images Act\"\n*   **Washington:**\n    *   WA H 1205: \"Knowing Distribution of a Forged Digital Likeness\"\n*   **Colorado:**\n    *   CO S 288: \"Intimate Digital Depictions Criminal Civil Actions\"\n*   **Utah:**\n    *   UT S 271: \"Unauthorized Artificial Intelligence Impersonation\"",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "status_bucket": "Enacted",
+        "topics": [
+          "Criminal Use"
+        ],
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__MT S    25",
+        "2025__SD S    164",
+        "2025__SD S    164",
+        "2025__TX S    441",
+        "2025__MT S    413",
+        "2025__MT H    513",
+        "2025__TX S    441",
+        "2025__TN S    1346",
+        "2025__TN S    1346",
+        "2025__MT S    25"
+      ],
+      "latency_seconds": 3.659
+    },
+    {
+      "id": "H06",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "What did California enact in 2025 concerning large AI model developers?",
+      "answer": "In 2025, California enacted CA S 53, titled \"Artificial Intelligence Models: Large Developers.\" This bill focuses on establishing transparency and accountability for large AI model developers to mitigate catastrophic risks and ensure public safety. It applies to \"frontier models\" and \"frontier developers,\" defined by their potential to cause catastrophic risks, and explicitly avoids burdening smaller companies. The bill mandates standardized and objective reporting by frontier developers to the government and public regarding their AI models' capabilities and safety, and requires timely reporting of critical safety incidents.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "state": "California",
+        "status_bucket": "Enacted",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__CA S    53",
+        "2025__CA S    53",
+        "2025__CA A    1170",
+        "2025__CA S    524",
+        "2025__CA A    1170",
+        "2025__CA S    361",
+        "2025__CA A    102",
+        "2025__CA A    316",
+        "2025__CA A    979",
+        "2025__CA S    524"
+      ],
+      "latency_seconds": 6.387
+    },
+    {
+      "id": "VH01",
+      "difficulty": "very_hard",
+      "pattern": "list_and_compare",
+      "question": "What are the bills that are about AI that are passed or enacted in 2025? What do they have in common?",
+      "answer": "There are 49 bills about AI that were enacted in 2025. These bills share several common themes:\n\n*   **Defining AI:** Many bills include definitions of \"Artificial Intelligence\" or \"AI,\" generally describing it as a machine-based system that infers from inputs to generate outputs that can influence environments.\n*   **Generative AI:** Several bills specifically define \"Generative Artificial Intelligence\" (GenAI) as AI capable of producing synthetic content like audio, images, text, and video.\n*   **Government Use and Oversight:** A recurring theme is the establishment of task forces, workgroups, or divisions to study, recommend, and oversee the use of AI within state government agencies, including developing policies and best practices.\n*   **Transparency and Disclosure:** Multiple bills emphasize the need for transparency regarding AI use, particularly when it interacts with the public or generates content, often requiring disclaimers or disclosures.\n*   **Focus on Risks and Harms:** Many bills acknowledge the potential for AI to cause harm, such as algorithmic discrimination, malicious uses, malfunctions, and impacts on individual rights and privacy.\n*   **Human Oversight/Review:** Several bills explicitly mention the importance of human involvement and review in AI-driven decision-making, especially for consequential decisions.\n\nHere is a list of the bills:\n\n*   \"Protection of Information\" (2025__KY S 4)\n*   \"Artificial Intelligence Models: Large Developers\" (2025__CA S 53)\n*   \"Artificial Intelligence Regulation Task Force\" (2025__MS S 2426)\n*   \"Workgroup on Artificial Intelligence Implementation\" (2025__MD H 956)\n*   \"Automated Employment Decision Making Tools\" (2025__NY S 822)\n*   \"Artificial Intelligence Commission\" (2025__DE H 16)\n*   \"Regulation and Use of Artificial Intelligence\" (2025__TX S 1964)\n*   \"Artificial Intelligence\" (2025__TX H 2818)\n*   \"Regulation of the Use of Artificial Intelligence\" (2025__TX H 149)\n*   \"Artificial Intelligence: Defenses\" (2025__CA A 316)\n*   \"Transportation and Economic Development Budget\" (2025__NY S 3008)\n*   \"Budget Act of 2025\" (2025__CA A 102)\n*   \"Law Enforcement Usage of Artificial Intelligence\" (2025__UT S 180)\n*   \"School Code and Artificial Intelligence\" (2025__IL S 1920)\n*   \"Maintenance of the Codes\" (2025__CA A 1170)\n*   \"Law Enforcement Agencies: Artificial Intelligence\" (2025__CA S 524)\n*   \"Right to Compute Act\" (2025__MT S 212)\n*   \"Task Force on Artificial Intelligence\" (2025__WV H 3187)\n*   \"Budget Act of 2025\" (2025__CA S 101)\n*   \"Deepfake to Influence an Election\" (2025__SD S 164)\n*   \"Mental Health of Pupils\" (2025__NV A 406)\n*   \"Government Use of Artificial Intelligence Systems\" (2025__MT H 178)\n*   \"Health Care Professions: Deceptive Terms or Letters\" (2025__CA A 489)\n*   \"Artificial Intelligence Training Programs\" (2025__TX H 3512)\n*   \"Security of State Assets\" (2025__OR H 3936)\n*   \"Fiscal Integrity and Contract Accountability\" (2025__IN S 5)\n*   \"Wellness and Oversight for Psychological Resources Act\" (2025__IL H 1806)\n*   \"Artificial Intelligence Amendments\" (2025__UT H 452)\n*   \"Increase Transparency for Algorithmic Systems\" (2025__CO S 4)\n*   \"California AI Transparency Act\" (2025__CA A 853)\n*   \"Criminal Justice Risk Assessments\" (2025__VA H 1642)\n*   \"Public Community College Act\" (2025__IL H 1859)\n*   \"First 2025 General Revisory Act\" (2025__IL S 2394)\n*   \"Public Entities to Create a Policy\" (2025__AR H 1958)\n*   \"Artificial Intelligence in Health Benefit Plan Review\" (2025__TX S 815)\n*   \"Artificial Intelligence Consumer Protection Amendments\" (2025__UT S 226)\n*   \"Payment of Certain Claims Against the State\" (2025__KS S 125)\n*   \"California Cybersecurity Integration Center: AI\" (2025__CA A 979)\n*   \"Crimes and Punishments\" (2025__OK H 1364)\n*   \"Artificial Intelligence Disclosure Statements\" (2025__ND H 1167)\n*   \"Companion Chatbots\" (2025__CA S 243)\n*   \"Financial Exploitation or Abuse of Persons\" (2025__TX S 2373)\n*   \"Transparency in Consumer Transactions\" (2025__ME H 1154)\n*   \"State Operations Budget\" (2025__NY A 3000)\n*   \"Technology Produced by Certain Foreign Countries\" (2025__KS H 2313)\n*   \"Legislative Management Study\" (2025__ND S 2278)\n*   \"Campaign Practices\" (2025__NV A 73)\n*   \"Operating Appropriations\" (2025__OH H 96)\n*   \"Data Brokers: Data Collection and Deletion\" (2025__CA S 361)",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "status_bucket": "Enacted",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__KY S    4",
+        "2025__CA S    53",
+        "2025__KY S    4",
+        "2025__CA S    53",
+        "2025__MS S    2426",
+        "2025__MS S    2426",
+        "2025__MD H    956",
+        "2025__NY S    822",
+        "2025__DE H    16",
+        "2025__NY S    822"
+      ],
+      "latency_seconds": 17.232
+    },
+    {
+      "id": "VH02",
+      "difficulty": "very_hard",
+      "pattern": "compare",
+      "question": "Compare how Texas House Bill 149 and Colorado Senate Bill 4 (both 2025) approach AI regulation.",
+      "answer": "Texas House Bill 149 and Colorado Senate Bill 4 (both 2025) approach AI regulation with distinct focuses.\n\nTexas House Bill 149 (2025__TX H 149) adopts a data-centric approach, primarily regulating the use of biometric identifiers in AI. It defines \"biometric identifier\" and sets conditions for the capture, storage, and commercial use of such data, especially when used for training AI systems. The bill requires consent for biometric data use and outlines penalties for violations related to the possession and destruction of biometric identifiers. It also clarifies responsibilities for data processors in assisting consumers with rights requests.\n\nColorado Senate Bill 4 (2025__CO S 4) takes a system-centric and impact-focused approach, aiming to increase transparency for algorithmic systems and prevent \"algorithmic discrimination,\" particularly from \"high-risk artificial intelligence systems.\" This bill targets developers of high-risk AI systems, imposing duties related to reasonable care to avoid discrimination, documentation, and disclosure. It mandates developers to provide documentation (e.g., model cards, dataset cards) to deployers and disclose known or foreseeable risks of discrimination to the attorney general and deployers. The Attorney General is explicitly involved in enforcement and rule promulgation.\n\nIn summary, Texas House Bill 149 focuses on regulating the input data (biometric identifiers) used by AI, while Colorado Senate Bill 4 focuses on regulating the AI system itself and its potential for discriminatory outputs.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "state": "Texas",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__TX H    1709",
+        "2025__TX H    1709",
+        "2025__TX S    1964",
+        "2025__TX S    1822",
+        "2025__TX H    1265",
+        "2025__TX S    1964",
+        "2025__TX H    149",
+        "2025__TX S    1411",
+        "2025__TX H    4018",
+        "2025__TX S    1822"
+      ],
+      "latency_seconds": 9.941
+    },
+    {
+      "id": "VH03",
+      "difficulty": "very_hard",
+      "pattern": "compare",
+      "question": "What common approach do Rhode Island HB 5872, Montana SB 25, and North Dakota HB 1167 share?",
+      "answer": "The bills \"Rhode Island HB 5872\", \"Montana SB 25\", and \"North Dakota HB 1167\" could not be found. Please ensure the bill IDs are correct and from the 2023 legislative session.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "state": "Rhode Island",
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2023__RI H   5866",
+        "2023__RI S    146",
+        "2023__RI H   6423",
+        "2023__RI H   6423",
+        "2023__RI S    146",
+        "2023__RI H   5734",
+        "2023__RI S    117",
+        "2023__RI H   5866",
+        "2023__RI H   5734",
+        "2023__RI H   6286"
+      ],
+      "latency_seconds": 6.209
+    },
+    {
+      "id": "VH04",
+      "difficulty": "very_hard",
+      "pattern": "filter_list_compare",
+      "question": "List 2025 enacted bills that address the use of AI in employment, and what do they require of employers or state agencies?",
+      "answer": "In 2025, five enacted bills address the use of AI in employment:\n\n*   **NY S 822** (New York): This bill regulates the use of automated employment decision-making tools by state agencies. It requires state agencies to ensure these tools are subject to \"continued and operational meaningful human review\" and cannot procure or acquire services utilizing such tools unless they include this review. The use of these tools cannot affect existing employee rights under collective bargaining agreements or result in employee discharge, displacement, or loss of position. \"Meaningful human review\" is defined as review, oversight, and control by individuals who understand the tool's risks, limitations, and functionality, are trained to use it, and have the authority to intervene or alter decisions.\n\n*   **WV H 3187** (West Virginia): This bill establishes a Task Force on Artificial Intelligence to study and make recommendations regarding AI, including its use in the workforce and its effect on employment. The Task Force will determine relevant state agencies to develop and oversee AI policy, develop best practices for public sector uses of AI, inventory current or proposed AI use within state agencies, and assess AI's use in the workforce.\n\n*   **NM H 20** (New Mexico): This bill establishes a Technology and Innovation Division within the Economic Development Department. While not directly imposing requirements on employers, the division is tasked with coordinating innovation initiatives across state agencies to align resources and reduce duplication, and maintaining databases and resources related to innovation assets, funding, and technical assistance, which could indirectly impact the use of AI in employment.\n\n*   **ND H 1448** (North Dakota): This bill creates an Advanced Technology Review Committee and an Advanced Technology Grant Program to support early-stage advanced technology product research, development, and innovation. The committee reviews and approves grant applications, establishes guidelines for grant eligibility, and addresses intellectual property ownership. The Department of Commerce administers the grant program. This bill focuses on fostering AI development rather than regulating its use in employment.\n\n*   **ND S 2256** (North Dakota): This bill establishes and funds a research technology park at North Dakota State University to advance intelligent autonomous mobile equipment opportunities. The research technology park is obligated to use funds in accordance with the section, develop a biennial plan for fund use, and annually report all research activities, product development, and accomplishments to the Industrial Commission and legislative management. This bill focuses on research and development in AI, particularly in autonomous agriculture and robotics, rather than direct regulation of AI in employment.\n\nThe remaining five bills listed by the tool (IL S 2394, CA S 47, CA S 253, IA S 647, AL H 365) are general revisory acts, audits, or appropriations bills that do not contain specific requirements for employers or state agencies regarding the use of AI in employment.",
+      "answer_model": "google/gemini-2.5-flash",
+      "applied_filters": {
+        "year": 2025,
+        "status_bucket": "Enacted",
+        "topics": [
+          "Effect on Labor/Employment",
+          "Effect on Labor/Employment Government Use"
+        ],
+        "routing_path": "agent"
+      },
+      "cited_bill_ids": [
+        "2025__IL S    2394",
+        "2025__NY S    822",
+        "2025__IL S    2394",
+        "2025__NY S    822",
+        "2025__WV H    3187",
+        "2025__WV H    3187",
+        "2025__CA S    47",
+        "2025__NM H    20",
+        "2025__ND H    1448",
+        "2025__CA S    253"
+      ],
+      "latency_seconds": 20.251
+    }
+  ]
+}

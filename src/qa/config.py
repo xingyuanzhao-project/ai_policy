@@ -92,6 +92,8 @@ class ModelConfig:
     embedding_model: str
     answer_model: str
     available_answer_models: tuple[str, ...]
+    filter_extractor_model: str
+    worker_model: str
 
     def validate(self) -> None:
         """Validate configured embedding and answer models."""
@@ -99,6 +101,8 @@ class ModelConfig:
         required_values = {
             "embedding_model": self.embedding_model,
             "answer_model": self.answer_model,
+            "filter_extractor_model": self.filter_extractor_model,
+            "worker_model": self.worker_model,
         }
         missing = [key for key, value in required_values.items() if not value.strip()]
         if missing:
@@ -120,11 +124,63 @@ class ModelConfig:
 
 
 @dataclass(slots=True)
+class AgentConfig:
+    """Hyperparameters for the planner-workers agent path.
+
+    The planner model is NOT configured here; it is the currently-selected
+    ``answer_model`` at query time so the UI dropdown controls the orchestrator.
+    """
+
+    max_planner_turns: int
+    max_planner_tokens: int
+    planner_temperature: float
+    max_worker_tokens: int
+    worker_temperature: float
+    max_tool_calls: int
+    max_worker_calls: int
+    max_bills_per_list: int
+    max_chunks_per_bill: int
+    max_citations_per_bill: int
+
+    def validate(self) -> None:
+        """Validate agent hyperparameters."""
+
+        positive_int_fields = {
+            "max_planner_turns": self.max_planner_turns,
+            "max_planner_tokens": self.max_planner_tokens,
+            "max_worker_tokens": self.max_worker_tokens,
+            "max_tool_calls": self.max_tool_calls,
+            "max_worker_calls": self.max_worker_calls,
+            "max_bills_per_list": self.max_bills_per_list,
+            "max_chunks_per_bill": self.max_chunks_per_bill,
+            "max_citations_per_bill": self.max_citations_per_bill,
+        }
+        for field_name, value in positive_int_fields.items():
+            if not isinstance(value, int) or value <= 0:
+                raise QAConfigValidationError(
+                    f"AgentConfig.{field_name} must be a positive integer"
+                )
+        for temperature_name, temperature_value in (
+            ("planner_temperature", self.planner_temperature),
+            ("worker_temperature", self.worker_temperature),
+        ):
+            if (
+                not isinstance(temperature_value, (int, float))
+                or temperature_value < 0.0
+                or temperature_value > 2.0
+            ):
+                raise QAConfigValidationError(
+                    f"AgentConfig.{temperature_name} must be within [0.0, 2.0]"
+                )
+
+
+@dataclass(slots=True)
 class QAAppConfig:
     """Host and port settings for the local browser app."""
 
     host: str
     port: int
+    show_trace: bool = False
 
     def validate(self) -> None:
         """Validate browser-app host and port settings."""
@@ -133,6 +189,8 @@ class QAAppConfig:
             raise QAConfigValidationError("QA app host must be a non-empty string")
         if self.port <= 0 or self.port > 65535:
             raise QAConfigValidationError("QA app port must be between 1 and 65535")
+        if not isinstance(self.show_trace, bool):
+            raise QAConfigValidationError("QA app show_trace must be a boolean")
 
 
 @dataclass(slots=True)
@@ -145,6 +203,7 @@ class QAConfig:
     provider: ProviderConfig
     models: ModelConfig
     app: QAAppConfig
+    agent: AgentConfig
 
     def validate(self) -> None:
         """Validate the full resolved QA configuration."""
@@ -156,6 +215,7 @@ class QAConfig:
         self.provider.validate()
         self.models.validate()
         self.app.validate()
+        self.agent.validate()
 
     def resolve_corpus_path(self, project_root: Path) -> Path:
         """Resolve the configured corpus path relative to the project root."""
@@ -192,6 +252,7 @@ def load_qa_config(
     qa_provider = qa_payload.get("provider", {})
     qa_models = qa_payload.get("models", {})
     qa_app = qa_payload.get("app", {})
+    qa_agent = qa_payload.get("agent", {})
 
     config = QAConfig(
         corpus_path=str(
@@ -224,10 +285,31 @@ def load_qa_config(
                     or [qa_models.get("answer_model", "")]
                 )
             ),
+            filter_extractor_model=str(
+                qa_models.get("filter_extractor_model")
+                or qa_models.get("answer_model", "")
+            ).strip(),
+            worker_model=str(
+                qa_models.get("worker_model")
+                or qa_models.get("answer_model", "")
+            ).strip(),
         ),
         app=QAAppConfig(
             host=str(qa_app.get("host", "127.0.0.1")).strip(),
             port=int(qa_app.get("port", 5050)),
+            show_trace=bool(qa_app.get("show_trace", False)),
+        ),
+        agent=AgentConfig(
+            max_planner_turns=int(qa_agent.get("max_planner_turns", 8)),
+            max_planner_tokens=int(qa_agent.get("max_planner_tokens", 4096)),
+            planner_temperature=float(qa_agent.get("planner_temperature", 0.0)),
+            max_worker_tokens=int(qa_agent.get("max_worker_tokens", 1024)),
+            worker_temperature=float(qa_agent.get("worker_temperature", 0.0)),
+            max_tool_calls=int(qa_agent.get("max_tool_calls", 16)),
+            max_worker_calls=int(qa_agent.get("max_worker_calls", 6)),
+            max_bills_per_list=int(qa_agent.get("max_bills_per_list", 50)),
+            max_chunks_per_bill=int(qa_agent.get("max_chunks_per_bill", 6)),
+            max_citations_per_bill=int(qa_agent.get("max_citations_per_bill", 2)),
         ),
     )
     config.validate()
@@ -275,6 +357,7 @@ def _resolve_project_path(project_root: Path, configured_path: str) -> Path:
 
 
 __all__ = [
+    "AgentConfig",
     "ModelConfig",
     "ProviderConfig",
     "QAAppConfig",

@@ -17,6 +17,7 @@ from heapq import nlargest
 from typing import Sequence
 
 from .artifacts import IndexedChunk, RetrievedChunk, validate_retrieved_chunk
+from .retriever import _coerce_int_values, _coerce_str_values
 
 _TOKEN_PATTERN = re.compile(r"[A-Za-z0-9]+")
 _MIN_TOKEN_LENGTH = 2
@@ -78,7 +79,18 @@ class LexicalRetriever:
 
         self._average_document_length = max(total_term_count / self._document_count, 1.0)
 
-    def retrieve_question(self, question: str, top_k: int) -> list[RetrievedChunk]:
+    @property
+    def chunks(self) -> Sequence[IndexedChunk]:
+        """Expose the underlying chunk sequence for filter-facet enumeration."""
+
+        return self._chunks
+
+    def retrieve_question(
+        self,
+        question: str,
+        top_k: int,
+        filters: dict | None = None,
+    ) -> list[RetrievedChunk]:
         """Return the highest-scoring chunk matches for one natural-language question."""
 
         normalized_question = question.strip()
@@ -111,6 +123,15 @@ class LexicalRetriever:
                 )
                 scores[row_index] += score * query_weight
 
+        if filters:
+            scores = {
+                row_index: score
+                for row_index, score in scores.items()
+                if self._chunk_matches_filters(self._chunks[row_index], filters)
+            }
+            if not scores:
+                return []
+
         ranked_rows = nlargest(top_k, scores.items(), key=lambda item: item[1])
         results: list[RetrievedChunk] = []
         for rank, (row_index, score) in enumerate(ranked_rows, start=1):
@@ -128,10 +149,35 @@ class LexicalRetriever:
                 status=chunk.status,
                 summary=chunk.summary,
                 bill_url=chunk.bill_url,
+                year=chunk.year,
+                status_bucket=chunk.status_bucket,
+                topics_list=list(chunk.topics_list),
             )
             validate_retrieved_chunk(retrieved)
             results.append(retrieved)
         return results
+
+    @staticmethod
+    def _chunk_matches_filters(chunk: IndexedChunk, filters: dict) -> bool:
+        """Return True if the chunk passes every active filter field.
+
+        Each field supports scalar or list input: list means OR-within-field.
+        Multiple fields combine with AND.
+        """
+
+        years = _coerce_int_values(filters.get("year"))
+        if years and int(chunk.year) not in years:
+            return False
+        states = _coerce_str_values(filters.get("state"))
+        if states and str(chunk.state) not in states:
+            return False
+        status_buckets = _coerce_str_values(filters.get("status_bucket"))
+        if status_buckets and str(chunk.status_bucket) not in status_buckets:
+            return False
+        topics = _coerce_str_values(filters.get("topics"))
+        if topics and not (set(topics) & set(chunk.topics_list)):
+            return False
+        return True
 
     def _tokenize(self, text: str) -> list[str]:
         """Normalize chunk or query text into lexical retrieval terms."""

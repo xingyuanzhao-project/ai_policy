@@ -28,6 +28,7 @@ from src.ner.storage.corpus_store import CorpusStore
 from .artifacts import (
     INDEX_STATUS_BUILDING,
     INDEX_STATUS_READY,
+    STATUS_BUCKETS,
     IndexManifest,
     IndexedChunk,
     validate_index_manifest,
@@ -49,6 +50,40 @@ _EMBEDDINGS_DIRNAME = "embeddings"
 _FINGERPRINT_CHUNK_BYTES = 1024 * 1024
 _MAX_EMBED_RETRY_ATTEMPTS = 12
 _DEFAULT_RETRY_DELAY_SECONDS = 20.0
+
+
+_ALLOWED_STATUS_BUCKETS = frozenset(STATUS_BUCKETS)
+
+
+def _normalize_status(raw: str) -> str:
+    """Map a raw status string to one of the canonical buckets.
+
+    Accepts forms like ``"Failed - Adjourned"`` or ``"Vetoed - Vetoed by Governor"``
+    and returns the leading bucket prefix when it matches the whitelist.
+    Anything outside the whitelist collapses to ``"Other"``.
+    """
+
+    if not isinstance(raw, str):
+        return "Other"
+    prefix = raw.split(" - ", 1)[0].strip()
+    return prefix if prefix in _ALLOWED_STATUS_BUCKETS else "Other"
+
+
+def _split_topics(raw: str) -> list[str]:
+    """Split a raw topics string into individual tags.
+
+    The NCSL corpus uses both ``,`` and ``;`` as separators across records,
+    so both are treated as tag delimiters to keep filter values atomic.
+    """
+
+    if not isinstance(raw, str) or not raw.strip():
+        return []
+    tokens: list[str] = []
+    for piece in raw.replace(";", ",").split(","):
+        stripped = piece.strip()
+        if stripped:
+            tokens.append(stripped)
+    return tokens
 
 
 class IndexStateError(RuntimeError):
@@ -77,6 +112,8 @@ def build_indexed_chunks(
     indexed_chunks: list[IndexedChunk] = []
     for bill in bills:
         for chunk in builder.build(bill):
+            year_raw = bill.year if isinstance(bill.year, str) else str(bill.year or "")
+            year_value = int(year_raw) if year_raw.strip().isdigit() else 0
             indexed_chunk = IndexedChunk(
                 chunk_id=chunk.chunk_id,
                 bill_id=chunk.bill_id,
@@ -88,6 +125,9 @@ def build_indexed_chunks(
                 status=bill.status,
                 summary=bill.summary,
                 bill_url=bill.bill_url,
+                year=year_value,
+                status_bucket=_normalize_status(bill.status),
+                topics_list=_split_topics(bill.topics),
             )
             validate_indexed_chunk(indexed_chunk)
             indexed_chunks.append(indexed_chunk)

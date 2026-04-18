@@ -15,6 +15,7 @@ from src.ner.schemas.artifacts import BillRecord
 from src.qa.artifacts import INDEX_STATUS_READY, IndexManifest
 from src.qa.chunk_store import ChunkStore
 from src.qa.config import (
+    AgentConfig,
     ModelConfig,
     ProviderConfig,
     QAAppConfig,
@@ -406,8 +407,28 @@ def _make_config(
             embedding_model=_EMBEDDING_MODEL,
             answer_model=_DEFAULT_ANSWER_MODEL,
             available_answer_models=(_DEFAULT_ANSWER_MODEL,),
+            filter_extractor_model=_DEFAULT_ANSWER_MODEL,
+            worker_model=_DEFAULT_ANSWER_MODEL,
         ),
         app=QAAppConfig(host="127.0.0.1", port=5050),
+        agent=_default_agent_config(),
+    )
+
+
+def _default_agent_config() -> AgentConfig:
+    """Build a minimal AgentConfig fixture for indexer tests."""
+
+    return AgentConfig(
+        max_planner_turns=4,
+        max_planner_tokens=512,
+        planner_temperature=0.0,
+        max_worker_tokens=256,
+        worker_temperature=0.0,
+        max_tool_calls=8,
+        max_worker_calls=3,
+        max_bills_per_list=10,
+        max_chunks_per_bill=3,
+        max_citations_per_bill=2,
     )
 
 

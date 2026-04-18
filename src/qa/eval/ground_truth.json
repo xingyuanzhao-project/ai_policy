@@ -1,0 +1,380 @@
+{
+  "description": "Hand-curated QA evaluation set for the AI-policy QA app. Ground truth was authored by directly reading the NCSL corpus (data/ncsl/us_ai_legislation_ncsl_text.jsonl). 20 questions span easy single-bill lookups through compound list+compare questions.",
+  "corpus_path": "data/ncsl/us_ai_legislation_ncsl_text.jsonl",
+  "facts_snapshot": {
+    "total_bills": 1879,
+    "years": {"2023": 137, "2024": 480, "2025": 1262},
+    "enacted_2025_total": 192,
+    "enacted_2025_distinct_states": 45,
+    "enacted_2025_top_state": ["California", 24],
+    "enacted_2025_elections_topic": 7
+  },
+  "scoring_notes": {
+    "required_keywords": "Fraction of listed keywords (case-insensitive substring) found in answer text. 1.0 = all found.",
+    "forbidden_keywords": "If any listed keyword is found in answer, penalty applied.",
+    "expected_bill_ids": "Set-level precision/recall of cited bill_ids vs this set (normalized by collapsing whitespace).",
+    "expected_count": "Single integer expected. Answer graded by ratio to expected, clipped to [0, 1]. Tolerances allow partial credit.",
+    "min_citations": "Hard check on number of citation chunks returned.",
+    "keyword_threshold": "Minimum fraction of required_keywords that must be present for the question to be considered 'passed'."
+  },
+  "questions": [
+    {
+      "id": "E01",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "What is the title of Delaware House Bill 16 from 2025?",
+      "ground_truth": {
+        "required_keywords": ["artificial intelligence commission"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__DE H    16"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "Bill title is 'Artificial Intelligence Commission'. Trivial lookup."
+      }
+    },
+    {
+      "id": "E02",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "What is the status of Kentucky Senate Bill 4 from 2025?",
+      "ground_truth": {
+        "required_keywords": ["enact"],
+        "forbidden_keywords": ["pending", "failed", "vetoed"],
+        "expected_bill_ids": ["2025__KY S    4"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "KY S 4 status is 'Enacted - Act No. 66'."
+      }
+    },
+    {
+      "id": "E03",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "In what year was Texas House Bill 149 (Regulation of the Use of Artificial Intelligence) enacted?",
+      "ground_truth": {
+        "required_keywords": ["2025"],
+        "forbidden_keywords": ["2023", "2024"],
+        "expected_bill_ids": ["2025__TX H    149"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "TX H 149 was enacted in 2025."
+      }
+    },
+    {
+      "id": "E04",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "What topics does California Senate Bill 53 (Artificial Intelligence Models: Large Developers) address?",
+      "ground_truth": {
+        "required_keywords": ["cybersecurity", "impact assessment"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__CA S    53"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 0.5,
+        "notes": "Official topics: Cybersecurity, Government Use, Impact Assessment, Private Sector Use, Studies."
+      }
+    },
+    {
+      "id": "E05",
+      "difficulty": "easy",
+      "pattern": "single_bill_fact",
+      "question": "Which California bill passed in 2025 is known as the California AI Transparency Act?",
+      "ground_truth": {
+        "required_keywords": ["853"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__CA A    853"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "Assembly Bill 853 (CA A 853), Enacted - Act No. 2025-674."
+      }
+    },
+    {
+      "id": "M01",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "Under Arizona Senate Bill 1295, what class of felony is criminal impersonation using computer-generated voice or video?",
+      "ground_truth": {
+        "required_keywords": ["felony"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__AZ S    1295"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "Summary: 'criminal impersonation is a class 5 or 6 felony'. Accept either or both."
+      }
+    },
+    {
+      "id": "M02",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "What does Mississippi Senate Bill 2426 establish, and what is its charge?",
+      "ground_truth": {
+        "required_keywords": ["task force"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__MS S    2426"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "Establishes the Artificial Intelligence Regulation Task Force to study and evaluate AI applications, risks, and policy recommendations."
+      }
+    },
+    {
+      "id": "M03",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "What change does Delaware House Bill 16 make to the AI Commission's membership?",
+      "ground_truth": {
+        "required_keywords": ["student"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__DE H    16"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "Adds a high school student as a non-voting member of the AI Commission."
+      }
+    },
+    {
+      "id": "M04",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "Under New York Senate Bill 822, what must state agencies do regarding automated employment decision making tools?",
+      "ground_truth": {
+        "required_keywords": ["publish", "website"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__NY S    822"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 0.5,
+        "notes": "Requires state agencies to publish a list of automated employment decision making tools on the agency's website. Also maintains AI inventory."
+      }
+    },
+    {
+      "id": "M05",
+      "difficulty": "medium",
+      "pattern": "single_bill_detail",
+      "question": "What does Montana Senate Bill 25 regulate?",
+      "ground_truth": {
+        "required_keywords": ["deepfake", "election"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__MT S    25"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "Regulates the use of deepfakes in election and electioneering communications."
+      }
+    },
+    {
+      "id": "H01",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "List the AI-related bills that Delaware enacted in 2025.",
+      "ground_truth": {
+        "required_keywords": ["16", "105"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__DE H    16", "2025__DE H    105"],
+        "expected_count": 2,
+        "min_citations": 2,
+        "keyword_threshold": 1.0,
+        "notes": "Exactly two 2025 Delaware enacted bills: DE H 16 (AI Commission) and DE H 105 (Employment Practices)."
+      }
+    },
+    {
+      "id": "H02",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "Which US states enacted AI-related bills that specifically address elections in 2025?",
+      "ground_truth": {
+        "required_keywords": [
+          "kentucky", "montana", "nevada", "north dakota", "rhode island", "south dakota"
+        ],
+        "forbidden_keywords": [],
+        "expected_bill_ids": [
+          "2025__KY S    4",
+          "2025__MT S    25",
+          "2025__NV A    73",
+          "2025__ND H    1167",
+          "2025__RI S    816",
+          "2025__RI H    5872",
+          "2025__SD S    164"
+        ],
+        "expected_count": 6,
+        "min_citations": 3,
+        "keyword_threshold": 0.5,
+        "notes": "6 states, 7 bills. Corpus 'Elections' topic filtered to 2025 enacted."
+      }
+    },
+    {
+      "id": "H03",
+      "difficulty": "hard",
+      "pattern": "count",
+      "question": "Approximately how many AI-related bills were enacted across US states and territories in 2025?",
+      "ground_truth": {
+        "required_keywords": [],
+        "forbidden_keywords": [],
+        "expected_bill_ids": [],
+        "expected_count": 192,
+        "count_tolerance_abs": 40,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "Ground truth: 192 bills with status starting 'Enacted' in year 2025. Accept approx range 150-230."
+      }
+    },
+    {
+      "id": "H04",
+      "difficulty": "hard",
+      "pattern": "aggregate",
+      "question": "Which US state had the most AI-related bills enacted in 2025?",
+      "ground_truth": {
+        "required_keywords": ["california"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": [],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "California with 24 enacted 2025 AI bills."
+      }
+    },
+    {
+      "id": "H05",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "Name several 2025 enacted US state bills that specifically target deepfakes or synthetic media.",
+      "ground_truth": {
+        "required_keywords": ["deepfake"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": [
+          "2025__MT S    25",
+          "2025__MT S    413",
+          "2025__TN S    1346",
+          "2025__MI H    4048",
+          "2025__ND H    1167",
+          "2025__RI S    816",
+          "2025__RI H    5872",
+          "2025__VA S    1053",
+          "2025__VA H    2124",
+          "2025__IL H    3178",
+          "2025__AZ S    1295",
+          "2025__UT S    271",
+          "2025__AR H    1529",
+          "2025__CA A    621",
+          "2025__SD S    164",
+          "2025__NJ A    3540"
+        ],
+        "expected_count": null,
+        "min_citations": 3,
+        "keyword_threshold": 1.0,
+        "notes": "At least 12 enacted 2025 bills with 'deepfake' or 'synthetic' in title. Precision/recall graded over the listed set; partial recall acceptable."
+      }
+    },
+    {
+      "id": "H06",
+      "difficulty": "hard",
+      "pattern": "filter_list",
+      "question": "What did California enact in 2025 concerning large AI model developers?",
+      "ground_truth": {
+        "required_keywords": ["frontier"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__CA S    53"],
+        "expected_count": null,
+        "min_citations": 1,
+        "keyword_threshold": 1.0,
+        "notes": "CA SB 53, Transparency in Frontier Artificial Intelligence Act."
+      }
+    },
+    {
+      "id": "VH01",
+      "difficulty": "very_hard",
+      "pattern": "list_and_compare",
+      "question": "What are the bills that are about AI that are passed or enacted in 2025? What do they have in common?",
+      "ground_truth": {
+        "required_keywords": [
+          "deepfake", "election", "disclosure", "task force"
+        ],
+        "forbidden_keywords": [],
+        "expected_bill_ids": [
+          "2025__CA S    53",
+          "2025__CA A    853",
+          "2025__CO S    4",
+          "2025__TX H    149",
+          "2025__TX H    2818",
+          "2025__NY S    822",
+          "2025__KY S    4",
+          "2025__DE H    16",
+          "2025__MS S    2426",
+          "2025__MT S    25",
+          "2025__TN S    1346",
+          "2025__MI H    4048",
+          "2025__ND H    1167",
+          "2025__RI H    5872",
+          "2025__VA H    2124",
+          "2025__IL H    3178",
+          "2025__AZ S    1295",
+          "2025__UT S    226",
+          "2025__UT S    271"
+        ],
+        "expected_count": 192,
+        "count_tolerance_abs": 150,
+        "min_citations": 5,
+        "keyword_threshold": 0.5,
+        "notes": "THE headline failing case. Ground truth: 192 enacted bills, recurring themes = deepfakes/synthetic media, election integrity, disclosure requirements, task forces/commissions, consumer protection, child safety. Evaluated on (1) count, (2) how many GT bills appear in citations, (3) coverage of common themes."
+      }
+    },
+    {
+      "id": "VH02",
+      "difficulty": "very_hard",
+      "pattern": "compare",
+      "question": "Compare how Texas House Bill 149 and Colorado Senate Bill 4 (both 2025) approach AI regulation.",
+      "ground_truth": {
+        "required_keywords": ["algorithmic", "transparency"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": ["2025__TX H    149", "2025__CO S    4"],
+        "expected_count": null,
+        "min_citations": 2,
+        "keyword_threshold": 1.0,
+        "notes": "TX HB 149: broader AI regulation with civil penalties. CO SB 4: specifically algorithmic systems transparency, effective by June 30, 2026."
+      }
+    },
+    {
+      "id": "VH03",
+      "difficulty": "very_hard",
+      "pattern": "compare",
+      "question": "What common approach do Rhode Island HB 5872, Montana SB 25, and North Dakota HB 1167 share?",
+      "ground_truth": {
+        "required_keywords": ["election"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": [
+          "2025__RI H    5872",
+          "2025__MT S    25",
+          "2025__ND H    1167"
+        ],
+        "expected_count": null,
+        "min_citations": 3,
+        "keyword_threshold": 1.0,
+        "notes": "All three regulate AI/deepfake/synthetic media in election communications. RI regulates synthetic media in elections; MT regulates deepfakes in election communications; ND requires AI disclosure statements for political ads."
+      }
+    },
+    {
+      "id": "VH04",
+      "difficulty": "very_hard",
+      "pattern": "filter_list_compare",
+      "question": "List 2025 enacted bills that address the use of AI in employment, and what do they require of employers or state agencies?",
+      "ground_truth": {
+        "required_keywords": ["employment"],
+        "forbidden_keywords": [],
+        "expected_bill_ids": [
+          "2025__NY S    822",
+          "2025__DE H    105"
+        ],
+        "expected_count": null,
+        "min_citations": 2,
+        "keyword_threshold": 1.0,
+        "notes": "NY SB 822 requires state agencies to publish lists of automated employment decision making tools; DE HB 105 requires salary range disclosures in job postings. Partial credit if either bill is cited."
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 """Shared runtime wiring for the QA browser app.
 
-- Centralizes QA service and Flask app construction for both the local CLI entry
-  point and Render's Gunicorn entry point.
+- Centralizes QA service, planner agent, and Flask app construction for both
+  the local CLI entry point and Render's Gunicorn entry point.
 - Preserves the existing vector-first startup behavior while keeping the
   lexical fallback available when no ready index is present.
 - Keeps provider client, local answer support, and answer-model option assembly
@@ -13,15 +13,25 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Sequence
 
 from flask import Flask
 
+from .artifacts import IndexedChunk
 from .config import load_provider_api_key, load_qa_config
 from .diagnostics import emit_runtime_diagnostic
+from .filter_extractor import FilterExtractor
 from .indexer import IndexStateError, QAIndexer, build_indexed_chunks
 from .lexical_retriever import LexicalRetriever
 from .local_answer_support import AnswerModelOption, LocalAnswerSupport
+from .planner_agent import PlannerAgent
 from .provider_client import OpenAICompatibleClient
+from .qa_tools import (
+    LexicalSearchBackend,
+    SearchBackend,
+    VectorSearchBackend,
+    build_bill_index,
+)
 from .retriever import Retriever
 from .service import QAService
 from .web_app import create_app
@@ -72,9 +82,16 @@ def build_qa_browser_runtime(
         answer_model=config.models.answer_model,
     )
     emit_runtime_diagnostic("QA provider client ready")
+    filter_extractor = FilterExtractor(
+        client=provider_client.openai_client,
+        model=config.models.filter_extractor_model,
+    )
+    emit_runtime_diagnostic("QA filter extractor ready")
     local_answer_support = LocalAnswerSupport.from_project_root(project_root)
     emit_runtime_diagnostic("QA local answer support ready")
-    answer_model_options = _build_answer_model_options(config.models.available_answer_models, local_answer_support)
+    answer_model_options = _build_answer_model_options(
+        config.models.available_answer_models, local_answer_support
+    )
     available_answer_models = tuple(
         answer_model_option.option_id for answer_model_option in answer_model_options
     )
@@ -86,17 +103,32 @@ def build_qa_browser_runtime(
     )
     try:
         loaded_index = indexer.load_ready_index(bill_limit=max_bills)
-        qa_service = QAService(
-            retriever=Retriever(loaded_index.chunks, loaded_index.embeddings),
+        retriever = Retriever(loaded_index.chunks, loaded_index.embeddings)
+        vector_search_backend: SearchBackend = VectorSearchBackend(
+            retriever=retriever,
+            embed_query=provider_client.embed_query,
+        )
+        planner_agent = _build_planner_agent(
             provider_client=provider_client,
+            chunks=loaded_index.chunks,
+            search_backend=vector_search_backend,
+            worker_model=config.models.worker_model,
+            agent_config=config.agent,
+        )
+        emit_runtime_diagnostic("QA planner agent ready (vector backend)")
+        qa_service = QAService(
+            retriever=retriever,
+            planner_agent=planner_agent,
+            filter_extractor=filter_extractor,
             retrieval_top_k=config.index.retrieval_top_k,
             default_answer_model=config.models.answer_model,
             available_answer_models=available_answer_models,
             answer_model_options=answer_model_options,
             local_answer_support=local_answer_support,
+            capture_trace=config.app.show_trace,
         )
         return QABrowserRuntime(
-            app=create_app(qa_service),
+            app=create_app(qa_service, show_trace=config.app.show_trace),
             qa_service=qa_service,
             provider_client=provider_client,
             local_answer_support=local_answer_support,
@@ -111,24 +143,63 @@ def build_qa_browser_runtime(
             overlap=config.chunking.overlap,
             max_bills=max_bills,
         )
+        lexical_retriever = LexicalRetriever(chunks)
+        lexical_search_backend: SearchBackend = LexicalSearchBackend(retriever=lexical_retriever)
+        planner_agent = _build_planner_agent(
+            provider_client=provider_client,
+            chunks=chunks,
+            search_backend=lexical_search_backend,
+            worker_model=config.models.worker_model,
+            agent_config=config.agent,
+        )
+        emit_runtime_diagnostic("QA planner agent ready (lexical backend)")
         qa_service = QAService(
             retriever=None,
-            lexical_retriever=LexicalRetriever(chunks),
-            provider_client=provider_client,
+            lexical_retriever=lexical_retriever,
+            planner_agent=planner_agent,
+            filter_extractor=filter_extractor,
             retrieval_top_k=config.index.retrieval_top_k,
             default_answer_model=config.models.answer_model,
             available_answer_models=available_answer_models,
             answer_model_options=answer_model_options,
             local_answer_support=local_answer_support,
+            capture_trace=config.app.show_trace,
         )
         return QABrowserRuntime(
-            app=create_app(qa_service),
+            app=create_app(qa_service, show_trace=config.app.show_trace),
             qa_service=qa_service,
             provider_client=provider_client,
             local_answer_support=local_answer_support,
             retrieval_backend=_LEXICAL_RETRIEVAL_BACKEND,
             chunk_count=len(chunks),
         )
+
+
+def _build_planner_agent(
+    *,
+    provider_client: OpenAICompatibleClient,
+    chunks: Sequence[IndexedChunk],
+    search_backend: SearchBackend,
+    worker_model: str,
+    agent_config,
+) -> PlannerAgent:
+    """Build a ``PlannerAgent`` backed by the shared OpenAI-compatible client.
+
+    The bill-level metadata index is prebuilt here so the one-shot JSONL
+    sweep for a production ``ChunkStore`` happens at startup rather than
+    on the first question.
+    """
+
+    bill_index = build_bill_index(chunks)
+    return PlannerAgent(
+        planner_client=provider_client.openai_client,
+        worker_client=provider_client.openai_client,
+        chunks=chunks,
+        search_backend=search_backend,
+        worker_model=worker_model,
+        agent_config=agent_config,
+        bill_index=bill_index,
+    )
 
 
 def _build_answer_model_options(

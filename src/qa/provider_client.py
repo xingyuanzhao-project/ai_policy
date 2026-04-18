@@ -55,6 +55,12 @@ class OpenAICompatibleClient:
 
         return self._api_base_url
 
+    @property
+    def openai_client(self) -> OpenAI:
+        """Return the underlying OpenAI-compatible client for tool-use calls."""
+
+        return self._client
+
     def embed_documents(self, texts: Sequence[str]) -> list[np.ndarray]:
         """Embed document chunks for retrieval."""
 
@@ -91,7 +97,13 @@ class OpenAICompatibleClient:
         retrieved_chunks: Sequence[RetrievedChunk],
         answer_model: str | None = None,
     ) -> str:
-        """Generate an answer grounded in retrieved bill chunks."""
+        """Generate an answer grounded in retrieved bill chunks.
+
+        Note: QAService no longer calls this method on the hot path; the
+        orchestrator-workers :class:`PlannerAgent` now owns answer synthesis.
+        It is kept here for the live-OpenRouter test harness and as a
+        back-compatible utility for ad-hoc callers.
+        """
 
         prompt = self._build_answer_prompt(question, retrieved_chunks)
         response = self._client.chat.completions.create(

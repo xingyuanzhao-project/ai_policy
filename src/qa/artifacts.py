@@ -16,6 +16,9 @@ INDEX_STATUS_BUILDING = "building"
 INDEX_STATUS_READY = "ready"
 _VALID_INDEX_STATUSES = frozenset({INDEX_STATUS_BUILDING, INDEX_STATUS_READY})
 
+STATUS_BUCKETS: tuple[str, ...] = ("Enacted", "Failed", "Vetoed", "Pending", "Other")
+_VALID_STATUS_BUCKETS = frozenset(STATUS_BUCKETS)
+
 
 class QAArtifactValidationError(ValueError):
     """Raised when a QA artifact violates its declared schema."""
@@ -35,6 +38,9 @@ class IndexedChunk:
     status: str = ""
     summary: str = ""
     bill_url: str = ""
+    year: int = 0
+    status_bucket: str = "Other"
+    topics_list: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         """Return a JSON-serializable representation of the indexed chunk."""
@@ -66,6 +72,9 @@ class RetrievedChunk:
     status: str = ""
     summary: str = ""
     bill_url: str = ""
+    year: int = 0
+    status_bucket: str = "Other"
+    topics_list: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         """Return a JSON-serializable representation of the retrieved chunk."""
@@ -89,6 +98,8 @@ class AnswerResult:
     answer: str
     answer_model: str
     citations: list[RetrievedChunk] = field(default_factory=list)
+    applied_filters: dict[str, Any] = field(default_factory=dict)
+    trace: list[dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         """Return a JSON-serializable representation of the answer result."""
@@ -101,6 +112,10 @@ class AnswerResult:
     def from_dict(cls, payload: dict[str, Any]) -> "AnswerResult":
         """Build an answer result from stored JSON data."""
 
+        raw_applied = payload.get("applied_filters", {})
+        applied_filters = raw_applied if isinstance(raw_applied, dict) else {}
+        raw_trace = payload.get("trace", []) or []
+        trace = list(raw_trace) if isinstance(raw_trace, list) else []
         result = cls(
             question=payload["question"],
             answer=payload["answer"],
@@ -109,6 +124,8 @@ class AnswerResult:
                 RetrievedChunk.from_dict(citation_payload)
                 for citation_payload in payload.get("citations", [])
             ],
+            applied_filters=dict(applied_filters),
+            trace=trace,
         )
         validate_answer_result(result)
         return result
@@ -163,6 +180,18 @@ def validate_indexed_chunk(chunk: IndexedChunk) -> None:
         raise QAArtifactValidationError(
             "IndexedChunk.end_offset must be >= IndexedChunk.start_offset"
         )
+    if not isinstance(chunk.year, int) or chunk.year < 0:
+        raise QAArtifactValidationError("IndexedChunk.year must be an integer >= 0")
+    if chunk.status_bucket not in _VALID_STATUS_BUCKETS:
+        raise QAArtifactValidationError(
+            f"IndexedChunk.status_bucket must be one of {sorted(_VALID_STATUS_BUCKETS)}"
+        )
+    if not isinstance(chunk.topics_list, list) or not all(
+        isinstance(topic, str) for topic in chunk.topics_list
+    ):
+        raise QAArtifactValidationError(
+            "IndexedChunk.topics_list must be a list of strings"
+        )
 
 
 def validate_retrieved_chunk(chunk: RetrievedChunk) -> None:
@@ -184,6 +213,9 @@ def validate_retrieved_chunk(chunk: RetrievedChunk) -> None:
             status=chunk.status,
             summary=chunk.summary,
             bill_url=chunk.bill_url,
+            year=chunk.year,
+            status_bucket=chunk.status_bucket,
+            topics_list=list(chunk.topics_list),
         )
     )
 
@@ -207,6 +239,12 @@ def validate_answer_result(result: AnswerResult) -> None:
                 "AnswerResult.citations must contain only RetrievedChunk values"
             )
         validate_retrieved_chunk(citation)
+    if not isinstance(result.applied_filters, dict):
+        raise QAArtifactValidationError(
+            "AnswerResult.applied_filters must be a dict"
+        )
+    if not isinstance(result.trace, list):
+        raise QAArtifactValidationError("AnswerResult.trace must be a list")
 
 
 def validate_index_manifest(manifest: IndexManifest) -> None:
@@ -272,6 +310,7 @@ __all__ = [
     "IndexedChunk",
     "QAArtifactValidationError",
     "RetrievedChunk",
+    "STATUS_BUCKETS",
     "validate_answer_result",
     "validate_index_manifest",
     "validate_indexed_chunk",

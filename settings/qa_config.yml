@@ -8,7 +8,7 @@ chunking:
 index:
   cache_dir: data/qa_cache
   batch_size: 100
-  retrieval_top_k: 5
+  retrieval_top_k: 10
 
 provider:
   api_base_url: https://openrouter.ai/api/v1
@@ -19,12 +19,27 @@ provider:
 models:
   embedding_model: openai/text-embedding-3-small
   answer_model: google/gemini-2.5-flash
+  filter_extractor_model: google/gemini-2.5-flash
+  worker_model: google/gemini-2.5-flash
   available_answer_models:
     - google/gemini-2.5-flash
     - google/gemini-2.5-pro
     - anthropic/claude-haiku-4.5
     - anthropic/claude-sonnet-4.5
 
+agent:
+  max_planner_turns: 8
+  max_planner_tokens: 4096
+  planner_temperature: 0.0
+  max_worker_tokens: 1024
+  worker_temperature: 0.0
+  max_tool_calls: 16
+  max_worker_calls: 6
+  max_bills_per_list: 50
+  max_chunks_per_bill: 6
+  max_citations_per_bill: 2
+
 app:
   host: 127.0.0.1
   port: 5050
+  show_trace: false
