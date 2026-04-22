@@ -7,11 +7,12 @@
 
 from __future__ import annotations
 
-from copy import deepcopy
+import logging
 from typing import Any
 
 from .base import AgentResult, BaseAgent
 from .shared import AgentExecutionConfig, PromptExecutor, StructuredOutputParser, render_prompt
+from ..runtime.llm_client import EmptyCompletionError, RefusalError
 from ..schemas.artifacts import CandidateQuadruplet, ContextChunk, SpanRef
 from ..schemas.constants import stable_int_id
 from ..schemas.validation import (
@@ -19,6 +20,8 @@ from ..schemas.validation import (
     validate_candidate_quadruplet,
     validate_context_chunk,
 )
+
+logger = logging.getLogger(__name__)
 
 _FALLBACK_PROMPT_TEMPLATE = """role: you are a strict JSON annotator for AI policy legislation.
 
@@ -31,6 +34,7 @@ requirements:
 - Return at most 1 candidate.
 - Keep every field present in every candidate.
 - Keep at most 1 evidence span per field.
+- Keep each evidence text span under 120 characters. Extract only the key clause.
 - Every evidence start/end must be integer character offsets relative to the
   chunk text and must be between 0 and {chunk_length}.
 - If exact offsets are uncertain, return an empty evidence array for that field.
@@ -127,20 +131,28 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
             )
         validate_context_chunk(input_data)
 
-        raw_response = self._execute_primary_prompt(input_data)
         try:
+            raw_response = self._execute_primary_prompt(input_data)
             parsed_candidates = self._parse_candidates(input_data, raw_response)
-        except SchemaValidationError as primary_exc:
-            fallback_raw_response = self._execute_fallback_prompt(input_data)
-            try:
-                parsed_candidates = self._parse_candidates(input_data, fallback_raw_response)
-            except SchemaValidationError as fallback_exc:
-                raise SchemaValidationError(
-                    "ZeroShotAnnotator failed primary structured extraction "
-                    f"({primary_exc}) and fallback structured extraction "
-                    f"({fallback_exc})"
-                ) from fallback_exc
-            raw_response = fallback_raw_response
+        except RefusalError as exc:
+            logger.warning(
+                "ZeroShotAnnotator upstream refusal on primary prompt  "
+                "bill_id=%s  chunk_id=%d  provider=%s  prompt_tokens=%d  "
+                "action=retry_with_fallback_prompt",
+                input_data.bill_id,
+                input_data.chunk_id,
+                exc.provider,
+                exc.prompt_tokens,
+            )
+            parsed_candidates, raw_response = self._annotate_via_fallback_only(
+                input_data,
+                primary_detail=f"refusal provider={exc.provider}",
+            )
+        except (SchemaValidationError, EmptyCompletionError) as primary_exc:
+            parsed_candidates, raw_response = self._annotate_via_fallback_only(
+                input_data,
+                primary_detail=str(primary_exc),
+            )
 
         return AgentResult(
             input_schema_name=self.input_schema_name,
@@ -148,6 +160,60 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
             raw_response=raw_response,
             parsed_response=parsed_candidates,
         )
+
+    def _annotate_via_fallback_only(
+        self,
+        input_data: ContextChunk,
+        *,
+        primary_detail: str,
+    ) -> tuple[list[CandidateQuadruplet], str]:
+        """Try the fallback prompt once; raise ``SchemaValidationError`` on failure.
+
+        The primary extraction path has already failed (schema error, empty
+        content, or upstream refusal).  This helper runs the stricter
+        fallback prompt once.  If the fallback also fails for any model-side
+        reason (refusal, empty, schema error), it re-raises as
+        ``SchemaValidationError`` so the orchestrator's existing per-chunk
+        failure handler can drop this chunk without aborting the bill.
+
+        Args:
+            input_data: Chunk the primary prompt could not annotate.
+            primary_detail: Human-readable description of the primary failure
+                for inclusion in the combined error message.
+
+        Returns:
+            Tuple ``(parsed_candidates, raw_response)`` from the fallback.
+
+        Raises:
+            SchemaValidationError: If the fallback also fails.
+        """
+
+        try:
+            fallback_raw_response = self._execute_fallback_prompt(input_data)
+            parsed_candidates = self._parse_candidates(
+                input_data, fallback_raw_response
+            )
+            return parsed_candidates, fallback_raw_response
+        except RefusalError as fallback_exc:
+            logger.warning(
+                "ZeroShotAnnotator upstream refusal on fallback prompt  "
+                "bill_id=%s  chunk_id=%d  provider=%s  "
+                "action=drop_chunk",
+                input_data.bill_id,
+                input_data.chunk_id,
+                fallback_exc.provider,
+            )
+            raise SchemaValidationError(
+                "ZeroShotAnnotator failed primary "
+                f"({primary_detail}) and fallback refused "
+                f"(provider={fallback_exc.provider})"
+            ) from fallback_exc
+        except (SchemaValidationError, EmptyCompletionError) as fallback_exc:
+            raise SchemaValidationError(
+                "ZeroShotAnnotator failed primary structured extraction "
+                f"({primary_detail}) and fallback structured extraction "
+                f"({fallback_exc})"
+            ) from fallback_exc
 
     def _execute_primary_prompt(self, input_data: ContextChunk) -> str:
         """Execute the primary zero-shot extraction prompt.
@@ -167,7 +233,7 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
         )
         return self._prompt_executor.execute(
             prompt=prompt,
-            output_schema=self._build_chunk_bounded_output_schema(len(input_data.text)),
+            output_schema=self._output_schema,
             execution_config=self._execution_config,
         )
 
@@ -187,7 +253,7 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
 
         fallback_execution_config = AgentExecutionConfig(
             temperature=self._execution_config.temperature,
-            max_tokens=min(self._execution_config.max_tokens, 512),
+            max_tokens=min(self._execution_config.max_tokens, 768),
         )
         prompt = render_prompt(
             _FALLBACK_PROMPT_TEMPLATE,
@@ -197,54 +263,9 @@ class ZeroShotAnnotator(BaseAgent[ContextChunk, list[CandidateQuadruplet]]):
         )
         return self._prompt_executor.execute(
             prompt=prompt,
-            output_schema=self._build_chunk_bounded_output_schema(len(input_data.text)),
+            output_schema=self._output_schema,
             execution_config=fallback_execution_config,
         )
-
-    def _build_chunk_bounded_output_schema(self, chunk_length: int) -> dict[str, Any]:
-        """Return a copy of the output schema bounded to the current chunk length."""
-
-        bounded_schema = deepcopy(self._output_schema)
-        self._clamp_offset_maxima(bounded_schema, chunk_length)
-        return bounded_schema
-
-    def _clamp_offset_maxima(
-        self,
-        schema_node: Any,
-        chunk_length: int,
-        property_name: str | None = None,
-    ) -> None:
-        """Clamp start/end maxima in a nested JSON schema tree."""
-
-        if isinstance(schema_node, dict):
-            if (
-                property_name in {"start", "end"}
-                and schema_node.get("type") == "integer"
-                and (
-                    "maximum" not in schema_node
-                    or not isinstance(schema_node["maximum"], int)
-                    or schema_node["maximum"] > chunk_length
-                )
-            ):
-                schema_node["maximum"] = chunk_length
-
-            properties = schema_node.get("properties")
-            if isinstance(properties, dict):
-                for child_name, child_schema in properties.items():
-                    self._clamp_offset_maxima(child_schema, chunk_length, child_name)
-
-            items = schema_node.get("items")
-            if items is not None:
-                self._clamp_offset_maxima(items, chunk_length, property_name)
-
-            for branch_name in ("allOf", "anyOf", "oneOf"):
-                branches = schema_node.get(branch_name)
-                if isinstance(branches, list):
-                    for branch_schema in branches:
-                        self._clamp_offset_maxima(branch_schema, chunk_length, property_name)
-        elif isinstance(schema_node, list):
-            for child_schema in schema_node:
-                self._clamp_offset_maxima(child_schema, chunk_length, property_name)
 
     def _parse_candidates(
         self,

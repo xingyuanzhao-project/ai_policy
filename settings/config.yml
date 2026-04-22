@@ -7,13 +7,24 @@ input_csv: data/ncsl/us_ai_legislation_ncsl_text.csv
 output_csv: data/ncsl/ai_definitions_extracted.csv
 
 # LLM client settings
+#
+# Provider-aware fields (added for OpenRouter support):
+#   structured_output_mode: "guided_json" (vLLM) or "json_schema" (OpenRouter)
+#   skip_model_listing: true to skip /v1/models preflight (remote providers)
+#   api_key_env_var: env var holding the real API key (empty = use literal api_key)
+#   keyring_service / keyring_username: keyring fallback when env var is unset
 llm:
-  base_url: http://localhost:8000/v1
-  api_key: dummy
-  model_name: hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4
+  base_url: https://openrouter.ai/api/v1
+  api_key: ""
+  model_name: anthropic/claude-sonnet-4.5
   temperature: 0.0
   max_tokens: 1024
   max_retries: 2
+  structured_output_mode: json_schema
+  skip_model_listing: true
+  api_key_env_var: OPENROUTER_API_KEY
+  keyring_service: ai_policy.qa
+  keyring_username: openrouter
 
 # Async execution settings
 async:

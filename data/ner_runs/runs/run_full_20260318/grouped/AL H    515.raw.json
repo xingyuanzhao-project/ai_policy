@@ -1,3 +1,0 @@
-{
-  "raw_response": "{ \n  \"groups\": [\n    {\n      \"candidate_ids\": [16449377083190131406, 1757084083838329093],\n      \"field_score_matrix\": [\n        [1.0, 1.0, 1.0, 1.0],\n        [1.0, 1.0, 1.0, 1.0]\n      ]\n    },\n    {\n      \"candidate_ids\": [8205773624151753768, 5869151753742378076],\n      \"field_score_matrix\": [\n        [0.0, 0.0, 0.0, 0.0],\n        [0.0, 0.0, 0.0, 0.0]\n      ]\n    },\n    {\n      \"candidate_ids\": [9902683314453712852],\n      \"field_score_matrix\": [\n        [0.0, 0.0, 0.0, 0.0]\n      ]\n    },\n    {\n      \"candidate_ids\": [18178163795473821505],\n      \"field_score_matrix\": [\n        [1.0, 1.0, 1.0, 1.0]\n      ]\n    }\n  ]\n}"
-}

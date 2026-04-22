@@ -1,0 +1,69 @@
+# Nine-stage LLM-as-judge evaluation configuration.
+#
+# Judge model must be a different family from the extractor (Claude Sonnet 4.5)
+# to mitigate self-preference (Zheng et al., 2023; docs/lit_rev_eval.md line 139).
+# OpenRouter base URL and API key resolution are read from settings/config.yml
+# so we stay consistent with the rest of the project.
+
+judge:
+  provider: openrouter
+  model: google/gemini-2.5-pro
+  temperature: 0.0
+  max_tokens: 2048
+  request_timeout_seconds: 120
+  max_retries: 3
+
+methods:
+  orchestrated:
+    outputs_dir: data/ner_runs/runs/run_sonnet_full_20260416/outputs
+    usage_summary: data/ner_runs/runs/run_sonnet_full_20260416/usage_summary.json
+  skill_driven:
+    outputs_dir: data/skill_ner_runs/runs/skill_full_20260416_v2/outputs
+    usage_summary: data/skill_ner_runs/runs/skill_full_20260416_v2/usage_summary.json
+
+corpus:
+  ncsl_metadata: data/ncsl/us_ai_legislation_ncsl_meta.csv
+  ncsl_text: data/ncsl/us_ai_legislation_ncsl_text.jsonl
+
+output:
+  run_dir: output/evals/v1
+
+# Per-stage toggles. Each stage is independently runnable from cache.
+stages:
+  stage1:
+    enabled: true
+    dev_sample_bills: 30
+    seed: 20260417
+  stage2:
+    enabled: true
+  stage3:
+    enabled: true
+    max_concurrency: 8
+  stage4:
+    enabled: true
+    max_concurrency: 4
+  stage5:
+    enabled: true
+  stage6:
+    enabled: true
+    # null = full intersection of bills across methods; integer samples deterministically.
+    pairwise_sample_bills: null
+    swap: true
+    seed: 20260417
+  stage7:
+    # Disabled: no expert-coded ground-truth file is available for this
+    # corpus, so stage 7 has nothing to evaluate against.
+    enabled: false
+    expert_file: data/eval/expert_coded.json
+  stage8:
+    enabled: true
+    calm_subset: [position, verbosity, self_preference, authority]
+    sample_items: 100
+    seed: 20260417
+  stage9:
+    enabled: true
+
+sampling:
+  # null = full corpus; integer caps both methods at that bill count for smoke tests.
+  sample_bills: null
+  seed: 20260417

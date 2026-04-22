@@ -25,7 +25,13 @@ from src.agent.tools import ToolRegistry
 from .artifacts import IndexedChunk, RetrievedChunk, STATUS_BUCKETS
 from .chunk_store import ChunkStore
 from .config import AgentConfig
+from .filter_normalizers import (
+    normalize_categoricals,
+    normalize_states,
+    normalize_topics,
+)
 from .lexical_retriever import LexicalRetriever
+from .quadruplet_store import QuadrupletRecord, QuadrupletStore
 from .retriever import Retriever, _coerce_int_values, _coerce_str_values
 
 logger = logging.getLogger(__name__)
@@ -33,6 +39,9 @@ logger = logging.getLogger(__name__)
 _DEFAULT_GET_BILL_MAX_CHARS = 8000
 _DEFAULT_SUMMARIZE_MAX_CHARS = 8000
 _DEFAULT_COMPARE_MAX_CHARS_PER_BILL = 3500
+_DEFAULT_QUADRUPLET_LIMIT = 30
+_MAX_QUADRUPLET_LIMIT = 100
+_QUADRUPLET_PROVISION_PREVIEW_CHARS = 400
 
 
 # ---------------------------------------------------------------------------
@@ -305,9 +314,12 @@ _FILTERS_SCHEMA: dict[str, Any] = {
     "description": (
         "Optional structured filters. Omit fields you do not want to "
         "constrain. Every field is list-valued: multiple values within a "
-        "single field mean OR at retrieval (e.g. state=[\"CA\",\"TX\"] "
-        "matches either). Multiple fields combine with AND. A single-element "
-        "list is equivalent to a scalar and either shape is accepted."
+        "single field mean OR at retrieval (e.g. "
+        "state=[\"California\",\"Texas\"] matches either). Multiple fields "
+        "combine with AND. A single-element list is equivalent to a scalar "
+        "and either shape is accepted. Values are normalized server-side: "
+        "USPS codes (\"CA\", \"TX\"), full state names, and different "
+        "capitalizations are accepted and mapped to the canonical form."
     ),
     "properties": {
         "year": {
@@ -337,8 +349,9 @@ _FILTERS_SCHEMA: dict[str, Any] = {
                 {"type": "array", "items": {"type": "string"}},
             ],
             "description": (
-                "Two-letter USPS state code(s). Pass a list for OR "
-                "(e.g. [\"CA\", \"TX\"])."
+                "Full state name(s) exactly as stored in the index "
+                "(e.g. \"California\", \"Texas\"). Pass a list for OR "
+                "(e.g. [\"California\", \"Texas\"])."
             ),
         },
         "status_bucket": {
@@ -465,6 +478,122 @@ _SUMMARIZE_BILL_SCHEMA: dict[str, Any] = {
     },
 }
 
+_QUERY_QUADRUPLETS_SCHEMA: dict[str, Any] = {
+    "type": "function",
+    "function": {
+        "name": "query_quadruplets",
+        "description": (
+            "Search pre-extracted structured provisions from state AI bills. "
+            "Each result is one (regulated_entity, entity_type, "
+            "regulatory_mechanism, provision_text) tuple drawn from one "
+            "bill's text, with the exact character spans that back it. "
+            "Use this when the question is about WHAT a bill does to "
+            "something (e.g. 'which bills prohibit deepfakes?', 'what "
+            "disclosure requirements apply to automated decision systems?', "
+            "'list California obligations on developers'). Do NOT use this "
+            "for broad topical search -- use list_bills for that. Extracted "
+            "from 1,559 bills; ~9.8k provisions."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "regulated_entity": {
+                    "type": "string",
+                    "description": (
+                        "Case-insensitive substring match against the entity "
+                        "being regulated (e.g. 'facial recognition', "
+                        "'automated decision', 'deepfake', 'data center')."
+                    ),
+                },
+                "entity_type": {
+                    "anyOf": [
+                        {"type": "string"},
+                        {"type": "array", "items": {"type": "string"}},
+                    ],
+                    "description": (
+                        "Exact-match category of the entity. Common values: "
+                        "'AI application', 'technology', 'regulated entity', "
+                        "'AI technology', 'company', 'government agency', "
+                        "'developer', 'infrastructure'. Pass a list for OR."
+                    ),
+                },
+                "regulatory_mechanism": {
+                    "type": "string",
+                    "description": (
+                        "Case-insensitive substring match against the "
+                        "mechanism. Common values: 'requirement', "
+                        "'prohibition', 'disclosure requirement', "
+                        "'exemption', 'restriction', 'obligation', "
+                        "'reporting requirement', 'penalty', 'right', "
+                        "'definition'."
+                    ),
+                },
+                "provision_contains": {
+                    "type": "string",
+                    "description": (
+                        "Case-insensitive substring match against the "
+                        "provision text (the specific obligation, threshold, "
+                        "or condition as written in the bill)."
+                    ),
+                },
+                "state": {
+                    "anyOf": [
+                        {"type": "string"},
+                        {"type": "array", "items": {"type": "string"}},
+                    ],
+                    "description": (
+                        "Full state name(s) exactly as stored in the index "
+                        "(e.g. \"California\", \"Texas\"). Pass a list for "
+                        "OR. Same vocabulary as list_bills."
+                    ),
+                },
+                "year": {
+                    "anyOf": [
+                        {
+                            "type": "integer",
+                            "minimum": 1900,
+                            "maximum": 2100,
+                        },
+                        {
+                            "type": "array",
+                            "items": {
+                                "type": "integer",
+                                "minimum": 1900,
+                                "maximum": 2100,
+                            },
+                        },
+                    ],
+                    "description": (
+                        "Four-digit year(s) the bill was introduced. Pass a "
+                        "list for OR."
+                    ),
+                },
+                "bill_id": {
+                    "anyOf": [
+                        {"type": "string"},
+                        {"type": "array", "items": {"type": "string"}},
+                    ],
+                    "description": (
+                        "Restrict to one or more exact bill_ids returned by "
+                        "list_bills. Useful to enumerate every provision of "
+                        "a specific bill."
+                    ),
+                },
+                "limit": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": (
+                        "Maximum matches to return. Default "
+                        f"{_DEFAULT_QUADRUPLET_LIMIT}, capped at "
+                        f"{_MAX_QUADRUPLET_LIMIT}."
+                    ),
+                },
+            },
+            "additionalProperties": False,
+        },
+    },
+}
+
 _COMPARE_BILLS_SCHEMA: dict[str, Any] = {
     "type": "function",
     "function": {
@@ -507,14 +636,29 @@ _COMPARE_BILLS_SCHEMA: dict[str, Any] = {
 # ---------------------------------------------------------------------------
 
 
-def _coerce_filters(raw_filters: Any) -> dict[str, Any]:
-    """Coerce a raw filters payload from the LLM into a clean dict.
+def _coerce_filters(
+    raw_filters: Any,
+    *,
+    canonical_states: Iterable[str] | None = None,
+    canonical_status_buckets: Iterable[str] | None = None,
+    canonical_topics: Iterable[str] | None = None,
+) -> dict[str, Any]:
+    """Coerce a raw filters payload from the LLM into a clean, normalized dict.
 
     Accepts each scalar field (``year``, ``state``, ``status_bucket``) either
     as a scalar or as a list and preserves the chosen shape so the planner's
     downstream echo of ``applied_filters`` still reflects what it requested.
     Single-element lists are collapsed to scalars, multi-value lists stay
     lists (OR-within-field at retrieval time).
+
+    When canonical vocabulary is supplied, ``state`` values are resolved
+    through the USPS abbreviation map + case-fold (so ``"TX"``, ``"texas"``,
+    and ``"Texas"`` all map to whatever form the index stores),
+    ``status_bucket`` values are matched case-insensitively against the
+    canonical bucket set, and ``topics`` values are matched case-insensitively
+    with a difflib fuzzy fallback. Values that cannot be resolved against a
+    non-empty vocabulary are dropped so downstream exact-equality filtering
+    never runs on off-vocabulary strings.
     """
 
     if not isinstance(raw_filters, dict):
@@ -525,17 +669,32 @@ def _coerce_filters(raw_filters: Any) -> dict[str, Any]:
     if years:
         cleaned["year"] = years[0] if len(years) == 1 else years
 
-    states = _coerce_str_values(raw_filters.get("state"))
-    if states:
-        cleaned["state"] = states[0] if len(states) == 1 else states
+    raw_states = _coerce_str_values(raw_filters.get("state"))
+    if raw_states:
+        if canonical_states is not None:
+            states = normalize_states(raw_states, canonical_states)
+        else:
+            states = raw_states
+        if states:
+            cleaned["state"] = states[0] if len(states) == 1 else states
 
-    buckets = _coerce_str_values(raw_filters.get("status_bucket"))
-    if buckets:
-        cleaned["status_bucket"] = buckets[0] if len(buckets) == 1 else buckets
+    raw_buckets = _coerce_str_values(raw_filters.get("status_bucket"))
+    if raw_buckets:
+        if canonical_status_buckets is not None:
+            buckets = normalize_categoricals(raw_buckets, canonical_status_buckets)
+        else:
+            buckets = raw_buckets
+        if buckets:
+            cleaned["status_bucket"] = buckets[0] if len(buckets) == 1 else buckets
 
-    topics = _coerce_str_values(raw_filters.get("topics"))
-    if topics:
-        cleaned["topics"] = topics
+    raw_topics = _coerce_str_values(raw_filters.get("topics"))
+    if raw_topics:
+        if canonical_topics is not None:
+            topics = normalize_topics(raw_topics, canonical_topics)
+        else:
+            topics = raw_topics
+        if topics:
+            cleaned["topics"] = topics
 
     return cleaned
 
@@ -543,7 +702,9 @@ def _coerce_filters(raw_filters: Any) -> dict[str, Any]:
 def _summary_matches_filters(summary: BillSummary, filters: dict[str, Any]) -> bool:
     """Return True when a bill summary satisfies every active filter field.
 
-    Each field accepts scalar or list; list means OR-within-field.
+    Each field accepts scalar or list; list means OR-within-field. Filters
+    are expected to already be normalized to canonical form (see
+    :func:`_coerce_filters`), so this function performs plain equality.
     """
 
     years = _coerce_int_values(filters.get("year"))
@@ -561,6 +722,34 @@ def _summary_matches_filters(summary: BillSummary, filters: dict[str, Any]) -> b
     return True
 
 
+def _derive_bill_vocabulary(
+    bill_index: dict[str, BillSummary],
+) -> tuple[tuple[str, ...], tuple[str, ...], tuple[str, ...]]:
+    """Snapshot canonical state/status/topic sets once from the bill index.
+
+    Returned tuples are safe to share across closure captures because they
+    are immutable. ``STATUS_BUCKETS`` is unioned into the status set so a
+    cold index (no bills yet) still resolves the canonical five buckets.
+    """
+
+    states: set[str] = set()
+    status_buckets: set[str] = set(STATUS_BUCKETS)
+    topics: set[str] = set()
+    for summary in bill_index.values():
+        if summary.state:
+            states.add(str(summary.state))
+        if summary.status_bucket:
+            status_buckets.add(str(summary.status_bucket))
+        topics.update(str(topic) for topic in summary.topics if topic)
+    return (
+        tuple(sorted(states)),
+        tuple(sorted(status_buckets)),
+        tuple(sorted(topics)),
+    )
+
+
+
+
 # ---------------------------------------------------------------------------
 # Tool handlers
 # ---------------------------------------------------------------------------
@@ -573,8 +762,19 @@ def _list_bills_handler(
     search_backend: SearchBackend,
     agent_config: AgentConfig,
     accumulator: CitationAccumulator,
+    canonical_states: Iterable[str] | None = None,
+    canonical_status_buckets: Iterable[str] | None = None,
+    canonical_topics: Iterable[str] | None = None,
 ) -> dict[str, Any]:
-    """Return a ranked or metadata-only list of bills matching filters."""
+    """Return a ranked or metadata-only list of bills matching filters.
+
+    Canonical vocabularies are derived from ``bill_index`` at registry-build
+    time and threaded in so the handler can normalize the LLM's raw filter
+    payload (``"TX"`` -> ``"Texas"``, ``"enacted"`` -> ``"Enacted"``, etc.)
+    before retrieval. That keeps downstream exact-equality masks and
+    metadata-path filters honest without requiring the LLM to match the
+    corpus's casing.
+    """
 
     raw_limit = arguments.get("limit")
     try:
@@ -583,7 +783,12 @@ def _list_bills_handler(
         requested_limit = agent_config.max_bills_per_list
     limit = max(1, min(int(requested_limit), agent_config.max_bills_per_list))
 
-    filters = _coerce_filters(arguments.get("filters"))
+    filters = _coerce_filters(
+        arguments.get("filters"),
+        canonical_states=canonical_states,
+        canonical_status_buckets=canonical_status_buckets,
+        canonical_topics=canonical_topics,
+    )
     semantic_query = arguments.get("semantic_query")
     semantic_query = semantic_query.strip() if isinstance(semantic_query, str) else ""
 
@@ -902,6 +1107,169 @@ def _compare_bills_handler(
     }
 
 
+def _query_quadruplets_handler(
+    arguments: dict[str, Any],
+    *,
+    quadruplet_store: QuadrupletStore,
+    canonical_states: Iterable[str] | None = None,
+    canonical_entity_types: Iterable[str] | None = None,
+) -> dict[str, Any]:
+    """Return structured (entity, type, mechanism, provision) tuples for a query.
+
+    All planner-facing field names (``regulated_entity``, ``entity_type``,
+    ``regulatory_mechanism``, ``provision_text``) are used verbatim in both
+    the tool schema and this response payload so the planner can reason
+    about them without translation.
+
+    ``state`` and ``entity_type`` arguments are normalized through the
+    canonical vocabularies derived from the sidecar so ``state="TX"`` or
+    ``entity_type=["ai application"]`` resolve against a store that indexes
+    ``state="Texas"`` and ``entity_type="AI application"``. The substring
+    fields (``regulated_entity``, ``regulatory_mechanism``,
+    ``provision_contains``) already match case-insensitively inside the
+    store, so they are passed through as-is.
+    """
+
+    if quadruplet_store.total_quadruplets == 0:
+        return {
+            "matches": [],
+            "match_count": 0,
+            "total_quadruplets_available": 0,
+            "truncated": False,
+            "applied_filters": {},
+            "note": (
+                "Quadruplet sidecar is not loaded on this instance; "
+                "query_quadruplets has no data to search."
+            ),
+        }
+
+    raw_limit = arguments.get("limit")
+    try:
+        requested_limit = (
+            int(raw_limit) if raw_limit is not None else _DEFAULT_QUADRUPLET_LIMIT
+        )
+    except (TypeError, ValueError):
+        requested_limit = _DEFAULT_QUADRUPLET_LIMIT
+    limit = max(1, min(requested_limit, _MAX_QUADRUPLET_LIMIT))
+
+    regulated_entity_arg = arguments.get("regulated_entity")
+    regulated_entity = (
+        regulated_entity_arg.strip()
+        if isinstance(regulated_entity_arg, str) and regulated_entity_arg.strip()
+        else None
+    )
+    regulatory_mechanism_arg = arguments.get("regulatory_mechanism")
+    regulatory_mechanism = (
+        regulatory_mechanism_arg.strip()
+        if isinstance(regulatory_mechanism_arg, str)
+        and regulatory_mechanism_arg.strip()
+        else None
+    )
+    provision_contains_arg = arguments.get("provision_contains")
+    provision_contains = (
+        provision_contains_arg.strip()
+        if isinstance(provision_contains_arg, str) and provision_contains_arg.strip()
+        else None
+    )
+
+    raw_entity_type_values = _coerce_str_values(arguments.get("entity_type"))
+    raw_state_values = _coerce_str_values(arguments.get("state"))
+    bill_id_values = _coerce_str_values(arguments.get("bill_id"))
+    year_values = _coerce_int_values(arguments.get("year"))
+
+    effective_states = (
+        canonical_states
+        if canonical_states is not None
+        else quadruplet_store.state_vocabulary()
+    )
+    effective_entity_types = (
+        canonical_entity_types
+        if canonical_entity_types is not None
+        else quadruplet_store.entity_type_vocabulary()
+    )
+    state_values = (
+        normalize_states(raw_state_values, effective_states)
+        if raw_state_values
+        else []
+    )
+    entity_type_values = (
+        normalize_categoricals(raw_entity_type_values, effective_entity_types)
+        if raw_entity_type_values
+        else []
+    )
+
+    hits = quadruplet_store.search(
+        regulated_entity=regulated_entity,
+        entity_type=entity_type_values or None,
+        regulatory_mechanism=regulatory_mechanism,
+        provision_contains=provision_contains,
+        state=state_values or None,
+        year=year_values or None,
+        bill_id=bill_id_values or None,
+        limit=limit + 1,
+    )
+    truncated = len(hits) > limit
+    if truncated:
+        hits = hits[:limit]
+
+    applied_filters: dict[str, Any] = {}
+    if regulated_entity is not None:
+        applied_filters["regulated_entity"] = regulated_entity
+    if entity_type_values:
+        applied_filters["entity_type"] = (
+            entity_type_values[0]
+            if len(entity_type_values) == 1
+            else entity_type_values
+        )
+    if regulatory_mechanism is not None:
+        applied_filters["regulatory_mechanism"] = regulatory_mechanism
+    if provision_contains is not None:
+        applied_filters["provision_contains"] = provision_contains
+    if state_values:
+        applied_filters["state"] = (
+            state_values[0] if len(state_values) == 1 else state_values
+        )
+    if year_values:
+        applied_filters["year"] = (
+            year_values[0] if len(year_values) == 1 else year_values
+        )
+    if bill_id_values:
+        applied_filters["bill_id"] = (
+            bill_id_values[0] if len(bill_id_values) == 1 else bill_id_values
+        )
+
+    matches = [_quadruplet_to_payload(hit) for hit in hits]
+    return {
+        "matches": matches,
+        "match_count": len(matches),
+        "total_quadruplets_available": quadruplet_store.total_quadruplets,
+        "truncated": truncated,
+        "applied_filters": applied_filters,
+        "limit": limit,
+    }
+
+
+def _quadruplet_to_payload(record: QuadrupletRecord) -> dict[str, Any]:
+    """Convert a record into the JSON payload returned to the planner.
+
+    The provision text is truncated to keep tool responses within the
+    planner's context budget; the full span is still recoverable via
+    ``get_bill_content`` when the planner needs the surrounding text.
+    """
+
+    payload = record.to_dict()
+    provision_text = payload.get("provision_text", "")
+    if (
+        isinstance(provision_text, str)
+        and len(provision_text) > _QUADRUPLET_PROVISION_PREVIEW_CHARS
+    ):
+        payload["provision_text"] = (
+            provision_text[: _QUADRUPLET_PROVISION_PREVIEW_CHARS].rstrip() + "..."
+        )
+        payload["provision_truncated"] = True
+    return payload
+
+
 def _extract_completion_text(response: Any) -> str:
     """Pull the assistant text out of a chat completion response safely."""
 
@@ -932,15 +1300,26 @@ def build_qa_tool_registry(
     agent_config: AgentConfig,
     accumulator: CitationAccumulator,
     worker_budget: WorkerCallBudget,
+    quadruplet_store: QuadrupletStore | None = None,
 ) -> ToolRegistry:
-    """Build a ``ToolRegistry`` wired with the four QA planner tools.
+    """Build a ``ToolRegistry`` wired with the planner tools.
 
     Each invocation of ``PlannerAgent.answer(...)`` should build its own
     fresh ``accumulator`` and ``worker_budget`` and pass them here so
     citations and worker-call counts do not leak across questions.
+
+    ``quadruplet_store`` is optional: when provided (and non-empty), the
+    ``query_quadruplets`` tool is registered so the planner can search
+    pre-extracted (entity, type, mechanism, provision) tuples. When the
+    sidecar is absent the tool is omitted from the registry so the planner
+    does not advertise a capability that has no data behind it.
     """
 
     registry = ToolRegistry()
+
+    canonical_states, canonical_status_buckets, canonical_topics = (
+        _derive_bill_vocabulary(bill_index)
+    )
 
     registry.register(
         name="list_bills",
@@ -950,6 +1329,9 @@ def build_qa_tool_registry(
             search_backend=search_backend,
             agent_config=agent_config,
             accumulator=accumulator,
+            canonical_states=canonical_states,
+            canonical_status_buckets=canonical_status_buckets,
+            canonical_topics=canonical_topics,
         ),
         schema=_LIST_BILLS_SCHEMA,
     )
@@ -992,6 +1374,19 @@ def build_qa_tool_registry(
         ),
         schema=_COMPARE_BILLS_SCHEMA,
     )
+    if quadruplet_store is not None and quadruplet_store.total_quadruplets > 0:
+        canonical_quad_states = quadruplet_store.state_vocabulary()
+        canonical_entity_types = quadruplet_store.entity_type_vocabulary()
+        registry.register(
+            name="query_quadruplets",
+            handler=lambda arguments: _query_quadruplets_handler(
+                arguments,
+                quadruplet_store=quadruplet_store,
+                canonical_states=canonical_quad_states,
+                canonical_entity_types=canonical_entity_types,
+            ),
+            schema=_QUERY_QUADRUPLETS_SCHEMA,
+        )
     return registry
 
 

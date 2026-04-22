@@ -28,6 +28,13 @@ from .indexer import IndexStateError, LoadedIndex, QAIndexer, build_indexed_chun
 from .lexical_retriever import LexicalRetriever
 from .local_answer_support import AnswerModelOption, LocalAnswerSupport, LocalAnswerTarget
 from .provider_client import OpenAICompatibleClient, ProviderClient
+from .quadruplet_store import (
+    QuadrupletRecord,
+    QuadrupletSpan,
+    QuadrupletStore,
+    QuadrupletVocabulary,
+    load_quadruplet_store,
+)
 from .retriever import Retriever
 from .runtime import QABrowserRuntime, build_qa_browser_runtime
 from .secrets import SecretStoreError, load_secret, save_secret
@@ -59,6 +66,10 @@ __all__ = [
     "QAIndexConfig",
     "QAIndexer",
     "QAService",
+    "QuadrupletRecord",
+    "QuadrupletSpan",
+    "QuadrupletStore",
+    "QuadrupletVocabulary",
     "RetrievedChunk",
     "Retriever",
     "SecretStoreError",
@@ -67,6 +78,7 @@ __all__ = [
     "create_app",
     "load_provider_api_key",
     "load_qa_config",
+    "load_quadruplet_store",
     "load_secret",
     "save_secret",
     "validate_answer_result",

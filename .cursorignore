@@ -1,0 +1,52 @@
+﻿# Cursor: undo .gitignore exclusions for indexing/context (do not edit .gitignore for this).
+# Uses gitignore syntax; `!` re-includes paths Git would ignore (Cursor ignore-file docs).
+
+# --- Root gate (.gitignore line 2: *) - must un-ignore before deeper `!` rules apply ---
+!*
+
+# --- Mirror Git's own un-ignore list (redundant with Git but reinforces Cursor merge) ---
+!scripts/
+!scripts/**
+!src/
+!src/**
+!settings/
+!settings/**
+!docs/
+!docs/**
+!plot/
+!plot/**
+!data/ncsl/**
+!.gitignore
+!.gitattributes
+!requirements.txt
+
+# --- Entire `data/` tree (Git only whitelists ncsl; ner_runs and siblings stay gitignored) ---
+!data/
+!data/**
+
+# --- "Always ignore" block (.gitignore lines 25-32), negated everywhere ---
+!*.pyc
+!**/*.pyc
+!__pycache__/
+!**/__pycache__/
+!.ipynb_checkpoints/
+!**/.ipynb_checkpoints/
+!.venv/
+!**/.venv/
+!.claude/
+!**/.claude/
+!.DS_Store
+!**/.DS_Store
+!Thumbs.db
+!**/Thumbs.db
+!~$*
+!**/~$*
+
+
+# Root tooling / loose files still hidden by Git `*` until tracked (explicit for Cursor merge)
+!.cursor/
+!.cursor/**
+!.vscode/
+!.vscode/**
+!*.ipynb
+!**/*.ipynb

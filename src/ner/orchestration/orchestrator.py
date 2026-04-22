@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 import asyncio
+import logging
+import time
 from dataclasses import dataclass
+
+logger = logging.getLogger(__name__)
 
 from ..agents.eval_assembler import EvalAssembler
 from ..agents.granularity_refiner import GranularityRefiner, RefinementRequest
@@ -115,17 +119,41 @@ class Orchestrator:
             )
             return []
 
+        bill_t0 = time.perf_counter()
+
+        t0 = time.perf_counter()
         candidates = await self._run_annotation(bill_id=bill_id, chunks=chunks, resume=resume)
+        logger.info(
+            "bill=%s  annotation done  chunks=%d  candidates=%d  elapsed=%.1fs",
+            bill_id, len(chunks), len(candidates), time.perf_counter() - t0,
+        )
+
+        t0 = time.perf_counter()
         grouped_sets = self._run_grouping(
             bill_id=bill_id,
             candidates=candidates,
             resume=resume,
         )
+        logger.info(
+            "bill=%s  grouping done  groups=%d  elapsed=%.1fs",
+            bill_id, len(grouped_sets), time.perf_counter() - t0,
+        )
+
+        t0 = time.perf_counter()
         refined_outputs = await self._run_refinement(
             bill_id=bill_id,
             grouped_sets=grouped_sets,
             candidates=candidates,
             resume=resume,
+        )
+        logger.info(
+            "bill=%s  refinement done  refined=%d  elapsed=%.1fs",
+            bill_id, len(refined_outputs), time.perf_counter() - t0,
+        )
+
+        logger.info(
+            "bill=%s  all stages complete  total_elapsed=%.1fs",
+            bill_id, time.perf_counter() - bill_t0,
         )
         return refined_outputs
 
@@ -254,10 +282,9 @@ class Orchestrator:
             resume: Whether persisted chunk outputs may be reused.
 
         Returns:
-            Bill-level candidate pool aggregated in chunk order.
-
-        Raises:
-            StageFailure: If annotation fails validation or runtime execution.
+            Bill-level candidate pool aggregated in chunk order.  Individual
+            chunk failures are logged and contribute zero candidates rather
+            than aborting the bill.
         """
 
         semaphore = asyncio.Semaphore(self._concurrency)
@@ -269,10 +296,18 @@ class Orchestrator:
                 return self._artifact_store.load_candidates(
                     self._run_id, bill_id, chunk.chunk_id,
                 )
-            async with semaphore:
-                return await asyncio.to_thread(
-                    self._annotate_single_chunk, bill_id, chunk,
+            try:
+                async with semaphore:
+                    return await asyncio.to_thread(
+                        self._annotate_single_chunk, bill_id, chunk,
+                    )
+            except StageFailure as exc:
+                logger.warning(
+                    "Chunk annotation failed bill=%s chunk=%s: %s. "
+                    "Returning zero candidates for this chunk.",
+                    bill_id, chunk.chunk_id, exc.detail,
                 )
+                return []
 
         chunk_results = await asyncio.gather(
             *[_annotate_or_resume(chunk) for chunk in chunks]
@@ -502,12 +537,15 @@ class Orchestrator:
 
         candidate_counts_by_chunk: dict[str, int] = {}
         for chunk in chunks:
-            persisted_candidates = self._artifact_store.load_candidates(
-                self._run_id,
-                bill_id,
-                chunk.chunk_id,
-            )
-            candidate_counts_by_chunk[str(chunk.chunk_id)] = len(persisted_candidates)
+            if self._artifact_store.candidate_chunk_exists(
+                self._run_id, bill_id, chunk.chunk_id,
+            ):
+                persisted_candidates = self._artifact_store.load_candidates(
+                    self._run_id, bill_id, chunk.chunk_id,
+                )
+                candidate_counts_by_chunk[str(chunk.chunk_id)] = len(persisted_candidates)
+            else:
+                candidate_counts_by_chunk[str(chunk.chunk_id)] = 0
 
         return {
             "chunk_ids_in_order": [chunk.chunk_id for chunk in chunks],

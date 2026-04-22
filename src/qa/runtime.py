@@ -32,12 +32,14 @@ from .qa_tools import (
     VectorSearchBackend,
     build_bill_index,
 )
+from .quadruplet_store import QuadrupletStore, load_quadruplet_store
 from .retriever import Retriever
 from .service import QAService
 from .web_app import create_app
 
 _VECTOR_RETRIEVAL_BACKEND = "vector"
 _LEXICAL_RETRIEVAL_BACKEND = "lexical"
+_QUADRUPLET_SIDECAR_FILENAME = "quadruplets.jsonl"
 
 
 @dataclass(slots=True)
@@ -96,6 +98,11 @@ def build_qa_browser_runtime(
         answer_model_option.option_id for answer_model_option in answer_model_options
     )
 
+    quadruplet_store = _load_quadruplet_store_from_config(project_root, config)
+    emit_runtime_diagnostic(
+        f"QA quadruplet store loaded: {quadruplet_store.total_quadruplets} records"
+    )
+
     indexer = QAIndexer(
         project_root=project_root,
         config=config,
@@ -114,6 +121,7 @@ def build_qa_browser_runtime(
             search_backend=vector_search_backend,
             worker_model=config.models.worker_model,
             agent_config=config.agent,
+            quadruplet_store=quadruplet_store,
         )
         emit_runtime_diagnostic("QA planner agent ready (vector backend)")
         qa_service = QAService(
@@ -151,6 +159,7 @@ def build_qa_browser_runtime(
             search_backend=lexical_search_backend,
             worker_model=config.models.worker_model,
             agent_config=config.agent,
+            quadruplet_store=quadruplet_store,
         )
         emit_runtime_diagnostic("QA planner agent ready (lexical backend)")
         qa_service = QAService(
@@ -182,12 +191,15 @@ def _build_planner_agent(
     search_backend: SearchBackend,
     worker_model: str,
     agent_config,
+    quadruplet_store: QuadrupletStore,
 ) -> PlannerAgent:
     """Build a ``PlannerAgent`` backed by the shared OpenAI-compatible client.
 
     The bill-level metadata index is prebuilt here so the one-shot JSONL
     sweep for a production ``ChunkStore`` happens at startup rather than
-    on the first question.
+    on the first question. ``quadruplet_store`` is forwarded unchanged; an
+    empty store disables the ``query_quadruplets`` tool without any other
+    runtime impact.
     """
 
     bill_index = build_bill_index(chunks)
@@ -199,7 +211,24 @@ def _build_planner_agent(
         worker_model=worker_model,
         agent_config=agent_config,
         bill_index=bill_index,
+        quadruplet_store=quadruplet_store,
     )
+
+
+def _load_quadruplet_store_from_config(
+    project_root: Path,
+    config,
+) -> QuadrupletStore:
+    """Resolve the sidecar path from ``config`` and load the store.
+
+    The sidecar is always placed next to the persisted QA cache so the
+    same ``QA_CACHE_DIR`` environment variable that moves ``chunks.jsonl``
+    to Render's persistent disk also moves ``quadruplets.jsonl``.
+    """
+
+    cache_dir = config.resolve_cache_dir(project_root)
+    sidecar_path = cache_dir / _QUADRUPLET_SIDECAR_FILENAME
+    return load_quadruplet_store(sidecar_path)
 
 
 def _build_answer_model_options(

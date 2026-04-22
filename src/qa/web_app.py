@@ -52,7 +52,7 @@ _PAGE_TEMPLATE = """
       <div style="margin-top: 0.5rem;">
         <label style="font-weight: normal;">
           <input type="checkbox" name="show_trace" value="1" {% if show_trace_checked %}checked{% endif %}>
-          Show planner trace (internal messages, tool calls, and tool results)
+          Show trace
         </label>
       </div>
       <div>

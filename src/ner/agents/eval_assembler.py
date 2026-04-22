@@ -7,6 +7,7 @@
 
 from __future__ import annotations
 
+import logging
 from typing import Any
 
 from .base import AgentResult, BaseAgent
@@ -17,6 +18,7 @@ from .shared import (
     render_prompt,
     serialize_for_prompt,
 )
+from ..runtime.llm_client import EmptyCompletionError, RefusalError
 from ..schemas.artifacts import CandidateQuadruplet, GroupedCandidateSet
 from ..schemas.constants import CANONICAL_FIELD_ORDER, stable_int_id
 from ..schemas.validation import (
@@ -24,6 +26,8 @@ from ..schemas.validation import (
     validate_candidate_quadruplet,
     validate_grouped_candidate_set,
 )
+
+logger = logging.getLogger(__name__)
 
 _MAX_CANDIDATES_FOR_LLM_GROUPING = 80
 
@@ -145,14 +149,24 @@ class EvalAssembler(BaseAgent[list[CandidateQuadruplet], list[GroupedCandidateSe
             self._prompt_template,
             candidates_json=serialize_for_prompt(input_data),
         )
-        raw_response = self._prompt_executor.execute(
-            prompt=prompt,
-            output_schema=self._output_schema,
-            execution_config=self._execution_config,
-        )
+        raw_response = ""
         try:
+            raw_response = self._prompt_executor.execute(
+                prompt=prompt,
+                output_schema=self._output_schema,
+                execution_config=self._execution_config,
+            )
             parsed_groups = self._parse_groups(input_data, raw_response)
-        except SchemaValidationError:
+        except RefusalError as exc:
+            logger.warning(
+                "EvalAssembler upstream refusal  candidate_count=%d  "
+                "provider=%s  prompt_tokens=%d  action=deterministic_fallback_groups",
+                len(input_data),
+                exc.provider,
+                exc.prompt_tokens,
+            )
+            parsed_groups = self._build_fallback_groups(input_data)
+        except (SchemaValidationError, EmptyCompletionError):
             parsed_groups = self._build_fallback_groups(input_data)
 
         return AgentResult(

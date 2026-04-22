@@ -1,0 +1,110 @@
+---
+title: "AI Bills QA App"
+format: html
+---
+
+## Launch
+
+<p>
+  <a class="btn btn-primary btn-lg" href="https://ai-policy-qa.onrender.com" target="_blank" rel="noopener noreferrer">
+    Launch AI Bills QA App
+  </a>
+</p>
+
+The application opens in a new tab because it is hosted separately from this Quarto course site.
+
+## Why This App?
+
+U.S. states have introduced a dramatic wave of AI-related legislation in recent years, yet only a small fraction of these bills ultimately become law. Understanding this landscape requires more than reading aggregate adoption counts which requires engaging directly with the text of individual bills across dozens of jurisdictions.
+
+This project treats AI legislation as a data mining problem. The corpus spans 1,879 bills across 53 jurisdictions and three legislative years (137 bills from 2023, 480 from 2024, 1,262 from 2025), covering topics from transparency and accountability requirements to regulatory frameworks and consumer protections. Because the bills vary widely in scope, framing, and language, navigating them manually is impractical. The QA app addresses that problem directly: it lets users ask natural-language questions against the full bill corpus and receive grounded answers drawn from retrieved bill passages, with citations back to the source text.
+
+The app supports the broader research goal of predicting bill enactment from legislative, political, and economic factors. Analysts can use it to quickly surface how specific provisions, such as definitions of high-risk AI, transparency mandates, or enforcement mechanisms, are distributed across states, without reading every bill in full. It is also designed to make the dataset accessible to non-technical audiences who want to explore AI policy trends without writing code.
+
+## Usage Guide
+
+### Inputs
+
+| Input | What the user provides | Notes |
+|---|---|---|
+| Question | A natural-language question about U.S. state AI bills | Example: "Which states propose transparency requirements for high-risk AI?" |
+| Answer model | One model selected from the dropdown menu | The chosen model drives both the planner agent and the summarize/compare worker tools, so one selection swaps both halves of the pipeline |
+| Show planner trace | Optional checkbox on the form | When checked, the response includes the planner's internal messages, tool calls, and tool results so the user can audit how the answer was produced |
+
+### Outputs
+
+| Output | What the app returns | Why it matters |
+|---|---|---|
+| Answer | A direct natural-language response to the question | Gives a readable synthesis instead of raw search results |
+| Citations | Ranked supporting passages from retrieved bill chunks | Grounds the answer in source text rather than free-form generation |
+| Bill metadata | Bill ID, state, title, status, offsets, and retrieval score | Helps the user inspect where the evidence came from |
+| Inferred filters | The state, year, status, and topic filters parsed from the question by the filter-extractor pass | Makes the pre-retrieval filter narrowing visible so the user can catch over- or under-constraint |
+| Planner trace (optional) | Per-turn planner messages, tool calls, and tool results, shown when the user checks "Show planner trace" | Turns the agent loop from a black box into an inspectable trace for debugging and trust |
+| Error / validation feedback | A clear message if the question is missing or a request fails | Makes failure states explicit rather than silent |
+
+### Suggested Query Types
+
+- Cross-state comparison questions
+- Definition questions about bill language
+- Questions about requirements, restrictions, penalties, or enforcement
+- Questions about trends across recent AI legislation
+
+## Architecture
+
+
+### Tech Stack
+
+| Layer | Purpose | Design choice |
+|---|---|---|
+| Interface layer | Accepts natural-language questions and returns answers with citations | A lightweight web interface keeps the app accessible to non-technical users |
+| Orchestration layer | Coordinates retrieval, model selection, and response assembly | One shared QA service keeps the control flow separate from the UI |
+| Retrieval layer | Finds relevant bill passages before answer generation | Dense vector retrieval is the primary method, with BM25-style lexical fallback for robustness |
+| Generation layer | Produces grounded answers from retrieved evidence | The app uses Retrieval-Augmented Generation (RAG) rather than answering from the model alone |
+| Model access layer | Connects the app to hosted or local language models through one consistent interface | A unified OpenAI-compatible API layer reduces provider lock-in |
+| Persistence layer | Reuses precomputed retrieval artifacts across sessions | Chunk metadata, embedding caches, and index state are stored for faster startup and lower serving cost |
+
+### Pipeline
+
+1. The bill corpus is split into overlapping text chunks so long legislative documents can be searched at passage level.
+2. The chunks are indexed and stored on disk, including embeddings and per-chunk metadata (state, year, status bucket, topics) so the retrieval layer can both rank semantically and filter by metadata fields. The index is cached across sessions.
+3. When a user submits a question, a lightweight filter-extractor LLM pass parses the question into a semantic rewrite and a set of metadata filters (state, year, status, topics). Filters accept either a single value or a list, so "California or Texas" or "enacted or pending" resolve to OR-within-field semantics while constraints from different fields still AND together.
+4. A planner agent then runs a multi-turn tool-calling loop with four primitives: `list_bills` (filtered, semantically-ranked candidate list), `get_bill_content` (full text for one bill), `summarize_bill` (worker-LLM summary of one bill), and `compare_bills` (worker-LLM side-by-side across several bills). The planner decides how many calls to make, in what order, within the per-question budgets configured in `settings/qa_config.yml`.
+5. If a ready vector index is unavailable, the same tools fall back to BM25-style lexical retrieval so question answering can still run.
+6. The planner writes a final grounded answer from the evidence it collected, and the app returns a natural-language answer together with ranked citations, bill metadata, the inferred filters, and — when the user checks "Show planner trace" — the per-turn planner messages, tool calls, and tool results.
+
+### Tools Used
+
+| Tool / platform | Role | Usage in this project |
+|---|---|---|
+| Quarto + GitHub Pages | Documentation and launch surface | Hosts this project page and the external launch link |
+| Flask | Web application framework | Serves the browser interface and the QA API |
+| Render | Application hosting | Hosts the live QA web app |
+| OpenRouter | Hosted model gateway | Provides a unified OpenAI-compatible endpoint for model access |
+| `openai/text-embedding-3-small` | Embedding model | Converts bill chunks and user questions into vectors for semantic retrieval |
+| `google/gemini-2.5-flash` | Default answer model | Generates the default grounded answer from retrieved bill text |
+| Additional hosted models | Alternative answer models | Lets users compare answer generation across multiple LLMs |
+| Optional local OpenAI-compatible runtime | Local model routing | Adds a local answer model when a healthy local runtime is available |
+
+## Versions
+
+The QA app evolved through three distinct retrieval-and-answer strategies. Each version is evaluated against the same 20-question ground-truth set; full numbers are in `docs/qa_app_eval.md`.
+
+### V1 — single-pass RAG (baseline)
+
+The user's question is embedded directly, dense retrieval returns the top-k chunks over the entire index with no filtering, and those chunks are stuffed into a single grounded-answer prompt. No LLM runs before retrieval, and there is no agent or tool-calling step. This is the classic textbook RAG flow and the starting point for the app.
+
+### V1 → V2 — self-query RAG (filter extractor added)
+
+- A cheap filter-extractor LLM pass is introduced before retrieval. It parses the question into a semantic rewrite plus a metadata-filter dictionary (state, year, status, topics).
+- The retriever now masks its candidate set by those filters before ranking by dense similarity, so the answer prompt only ever sees passages from the right jurisdictions and years.
+- The answer-generation prompt itself is unchanged from V1.
+- Net effect: reduces retrieval noise on filter-heavy questions, but introduces new failures when the extractor over-constrains (e.g. forces a single state when the question names several, or concatenates two topic labels into one string).
+
+### V2 → V3 — agentic RAG with planner (current)
+
+- A planner LLM is added on top of the V2 primitives. It drives a multi-turn tool-calling loop built on `src/agent/loop.py` and can issue zero-to-many tool calls per question.
+- Four tools are exposed: `list_bills`, `get_bill_content`, `summarize_bill`, `compare_bills`. `summarize_bill` and `compare_bills` call their own worker LLM, which lets the planner answer list/compare/aggregate questions without putting the whole corpus in one prompt.
+- Filter logic now supports OR-within-field (e.g. `state in [CA, TX]`, `status_bucket in [Enacted, Pending]`) while still AND-ing across different fields.
+- The UI's model dropdown now drives both the planner model and the worker model in one selection.
+- An optional per-request "Show planner trace" checkbox captures the planner's internal messages, tool calls, and tool results for inspection, with a YAML-controlled default for the checkbox state.
+- Per-question budgets (`max_planner_turns`, `max_tool_calls`, `max_worker_calls`, `max_bills_per_list`) are configurable in `settings/qa_config.yml` instead of hardcoded.

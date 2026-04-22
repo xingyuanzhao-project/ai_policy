@@ -16,11 +16,11 @@ runtime:
 agents:
   zero_shot_annotator:
     temperature: 0.0
-    max_tokens: 768
+    max_tokens: 1024
   eval_assembler:
     temperature: 0.0
-    max_tokens: 11000
+    max_tokens: 16384
   granularity_refiner:
     temperature: 0.0
-    max_tokens: 512
+    max_tokens: 16384
 

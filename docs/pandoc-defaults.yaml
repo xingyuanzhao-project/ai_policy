@@ -1,0 +1,7 @@
+from: markdown
+to: pdf
+output-file: mpsa_draft_v6.pdf
+input-files:
+  - mpsa_draft_v6.md
+cite-method: biblatex
+standalone: true

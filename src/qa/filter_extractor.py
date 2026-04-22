@@ -20,6 +20,11 @@ from typing import Any
 from openai import OpenAI
 
 from .artifacts import STATUS_BUCKETS
+from .filter_normalizers import (
+    normalize_categorical,
+    normalize_state,
+    normalize_topic,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -34,15 +39,18 @@ _EXTRACTOR_SYSTEM_PROMPT = (
     "- Only populate `state`, `year`, `status_bucket`, or `topics` when the "
     "question clearly constrains them. When in doubt, omit the field.\n"
     "- Every filter field is a LIST. Use a single-element list for one value "
-    "(e.g. state=[\"CA\"]) and a multi-element list when the user asks for "
-    "several alternatives joined by 'or' (e.g. 'California or Texas' -> "
-    "state=[\"CA\",\"TX\"]; 'enacted or pending' -> status_bucket=[\"Enacted\","
-    "\"Pending\"]). Within a field, multiple values mean OR at retrieval; "
-    "across fields values are combined with AND.\n"
-    "- Every item in `state` MUST be one of the listed state codes, every "
-    "item in `status_bucket` MUST be one of the listed buckets, and every "
-    "item in `topics` MUST be an exact match from the listed topic "
-    "vocabulary. Never invent new values."
+    "(e.g. state=[\"California\"]) and a multi-element list when the user "
+    "asks for several alternatives joined by 'or' (e.g. 'California or "
+    "Texas' -> state=[\"California\",\"Texas\"]; 'enacted or pending' -> "
+    "status_bucket=[\"Enacted\",\"Pending\"]). Within a field, multiple "
+    "values mean OR at retrieval; across fields values are combined with "
+    "AND.\n"
+    "- `state` values must use full state names as stored in the index "
+    "(\"California\", \"Texas\", \"New York\"), NOT USPS two-letter codes. "
+    "The server will still tolerate \"CA\"/\"TX\" via its normalizer, but "
+    "emit the full name by default. Every item in `status_bucket` MUST be "
+    "one of the listed buckets, and every item in `topics` MUST be an exact "
+    "match from the listed topic vocabulary. Never invent new values."
 )
 
 _EXTRACTOR_MAX_TOKENS = 256
@@ -218,9 +226,10 @@ class FilterExtractor:
             "type": "array",
             "items": state_items,
             "description": (
-                "One or more two-letter USPS state codes. Multiple states "
+                "One or more full state names exactly as stored in the "
+                "index (e.g. \"California\", \"Texas\"). Multiple states "
                 "mean OR at retrieval (e.g. 'California or Texas' -> "
-                "[\"CA\", \"TX\"])."
+                "[\"California\", \"Texas\"])."
             ),
         }
 
@@ -291,8 +300,18 @@ def _validate_filters(
     """Keep only filter values present in the available-values vocabulary.
 
     Every scalar field (``year``, ``state``, ``status_bucket``) accepts either
-    a scalar or a list from the LLM. The validator drops unknown values and
-    collapses single-value lists back to scalars so downstream consumers that
+    a scalar or a list from the LLM. Unknown values are dropped. Known values
+    are normalized against the canonical vocabulary:
+
+    - ``state`` is resolved via the USPS <-> full-name alias map + case-fold,
+      so ``"TX"``, ``"texas"``, and ``"Texas"`` all collapse to whatever form
+      ``available_filter_values["state"]`` actually stores.
+    - ``status_bucket`` is matched case-insensitively against the canonical
+      five-bucket set.
+    - ``topics`` are matched case-insensitively with a difflib fuzzy fallback
+      so minor casing or punctuation drift still resolves.
+
+    Single-value lists collapse back to scalars so downstream consumers that
     pre-date the OR feature still see the old shape; 2+ valid values are
     preserved as a list for OR-within-field matching.
     """
@@ -304,25 +323,39 @@ def _validate_filters(
     if years:
         cleaned["year"] = years[0] if len(years) == 1 else years
 
-    valid_states = {
-        str(value).strip() for value in available_filter_values.get("state", [])
-    }
-    states = _extract_str_field(arguments.get("state"), valid_states)
+    canonical_states = [
+        str(value).strip()
+        for value in available_filter_values.get("state", [])
+        if isinstance(value, str) and str(value).strip()
+    ]
+    states = _extract_str_field_via(
+        arguments.get("state"),
+        lambda raw: normalize_state(raw, canonical_states),
+    )
     if states:
         cleaned["state"] = states[0] if len(states) == 1 else states
 
-    valid_statuses = {
+    canonical_statuses = [
         str(value).strip()
         for value in available_filter_values.get("status_bucket", [])
-    } or set(STATUS_BUCKETS)
-    statuses = _extract_str_field(arguments.get("status_bucket"), valid_statuses)
+        if isinstance(value, str) and str(value).strip()
+    ] or list(STATUS_BUCKETS)
+    statuses = _extract_str_field_via(
+        arguments.get("status_bucket"),
+        lambda raw: normalize_categorical(raw, canonical_statuses),
+    )
     if statuses:
         cleaned["status_bucket"] = statuses[0] if len(statuses) == 1 else statuses
 
-    valid_topics = {
-        str(value).strip() for value in available_filter_values.get("topics", [])
-    }
-    topics = _extract_str_field(arguments.get("topics"), valid_topics)
+    canonical_topics = [
+        str(value).strip()
+        for value in available_filter_values.get("topics", [])
+        if isinstance(value, str) and str(value).strip()
+    ]
+    topics = _extract_str_field_via(
+        arguments.get("topics"),
+        lambda raw: normalize_topic(raw, canonical_topics),
+    )
     if topics:
         cleaned["topics"] = topics
 
@@ -387,6 +420,44 @@ def _extract_str_field(raw: Any, allowed: set[str]) -> list[str]:
             continue
         if value not in cleaned:
             cleaned.append(value)
+    return cleaned
+
+
+def _extract_str_field_via(
+    raw: Any,
+    normalizer: "callable[[str], str | None]",
+) -> list[str]:
+    """Like ``_extract_str_field`` but resolves each value through ``normalizer``.
+
+    ``normalizer`` takes a single raw string and returns the canonical value
+    (as it appears in the vocabulary) or ``None`` if the value cannot be
+    resolved. This is the plumbing that lets ``"TX"``, ``"texas"``, and
+    ``"Texas"`` all collapse to the single canonical form stored in
+    ``available_filter_values`` without silently dropping unknown inputs via
+    plain set membership.
+    """
+
+    candidates: list[Any]
+    if raw is None:
+        candidates = []
+    elif isinstance(raw, (list, tuple, set, frozenset)):
+        candidates = list(raw)
+    elif isinstance(raw, str):
+        candidates = [raw]
+    else:
+        candidates = [raw]
+    cleaned: list[str] = []
+    for candidate in candidates:
+        if not isinstance(candidate, str):
+            continue
+        value = candidate.strip()
+        if not value:
+            continue
+        resolved = normalizer(value)
+        if not resolved:
+            continue
+        if resolved not in cleaned:
+            cleaned.append(resolved)
     return cleaned
 
 

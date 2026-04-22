@@ -9,10 +9,13 @@ from __future__ import annotations
 
 import csv
 import json
+import logging
 from pathlib import Path
 
 from ..schemas.artifacts import BillRecord
 from ..schemas.validation import validate_bill_record
+
+logger = logging.getLogger(__name__)
 
 
 class CorpusStore:
@@ -37,15 +40,27 @@ class CorpusStore:
     def load(self) -> list[BillRecord]:
         """Load the configured corpus file into canonical ``BillRecord`` objects.
 
+        Rows whose ``text`` field is empty after normalization are dropped
+        because they contain no extractable content (e.g. failed web scrapes).
+
         Returns:
             list[BillRecord]: Ordered list of parsed bill records from the
-                configured corpus.
+                configured corpus, excluding empty-text rows.
         """
 
         if self._corpus_path.suffix.lower() == ".jsonl":
-            records = self._load_jsonl()
+            all_records = self._load_jsonl()
         else:
-            records = self._load_csv()
+            all_records = self._load_csv()
+
+        records = [r for r in all_records if r.text.strip()]
+        skipped = len(all_records) - len(records)
+        if skipped:
+            logger.info(
+                "Filtered %d empty-text rows from corpus (%d kept)",
+                skipped,
+                len(records),
+            )
 
         self._records_by_bill_id = {record.bill_id: record for record in records}
         return records
@@ -111,6 +126,11 @@ class CorpusStore:
 def _row_to_bill_record(row: dict[str, object]) -> BillRecord:
     """Normalize one CSV or JSONL payload into the canonical bill schema.
 
+    When the source row contains a ``year`` field the resulting ``bill_id`` is
+    year-qualified (``{year}__{source_bill_id}``) so that the same legislative
+    bill number appearing in different sessions does not collide in artifact
+    storage or the corpus-store lookup dict.
+
     Args:
         row (dict[str, object]): Source row decoded from CSV or JSONL.
 
@@ -118,14 +138,20 @@ def _row_to_bill_record(row: dict[str, object]) -> BillRecord:
         BillRecord: Canonical ``BillRecord`` produced from the source row.
     """
 
+    raw_bill_id = _normalize_text(row.get("bill_id"))
+    year = _normalize_text(row.get("year"))
+    qualified_bill_id = f"{year}__{raw_bill_id}" if year else raw_bill_id
+
     record = BillRecord(
-        bill_id=_normalize_text(row.get("bill_id")),
+        bill_id=qualified_bill_id,
         state=_normalize_text(row.get("state")),
         text=_normalize_text(
             row.get("text"),
             preserve_none_as_empty=True,
             strip_whitespace=False,
         ),
+        year=year,
+        source_bill_id=raw_bill_id,
         bill_url=_normalize_text(row.get("bill_url")),
         title=_normalize_text(row.get("title")),
         status=_normalize_text(row.get("status")),

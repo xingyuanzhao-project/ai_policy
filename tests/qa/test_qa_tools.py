@@ -590,6 +590,128 @@ class ListBillsToolTests(unittest.TestCase):
         self.assertEqual(returned_ids, {"CA-2024-AI"})
         self.assertEqual(payload["applied_filters"], {"state": "CA"})
 
+    def test_list_bills_resolves_full_state_name_against_abbrev_corpus(self) -> None:
+        """Verify ``state="Texas"`` resolves against a corpus that stores ``"TX"``.
+
+        This is the direct regression guard for the bug the planner hit on
+        Render: the LLM was told to emit ``"Texas"`` but the corpus stored
+        ``"TX"``, and plain exact-equality returned zero bills. The new
+        normalizer folds the full name through ``US_STATE_NAME_TO_ABBREV``
+        against the canonical vocabulary derived from ``bill_index``.
+        """
+
+        chunks = _make_chunks()
+        bill_index = build_bill_index(chunks)
+        search_backend = _RecordingSearchBackend(chunks=[])
+        registry = build_qa_tool_registry(
+            chunks=chunks,
+            bill_index=bill_index,
+            search_backend=search_backend,
+            worker_client=_FakeOpenAIClient.with_completion(),
+            worker_model=_DEFAULT_WORKER_MODEL,
+            agent_config=_make_agent_config(),
+            accumulator=CitationAccumulator(max_per_bill=2),
+            worker_budget=WorkerCallBudget(max_calls=3),
+        )
+
+        raw_result = registry.execute(
+            "list_bills",
+            {"filters": {"state": "Texas"}, "limit": 10},
+        )
+        payload = json.loads(raw_result)
+
+        returned_ids = {bill["bill_id"] for bill in payload["bills"]}
+        self.assertEqual(returned_ids, {"TX-2023-SB"})
+        self.assertEqual(payload["applied_filters"], {"state": "TX"})
+
+    def test_list_bills_resolves_mixed_case_state_abbrev(self) -> None:
+        """Verify ``state="tx"`` (lowercase abbrev) resolves to the canonical form.
+
+        The LLM occasionally emits lowercase USPS codes; the retriever's
+        metadata mask is exact-equality on ``"TX"``, so the normalizer must
+        case-fold before the mask runs.
+        """
+
+        chunks = _make_chunks()
+        bill_index = build_bill_index(chunks)
+        search_backend = _RecordingSearchBackend(chunks=[])
+        registry = build_qa_tool_registry(
+            chunks=chunks,
+            bill_index=bill_index,
+            search_backend=search_backend,
+            worker_client=_FakeOpenAIClient.with_completion(),
+            worker_model=_DEFAULT_WORKER_MODEL,
+            agent_config=_make_agent_config(),
+            accumulator=CitationAccumulator(max_per_bill=2),
+            worker_budget=WorkerCallBudget(max_calls=3),
+        )
+
+        raw_result = registry.execute(
+            "list_bills",
+            {"filters": {"state": "tx"}, "limit": 10},
+        )
+        payload = json.loads(raw_result)
+
+        returned_ids = {bill["bill_id"] for bill in payload["bills"]}
+        self.assertEqual(returned_ids, {"TX-2023-SB"})
+        self.assertEqual(payload["applied_filters"], {"state": "TX"})
+
+    def test_list_bills_resolves_case_insensitive_status_bucket(self) -> None:
+        """Verify ``status_bucket="enacted"`` folds to the canonical ``"Enacted"``."""
+
+        chunks = _make_chunks()
+        bill_index = build_bill_index(chunks)
+        search_backend = _RecordingSearchBackend(chunks=[])
+        registry = build_qa_tool_registry(
+            chunks=chunks,
+            bill_index=bill_index,
+            search_backend=search_backend,
+            worker_client=_FakeOpenAIClient.with_completion(),
+            worker_model=_DEFAULT_WORKER_MODEL,
+            agent_config=_make_agent_config(),
+            accumulator=CitationAccumulator(max_per_bill=2),
+            worker_budget=WorkerCallBudget(max_calls=3),
+        )
+
+        raw_result = registry.execute(
+            "list_bills",
+            {"filters": {"status_bucket": "enacted"}, "limit": 10},
+        )
+        payload = json.loads(raw_result)
+
+        returned_ids = {bill["bill_id"] for bill in payload["bills"]}
+        self.assertEqual(returned_ids, {"CA-2024-AI", "TX-2023-SB"})
+        self.assertEqual(payload["applied_filters"], {"status_bucket": "Enacted"})
+
+    def test_list_bills_resolves_case_insensitive_topic(self) -> None:
+        """Verify ``topics=["private sector use"]`` folds to canonical topic casing."""
+
+        chunks = _make_chunks()
+        bill_index = build_bill_index(chunks)
+        search_backend = _RecordingSearchBackend(chunks=[])
+        registry = build_qa_tool_registry(
+            chunks=chunks,
+            bill_index=bill_index,
+            search_backend=search_backend,
+            worker_client=_FakeOpenAIClient.with_completion(),
+            worker_model=_DEFAULT_WORKER_MODEL,
+            agent_config=_make_agent_config(),
+            accumulator=CitationAccumulator(max_per_bill=2),
+            worker_budget=WorkerCallBudget(max_calls=3),
+        )
+
+        raw_result = registry.execute(
+            "list_bills",
+            {"filters": {"topics": ["private sector use"]}, "limit": 10},
+        )
+        payload = json.loads(raw_result)
+
+        returned_ids = {bill["bill_id"] for bill in payload["bills"]}
+        self.assertEqual(returned_ids, {"CA-2024-AI", "NY-2025-HB"})
+        self.assertEqual(
+            payload["applied_filters"], {"topics": ["Private Sector Use"]}
+        )
+
 
 class GetBillContentToolTests(unittest.TestCase):
     """Verify ``get_bill_content`` assembly and error handling."""

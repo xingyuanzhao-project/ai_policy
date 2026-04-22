@@ -299,9 +299,13 @@ def _iter_nonempty_lines(handle: Iterable[str]) -> Iterable[str]:
 def _coerce_str_values(raw: object) -> list[str]:
     """Normalize a scalar-or-iterable filter value into a list of non-empty strings.
 
-    Used by the retrievers and tool handlers so that ``filters={"state": "CA"}``
-    and ``filters={"state": ["CA", "TX"]}`` behave identically, with the list
-    form giving OR-within-field semantics.
+    Used by the retrievers and tool handlers so that
+    ``filters={"state": "California"}`` and
+    ``filters={"state": ["California", "Texas"]}`` behave identically, with
+    the list form giving OR-within-field semantics. Vocabulary-level
+    normalization (USPS ``"TX"`` -> ``"Texas"``, case-folding, topic fuzzy
+    match) happens upstream in ``filter_normalizers`` / ``_coerce_filters``;
+    this helper only handles the shape, not the values.
     """
 
     if raw is None or raw == 0:

@@ -1,0 +1,17 @@
+# Skill-driven NER pipeline configuration
+#
+# Model and tool-calling settings for the agentic extraction approach.
+# API connection (base_url, api_key) is read from the shared config.yml.
+
+model_name: anthropic/claude-sonnet-4.5
+concurrency: 10
+max_tool_turns: 50
+max_tokens: 16384
+request_timeout_seconds: 120
+max_retries: 2
+
+storage:
+  base_dir: data/skill_ner_runs
+
+runtime:
+  max_bill_text_chars: 100000

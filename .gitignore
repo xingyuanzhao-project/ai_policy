@@ -1,32 +1,81 @@
-# Ignore everything at root
-*
+# ============================================================
+# Repo-root: ignore everything, then whitelist what we track
+# ============================================================
+/*
 
-# Track folders only
-!scripts/
-!scripts/**
-!src/
-!src/**
-!settings/
-!settings/**
-!docs/
-!docs/**
-!plot/
-!plot/**
-!data/ncsl/**
+# Repo metadata at root
+!/.gitignore
+!/.gitattributes
+!/.cursorignore
+!/README.md
+!/requirements.txt
+!/requirements-render.txt
+!/render.yaml
 
+# Top-level project dirs we track
+!/scripts/
+!/src/
+!/tests/
+!/settings/
+!/docs/
+!/plot/
+!/data/
 
-# Git config files (mandatory)
-!.gitignore
-!.gitattributes
-
-!requirements.txt
-
-# Always ignore
+# ============================================================
+# Always ignore (anywhere in the tree)
+# ============================================================
 *.pyc
 __pycache__/
 .ipynb_checkpoints/
 .venv/
 .claude/
+.cursor/
+.pytest_cache/
 .DS_Store
 Thumbs.db
 ~$*
+
+# ============================================================
+# data/: ignore by default, whitelist curated subpaths
+# ============================================================
+data/*
+
+# Directories of curated / summary data kept in version control
+!data/ncsl/
+!data/OECD/
+!data/OECD_cleaned/
+!data/covariates/
+!data/hugging_face/
+!data/annotated/
+!data/PUBLIC DATA_ 2025 AI Index Report/
+!data/Bill Resource_files/
+
+# Individual curated files at data/ root
+!data/country_list.txt
+!data/DATA_victims_country_corrected.csv
+!data/global_ai_law_policy_tracker.pdf
+!data/Bill Resource.html
+
+# ------------------------------------------------------------
+# Inside data/ncsl/: exclude raw HTML scrape dirs (bills, bills_2023, ...)
+# ------------------------------------------------------------
+data/ncsl/bills*/
+
+# ------------------------------------------------------------
+# Individual ncsl files that exceed GitHub's 100 MB push limit.
+# They remain in on-disk working copy and in older commits that were
+# pushed before; .gitignore prevents them from being re-staged so
+# that future pushes do not upload fresh >100 MB blobs.
+# ------------------------------------------------------------
+data/ncsl/ncsl_bills.jsonl
+data/ncsl/us_ai_legislation_ncsl_text.csv
+data/ncsl/us_ai_legislation_ncsl_text.jsonl
+
+# ------------------------------------------------------------
+# Result records and caches (regenerable, too large to push)
+# ------------------------------------------------------------
+data/ner_runs/
+data/skill_ner_runs/
+data/qa_cache/
+data/qa_demo_cache_or/
+data/qa_smoke_cache/

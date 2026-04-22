@@ -25,9 +25,15 @@ class BillRecord:
     """Canonical raw-bill schema loaded by the corpus store.
 
     Attributes:
-        bill_id (str): Stable bill identifier from the source corpus.
+        bill_id (str): Pipeline-unique bill identifier. When the source corpus
+            contains a ``year`` column this is year-qualified
+            (``{year}__{source_bill_id}``) to prevent collisions across
+            legislative sessions.
         state (str): State associated with the bill.
         text (str): Full raw bill text.
+        year (str): Legislative-session year from the source corpus.
+        source_bill_id (str): Original ``bill_id`` value from the source
+            corpus before year-qualification.
         bill_url (str): Source URL for the bill text.
         title (str): Bill title or short caption.
         status (str): Most recent legislative status string.
@@ -42,6 +48,8 @@ class BillRecord:
     bill_id: str
     state: str
     text: str
+    year: str = ""
+    source_bill_id: str = ""
     bill_url: str = ""
     title: str = ""
     status: str = ""

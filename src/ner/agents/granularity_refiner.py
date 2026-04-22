@@ -8,6 +8,7 @@
 
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass
 from typing import Any
 
@@ -19,6 +20,7 @@ from .shared import (
     render_prompt,
     serialize_for_prompt,
 )
+from ..runtime.llm_client import EmptyCompletionError, RefusalError
 from ..schemas.artifacts import (
     CandidateQuadruplet,
     GroupedCandidateSet,
@@ -35,6 +37,8 @@ from ..schemas.validation import (
     validate_refinement_artifact,
     validate_span_ref,
 )
+
+logger = logging.getLogger(__name__)
 
 _FALLBACK_REFINEMENT_PROMPT_TEMPLATE = """role: you are a strict JSON refiner for one grouped candidate set.
 
@@ -154,8 +158,12 @@ class GranularityRefiner(
                 refined quadruplets and an optional refinement artifact.
 
         Raises:
-            SchemaValidationError: If the refinement request is malformed or the
-                model response violates the declared refinement contracts.
+            SchemaValidationError: If the refinement request itself is
+                malformed (bad input contract).  Model-side failures
+                (invalid JSON, empty content, upstream refusal) are
+                recovered internally via the fallback-prompt and
+                deterministic-passthrough tiers; they do not escape this
+                method.
         """
 
         if not isinstance(input_data, RefinementRequest):
@@ -179,24 +187,69 @@ class GranularityRefiner(
             validate_candidate_quadruplet(candidate)
             referenced_candidates.append(candidate)
 
-        raw_response = self._execute_primary_prompt(grouped_set, referenced_candidates)
         try:
+            raw_response = self._execute_primary_prompt(grouped_set, referenced_candidates)
             refined_outputs, refinement_artifact = self._parse_refinement_response(
                 grouped_set,
                 raw_response,
             )
-        except SchemaValidationError:
-            fallback_raw_response = self._execute_fallback_prompt(
+        except RefusalError as exc:
+            # Upstream model refused the primary prompt.  Refusal is
+            # deterministic at temperature 0 for the same prompt + schema +
+            # content, so the fallback prompt (same content, different
+            # wording) is unlikely to unstick it and not worth the extra
+            # call.  Route directly to deterministic passthrough.
+            self._log_refusal(
                 grouped_set,
                 referenced_candidates,
+                exc,
+                stage="primary_prompt",
             )
+            refined_outputs = [
+                self._build_deterministic_fallback_refined_output(
+                    grouped_set,
+                    referenced_candidates,
+                )
+            ]
+            refinement_artifact = None
+            raw_response = ""
+        except (SchemaValidationError, EmptyCompletionError):
+            # Parse failed or model returned empty content without an
+            # explicit refusal flag.  Try the stricter fallback prompt
+            # once, then fall through to deterministic passthrough.
+            fallback_raw_response = ""
             try:
+                fallback_raw_response = self._execute_fallback_prompt(
+                    grouped_set,
+                    referenced_candidates,
+                )
                 refined_outputs, refinement_artifact = self._parse_refinement_response(
                     grouped_set,
                     fallback_raw_response,
                 )
                 raw_response = fallback_raw_response
-            except SchemaValidationError:
+            except RefusalError as exc:
+                self._log_refusal(
+                    grouped_set,
+                    referenced_candidates,
+                    exc,
+                    stage="fallback_prompt",
+                )
+                refined_outputs = [
+                    self._build_deterministic_fallback_refined_output(
+                        grouped_set,
+                        referenced_candidates,
+                    )
+                ]
+                refinement_artifact = None
+                raw_response = fallback_raw_response
+            except (SchemaValidationError, EmptyCompletionError):
+                logger.warning(
+                    "GranularityRefiner deterministic passthrough after both "
+                    "prompt attempts failed  group_id=%d  candidate_ids=%s",
+                    grouped_set.group_id,
+                    grouped_set.candidate_ids,
+                )
                 refined_outputs = [
                     self._build_deterministic_fallback_refined_output(
                         grouped_set,
@@ -211,6 +264,42 @@ class GranularityRefiner(
             output_schema_name=self.output_schema_name,
             raw_response=raw_response,
             parsed_response=(refined_outputs, refinement_artifact),
+        )
+
+    def _log_refusal(
+        self,
+        grouped_set: GroupedCandidateSet,
+        referenced_candidates: list[CandidateQuadruplet],
+        exc: RefusalError,
+        *,
+        stage: str,
+    ) -> None:
+        """Log an upstream refusal with full stage and group context.
+
+        Args:
+            grouped_set: Grouped candidate set being refined.
+            referenced_candidates: Candidate pool referenced by the group.
+            exc: The raised ``RefusalError`` carrying provider and token counts.
+            stage: Which prompt attempt refused (``"primary_prompt"`` or
+                ``"fallback_prompt"``), so operators can tell which attempt
+                each refusal log line belongs to.
+        """
+
+        entity_preview = (
+            referenced_candidates[0].entity if referenced_candidates else None
+        )
+        logger.warning(
+            "GranularityRefiner upstream refusal  stage=%s  group_id=%d  "
+            "candidate_ids=%s  provider=%s  prompt_tokens=%d  "
+            "completion_tokens=%d  entity_preview=%r  "
+            "action=deterministic_passthrough",
+            stage,
+            grouped_set.group_id,
+            grouped_set.candidate_ids,
+            exc.provider,
+            exc.prompt_tokens,
+            exc.completion_tokens,
+            entity_preview,
         )
 
     def _execute_primary_prompt(

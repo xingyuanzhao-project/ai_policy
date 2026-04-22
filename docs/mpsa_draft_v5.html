@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Xingyuan Zhao" />
+  <title>How AI Is Governed: LLM-driven Entity and Relation Extraction on State AI Bills</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">How AI Is Governed: LLM-driven Entity and Relation Extraction on State AI Bills</h1>
+<p class="author">Xingyuan Zhao</p>
+</header>
+<h1 id="abstract">Abstract</h1>
+<p>State AI bill research largely relies on document-level theme and keyword labels that treat each bill as a single undivided unit and collapse heterogeneous governance instruments into one row <span class="citation" data-cites="depaula2024regulating depaula2025evolving">(<a href="#ref-depaula2024regulating" role="doc-biblioref">DePaula et al. 2024</a>, <a href="#ref-depaula2025evolving" role="doc-biblioref">2025</a>)</span>. Coarse labels cannot answer which sectors, technologies, or applications are regulated, or which actors carry obligations. We propose two extraction methods that unpack the bill. The first is a multi-turn stateful NER pipeline synthesized from recent work on cooperative multi-agent zero-shot NER <span class="citation" data-cites="wang2025cooperative">(<a href="#ref-wang2025cooperative" role="doc-biblioref">Z. Wang et al. 2025</a>)</span>, with three stages of candidate annotation, grouping, and refinement. The second is a skill-driven agentic approach enabled by recent LLM tool calling, in which one agent follows a skill file and reads bill sections on demand to produce quadruplets in a single conversation <span class="citation" data-cites="schluntz2024building zhang2025equipping">(<a href="#ref-schluntz2024building" role="doc-biblioref">Schluntz and Zhang 2024</a>; <a href="#ref-zhang2025equipping" role="doc-biblioref">Zhang, Lazuka, and Murag 2025</a>)</span>. Both methods extract quadruplets of entity, type, attribute, and value anchored to evidence spans, and run on 1,826 U.S. state AI bills from NCSL covering 2023 to 2025 <span class="citation" data-cites="ncsl2025ai">(<a href="#ref-ncsl2025ai" role="doc-biblioref">National Conference of State Legislatures 2025b</a>)</span>. We evaluate coverage of NCSL topic labels using an LLM-as-judge protocol, and report tokens, dollars, and LLM time for each method. The pipeline produces granular policy-design variables that current labels cannot reveal, transfers to other messy policy corpora with a taxonomy swap, and replaces weeks of manual coding with hours of compute while keeping traceable spans.</p>
+<h1 id="introduction">Introduction</h1>
+<h2 id="background">Background</h2>
+<p>State legislatures have become a focal venue for AI lawmaking in the United States. Between 2022 and 2025, state AI legislation has surged <span class="citation" data-cites="ncsl2025ai">(<a href="#ref-ncsl2025ai" role="doc-biblioref">National Conference of State Legislatures 2025b</a>)</span>, with the NCSL tracker recording more than 1,200 state AI bills in 2025 alone <span class="citation" data-cites="ncsl2025ailegislation2025">(<a href="#ref-ncsl2025ailegislation2025" role="doc-biblioref">National Conference of State Legislatures 2025a</a>)</span>. A surge of this magnitude unfolding across many sub domains including heath care, education, and ethical use of AI marks a starting point in which AI governance in the United States is being written.</p>
+<p>Treating the AI bill as a single undivided unit without granular entity and relation extraction may be too coarse for downstream research, because the bills are bundles of heterogeneous governance instruments <span class="citation" data-cites="yoo2020regulation kuteynikov2022key sheikin2024principles wang2024regulating">(<a href="#ref-yoo2020regulation" role="doc-biblioref">Yoo and Lai 2020</a>; <a href="#ref-kuteynikov2022key" role="doc-biblioref">Kuteynikov et al. 2022</a>; <a href="#ref-sheikin2024principles" role="doc-biblioref">Sheikin 2024</a>; <a href="#ref-wang2024regulating" role="doc-biblioref">J. Wang and Haak 2024</a>)</span>. Two bills can both count as “policy regulating AI” while doing fundamentally different things, such as one setting procurement rules, yet another establishing constraints on certain technologies. Collapsing this bundle into a single label breaks the downstream analysis in three ways. First is measurement error. The labels might target different procedures or entities but may measured as same category. The second problem is that the reduced effect magnitude when multiple type of relations about one concept are collapsed into one. Third is that the mechanism behind the regulated body and the method of regulation will not be revealed. Without extracting the entity and the relations, the downstream analysis will be hard to understand what policy design moved, which obligations, which targets, which enforcement.</p>
+<h3 id="why-existing-methods-fall-short">Why existing methods fall short</h3>
+<p>The author gathered bill corpora from NCSL and still found the annotations are too coarse to answer the question “what does it target and who does it regulate?” To address this, one may resort to dictionary or keyword based methods, but this does not seprate the target from the regulated entity on the relation to AI regulation <span class="citation" data-cites="young2012affective hopkins2010method">(<a href="#ref-young2012affective" role="doc-biblioref">Young and Soroka 2012</a>; <a href="#ref-hopkins2010method" role="doc-biblioref">Hopkins and King 2010</a>)</span>. For example, a bill may trigger the keyword “AI” in some sections, and mentioned “agent” in other sections as in chemical agents, but this may build a false positive detection of AI agent regulation.<span class="citation" data-cites="ri2024s2540">(<a href="#ref-ri2024s2540" role="doc-biblioref">Rhode Island General Assembly 2024</a>)</span></p>
+<p>Rule-based NER and topic modeling may carry the same limitation in a different form. Drafting practices vary across the fifty states, and a definitions clause in one state is a preamble in another and a section cross-reference in a third. A fixed pattern or a topic cluster built on bill-level text cannot follow that variation, and the output remains a theme rather than a set of policy-design variables with evidence. Manual expert coding is the method that in principle can reach the bill interior, and NCSL, Brookings, and state analysts have coded subsets by hand, but coding more than a thousand bills per year is expensive, slow, and unstable across coders <span class="citation" data-cites="krippendorff2018content">(<a href="#ref-krippendorff2018content" role="doc-biblioref">Krippendorff 2018</a>)</span>, and even then the output stops at the document level rather than producing entity-and-relation content inside each bill.</p>
+<p>Unsupervised topic modeling with LDA or structural topic models sits in a similar place <span class="citation" data-cites="blei2003latent roberts2014structural quinn2010how">(<a href="#ref-blei2003latent" role="doc-biblioref">Blei, Ng, and Jordan 2003</a>; <a href="#ref-roberts2014structural" role="doc-biblioref">Roberts et al. 2014</a>; <a href="#ref-quinn2010how" role="doc-biblioref">Quinn et al. 2010</a>)</span>. A recent policy application uses the same family to summarize AI policy documents at scale <span class="citation" data-cites="pham2026using">(<a href="#ref-pham2026using" role="doc-biblioref">Pham et al. 2026</a>)</span>. The output is a theme distribution for each bill rather than a structured set of regulated entities and mechanisms, and the themes are not anchored to evidence spans that a downstream reader can audit.</p>
+<p>With the help of large language models (LLM) and agentic workflow, the named entity recognition and relation extraction are made easier, and the recent works show that multi-agent prompting and skill-driven agentic tool use can produce structured extractions from long text without fine-tuning <span class="citation" data-cites="wang2025cooperative zhang2025equipping">(<a href="#ref-wang2025cooperative" role="doc-biblioref">Z. Wang et al. 2025</a>; <a href="#ref-zhang2025equipping" role="doc-biblioref">Zhang, Lazuka, and Murag 2025</a>)</span>. This paper is built upon this recent progress of LLMs.</p>
+<h2 id="how-this-research-benefits-the-field">How this research benefits the field?</h2>
+<p>This paper lowers the cost and raises the granularity of AI-policy measurement so that other researchers can ask bill-interior questions without building an extractor of their own. The benefits land in three places.</p>
+<h3 id="generalizable-pipeline-for-other-policy-corpora">Generalizable pipeline for other policy corpora</h3>
+<p>The extractor is decoupled from the AI-bill domain. The skill file and the taxonomy are the only pieces that encode domain content, and both are swappable. A researcher studying financial, environmental, privacy, or health regulation can point the same runner at a new corpus by rewriting the skill file and the taxonomy, without reimplementing orchestration, storage, or evaluation plumbing. This is the contribution that other researchers can pick up without first reproducing this paper.</p>
+<h3 id="empirical-comparison-of-llm-pipelines-for-long-regulatory-text">Empirical comparison of LLM pipelines for long regulatory text</h3>
+<p>Researchers facing the same kind of task, which is structured extraction from long regulatory documents, currently have no empirical guide for choosing between a fixed-plan multi-stage pipeline and an agentic skill-driven pipeline. This paper runs both on the same corpus with the same model and reports accuracy, bias, and resource cost side by side, so a later project can read off which design to pick for its own task without rerunning the comparison.</p>
+<h3 id="open-dataset-runner-and-live-demo-for-downstream-research">Open dataset, runner, and live demo for downstream research</h3>
+<p>The released artifacts are the extracted quadruplet dataset with evidence spans for all bills in the corpus, the reusable skill file that drives the extraction, the runner code, and a live extraction demo. These let downstream researchers plug directly into the bill-interior variables. They can run their own analyses on top of the quadruplet dataset, or submit fresh bills to the live app and inspect the extracted quadruplets and their evidence spans.</p>
+<h1 id="literature-review">Literature Review</h1>
+<h2 id="theory-side">Theory side</h2>
+<p>The qualitative and political-science literature on U.S. AI governance gives us three settled observations. First, state legislatures are the main site of U.S. AI lawmaking, and the bills produced there form a patchwork across sectors and states <span class="citation" data-cites="yoo2020regulation kuteynikov2022key sheikin2024principles wang2024regulating defranco2024assessing agbadamasi2025navigating">(<a href="#ref-yoo2020regulation" role="doc-biblioref">Yoo and Lai 2020</a>; <a href="#ref-kuteynikov2022key" role="doc-biblioref">Kuteynikov et al. 2022</a>; <a href="#ref-sheikin2024principles" role="doc-biblioref">Sheikin 2024</a>; <a href="#ref-wang2024regulating" role="doc-biblioref">J. Wang and Haak 2024</a>; <a href="#ref-defranco2024assessing" role="doc-biblioref">DeFranco and Biersmith 2024</a>; <a href="#ref-agbadamasi2025navigating" role="doc-biblioref">Agbadamasi et al. 2025</a>)</span>. Second, content-focused hand coding has already documented the dominant topics in enacted state bills, including health, education, advisory bodies, and a 2024 shift toward generative AI and synthetic content, together with an emerging convergence on impact-assessment and accountability obligations as the governance shape <span class="citation" data-cites="depaula2024regulating depaula2025evolving oduro2022obligations">(<a href="#ref-depaula2024regulating" role="doc-biblioref">DePaula et al. 2024</a>, <a href="#ref-depaula2025evolving" role="doc-biblioref">2025</a>; <a href="#ref-oduro2022obligations" role="doc-biblioref">Oduro, Moss, and Metcalf 2022</a>)</span>. Third, quantitative political-economy work on state AI adoption reports that economic conditions and unified Democratic government predict adoption while ideology and neighbor adoption do not, and that partisan structure appears specifically around consumer-protection AI bills <span class="citation" data-cites="parinandi2024investigating">(<a href="#ref-parinandi2024investigating" role="doc-biblioref">Parinandi et al. 2024</a>)</span>. This paper takes these observations as its starting point. It adds a finer measurement layer, where the regulated entity and the regulatory mechanism inside each bill are read out as variables rather than stored implicitly in the hand-coded topic label.</p>
+<h2 id="method-side">Method side</h2>
+<h3 id="non-llm-methods-for-policy-text-analysis">Non-LLM methods for policy-text analysis</h3>
+<h4 id="rule-based-keyword-and-dictionary-labeling">Rule-based, keyword, and dictionary labeling</h4>
+<p>Theme tagging, keyword lists, and regex patterns applied to bill text are cheap, reproducible, and auditable, and the political-science text-as-data literature has used them for two decades <span class="citation" data-cites="grimmer2013text young2012affective hopkins2010method">(<a href="#ref-grimmer2013text" role="doc-biblioref">Grimmer and Stewart 2013</a>; <a href="#ref-young2012affective" role="doc-biblioref">Young and Soroka 2012</a>; <a href="#ref-hopkins2010method" role="doc-biblioref">Hopkins and King 2010</a>)</span>. Recent U.S. state legislation topic infrastructure from <span class="citation" data-cites="garlick2023laboratories">(<a href="#ref-garlick2023laboratories" role="doc-biblioref">Garlick 2023</a>)</span> and <span class="citation" data-cites="dee2025policy">(<a href="#ref-dee2025policy" role="doc-biblioref">Dee and Garlick 2025</a>)</span> shows how far labeling scales when the label set is fixed in advance. Two features of this family limit its fit here. Drafting practices vary across the fifty states, so a fixed pattern matches in some states and misses in others. And a topic label says whether a bill is on a topic but does not separate the target from the regulated entity or name the instrument being used.</p>
+<h4 id="topic-modeling-and-unsupervised-clustering">Topic modeling and unsupervised clustering</h4>
+<p>LDA and structural topic models extract recurring themes from a corpus without a fixed label set <span class="citation" data-cites="blei2003latent quinn2010how grimmer2010bayesian roberts2014structural lucas2015computer">(<a href="#ref-blei2003latent" role="doc-biblioref">Blei, Ng, and Jordan 2003</a>; <a href="#ref-quinn2010how" role="doc-biblioref">Quinn et al. 2010</a>; <a href="#ref-grimmer2010bayesian" role="doc-biblioref">Grimmer 2010</a>; <a href="#ref-roberts2014structural" role="doc-biblioref">Roberts et al. 2014</a>; <a href="#ref-lucas2015computer" role="doc-biblioref">Lucas et al. 2015</a>)</span>. A recent policy application uses the same family to summarize AI policy documents at scale <span class="citation" data-cites="pham2026using">(<a href="#ref-pham2026using" role="doc-biblioref">Pham et al. 2026</a>)</span>. These methods give a useful descriptive view, but the output is a theme distribution rather than a set of policy-design variables, and there is no evidence span that a downstream reader can audit.</p>
+<h4 id="manual-expert-coding">Manual expert coding</h4>
+<p>Hand-coded subsets such as those produced by NCSL, Brookings, and state analysts, backed by standard inter-coder reliability protocols <span class="citation" data-cites="krippendorff2018content">(<a href="#ref-krippendorff2018content" role="doc-biblioref">Krippendorff 2018</a>)</span>, have the highest per-bill quality of any method in the non-LLM family. They reach into bill interiors but trade coverage for accuracy, stop at the document level, and scale poorly across fifty states and multiple years.</p>
+<h3 id="llm-methods-for-entity-extraction">LLM methods for entity extraction</h3>
+<h4 id="prompt-based-ner">Prompt-based NER</h4>
+<p>Zero-shot and few-shot entity extraction with commercially available LLMs or locally deployable open-weight models, including GPT-4, Gemini, Claude, Llama, etc., has become practical for well-bounded text. Clinical NER <span class="citation" data-cites="hu2023improving islam2025llm">(<a href="#ref-hu2023improving" role="doc-biblioref">Hu et al. 2023</a>; <a href="#ref-islam2025llm" role="doc-biblioref">Islam et al. 2025</a>)</span>, non-English clinical reports with long-context prompts <span class="citation" data-cites="akcali2025automated">(<a href="#ref-akcali2025automated" role="doc-biblioref">Akcali et al. 2025</a>)</span>, and cyber threat intelligence <span class="citation" data-cites="feng2025promptbart">(<a href="#ref-feng2025promptbart" role="doc-biblioref">Feng et al. 2025</a>)</span> all report workable accuracy from prompt engineering alone. For the open-source models deployed on local machines, the common limit is document length. Legislative bills are long, structurally varied, and cross-referenced, and a single-pass prompt has no way to read one section and then decide what to read next. For the commercially available models, the common limit is cost and ethical guardrails. Some models tend to omit content related to security and privacy when these entities are buried in long context.</p>
+<h4 id="multi-stage-ner-pipeline">Multi-stage NER pipeline</h4>
+<p>A second family splits NER across several stages, so that each sub-step operates on a narrower input and propagates structured artifacts forward. The cooperative multi-agent framework in <span class="citation" data-cites="wang2025cooperative">(<a href="#ref-wang2025cooperative" role="doc-biblioref">Z. Wang et al. 2025</a>)</span> decomposes zero-shot NER into self-annotation, type-related feature extraction, demonstration discrimination, and a final overall prediction. The zero-shot entity structure discovery pipeline in <span class="citation" data-cites="xu2025zeroshot">(<a href="#ref-xu2025zeroshot" role="doc-biblioref">Xu et al. 2025</a>)</span> uses a three-stage enrich-refine-unify pattern that produces entity-attribute-value triplets with a type filter. Related designs include two-stage locate-then-type <span class="citation" data-cites="ye2023decomposed">(<a href="#ref-ye2023decomposed" role="doc-biblioref">F. Ye et al. 2023</a>)</span>, joint entity-relation generative extraction <span class="citation" data-cites="huang2023api">(<a href="#ref-huang2023api" role="doc-biblioref">Huang et al. 2023</a>)</span>, relation-classification agent architectures <span class="citation" data-cites="berijanian2025comparative">(<a href="#ref-berijanian2025comparative" role="doc-biblioref">Berijanian, Singh, and Sehati 2025</a>)</span>, automatic labeling for sensitive text <span class="citation" data-cites="deandrade2025promptner">(<a href="#ref-deandrade2025promptner" role="doc-biblioref">Andrade et al. 2025</a>)</span>, and scholarly NER benchmarks <span class="citation" data-cites="otto2023gsapner">(<a href="#ref-otto2023gsapner" role="doc-biblioref">Otto et al. 2023</a>)</span>.</p>
+<p>Three designs in this family directly inform our pipeline, and each leaves a gap that our design addresses:</p>
+<ul>
+<li><span class="citation" data-cites="wang2025cooperative">(<a href="#ref-wang2025cooperative" role="doc-biblioref">Z. Wang et al. 2025</a>)</span> decomposes NER into sub-agents for different tasks, but the framework requires a pre-defined taxonomy as the target. We therefore propose a multi-stage pipeline with a taxonomy-free design.</li>
+<li><span class="citation" data-cites="islam2025llm">(<a href="#ref-islam2025llm" role="doc-biblioref">Islam et al. 2025</a>)</span> ensembles multiple agents with majority voting to improve stability and accuracy. We therefore propose a multi-turn pipeline with scoring, but the scoring is judged by an LLM rather than by mechanical voting.</li>
+<li><span class="citation" data-cites="xu2025zeroshot">(<a href="#ref-xu2025zeroshot" role="doc-biblioref">Xu et al. 2025</a>)</span> proposes entity-attribute-value triplet extraction with granularity refinement, but the refinement relies only on context. We therefore propose a granularity refinement with a context-free design that operates over grouped candidates with linked evidence.</li>
+</ul>
+<h4 id="agentic-and-skill-driven-workflows">Agentic and skill-driven workflows</h4>
+<p>A third family lets one agent decide what to read next and when to stop. Retrieval-augmented generation <span class="citation" data-cites="lewis2020retrieval">(<a href="#ref-lewis2020retrieval" role="doc-biblioref">Lewis et al. 2020</a>)</span>, the ReAct pattern that interleaves reasoning and acting <span class="citation" data-cites="yao2023react">(<a href="#ref-yao2023react" role="doc-biblioref">Yao et al. 2023</a>)</span>, and tool-use training <span class="citation" data-cites="schick2023toolformer">(<a href="#ref-schick2023toolformer" role="doc-biblioref">Schick et al. 2023</a>)</span> are the foundations. Recent agentic RAG surveys <span class="citation" data-cites="singh2025agentic">(<a href="#ref-singh2025agentic" role="doc-biblioref">Singh et al. 2025</a>)</span>, search-augmented reasoning <span class="citation" data-cites="li2025searcho1 jin2025searchr1">(<a href="#ref-li2025searcho1" role="doc-biblioref">Li et al. 2025</a>; <a href="#ref-jin2025searchr1" role="doc-biblioref">Jin et al. 2025</a>)</span>, and the Anthropic skills line <span class="citation" data-cites="schluntz2024building zhang2025equipping anthropic2025skills anthropic2025sdk">(<a href="#ref-schluntz2024building" role="doc-biblioref">Schluntz and Zhang 2024</a>; <a href="#ref-zhang2025equipping" role="doc-biblioref">Zhang, Lazuka, and Murag 2025</a>; <a href="#ref-anthropic2025skills" role="doc-biblioref">Anthropic 2025a</a>, <a href="#ref-anthropic2025sdk" role="doc-biblioref">2025b</a>)</span> show how a markdown skill file plus tool calls lets a single agent read a document in sections and emit structured output. What we take from this family is the section-on-demand reading pattern: for a bill with many sections, the agent can request the section it needs next instead of receiving the whole bill up front. What is not yet available from this family is an evaluation on a real policy corpus at our scale; that is the gap this paper also fills.</p>
+<h2 id="our-take-on-existing-methods">Our take on existing methods</h2>
+<p>We take two ideas forward. From the multi-stage family we take decomposition of stages and the quadruplet output, because breaking the bill-level extraction into candidate proposal, grouping, and refinement gives each stage a narrower prompt and an explicit hand-off artifact with entity and relation. From the agentic family we take section-on-demand reading, because an agent that can decide which section to read is a better fit for bill text whose section structure varies from state to state. We cannot directly use the multi-stage designs because they assume either sentence-level inputs or a fixed taxonomy per document, and we cannot rely only on the agentic family because it has not been evaluated on a policy corpus of this length and variety. The paper therefore implements both a fixed-plan multi-stage pipeline, so the comparison to the literature is direct, and an agentic skill-driven pipeline, so the section-on-demand pattern is tested on the corpus, and reports the two side by side.</p>
+<h1 id="method">Method</h1>
+<h2 id="task-definitions">Task Definitions</h2>
+<p>Given the text of one state AI bill, the task is to extract the set of governance quadruplets that characterize the bill’s regulatory content. A quadruplet has four fields. The entity field names what is being regulated or who carries an obligation. The type field attaches a taxonomy label to the entity. The attribute field names the regulatory mechanism (such as mandate, prohibition, disclosure, or exemption). The value field records the specific content of that mechanism. Every field must be supported by a verbatim evidence span drawn from the bill text, and no field is emitted without a span. The output of the task is the list of quadruplets for the bill, together with the spans that support each field. This is the contract both methods below must satisfy, independent of how each method internally reads the bill.</p>
+<h2 id="model-setup">Model Setup</h2>
+<p>The paper implements two extraction methods, described in the Pipeline section below, and both methods call the same language model through the same provider. The model is Claude Sonnet 4.5 reached through OpenRouter. Temperature is 0.0 and the maximum completion length is set to 16,384 tokens, which is Sonnet 4.5’s hard completion ceiling. Sharing the weights across both methods means the accuracy and resource comparison in the Results section is not confounded by model choice.</p>
+<h2 id="pipeline">Pipeline</h2>
+<h3 id="from-fixed-plan-three-stage-method-to-skill-driven-agentic-ner">From fixed-plan three-stage method to skill-driven agentic NER</h3>
+<p>The paper implements two methods and reports them side by side. The first is a fixed-plan multi-turn pipeline built by synthesizing the multi-stage NER literature <span class="citation" data-cites="wang2025cooperative xu2025zeroshot">(<a href="#ref-wang2025cooperative" role="doc-biblioref">Z. Wang et al. 2025</a>; <a href="#ref-xu2025zeroshot" role="doc-biblioref">Xu et al. 2025</a>)</span>, which is the closest published match to the constraints of no fine-tuning, long legal text, and decomposed extraction. The second is a skill-driven agentic pipeline enabled by recent developments in tool calling and skill files on commercial LLMs <span class="citation" data-cites="yao2023react schluntz2024building zhang2025equipping anthropic2025skills">(<a href="#ref-yao2023react" role="doc-biblioref">Yao et al. 2023</a>; <a href="#ref-schluntz2024building" role="doc-biblioref">Schluntz and Zhang 2024</a>; <a href="#ref-zhang2025equipping" role="doc-biblioref">Zhang, Lazuka, and Murag 2025</a>; <a href="#ref-anthropic2025skills" role="doc-biblioref">Anthropic 2025a</a>)</span>, in which a single agent reads bill sections on demand through a tool and emits the quadruplets in one conversation. Both satisfy the same task contract from the Task Definitions section. Running both on the same corpus is how the paper produces the empirical comparison described as a contribution above.</p>
+<h3 id="multi-turn-ner-pipeline">Multi-turn NER pipeline</h3>
+<p>The multi-turn pipeline is a stateful three-stage design. The bill is split into context chunks by an inference-unit builder, and each of the three stages is a separate LLM call with its own prompt, its own parsed output schema, and its own persisted artifact. Stage outputs are passed between stages by candidate identifier rather than by inlined payload, so evidence spans are recovered from the candidate pool rather than duplicated.</p>
+<h4 id="candidate-annotation">Candidate annotation</h4>
+<p>The zero-shot annotator reads one context chunk at a time and emits Candidate Quadruplets with four fields and four field-linked evidence maps. Missing fields are allowed at this stage, because the annotator’s job is to propose candidates with their supporting spans, not to finalize the quadruplet. Each candidate keeps a stable candidate identifier that later stages use to recover the candidate and its evidence.</p>
+<h4 id="candidate-grouping-and-scoring">Candidate grouping and scoring</h4>
+<p>The grouping and scoring agent reads the bill-level pool of chunk candidates and groups candidates that refer to the same underlying quadruplet into a Grouped Candidate Set. For each grouped set it emits a per-field score matrix, with row order aligned to the candidate identifiers in the group and column order aligned to the canonical field order of entity, type, attribute, and value. This stage produces the grouping and the scores only, and does not finalize any refinement relation.</p>
+<h4 id="refinement">Refinement</h4>
+<p>The refiner reads each grouped candidate set together with the referenced candidates and their evidence, and emits one Refined Quadruplet per group. The relations between grouped candidates are drawn from a canonical set of support, overlap, conflict, duplicate, and refinement, and are stored as a field-wise relation matrix on an optional refinement artifact. Field-linked evidence is preserved on the refined output, so the final quadruplet is inspectable without re-reading raw chunks.</p>
+<h3 id="skill-driven-agentic-approach">Skill-driven agentic approach</h3>
+<p>The skill-driven agent runs as a single conversation over one bill. A markdown skill file is loaded as the system prompt and defines the quadruplet schema, the extraction process, and the output JSON. The agent reads bill sections on demand through a section-reader tool rather than being handed the whole bill up front.</p>
+<h4 id="main-agent-loop">Main agent loop</h4>
+<p>The loop runs a multi-turn conversation with the model until the model returns a final answer rather than another tool call. Each turn, the loop dispatches any tool calls the model issued, appends the tool results to the message history, and re-enters the model. The output is one JSON payload of quadruplets per bill, parsed from the final assistant message.</p>
+<h4 id="skill-file">Skill file</h4>
+<p>The skill file carries the quadruplet schema, per-field quality criteria, and the required output JSON. It directs the agent on which entities to target, which to skip, and how to anchor each field to an evidence span. The skill file is the only domain-specific instruction the agent receives, so pointing the extractor at a different taxonomy is a change to this file rather than a change to the agent loop.</p>
+<h4 id="section-reader-tool">Section reader tool</h4>
+<p>A section-reader tool is registered per bill. It accepts a start and end character offset into the bill text and returns the slice at that range. The agent first reads an index of the bill, decides which sections to request, and calls the tool one or more times across turns. Each tool call produces a tool-role message that re-enters the next model turn, so the model sees only the sections it requested rather than the full text.</p>
+<h2 id="evaluation-design">Evaluation Design</h2>
+<p>Both methods are evaluated on two axes: accuracy against the available reference, and direct resource cost. No entity-level gold standard exists for this corpus, so the accuracy axis uses NCSL’s existing topic labels as the reference, paired with an LLM-as-judge scorer; the resource axis reports tokens, dollars, and LLM time per method from the run directory.</p>
+<h3 id="coverage-and-novelty-against-ncsl-topic-labels">Coverage and novelty against NCSL topic labels</h3>
+<p>No entity-level gold standard exists for this corpus, and constructing one by hand at the corpus scale is not feasible within the paper. The evaluation therefore runs two reference-aligned signals instead of a gold-match metric. The first is coverage, which asks, for each bill and each NCSL topic label on that bill, whether the method’s extracted quadruplets jointly account for the label. The second is novelty, which asks, among the quadruplets the bill text supports, how many are not cited as support for any NCSL label and what they look like. The two signals are complementary. Coverage says how well the extraction recovers what the hand-curated labels already carry; novelty says what the extraction finds beyond the labels, and whether that beyond-set is bill-relevant detail or off-topic noise. Both run on top of a per-quadruplet grounding check against the bill text, and both are scored by an LLM-as-judge protocol <span class="citation" data-cites="zheng2023judging laskar2025improving ho2025llm">(<a href="#ref-zheng2023judging" role="doc-biblioref">Zheng et al. 2023</a>; <a href="#ref-laskar2025improving" role="doc-biblioref">Laskar and others 2025</a>; <a href="#ref-ho2025llm" role="doc-biblioref">Ho et al. 2025</a>)</span>.</p>
+<h3 id="cross-method-evaluation">Cross method evaluation</h3>
+<h4 id="performance-comparison">Performance comparison</h4>
+<p>Both methods run on the full population of the bills, and the tests are reported on the bills where both methods produced output. Four tests are reported. The first is per-quadruplet grounding against the bill text, which gives an item-level accuracy signal that does not depend on the label set. The second is set-to-label coverage against NCSL topics, which gives a reference-aligned signal. The third is a cross-method pairwise comparison in which the judge sees both methods’ quadruplet sets for the same bill and picks one, with swap-averaging across presentation order to cancel position bias <span class="citation" data-cites="zheng2023judging">(<a href="#ref-zheng2023judging" role="doc-biblioref">Zheng et al. 2023</a>)</span>. The fourth is a judge bias audit on a pooled 100-row sample with four perturbations, which sets a trust bound on the first three tests rather than ranking the methods <span class="citation" data-cites="ye2024justice guerdan2025validating tan2024judgebench">(<a href="#ref-ye2024justice" role="doc-biblioref">J. Ye et al. 2024</a>; <a href="#ref-guerdan2025validating" role="doc-biblioref">Guerdan and others 2025</a>; <a href="#ref-tan2024judgebench" role="doc-biblioref">Tan et al. 2024</a>)</span>. The judge model is Gemini 2.5 Pro at temperature 0.0. Gemini is used because the extractor is Claude Sonnet 4.5, and keeping the judge model family separate from the extractor model family closes the self-preference channel that LLM judges exhibit when evaluating their own family’s outputs <span class="citation" data-cites="zheng2023judging ye2024justice">(<a href="#ref-zheng2023judging" role="doc-biblioref">Zheng et al. 2023</a>; <a href="#ref-ye2024justice" role="doc-biblioref">J. Ye et al. 2024</a>)</span>. Temperature 0.0 is set so the same input produces the same judge verdict on every rerun.</p>
+<h4 id="resource-comparison">Resource comparison</h4>
+<p>For each method, the paper reports calls, prompt and completion tokens, dollar cost, and cumulative LLM time, drawn from <code>usage_summary.json</code> in each run directory. Per-bill averages are computed from these totals and the corpus size. The cost table sits alongside the accuracy tables, so the trade-off between the two methods and against human coding is visible on the same page.</p>
+<h1 id="data">Data</h1>
+<h2 id="data-source">Data Source</h2>
+<p>The corpus is state AI legislation tracked by the National Conference of State Legislatures for 2023, 2024, and 2025 <span class="citation" data-cites="ncsl2025ai ncsl2023ailegislation2023 ncsl2024ailegislation2024 ncsl2025ailegislation2025">(<a href="#ref-ncsl2025ai" role="doc-biblioref">National Conference of State Legislatures 2025b</a>, <a href="#ref-ncsl2023ailegislation2023" role="doc-biblioref">2023</a>, <a href="#ref-ncsl2024ailegislation2024" role="doc-biblioref">2024</a>, <a href="#ref-ncsl2025ailegislation2025" role="doc-biblioref">2025a</a>)</span>, with underlying data supplied by LexisNexis State Net <span class="citation" data-cites="lexisnexis2025statenet">(<a href="#ref-lexisnexis2025statenet" role="doc-biblioref">LexisNexis 2025</a>)</span>. Bill text is scraped from each bill’s canonical URL by a Selenium crawler, and a metadata file records, per bill, the fields <code>state</code>, <code>year</code>, <code>bill_id</code>, <code>bill_url</code>, <code>title</code>, <code>status</code>, <code>date_of_last_action</code> when available, <code>author</code> with partisanship when available, <code>topics</code>, <code>summary</code>, <code>history</code>, and <code>text</code>. Bill text is stored separately from metadata and joined by <code>bill_id</code>. The merged corpus covers 1,879 rows; 53 empty-text rows are filtered out; and 1,826 bills enter the pipeline.</p>
+<h2 id="descriptive-statistics">Descriptive Statistics</h2>
+<p>The bill count is distributed across years as 137 in 2023, 480 in 2024, and 1,262 in 2025. Among 2025 bills, 192 have a status beginning with <code>Enacted</code> across 45 states, with California carrying the highest count at 24. The full yearly, per-state, status, topic, and text-length distributions are shown in the figures below; party composition is reported where the <code>author</code> field carries partisanship.</p>
+<figure>
+<img src="../plot/desc_bill_count_by_year.png" alt="Bill count by year across the 2023-2025 corpus." /><figcaption aria-hidden="true">Bill count by year across the 2023-2025 corpus.</figcaption>
+</figure>
+<figure>
+<img src="../plot/desc_bill_count_by_state.png" alt="Bill count by state, sorted descending." /><figcaption aria-hidden="true">Bill count by state, sorted descending.</figcaption>
+</figure>
+<figure>
+<img src="../plot/desc_bill_status.png" alt="Bill count by status category (enacted, introduced, passed, and related)." /><figcaption aria-hidden="true">Bill count by status category (enacted, introduced, passed, and related).</figcaption>
+</figure>
+<figure>
+<img src="../plot/desc_topic_coverage.png" alt="Top NCSL topic labels by frequency across the corpus." /><figcaption aria-hidden="true">Top NCSL topic labels by frequency across the corpus.</figcaption>
+</figure>
+<figure>
+<img src="../plot/desc_text_length_distribution.png" alt="Bill text-length distribution, full and truncated-to-95th-percentile views." /><figcaption aria-hidden="true">Bill text-length distribution, full and truncated-to-95th-percentile views.</figcaption>
+</figure>
+<h2 id="challenges-in-the-data">Challenges in the Data</h2>
+<h3 id="heterogeneity-across-jurisdictions">Heterogeneity across jurisdictions</h3>
+<p>Drafting conventions, section numbering, and cross-references differ across the fifty states, and the same concept appears under different language, such as “automated decision system” in one bill, “AI system” in another, and “algorithmic tool” in a third. Fixed-pattern rule-based extraction cannot follow this variation, and the LLM methods handle it by reading the defining clause in context rather than matching a surface string.</p>
+<h3 id="target-entity-vs-regulatory-mechanism-ambiguity">Target-entity vs regulatory mechanism ambiguity</h3>
+<p>The same bill can name an entity in one clause and then specify a mechanism that acts on that entity two clauses later, and a keyword method cannot tell which role a phrase is playing. The pipeline handles this by producing entity and attribute as two separate fields of the same quadruplet, each with its own evidence span, so the role each phrase plays is recoverable from the span and not just from the label.</p>
+<h3 id="keyword-based-inclusion-false-positives">Keyword-based inclusion false positives</h3>
+<p>A bill can reach the corpus because a keyword filter matched one “artificial intelligence” string, while the body of the bill regulates something else entirely. The Rhode Island Clean Air Preservation Act <span class="citation" data-cites="ri2024s2540">(<a href="#ref-ri2024s2540" role="doc-biblioref">Rhode Island General Assembly 2024</a>)</span> is the concrete instance used in this paper. It reached the NCSL corpus through one definitions-section match, and the body regulates stratospheric aerosol injection and chemical and biological agents, where the word “agent” refers to a chemical agent rather than an AI agent. Both methods are affected by this corpus-inclusion bias, because both methods trust the corpus filter at intake; handling the false positive would require a relevance pre-check that is outside the extraction step.</p>
+<h1 id="results">Results</h1>
+<p>The four LLM-judge tests defined in the Evaluation Design section structure this section. The first three rank the two extraction methods along accuracy, coverage, and head-to-head preference. The fourth bounds how much trust to place in the first three. A separate resource comparison ties cost to accuracy.</p>
+<h2 id="baseline-vs-proposed-method">Baseline vs Proposed Method</h2>
+<p>The two proposed methods are the multi-turn pipeline and the skill-driven agent, and both ran over the same corpus. NCSL’s document-level labels <span class="citation" data-cites="ncsl2025ai">(<a href="#ref-ncsl2025ai" role="doc-biblioref">National Conference of State Legislatures 2025b</a>)</span> are the reference only at Test 2, because they carry a topic per bill and cannot enter the per-quadruplet or method-to-method layer. A rule-based pre-filter drops quadruplets whose required fields are empty, whose evidence spans are missing, or whose span text is not literally present in the bill; after this filter the multi-turn pipeline retains 10,429 of 10,876 quadruplets (95.89%) and the skill-driven agent retains 8,926 of 9,555 (93.42%). Only these surviving quadruplets enter the tests below.</p>
+<h3 id="per-quadruplet-grounding-test-1">Per-quadruplet grounding (Test 1)</h3>
+<p>The first test asks the judge whether each surviving quadruplet is supported by the bill text. The multi-turn pipeline records 85.05% entailed, 11.55% neutral, and 3.39% contradicted. The skill-driven agent records 78.32% entailed, 18.07% neutral, and 3.61% contradicted. The contradiction rate, which is the most direct failure signal in this test, is indistinguishable across methods. The entailed-rate gap is confounded with volume, because the multi-turn pipeline was judged on 1,503 more quadruplets than the skill-driven agent. The separator in this test is the neutral rate, which is higher for the skill-driven agent, consistent with its tendency to paraphrase values; this also explains why every pre-filter failure on the skill-driven agent is of type span-not-literal (629 of 629) while the multi-turn pipeline’s pre-filter failures are dominated by missing fields and missing spans.</p>
+<figure>
+<img src="../output/evals/v1/plots/02_grounding_distribution.png" alt="Per-quadruplet grounding verdict distribution by method." /><figcaption aria-hidden="true">Per-quadruplet grounding verdict distribution by method.</figcaption>
+</figure>
+<h3 id="set-to-label-coverage-test-2">Set-to-label coverage (Test 2)</h3>
+<p>The second test asks the judge whether, for each bill and each NCSL topic label on that bill, the method’s surviving quadruplets jointly account for the label. On the permissive definition that counts both covered and partially covered, the skill-driven agent leads by 3.33 pp (87.04% vs 84.03%). On the strict definition that counts only covered, the skill-driven agent leads by 32.06 pp (81.50% vs 49.44%), and its error rate is roughly forty times smaller (0.03% vs 1.30%), driven by the multi-turn pipeline’s longer supporting lists overflowing the judge prompt. Because NCSL topic labels are the reference for the downstream analyses below, the strict-coverage gap is the outcome-relevant number.</p>
+<figure>
+<img src="../output/evals/v1/plots/01_coverage_by_method.png" alt="Set-to-label coverage by method; cost-vs-coverage." /><figcaption aria-hidden="true">Set-to-label coverage by method; cost-vs-coverage.</figcaption>
+</figure>
+<h3 id="cross-method-pairwise-comparison-test-3">Cross-method pairwise comparison (Test 3)</h3>
+<p>The third test shows the judge both methods’ quadruplet sets for the same bill and asks it to pick one. Each of the 1,693 bills in the evaluation intersection is judged twice with presentation order swapped, so position bias is canceled by averaging <span class="citation" data-cites="zheng2023judging">(<a href="#ref-zheng2023judging" role="doc-biblioref">Zheng et al. 2023</a>)</span>. Both presentation orders prefer the skill-driven agent, with a swap-averaged win rate of 75.99% against 22.68% for the multi-turn pipeline. A count-normalised variant that adjusts for the fact that the multi-turn pipeline writes more quadruplets cuts the raw gap roughly in half, and the skill-driven agent still leads by 3.4× in normalised points (0.3791 vs 0.1126).</p>
+<figure>
+<img src="../output/evals/v1/plots/04_pairwise_winrate.png" alt="Cross-method pairwise win rate after swap averaging." /><figcaption aria-hidden="true">Cross-method pairwise win rate after swap averaging.</figcaption>
+</figure>
+<h3 id="judge-bias-audit-test-4">Judge bias audit (Test 4)</h3>
+<p>The fourth test perturbs the coverage prompt on a pooled 100-row sample and measures how often the judge flips its verdict. Position flips 3%, verbosity flips 4%, self-preference flips 7%, and authority flips 14%. The first three are at or near the noise range for this kind of audit. Authority is the outlier; a 14% sensitivity to a prefix that claims a senior expert insists on a verdict means any prompt that carries authority-aligned language has to be treated as a rerun condition. Inspection of the frozen prompts confirms that neither the grounding prompt nor the coverage prompt carries authority cues, so the results above are not contaminated by this channel.</p>
+<figure>
+<img src="../output/evals/v1/plots/06_bias_scorecard.png" alt="Judge bias audit scorecard across four perturbation types." /><figcaption aria-hidden="true">Judge bias audit scorecard across four perturbation types.</figcaption>
+</figure>
+<h4 id="discussion-skill-driven-vs-fixed-plan-three-stage-method-vs-theme-and-keyword-labels">Discussion: skill-driven vs fixed-plan three-stage method vs theme and keyword labels</h4>
+<p>Of the three extractor-level tests, two separate the two methods and both point the same way. Set-to-label coverage puts the skill-driven agent 32.06 pp ahead on the strict definition, and cross-method pairwise comparison puts the skill-driven agent ahead 75.99% to 22.68% after swap-averaging. Per-quadruplet grounding does not separate the two methods on the contradiction signal. The judge diagnostic finds no trust failure on the prompts in use. Against NCSL’s own document-level labels, both proposed methods produce bill-interior variables that the labels themselves cannot carry, so the label-level comparison is not a head-to-head but a statement that the proposed methods add a dimension the baseline does not have.</p>
+<p>Under the audit of the grounded-but-uncited quadruplets, the multi-turn pipeline retains 6,319 entries and the skill-driven agent retains 1,730. The multi-turn pipeline’s audit sample splits into bill-relevant specifics that NCSL’s topic tags do not name and bill-adjacent entries that are off-topic relative to AI policy, such as tax credits, demonstrated-mastery assessments, and nuclear energy in bills that happen to mention AI. The skill-driven agent’s audit entries are AI-topical by construction. The raw novelty count is therefore not promoted to a quality claim for the multi-turn pipeline; a sizable share of that advantage is extraction from the non-AI portions of bills that pass the keyword filter, which is the same mechanism that lowered the multi-turn pipeline’s coverage rate.</p>
+<figure>
+<img src="../output/evals/v1/plots/05_novel_type_breakdown.png" alt="Novel-claim audit: entity-type breakdown for each method." /><figcaption aria-hidden="true">Novel-claim audit: entity-type breakdown for each method.</figcaption>
+</figure>
+<h3 id="resource-comparison-1">Resource comparison</h3>
+<p>The multi-turn pipeline issued 21,586 LLM calls, 55.34 million tokens, at US$228.78 over 27.4 cumulative hours of LLM time. The skill-driven agent issued 11,231 calls, 90.91 million tokens, at US$315.60 over 16.2 hours. Normalized per bill across the corpus, the multi-turn pipeline averages 11.8 calls and US$0.125 per bill, and the skill-driven agent averages 6.2 calls and US$0.173 per bill. The skill-driven agent is cheaper in calls and time but more expensive in tokens and dollars, because each conversation carries the full running context across turns. The evaluation layer added US$305.72 and 29,451 judge calls over 78.8 hours of cumulative judge time for the four tests combined.</p>
+<h4 id="discussion-cost-and-accuracy-comparison">Discussion: cost and accuracy comparison</h4>
+<p>The cost and accuracy axes point in opposite directions, which is the finding other researchers can carry. The multi-turn pipeline is cheaper in dollars but loses coverage and loses the pairwise preference. The skill-driven agent is more expensive in dollars but wins coverage decisively and wins the pairwise preference after swap-averaging. When the downstream use of the extraction is reference-aligned measurement against a topic taxonomy, the coverage gap is the axis that matters and the skill-driven agent is the pick. When the downstream use is broad exposure of bill-adjacent detail and price per bill is tight, the multi-turn pipeline has a place. The tokens-versus-calls split also matters for throughput: the skill-driven agent issues fewer calls but pays more per call, so rate limits and token budgets bind differently on the two designs.</p>
+<h2 id="live-demonstration">Live Demonstration</h2>
+<p>The live app is deployed at <a href="https://ai-policy-qa.onrender.com" class="uri">https://ai-policy-qa.onrender.com</a>. Any reader can submit a bill URL, a bill identifier, or pasted text and receive the extracted quadruplets together with evidence spans. The same code path is exercised by a 100-question evaluation harness that scores the question-answering pipeline against hand-authored ground truth. The agentic version of the app passes 79 of 100 questions, against 54 for a single-pass RAG baseline and 59 for a self-query baseline, at a mean latency of 6.65 seconds. The deployment serves reproducibility on this paper, and invites other researchers to run the pipeline on new bills.</p>
+<figure>
+<img src="../output/evals_app/_comparison/01_overall_pass_rate.png" alt="QA app: overall pass rate across versions." /><figcaption aria-hidden="true">QA app: overall pass rate across versions.</figcaption>
+</figure>
+<figure>
+<img src="../output/evals_app/_comparison/02_pass_rate_by_difficulty.png" alt="QA app: pass rate by question difficulty." /><figcaption aria-hidden="true">QA app: pass rate by question difficulty.</figcaption>
+</figure>
+<h1 id="discussion">Discussion</h1>
+<h2 id="limitations">Limitations</h2>
+<p>Four limits carry across the results. First, there is no pre-existing entity-level gold standard for the corpus, so the evaluation uses NCSL topic labels plus an LLM-as-judge protocol; a hand-labeled entity gold is follow-up work, and the judge diagnostic in §Results bounds how much trust the current protocol can carry. Second, both proposed methods run on Claude Sonnet 4.5; a cross-family comparison is scoped for follow-up rather than included here. Third, the corpus is U.S. state AI legislation in English, so claims about the pipeline’s portability to other jurisdictions or languages are method-level rather than empirical. Fourth, target-versus-regulated-entity disambiguation still depends on analyst judgment at the analysis step, because a single span can appear in either role; the pipeline surfaces the two fields separately, but the separation is still read by a human.</p>
+<h2 id="implications">Implications</h2>
+<p>The results point to three research-agenda shifts that this line of work opens up. First, quantitative legislative research on AI can move from bill counts to bill-interior variables, which makes mechanism-level questions about who is regulated and under what instrument directly testable rather than left to case reading. Second, the skill-driven design makes the same measurement layer available to other regulatory domains at the cost of a taxonomy rewrite rather than a pipeline rewrite, which sets a lower bar for future work on financial, environmental, and privacy corpora that face the same bill-interior problem. Third, the cost-accuracy comparison between a fixed-plan multi-stage pipeline and an agentic skill-driven pipeline establishes an empirical baseline for choosing between the two designs on long regulatory text, so later LLM-based policy projects can read off the trade-off rather than rerun the comparison.</p>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-agbadamasi2025navigating" class="csl-entry" role="doc-biblioentry">
+Agbadamasi, Samson, Ernestina Opoku, Jemima Adukpo, and Alfred Mensah. 2025. <span>“Navigating the Intersection of <span>U.S.</span> Regulatory Frameworks and Artificial Intelligence: Strategies for Ethical Compliance.”</span> <em>World Journal of Advanced Research and Reviews</em> 25 (3): 969–79. <a href="https://doi.org/10.30574/wjarr.2025.25.3.0814">https://doi.org/10.30574/wjarr.2025.25.3.0814</a>.
+</div>
+<div id="ref-akcali2025automated" class="csl-entry" role="doc-biblioentry">
+Akcali, Zafer, Hazal Selvi Cubuk, Arzu Oguz, Murat Kocak, Aydan Farzaliyeva, Fatih Guven, Mehmet Nezir Ramazanoglu, Efe Hasdemir, Ozden Altundag, and Ahmet Muhtesem Agildere. 2025. <span>“Automated Extraction of Key Entities from Non-<span>English</span> Mammography Reports Using Named Entity Recognition with Prompt Engineering.”</span> <em>Bioengineering</em> 12 (2): 168. <a href="https://doi.org/10.3390/bioengineering12020168">https://doi.org/10.3390/bioengineering12020168</a>.
+</div>
+<div id="ref-deandrade2025promptner" class="csl-entry" role="doc-biblioentry">
+Andrade, Claudio M. V. de, Fabiano Muniz Belém, Celso França, Marcos Carvalho, Marcelo Ganem, Gabriel Texeira, Gabriel Jallais, Alberto H. F. Laender, and Marcos A. Gonçalves. 2025. <span>“<span>PromptNER</span>: An Automatic Prompt-Learning Data Labeling Approach for Named Entity Recognition on Sensitive Data.”</span> <em>Journal of Information and Data Management</em> 16 (1): 62–71. <a href="https://doi.org/10.5753/jidm.2025.4298">https://doi.org/10.5753/jidm.2025.4298</a>.
+</div>
+<div id="ref-anthropic2025skills" class="csl-entry" role="doc-biblioentry">
+Anthropic. 2025a. <span>“<span>Agent Skills</span> (Claude <span>API</span> Documentation, Overview).”</span> <a href="https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview">https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview</a>.
+</div>
+<div id="ref-anthropic2025sdk" class="csl-entry" role="doc-biblioentry">
+———. 2025b. <span>“<span>Agent Skills</span> in the Claude <span>Agent SDK</span>.”</span> <a href="https://docs.claude.com/en/agent-sdk/skills">https://docs.claude.com/en/agent-sdk/skills</a>.
+</div>
+<div id="ref-berijanian2025comparative" class="csl-entry" role="doc-biblioentry">
+Berijanian, Maryam, Kuldeep Singh, and Amin Sehati. 2025. <span>“Comparative Analysis of <span>AI</span> Agent Architectures for Entity Relationship Classification.”</span> <em>arXiv Preprint arXiv:2506.02426</em>. <a href="https://doi.org/10.48550/arXiv.2506.02426">https://doi.org/10.48550/arXiv.2506.02426</a>.
+</div>
+<div id="ref-blei2003latent" class="csl-entry" role="doc-biblioentry">
+Blei, David M., Andrew Y. Ng, and Michael I. Jordan. 2003. <span>“Latent <span>Dirichlet</span> Allocation.”</span> <em>Journal of Machine Learning Research</em> 3: 993–1022. <a href="https://www.jmlr.org/papers/v3/blei03a.html">https://www.jmlr.org/papers/v3/blei03a.html</a>.
+</div>
+<div id="ref-dee2025policy" class="csl-entry" role="doc-biblioentry">
+Dee, Thomas S., and Alex Garlick. 2025. <span>“Policy Agendas of the <span>American</span> State Legislatures.”</span> <em>Scientific Data</em> 12: 1276. <a href="https://doi.org/10.1038/s41597-025-05621-5">https://doi.org/10.1038/s41597-025-05621-5</a>.
+</div>
+<div id="ref-defranco2024assessing" class="csl-entry" role="doc-biblioentry">
+DeFranco, Joanna F., and Mark Biersmith. 2024. <span>“Assessing the State of <span>AI</span> Policy.”</span> <em>arXiv Preprint arXiv:2407.21717</em>. <a href="https://doi.org/10.48550/arXiv.2407.21717">https://doi.org/10.48550/arXiv.2407.21717</a>.
+</div>
+<div id="ref-depaula2024regulating" class="csl-entry" role="doc-biblioentry">
+DePaula, Nic, Yuan Gao, Sehl Mellouli, Luis F. Luna-Reyes, and Teresa M. Harrison. 2024. <span>“Regulating the Machine: An Exploratory Study of <span>US</span> State Legislations Addressing Artificial Intelligence, 2019–2023.”</span> In <em>Proceedings of the 25th Annual International Conference on Digital Government Research</em>, 815–26. <a href="https://doi.org/10.1145/3657054.3657148">https://doi.org/10.1145/3657054.3657148</a>.
+</div>
+<div id="ref-depaula2025evolving" class="csl-entry" role="doc-biblioentry">
+———. 2025. <span>“The Evolving <span>AI</span> Regulation Space: A Preliminary Analysis of <span>US</span> State Legislations Addressing <span>AI</span>, 2024.”</span> In <em>Proceedings of the 26th Annual International Conference on Digital Government Research</em>. <a href="https://doi.org/10.59490/dgo.2025.937">https://doi.org/10.59490/dgo.2025.937</a>.
+</div>
+<div id="ref-feng2025promptbart" class="csl-entry" role="doc-biblioentry">
+Feng, Xinzhu, Songheng He, Xinxin Wei, Runshi Liu, Huanzhou Yue, and Xuren Wang. 2025. <span>“<span>PROMPT-BART</span>: A Named Entity Recognition Model Applied to Cyber Threat Intelligence.”</span> <em>Applied Sciences</em> 15 (18): 10276. <a href="https://doi.org/10.3390/app151810276">https://doi.org/10.3390/app151810276</a>.
+</div>
+<div id="ref-garlick2023laboratories" class="csl-entry" role="doc-biblioentry">
+Garlick, Alex. 2023. <span>“Laboratories of Politics: There Is Bottom-up Diffusion of Attention in the <span>American</span> Federal System.”</span> <em>Political Research Quarterly</em> 76 (1): 29–43. <a href="https://doi.org/10.1177/10659129211068059">https://doi.org/10.1177/10659129211068059</a>.
+</div>
+<div id="ref-grimmer2010bayesian" class="csl-entry" role="doc-biblioentry">
+Grimmer, Justin. 2010. <span>“A <span>Bayesian</span> Hierarchical Topic Model for Political Texts: Measuring Expressed Agendas in <span>Senate</span> Press Releases.”</span> <em>Political Analysis</em> 18 (1): 1–35. <a href="https://doi.org/10.1093/pan/mpp034">https://doi.org/10.1093/pan/mpp034</a>.
+</div>
+<div id="ref-grimmer2013text" class="csl-entry" role="doc-biblioentry">
+Grimmer, Justin, and Brandon M. Stewart. 2013. <span>“Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts.”</span> <em>Political Analysis</em> 21 (3): 267–97. <a href="https://doi.org/10.1093/pan/mps028">https://doi.org/10.1093/pan/mps028</a>.
+</div>
+<div id="ref-guerdan2025validating" class="csl-entry" role="doc-biblioentry">
+Guerdan, Luke, and others. 2025. <span>“Validating <span class="nocase">LLM-as-a-Judge</span> Systems Under Rating Indeterminacy.”</span> <em>arXiv Preprint arXiv:2503.05965</em>. <a href="https://arxiv.org/abs/2503.05965">https://arxiv.org/abs/2503.05965</a>.
+</div>
+<div id="ref-ho2025llm" class="csl-entry" role="doc-biblioentry">
+Ho, Nan-Jiang Jeffrey, Qiyuan Huang, Florian Boudin, and Akiko Aizawa. 2025. <span>“<span class="nocase">LLM-as-a-Judge</span>: Reassessing the Performance of <span>LLMs</span> in Extractive <span>QA</span>.”</span> <em>arXiv Preprint arXiv:2504.11972</em>. <a href="https://arxiv.org/abs/2504.11972">https://arxiv.org/abs/2504.11972</a>.
+</div>
+<div id="ref-hopkins2010method" class="csl-entry" role="doc-biblioentry">
+Hopkins, Daniel J., and Gary King. 2010. <span>“A Method of Automated Nonparametric Content Analysis for Social Science.”</span> <em>American Journal of Political Science</em> 54 (1): 229–47. <a href="https://doi.org/10.1111/j.1540-5907.2009.00428.x">https://doi.org/10.1111/j.1540-5907.2009.00428.x</a>.
+</div>
+<div id="ref-hu2023improving" class="csl-entry" role="doc-biblioentry">
+Hu, Yan, Qingyu Chen, Jingcheng Du, Xueqing Peng, Vipina Kuttichi Keloth, Xu Zuo, Yujia Zhou, et al. 2023. <span>“Improving Large Language Models for Clinical Named Entity Recognition via Prompt Engineering.”</span> <em>arXiv Preprint arXiv:2303.16416</em>. <a href="https://doi.org/10.48550/arXiv.2303.16416">https://doi.org/10.48550/arXiv.2303.16416</a>.
+</div>
+<div id="ref-huang2023api" class="csl-entry" role="doc-biblioentry">
+Huang, Qing, Yanbang Sun, Zhenchang Xing, Min Yu, Xiwei Xu, and Qinghua Lu. 2023. <span>“<span>API</span> Entity and Relation Joint Extraction from Text via Dynamic Prompt-Tuned Language Model.”</span> <em>arXiv Preprint arXiv:2301.03987</em>. <a href="https://doi.org/10.48550/arXiv.2301.03987">https://doi.org/10.48550/arXiv.2301.03987</a>.
+</div>
+<div id="ref-islam2025llm" class="csl-entry" role="doc-biblioentry">
+Islam, K. M. Sajjadul, Ayesha Siddika Nipu, Jiawei Wu, and Praveen Madiraju. 2025. <span>“<span>LLM-Based</span> Prompt Ensemble for Reliable Medical Entity Recognition from <span>EHRs</span>.”</span> <em>arXiv Preprint arXiv:2505.08704</em>. <a href="https://arxiv.org/abs/2505.08704">https://arxiv.org/abs/2505.08704</a>.
+</div>
+<div id="ref-jin2025searchr1" class="csl-entry" role="doc-biblioentry">
+Jin, Bowen, Hansi Zeng, Zhenrui Yue, Jinsung Yoon, Sercan O. Arik, Dong Wang, Hamed Zamani, and Jiawei Han. 2025. <span>“<span>Search-R1</span>: Training <span>LLMs</span> to Reason and Leverage Search Engines with Reinforcement Learning.”</span> In <em>Conference on Language Modeling (<span>COLM</span> 2025)</em>. <a href="https://arxiv.org/abs/2503.09516">https://arxiv.org/abs/2503.09516</a>.
+</div>
+<div id="ref-krippendorff2018content" class="csl-entry" role="doc-biblioentry">
+Krippendorff, Klaus. 2018. <em>Content Analysis: An Introduction to Its Methodology</em>. 4th ed. Sage Publications. <a href="https://doi.org/10.4135/9781071878781">https://doi.org/10.4135/9781071878781</a>.
+</div>
+<div id="ref-kuteynikov2022key" class="csl-entry" role="doc-biblioentry">
+Kuteynikov, Dmitry L., Osman A. Izhaev, Sergey S. Zenin, and Valeriy A. Lebedev. 2022. <span>“Key Approaches to the Legal Regulation of Artificial Intelligence.”</span> <em>Vestnik Tyumenskogo Gosudarstvennogo Universiteta / Tyumen State University Herald</em> 8 (1): 209–32. <a href="https://doi.org/10.21684/2411-7897-2022-8-1-209-232">https://doi.org/10.21684/2411-7897-2022-8-1-209-232</a>.
+</div>
+<div id="ref-laskar2025improving" class="csl-entry" role="doc-biblioentry">
+Laskar, Md Tahmid Rahman, and others. 2025. <span>“Improving Automatic Evaluation of Large Language Models (<span>LLMs</span>) in Biomedical Relation Extraction via <span class="nocase">LLMs-as-the-Judge</span>.”</span> In <em>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em>. <a href="https://doi.org/10.18653/v1/2025.acl-long.1238">https://doi.org/10.18653/v1/2025.acl-long.1238</a>.
+</div>
+<div id="ref-lewis2020retrieval" class="csl-entry" role="doc-biblioentry">
+Lewis, Patrick, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, et al. 2020. <span>“Retrieval-Augmented Generation for Knowledge-Intensive <span>NLP</span> Tasks.”</span> In <em>Advances in Neural Information Processing Systems 33 (<span>NeurIPS</span> 2020)</em>. <a href="https://arxiv.org/abs/2005.11401">https://arxiv.org/abs/2005.11401</a>.
+</div>
+<div id="ref-lexisnexis2025statenet" class="csl-entry" role="doc-biblioentry">
+LexisNexis. 2025. <span>“<span>State Net</span>: Regulatory and Legislative Tracking Software.”</span> <a href="https://www.lexisnexis.com/en-us/products/state-net.page">https://www.lexisnexis.com/en-us/products/state-net.page</a>.
+</div>
+<div id="ref-li2025searcho1" class="csl-entry" role="doc-biblioentry">
+Li, Xiaoxi, Guanting Dong, Jiajie Jin, Yuyao Zhang, Yujia Zhou, Yutao Zhu, Peitian Zhang, and Zhicheng Dou. 2025. <span>“<span class="nocase">Search-o1</span>: Agentic Search-Enhanced Large Reasoning Models.”</span> In <em>Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (<span>EMNLP</span> 2025)</em>. <a href="https://arxiv.org/abs/2501.05366">https://arxiv.org/abs/2501.05366</a>.
+</div>
+<div id="ref-lucas2015computer" class="csl-entry" role="doc-biblioentry">
+Lucas, Christopher, Richard A. Nielsen, Margaret E. Roberts, Brandon M. Stewart, Alex Storer, and Dustin Tingley. 2015. <span>“Computer-Assisted Text Analysis for Comparative Politics.”</span> <em>Political Analysis</em> 23 (2): 254–77. <a href="https://doi.org/10.1093/pan/mpu019">https://doi.org/10.1093/pan/mpu019</a>.
+</div>
+<div id="ref-ncsl2023ailegislation2023" class="csl-entry" role="doc-biblioentry">
+National Conference of State Legislatures. 2023. <span>“<span>Artificial Intelligence 2023 Legislation</span>.”</span> <a href="https://www.ncsl.org/technology-and-communication/artificial-intelligence-2023-legislation">https://www.ncsl.org/technology-and-communication/artificial-intelligence-2023-legislation</a>.
+</div>
+<div id="ref-ncsl2024ailegislation2024" class="csl-entry" role="doc-biblioentry">
+———. 2024. <span>“<span>Artificial Intelligence 2024 Legislation</span>.”</span> <a href="https://www.ncsl.org/technology-and-communication/artificial-intelligence-2024-legislation">https://www.ncsl.org/technology-and-communication/artificial-intelligence-2024-legislation</a>.
+</div>
+<div id="ref-ncsl2025ailegislation2025" class="csl-entry" role="doc-biblioentry">
+———. 2025a. <span>“<span>Artificial Intelligence 2025 Legislation</span>.”</span> <a href="https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation">https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation</a>.
+</div>
+<div id="ref-ncsl2025ai" class="csl-entry" role="doc-biblioentry">
+———. 2025b. <span>“<span>Artificial Intelligence Legislation Database</span>.”</span> <a href="https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database">https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database</a>.
+</div>
+<div id="ref-oduro2022obligations" class="csl-entry" role="doc-biblioentry">
+Oduro, Serena, Emanuel Moss, and Jacob Metcalf. 2022. <span>“Obligations to Assess: Recent Trends in <span>AI</span> Accountability Regulations.”</span> <em>Patterns</em> 3 (11): 100608. <a href="https://doi.org/10.1016/j.patter.2022.100608">https://doi.org/10.1016/j.patter.2022.100608</a>.
+</div>
+<div id="ref-otto2023gsapner" class="csl-entry" role="doc-biblioentry">
+Otto, Wolfgang, Matthäus Zloch, Lu Gan, Saurav Karmakar, and Stefan Dietze. 2023. <span>“<span>GSAP-NER</span>: A Novel Task, Corpus, and Baseline for Scholarly Entity Extraction Focused on Machine Learning Models and Datasets.”</span> In <em>Findings of the Association for Computational Linguistics: <span>EMNLP</span> 2023</em>, 8166–76. <a href="https://doi.org/10.18653/v1/2023.findings-emnlp.548">https://doi.org/10.18653/v1/2023.findings-emnlp.548</a>.
+</div>
+<div id="ref-parinandi2024investigating" class="csl-entry" role="doc-biblioentry">
+Parinandi, Srinivas, Jesse Crosson, Kyle Peterson, and Sarina Nadarevic. 2024. <span>“Investigating the Politics and Content of <span>US</span> State Artificial Intelligence Legislation.”</span> <em>Business and Politics</em> 26 (2): 240–62. <a href="https://doi.org/10.1017/bap.2023.40">https://doi.org/10.1017/bap.2023.40</a>.
+</div>
+<div id="ref-pham2026using" class="csl-entry" role="doc-biblioentry">
+Pham, Van, Evani Radiya-Dixit, Marissa Gerchick, Ben Madubuonwu, and Suresh Venkatasubramanian. 2026. <span>“Using <span>AI</span> to Make Sense of <span>AI</span> Policy.”</span> Brown University Center for Technological Responsibility (CNTR); American Civil Liberties Union. <a href="https://www.aclu.org/publications/using-ai-to-make-sense-of-ai-policy">https://www.aclu.org/publications/using-ai-to-make-sense-of-ai-policy</a>.
+</div>
+<div id="ref-quinn2010how" class="csl-entry" role="doc-biblioentry">
+Quinn, Kevin M., Burt L. Monroe, Michael Colaresi, Michael H. Crespin, and Dragomir R. Radev. 2010. <span>“How to Analyze Political Attention with Minimal Assumptions and Costs.”</span> <em>American Journal of Political Science</em> 54 (1): 209–28. <a href="https://doi.org/10.1111/j.1540-5907.2009.00427.x">https://doi.org/10.1111/j.1540-5907.2009.00427.x</a>.
+</div>
+<div id="ref-ri2024s2540" class="csl-entry" role="doc-biblioentry">
+Rhode Island General Assembly. 2024. <span>“S 2540, Rhode Island Clean Air Preservation Act.”</span> Rhode Island General Assembly, 2024 Legislative Session.
+</div>
+<div id="ref-roberts2014structural" class="csl-entry" role="doc-biblioentry">
+Roberts, Margaret E., Brandon M. Stewart, Dustin Tingley, Christopher Lucas, Jetson Leder-Luis, Shana Kushner Gadarian, Bethany Albertson, and David G. Rand. 2014. <span>“Structural Topic Models for Open-Ended Survey Responses.”</span> <em>American Journal of Political Science</em> 58 (4): 1064–82. <a href="https://doi.org/10.1111/ajps.12103">https://doi.org/10.1111/ajps.12103</a>.
+</div>
+<div id="ref-schick2023toolformer" class="csl-entry" role="doc-biblioentry">
+Schick, Timo, Jane Dwivedi-Yu, Roberto Dessì, Roberta Raileanu, Maria Lomeli, Luke Zettlemoyer, Nicola Cancedda, and Thomas Scialom. 2023. <span>“<span>Toolformer</span>: Language Models Can Teach Themselves to Use Tools.”</span> In <em>Advances in Neural Information Processing Systems 36 (<span>NeurIPS</span> 2023)</em>. <a href="https://arxiv.org/abs/2302.04761">https://arxiv.org/abs/2302.04761</a>.
+</div>
+<div id="ref-schluntz2024building" class="csl-entry" role="doc-biblioentry">
+Schluntz, Erik, and Barry Zhang. 2024. <span>“Building Effective <span>AI</span> Agents.”</span> Anthropic Engineering Blog. <a href="https://www.anthropic.com/engineering/building-effective-agents">https://www.anthropic.com/engineering/building-effective-agents</a>.
+</div>
+<div id="ref-sheikin2024principles" class="csl-entry" role="doc-biblioentry">
+Sheikin, Ivan. 2024. <span>“Principles of Legislative Regulation of Artificial Intelligence in the <span>USA</span> and Its Impact on the Development of the Technology Sector.”</span>
+</div>
+<div id="ref-singh2025agentic" class="csl-entry" role="doc-biblioentry">
+Singh, Aditi, Abul Ehtesham, Saket Kumar, and Tala Talaei Khoei. 2025. <span>“Agentic Retrieval-Augmented Generation: A Survey on Agentic <span>RAG</span>.”</span> <em>arXiv Preprint arXiv:2501.09136</em>. <a href="https://arxiv.org/abs/2501.09136">https://arxiv.org/abs/2501.09136</a>.
+</div>
+<div id="ref-tan2024judgebench" class="csl-entry" role="doc-biblioentry">
+Tan, Sijun, Siyuan Zhuang, Kyle Montgomery, William Yuan Tang, Alejandro Cuadron, Chenguang Wang, Raluca Ada Popa, and Ion Stoica. 2024. <span>“<span>JudgeBench</span>: A Benchmark for Evaluating <span>LLM-Based</span> Judges.”</span> <em>arXiv Preprint arXiv:2410.12784</em>. <a href="https://arxiv.org/abs/2410.12784">https://arxiv.org/abs/2410.12784</a>.
+</div>
+<div id="ref-wang2024regulating" class="csl-entry" role="doc-biblioentry">
+Wang, Jiageng, and Kathryn Haak. 2024. <span>“Regulating Artificial Intelligence in the <span>European Union</span> and the <span>United States</span>.”</span> <em>Journal of Student Research</em> 13 (2). <a href="https://doi.org/10.47611/jsrhs.v13i2.6798">https://doi.org/10.47611/jsrhs.v13i2.6798</a>.
+</div>
+<div id="ref-wang2025cooperative" class="csl-entry" role="doc-biblioentry">
+Wang, Zihan, Ziqi Zhao, Yougang Lyu, Zhumin Chen, Maarten de Rijke, and Zhaochun Ren. 2025. <span>“A Cooperative Multi-Agent Framework for Zero-Shot Named Entity Recognition.”</span> <em>arXiv Preprint arXiv:2502.18702</em>. <a href="https://doi.org/10.48550/arXiv.2502.18702">https://doi.org/10.48550/arXiv.2502.18702</a>.
+</div>
+<div id="ref-xu2025zeroshot" class="csl-entry" role="doc-biblioentry">
+Xu, Xueqiang, Jinfeng Xiao, James Barry, Mohab Elkaref, Jiaru Zou, Pengcheng Jiang, Yunyi Zhang, Max Giammona, Geeth de Mel, and Jiawei Han. 2025. <span>“Zero-Shot Open-Schema Entity Structure Discovery.”</span> <em>arXiv Preprint arXiv:2506.04458</em>. <a href="https://doi.org/10.48550/arXiv.2506.04458">https://doi.org/10.48550/arXiv.2506.04458</a>.
+</div>
+<div id="ref-yao2023react" class="csl-entry" role="doc-biblioentry">
+Yao, Shunyu, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, and Yuan Cao. 2023. <span>“<span>ReAct</span>: Synergizing Reasoning and Acting in Language Models.”</span> In <em>The Eleventh International Conference on Learning Representations (<span>ICLR</span> 2023)</em>. <a href="https://arxiv.org/abs/2210.03629">https://arxiv.org/abs/2210.03629</a>.
+</div>
+<div id="ref-ye2023decomposed" class="csl-entry" role="doc-biblioentry">
+Ye, Feiyang, Liang Huang, Senjie Liang, and KaiKai Chi. 2023. <span>“Decomposed Two-Stage Prompt Learning for Few-Shot Named Entity Recognition.”</span> <em>Information</em> 14 (5): 262. <a href="https://doi.org/10.3390/info14050262">https://doi.org/10.3390/info14050262</a>.
+</div>
+<div id="ref-ye2024justice" class="csl-entry" role="doc-biblioentry">
+Ye, Jiayi, Yanbo Wang, Yue Huang, Dongping Chen, Qihui Zhang, Nuno Moniz, Tian Gao, et al. 2024. <span>“Justice or Prejudice? <span>Quantifying</span> Biases in <span class="nocase">LLM-as-a-Judge</span>.”</span> <em>arXiv Preprint arXiv:2410.02736</em>. <a href="https://arxiv.org/abs/2410.02736">https://arxiv.org/abs/2410.02736</a>.
+</div>
+<div id="ref-yoo2020regulation" class="csl-entry" role="doc-biblioentry">
+Yoo, Christopher S., and Alicia Lai. 2020. <span>“Regulation of Algorithmic Tools in the United States.”</span> <em>Journal of Law and Economic Regulation</em> 13: 7–22. <a href="https://scholarship.law.upenn.edu/faculty_scholarship/2246/">https://scholarship.law.upenn.edu/faculty_scholarship/2246/</a>.
+</div>
+<div id="ref-young2012affective" class="csl-entry" role="doc-biblioentry">
+Young, Lori, and Stuart Soroka. 2012. <span>“Affective News: The Automated Coding of Sentiment in Political Texts.”</span> <em>Political Communication</em> 29 (2): 205–31. <a href="https://doi.org/10.1080/10584609.2012.671234">https://doi.org/10.1080/10584609.2012.671234</a>.
+</div>
+<div id="ref-zhang2025equipping" class="csl-entry" role="doc-biblioentry">
+Zhang, Barry, Mahesh Lazuka, and Jesse Murag. 2025. <span>“Equipping Agents for the Real World with <span>Agent Skills</span>.”</span> Anthropic Engineering Blog. <a href="https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills">https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills</a>.
+</div>
+<div id="ref-zheng2023judging" class="csl-entry" role="doc-biblioentry">
+Zheng, Lianmin, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, et al. 2023. <span>“Judging <span class="nocase">LLM-as-a-Judge</span> with <span>MT-Bench</span> and <span>Chatbot Arena</span>.”</span> <em>arXiv Preprint arXiv:2306.05685</em>. <a href="https://arxiv.org/abs/2306.05685">https://arxiv.org/abs/2306.05685</a>.
+</div>
+</div>
+</body>
+</html>

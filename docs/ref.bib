@@ -1,0 +1,773 @@
+% BibTeX bibliography for docs/mpsa_draft_outline_v1.md and related lit-review files.
+% Sources aggregated:
+%   1. docs/lit_rev_theory.md
+%   2. docs/lit_rev_eval.md
+%   3. docs/lit_rev_ner.md
+%   4. references/ folder (references_methods.md, methods/w26081.pdf, methods/NER/)
+%   5. data/ncsl/ underlying data source (NCSL AI Legislation Database + LexisNexis State Net)
+%
+% Keys use the pattern <firstAuthorLastname><YEAR><shortTitle>.
+
+% ======================================================================
+% Section 1. Theory: US/EU/PRC AI policy landscape and US state AI bills
+% Source: docs/lit_rev_theory.md
+% ======================================================================
+
+@article{yoo2020regulation,
+  author  = {Yoo, Christopher S. and Lai, Alicia},
+  title   = {Regulation of Algorithmic Tools in the United States},
+  journal = {Journal of Law and Economic Regulation},
+  volume  = {13},
+  pages   = {7--22},
+  year    = {2020},
+  note    = {University of Pennsylvania Law School Public Law Research Paper No. 21-04},
+  url     = {https://scholarship.law.upenn.edu/faculty_scholarship/2246/},
+}
+
+@article{kuteynikov2022key,
+  author  = {Kuteynikov, Dmitry L. and Izhaev, Osman A. and Zenin, Sergey S. and Lebedev, Valeriy A.},
+  title   = {Key Approaches to the Legal Regulation of Artificial Intelligence},
+  journal = {Vestnik Tyumenskogo Gosudarstvennogo Universiteta / Tyumen State University Herald},
+  volume  = {8},
+  number  = {1},
+  pages   = {209--232},
+  year    = {2022},
+  doi     = {10.21684/2411-7897-2022-8-1-209-232},
+}
+
+@misc{sheikin2024principles,
+  author = {Sheikin, Ivan},
+  title  = {Principles of Legislative Regulation of Artificial Intelligence in the {USA} and Its Impact on the Development of the Technology Sector},
+  year   = {2024},
+  note   = {In Russian; no DOI located; cited only within \texttt{docs/lit\_rev\_theory.docx} and commonly indexed in Russian legal-studies repositories},
+}
+
+@article{wang2024regulating,
+  author  = {Wang, Jiageng and Haak, Kathryn},
+  title   = {Regulating Artificial Intelligence in the {European Union} and the {United States}},
+  journal = {Journal of Student Research},
+  volume  = {13},
+  number  = {2},
+  year    = {2024},
+  doi     = {10.47611/jsrhs.v13i2.6798},
+}
+
+@article{parinandi2024investigating,
+  author  = {Parinandi, Srinivas and Crosson, Jesse and Peterson, Kyle and Nadarevic, Sarina},
+  title   = {Investigating the Politics and Content of {US} State Artificial Intelligence Legislation},
+  journal = {Business and Politics},
+  volume  = {26},
+  number  = {2},
+  pages   = {240--262},
+  year    = {2024},
+  doi     = {10.1017/bap.2023.40},
+}
+
+@article{defranco2024assessing,
+  author  = {DeFranco, Joanna F. and Biersmith, Mark},
+  title   = {Assessing the State of {AI} Policy},
+  journal = {arXiv preprint arXiv:2407.21717},
+  year    = {2024},
+  doi     = {10.48550/arXiv.2407.21717},
+  url     = {https://arxiv.org/abs/2407.21717},
+}
+
+@article{oduro2022obligations,
+  author  = {Oduro, Serena and Moss, Emanuel and Metcalf, Jacob},
+  title   = {Obligations to Assess: Recent Trends in {AI} Accountability Regulations},
+  journal = {Patterns},
+  volume  = {3},
+  number  = {11},
+  pages   = {100608},
+  year    = {2022},
+  doi     = {10.1016/j.patter.2022.100608},
+}
+
+@inproceedings{depaula2024regulating,
+  author    = {DePaula, Nic and Gao, Yuan and Mellouli, Sehl and Luna-Reyes, Luis F. and Harrison, Teresa M.},
+  title     = {Regulating the Machine: An Exploratory Study of {US} State Legislations Addressing Artificial Intelligence, 2019--2023},
+  booktitle = {Proceedings of the 25th Annual International Conference on Digital Government Research},
+  pages     = {815--826},
+  year      = {2024},
+  doi       = {10.1145/3657054.3657148},
+}
+
+@inproceedings{depaula2025evolving,
+  author    = {DePaula, Nic and Gao, Yuan and Mellouli, Sehl and Luna-Reyes, Luis F. and Harrison, Teresa M.},
+  title     = {The Evolving {AI} Regulation Space: A Preliminary Analysis of {US} State Legislations Addressing {AI}, 2024},
+  booktitle = {Proceedings of the 26th Annual International Conference on Digital Government Research},
+  year      = {2025},
+  doi       = {10.59490/dgo.2025.937},
+}
+
+@article{agbadamasi2025navigating,
+  author  = {Agbadamasi, Samson and Opoku, Ernestina and Adukpo, Jemima and Mensah, Alfred},
+  title   = {Navigating the Intersection of {U.S.} Regulatory Frameworks and Artificial Intelligence: Strategies for Ethical Compliance},
+  journal = {World Journal of Advanced Research and Reviews},
+  volume  = {25},
+  number  = {3},
+  pages   = {969--979},
+  year    = {2025},
+  doi     = {10.30574/wjarr.2025.25.3.0814},
+}
+
+% ======================================================================
+% Section 2. Evaluation: NER / RE / IE metrics and LLM-as-judge
+% Source: docs/lit_rev_eval.md
+% ======================================================================
+
+@inproceedings{tjongkimsang2003conll,
+  author    = {Tjong Kim Sang, Erik F. and De Meulder, Fien},
+  title     = {Introduction to the {CoNLL-2003} Shared Task: Language-Independent Named Entity Recognition},
+  booktitle = {Proceedings of the Seventh Conference on Natural Language Learning at {HLT-NAACL} 2003},
+  pages     = {142--147},
+  year      = {2003},
+  url       = {https://aclanthology.org/W03-0419/},
+}
+
+@inproceedings{chinchor1993muc5,
+  author    = {Chinchor, Nancy and Sundheim, Beth},
+  title     = {{MUC-5} Evaluation Metrics},
+  booktitle = {Fifth Message Understanding Conference ({MUC-5}): Proceedings of a Conference Held in Baltimore, Maryland, August 25--27, 1993},
+  year      = {1993},
+  url       = {https://aclanthology.org/M93-1007/},
+}
+
+@inproceedings{segurabedmar2013semeval,
+  author    = {Segura-Bedmar, Isabel and Mart{\'i}nez, Paloma and Herrero-Zazo, Mar{\'i}a},
+  title     = {{SemEval-2013} Task 9: Extraction of Drug-Drug Interactions from Biomedical Texts ({DDIExtraction} 2013)},
+  booktitle = {Second Joint Conference on Lexical and Computational Semantics ({*SEM}), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation ({SemEval} 2013)},
+  pages     = {341--350},
+  year      = {2013},
+  url       = {https://aclanthology.org/S13-2056/},
+}
+
+@misc{nakayama2018seqeval,
+  author       = {Nakayama, Hiroki},
+  title        = {seqeval: A {Python} Framework for Sequence Labeling Evaluation},
+  year         = {2018},
+  howpublished = {\url{https://github.com/chakki-works/seqeval}},
+}
+
+@misc{batista2018named,
+  author       = {Batista, David S.},
+  title        = {Named-Entity Evaluation Metrics Based on Entity-Level},
+  year         = {2018},
+  howpublished = {\url{https://www.davidsbatista.net/blog/2018/05/09/Named_Entity_Evaluation/}},
+  note         = {Blog post; later packaged as the \texttt{nervaluate} PyPI library},
+}
+
+@inproceedings{amigo2025evaluating,
+  author    = {Amig{\'o}, Enrique and others},
+  title     = {Evaluating Sequence Labeling on the Basis of Information Theory},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.acl-long.1351},
+  url       = {https://aclanthology.org/2025.acl-long.1351/},
+}
+
+@article{bekoulis2018joint,
+  author  = {Bekoulis, Giannis and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
+  title   = {Joint Entity Recognition and Relation Extraction as a Multi-Head Selection Problem},
+  journal = {arXiv preprint arXiv:1804.07847},
+  year    = {2018},
+  url     = {https://arxiv.org/abs/1804.07847},
+}
+
+@article{taille2021stop,
+  author  = {Taill{\'e}, Bruno and Guigue, Vincent and Scoutheeten, Geoffrey and Gallinari, Patrick},
+  title   = {Let's Stop Incorrect Comparisons in End-to-End Relation Extraction!},
+  journal = {arXiv preprint arXiv:2009.10684},
+  year    = {2021},
+  url     = {https://arxiv.org/abs/2009.10684},
+}
+
+@article{zhong2021frustratingly,
+  author  = {Zhong, Zexuan and Chen, Danqi},
+  title   = {A Frustratingly Easy Approach for Entity and Relation Extraction},
+  journal = {arXiv preprint arXiv:2010.12812},
+  year    = {2021},
+  url     = {https://arxiv.org/abs/2010.12812},
+}
+
+@article{duan2025scinlp,
+  author  = {Duan, Zheng and others},
+  title   = {{SciNLP}: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in {NLP}},
+  journal = {arXiv preprint arXiv:2509.07801},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2509.07801},
+}
+
+@inproceedings{laskar2025improving,
+  author    = {Laskar, Md Tahmid Rahman and others},
+  title     = {Improving Automatic Evaluation of Large Language Models ({LLMs}) in Biomedical Relation Extraction via {LLMs-as-the-Judge}},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.acl-long.1238},
+  url       = {https://aclanthology.org/2025.acl-long.1238/},
+}
+
+@article{plum2026llms,
+  author  = {Plum, Alistair and Bernardy, Jean-Philippe and Ranasinghe, Tharindu},
+  title   = {Do {LLMs} Judge Distantly Supervised Named Entity Labels Well? {Constructing} the {judgeWEL} Dataset},
+  journal = {arXiv preprint arXiv:2601.00411},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2601.00411},
+}
+
+@article{ho2025llm,
+  author  = {Ho, Nan-Jiang Jeffrey and Huang, Qiyuan and Boudin, Florian and Aizawa, Akiko},
+  title   = {{LLM-as-a-Judge}: Reassessing the Performance of {LLMs} in Extractive {QA}},
+  journal = {arXiv preprint arXiv:2504.11972},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2504.11972},
+}
+
+@article{liu2023geval,
+  author  = {Liu, Yang and Iter, Dan and Xu, Yichong and Wang, Shuohang and Xu, Ruochen and Zhu, Chenguang},
+  title   = {{G-Eval}: {NLG} Evaluation Using {GPT-4} with Better Human Alignment},
+  journal = {arXiv preprint arXiv:2303.16634},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2303.16634},
+}
+
+@article{fu2023gptscore,
+  author  = {Fu, Jinlan and Ng, See-Kiong and Jiang, Zhengbao and Liu, Pengfei},
+  title   = {{GPTScore}: Evaluate as You Desire},
+  journal = {arXiv preprint arXiv:2302.04166},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2302.04166},
+}
+
+@article{yuan2021bartscore,
+  author  = {Yuan, Weizhe and Neubig, Graham and Liu, Pengfei},
+  title   = {{BARTScore}: Evaluating Generated Text as Text Generation},
+  journal = {arXiv preprint arXiv:2106.11520},
+  year    = {2021},
+  url     = {https://arxiv.org/abs/2106.11520},
+}
+
+@article{huang2026atomic,
+  author  = {Huang, Yujia},
+  title   = {{Atomic-SNLI}: Fine-Grained Natural Language Inference through Atomic Fact Decomposition},
+  journal = {arXiv preprint arXiv:2601.06528},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2601.06528},
+}
+
+@inproceedings{galimzianova2025rag,
+  author    = {Galimzianova, Diana and Boriskin, Aleksei and Arshinov, Gleb},
+  title     = {From {RAG} to Reality: Coarse-Grained Hallucination Detection via {NLI} Fine-Tuning},
+  booktitle = {Proceedings of the 5th Workshop on Scholarly Document Processing ({SDP} 2025)},
+  year      = {2025},
+  doi       = {10.18653/v1/2025.sdp-1.34},
+  url       = {https://aclanthology.org/2025.sdp-1.34/},
+}
+
+@article{hu2024refchecker,
+  author  = {Hu, Xiangkun and Ru, Dongyu and Qiu, Lin and Guo, Qipeng and Zhang, Tianhang and Xu, Yang and Luo, Yun and Liu, Pengfei and Zhang, Yue and Zhang, Zheng},
+  title   = {{RefChecker}: Reference-Based Fine-Grained Hallucination Checker and Benchmark for Large Language Models},
+  journal = {arXiv preprint arXiv:2405.14486},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2405.14486},
+}
+
+@article{zheng2023judging,
+  author  = {Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric P. and Zhang, Hao and Gonzalez, Joseph E. and Stoica, Ion},
+  title   = {Judging {LLM-as-a-Judge} with {MT-Bench} and {Chatbot Arena}},
+  journal = {arXiv preprint arXiv:2306.05685},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2306.05685},
+}
+
+@article{zhu2023judgelm,
+  author  = {Zhu, Lianghui and Wang, Xinggang and Wang, Xinlong},
+  title   = {{JudgeLM}: Fine-Tuned Large Language Models Are Scalable Judges},
+  journal = {arXiv preprint arXiv:2310.17631},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2310.17631},
+}
+
+@article{wang2024pandalm,
+  author  = {Wang, Yidong and Yu, Zhuohao and Zeng, Zhengran and Yang, Linyi and Wang, Cunxiang and Chen, Hao and Jiang, Chaoya and Xie, Rui and Wang, Jindong and Xie, Xing and Ye, Wei and Zhang, Shikun and Zhang, Yue},
+  title   = {{PandaLM}: An Automatic Evaluation Benchmark for {LLM} Instruction Tuning Optimization},
+  journal = {arXiv preprint arXiv:2306.05087},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2306.05087},
+}
+
+@article{chen2025judgelrm,
+  author  = {Chen, Nuo and others},
+  title   = {{JudgeLRM}: Large Reasoning Models as a Judge},
+  journal = {arXiv preprint arXiv:2504.00050},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2504.00050},
+}
+
+@article{wang2024selftaught,
+  author  = {Wang, Tianlu and Kulikov, Ilia and Golovneva, Olga and Yu, Ping and Yuan, Weizhe and Dwivedi-Yu, Jane and Pang, Richard Yuanzhe and Fazel-Zarandi, Maryam and Weston, Jason and Li, Xian},
+  title   = {Self-Taught Evaluators},
+  journal = {arXiv preprint arXiv:2408.02666},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2408.02666},
+}
+
+@article{tan2024judgebench,
+  author  = {Tan, Sijun and Zhuang, Siyuan and Montgomery, Kyle and Tang, William Yuan and Cuadron, Alejandro and Wang, Chenguang and Popa, Raluca Ada and Stoica, Ion},
+  title   = {{JudgeBench}: A Benchmark for Evaluating {LLM-Based} Judges},
+  journal = {arXiv preprint arXiv:2410.12784},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2410.12784},
+}
+
+@article{seitl2024assessing,
+  author  = {Seitl, Tom{\'a}{\v{s}} and others},
+  title   = {Assessing the Quality of Information Extraction},
+  journal = {arXiv preprint arXiv:2404.04068},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2404.04068},
+}
+
+@article{xu2024benchmarking,
+  author  = {Xu, Shengwei and Lu, Yuxuan and Schoenebeck, Grant and Kong, Yuqing},
+  title   = {Benchmarking {LLMs}' Judgments with No Gold Standard},
+  journal = {arXiv preprint arXiv:2411.07127},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2411.07127},
+}
+
+@article{mahbub2026multistage,
+  author  = {Mahbub, Maria and others},
+  title   = {A Multi-Stage Validation Framework for Trustworthy Large-Scale Clinical Information Extraction Using Large Language Models},
+  journal = {arXiv preprint arXiv:2604.06028},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2604.06028},
+}
+
+@article{ye2024justice,
+  author  = {Ye, Jiayi and Wang, Yanbo and Huang, Yue and Chen, Dongping and Zhang, Qihui and Moniz, Nuno and Gao, Tian and Geyer, Werner and Huang, Chao and Chen, Pin-Yu and Chawla, Nitesh V. and Zhang, Xiangliang},
+  title   = {Justice or Prejudice? {Quantifying} Biases in {LLM-as-a-Judge}},
+  journal = {arXiv preprint arXiv:2410.02736},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2410.02736},
+}
+
+@article{guerdan2025validating,
+  author  = {Guerdan, Luke and others},
+  title   = {Validating {LLM-as-a-Judge} Systems under Rating Indeterminacy},
+  journal = {arXiv preprint arXiv:2503.05965},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2503.05965},
+}
+
+@article{han2025judges,
+  author  = {Han, Crystina and Titericz Junior, Gilberto and Balough, Benedikt and Zhou, Wei},
+  title   = {Judge's Verdict: A Comprehensive Analysis of {LLM} Judge Capability through Human Agreement},
+  journal = {arXiv preprint arXiv:2510.09738},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2510.09738},
+}
+
+% ======================================================================
+% Section 3. NER methods and non-LLM policy-text analysis
+% Source: docs/lit_rev_ner.md and references/references_methods.md
+% ======================================================================
+
+% -- Rule-based, keyword, and dictionary labeling --
+
+@article{grimmer2013text,
+  author  = {Grimmer, Justin and Stewart, Brandon M.},
+  title   = {Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts},
+  journal = {Political Analysis},
+  volume  = {21},
+  number  = {3},
+  pages   = {267--297},
+  year    = {2013},
+  doi     = {10.1093/pan/mps028},
+}
+
+@article{young2012affective,
+  author  = {Young, Lori and Soroka, Stuart},
+  title   = {Affective News: The Automated Coding of Sentiment in Political Texts},
+  journal = {Political Communication},
+  volume  = {29},
+  number  = {2},
+  pages   = {205--231},
+  year    = {2012},
+  doi     = {10.1080/10584609.2012.671234},
+}
+
+@article{garlick2023laboratories,
+  author  = {Garlick, Alex},
+  title   = {Laboratories of Politics: There Is Bottom-Up Diffusion of Attention in the {American} Federal System},
+  journal = {Political Research Quarterly},
+  volume  = {76},
+  number  = {1},
+  pages   = {29--43},
+  year    = {2023},
+  doi     = {10.1177/10659129211068059},
+}
+
+@article{dee2025policy,
+  author  = {Dee, Thomas S. and Garlick, Alex},
+  title   = {Policy Agendas of the {American} State Legislatures},
+  journal = {Scientific Data},
+  volume  = {12},
+  pages   = {1276},
+  year    = {2025},
+  doi     = {10.1038/s41597-025-05621-5},
+}
+
+% -- Topic modeling and unsupervised clustering --
+
+@article{blei2003latent,
+  author  = {Blei, David M. and Ng, Andrew Y. and Jordan, Michael I.},
+  title   = {Latent {Dirichlet} Allocation},
+  journal = {Journal of Machine Learning Research},
+  volume  = {3},
+  pages   = {993--1022},
+  year    = {2003},
+  url     = {https://www.jmlr.org/papers/v3/blei03a.html},
+}
+
+@article{quinn2010how,
+  author  = {Quinn, Kevin M. and Monroe, Burt L. and Colaresi, Michael and Crespin, Michael H. and Radev, Dragomir R.},
+  title   = {How to Analyze Political Attention with Minimal Assumptions and Costs},
+  journal = {American Journal of Political Science},
+  volume  = {54},
+  number  = {1},
+  pages   = {209--228},
+  year    = {2010},
+  doi     = {10.1111/j.1540-5907.2009.00427.x},
+}
+
+@article{grimmer2010bayesian,
+  author  = {Grimmer, Justin},
+  title   = {A {Bayesian} Hierarchical Topic Model for Political Texts: Measuring Expressed Agendas in {Senate} Press Releases},
+  journal = {Political Analysis},
+  volume  = {18},
+  number  = {1},
+  pages   = {1--35},
+  year    = {2010},
+  doi     = {10.1093/pan/mpp034},
+}
+
+@article{roberts2014structural,
+  author  = {Roberts, Margaret E. and Stewart, Brandon M. and Tingley, Dustin and Lucas, Christopher and Leder-Luis, Jetson and Gadarian, Shana Kushner and Albertson, Bethany and Rand, David G.},
+  title   = {Structural Topic Models for Open-Ended Survey Responses},
+  journal = {American Journal of Political Science},
+  volume  = {58},
+  number  = {4},
+  pages   = {1064--1082},
+  year    = {2014},
+  doi     = {10.1111/ajps.12103},
+}
+
+@article{lucas2015computer,
+  author  = {Lucas, Christopher and Nielsen, Richard A. and Roberts, Margaret E. and Stewart, Brandon M. and Storer, Alex and Tingley, Dustin},
+  title   = {Computer-Assisted Text Analysis for Comparative Politics},
+  journal = {Political Analysis},
+  volume  = {23},
+  number  = {2},
+  pages   = {254--277},
+  year    = {2015},
+  doi     = {10.1093/pan/mpu019},
+}
+
+@article{grootendorst2022bertopic,
+  author  = {Grootendorst, Maarten},
+  title   = {{BERTopic}: Neural Topic Modeling with a Class-Based {TF-IDF} Procedure},
+  journal = {arXiv preprint arXiv:2203.05794},
+  year    = {2022},
+  url     = {https://arxiv.org/abs/2203.05794},
+}
+
+@techreport{pham2026using,
+  author      = {Pham, Van and Radiya-Dixit, Evani and Gerchick, Marissa and Madubuonwu, Ben and Venkatasubramanian, Suresh},
+  title       = {Using {AI} to Make Sense of {AI} Policy},
+  institution = {Brown University Center for Technological Responsibility (CNTR) and American Civil Liberties Union},
+  year        = {2026},
+  url         = {https://www.aclu.org/publications/using-ai-to-make-sense-of-ai-policy},
+}
+
+% -- Manual expert coding --
+
+@book{krippendorff2018content,
+  author    = {Krippendorff, Klaus},
+  title     = {Content Analysis: An Introduction to Its Methodology},
+  edition   = {4},
+  publisher = {Sage Publications},
+  year      = {2018},
+  doi       = {10.4135/9781071878781},
+}
+
+@article{hopkins2010method,
+  author  = {Hopkins, Daniel J. and King, Gary},
+  title   = {A Method of Automated Nonparametric Content Analysis for Social Science},
+  journal = {American Journal of Political Science},
+  volume  = {54},
+  number  = {1},
+  pages   = {229--247},
+  year    = {2010},
+  doi     = {10.1111/j.1540-5907.2009.00428.x},
+}
+
+% -- Prompt-based NER --
+
+@article{hu2023improving,
+  author  = {Hu, Yan and Chen, Qingyu and Du, Jingcheng and Peng, Xueqing and Keloth, Vipina Kuttichi and Zuo, Xu and Zhou, Yujia and Li, Zehan and Jiang, Xiaoqian and Lu, Zhiyong and Roberts, Kirk and Xu, Hua},
+  title   = {Improving Large Language Models for Clinical Named Entity Recognition via Prompt Engineering},
+  journal = {arXiv preprint arXiv:2303.16416},
+  year    = {2023},
+  doi     = {10.48550/arXiv.2303.16416},
+  url     = {https://arxiv.org/abs/2303.16416},
+}
+
+@article{islam2025llm,
+  author  = {Islam, K. M. Sajjadul and Nipu, Ayesha Siddika and Wu, Jiawei and Madiraju, Praveen},
+  title   = {{LLM-Based} Prompt Ensemble for Reliable Medical Entity Recognition from {EHRs}},
+  journal = {arXiv preprint arXiv:2505.08704},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2505.08704},
+}
+
+@article{akcali2025automated,
+  author  = {Akcali, Zafer and Cubuk, Hazal Selvi and Oguz, Arzu and Kocak, Murat and Farzaliyeva, Aydan and Guven, Fatih and Ramazanoglu, Mehmet Nezir and Hasdemir, Efe and Altundag, Ozden and Agildere, Ahmet Muhtesem},
+  title   = {Automated Extraction of Key Entities from Non-{English} Mammography Reports Using Named Entity Recognition with Prompt Engineering},
+  journal = {Bioengineering},
+  volume  = {12},
+  number  = {2},
+  pages   = {168},
+  year    = {2025},
+  doi     = {10.3390/bioengineering12020168},
+}
+
+@article{feng2025promptbart,
+  author  = {Feng, Xinzhu and He, Songheng and Wei, Xinxin and Liu, Runshi and Yue, Huanzhou and Wang, Xuren},
+  title   = {{PROMPT-BART}: A Named Entity Recognition Model Applied to Cyber Threat Intelligence},
+  journal = {Applied Sciences},
+  volume  = {15},
+  number  = {18},
+  pages   = {10276},
+  year    = {2025},
+  doi     = {10.3390/app151810276},
+}
+
+% -- Multi-agent and two-stage decomposition --
+
+@article{wang2025cooperative,
+  author  = {Wang, Zihan and Zhao, Ziqi and Lyu, Yougang and Chen, Zhumin and de Rijke, Maarten and Ren, Zhaochun},
+  title   = {A Cooperative Multi-Agent Framework for Zero-Shot Named Entity Recognition},
+  journal = {arXiv preprint arXiv:2502.18702},
+  year    = {2025},
+  doi     = {10.48550/arXiv.2502.18702},
+  url     = {https://arxiv.org/abs/2502.18702},
+}
+
+@article{berijanian2025comparative,
+  author  = {Berijanian, Maryam and Singh, Kuldeep and Sehati, Amin},
+  title   = {Comparative Analysis of {AI} Agent Architectures for Entity Relationship Classification},
+  journal = {arXiv preprint arXiv:2506.02426},
+  year    = {2025},
+  doi     = {10.48550/arXiv.2506.02426},
+  url     = {https://arxiv.org/abs/2506.02426},
+}
+
+@article{ye2023decomposed,
+  author  = {Ye, Feiyang and Huang, Liang and Liang, Senjie and Chi, KaiKai},
+  title   = {Decomposed Two-Stage Prompt Learning for Few-Shot Named Entity Recognition},
+  journal = {Information},
+  volume  = {14},
+  number  = {5},
+  pages   = {262},
+  year    = {2023},
+  doi     = {10.3390/info14050262},
+}
+
+@article{xu2025zeroshot,
+  author  = {Xu, Xueqiang and Xiao, Jinfeng and Barry, James and Elkaref, Mohab and Zou, Jiaru and Jiang, Pengcheng and Zhang, Yunyi and Giammona, Max and de Mel, Geeth and Han, Jiawei},
+  title   = {Zero-Shot Open-Schema Entity Structure Discovery},
+  journal = {arXiv preprint arXiv:2506.04458},
+  year    = {2025},
+  doi     = {10.48550/arXiv.2506.04458},
+  url     = {https://arxiv.org/abs/2506.04458},
+}
+
+@article{huang2023api,
+  author  = {Huang, Qing and Sun, Yanbang and Xing, Zhenchang and Yu, Min and Xu, Xiwei and Lu, Qinghua},
+  title   = {{API} Entity and Relation Joint Extraction from Text via Dynamic Prompt-Tuned Language Model},
+  journal = {arXiv preprint arXiv:2301.03987},
+  year    = {2023},
+  doi     = {10.48550/arXiv.2301.03987},
+  url     = {https://arxiv.org/abs/2301.03987},
+}
+
+@article{deandrade2025promptner,
+  author  = {de Andrade, Claudio M. V. and Bel{\'e}m, Fabiano Muniz and Fran{\c{c}}a, Celso and Carvalho, Marcos and Ganem, Marcelo and Texeira, Gabriel and Jallais, Gabriel and Laender, Alberto H. F. and Gon{\c{c}}alves, Marcos A.},
+  title   = {{PromptNER}: An Automatic Prompt-Learning Data Labeling Approach for Named Entity Recognition on Sensitive Data},
+  journal = {Journal of Information and Data Management},
+  volume  = {16},
+  number  = {1},
+  pages   = {62--71},
+  year    = {2025},
+  doi     = {10.5753/jidm.2025.4298},
+}
+
+@inproceedings{otto2023gsapner,
+  author    = {Otto, Wolfgang and Zloch, Matth{\"a}us and Gan, Lu and Karmakar, Saurav and Dietze, Stefan},
+  title     = {{GSAP-NER}: A Novel Task, Corpus, and Baseline for Scholarly Entity Extraction Focused on Machine Learning Models and Datasets},
+  booktitle = {Findings of the Association for Computational Linguistics: {EMNLP} 2023},
+  pages     = {8166--8176},
+  year      = {2023},
+  doi       = {10.18653/v1/2023.findings-emnlp.548},
+  url       = {https://aclanthology.org/2023.findings-emnlp.548/},
+}
+
+% -- Agentic / skill-driven workflows: RAG, tool-use, agent patterns --
+
+@inproceedings{lewis2020retrieval,
+  author    = {Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni, Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler, Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim and Riedel, Sebastian and Kiela, Douwe},
+  title     = {Retrieval-Augmented Generation for Knowledge-Intensive {NLP} Tasks},
+  booktitle = {Advances in Neural Information Processing Systems 33 ({NeurIPS} 2020)},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2005.11401},
+}
+
+@inproceedings{yao2023react,
+  author    = {Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan},
+  title     = {{ReAct}: Synergizing Reasoning and Acting in Language Models},
+  booktitle = {The Eleventh International Conference on Learning Representations ({ICLR} 2023)},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2210.03629},
+}
+
+@inproceedings{schick2023toolformer,
+  author    = {Schick, Timo and Dwivedi-Yu, Jane and Dess{\`i}, Roberto and Raileanu, Roberta and Lomeli, Maria and Zettlemoyer, Luke and Cancedda, Nicola and Scialom, Thomas},
+  title     = {{Toolformer}: Language Models Can Teach Themselves to Use Tools},
+  booktitle = {Advances in Neural Information Processing Systems 36 ({NeurIPS} 2023)},
+  year      = {2023},
+  url       = {https://arxiv.org/abs/2302.04761},
+}
+
+@misc{schluntz2024building,
+  author       = {Schluntz, Erik and Zhang, Barry},
+  title        = {Building Effective {AI} Agents},
+  howpublished = {Anthropic Engineering Blog},
+  year         = {2024},
+  url          = {https://www.anthropic.com/engineering/building-effective-agents},
+}
+
+@article{singh2025agentic,
+  author  = {Singh, Aditi and Ehtesham, Abul and Kumar, Saket and Talaei Khoei, Tala},
+  title   = {Agentic Retrieval-Augmented Generation: A Survey on Agentic {RAG}},
+  journal = {arXiv preprint arXiv:2501.09136},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2501.09136},
+}
+
+@inproceedings{li2025searcho1,
+  author    = {Li, Xiaoxi and Dong, Guanting and Jin, Jiajie and Zhang, Yuyao and Zhou, Yujia and Zhu, Yutao and Zhang, Peitian and Dou, Zhicheng},
+  title     = {{Search-o1}: Agentic Search-Enhanced Large Reasoning Models},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing ({EMNLP} 2025)},
+  year      = {2025},
+  note      = {Oral presentation},
+  url       = {https://arxiv.org/abs/2501.05366},
+}
+
+@inproceedings{jin2025searchr1,
+  author    = {Jin, Bowen and Zeng, Hansi and Yue, Zhenrui and Yoon, Jinsung and Arik, Sercan O. and Wang, Dong and Zamani, Hamed and Han, Jiawei},
+  title     = {{Search-R1}: Training {LLMs} to Reason and Leverage Search Engines with Reinforcement Learning},
+  booktitle = {Conference on Language Modeling ({COLM} 2025)},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2503.09516},
+}
+
+@misc{zhang2025equipping,
+  author       = {Zhang, Barry and Lazuka, Mahesh and Murag, Jesse},
+  title        = {Equipping Agents for the Real World with {Agent Skills}},
+  howpublished = {Anthropic Engineering Blog},
+  year         = {2025},
+  url          = {https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills},
+}
+
+@misc{anthropic2025skills,
+  author       = {{Anthropic}},
+  title        = {{Agent Skills} (Claude {API} Documentation, Overview)},
+  howpublished = {\url{https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview}},
+  year         = {2025},
+}
+
+@misc{anthropic2025sdk,
+  author       = {{Anthropic}},
+  title        = {{Agent Skills} in the Claude {Agent SDK}},
+  howpublished = {\url{https://docs.claude.com/en/agent-sdk/skills}},
+  year         = {2025},
+}
+
+% ======================================================================
+% Section 4. Primary data source: NCSL AI Legislation Database + State Net
+% Source: data/ncsl/ (bills_2023/, bills_2024/, us_ai_legislation_ncsl_*.csv/.jsonl)
+% ======================================================================
+
+@misc{ncsl2025ai,
+  author       = {{National Conference of State Legislatures}},
+  title        = {{Artificial Intelligence Legislation Database}},
+  howpublished = {\url{https://www.ncsl.org/financial-services/artificial-intelligence-legislation-database}},
+  year         = {2025},
+  note         = {50-state tracker with topic taxonomy (Appropriations, Audit, Deepfake, Government Use, Health Use, Oversight/Governance, Private Right of Action, etc.); powered by LexisNexis State Net},
+}
+
+@misc{ncsl2025ailegislation2025,
+  author       = {{National Conference of State Legislatures}},
+  title        = {{Artificial Intelligence 2025 Legislation}},
+  howpublished = {\url{https://www.ncsl.org/technology-and-communication/artificial-intelligence-2025-legislation}},
+  year         = {2025},
+}
+
+@misc{ncsl2024ailegislation2024,
+  author       = {{National Conference of State Legislatures}},
+  title        = {{Artificial Intelligence 2024 Legislation}},
+  howpublished = {\url{https://www.ncsl.org/technology-and-communication/artificial-intelligence-2024-legislation}},
+  year         = {2024},
+}
+
+@misc{ncsl2023ailegislation2023,
+  author       = {{National Conference of State Legislatures}},
+  title        = {{Artificial Intelligence 2023 Legislation}},
+  howpublished = {\url{https://www.ncsl.org/technology-and-communication/artificial-intelligence-2023-legislation}},
+  year         = {2023},
+}
+
+@misc{lexisnexis2025statenet,
+  author       = {{LexisNexis}},
+  title        = {{State Net}: Regulatory and Legislative Tracking Software},
+  howpublished = {\url{https://www.lexisnexis.com/en-us/products/state-net.page}},
+  year         = {2025},
+  note         = {Underlying data provider for NCSL's AI Legislation Database; supplies bill text, status, and metadata across all 50 states and Congress},
+}
+
+@misc{ri2024s2540,
+  author       = {{Rhode Island General Assembly}},
+  title        = {S 2540, Rhode Island Clean Air Preservation Act},
+  year         = {2024},
+  howpublished = {Rhode Island General Assembly, 2024 Legislative Session},
+  note         = {Bill identifier: 2024\_\_RI S 2540. Used as the false-positive example discussed in \texttt{docs/log\_0.31\_ner\_crashes.md} J2: NCSL keyword filter matched ``Artificial intelligence'' in one definitions section, while the bill body regulates stratospheric aerosol injection and chemical/biological agents, not AI.},
+}
+
+% ======================================================================
+% Section 5. Other material in references/ folder
+% Source: references/methods/w26081.pdf
+% ======================================================================
+
+@article{miller2021medicaid,
+  author  = {Miller, Sarah and Johnson, Norman and Wherry, Laura R.},
+  title   = {Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data},
+  journal = {The Quarterly Journal of Economics},
+  volume  = {136},
+  number  = {3},
+  pages   = {1783--1829},
+  year    = {2021},
+  doi     = {10.1093/qje/qjab004},
+  note    = {Originally released as NBER Working Paper No.\ 26081, July 2019; revised January 2021},
+  url     = {http://www.nber.org/papers/w26081},
+}

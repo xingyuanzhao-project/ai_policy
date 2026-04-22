@@ -1,3 +1,0 @@
-{
-  "raw_response": "{ \n  \"groups\": [\n    {\n      \"candidate_ids\": [17741389487422912399],\n      \"field_score_matrix\": [\n        [1.0, 1.0, 1.0, 1.0],\n        [null, null, null, null]\n      ]\n    },\n    {\n      \"candidate_ids\": [14255741831902492190],\n      \"field_score_matrix\": [\n        [1.0, 1.0, 1.0, 1.0],\n        [null, null, null, null]\n      ]\n    }\n  ]\n}"
-}

@@ -33,6 +33,7 @@ from .qa_tools import (
     build_bill_index,
     build_qa_tool_registry,
 )
+from .quadruplet_store import QuadrupletStore
 
 logger = logging.getLogger(__name__)
 
@@ -66,6 +67,7 @@ class PlannerAgent:
         worker_model: str,
         agent_config: AgentConfig,
         bill_index: dict[str, BillSummary] | None = None,
+        quadruplet_store: QuadrupletStore | None = None,
     ) -> None:
         """Initialize the planner agent and prebuild the bill-level metadata index.
 
@@ -79,6 +81,10 @@ class PlannerAgent:
             agent_config: Resolved agent hyperparameters.
             bill_index: Optional precomputed bill-level metadata map. When
                 omitted, one is built from ``chunks`` at construction time.
+            quadruplet_store: Optional pre-loaded sidecar backing the
+                ``query_quadruplets`` planner tool. When omitted or empty the
+                tool is not registered and the planner behaves as if only the
+                four legacy tools exist.
         """
 
         if not worker_model.strip():
@@ -92,6 +98,7 @@ class PlannerAgent:
         self._bill_index: dict[str, BillSummary] = (
             dict(bill_index) if bill_index is not None else build_bill_index(chunks)
         )
+        self._quadruplet_store = quadruplet_store
 
     @property
     def bill_index(self) -> dict[str, BillSummary]:
@@ -146,6 +153,7 @@ class PlannerAgent:
             agent_config=self._agent_config,
             accumulator=accumulator,
             worker_budget=worker_budget,
+            quadruplet_store=self._quadruplet_store,
         )
         counting_executor = _CountingToolExecutor(
             registry=registry,
@@ -256,6 +264,66 @@ class PlannerAgent:
     def _build_system_prompt(self) -> str:
         """Return the planner's static system prompt."""
 
+        has_quadruplets = (
+            self._quadruplet_store is not None
+            and self._quadruplet_store.total_quadruplets > 0
+        )
+
+        tool_lines = [
+            "- list_bills(filters?, semantic_query?, limit?): find candidate "
+            "bills.",
+            "- get_bill_content(bill_id, max_chars?): fetch concatenated "
+            "bill text.",
+            "- summarize_bill(bill_id, focus?): run a worker LLM to "
+            "summarize one bill.",
+            "- compare_bills(bill_ids, question): run a worker LLM to "
+            "compare 2+ bills.",
+        ]
+        workflow_lines = [
+            "1. Call list_bills with filters (and a semantic_query when "
+            "useful) to discover candidate bill_ids.",
+            "2. For a direct fact lookup, call get_bill_content on the "
+            "relevant bill_id.",
+            "3. For high-level summaries, call summarize_bill. For cross-"
+            "bill questions (commonalities, differences), call "
+            "compare_bills.",
+        ]
+        if has_quadruplets:
+            tool_lines.append(
+                "- query_quadruplets(regulated_entity?, entity_type?, "
+                "regulatory_mechanism?, provision_contains?, state?, year?, "
+                "bill_id?, limit?): search pre-extracted (regulated_entity, "
+                "entity_type, regulatory_mechanism, provision_text) tuples."
+            )
+            workflow_lines.append(
+                "4. For questions about WHAT a bill does to something ('which "
+                "bills prohibit deepfakes?', 'what are California's "
+                "disclosure requirements?', 'list every obligation on "
+                "developers'), call query_quadruplets FIRST. Each hit cites "
+                "the exact bill_id, and you can then call get_bill_content "
+                "on that bill_id to quote the surrounding text."
+            )
+            workflow_lines.append(
+                "5. Stop calling tools once you have enough evidence. Your "
+                "final assistant turn (with NO tool calls) must be the full, "
+                "self-contained answer."
+            )
+        else:
+            workflow_lines.append(
+                "4. Stop calling tools once you have enough evidence. Your "
+                "final assistant turn (with NO tool calls) must be the full, "
+                "self-contained answer."
+            )
+
+        quadruplet_rule = (
+            "- When a question targets a specific regulated entity, "
+            "regulatory mechanism, or provision keyword, prefer "
+            "query_quadruplets over semantic_query on list_bills. Return "
+            "the bill_id plus the exact provision_text from each match.\n"
+            if has_quadruplets
+            else ""
+        )
+
         return (
             "You are a research assistant for United States state AI "
             "legislation. Answer the user's question by calling the tools "
@@ -264,26 +332,10 @@ class PlannerAgent:
             "result.\n"
             "\n"
             "Tools available:\n"
-            "- list_bills(filters?, semantic_query?, limit?): find candidate "
-            "bills.\n"
-            "- get_bill_content(bill_id, max_chars?): fetch concatenated "
-            "bill text.\n"
-            "- summarize_bill(bill_id, focus?): run a worker LLM to "
-            "summarize one bill.\n"
-            "- compare_bills(bill_ids, question): run a worker LLM to "
-            "compare 2+ bills.\n"
+            + "\n".join(tool_lines) + "\n"
             "\n"
             "Typical workflow:\n"
-            "1. Call list_bills with filters (and a semantic_query when "
-            "useful) to discover candidate bill_ids.\n"
-            "2. For a direct fact lookup, call get_bill_content on the "
-            "relevant bill_id.\n"
-            "3. For high-level summaries, call summarize_bill. For cross-"
-            "bill questions (commonalities, differences), call "
-            "compare_bills.\n"
-            "4. Stop calling tools once you have enough evidence. Your "
-            "final assistant turn (with NO tool calls) must be the full, "
-            "self-contained answer.\n"
+            + "\n".join(workflow_lines) + "\n"
             "\n"
             "Budgets (strictly enforced):\n"
             f"- Max planner turns: {self._agent_config.max_planner_turns}\n"
@@ -298,7 +350,8 @@ class PlannerAgent:
             "exact count returned by list_bills.\n"
             "- When a question says \"list all\", enumerate each matching "
             "bill returned by list_bills.\n"
-            "- When the tools return no matching bill, say so explicitly; "
+            + quadruplet_rule
+            + "- When the tools return no matching bill, say so explicitly; "
             "do not invent an answer."
         )
 
