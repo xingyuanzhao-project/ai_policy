@@ -79,3 +79,33 @@ data/skill_ner_runs/
 data/qa_cache/
 data/qa_demo_cache_or/
 data/qa_smoke_cache/
+
+# ============================================================
+# output/: root-ignore (/*) hides it entirely; re-expose the
+# directory tree so the plot-extension negations below can pick
+# up plot files. Non-plot contents (caches, logs, jsonl, json,
+# md) remain ignored because /output/** catches them and no
+# later rule re-includes them.
+# ============================================================
+!/output/
+/output/**
+!/output/**/
+
+# ============================================================
+# Force-track all plot/image files anywhere in the tracked tree.
+# These negations only take effect where the parent directory is
+# not itself excluded (git cannot re-include files inside an
+# ignored directory), so .venv/ and non-whitelisted data/ subdirs
+# remain ignored.
+# ============================================================
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.pdf
+!*.webp
+!*.bmp
+!*.tiff
+!*.tif
+!*.eps
