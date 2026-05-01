@@ -1,0 +1,7 @@
+from: markdown
+to: pdf
+output-file: mpsa_draft_v8.pdf
+input-files:
+  - mpsa_draft_v8.md
+citeproc: true
+standalone: true

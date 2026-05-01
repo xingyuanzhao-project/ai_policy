@@ -316,7 +316,7 @@ def _load_text_lengths(csv_path: Path) -> pd.Series:
 
 
 def plot_text_length_distribution(csv_path: Path, output_path: Path) -> bool:
-    """Two-panel histogram of text length (full log-scale + 95%-zoom)."""
+    """Histogram of text length through the 95th percentile only."""
     if not csv_path.exists():
         print(f"Warning: text CSV '{csv_path}' missing. Skipping text-length plot.")
         return False
@@ -327,42 +327,11 @@ def plot_text_length_distribution(csv_path: Path, output_path: Path) -> bool:
         print(f"Warning: could not load text lengths ({error}). Skipping text-length plot.")
         return False
 
-    mean_length = text_lengths.mean()
     median_length = text_lengths.median()
     zoom_limit = int(text_lengths.quantile(ZOOM_QUANTILE))
-    log_safe_lengths = text_lengths.clip(lower=MIN_LOG_TEXT_LENGTH)
     zoomed_text_lengths = text_lengths[text_lengths <= zoom_limit]
 
-    figure, (full_axis, zoom_axis) = plt.subplots(ncols=2, figsize=(16, 6))
-
-    full_axis.hist(
-        log_safe_lengths,
-        bins=HISTOGRAM_BIN_COUNT,
-        color=BAR_COLOR,
-        edgecolor=BAR_EDGE_COLOR,
-        alpha=0.9,
-    )
-    full_axis.set_xscale("log")
-    full_axis.axvline(
-        max(mean_length, MIN_LOG_TEXT_LENGTH),
-        color=MEAN_LINE_COLOR,
-        linestyle="--",
-        linewidth=2,
-        label=f"Mean: {mean_length:,.0f}",
-    )
-    full_axis.axvline(
-        max(median_length, MIN_LOG_TEXT_LENGTH),
-        color=MEDIAN_LINE_COLOR,
-        linestyle="-.",
-        linewidth=2,
-        label=f"Median: {median_length:,.0f}",
-    )
-    full_axis.set_title("Full Distribution (log x-axis)")
-    full_axis.set_xlabel("Text length (characters, log scale)")
-    full_axis.set_ylabel("Bill count")
-    full_axis.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"{x:,.0f}"))
-    full_axis.grid(axis="y", alpha=0.2)
-    full_axis.legend()
+    figure, zoom_axis = plt.subplots(figsize=(8, 6))
 
     zoom_axis.hist(
         zoomed_text_lengths,
@@ -393,8 +362,10 @@ def plot_text_length_distribution(csv_path: Path, output_path: Path) -> bool:
     zoom_axis.grid(axis="y", alpha=0.2)
     zoom_axis.legend()
 
-    figure.suptitle("NCSL AI Legislation Text Length Distribution")
-    figure.tight_layout(rect=(0, 0, 1, 0.95))
+    figure.suptitle(
+        f"NCSL AI Legislation Text Length Distribution Through {ZOOM_QUANTILE:.0%} Percentile"
+    )
+    figure.tight_layout(rect=(0, 0, 1, 0.93))
     figure.savefig(output_path, dpi=DPI)
     plt.close(figure)
     return True
