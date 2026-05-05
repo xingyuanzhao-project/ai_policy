@@ -15,10 +15,14 @@ Constants in this file
 ----------------------
 
     MODEL_NAME : str
-        Key into the ``models:`` block of the YAML. One of
-        ``"deberta-v3-base"`` or ``"modernbert-base"``. Re-edit and re-run
-        per model; the sweep is resumable so cells whose ``run.json``
-        already exists are skipped.
+        Key into the ``models:`` block of the YAML. Currently the only
+        active model is ``"modernbert-base"``; the ``"deberta-v3-base"``
+        block in the YAML is commented out. Setting MODEL_NAME to a key
+        that is not active in the YAML raises a ValueError at startup.
+        The sweep is resumable: cells whose ``run.json`` already records
+        ``epochs >= model_cfg.epochs`` are skipped, and cells whose
+        ``run.json`` records fewer epochs than the current YAML target
+        are resumed from their latest on-disk checkpoint.
     MODE : {"test", "full"}
         ``"test"`` overrides the YAML in-memory to subsample=50, 2 folds,
         seeds=[13], 1 epoch, bf16=False. Non-reportable wiring check.
@@ -96,7 +100,7 @@ from src.training import run_training_sweep
 
 
 CONFIG_PATH = PROJECT_ROOT / "settings" / "training" / "training.yml"
-MODEL_NAME = "deberta-v3-base"
+MODEL_NAME = "modernbert-base"
 MODE = "test"
 
 

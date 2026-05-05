@@ -103,13 +103,17 @@ def main() -> None:
         mean_s = (
             sum(cell_times) / len(cell_times) if cell_times else 0.0
         )
+        if info["skipped"]:
+            cell_status = "skip"
+        elif info.get("resumed"):
+            cell_status = f"{info['elapsed_s']:.1f}s (resume)"
+        else:
+            cell_status = f"{info['elapsed_s']:.1f}s"
         bar.set_postfix(
             model=info["model"],
             fold=info["fold"],
             seed=info["seed"],
-            cell=f"{info['elapsed_s']:.1f}s"
-            if not info["skipped"]
-            else "skip",
+            cell=cell_status,
             mean=f"{mean_s:.1f}s",
             refresh=False,
         )
@@ -129,7 +133,10 @@ def main() -> None:
 
     if INCLUDE_AGGREGATE:
         agg_t0 = time.perf_counter()
-        aggregate_results(output_root=cfg.paths.output_root)
+        aggregate_results(
+            output_root=cfg.paths.output_root,
+            allowed_models=set(cfg.models.keys()),
+        )
         print(
             f"[pipeline] Stage 2/3 (aggregate) done in "
             f"{time.perf_counter() - agg_t0:.1f}s"

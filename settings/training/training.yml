@@ -1,9 +1,16 @@
-# Three-model fine-tune pipeline configuration.
+# Fine-tune pipeline configuration.
 #
 # Drives the modules under `src/training/` and the entry-point scripts
-# under `scripts/`. Hand-edited; no CLI flags. Per the active scope the
-# pipeline trains DeBERTa-v3-base and ModernBERT-base only; Gemma was
-# dropped from this run, so the `models` map intentionally has two entries.
+# under `scripts/`. Hand-edited; no CLI flags.
+#
+# Active scope: ModernBERT-base only.
+#   The DeBERTa-v3-base block and its sweep.full.learning_rate entry are
+#   commented out below (not deleted) so they can be re-enabled by simply
+#   un-commenting both. Gemma was dropped earlier in the project.
+#   `aggregate_results` is driven by the `models:` map (see
+#   `src/training/results.py::aggregate_results(allowed_models=...)`),
+#   so commenting a model out here drops it from the CSVs and plots
+#   without touching `output/training/runs/<model>/` on disk.
 #
 # Pending labelling policy:
 #   `scripts/outcome_annotation.py` already maps Pending statuses to
@@ -13,7 +20,8 @@
 # Sweep budget:
 #   Hardware = NVIDIA RTX 4090 Laptop (16 GB VRAM, not the 24 GB desktop).
 #   Empirically measured per-cell wall-clock at E=3:
-#     deberta-v3-base @ seq=512, BS=16  -> 165 s/cell
+#     deberta-v3-base @ seq=512, BS=16  -> 165 s/cell  (kept for reference;
+#                                                       block currently commented)
 #     modernbert-base @ seq=2048, BS=8  -> ~3107 s/cell  (18.8x DeBERTa)
 #     modernbert-base @ seq=1024, BS=8  -> ~241 s/cell   (12.9x speedup vs 2048)
 #   Per-cell time scales ~linearly in epochs once warmup is amortised.
@@ -22,11 +30,9 @@
 #   Target: full run, end in 1-3 hours, max accuracy within that budget.
 #     Only feasible point is ModernBERT @ seq=1024 (drops the architectural
 #     coverage from 99.3% -> 91.0% of rows fitting fully, but enables a
-#     real K=5/S=3/E=5 sweep at ~2.8 h instead of ~22.7 h).
-#     With ModernBERT @ seq=2048 the smallest "full" sweep (K=3,S=1,E=3)
-#     still costs ~2.7 h and yields a far less reliable estimate.
+#     real K=5/S=3/E=5 sweep at ~1.7 h instead of ~12.9 h).
 #
-#   Knobs chosen, with citation-backed reasoning (see research subagent):
+#   Knobs chosen, with citation-backed reasoning:
 #     K=5  : standard CV; K=10 has marginal gain at 2x cost; K=3 is too
 #            coarse for stratified splits at N~1877 (Kohavi 1995).
 #     S=3  : BERT fine-tuning on small N is highly seed-sensitive; seeds
@@ -55,25 +61,33 @@ models:
   # Per-model max_length is set from the real input-length distribution
   # (title + summary + entities + metadata) measured on the annotated
   # corpus, capped by each model's architectural position-embedding limit.
-  deberta-v3-base:
-    hf_id: microsoft/deberta-v3-base
-    family: encoder
-    optimizer: adamw_torch
-    # DeBERTa-v3 uses learned absolute position embeddings sized 512,
-    # so 512 is the hard architectural ceiling. Covers ~63% of rows
-    # fully; the long tail is truncated (no way around it without
-    # changing the backbone).
-    max_length: 512
-    per_device_train_batch_size: 16
-    per_device_eval_batch_size: 32
-    # E=5 with early stopping (patience=2). DeBERTa cells are cheap
-    # (~165 s at E=3), so even at E=5 the contribution is negligible
-    # vs ModernBERT.
-    epochs: 5
-    weight_decay: 0.01
-    warmup_ratio: 0.06
-    gradient_checkpointing: false
-    bf16: true
+  #
+  # DeBERTa-v3-base is currently disabled (commented out). To re-enable,
+  # un-comment the block below AND the `deberta-v3-base: 2.0e-5` line in
+  # `sweep.full.learning_rate` further down. Old runs under
+  # `output/training/runs/deberta-v3-base/` were deleted on disable, so
+  # re-enabling requires retraining; the wrapper in `aggregate_results`
+  # already filters by `cfg.models.keys()` so the YAML is the single
+  # source of truth for which models flow into CSVs and plots.
+  # deberta-v3-base:
+  #   hf_id: microsoft/deberta-v3-base
+  #   family: encoder
+  #   optimizer: adamw_torch
+  #   # DeBERTa-v3 uses learned absolute position embeddings sized 512,
+  #   # so 512 is the hard architectural ceiling. Covers ~63% of rows
+  #   # fully; the long tail is truncated (no way around it without
+  #   # changing the backbone).
+  #   max_length: 512
+  #   per_device_train_batch_size: 16
+  #   per_device_eval_batch_size: 32
+  #   # E=5 with early stopping (patience=2). DeBERTa cells are cheap
+  #   # (~165 s at E=3), so even at E=5 the contribution is negligible
+  #   # vs ModernBERT.
+  #   epochs: 5
+  #   weight_decay: 0.01
+  #   warmup_ratio: 0.06
+  #   gradient_checkpointing: false
+  #   bf16: true
   modernbert-base:
     hf_id: answerdotai/ModernBERT-base
     family: encoder
@@ -89,9 +103,14 @@ models:
     max_length: 1024
     per_device_train_batch_size: 8
     per_device_eval_batch_size: 16
-    # E=5 with early stopping (patience=2). Per the speed bench, each
-    # ModernBERT epoch at seq=1024 is ~80 s; total per cell ~400 s.
-    epochs: 5
+    # E=6 with early stopping (patience=2). Bumped from E=5 to extend
+    # the sweep by one epoch on top of the already-trained 15 cells;
+    # the resume path in `src/training/sweep.py` picks each cell up
+    # from its latest on-disk checkpoint and continues to E=6 instead
+    # of retraining from scratch. Per the speed bench, each ModernBERT
+    # epoch at seq=1024 is ~80 s; total per cell ~480 s for a fresh
+    # E=6 run.
+    epochs: 6
     weight_decay: 0.01
     warmup_ratio: 0.06
     gradient_checkpointing: false
@@ -101,7 +120,13 @@ sweep:
   full:
     seeds: [13, 42, 1729]
     learning_rate:
-      deberta-v3-base: 2.0e-5
+      # Un-comment together with the DeBERTa block in `models:` above to
+      # re-enable DeBERTa. Leaving the LR commented while the model is
+      # commented keeps the two halves of the contract aligned (the
+      # config loader validates that every model in `models:` has an LR
+      # entry; extra LR entries with no matching model are silently
+      # dropped, but that is brittle and we do not rely on it).
+      # deberta-v3-base: 2.0e-5
       modernbert-base: 2.0e-5
   early_stopping_patience: 2
   metric_for_best_model: val_auroc

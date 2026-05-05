@@ -88,8 +88,18 @@ def train_one_run(
     fold_index: int,
     output_dir: Path,
     log_subdir: str,
+    resume_from_checkpoint: Path | None = None,
 ) -> dict[str, Any]:
     """Train one (model, fold, seed) cell and write its ``run.json``.
+
+    Args:
+        resume_from_checkpoint: When set, HF ``Trainer.train`` is called
+            with ``resume_from_checkpoint=<path>`` so optimizer,
+            scheduler, RNG, and global-step state are restored from a
+            previously-saved checkpoint dir. Combined with raising
+            ``model_cfg.epochs`` in the YAML, this lets the sweep extend
+            a completed run by additional epochs without retraining the
+            ones already done. ``None`` (default) trains from scratch.
 
     Returns the run-record dict that is also persisted to disk so the
     sweep loop can keep state without re-reading the file.
@@ -126,7 +136,10 @@ def train_one_run(
     )
     trainer.set_class_weights(weights)
 
-    trainer.train()
+    if resume_from_checkpoint is not None:
+        trainer.train(resume_from_checkpoint=str(resume_from_checkpoint))
+    else:
+        trainer.train()
 
     val_pred = trainer.predict(val_ds)
     val_prob = _positive_class_prob(val_pred.predictions)
@@ -190,7 +203,15 @@ def _build_training_arguments(
         warmup_ratio=model_cfg.warmup_ratio,
         eval_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=1,
+        # Keep two checkpoints on disk: the best-by-val-metric (required
+        # by load_best_model_at_end so test eval reads the best weights)
+        # AND the most recent epoch's checkpoint (required for clean
+        # resume from the last trained epoch when the user later raises
+        # `epochs`). HF Trainer guarantees the best checkpoint is never
+        # rotated out as long as load_best_model_at_end=True; the spare
+        # slot keeps the latest. Disk cost is ~2x model.safetensors per
+        # cell.
+        save_total_limit=2,
         load_best_model_at_end=True,
         metric_for_best_model=metric_key,
         greater_is_better=True,

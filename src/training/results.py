@@ -32,13 +32,33 @@ _SUMMARY_NAME = "results_summary.csv"
 _PAIRWISE_NAME = "pairwise_delta_ci.csv"
 _FULL_MODE_PREFIX = "full__"
 _FULL_MODE = "full"
+_PAIRWISE_COLUMNS = [
+    "mode",
+    "model_a",
+    "model_b",
+    "n_folds",
+    "delta_mean",
+    "ci_low",
+    "ci_high",
+]
 
 
-def aggregate_results(output_root: Path) -> dict[str, Path]:
+def aggregate_results(
+    output_root: Path,
+    *,
+    allowed_models: set[str] | None = None,
+) -> dict[str, Path]:
     """Aggregate every ``run.json`` under ``output_root/runs`` into CSVs.
 
     Args:
         output_root: ``paths.output_root`` from the training config.
+        allowed_models: Optional whitelist of model names to include.
+            When provided, ``run.json`` files whose parent model
+            directory is not in this set are ignored. ``None`` keeps
+            the legacy behaviour of ingesting every model directory on
+            disk. The orchestrator passes ``set(cfg.models.keys())`` so
+            commenting a model out of the YAML drops it from the CSVs
+            and downstream plots without touching disk.
 
     Returns:
         Map from logical name (``tidy``, ``wide``, ``summary``,
@@ -49,9 +69,14 @@ def aggregate_results(output_root: Path) -> dict[str, Path]:
     if not runs_root.is_dir():
         raise FileNotFoundError(f"runs directory missing: {runs_root}")
 
-    records = list(_iter_run_records(runs_root))
+    records = list(_iter_run_records(runs_root, allowed_models=allowed_models))
     if not records:
-        raise RuntimeError(f"no run.json files found under {runs_root}")
+        scope = (
+            f" with allowed_models={sorted(allowed_models)!r}"
+            if allowed_models is not None
+            else ""
+        )
+        raise RuntimeError(f"no run.json files found under {runs_root}{scope}")
 
     tidy_df = _build_tidy(records)
     wide_df = _build_wide(records)
@@ -72,10 +97,23 @@ def aggregate_results(output_root: Path) -> dict[str, Path]:
     return paths
 
 
-def _iter_run_records(runs_root: Path) -> Iterable[dict[str, Any]]:
-    """Yield one record per ``run.json`` found under ``runs_root``."""
+def _iter_run_records(
+    runs_root: Path,
+    *,
+    allowed_models: set[str] | None = None,
+) -> Iterable[dict[str, Any]]:
+    """Yield one record per ``run.json`` found under ``runs_root``.
+
+    The on-disk layout is ``runs_root/<model>/<run_dir>/run.json`` so
+    the model name is the first path component below ``runs_root``.
+    Filtering on the directory avoids loading JSON for excluded models
+    when ``allowed_models`` is set.
+    """
 
     for run_json in runs_root.glob("*/*/run.json"):
+        model_dir = run_json.parent.parent.name
+        if allowed_models is not None and model_dir not in allowed_models:
+            continue
         with run_json.open("r", encoding="utf-8") as handle:
             payload = json.load(handle)
         payload["_run_dir"] = run_json.parent.name
@@ -173,17 +211,7 @@ def _build_pairwise(wide_df: pd.DataFrame) -> pd.DataFrame:
     """
 
     if wide_df.empty or "test_auroc" not in wide_df.columns:
-        return pd.DataFrame(
-            columns=[
-                "mode",
-                "model_a",
-                "model_b",
-                "n_folds",
-                "delta_mean",
-                "ci_low",
-                "ci_high",
-            ]
-        )
+        return pd.DataFrame(columns=_PAIRWISE_COLUMNS)
     if (wide_df["mode"] == _FULL_MODE).any():
         scope = wide_df[wide_df["mode"] == _FULL_MODE]
         scope_label = _FULL_MODE
@@ -212,4 +240,6 @@ def _build_pairwise(wide_df: pd.DataFrame) -> pd.DataFrame:
                 "ci_high": ci_high,
             }
         )
-    return pd.DataFrame(rows)
+    if not rows:
+        return pd.DataFrame(columns=_PAIRWISE_COLUMNS)
+    return pd.DataFrame(rows, columns=_PAIRWISE_COLUMNS)
