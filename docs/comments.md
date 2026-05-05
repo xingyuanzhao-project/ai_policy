@@ -21,3 +21,10 @@ no, the prioar knoledge isnt affecting the extractive ai much. it is not a gener
 
 # Comments from Dr. Brandts:
 1. the text len and processing time can be contribution/link to existing issues.
+
+
+citing:
+Nitesh V Chawla
+
+https://dl.acm.org/doi/abs/10.1145/3701551.3704123
+also have a chatbot.

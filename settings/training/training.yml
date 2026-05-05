@@ -1,0 +1,116 @@
+# Three-model fine-tune pipeline configuration.
+#
+# Drives the modules under `src/training/` and the entry-point scripts
+# under `scripts/`. Hand-edited; no CLI flags. Per the active scope the
+# pipeline trains DeBERTa-v3-base and ModernBERT-base only; Gemma was
+# dropped from this run, so the `models` map intentionally has two entries.
+#
+# Pending labelling policy:
+#   `scripts/outcome_annotation.py` already maps Pending statuses to
+#   outcome=0. The training pipeline respects that; no row filtering on
+#   Pending is performed in `src/training/data.py`.
+#
+# Sweep budget:
+#   Hardware = NVIDIA RTX 4090 Laptop (16 GB VRAM, not the 24 GB desktop).
+#   Empirically measured per-cell wall-clock at E=3:
+#     deberta-v3-base @ seq=512, BS=16  -> 165 s/cell
+#     modernbert-base @ seq=2048, BS=8  -> ~3107 s/cell  (18.8x DeBERTa)
+#     modernbert-base @ seq=1024, BS=8  -> ~241 s/cell   (12.9x speedup vs 2048)
+#   Per-cell time scales ~linearly in epochs once warmup is amortised.
+#   Total sweep wall-clock = K folds * S seeds * sum(per-cell time).
+#
+#   Target: full run, end in 1-3 hours, max accuracy within that budget.
+#     Only feasible point is ModernBERT @ seq=1024 (drops the architectural
+#     coverage from 99.3% -> 91.0% of rows fitting fully, but enables a
+#     real K=5/S=3/E=5 sweep at ~2.8 h instead of ~22.7 h).
+#     With ModernBERT @ seq=2048 the smallest "full" sweep (K=3,S=1,E=3)
+#     still costs ~2.7 h and yields a far less reliable estimate.
+#
+#   Knobs chosen, with citation-backed reasoning (see research subagent):
+#     K=5  : standard CV; K=10 has marginal gain at 2x cost; K=3 is too
+#            coarse for stratified splits at N~1877 (Kohavi 1995).
+#     S=3  : BERT fine-tuning on small N is highly seed-sensitive; seeds
+#            are the cheapest variance reduction (Dodge 2020, Mosbach 2021).
+#     E=5  : 3-5 epochs with early stopping is standard for BERT
+#            fine-tuning; E=1 is undertraining (Devlin 2018, Sun 2019).
+#            Early stopping (patience=2 on val_auroc) caps wasted budget.
+
+data:
+  annotated_csv: data/ncsl/us_ai_legislation_annotated.csv
+  # `entities` is the quadruplet sidecar column (JSON list of
+  # {regulated_entity, entity_type, regulatory_mechanism, provision_text}).
+  # Fed in as raw JSON text, no parsing/flattening.
+  text_columns: [title, summary, entities]
+  metadata_columns: [state, year, author_partisanship, state_partisanship, topics]
+  label_column: outcome
+  split:
+    strategy: stratified_kfold
+    n_splits: 5
+    stratify_on: [outcome]
+    val_fraction_of_train_fold: 0.15
+    cv_seed: 20260504
+  subsample: null
+
+models:
+  # Per-model max_length is set from the real input-length distribution
+  # (title + summary + entities + metadata) measured on the annotated
+  # corpus, capped by each model's architectural position-embedding limit.
+  deberta-v3-base:
+    hf_id: microsoft/deberta-v3-base
+    family: encoder
+    optimizer: adamw_torch
+    # DeBERTa-v3 uses learned absolute position embeddings sized 512,
+    # so 512 is the hard architectural ceiling. Covers ~63% of rows
+    # fully; the long tail is truncated (no way around it without
+    # changing the backbone).
+    max_length: 512
+    per_device_train_batch_size: 16
+    per_device_eval_batch_size: 32
+    # E=5 with early stopping (patience=2). DeBERTa cells are cheap
+    # (~165 s at E=3), so even at E=5 the contribution is negligible
+    # vs ModernBERT.
+    epochs: 5
+    weight_decay: 0.01
+    warmup_ratio: 0.06
+    gradient_checkpointing: false
+    bf16: true
+  modernbert-base:
+    hf_id: answerdotai/ModernBERT-base
+    family: encoder
+    optimizer: adamw_torch
+    # ModernBERT supports up to 8192 (RoPE). Real inputs: p95 ~ 1228,
+    # p99 ~ 1882, max 3154 tokens.
+    #   seq=2048 covers 99.3% of rows fully but costs ~3107 s/cell at
+    #            E=3 (18.8x DeBERTa); makes a K=5,S=3,E=5 sweep ~22.7 h.
+    #   seq=1024 covers 91.0% of rows fully and costs ~241 s/cell at
+    #            E=3 (12.9x speedup); makes the same sweep fit in ~2.8 h.
+    # The ~8 pp coverage drop is the price for fitting the 1-3 h
+    # budget. Truncation falls in the long tail of provision text.
+    max_length: 1024
+    per_device_train_batch_size: 8
+    per_device_eval_batch_size: 16
+    # E=5 with early stopping (patience=2). Per the speed bench, each
+    # ModernBERT epoch at seq=1024 is ~80 s; total per cell ~400 s.
+    epochs: 5
+    weight_decay: 0.01
+    warmup_ratio: 0.06
+    gradient_checkpointing: false
+    bf16: true
+
+sweep:
+  full:
+    seeds: [13, 42, 1729]
+    learning_rate:
+      deberta-v3-base: 2.0e-5
+      modernbert-base: 2.0e-5
+  early_stopping_patience: 2
+  metric_for_best_model: val_auroc
+
+paths:
+  output_root: output/training
+  hf_cache: .hf_cache
+  log_subdir: logs
+
+plotting:
+  figures_dir: docs/figures/training
+  primary_metric: auroc
