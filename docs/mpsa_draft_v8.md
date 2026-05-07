@@ -267,11 +267,12 @@ The multi-turn pipeline issued 21,586 LLM calls, 55.34 million tokens, at US\$22
 
 #### Discussion: cost and accuracy comparison
 
-| Metric (corpus total) | Multi-turn | Skill-driven |
+| Metric | Multi-turn | Skill-driven |
 |---|---:|---:|
-| LLM calls | 21,586 | 11,231 |
-| Tokens | 55.3 M | 90.9 M |
-| Cumulative LLM time | 27.4 h | 16.2 h |
+| LLM calls (corpus total) | 21,586 | 11,231 |
+| Tokens (corpus total) | 55.3 M | 90.9 M |
+| Tokens per bill | 30.3 K | 49.8 K |
+| Cumulative LLM time (corpus total) | 27.4 h | 16.2 h |
 
 The cost and accuracy axes point in opposite directions, which is the finding other researchers can carry. The multi-turn pipeline is cheaper in dollars but loses coverage and loses the pairwise preference. The skill-driven agent is more expensive in dollars but wins coverage decisively and wins the pairwise preference after swap-averaging. When the downstream use of the extraction is reference-aligned measurement against a fixed set of topic labels, the coverage gap is the axis that matters and the skill-driven agent is the pick. When the downstream use is broad exposure of bill-adjacent detail and price per bill is tight, the multi-turn pipeline has a place. The tokens-versus-calls split also matters for throughput: the skill-driven agent issues fewer calls but pays more per call, so rate limits and token budgets bind differently on the two designs.
 
